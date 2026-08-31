@@ -1,0 +1,10 @@
+# 📁 HAM_RAPORLAR — modelin ham çıktısı, DOKUNULMAZ
+
+Ad kalıbı: `<FILM_ADI>_<MERCEK>_HAM.md`
+Mercek adları: `KARE` · `INSA` · `ZAMAN` · `TESLIM`
+
+```
+⛔ Bu dosyalar DÜZENLENMEZ, KISALTILMAZ, ÖZETLENMEZ.
+   Modelin ne dediği kanıttır; ajanın ne anladığı RAPORLAR/ altındadır.
+   İkisi karışırsa, bir raporun sonradan mı değiştiği hiç bilinemez.
+```
