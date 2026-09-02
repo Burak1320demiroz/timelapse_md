@@ -9,10 +9,10 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       3
-ÖLÇÜLEN FİLM      3
-TAM ÖLÇÜLEN       2     (6 merceğin 6'sı da koşulmuş)
-ÜRETİLEN FİLM     3
+TOPLAM FİLM       4
+ÖLÇÜLEN FİLM      4
+TAM ÖLÇÜLEN       3     (6 merceğin 6'sı da koşulmuş)
+ÜRETİLEN FİLM     4
 ```
 
 ## TAMLIK MATRİSİ
@@ -21,6 +21,7 @@ Bir film "tam ölçüldü" sayılmak için altı merceğin altısını da görme
 
 | Film | ① KARE | ② İNŞA | ③ ZAMAN | ④ TESLİM | ⑤ DEVAM | ⑥ GEÇİŞ | Tam |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **THE MOUNTAIN DOOR** | Ⓥ 1,1 | ⛔ belgesiz | **3,6** | ⛔ belgesiz | Ⓥ 0,2 | ⛔ belgesiz | **6/6** |
 | **THE NARROW LOT** | Ⓥ 6,0 | ⛔ belgesiz | **4,2** | ⛔ belgesiz | Ⓥ 5,6 | ⛔ belgesiz | **6/6** |
 | THE LONG SHADOW v1 | Ⓥ 3,3 | Ⓥ 0,4 | Ⓥ 4,3 | Ⓥ 2,7 | ❌ | ❌ | **4/6** |
 | THE CLOSING SPAN | 1,0 | Ⓥ 0,0 | 1,3 | Ⓥ 5,4 | Ⓥ 0,0 | Ⓥ 1,6 | **6/6** |
@@ -56,8 +57,33 @@ Bir film "tam ölçüldü" sayılmak için altı merceğin altısını da görme
 ## DURUM
 
 ```
+THE MOUNTAIN DOOR
+   ızgara 5 × 6,0 (DÜZ — proje sahibi kilidi) · depo İÇİNDE yazıldı, GPT yok
+   ⭐ KAPI ÜRETİMDEN ÖNCE KOŞULDU: ✅ GO — deponun dört filminde İLK KEZ
+   ÜRETİLDİ ✅ · 6/6 mercek koşuldu ✅ · kapak kartı VAR
+   ⛔ ALTI HÜKMÜN ALTISI DA DÜŞTÜ:
+        ① SIX SEPARATE SHOTS   ② DIFFERENT · APPEARING (4. kez)
+        ③ PASSES BUT NOT IN ONE DIRECTION
+        ④ ENDS · NONE FOUND (4. kez)
+        ⑤ A SET REBUILT EACH TIME · kanıt NONE FOUND
+        ⑥ NEXT · METRONOM (3. kez)
+   ⭐ GEÇEN: ③ SEASON CARRIER 10/10 · VEGETATION 10/10 · SHADOW/SUN 8/10 ·
+     zaman tahmini "9-12 ay" — plan 12 ay, İKİNCİ KEZ TUTTU.
+   ⛔ KÖK SEBEP DEĞİŞTİ — artık prompt mimarisi DEĞİL, ÜRETİM AKIŞI:
+     ① CAMERA LOCK 0/10 · beş klipte de push-in. Ölçülebilir çapa cümlesi
+     beş I2V'de de VARDI; NARROW LOT'ta aynı cümle 10/10 almıştı → araç
+     ön ayarı [DERS 23]. Zincir tutmadı: 4/4 dikişte kusur, plana kasten
+     konan kanıt nesnesi İLK dikişte kayboldu [DERS 25].
+   ⛔ ÖLÇÜLEN HİPOTEZ DÜŞTÜ: klip içi vuruş varyansı metronomu kırmadı —
+     ⑥ RHYTHM 0/10, deponun en düşüğü [DERS 24].
+   ⛔ DERS 17 İKİNCİ KEZ: SPEC üretimden ÖNCE hazırdı ve mercekler yine
+     belgesiz koştu (6'nın 5'i eksik girdi). Eksik olan belge değil,
+     koşu YORDAMI [DERS 27].
+   → KARAR: yayınlanmaz. Yeniden ÜRETİLMEZ — önce ARAÇ KAPISI ve ZİNCİR.
+     Dersler 23-27 · RAPORLAR/THE_MOUNTAIN_DOOR.md §8
+
 THE NARROW LOT
-   ızgara 5 × 6,0 · BES_SAHNE_GPT_BRIEFI'nin ilk koşusu · harici GPT
+   ızgara 5 × 6,0 · MOTOR_5_SAHNE'nin ilk koşusu · harici GPT
    promptlar ✅ · ⛔ KAPI KOŞULMADI (üretimden sonra koşuldu: 25 madde BLOCK)
    ÜRETİLDİ ✅ · 6/6 mercek koşuldu ✅ · kapak kartı ÜRETİLMEDİ
    ⭐ DÖRT HÜKÜM İLK KEZ GEÇTİ: ① TIMELAPSE · ③ PASSES · ⑤ SAME WORLD · ⑥ TIME

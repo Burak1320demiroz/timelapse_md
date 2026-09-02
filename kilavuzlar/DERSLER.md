@@ -35,6 +35,11 @@
 | 20 | Blok ETİKETİ sözleşmedir — etiket düşünce kural da kapı da düşer | NARROW LOT · kapı 25 BLOCK · ① SAFE AREA 4/10 | ✅ ölçüldü |
 | 21 | Mevsim değişimi GİDEN klibin içinde hazırlanır | NARROW LOT · ⑥ C2 4/10 | ✅ ölçüldü |
 | 22 | Kanca (a) şıkkı ikinci kez düştü — artık yalnız (b) meşru | NARROW LOT · ① C1 2/10 · ② 2/10 | ✅ ölçüldü |
+| 23 | ⭐ Ölçülebilir kamera çapası ARACA bağlıdır, prompta değil | MOUNTAIN DOOR · ① CAMERA LOCK 0/10 | ✅ ölçüldü |
+| 24 | Klip İÇİ vuruş varyansı metronomu KIRMIYOR | MOUNTAIN DOOR · ⑥ RHYTHM 0/10 | ✅ ölçüldü |
+| 25 | ⭐ Kanıt nesnesi yazmak yetmiyor — zincirsiz çapa ilk dikişte ölür | MOUNTAIN DOOR · ⑤ 0,2/10 NONE FOUND | ✅ ölçüldü |
+| 26 | Prompta yazılan MEVSİM, plandaki mevsimi üretmiyor | MOUNTAIN DOOR · ③ SEASON ORDER 0/10 | ✅ ölçüldü |
+| 27 | ⭐ Belgeyi ERKEN yazmak DERS 17'yi çözmedi — eksik olan YORDAM | MOUNTAIN DOOR · 6 merceğin 5'i eksik girdi | ✅ ölçüldü |
 
 ---
 
@@ -472,7 +477,7 @@ KALDIRDIĞI  Sahne içi "sabit saat" şablonu (ZAMAN_VE_ISIK §4-C) artık bedav
             değil: gölgenin durduğu bir klip yazmak istiyorsan onu AÇIKÇA
             yazman ve bir filmde en fazla bir kez kullanman gerekir.
             Karşılığında: klip içi zaman ilk kez üretilebilir hâle geliyor.
-NEREYE      kilavuzlar/PROMPT_SABLONU.md §2 · BES_SAHNE_GPT_BRIEFI §J
+NEREYE      kilavuzlar/PROMPT_SABLONU.md §2
             ⛔ DERS 15'in tamamlayıcısıdır. 15'te model GÖKYÜZÜNÜ hızlandırıp
                yeri bıraktı; burada YERİ hızlandırıp gökyüzünü dondurdu.
                İkisi birlikte tek kuralı veriyor: hız, yazıldığı yerde olur.
@@ -512,7 +517,7 @@ KİLİT       YAPI BIBLE'ın her satırı bir SAYI taşır ve prompt gövdesinde
             ⛔ Sayısı olmayan satır bible'a YAZILMAZ — ya sayılır ya çıkarılır.
 KALDIRDIĞI  "Zarif ama ölçüsüz" yapı tarifi. Bir binayı atmosferiyle anlatma
             imkânını kaybediyoruz; karşılığında beş karede aynı bina oluyor.
-NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §3 · BES_SAHNE_GPT_BRIEFI §E
+NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §3
 ```
 
 ---
@@ -549,7 +554,11 @@ KİLİT       Brief'in çıktı iskeleti bir SÖZLEŞME olarak yazılır ve bot 
                [DERS 12'nin metin tarafı].
 KALDIRDIĞI  Botun kendi düzenini kurma serbestisi. Çıktı daha az "yazılı",
             daha çok "form" oluyor; karşılığında ölçülebilir oluyor.
-NEREYE      BES_SAHNE_GPT_BRIEFI §C ve §Ş · AGENTS.md kart G
+NEREYE      kilavuzlar/PROMPT_SABLONU.md §1 · kilavuzlar/KILAVUZ_REHBERI.md §2.6
+            ⛔ 02.09.2026: harici bot yolu (AGENTS kart G · siparisler/) kapatıldı.
+               Bu ders artık DEPO İÇİ yazıma uygulanır: blok etiketleri
+               (Camera: · STRUCTURE:/AT THIS STAGE: · SITE / BACKGROUND: ·
+               COMPOSITION:) prompt_kontrol.py'nin ADRESİDİR, biçim tercihi değil.
 ```
 
 ---
@@ -579,7 +588,7 @@ KİLİT       Mevsime giren kesmenin ÖNCEKİ klibinin I2V'sine, son vuruş olar
              to grey slush and the first meltwater is running in the tyre ruts."
 KALDIRDIĞI  Kesmenin "temiz sürpriz" gücü. Mevsim artık bir saniye önceden
             haber veriyor; karşılığında mevsim bir ANAHTAR değil bir SÜREÇ oluyor.
-NEREYE      kilavuzlar/ZAMAN_VE_ISIK_KILAVUZU.md §3 · BES_SAHNE_GPT_BRIEFI §F3
+NEREYE      kilavuzlar/ZAMAN_VE_ISIK_KILAVUZU.md §3
 ```
 
 ---
@@ -613,7 +622,176 @@ KALDIRDIĞI  Vincin dönme hareketi ve kaldırma anı — bu türün en sinemati
             ⚠️ Bu ağır bir kayıptır ve v2'de ölçülecek: mastsız bir vinç
                "inşa ediliyor" hissini taşıyabiliyor mu?
 NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §7 vinç bloğu · PROMPT_SABLONU §1 ·
-            BES_SAHNE_GPT_BRIEFI §I3
+            kilavuzlar/KILAVUZ_REHBERI.md §2.6
+```
+
+---
+
+## DERS 23 — ⭐ Ölçülebilir kamera çapası PROMPTUN değil, ARACIN özelliğidir
+
+```
+NEREDE      THE MOUNTAIN DOOR · beş klibin beşi de · 0:00,0 - 0:29,9
+NE OLDU     ① CAMERA LOCK 0/10 · FRAME IDENTITY 0/10 · VERDICT SIX SEPARATE SHOTS
+            "Slow, continuous push-in movement throughout the clip" — 5/5 klipte.
+            Ufuk hiç %50'de olmadı: ölçülen %62 → %67 (yayılım %5, tolerans %2).
+NEDEN       ⭐ DEPONUN İÇİNDE KONTROL GRUBU VAR ve tek fark ARAÇTIR:
+            AYNI ÇAPA CÜMLESİ iki filmde de birebir yazıldı —
+              "the framing is identical in the first frame and in the last
+               frame: <anchor> occupies exactly the same width of the frame at
+               both ends of the shot, and the horizon stays at exactly half the
+               frame height throughout. The camera does not move at any point."
+            NARROW LOT (OpenArt) → ① CAMERA LOCK 10/10 · FRAME IDENTITY 10/10
+            MOUNTAIN DOOR       → ① CAMERA LOCK  0/10 · FRAME IDENTITY  0/10
+            Aynı cümle. İki araç. Zıt sonuç.
+            ⛔ DERS 6 ve DERS 11 bu cümlenin "tuttuğunu" söylüyordu. Doğruydu —
+               ama koşulduğu ARAÇTA tuttuğunu söylüyordu. Bir I2V modeli
+               varsayılan olarak yavaş bir push-in ekliyorsa, hiçbir cümle onu
+               durdurmaz: hareket promptun değil, modelin ön ayarıdır.
+KİLİT       ⛔ ÜRETİMDEN ÖNCE ARAÇ KAPISI — tek test klibi, tek soru:
+               "kamera hareket ediyor mu?"
+            Ediyorsa o araçla BU FORMAT ÜRETİLMEZ. Prompt düzeltilmez,
+            ARAÇ değiştirilir. Ve hangi aracın geçtiği plana yazılır.
+            ⭐ Bu, ffprobe klip süresi ölçümünün (D-d) kardeşidir: ızgara
+               araçtan yazılır, kamera kilidi de araçtan doğrulanır.
+KALDIRDIĞI  "Prompt yeterince iyi yazılırsa her araçta çalışır" varsayımı.
+            Artık araç seçimi bir üretim kararı değil, bir KAPI. Karşılığında
+            beş kare boşa üretilmeden önce arıza yakalanıyor.
+NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §8 (üretim akışı, 0. adım) ·
+            AGENTS.md kart B
+```
+
+---
+
+## DERS 24 — Klip İÇİ vuruş varyansı metronomu KIRMIYOR
+
+```
+NEREDE      THE MOUNTAIN DOOR · beş kesme · 6,0 · 6,0 · 6,0 · 6,0
+NE OLDU     ⑥ RHYTHM AND PATTERN 0/10 · VERDICT METRONOME
+            "identical 6-second cut intervals, resulting in a perfectly rigid
+             metronome structure with no editorial arc, building tension, or
+             released pacing"
+            Deponun EN DÜŞÜK ritim skoru — CLOSING SPAN 0/10 ile eşit,
+            NARROW LOT'un 4/10'undan kötü.
+NEDEN       ⭐ BU BİR HİPOTEZ TESTİYDİ VE HİPOTEZ DÜŞTÜ.
+            Plan §2 düz ızgaranın kilitli olduğunu kabul etti ve varyansı
+            klibin İÇİNE taşımayı önerdi: her klipte tek iş adımı başka bir
+            saniyede patlasın — 1,2 · 3,6 · 4,8 · 2,4 · 5,0. Vuruş haritası
+            beş I2V'nin beşine de yazıldı.
+            Sonuç: ⑥ bu varyansı HİÇ GÖRMEDİ ve yalnız kesme aralığını okudu.
+            ⛔ Sebep muhtemelen şu: izleyici ritmi KESMEDEN sayar. Klibin
+               içindeki olay bir vuruş değil, bir İÇERİKTİR; kesme ise
+               filmin tek editoryal eylemidir (kamera sabittir). Ritmi
+               taşımayan bir yere varyans koymak, ritmi değiştirmiyor.
+KİLİT       Düz ızgara seçilecekse plana TELAFİ yazılmaz, yalnız RİSK yazılır:
+            "⑥ METRONOM hükmü beklenmektedir ve kabul edilmiştir."
+            ⛔ Ritim isteniyorsa SÜRE SÜTUNU değişir. Başka yolu ölçülmedi.
+KALDIRDIĞI  Düz ızgarayı "telafi ederek" kullanma imkânı. Artık düz ızgara
+            telafi edilemez bir tercihtir: ya kabul edilir ya bırakılır.
+            Karşılığında sahte bir güvenlik hissi kalkıyor.
+NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §2.2 · §2.6 · AGENTS.md kart G
+```
+
+---
+
+## DERS 25 — ⭐ Kanıt nesnesi YAZMAK yetmiyor; zincirden geçmeyen çapa ilk dikişte ölür
+
+```
+NEREDE      THE MOUNTAIN DOOR · 0:05,9 → 0:06,0 (birinci dikiş)
+NE OLDU     ⑤ 0,2/10 · VERDICT A SET REBUILT EACH TIME
+            "THE OBJECT THAT PROVES IT IS THE SAME PLACE: NONE FOUND"
+            ⑤ bulgu 6: "A massive rock boulder resting on the gravel to the
+            left of the excavation site vanished completely."
+            Dört dikişin DÖRDÜ de kusur taşıyor.
+NEDEN       ⭐ NESNE PLANA KASTEN KONULMUŞTU. NARROW LOT'un tek büyük
+            kazanımı ⑤'in "coiled hose" satırıydı (iki filmde NONE FOUND'du).
+            Bu filmde aynı kazanımı tekrarlamak için beş görsel promptun
+            beşine birebir yazıldı:
+              "one flat-topped granite boulder 2.4 metres across, too large
+               to move"
+            Ve filmin İLK dikişinde kaybolan şey tam olarak o oldu.
+            ⛔ Yanındaki dört çapa da düştü: eski geçit yolu iki kez rota
+               değiştirdi, taş köprü düz taştan kemere döndü.
+            Fark şu: NARROW LOT'ta zincir FİİLEN tuttu (① 10/10 · ⑤ SAME
+            WORLD). Burada tutmadı. Çapa cümlesi ikisinde de aynıydı.
+            ⭐ Yani çapa bir DİLEK değil, zincirin TAŞIDIĞI bir şeydir.
+               Zincir yoksa çapa yalnızca modelden bir iyilik dilenmektir.
+KİLİT       Kanıt nesnesi bir PROMPT maddesi değil, bir ÜRETİM KAPISI maddesi:
+            zincir_kontrol.sh'in her koşusunda o nesnenin iki karede de aynı
+            yerde olduğu ELLE doğrulanır ve SPEC'e "kanıt nesnesi kontrolü"
+            satırı olarak yazılır.
+            ⛔ Kaybolduysa kare ATILIR — ortalama kaç olursa olsun.
+KALDIRDIĞI  Hiçbir şey. Nesne hâlâ promptta, yalnız artık bir kapıya bağlı.
+            Bedeli üretim hızıdır: her karede bir kontrol daha. [D-f]
+NEREYE      araclar/zincir_kontrol.sh (kullanım notu) · AGENTS.md kart B ·
+            kilavuzlar/KILAVUZ_REHBERI.md §4 (KANIT NESNESİ satırı)
+```
+
+---
+
+## DERS 26 — Prompta yazılan MEVSİM, plandaki mevsimi üretmiyor
+
+```
+NEREDE      THE MOUNTAIN DOOR · S1 (sonbahar) ve S3 (kış ② · erime)
+NE OLDU     ③ SEASON ORDER 0/10 · VERDICT PASSES BUT NOT IN ONE DIRECTION
+            PLAN   yaz → sonbahar → kış① → kış②(erime) → yaz   = 12 ay
+            EKRAN  yaz → yaz      → kış  → yaz          → yaz
+            Sonbahar HİÇ üretilmedi. Erime sahnesi TAM YAZ olarak üretildi.
+            ⑥ C2 SEASON CHANGE 0/10: "cuts instantly out of winter into a
+            completely snow-free site without displaying a thaw phase."
+NEDEN       ⭐ DERS 7 ve DERS 21 UYGULANMIŞTI VE İKİSİ DE YETMEDİ.
+            Kış iki sahneydi (S2 birikme, S3 erime) ve DERS 21'in hazırlık
+            cümleleri giden kliplerin İÇİNE yazılmıştı:
+              "In the last second of the shot the first snow begins to settle
+               on the stacked steel arches…"
+              "In the last second of the shot the grey slush at the edges has
+               gone and the first dry dust lifts off the platform."
+            ⛔ Her iki cümle de üretilmedi.
+            Mekanizma DERS 25'inkiyle aynı: mevsim ARA DURUMDUR ve ara durum
+            tek bir kareden türetilemez. Model her kareyi bağımsız üretirse
+            "erime" diye bir şey yoktur — ya kar vardır ya yoktur.
+            ⭐ Ve ölçüm bunu doğruluyor: ③ SEASON CARRIER 10/10 aldı.
+               Taşıyıcılar mükemmel okundu; okunmayan şey SIRAYDI.
+KİLİT       Mevsim ARA DURUMU bir prompt cümlesi değil, AYRI BİR KAREDİR.
+            Erime isteniyorsa erimenin kendi görseli üretilir ve zincire
+            girer — "son saniyede kar erimeye başlar" bir görsele yazılamaz.
+            ⛔ Ve zincir koşulmadan mevsim yayı hiç denenmez: mevsim, yapıdan
+               DAHA kırılgandır, çünkü bina birikir, kar birikmez.
+KALDIRDIĞI  "Mevsim geçişini bir cümleyle hazırlarım" imkânı. Erime artık
+            kendi sahnesini istiyor — 5 sahnelik ızgarada bu, kışın üç sahne
+            demektir ve o ızgarada yeri yoktur. Yani: 5 sahnelik ızgarada
+            mevsim yayı ya iki mevsimle sınırlanır ya da kırılır.
+NEREYE      kilavuzlar/ZAMAN_VE_ISIK_KILAVUZU.md §3 · KILAVUZ_REHBERI §2.6
+```
+
+---
+
+## DERS 27 — ⭐ Belgeyi ERKEN yazmak DERS 17'yi çözmedi; eksik olan KOŞU YORDAMI
+
+```
+NEREDE      THE MOUNTAIN DOOR · altı merceğin BEŞİ
+NE OLDU     ① kare grabı yok · ② QA_SPEC yok · ④ plan ve kapak yok ·
+            ⑤ kare grabı yok · ⑥ plan yok ve filmde SES yok.
+            Yalnız ③ tam koştu (girdisi zaten yalnız tam kurgu).
+            ② ④ ⑥'nın skorları yine tabloya YAZILAMADI.
+NEDEN       ⭐ BU, DERS 17'NİN İKİNCİ ÖLÇÜMÜDÜR VE İLKİNİ ÇÜRÜTÜYOR.
+            NARROW LOT'ta teşhis şuydu: "SPEC üretilmedi, o yüzden verilemedi."
+            Çözüm olarak SPEC bu filmde ÜRETİMDEN ÖNCE yazıldı — özellikle
+            bunun için. Kapı da GO verdi. Ve mercekler yine belgesiz koştu.
+            ⛔ Demek ki eksik olan BELGENİN VARLIĞI değildi. Eksik olan,
+               koşuyu yapan kişinin elinde "bu merceğe şu dosya verilir"
+               diyen tek satırlık bir YORDAM olmamasıydı.
+            ⭐ DERS 12'nin bir başka yüzü: yazılı kural kapı değildir.
+               AGENTS kart Q listeyi yazıyordu; liste koşturmuyor.
+KİLİT       Her mercek koşusundan ÖNCE tek satır doldurulur ve rapora
+            YAPIŞTIRILIR:
+              "verilen girdiler: <dosya adları>"
+            ⛔ Ve rubriğin ilk satırı RUN INCOMPLETE diyorsa koşu TEKRARLANIR,
+               skoru tabloya YAZILMAZ. Bu zaten kuraldı; eksik olan, koşudan
+               ÖNCE bakılan bir kontrol listesiydi.
+            ⭐ Makine tarafı: bash araclar/kare_al.sh <teslim.mp4> <n>
+               ① ve ⑤ koşulmadan ÖNCE koşulur. Üç filmde de koşulmadı.
+KALDIRDIĞI  Hiçbir şey. Tek maliyeti koşu başına bir satır. [D-f]
+NEREYE      AGENTS.md kart Q · QA/00_README.md
 ```
 
 ---

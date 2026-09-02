@@ -5,10 +5,13 @@
 
 | Film | Mod | Skor | VERDICT | Bulgu | Rapor |
 |---|:---:|---:|---|:---:|---|
+| **THE MOUNTAIN DOOR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* | ⛔ NEXT · METRONOM | 7 | [kayıt](RAPORLAR/THE_MOUNTAIN_DOOR.md) |
 | **THE NARROW LOT** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* | ✅ TIME · ⛔ METRONOM | 3 | [kayıt](RAPORLAR/THE_NARROW_LOT.md) |
 | **THE CLOSING SPAN** | V | **1,6**/10 Ⓥ | ⛔ SIRADAKİ · METRONOM | 9 | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
 
 ⛔ **THE NARROW LOT belgesiz koşuldu [DERS 17]:** plan ve SES verilmedi. MUSIC ALIGNMENT ve END-CARD HAND-OVER hiç ölçülemedi. Ölçülen ham ortalama 8,2 — deponun en yüksek mercek skoru, ama üç kategorisi hiç sorulmadı.
+
+⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17]:** plan verilmedi ve **filmde ses yok** — MUSIC ALIGNMENT yine ölçülemedi. Ham ortalama 3,5. ⛔ METRONOM **üçüncü kez**; RHYTHM 0/10 ile deponun en düşüğü. ⚠️ Klip İÇİ vuruş varyansı telafisi bu filmde denendi ve **düştü** [DERS 24].
 
 **VERDICT değerleri:** TIME / NEXT · RHYTHM / METRONOME
 

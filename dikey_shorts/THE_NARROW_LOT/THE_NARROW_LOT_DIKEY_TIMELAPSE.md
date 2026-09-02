@@ -14,7 +14,7 @@
 > **Bu dosya harici bir GPT'nin TESLİM ETTİĞİ hâliyle duruyor — kanıttır.**
 > Depo başlık yapısına çevrilmedi; çevrilmemesi de bir ölçümdür:
 > `araclar/prompt_kontrol.py` bu dosyada **HİÇBİR promptu okuyamıyor**,
-> çünkü bot `kilavuzlar/BES_SAHNE_GPT_BRIEFI.md §C`'nin başlık sözleşmesini
+> çünkü bot `siparisler/MOTOR_5_SAHNE.md §C`'nin başlık sözleşmesini
 > uygulamadı. Bkz. DERS 21.
 >
 > Zorunlu değişiklikler: `QA/RAPORLAR/THE_NARROW_LOT.md` §8 · `DERSLER 18-21`
@@ -27,7 +27,7 @@ Dikey Timelapse Production Document · **v1 · ARŞİV**
 Format: **9:16 (DİKEY)** | Sahne: **5 × 6,0 sn** | Toplam ölçülen: **0:29,9**
 Prompt yapısı: 5 görsel + 5 I2V (⛔ T2V yedeği üretilmedi)
 Üretim aracı: harici GPT (Restoration Timelapse · aicenturies.com) → OpenArt
-Kaynak brief: `kilavuzlar/BES_SAHNE_GPT_BRIEFI.md`
+Kaynak brief: `siparisler/MOTOR_5_SAHNE.md`
 
 ---
 

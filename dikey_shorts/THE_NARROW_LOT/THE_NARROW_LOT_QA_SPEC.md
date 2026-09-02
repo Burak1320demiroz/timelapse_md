@@ -29,7 +29,7 @@ ZAMAN YAYI    ~12 ay (③ okuması: "about one year" ✅ TUTTU)
 KAMERA        tek istasyon — ANA (5 sahnenin 5'i) · detay istasyonu YOK
 ÜRETİM SIRASI ⛔ BEYAN EDİLMEDİ. Zincir fiilen tuttu (① 10/10 · ⑤ SAME WORLD)
               ama ters inşa sırası belgeye hiç yazılmadı.
-KAYNAK        harici GPT (Restoration Timelapse) · brief: BES_SAHNE_GPT_BRIEFI
+KAYNAK        harici GPT (Restoration Timelapse) · brief: MOTOR_5_SAHNE
 ```
 
 ---

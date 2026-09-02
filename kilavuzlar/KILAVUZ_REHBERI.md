@@ -179,6 +179,78 @@ KART  5,0 sn · başlıklı kapak · SAHNE DEĞİL
    şişik okur (v1: plan 14 ay, rapor "1,5-2 yıl").
 ```
 
+## 2.6 ⚠️ 5 SAHNELİK VARYANT VE BEDELİ — ölçüldü
+
+> ⛔ `siparisler/MOTOR_5_SAHNE.md` **02.09.2026'da kaldırıldı** (harici bot
+> yolu kapandı). O dosyanın tek ölçülmüş içeriği buydu ve buraya taşındı —
+> QA raporlarındaki "MOTOR_5_SAHNE" atıfları bu bölümü işaret eder.
+
+Depo ızgarası 10 × 6,0 = 60,0 sn'dir. Beşe inmek meşrudur ama **dört şeyi
+kırar** ve dördü de plana yazılmadan ızgara seçilmez:
+
+| Kural | 10 sahnede | 5 sahnede | Ne yapılıyor |
+|---|---|---|---|
+| Kesme başına aşama sıçraması | küçük | ⛔ **~2 katı** | ters inşa artık tavsiye değil **ZORUNLU** |
+| Ritim [DERS 13] | varyans yazılabilir | ⚠️ 5 eşit kesme = **METRONOM riski** | aşağıya bak |
+| Kış iki sahne [DERS 7] | 10'da 2 (%20) | 5'te 2 (**%40**) | kış S2–S3 çiftini alır, başka yere konmaz |
+| Detay istasyonu | en fazla 2 | ⛔ **0** | beş sahne de ANA istasyondan |
+
+```
+⭐ VARYANSLI IZGARA (120 BPM ölçüsüne oturur, toplam 30,0)
+                              6,0 · 4,0 · 6,0 · 4,0 · 10,0 = 30,0 sn
+                               3     2     3     2     5    ← ölçü sayısı
+⛔ DÜZ IZGARA                  6,0 · 6,0 · 6,0 · 6,0 · 6,0  = 30,0 sn
+```
+
+### ⛔ DÜZ IZGARA İKİ KEZ KOŞULDU, İKİ KEZ DÜŞTÜ
+
+```
+THE CLOSING SPAN · on kesme 6,0 · 5,8 · 6,2 · …   → ⑥ RİTİM 0/10 · METRONOM
+THE NARROW LOT   · dört kesme 6,0 · 6,0 · 6,0 · 6,0 → ⑥ RİTİM 4/10 · METRONOM
+  "rigidly spaced 6.0-second intervals … establishing a mechanical metronome
+   rhythm rather than an intentional narrative arc or release"
+İki farklı ızgarada, iki farklı filmde, aynı hüküm.
+```
+
+⛔ **Ve makine bunu yakalamaz:** `prompt_kontrol.py` süre eşitliğini yalnız
+6 satır ve üstünde BLOCK eder; 5 satırlık tabloda eşik altında kalır. Beş
+sahnede süre eşitliğini yakalayan tek şey ⑥ merceğidir — yani ÜRETİMDEN SONRA.
+
+⭐ **Düz ızgara yine de isteniyorsa** (proje sahibinin kilidi meşru bir
+sebeptir) plana yalnız (a) gerekçe ve (b) **kabul edilen risk** yazılır.
+
+```
+⛔ TELAFİ ARANMAZ — DENENDİ VE DÜŞTÜ [DERS 24]
+   THE MOUNTAIN DOOR'da varyans klibin İÇİNE taşındı: her klipte tek iş
+   adımı başka bir saniyede patlıyordu (1,2 · 3,6 · 4,8 · 2,4 · 5,0) ve
+   vuruş haritası beş I2V'nin beşine de yazılmıştı.
+   ⑥ RHYTHM 0/10 · METRONOM — deponun EN DÜŞÜK ritim skoru.
+   Mercek klip içi varyansı hiç görmedi, yalnız kesme aralığını okudu.
+   ⭐ Sebep: kamera sabit olduğu için ritmi taşıyan tek şey KESMEDİR.
+      Klibin içindeki olay bir vuruş değil, bir içeriktir.
+⭐ Ritim isteniyorsa SÜRE SÜTUNU değişir. Başka bir yol ölçülmedi.
+```
+
+### ⭐ 5 SAHNENİN ÖLÇÜLMÜŞ TEK KOŞUSU — birebir taşınan tuttu, çevrilen düştü
+
+`THE NARROW LOT` (harici GPT → OpenArt · `QA/RAPORLAR/THE_NARROW_LOT.md`):
+
+| Brief'in dayattığı şey | Ne oldu | Ölçüm |
+|---|---|---|
+| `The scene begins exactly as the provided image.` | 5/5 birebir | ① FRAME IDENTITY **10** |
+| `does not move at any point` | 5/5 birebir | ① CAMERA LOCK **10** |
+| `occupies exactly the same width of the frame` | 5/5 birebir | ① ANCHOR IDENTITY **10** |
+| çapa bloğu **SAYIYLA** (6 kat · 3 baca · 5 pencere) | 5/5 birebir | ⑤ **SAME WORLD** |
+| YAPI BIBLE sayıları (oturum · aks) | **0/5 — düştü** | ② STRUCTURE IDENTITY **2** |
+| `COMPOSITION` bloğu + güvenli alan | **0/5 — nesre çevrildi** | ① SAFE AREA **4** |
+| `TIME RATE` I2V'de | **0/5 — yalnız görselde** | ③ TIME RATE **0** |
+
+⭐ Kural: **birebir dayatılan her cümle 10/10 aldı; anlatılan her şey düştü.**
+Bu, 5 sahnelik ızgaraya değil PROMPT MİMARİSİNE ait bir derstir
+[DERS 18 · 19 · 20] ve on sahnede de geçerlidir.
+
+---
+
 # 3. 🔒 DEĞİŞMEZLER TABLOSU — bu depodaki en önemli tablo
 
 `film_md`'nin Character Bible'ının karşılığıdır ve aynı disiplinle işler:
@@ -301,6 +373,16 @@ kurulamaz.
    "bina büyüdü" bir kanıt değildir — kaç kat, hangi hizada, neye göre.
    Kanıt nesnesi arka plan çapalarından birine göre ölçülür:
    "the slab edge now sits level with the roof ridge of the brick block."
+
+   ⛔ VE AYRICA ⑤ İÇİN BİR "AYNI YER" NESNESİ SEÇİLİR — taşınamayacak,
+      sökülmeyecek, beş karede de aynı yerde duracak tek bir şey.
+      ⭐ Bu nesne bir PROMPT maddesi değil, bir ÜRETİM KAPISI maddesidir
+         [DERS 25]: zincir_kontrol.sh'in her koşusunda iki karede de aynı
+         yerde olduğu ELLE doğrulanır. Kaybolduysa kare ATILIR.
+      Ölçüldü: MOUNTAIN DOOR'da nesne (2,4 m granit kaya) beş promptun
+      beşine de birebir yazılmıştı ve filmin İLK dikişinde kayboldu;
+      ⑤ "THE OBJECT THAT PROVES IT IS THE SAME PLACE: NONE FOUND" yazdı.
+      Zincirden geçmeyen bir çapa, modelden dilenen bir iyiliktir.
 
 ② LOOP SATIRI:  S5'in son karesi ile S0'ın ilk karesi AYNI kadrajdır.
    Boş arsa → bitmiş kule, aynı çerçeve. Viral ödeme burasıdır.
@@ -491,6 +573,17 @@ a slow pendulum, and it always carries a visible load.
 
 ```
 0. KONSEPT KAPISI   §6 — VAAT/DİRENÇ/BEDEL + üç test. Geçmezse plan yok.
+
+0b. ⛔ ARAÇ KAPISI — PLANDAN ÖNCE, TEK TEST KLİBİ [DERS 23]
+                    Seçilen I2V aracıyla tek klip üretilir ve İKİ şey ölçülür:
+                      ① ffprobe ile SÜRE (ızgara o sayıdan yazılır [D-d])
+                      ② KAMERA HAREKET EDİYOR MU?
+                    ⛔ Ediyorsa o araçla BU FORMAT ÜRETİLMEZ. Prompt
+                       düzeltilmez — ARAÇ değiştirilir.
+                    ⭐ Ölçüldü: aynı ölçülebilir çapa cümlesi bir araçta
+                       ① CAMERA LOCK 10/10, başka araçta 0/10 aldı. Hareket
+                       promptun değil, modelin ön ayarıdır.
+                    Geçen aracın adı plana YAZILIR.
 
 1. PLAN             §3 Değişmezler + §4 Aşama Merdiveni + §5 güneş saati
                     doldurulur. Sahne haritası bu üç tablodan TÜRER,

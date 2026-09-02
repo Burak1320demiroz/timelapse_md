@@ -5,8 +5,11 @@
 
 | Film | Mod | Skor | VERDICT | Bulgu | Rapor |
 |---|:---:|---:|---|:---:|---|
+| **THE MOUNTAIN DOOR** | V | **0,2**/10 Ⓥ | ⛔ HER ÇEKİMDE YENİDEN · NONE FOUND | 4/4 dikiş | [kayıt](RAPORLAR/THE_MOUNTAIN_DOOR.md) |
 | **THE NARROW LOT** | V | **5,6**/10 Ⓥ | ✅ SAME WORLD · kanıt BULUNDU | 4/4 dikiş | [kayıt](RAPORLAR/THE_NARROW_LOT.md) |
 | **THE CLOSING SPAN** | V | **0,0**/10 Ⓥ | ⛔ HER ÇEKİMDE YENİDEN · NONE FOUND | 9/9 dikiş | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
+
+⛔ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi. Dört dikişin DÖRDÜ de kusur taşıyor. ⭐ En ağır satır: plana KASTEN yerleştirilen kanıt nesnesi (2,4 m üstü düz granit kaya) 0:05,9 → 0:06,0'da **kayboldu** ve mercek NONE FOUND yazdı. Kanıt nesnesi yazmak yetmiyor [DERS 25].
 
 ⚠️ **THE NARROW LOT · RUN INCOMPLETE:** kare grabı verilmedi. Dikiş denetimi videodan yapıldı; "son kare / ilk kare" çiftleri hiç görülmedi.
 

@@ -33,10 +33,8 @@ timelapse_md/
 │   │                                   · DEĞİŞMEZLER · AŞAMA MERDİVENİ · güneş
 │   │                                   saati · konsept kapısı · negatif çekirdek
 │   │                                   · üretim akışı (ters inşa) · tuzaklar
-│   ├── TIMELAPSE_SISTEM_PROMPTU.md  ⭐ MOTOR — tek konu → tam doküman (10×6,0)
-│   ├── BES_SAHNE_GPT_BRIEFI.md      motorun 5×6,0 varyantı · HARİCİ bota
-│   │                                   yapıştırılır · kendi kendine yeter ·
-│   │                                   §Ş = prompt_kontrol.py'nin aynası
+│   ├── TIMELAPSE_SISTEM_PROMPTU.md  ⭐ MOTOR — depo İÇİNDE film yazarken
+│   │                                   (GPT'ye gitmez) · 10×6,0
 │   ├── YAPI_TIPI_KARTLARI.md        kule · konut · köprü · baraj · stadyum ·
 │   │                                   yol/tünel · liman · türbin · villa
 │   ├── SAHA_VE_IKLIM_KARTLARI.md    şehir · kırsal · kıyı · dağ · kar · çöl
@@ -50,10 +48,9 @@ timelapse_md/
 ├── dikey_shorts/                    9:16 · film klasörleri
 │   └── <PROJE>/
 │        ├── <PROJE>_DIKEY_TIMELAPSE.md   plan + promptlar + müzik + kapak + paket
-│        ├── <PROJE>_QA_SPEC.md           kilit listesi + FİNAL KARE KANITI satırı
-│        └── <PROJE>_V<n>_SIPARIS.md      ⭐ harici bota yapıştırılan FORM ·
-│                                            değişmez blokların İngilizce SON
-│                                            hâli · yalnız yeniden yazımda açılır
+│        └── <PROJE>_QA_SPEC.md           kilit listesi + FİNAL KARE KANITI satırı
+│   ⛔ FİLM BU DEPODA YAZILIR. Harici bota sipariş verme yolu (siparisler/)
+│      02.09.2026'da kapatıldı; ölçülmüş içeriği KILAVUZ_REHBERI §2.6'da.
 │
 ├── QA/                              🔍 ALTI MERCEK · ÜRETİMDEN SONRA
 │   ├── 00_README.md                 ⭐ klasör rehberi: mod sistemi · çalıştırma
@@ -111,20 +108,24 @@ ve komşularında. Burada tekrarlanmaz.**
 ## 🏗️ A — YENİ FİLM YAZACAĞIM
 
 ```
+0. IZGARA             kart G — 10 sahne (varsayılan) mı, 5 sahne mi.
 1. KONSEPT KAPISI     KILAVUZ_REHBERI §6 — VAAT / DİRENÇ / BEDEL + üç test.
                       ⛔ Üçü de ✅ değilse klasör AÇILMAZ.
 2. KART SEÇİMİ        YAPI_TIPI_KARTLARI (inşa sırası) + SAHA_VE_IKLIM_KARTLARI
 3. DEĞİŞMEZLER        §3'ün dört kutusu doldurulur. Kamera sayıları
                       KAMERA_ISTASYONU §3 formülünden ÇIKAR, seçilmez.
-4. AŞAMA MERDİVENİ    §4 tablosu (10 SATIR) + üç zorunlu satır
-                      (KANIT · LOOP · SÖKÜM) · kış İKİ sahne
+                      ⛔ YAPI BIBLE'ın HER satırı bir SAYI taşır [DERS 19].
+4. AŞAMA MERDİVENİ    §4 tablosu (ızgara kaç sahneyse o kadar SATIR) + üç
+                      zorunlu satır (KANIT · LOOP · SÖKÜM) · kış İKİ sahne
 5. GÜNEŞ SAATİ        ZAMAN_VE_ISIK — mevsim yayı ve temsil süreleri
-6. TESLİM YAPISI      ⛔ sahne bloğu 10 × 6,0 = 60,0 sn + KAPAK KARTI 5,0 sn
-                      = 65,0 sn. Beyansız kart QA'yı çökertir [DERS 4].
+                      ⛔ Açı ve yükseklik I2V'ye de yazılır [DERS 18].
+6. TESLİM YAPISI      ⛔ sahne bloğu + KAPAK KARTI 5,0 sn AYRI beyan edilir.
+                      Beyansız kart QA'yı çökertir [DERS 4].
 7. KLİP SÜRESİ        ⛔ ÖLÇ: ffprobe ile test klibi. Izgarayı ondan yaz.
-8. 30 PROMPT          PROMPT_SABLONU iskeletiyle (10 görsel + 10 I2V + 10 T2V)
-9. MÜZİK + KAPAK      MUZIK_VE_KAPAK — 120 BPM (3 ölçü/sahne) · kapak S9'un
-                      usta karesinden türer ve ⭐ İNGİLİZCE BAŞLIK taşır
+8. PROMPTLAR          PROMPT_SABLONU iskeletiyle · sahne başına 3 prompt
+                      (görsel + I2V + T2V) · blok ETİKETLERİ birebir [DERS 20]
+9. MÜZİK + KAPAK      MUZIK_VE_KAPAK — 120 BPM (3 ölçü/sahne) · kapak SON
+                      sahnenin usta karesinden türer ve ⭐ İNGİLİZCE BAŞLIK taşır
 10. PAKETLEME         ⛔ başlık/açıklama/hashtag/yorum İNGİLİZCE
 11. QA_SPEC           kilit listesi + ⛔ FİNAL KARE KANITI satırı
 12. PROMPT KAPISI     python3 araclar/prompt_kontrol.py <dosya>
@@ -132,34 +133,26 @@ ve komşularında. Burada tekrarlanmaz.**
 DOSYA:  dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
 ```
 
-## 🤝 G — HARİCİ BİR BOTA YAZDIRACAĞIM (ChatGPT / özel GPT)
+## 🤝 G — IZGARA SEÇİMİ (10 sahne mi, 5 sahne mi)
 
 ```
-⛔ ÖN KOŞUL: harici bot bu deponun HİÇBİR dosyasını okuyamaz. Atıf vermek
-   hiçbir şey vermemektir [D-a]. Brief kendi kendine yetmek zorundadır.
+⛔ 02.09.2026: HARİCİ BOTA SİPARİŞ VERME YOLU KAPATILDI. `siparisler/`
+   kaldırıldı. Film artık yalnız kart A ile, DEPO İÇİNDE yazılır.
+   Sebep: harici bot deponun hiçbir dosyasını okuyamıyordu ve uzun brief
+   botu kendi düzenini kurmaya itiyordu — blok etiketleri nesre dönüyor,
+   hem kural hem prompt kapısı düşüyordu [DERS 20].
 
-0. ⭐ FİLM YENİDEN YAZILIYORSA (v2+): genel brief'i YAPIŞTIRMA.
-                 dikey_shorts/<PROJE>/<PROJE>_V<n>_SIPARIS.md yaz ve ONU ver.
-                 Sebep ölçüldü [DERS 20]: uzun brief botu kendi düzenini
-                 kurmaya itiyor. Sipariş bir KILAVUZ değil bir FORMDUR —
-                 değişmez blokların İngilizce SON hâlini sen verirsin, bota
-                 yalnız sahneye özel alanlar kalır. v1'de birebir dayatılan
-                 her cümle 10/10 aldı; anlatılan her şey düştü.
-1. IZGARA SEÇ   10×6,0 → kilavuzlar/TIMELAPSE_SISTEM_PROMPTU.md (varsayılan)
-                 5×6,0 → kilavuzlar/BES_SAHNE_GPT_BRIEFI.md
-                 ⚠️ 5 sahnenin bedeli o dosyanın §1'inde tabloyla yazılı:
-                    sıçrama 2 katı · METRONOM riski · kış %40 · detay
-                    istasyonu YOK. Bedeli okumadan ızgara seçme.
-2. GİRDİ KARTI  §A doldurulur — kamera sayıları KAMERA_ISTASYONU §3
-                 formülünden ÇIKAR, seçilmez.
-3. YAPIŞTIR     §B'den §Ş'ye kadar olan blok, kesilmeden.
-4. KAYDET       gelen doküman → dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
-                 QA SPEC bölümü ayrılır → <PROJE>_QA_SPEC.md
-5. ⛔ KAPI      python3 araclar/prompt_kontrol.py <dosya>
-                 BLOCK ise §Ş'deki madde numarasını bota söyle, düzelttir.
-                 ⛔ Ajan gelen metni ELLE yamamaz: yama, bir sonraki filmde
-                    aynı hatayı yapan bir brief bırakır. Brief düzeltilir.
-6. DEVAM        kart B (ters inşa) → kart Y (teslim) → kart Q (QA)
+VARSAYILAN     10 × 6,0 = 60,0 sn + kapak 5,0        KILAVUZ_REHBERI §2.1
+VARYANT         5 × 6,0 = 30,0 sn + kapak 5,0        KILAVUZ_REHBERI §2.6
+                ⚠️ Bedeli o bölümde tabloyla yazılı: sıçrama 2 katı ·
+                   METRONOM riski · kış %40 · detay istasyonu YOK.
+                   Bedeli okumadan ızgara seçme.
+
+⛔ DÜZ IZGARA (bütün sahneler eşit süre) İKİ KEZ ÖLÇÜLDÜ, İKİ KEZ DÜŞTÜ
+   (⑥ METRONOM). Yine de seçilecekse plana (a) gerekçe ve (b) ritmin
+   klip İÇİNE nasıl taşındığı yazılır [KILAVUZ_REHBERI §2.6].
+   ⚠️ prompt_kontrol.py süre eşitliğini 5 satırlık tabloda YAKALAYAMAZ
+      (eşik 6 satır). Beş sahnede bu kapı yoktur; ⑥ merceği ölçer.
 ```
 
 ## 🔎 P — PROMPTLAR YAZILDI, ÜRETİM BAŞLAMADI
@@ -173,6 +166,13 @@ DOSYA:  dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
 ## 🎥 B — ÜRETİM SIRASI
 
 ```
+⛔ 0. ARAÇ KAPISI — HER ŞEYDEN ÖNCE [DERS 23]
+      Tek test klibi üret ve İKİ şeyi ölç:
+        ① ffprobe süre → ızgara o sayıdan yazılır [D-d]
+        ② KAMERA HAREKET EDİYOR MU?
+      ⛔ Ediyorsa o araçla BU FORMAT ÜRETİLMEZ. Prompt düzeltilmez.
+      Ölçüldü: aynı çapa cümlesi bir araçta ① 10/10, başkasında 0/10.
+
 ⛔ SIRA TERSTİR VE ZİNCİRLİDİR (KILAVUZ_REHBERI §8):
    1. SON SAHNE usta kare üretilir → KAPI: ikna edici değilse DUR
    2. Usta kareden GERİYE image-to-image, sahne sahne
@@ -180,6 +180,9 @@ DOSYA:  dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
          bash araclar/zincir_kontrol.sh <onceki_onayli> <yeni>
       Çıkış 2 = ZİNCİR KIRILDI → kareyi AT, önceki onaylı kareye dön,
       yeniden türet. SONRAKİ SAHNELERİ ÜRETME.
+      ⛔ VE HER KOŞUDA "AYNI YER" KANIT NESNESİ ELLE DOĞRULANIR [DERS 25]:
+         iki karede de aynı yerde mi? Değilse kare ATILIR — betik geçse bile.
+         Ölçüldü: nesne beş promptta da yazılıydı ve ilk dikişte kayboldu.
    4. Detay istasyonları da zincirin İÇİNDEN üretilir, çapa taşır
    5. Onaylanan her görselden I2V video
 
@@ -227,6 +230,14 @@ DOSYA:  dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
 5. ② İNŞA       rubrik + tam kurgu + QA_SPEC     (mod D)
 6. ④ TESLİM     rubrik + tam kurgu + plan + kapak (mod D)
 7. ⑥ GEÇİŞ      rubrik + tam kurgu SESLİ + plan  (mod D)
+
+⛔ 0. GİRDİ SATIRI — HER KOŞUDAN ÖNCE, TEK SATIR [DERS 27]
+      Koşuya başlamadan yaz ve raporun başına yapıştır:
+         "verilen girdiler: <dosya adları>"
+      ⛔ bash araclar/kare_al.sh <teslim.mp4> <n> ① ve ⑤'ten ÖNCE koşulur.
+         DÖRT filmde de koşulmadı.
+      ⭐ Ölçüldü [DERS 27]: MOUNTAIN DOOR'da QA_SPEC üretimden ÖNCE hazırdı
+         ve mercekler yine belgesiz koştu. Eksik olan BELGE değil, YORDAM.
 
 ⭐ SIRA ÖNEMLİDİR: doküman körlüğü isteyen üçü (① · ③ · ⑤) ÖNCE koşulur.
    Önce SPEC'i okuyup sonra "mod V" koşmak, körlüğü zaten kaybetmiş olmaktır.

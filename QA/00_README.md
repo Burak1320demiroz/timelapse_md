@@ -77,6 +77,25 @@ zaten kaybetmiş olmaktır.
 
 Her koşuda **başka hiçbir şey verilmez** — medya + rubrik + (mod D ise) tek belge.
 
+### ⛔ GİRDİ SATIRI — koşudan ÖNCE doldurulur [DERS 27]
+
+```
+Her koşunun başına, koşmadan ÖNCE tek satır yazılır ve rapora yapıştırılır:
+    verilen girdiler: <dosya adları>
+
+⭐ NEDEN BU SATIR VAR — ölçüldü, iki kez:
+   NARROW LOT   6 merceğin 5'i eksik girdiyle koştu → SPEC yoktu
+   MOUNTAIN DOOR 6 merceğin 5'i eksik girdiyle koştu → SPEC ÜRETİMDEN
+                 ÖNCE hazırdı ve yine verilmedi.
+   Yani eksik olan BELGE değildi, koşudan önce bakılan bir KONTROL
+   SATIRIYDI. Yukarıdaki liste yazılıydı; liste koşturmuyor [DERS 12].
+
+⛔ kare_al.sh dört filmin dördünde de koşulmadı. ① ve ⑤ o yüzden hiç
+   tam koşmadı: dikiş denetimi "son kare / ilk kare" çiftlerini hiç görmedi.
+⛔ Raporun ilk satırı RUN INCOMPLETE diyorsa skoru tabloya YAZMA, koşuyu
+   girdiyi tamamlayıp TEKRARLA [DERS 17].
+```
+
 ## 3. SKOR TABLOLARI
 
 ```

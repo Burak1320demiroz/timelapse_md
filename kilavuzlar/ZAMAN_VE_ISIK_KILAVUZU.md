@@ -75,6 +75,29 @@ kalabalıktır ve model geometriyi eritir.
 ⑦ HAVA DÖNÜŞÜ       yağmur ıslatır, sonra kurur — direnci gösteren tek olay
 ```
 
+### ⛔ MEVSİM ARA DURUMU BİR CÜMLE DEĞİL, BİR KAREDİR [DERS 26]
+
+```
+Ölçüldü (THE MOUNTAIN DOOR):
+  PLAN   yaz → sonbahar → kış① → kış②(erime) → yaz     = 12 ay
+  EKRAN  yaz → yaz      → kış  → yaz          → yaz
+  ③ SEASON ORDER 0/10 · ⑥ C2 SEASON CHANGE 0/10
+
+⛔ DERS 7 (kış İKİ sahne) uygulanmıştı — yetmedi.
+⛔ DERS 21 (hazırlık giden klibin içinde) uygulanmıştı — cümleler beş I2V'de
+   yazılıydı ve HİÇBİRİ üretilmedi.
+
+⭐ SEBEP: "erime" bir ARA DURUMDUR ve tek bir kareden türetilemez. Kareler
+   bağımsız üretilirse erime diye bir şey yoktur — ya kar vardır ya yoktur.
+   Bina BİRİKİR, kar BİRİKMEZ: mevsim yapıdan daha kırılgandır.
+
+KİLİT  Erime isteniyorsa erimenin KENDİ GÖRSELİ üretilir ve zincire girer.
+       ⛔ Ve zincir (ters inşa) koşulmadan mevsim yayı hiç denenmez.
+⚠️ BEDELİ: 5 sahnelik ızgarada kış birikme + erime + ara durum = üç sahne
+   eder ve yer yoktur. Yani 5 sahnede mevsim yayı ya İKİ mevsimle
+   sınırlanır, ya kırılır. Üçüncü seçenek ölçülmedi.
+```
+
 ---
 
 # 4. SAHNE İÇİ IŞIK YAYI — üç şablon

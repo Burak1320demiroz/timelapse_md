@@ -2,7 +2,7 @@
 
 ```
 KÜNYE      5 klip · 0:29,9 · sahne bloğu 5 klip · ⛔ KAPAK KARTI YOK
-           ızgara: 5 × 6,0 (BES_SAHNE_GPT_BRIEFI'nin ilk koşusu)
+           ızgara: 5 × 6,0 (MOTOR_5_SAHNE'nin ilk koşusu)
            üretim: harici GPT (Restoration Timelapse) → OpenArt
            altı mercek koşuldu (6/6)
 KARAR      ⚠️ YAYINLANMAZ — ama YENİDEN ÜRETİLMEZ, YENİDEN YAZILIR.
@@ -169,7 +169,7 @@ KESME ARALIKLARI  6,0 · 6,0 · 6,0 · 6,0   (⑥ CUT INTERVALS)
  rhythm rather than an intentional narrative arc or release"
 ```
 
-⭐ **BES_SAHNE_GPT_BRIEFI §1.2 bunu ÖNCEDEN yazmıştı** ve birincil ızgara
+⭐ **MOTOR_5_SAHNE §1.2 bunu ÖNCEDEN yazmıştı** ve birincil ızgara
 proje sahibinin kilidi olduğu için 5 × 6,0 olarak sipariş edildi. Uyarı tuttu.
 Ritim varyantı (`6,0 · 4,0 · 6,0 · 4,0 · 10,0 = 30,0`) artık **seçenek değil,
 varsayılan** olur — çünkü METRONOM hükmü iki filmde iki kez ölçüldü.

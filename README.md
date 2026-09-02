@@ -14,7 +14,9 @@ KONU  →  PLAN  →  DEĞİŞMEZLER + AŞAMA MERDİVENİ  →  18 PROMPT  →  
 **Kanal (film bittikten sonrası):** `apexait/README.md` — @apexait ·
 Apex AI Timelapse: kimlik, logo/banner şartnamesi, yayın planı, paketleme,
 YouTube politika riskleri.
-**Motor:** `kilavuzlar/TIMELAPSE_SISTEM_PROMPTU.md` — tek konu verince tam doküman üretir.
+**Motor (film depo içinde yazılır):** `kilavuzlar/TIMELAPSE_SISTEM_PROMPTU.md`
+⛔ Harici bota sipariş verme yolu **02.09.2026'da kapatıldı**; `siparisler/`
+kaldırıldı ve ölçülmüş içeriği `KILAVUZ_REHBERI §2.6`'ya taşındı.
 
 Kardeş depo: `film_md` (uzay/bilimkurgu dikey shorts). Bu depo onun iskeletini
 devraldı ama kurallarının bir kısmını **bilerek tersine çevirdi** — sebepleri
