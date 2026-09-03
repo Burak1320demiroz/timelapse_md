@@ -27,6 +27,33 @@ Her prompt bir hükmün karşısına konmuştur:
 ⭐ **A3 en yüksek kaldıraçlıdır.** İki film de aynı sebepten düştü ve sebep
 bir üretim aracıdır, bir yazım kuralı değil. Tek prompt koşacaksan A3.
 
+## 1.1 📌 KOŞU DURUMU — 03.09.2026
+
+| # | Ham dosya | Bot | Kaynak sınıfı | Kılavuza indi mi |
+|:-:|---|---|---|---|
+| A1 | `SONUCLAR/A1_GEMINI_HAM.md` | Gemini DR | ⚠️ ağırlıkla pazarlama blogu | kısmen (A1-b · A1-c · A1-d) |
+| A2 | `SONUCLAR/A2_GEMINI_HAM.md` | Gemini DR | ⭐ akademik | evet (A2-a…e) |
+| A3 | `SONUCLAR/A3_GEMINI_HAM.md` | Gemini DR | akademik + araç dokümanı | evet (A3-a…f) ⭐ en ağır |
+| A4 | `SONUCLAR/A4_GEMINI_HAM.md` | Gemini DR | ⭐ akademik | evet (A4-a…f) |
+
+```
+⛔ DÖRDÜ DE TEK BOTA KOŞULDU. §2'nin "aynı promptu iki bota koş" uyarısı
+   işletilmedi; yani çelişki görünür değil ve bu, on altı maddenin
+   ORTAK zayıflığıdır.
+⛔ DÖRDÜ DE PROMPTUN KISA (6 cümlelik) SÜRÜMÜYLE koşuldu — bu klasördeki
+   tam bloklar DEĞİL. Tam bloklar hâlâ koşulmamış durumda.
+⭐ KÜNYE EKSİK: ham dosyaların SÜRE ve KESİLDİ Mİ satırları boş; proje
+   sahibi doldurur.
+
+⚠️ ETİKET GÜVENİ — bu koşunun en önemli bulgusu bir bulgu değil, bir uyarı:
+   rapor her maddeye ÖLÇÜLDÜ / İDDİA / VARSAYIM yazdı ve A1'in ÖLÇÜLDÜ
+   etiketlerinin çoğu SEO içerik çiftliğine dayanıyordu. Bir sayının
+   yanında "ÖLÇÜLDÜ" yazması o sayıyı ölçmez — KAYNAĞINI ölçer.
+   ⭐ Bu yüzden §3'ün 2. adımına bir alt adım eklendi: etiket okunduktan
+      sonra KAYNAK SINIFI da yazılır (akademik · araç dokümanı ·
+      pazarlama blogu) ve yalnız ilk ikisi kılavuza iner.
+```
+
 ---
 
 # 2. 🔁 AKIŞ
@@ -54,6 +81,10 @@ bir üretim aracıdır, bir yazım kuralı değil. Tek prompt koşacaksan A3.
 1. HAM KAYIT      SONUCLAR/ altına dokunulmadan yazılır
 2. ETİKET AYIKLA  raporun her bulgusunda ÖLÇÜLDÜ / İDDİA / VARSAYIM etiketi
                   olmalı. Etiketsiz bulgu KURAL ÜRETMEZ — okuma sayılır.
+2b. ⛔ KAYNAK SINIFI  etiketin YANINA kaynak sınıfı yazılır:
+                  akademik · araç dokümanı · pazarlama blogu
+                  ⛔ Yalnız ilk ikisi kılavuza iner. Ölçüldüğünü SÖYLEYEN
+                     bir rapor, ölçülmüş bir rapor değildir [03.09.2026 koşusu].
 3. ÇELİŞKİ TARA   "BİZİM FORMATIMIZLA ÇELİŞENLER" bölümü önce okunur.
                   Bir kılavuz maddesi ölçülmüş bir bulguyla çelişiyorsa
                   kılavuz DEĞİŞİR — bulgu değil.

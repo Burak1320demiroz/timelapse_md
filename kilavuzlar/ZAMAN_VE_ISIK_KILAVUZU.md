@@ -44,6 +44,23 @@ bir gün + bir görünür iş adımı.
     Geri giden bir mevsim, izleyicinin sebebini bilmeden güvenini kaybettiği şeydir.
 ```
 
+### ⚠️ GÖLGE DÖNGÜSÜNÜN PİK SAYISI = YIL SAYISI [A4-b]
+
+```
+Gölge boyu  L = h / tan(α)   → yaz gündönümünde en KISA, kış gündönümünde
+                               en UZUN. Bir yıl = bir uzama-kısalma döngüsü.
+
+⭐ 34 aylık bir film, gölge boyunun ÜÇ maksimum ve ÜÇ minimum pikine ulaşmak
+   zorundadır. Bu, ③ merceğinin "34 ay yerine yaklaşık bir yıl" okumasının
+   [DERS 14] mekanizmasıdır: izleyici bir tam güneş döngüsü görür ve bir yıl
+   sayar. Zaman yayı kaç yılsa, gölge o kadar kez uzayıp kısalır.
+
+⚠️ VARSAYIM — koşulmadı: güneş satırı bugün yalnız azimut ve yükseklik
+   yazıyor. Zaman yayı ≥2 YIL olan filmlerde gölge BOYUNUN da sahne sahne
+   yazılması gerekebilir ("the shadow of the brick block reaches [n] metres
+   across the slab"). Yükseklik derecesi bunu ima eder, söylemez.
+```
+
 ---
 
 # 3. 6 SANİYEDE NE DEĞİŞİR — bütçe
@@ -126,6 +143,45 @@ NEGATİF EK: "no light streaks in the sky, no star trails, no neon, no
              illuminated signage, no readable window content"
 ```
 
+### ⭐ GECE FİZİĞİ SAYIYLA — şehir dışı sahalar için [A4-c · A4-d · A4-e]
+
+⛔ Bu blok yalnız **negatif çekirdeğin `no star trails` maddesi saha kartıyla
+çeliştiğinde** (dağ · çöl · kaya vadisi) kullanılır [DERS 16]. Şehir gecesinde
+yukarıdaki negatif ek geçerlidir.
+
+```
+① YILDIZ İZİ — "short" bir sayı değildir
+   Dünya saatte 15° döner. Pozlama süresi izin derecesini belirler:
+      21 sn (24 mm tam kare · 500 kuralı)  → NOKTA · iz yok
+      1 saat   → 15°        2 saat  → 30°
+      3,5 saat → 52,5°      6 saat  → 90° (çeyrek daire)
+   Kutba yakın izler iç içe daire, göksel ekvatorda düz çizgi.
+   ⛔ Yay derecesi ile pozlama saati BİRLİKTE yazılır; biri diğerini ima
+      eder ama söylemez [DERS 19'un gökyüzü hâli].
+   KİLİT  "The stars render as concentric arcs about thirty degrees long,
+           centred on the pole star, consistent with a two-hour exposure."
+
+② VİNÇ TEPE LAMBASI DÜZENSİZ ÇAKAR
+   ICAO/FAA gereği lamba dakikada 20-40 kez çakan bir flaşördür ve uzun
+   dönem timelapse aralığı 10-15 dakikada bir karedir. Deklanşörün açık
+   olduğu milisaniyede lambanın yanık olması RASTLANTISALDIR.
+   ⛔ Sürekli yanan bir kırmızı tepe ışığı timelapse'i yalanlar.
+   KİLİT  "The obstruction light at the crane mast head reads as a single
+           bright red pixel in some frames and is completely dark in
+           others, never a continuous glow."
+   KALDIRDIĞI  Gece kadrajının kolay atmosfer kazancı olan sürekli kırmızı
+               tepe ışığı. Karşılığı: gecenin fiziği doğru okunuyor.
+
+③ ARAÇ FARI SÜREKLİ ŞERİT BIRAKIR
+   10-20 sn pozlamada hareket eden araç farları kesintisiz beyaz (ön) ve
+   kırmızı (arka) hatlar çizer. AI üretiminde bunlar donmuş kısa fırça
+   darbelerine ya da iz bırakmayan parlak noktalara dönüşür.
+   KİLİT  "Vehicles on the site road leave unbroken white and red light
+           trails that run the full length of their path across the frame."
+   ⭐ §9.4'ün "smeared light and colour trails" cümlesinin gece hâli ve
+      renkli tarifi. Aynı kural, sayılı yüzey.
+```
+
 ---
 
 # 6. MEVSİMİ NEREDE OKUTURSUN — saha başına
@@ -137,9 +193,46 @@ NEGATİF EK: "no light streaks in the sky, no star trails, no neon, no
 | Kıyı | deniz rengi · gökyüzü · kıyı bitkisi |
 | Dağ | ⭐ kar çizgisinin yamaçta inip çıkması |
 | Çöl | ⛔ mevsim görünmez — yalnız güneş yüksekliği ve yapı |
+| **HEPSİ** | ⭐ **beton kürlenmesi** — mevsimden bağımsız, her sahada [A4-a] |
 
 ⛔ **Mevsim taşıyıcısı olmayan sahada** (çöl) zaman yükünün tamamı güneş
 yüksekliğine ve yapının kendisine biner; güneş satırı orada daha da kritiktir.
+
+### ⭐⭐ BETON KÜRLENMESİ — deponun hiç kullanmadığı taşıyıcı [A4-a]
+
+```
+FİZİK    Taze dökülen beton, hidrasyon ve nem kaybıyla GÜNLER boyunca koyu
+         ıslak griden mat açık kemik rengine açılır (hiperspektral ölçüm:
+         600-750 nm görünür bandında yansıma artışı · 1., 7. ve 28. gün).
+
+⭐ NEDEN BU KADAR DEĞERLİ — iki şeyi birden çözer:
+
+  ① ARDIŞIK DÖKÜMLER ARASINDAKİ KONTRAST BİR SAATTİR.
+     Alt katlar açık ve kürlenmiş, en son dökülen döşeme taze ve koyu.
+     Aradaki RENK SINIRI, o iki dökümün arasından kaç ay geçtiğini
+     ekranda gösterir. Mevsim yayına hiç dokunmadan zaman okutur.
+
+  ② MEVSİMİN GÖRÜNMEDİĞİ SAHADA ÇALIŞIR.
+     Yukarıdaki tablo çölde "zaman yalnız gölge ve yapı ile anlatılır"
+     diyor — beton kürlenmesi tam olarak "YAPI İLE ANLATMANIN" nesne
+     düzeyindeki hâlidir. Çöl ve kaya vadisi artık taşıyıcısız değil.
+
+⛔ VE DERS 14'ÜN ÖLÇÜLMÜŞ ARIZASINA DOĞRUDAN CEVAP:
+   iki sahnede mevsim "Indeterminate — bare rock and concrete with no
+   foliage, weather, or sun-height carriers" okundu. O karelerde BETON
+   VARDI ve taşıyıcı sayılmıyordu. Sayılmıyordu çünkü hiçbir kılavuz onu
+   taşıyıcı olarak yazmamıştı.
+
+KİLİT (İngilizce · pozitif · ölçülebilir · aşama merdiveninin
+       MEVSİM TAŞIYICISI sütununa da yazılır):
+  "The lower floors are pale bone-grey fully cured concrete, while the slab
+   poured most recently is still dark, wet and blotchy — the colour boundary
+   between them sits exactly at the seventh floor slab edge."
+
+KALDIRDIĞI  Hiçbir şey. Beton zaten kadrajdaydı; artık bir saat taşıyor. [D-f]
+⚠️ KOŞULMADI: bu bir varsayımdır ve modelin renk sınırını tutup tutmadığı
+   ölçülmedi. İlk üretimde ③ SEASON CARRIER satırından okunacak.
+```
 
 ---
 

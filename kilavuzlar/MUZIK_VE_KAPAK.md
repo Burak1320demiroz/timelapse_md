@@ -44,6 +44,28 @@ ama sahneler artık eşit DEĞİLDİR. Müzik hizası korunur, metronom kırıl�
    skor ortalamasını yener. Ölçülmüş vaka: THE CLOSING SPAN.
 ```
 
+### ⭐ "ÖLÇÜ BAŞINDA" YETMEZ — VURUŞUN ÜSTÜNDE [A2-e]
+
+```
+Görsel kesme ile işitsel vuruş AYNI MİLİSANİYEDE olduğunda beyinde çoklu
+duyusal kazanç etkisi oluşuyor: izleyici kesmeyi görmüyor, HİSSEDİYOR.
+Kesme vuruşun yanına düşerse o kazanç kayboluyor — kesme hâlâ ölçü
+başındadır ama artık iki ayrı olaydır.
+
+⛔ TOLERANS DARALDI: kesme ölçünün 1. vuruşuna oturur, yakınına değil.
+   120 BPM'de ölçü 2,0 sn — yani kesmeler 0,0 · 6,0 · 12,0 … saniyelerinde
+   ve ARADA DEĞİL. Klip süresi ffprobe'la 6,004 ölçüldüyse [D-d] ızgara o
+   sayıdan türer ve kaydırma birikir; kurguda her kesme tek tek hizalanır.
+
+⚠️ VARYANS SEÇİLİRKEN KISA UÇ TERCİH EDİLİR [A2-b]: modern ortalama çekim
+   uzunluğu 4 sn'nin altında, bizim izinli bandın ortancası 6,0. Izgara
+   değişmedi — hangi uçtan seçildiği değişti.
+   ⭐ Ve düşük hareketli sabit kadraj DAHA HIZLI kesilir [A2-c]: izleyici
+      karedeki yeni bilgiyi ilk 1,5-3 saniyede tüketiyor. S0 ve S9 (1 gün ·
+      en az iş adımı) tam bu tanıma girer ve ZAMAN_VE_ISIK §7 onlara
+      "zamanı yavaşlatır" diye uzun süre veriyor — niyet doğru, süre ölçüsüz.
+```
+
 ## 1.2 ⭐ KATMAN = KAT — 10 sahnede beş katman
 
 Her İKİ sahnede bir katman eklenir, hiçbiri çıkmaz. Aşama merdiveninin
@@ -68,6 +90,11 @@ KART    hepsi çözülür ve söner; son 1,5 saniye yalnız ortam sesi
 · MÜZİKSİZ PENCERE: 0,0-1,5 sn. Kanca diegetik sesle açılır (uzak trafik,
   rüzgâr, tek makine). Uzun enstrümantal intro ELENİR.
 · Diegetik ses yatağı müziğin altında sürer
+  ⚠️ VE BELKİ TAŞIYICIDIR, EŞLİKÇİ DEĞİL [A1-c]: dış rapora göre bu türde
+     yayılan "sessiz" videoların çektiği şey arka plan müziği değil, nesne
+     düzeyinde foley — malzemenin sesi. Kural zaten burada yazılı; ölçülmemiş
+     olan AĞIRLIĞI. Varsayım: yatak müziğin altında değil, önünde olabilir.
+     ⛔ Kaynak sınıfı zayıf (pazarlama blogu) — kural DEĞİŞMEDİ.
 · TELEFON HOPARLÖRÜ KURALI (missing fundamental):
   "Every sub-bass element below 150 Hz is doubled by its own upper harmonics
    at roughly 100, 150 and 200 Hz so the fundamental is implied rather than

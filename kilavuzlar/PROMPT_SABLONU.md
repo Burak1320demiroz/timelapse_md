@@ -89,6 +89,43 @@ Her sahnede ikisinden biri yazılır:
 Vinç TİPİ (renk + flat-top/saddle jib) değişmezler bloğunda durur.
 ```
 
+### ⭐ BETON RENK SINIRI — THE TIME MOMENT'IN İKİNCİ TAŞIYICISI [A4-a]
+
+```
+THE TIME MOMENT bloğu bugün tek bir kanıt taşıyor: yapının bir arka plan
+çapasına göre nerede olduğu ("the twelfth slab edge now sits level with the
+roof ridge"). Beton kürlenmesi İKİNCİ bir kanıt verir ve o kanıt çapaya
+değil, ZAMANA bağlıdır — ardışık dökümler arasında kaç ay geçtiğini gösterir.
+
+KİLİT  "The lower floors are pale bone-grey fully cured concrete, while the
+        slab poured most recently is still dark, wet and blotchy — the colour
+        boundary between them sits exactly at the seventh floor slab edge."
+
+⭐ NEREDE İŞE YARAR: mevsim taşıyıcısı olmayan sahada (çöl · kaya vadisi)
+   tek çalışan taşıyıcıdır ve ③ SEASON CARRIER'ın "Indeterminate" hükmünü
+   [DERS 14] doğrudan hedefler. Fizik ve tam metin: ZAMAN_VE_ISIK §6.
+⛔ SINIR HANGİ KATTA, SAYIYLA yazılır. "Alt katlar daha açık" bir tarif
+   değildir — DERS 19'un beton hâli olur.
+```
+
+### ⭐ GECE FİZİĞİ — üç kilit, yalnız şehir DIŞI sahalarda [A4-c · d · e]
+
+```
+⛔ Bu üçü negatif çekirdeğin "no star trails" maddesi saha kartıyla
+   çeliştiğinde kullanılır [DERS 16]. Şehir gecesinde çekirdek geçerlidir.
+
+① "The stars render as concentric arcs about thirty degrees long, centred on
+    the pole star, consistent with a two-hour exposure."
+   ⛔ Yay DERECESİ ve pozlama SAATİ birlikte — "short" bir sayı değildir.
+② "The obstruction light at the crane mast head reads as a single bright red
+    pixel in some frames and is completely dark in others, never a
+    continuous glow."
+③ "Vehicles on the site road leave unbroken white and red light trails that
+    run the full length of their path across the frame."
+
+Sayı tablosu ve gerekçeleri: ZAMAN_VE_ISIK §5.
+```
+
 ---
 
 # 2. 🎥 I2V PROMPT İSKELETİ ⭐ BİRİNCİL
@@ -209,3 +246,6 @@ No dialogue. No narration. No text. No captions. No logos. No watermark. No cuts
 | Hızı öznelere tek tek yazmak | gökyüzü hızlanır, yer gerçek zamanda kalır | TIME RATE bloğu — tek cümle, tüm özneler [DERS 15] |
 | Kalabalık şantiye | ne kadar çok insan/araç, o kadar çok bozulma | sayıyı AZALT |
 | Negatif çekirdeği olduğu gibi taşımak | şehir kuralı dağda yanlış olur | saha kartına karşı oku [DERS 16] |
+| Betonu tek renk yazmak | ardışık dökümlerin arasındaki aylar okunmaz | renk sınırını KATLA yaz [A4-a] |
+| "Short star trails" | sayısız iz tarifi = boş işaretçi | yay derecesi + pozlama saati [A4-c] |
+| Vinç tepe ışığını sürekli yazmak | timelapse yalanlanır | çakan ve bazen karanlık [A4-d] |

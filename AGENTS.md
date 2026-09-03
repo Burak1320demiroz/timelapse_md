@@ -374,6 +374,13 @@ commit'i sahibine bırakır.
   varsayar. Başka sensör/araç kullanılırsa formülün 36 sabiti değişir.
 · Ters inşa (image-to-image ile geriye) bu depoda henüz koşulmadı — akışın
   en yüksek kaldıraçlı adımı aynı zamanda en az sınanmış adımıdır.
+  ⚠️ VE ARTIK ONA KARŞI BİR İDDİA VAR: dış araştırma, ardışık
+     image-to-image'in matematiksel olarak hata BİRİKTİRDİĞİNİ söylüyor ve
+     zincirsiz bir alternatif öneriyor. İddia da alternatif de koşulmadı.
+     Zincir ilk kez koşulurken bu okunur [KILAVUZ_REHBERI §8 adım 3a · 3c].
+· Araştırma raporunun kendi ÖLÇÜLDÜ etiketine güvenilmez. 03.09.2026
+  koşusunda etiketlerin bir kısmı SEO içerik çiftliğine dayanıyordu; etiketin
+  yanına KAYNAK SINIFI yazma adımı bu yüzden eklendi (arastirma/00_README §3).
 ```
 
 ---

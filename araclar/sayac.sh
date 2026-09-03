@@ -32,8 +32,14 @@ echo
 echo "📚 DERSLER"
 DERS=$(grep -cE "^## DERS [0-9]+" kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
 VARSAYIM=$(grep -cE "^D-[a-z]  " kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
+ARASTIRMA=$(grep -cE "^A[0-9]-[a-z]  " kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
+HAM_ARASTIRMA=$(ls -1 arastirma/SONUCLAR/A*_HAM.md 2>/dev/null | wc -l | tr -d ' ')
 printf "   ölçülmüş ders         %s\n" "${DERS:-0}"
-printf "   devralınan varsayım   %s   ⚠️ bu depoda ÖLÇÜLMEDİ\n" "${VARSAYIM:-0}"
+printf "   devralınan varsayım   %s   ⚠️ film_md'den · bu depoda ÖLÇÜLMEDİ\n" "${VARSAYIM:-0}"
+printf "   araştırma varsayımı   %s   ⚠️ dış rapordan · bu depoda ÖLÇÜLMEDİ\n" "${ARASTIRMA:-0}"
+printf "   işlenmiş ham rapor    %s   (arastirma/SONUCLAR)\n" "${HAM_ARASTIRMA:-0}"
+[ "${ARASTIRMA:-0}" -gt 0 ] && [ "${HAM_ARASTIRMA:-0}" -eq 0 ] && \
+  echo "   ⛔ kodlu varsayım var ama ham rapor YOK — kaynak kaybolmuş"
 echo
 
 # ─── KILAVUZ HACMİ ─────────────────────────────────────────────────

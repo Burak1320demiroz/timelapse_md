@@ -67,6 +67,8 @@ burada kadrajın boş olduğu yer (üst) tam da yapının büyüdüğü yerdir.
 ```
 SAHNE BLOĞU    10 sahne × 6,0 sn = 60,0 sn    ← QA merceklerinin konusu
 KAPAK KARTI     1 kart × 5,0 sn =  5,0 sn     ← konusu DEĞİL, ayrı denetlenir
+               ⛔ KONUM: teslimin SON 5 saniyesi. Süreyi yazıp konumu
+                  yazmamak, okuyanı intro sanmaya bırakır [A1-b].
 ─────────────────────────────────────────────
 TOPLAM                            65,0 sn
 ```
@@ -89,6 +91,18 @@ sayıyla durur ve rubriklerin künyesinde `SCENE BLOCK / END CARD` alanı vardı
    Eşit aralıklı bir dizi tempo üretmez, NABIZ üretir. Hızlanma hissi
    beklentinin BOZULMASINDAN doğar, aralığın kısalmasından değil.
 ```
+
+> ⭐ **DIŞARIDAN DOĞRULANDI [A2-a].** Bu cümle bir rapor teşhisinden
+> türetilmişti ve ölçülmemişti; artık mekanizması adlandırılmış: izleyiciyi
+> bağlayan şey ortalama çekim kısalığı değil, çekim uzunluklarının **1/f
+> varyansı**. Eşit dizi varyansı sıfırlar, beyin diziyi çözer ve
+> habitüasyona girer — bu yüzden 10 sn → 6 sn indirimi hızlandırmadı:
+> aralığı kısalttı, **tahmin edilebilirliği bozmadı.**
+> ⭐ Aynı bulgu DERS 24'ü de açıklıyor: ritim OLAY SINIRINDAN (kesme)
+> sayılır, klip içeriğinden sayılmaz.
+> ⚠️ Ve bandımıza bir soru soruyor [A2-b]: modern ortalama çekim uzunluğu
+> 4 sn'nin altında, bizim izinli bandın ortancası 6,0. Izgara değişmedi —
+> ama varyans seçilirken **kısa uç tercih edilir.**
 
 Süreler eşit olmaz ama **ölçüye oturur** — müzik hizası korunur:
 
@@ -505,6 +519,19 @@ accelerated speed. Nothing in the frame moves at normal speed.
 > ZAMAN AYARI değil. Cümle promptun BAŞINA, tek parça olarak konur.
 > ⭐ Ek önlem: kadrajdaki insan ve araç SAYISINI AZALT — ne kadar az varsa
 > o kadar az bozulur.
+>
+> ⚠️ **ÜÇÜNCÜ SEÇENEK VAR VE BU CÜMLEYİ HİÇ YAZMIYOR [A3-e].** Bu cümle iki
+> ayrı yere yazıldı (görsel · I2V) ve iki kez düştü (DERS 15 · DERS 18).
+> Dış rapor sebebini adlandırıyor — *anlamsal ayrıştırma*: model "timelapse"
+> komutunu alınca gökyüzünü hızlandırıyor, insanı ve aracı anatomik gerçek
+> zaman bandında üretiyor. Önerilen çözüm promptu düzeltmek değil TERSİNE
+> çevirmek: prompta "timelapse" yazma, her şeyin gerçek zamanlı ve yavaş
+> aktığı bir klip üret, hızı KURGUDA ver. O zaman bulut, gölge, toz, vinç,
+> insan ve araç aynı çarpanla hızlanır — çünkü hızı model değil kurgu verir.
+> ⛔ Bu depoda koşulmadı ve bedeli ölçülmedi (6,0 sn'lik klipten ne kadar
+> kullanılabilir kare kalıyor, gölge süpürmesi o kısa gerçek zamanda okunur
+> hâlde kalıyor mu). Cümle yerinde duruyor; alternatif ARAÇ KAPISINDA
+> (§8 adım 0b) test klibiyle birlikte denenir.
 
 **Kamera kilidi — POZİTİF ve ÖLÇÜLEBİLİR hâl [DERS 6 · DERS 11'de DOĞRULANDI]:**
 
@@ -552,8 +579,16 @@ a slow pendulum, and it always carries a visible load.
 > ① C4 ile ③ C1 birlikte 0/10 aldı.
 > ```
 > şehir gecesi     → "no star trails, no light streaks in the sky"
-> dağ/çöl gecesi   → "stars render as short concentric trails"
+> dağ/çöl gecesi   → "stars render as concentric arcs about 30 degrees long,
+>                     centred on the pole star, consistent with a two-hour
+>                     exposure"
 > ```
+> ⭐ **"SHORT" BİR SAYI DEĞİLDİR [A4-c].** Dünya saatte 15° döner: 1 saat
+> pozlama 15°, 2 saat 30°, 6 saat 90° (çeyrek daire) yay verir. 24 mm tam
+> karede yıldız ancak ~21 saniyeye kadar nokta kalır. İz istiyorsan kaç
+> derece istediğini yaz — DERECE ve POZLAMA SAATİ birlikte
+> (ZAMAN_VE_ISIK §5). Sayısız bir iz tarifi, DERS 19'un gökyüzü hâlidir.
+>
 > Film yazılırken çekirdek madde madde okunur; saha kartıyla çelişen madde
 > o filmde TERSİNE çevrilir ve gerekçesi plana yazılır.
 
@@ -583,7 +618,15 @@ a slow pendulum, and it always carries a visible load.
                     ⭐ Ölçüldü: aynı ölçülebilir çapa cümlesi bir araçta
                        ① CAMERA LOCK 10/10, başka araçta 0/10 aldı. Hareket
                        promptun değil, modelin ön ayarıdır.
-                    Geçen aracın adı plana YAZILIR.
+                    ⭐ ÜÇÜNCÜ SORU EKLENDİ [A3-d]: "bu araçta kamerayı
+                       GEOMETRİK olarak kilitleyecek bir kanal var mı?"
+                       Kilit prompt katmanında değil geometri katmanında
+                       yaşıyor: kamera poz matrisi (sıfır vektörü), statik
+                       mod parametresi ya da ilk/son kare kilidi. Kanal
+                       yoksa kilit yalnız modelin iyi niyetine bağlıdır ve
+                       DERS 23 tam olarak o niyetin ölçümüdür.
+                    Geçen aracın adı ve hangi kilit kanalını taşıdığı
+                    plana YAZILIR.
 
 1. PLAN             §3 Değişmezler + §4 Aşama Merdiveni + §5 güneş saati
                     doldurulur. Sahne haritası bu üç tablodan TÜRER,
@@ -612,6 +655,44 @@ a slow pendulum, and it always carries a visible load.
                        bu ölçülmüş bir sonuçtur, varsayım değil.
                     Detay istasyonları da zincirin İÇİNDEN üretilir: ana
                     istasyondaki aynı aşamanın karesi referans alınır.
+
+3a. ⚠️ ZİNCİRE KARŞI BİR İDDİA VAR — okunmadan zincir koşulmaz [A3-a]
+                    Dış rapor, ardışık image-to-image'in matematiksel olarak
+                    hata BİRİKTİRDİĞİNİ söylüyor: her adım bir öncekinin
+                    ÇIKTISINI referans aldığı için, denoising gücü 0,15-0,20
+                    gibi çok düşük tutulsa bile konturlar ve dokular her
+                    kopyada mikroskobik kayar; zincirin sonunda usta kareyle
+                    ilk kare arasında topolojik bağ kalmaz.
+                    ⛔ BU BİR VARSAYIMDIR VE §8'İ DEVİRMEZ. Ters inşa DERS 5
+                       · 12 · 25'ten doğdu ve o üçü bu depoda ÖLÇÜLDÜ.
+                       Ölçülmüş bir dersi, koşulmamış bir iddia yenmez.
+                    ⚠️ AMA ZAMANLAMASI ÖNEMLİ: ters inşa bu depoda HİÇ
+                       KOŞULMADI (AGENTS §6). En yüksek kaldıraçlı adım, aynı
+                       zamanda en az sınanmış adım — ve iddia sınamadan ÖNCE
+                       geldi. İlk koşuda bu satır hatırlanır: zincir kırılıyorsa
+                       sebep uygulama hatası OLMAYABİLİR.
+
+3c. ⭐ ALTERNATİF — "MERKEZİ ÇATI" GEOMETRİ KİLİDİ [A3-b]
+                    Zincir (S9→S8→S7…) yerine on sahnenin HEPSİ tek bir
+                    merkezden türetilir — aralarında I2I ilişkisi kurulmaz:
+                      ① 3D kaba kütle: kat siluetleri, pencere açıklıkları,
+                         aks düzeni. Kamera o yazılımın İÇİNDE konumlanır
+                         ve kilitlenir (§3'ün dört sayısı oraya girer).
+                      ② Aynı kilitli kameradan on aşama renderı (depth/MLSD)
+                      ③ Renderlardan I2I KULLANMADAN doğrudan text-to-image;
+                         geometri kanalı 0,6-0,8 ağırlık bandında
+                      ④ Renk ve ışık için usta kare referans olarak ~0,5
+                    ⭐ NEDEN: kümülatif hata yok, çünkü zincir yok. Yapı
+                       koordinatları 3D haritada durur, modelin hafızasında
+                       değil.
+                    ⭐ VE DERS 19'U TAŞIR: 3D kaba kütle, YAPI BIBLE'ın
+                       sayılarının geometrik hâlidir — sayıyı prompta yazmak
+                       yerine kameranın önüne koyar.
+                    ⛔ BEDELİ: hatta bir araç (3D yazılım) ve bir emek adımı
+                       girer. Ve bu da koşulmadı — ters inşa gibi varsayım.
+                    ⛔ SEÇİM PLANA YAZILIR: hangi yol seçildiyse gerekçesiyle.
+                       İki yolu aynı filmde karıştırmak, hangisinin tuttuğunu
+                       ölçülemez yapar.
 
 3b. ⛔ ZİNCİR KAPISI — HER KAREDEN SONRA, SONRAKİNE GEÇMEDEN ÖNCE [DERS 12]
                        bash araclar/zincir_kontrol.sh <onceki_onayli> <yeni>
@@ -675,6 +756,15 @@ En sık ve en öldürücü bozulma. İlacı üç katmanlıdır ve üçü birden 
 (a) YAPI BIBLE birebir tekrarı · (b) ters inşa (§8) · (c) `no redesign,
 same column grid, same bay spacing, same footprint` cümlesi.
 
+> ⛔ **VE ÜÇÜ DIŞINDA KALAN İKİ ŞEY BU İŞİ YAPMAZ [A3-c]:**
+> **sabit seed** başlangıç gürültüsünü sabitler, ama zincirde referans görsel
+> her adımda değiştiği için geometriyi kilitleyemez. **Referans görsel kilidi**
+> (usta kareyi referans vermek) stil, renk ve atmosfer taşır — pencere adedi
+> ve kat yüksekliği gibi UZAMSAL kısıtları taşımaz.
+> ⭐ DERS 19'un araç tarafı: "as described" boş bir işaretçiydi; referans
+> görseli de boş bir işaretçidir. Uzamsal kısıt ancak GEOMETRİ kanalından
+> (depth · çizgi haritası · 3D kaba kütle) geçer — stil kanalından geçmez.
+
 ### 9.3 ⛔ ARKA PLAN KAYIYOR
 Yapıya bakarken arkadaki tuğla blok kat kazanır, servi yer değiştirir, sırt
 hattı düzleşir. İzleyici bunu bilinçli fark etmez ama "aynı yer" hissi ölür.
@@ -716,6 +806,25 @@ Bu filmler AI üretimidir ve gerçek bir projeyi belgelemezler.
 · Gerçek bir yapının birebir kopyası üretilmez; yapı tipi kartından türetilir.
 Sebep: bu türün izleyicisi videoyu belgesel sanır. Sanmasına izin vermek,
 kanalın ilk şikâyette kaybedeceği şeydir.
+```
+
+### 9.9 ⭐ "AI BELLİ OLUYOR" İLE "ZAMAN OKUNMUYOR" AYNI ARIZADIR [A4-f]
+
+AI tespit araçlarının en yüksek başarıyı aldığı iki kanal şu: **(a) ardışık
+karelerde gölge geometrisinin tutarlılığı**, **(b) optik akış yörüngesindeki
+eğrilik ve ani sarsıntı.**
+
+```
+⭐ İKİSİ DE BU DEPONUN ZATEN DÜŞTÜĞÜ YERLER:
+   DERS 18 · beş klipte gölge açı değişimi 0° ölçüldü
+   DERS 15 · gökyüzü timelapse hızında, yer gerçek zamanda aktı
+
+⛔ VE BU BİR GİZLENME HEDEFİ DEĞİLDİR. İçerik AI olarak beyan ediliyor
+   (değişmez ⑥ · ⑫) ve beyan kaldırılmıyor. Maddenin değeri şu:
+   ⭐ TESPİT ARACININ BAKTIĞI YER, İZLEYİCİNİN SAHTE BULDUĞU YERDİR.
+      Yani bu iki kanal bir arıza listesidir — gölge tutarlılığı ve hız
+      birliği düzelirse film hem daha az "AI" görünür hem zamanı okunur.
+      Aynı işi iki sebeple yapıyoruz; sebeplerden biri yeterdi.
 ```
 
 ---

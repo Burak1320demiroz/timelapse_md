@@ -847,6 +847,298 @@ D-g  RİSK DARALTILIR, YASAK GENİŞLETİLİR — arada boşluk kalır
 
 ---
 
+## 🔬 ARAŞTIRMADAN DEVRALINAN — dış raporda okundu, burada VARSAYIM
+
+> ⛔ **Hiçbiri bu depoda ölçülmedi.** Kaynak: `arastirma/SONUCLAR/A1..A4_GEMINI_HAM.md`
+> (Gemini Deep Research · 03.09.2026 · dört promptun kısa sürümü). İlk üretimden
+> sonra her biri ya numaralı bir derse dönüşür ya düşer.
+>
+> ⚠️ **ETİKET UYARISI — bu, raporun kendi etiketine güvenmediğimiz ilk vaka.**
+> Rapor her bulguya ÖLÇÜLDÜ / İDDİA / VARSAYIM yazdı, ama **A1'in ÖLÇÜLDÜ
+> etiketlerinin çoğu SEO içerik çiftliğine dayanıyor** (autofaceless.ai ·
+> retensis.com · klap.app · dynamoi.com · socialync.io · posteverywhere.ai ·
+> virvid.ai · frameos.studio). Bir sayının yanında ÖLÇÜLDÜ yazması, o sayının
+> ölçüldüğü anlamına gelmez — **kaynağı ölçer.** Aşağıda kaynak sınıfı
+> `[akademik]` · `[araç dokümanı]` · `[pazarlama blogu]` olarak ayrıca yazılıdır
+> ve yalnız ilk ikisi kılavuza tek satır indi.
+>
+> ⭐ İki rapor koşulmadı: dördü de tek bota gitti. Kart S §4 gereği çelişki
+> görünür değil — bu, aşağıdaki her maddenin ikinci bir zayıflığıdır.
+
+### A1 — VİRAL ANATOMİ  ⚠️ en zayıf kaynak sınıfı
+
+```
+A1-a  SÜRE BANDI ÇELİŞKİSİ — 65 sn'ye karşı 15-30 sn        [pazarlama blogu]
+      Rapor: en yüksek tutunma 15-30 sn bandında; 60 sn üstünde tamamlanma
+      oranı %41'e düşüyor. Bizim format 65 sn.
+      ⛔ KILAVUZ DEĞİŞMEDİ. Kaynak sınıfı bir format kararını taşımaz ve
+         çelişki tek bota koşuldu. §2.1 yerinde duruyor.
+      ⭐ Ama bu, YAYINDAN SONRA ilk ölçülecek şeydir: kanalın kendi tutunma
+         eğrisi bu bandı ya doğrular ya düşürür [apexait/YAYIN_PLANI].
+
+A1-b  KAPAK KARTININ YERİ BEYAN EDİLMİYOR                   [bizim açığımız]
+      Rapor kartı hem intro hem outro varsayarak iki ayrı felaket senaryosu
+      yazdı — çünkü prompt kartın NEREDE olduğunu söylemiyordu.
+      ⭐ Bulgu raporda değil, PROMPTUMUZDA: teslim yapısı satırı (§2.1)
+         kartın süresini yazıyor, KONUMUNU yazmıyor.
+      KİLİT  Teslim yapısı satırı konumu da yazar: kart SON 5 saniyedir.
+      KALDIRDIĞI  Hiçbir şey — satır bir kelime uzadı. [D-f]
+
+A1-c  SESSİZLİK DEĞİL, FOLEY YOKLUĞU                        [pazarlama blogu]
+      Rapor: bu türde viral olan "sessiz" videoların taşıyıcısı arka plan
+      müziği değil ASMR/foley (tuğla, mala, kesme, ortam).
+      ⭐ MUZIK_VE_KAPAK §1.3 zaten "diegetik ses yatağı müziğin altında
+         sürer" diyor — yani kural VAR, ağırlığı yok. Varsayım: yatak
+         eşlikçi değil TAŞIYICI olabilir.
+
+A1-d  AI BEYANI ERİŞİM CEZASI DEĞİL; RİSK BEYANSIZLIKTA     [araç dokümanı]
+      Üç platformda da beyanın kendisi erişim cezası üretmiyor; ceza
+      beyansız yakalanmakta (TikTok kademeli yaptırım).
+      ⭐ Bu bulgu §9.8 ve apexait/youtube/POLITIKA_VE_RISK §2 ile ÇELİŞMİYOR,
+         onları DOĞRULUYOR. Değişmez ⑫ yerinde kalır.
+      ⚠️ Karşı taraf akademik: "AI info" etiketi etkileşimi düşürmüyor ama
+         algılanan insan eforunu ve içerik güvenini düşürüyor. Yani ceza
+         algoritmada değil İZLEYİCİDE — ve bu, ölçülebilir bir şey değil.
+```
+
+### A2 — RİTİM VE TUTUNMA  ⭐ en güçlü kaynak sınıfı · DERS 13'Ü DIŞARIDAN DOĞRULUYOR
+
+```
+A2-a  ⭐ İZOKRONİK DİZİ, ÖNGÖRÜSEL KODLAMAYA YENİLİR             [akademik]
+      Cutting (Cornell · 150 film · 1935-2005): izleyiciyi bağlayan şey
+      ortalama çekim kısalığı değil, çekim uzunluklarının 1/f (pembe gürültü)
+      varyansı. Eşit aralıklı dizi varyansı sıfırlar; beyin diziyi çözer ve
+      habitüasyona girer (vMMN tepkisi tetiklenmez).
+      ⭐ BU, DERS 13'ÜN MEKANİZMASIDIR. Depo "hız = kesme varyansı" cümlesini
+         bir rapor teşhisinden türetmişti ve ölçmemişti. Artık dışarıdan
+         gerekçesi var: 10 sn → 6 sn indirimi hızlandırmadı çünkü
+         TAHMİN EDİLEBİLİRLİĞİ bozmadı.
+      ⛔ VE DERS 24'Ü DE AÇIKLIYOR: klip İÇİ varyans metronomu kırmadı çünkü
+         beyin ritmi OLAY SINIRINDAN (kesme) sayar, klip içeriğinden saymaz.
+      NEREYE  KILAVUZ_REHBERI §2.2 (tek satır) — kural değişmiyor, gerekçesi
+              güçleniyor.
+
+A2-b  MODERN ORTALAMA ÇEKİM UZUNLUĞU 4 SANİYENİN ALTINDA         [akademik]
+      Sesli sinemanın ilk yıllarında ~10 sn olan ASL bugün 4 sn'nin altında.
+      ⚠️ Bizim izinli süre bandı: 120 BPM → 4 · 6 · 8 · 10 ve ortancası 6,0.
+         Yani bandımız modern ASL'nin ÜSTÜNDE ve ortancası iki katı.
+      VARSAYIM  Varyans bandı KISA tarafa kaydırılabilir: aynı ölçü
+                disiplininde 160 BPM (4,5 · 6 · 7,5 · 9) daha kısa bir
+                ortanca verir ve 120 BPM'in 4,0'ı zaten izinlidir.
+      ⛔ IZGARA DEĞİŞMEDİ. §2.2 bandı duruyor; bu madde yalnız "hangi uçtan
+         seçilir" sorusuna cevap veriyor.
+
+A2-c  DÜŞÜK GÖRSEL HAREKETLİ KADRAJ DAHA HIZLI KESİLİR           [akademik]
+      Görsel aktivite indeksi (VAI) düşük olan sabit kadrajlar, dikkat
+      kaybını önlemek için daha kısa kesilmeli. İzleyici karedeki yeni
+      bilgiyi ilk 1,5-3 saniyede tüketiyor.
+      ⭐ Bizim S0 ve S9'u (1 gün · en az iş adımı) tam bu tanıma giriyor —
+         ve ZAMAN_VE_ISIK §7 onlara "zamanı yavaşlatır" diye UZUN süre
+         veriyor. Varsayım: yavaşlatma niyeti doğru, süresi ölçüsüz.
+
+A2-d  KUSURSUZ LOOP DİKİŞİ TEKRAR İZLEMEYİ ARTIRIYOR       [pazarlama blogu]
+      A/B testi iddiası: replay +%18,7 · etkileşim +%16,1.
+      ⭐ LOOP SATIRI ZATEN ZORUNLU (§4 · ikinci zorunlu satır) ve hiç
+         ölçülmedi — dört filmin dördünde de loop dikişi denetlenmedi.
+      ⚠️ Kaynak zayıf ama kural bizde zaten var; bu madde kuralı değil
+         DENETİMİ hatırlatıyor.
+
+A2-e  KESME MÜZİĞİN VURUŞUNA MİLİSANİYE HİZALANIR                [akademik]
+      Görsel kesme ile işitsel vuruş aynı milisaniyede olduğunda çoklu
+      duyusal kazanç etkisi (gain effect) oluşuyor; izleyici kesmeyi
+      görmüyor, hissediyor.
+      ⭐ MUZIK_VE_KAPAK §1.1 zaten kesmeleri ölçü başına oturtuyor. Bu madde
+         toleransı daraltıyor: "ölçü başında" yetmez, VURUŞUN ÜSTÜNDE.
+      NEREYE  MUZIK_VE_KAPAK §1.1 (tek satır)
+```
+
+### A3 — ZİNCİR VE TUTARLILIK  ⭐⭐ EN AĞIR BULGU · §8'İN ÇEKİRDEĞİNE DOKUNUYOR
+
+```
+A3-a  ⛔⭐ ARDIŞIK I2I ZİNCİRİ HATA BİRİKTİRİR — matematiksel  [akademik]
+      Difüzyon tabanlı ardışık I2I (SDEdit / DDIM inversion) her adımda
+      latenti yeniden gürültüleyip çözüyor. Hata yayılımı ayrık PF-ODE ile
+      modellenmiş: δ(t−1) = A(t)·δ(t) + B(t)·ε(t). Her adım bir öncekinin
+      ÇIKTISINI referans aldığı için kuantizasyon hatası birikiyor —
+      denoising gücü 0.15-0.20 gibi çok düşük tutulsa bile konturlar,
+      pencere çerçeveleri ve dokular her kopyada mikroskobik kayıyor.
+      Zincirin sonuna gelindiğinde usta kare ile ilk kare arasında
+      topolojik bağ kalmıyor.
+      ⛔ BU, DEPONUN EN YÜKSEK KALDIRAÇLI KARARINA KARŞI BİR İDDİADIR.
+         §8 adım 3 ("S9'dan geriye image-to-image, her sahne bir öncekinin
+         KARESİNDEN") tam olarak bu mekanizmanın tarifi.
+      ⭐ VE ZAMANLAMASI ÖNEMLİ: ters inşa bu depoda HİÇ KOŞULMADI
+         (AGENTS §6). Yani iddia, sınanmamış adımın sınanmasından ÖNCE geldi.
+      ⛔ KILAVUZ HENÜZ DEĞİŞMEDİ ve değişmemeli: bir varsayım, ölçülmüş
+         DERS 5 · 12 · 25'i devirmez. Ama §8'e bir UYARI satırı indi.
+
+A3-b  ⭐ ALTERNATİF: "MERKEZİ ÇATI" (hub-and-spoke) geometri kilidi
+                                                        [araç dokümanı]
+      Zincir (A→B→C→D) yerine, on sahnenin HEPSİ tek bir merkezden türetilir:
+        ① 3D kaba kütle (shoebox) — kat siluetleri, pencere açıklıkları,
+           aks düzeni. Kamera bu yazılımın İÇİNDE konumlanır ve KİLİTLENİR.
+        ② Aynı kilitli kameradan on aşama renderı (depth ya da canny/MLSD)
+        ③ Bu renderlardan I2I KULLANMADAN doğrudan text-to-image;
+           ControlNet-Union depth/MLSD ağırlığı 0.6-0.8 bandında
+           (0.8 üstü doku esnekliğini öldürüyor, 0.6 altı kolon/kiriş
+            detayını halüsinasyona bırakıyor)
+        ④ Renk ve ışık paleti için usta kare IP-Adapter ile ~0.5 ağırlıkta
+      ⭐ NEDEN ÖNEMLİ: kümülatif hata YOK, çünkü zincir yok. Yapı
+         koordinatları 3D haritada duruyor, modelin hafızasında değil.
+      ⭐ VE DERS 19'U TAŞIYOR: "sayısız bir bible bible değildir" — 3D kaba
+         kütle, bible'ın SAYILARININ geometrik hâlidir. Sayıyı prompta
+         yazmak yerine kameranın önüne koyuyor.
+      ⛔ BEDELİ: hattın dışında bir araç (3D yazılım) ve bir emek adımı
+         giriyor. Ve bu depoda hiç koşulmadı — ters inşa gibi o da varsayım.
+      NEREYE  KILAVUZ_REHBERI §8 (tek satır · seçenek olarak)
+
+A3-c  SABİT SEED VE REFERANS GÖRSEL GEOMETRİYİ TAŞIMAZ    [araç dokümanı]
+      Seed başlangıç gürültüsünü sabitler; I2I döngüsünde referans görsel
+      her adımda değiştiği için seed geometriyi kilitleyemiyor.
+      IP-Adapter / referans kilidi ise stil, renk ve atmosfer taşıyor —
+      pencere adedi ve kat yüksekliği gibi UZAMSAL kısıtları taşımıyor.
+      ⭐ DERS 19'un araç tarafı: "as described" boş işaretçiydi; referans
+         görseli de boş bir işaretçidir. Uzamsal kısıt ancak GEOMETRİ
+         kanalından (depth/MLSD/3D) geçer.
+
+A3-d  KAMERA KİLİDİ GEOMETRİK OLARAK ÇÖZÜLÜR, PROMPTLA DEĞİL
+                                                        [araç dokümanı]
+      Açık kaynak tarafta CameraCtrl kamerayı Plücker gömüleriyle 3D uzayda
+      kodluyor; sabit istasyon için hareket matrisi sıfır vektörüne
+      sabitleniyor ve klipler arası uzatılabiliyor. Ticari tarafta Runway
+      Gen-3 JSON'unda zoom/horizontal/vertical/roll = 0.0 "static mode"
+      açıyor (tek blokta ~10 sn), Kling start-end frame iki kilitli görsel
+      arasında istasyonu referans alıyor (tek blokta ~15 sn).
+      ⭐ BU, DERS 23'Ü DIŞARIDAN DOĞRULUYOR: aynı çapa cümlesi bir araçta
+         ① CAMERA LOCK 10/10, başkasında 0/10 aldı. Sebep artık adlandırılmış
+         — hareket promptun değil, modelin ön ayarı; ve kilit prompt
+         katmanında değil GEOMETRİ katmanında yaşıyor.
+      ⛔ ARAÇ KAPISI (§8 adım 0b) yerinde kalır ve GÜÇLENİR: test klibinde
+         sorulacak soru "hareket ediyor mu" ile birlikte artık şu da olur —
+         "bu araçta kamerayı geometrik olarak kilitleyecek bir kanal var mı?"
+
+A3-e  ⭐ AYNI HIZ SORUNU PROMPTTA DEĞİL, POST'TA ÇÖZÜLÜYOR [araç dokümanı]
+      Model "timelapse" komutunu alınca gökyüzünü hızlandırıp insanı/aracı
+      anatomik gerçek zaman bandında üretiyor (anlamsal ayrıştırma —
+      semantic decoupling). Rapordaki fiziksel çözüm promptu düzeltmek
+      DEĞİL, promptu TERSİNE çevirmek:
+        · prompta "timelapse" YAZILMAZ
+        · her şeyin gerçek zamanlı ve YAVAŞ aktığı bir klip üretilir
+        · klip kurguda %5000-%10000 hızlandırılır
+      Böylece bulut, gölge, toz, vinç, insan ve araç aynı çarpanla hızlanır —
+      çünkü hızı model değil kurgu veriyor.
+      ⭐ BU, DERS 15 VE DERS 18'İN ÜÇÜNCÜ DENEMESİDİR. İki ders de aynı
+         cümleyi iki farklı yere yazdı (görsel · I2V) ve ikisi de düştü.
+         Üçüncü seçenek cümleyi hiç yazmamak.
+      ⚠️ BEDELİ ÖLÇÜLMEDİ: %5000 hızlandırma 6,0 saniyelik bir klipten ne
+         kadar kullanılabilir kare bırakıyor, ve zaman AKIŞI (gölge süpürmesi)
+         o kadar kısa gerçek zamanda okunur hâlde kalıyor mu — bilinmiyor.
+      NEREYE  KILAVUZ_REHBERI §7 (zaman hızı bloğuna uyarı) ·
+              PROMPT_SABLONU §2
+
+A3-f  START-END FRAME ENTERPOLASYONU DİKİŞİ TAMAMEN KALDIRIR
+                                                        [araç dokümanı]
+      İki kilitli görsel (boş arsa · usta kare) tek video latentinin içinde
+      birleştirilirse arada kesme yoktur; yapı değişimi, kamera respawn'ı
+      ve dikiş kusuru kökten kalkıyor.
+      ⛔ AMA BU BİZİM FORMATIMIZI YIKAR: kesme = zaman sıçraması bu türün
+         tanımı (KILAVUZ_REHBERI §1.2). Dikişi kaldırmak, filmi tek bir
+         morph'a çevirir ve on aşamalı merdiveni siler.
+      ⭐ Kullanılabilir hâli: SAHNE İÇİ. Bir sahnenin ilk ve son karesi
+         zincirden geliyorsa, aradaki 6,0 saniye enterpolasyonla üretilebilir
+         ve o sahnenin içi dikişsiz olur. Sahneler ARASI kesme korunur.
+```
+
+### A4 — GERÇEKLİK İMZASI  ⭐ nesne düzeyi taşıyıcı listesi · DERS 14'ÜN BOŞLUĞUNU DOLDURUYOR
+
+```
+A4-a  ⭐⭐ BETON KÜRLENMESİ — HER SAHADA ÇALIŞAN YENİ TAŞIYICI  [akademik]
+      Taze dökülen beton, hidrasyon ve nem kaybıyla günler boyunca
+      koyu ıslak griden mat açık kemik rengine açılıyor (hiperspektral
+      ölçüm: 600-750 nm görünür bandında yansıma artışı).
+      ⭐ BU DEPONUN HİÇ KULLANMADIĞI BİR TAŞIYICIDIR ve iki şeyi birden
+         çözer:
+           ① ARDIŞIK DÖKÜMLER ARASINDAKİ KONTRAST bir SAAT'tir: alt katlar
+              açık ve kürlenmiş, üst kat taze ve koyu. Aradaki fark, o iki
+              dökümün arasından kaç ay geçtiğini EKRANDA gösteriyor.
+           ② ÇÖLDE VE KAYA VADİSİNDE ÇALIŞIR. ZAMAN_VE_ISIK §6 çölde
+              "mevsim görünmez, zaman yalnız gölge ve yapı ile anlatılır"
+              diyor — beton kürlenmesi tam olarak "yapı ile anlatmanın"
+              nesne düzeyindeki hâlidir.
+      ⭐ VE DERS 14'ÜN ÖLÇÜLMÜŞ ARIZASINA DOĞRUDAN CEVAP: iki sahnede
+         mevsim "Indeterminate — bare rock and concrete with no foliage,
+         weather, or sun-height carriers" okunmuştu. O karelerde BETON
+         VARDI ve taşıyıcı sayılmıyordu.
+      KİLİT (İngilizce · pozitif · ölçülebilir):
+         "The lower floors are pale bone-grey fully cured concrete, while
+          the slab poured most recently is still dark, wet and blotchy —
+          the colour boundary between them sits exactly at the [n]th floor
+          slab edge."
+      KALDIRDIĞI  Hiçbir şey. Beton zaten kadrajda; artık bir saat taşıyor.
+      NEREYE  ZAMAN_VE_ISIK §6 · SAHA_VE_IKLIM (kart başına) · PROMPT_SABLONU
+
+A4-b  GÖLGE DÖNGÜSÜNÜN PİK SAYISI = YIL SAYISI                  [akademik]
+      Gölge boyu L = h / tan(α); yaz gündönümünde en kısa, kış gündönümünde
+      en uzun. 34 aylık bir film, gölge boyunun uzama-kısalma döngüsünde
+      ÜÇ maksimum ve ÜÇ minimum pikine ulaşmak zorunda.
+      ⭐ ③ merceğinin "34 ay yerine yaklaşık bir yıl" okumasının (DERS 14)
+         mekanizması bu: izleyici bir tam güneş döngüsü görüyor ve bir yıl
+         sayıyor. Zaman yayı kaç yılsa, gölge o kadar kez uzayıp kısalır.
+      VARSAYIM  Aşama merdiveninin GÜNEŞ satırı bugün yalnız azimut ve
+                yükseklik yazıyor. Yıl sayısı ≥2 olan filmlerde gölge
+                BOYUNUN da sahne sahne yazılması gerekebilir.
+      NEREYE  ZAMAN_VE_ISIK §2 (tek satır)
+
+A4-c  YILDIZ İZİ POZLAMAYLA DERECEYE BAĞLI                      [akademik]
+      Dünya saatte 15° dönüyor. 24 mm tam karede yıldız ~21 saniyeye kadar
+      NOKTA kalıyor (500 kuralı: 500/24 ≈ 20,8). Üstünde iz başlıyor:
+        1 saat → 15°   ·   2 saat → 30°   ·   3,5 saat → 52,5°   ·
+        6 saat → 90° (çeyrek daire)
+      Kutba yakın izler iç içe daire, göksel ekvatorda düz çizgi.
+      ⭐ DERS 16 "dağ/çöl gecesi → stars render as short concentric trails"
+         diyordu — "short" bir sayı değil. Artık sayı var.
+      KİLİT (İngilizce · pozitif):
+         "The stars render as concentric arcs about [n] degrees long,
+          centred on the pole star, consistent with a [n]-hour exposure."
+      NEREYE  ZAMAN_VE_ISIK §5 · KILAVUZ_REHBERI §7 (gece satırı)
+
+A4-d  VİNÇ ENGEL LAMBASI DÜZENSİZ ÇAKAR, SÜREKLİ YANMAZ    [araç dokümanı]
+      ICAO/FAA gereği kule vinci tepe lambası dakikada 20-40 kez çakan bir
+      flaşördür. Uzun dönem timelapse aralığı 10-15 dakikada bir karedir;
+      yani deklanşörün açık olduğu milisaniyede lambanın yanık olması
+      RASTLANTISALDIR.
+      ⭐ Doğru görünüm: ardışık karelerde düzensiz yanıp sönen, bazen
+         tamamen karanlık kalan bir nokta. Sürekli yanan bir neon iz
+         timelapse'i yalanlar.
+      KALDIRDIĞI  Gece kadrajındaki "sürekli kırmızı tepe ışığı" — bu türün
+                  kolay atmosfer kazancıydı. Karşılığı: gece sahnesinin
+                  fiziği doğru okunuyor.
+
+A4-e  GECE ARAÇ FARI SÜREKLİ IŞIK ŞERİDİ BIRAKIR                [akademik]
+      Uzun pozlamada (10-20 sn) şantiyede hareket eden araçların farları
+      kesintisiz beyaz (ön) ve kırmızı (arka) ışık hatları çiziyor. AI
+      üretiminde bunlar donmuş kısa fırça darbelerine ya da iz bırakmayan
+      parlak noktalara dönüşüyor — hareket bulanıklığı fiziğinin
+      okunamaması.
+      ⭐ KILAVUZ_REHBERI §9.4 zaten "vehicles render as smeared light and
+         colour trails" diyor. Bu madde onu GECEYE bağlıyor ve renk verir.
+
+A4-f  AI TESPİTİNİN BAKTIĞI YER: GÖLGE YÖNÜ + OPTİK AKIŞ        [akademik]
+      Tespit araçlarının en yüksek başarıyı aldığı iki kanal: (a) ardışık
+      karelerde gölge geometrisinin tutarlılığı, (b) optik akış
+      yörüngesindeki eğrilik ve ani sarsıntı.
+      ⭐ İKİSİ DE BİZİM ZATEN DÜŞTÜĞÜMÜZ YERLER: DERS 18'de beş klipte
+         gölge açı değişimi 0° ölçüldü; DERS 15'te gökyüzü ile yer farklı
+         hızlarda aktı. Yani "AI belli oluyor" ile "zaman okunmuyor" aynı
+         arızanın iki adı.
+      ⚠️ VE BİZİM İÇİN BU BİR KAÇINMA HEDEFİ DEĞİL: içerik AI olarak
+         beyan ediliyor (değişmez ⑥ · ⑫). Bu maddenin değeri gizlenmek
+         değil, ARIZA LİSTESİ olması — tespit araçlarının baktığı yer,
+         izleyicinin sahte bulduğu yerdir.
+```
+
+---
+
 ## ✍️ YENİ DERS YAZMA KALIBI
 
 ```

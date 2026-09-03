@@ -9,6 +9,37 @@
 
 ---
 
+## 3.0 ⭐ ZAMAN NESNESİ TABLOSU — saha başına, nesne düzeyinde [A4-a]
+
+> ⛔ **"Kış" bir taşıyıcı değildir.** Aşama merdiveninin MEVSİM TAŞIYICISI
+> sütunu (KILAVUZ_REHBERI §4) boş bırakılamaz ve içine **adlandırılabilir bir
+> nesne** yazılır. Bu tablo o sütunun sözlüğüdür.
+>
+> ⚠️ Hepsi dış rapordan devralınan **varsayımdır** — bu depoda hiçbiri
+> ölçülmedi (`arastirma/SONUCLAR/A4_GEMINI_HAM.md`).
+
+| Saha | Zamanın geçtiğini kanıtlayan NESNE |
+|---|---|
+| Şehir içi | ağaç yaprağı · balkon tentesi · gölge boyu · ⭐ beton renk sınırı |
+| Kırsal | ⭐ ot/ekin rengi · çıplak dallar · hasat sonrası saban izlerinin yön değiştirmesi |
+| Kıyı | gelgit çizgisi · ıslak-kuru kum sınırı · kıyıdaki tuz birikinti hattı |
+| Dağ / eğim | ⭐ yamaçtaki kar çizgisinin rakımda inip çıkması · taş döküntü konileri |
+| Kar / kış | iskele borusu üzerindeki kar katman kalınlığı · saçakta uzayıp kırılan buz sarkıtı |
+| Çöl | kumul sırtının rüzgâr yönünde kayması · kumul gölgesinin asimetrik dalgalanması |
+| **HEPSİ** | ⭐⭐ **BETON KÜRLENMESİ** — kürlenmiş açık kat ile taze koyu döşeme arasındaki RENK SINIRI |
+
+```
+⭐ BETON SATIRI NEDEN AYRI DURUYOR:
+   mevsimden bağımsızdır ve mevsim taşıyıcısı OLMAYAN sahada (çöl · kaya
+   vadisi) tek çalışan taşıyıcıdır. Tam metni ve kilit cümlesi
+   ZAMAN_VE_ISIK §6'da — burada tekrarlanmaz.
+
+⛔ KUMUL BİR ÇAPA DEĞİL, TAŞIYICIDIR. §3.6 "kum tepesi ÇAPA DEĞİLDİR
+   (şekli değişir)" diyor ve bu doğru kalır. Bir nesne çapa olamayacak
+   kadar değişiyorsa, tam o yüzden zaman taşıyıcısı olabilir.
+   ⭐ İkisi zıt işler: ÇAPA değişmediği için, TAŞIYICI değiştiği için işe yarar.
+```
+
 ## 3.1 🏙️ ŞEHİR İÇİ DAR PARSEL ⭐ REFERANS
 
 ```
@@ -121,10 +152,13 @@ RİSK       ⛔ mevsim taşıyıcısı yok — güneş yüksekliği tek saat gö
 ## 3.7 🆕 YENİ SAHA ŞABLONU
 
 ```
-IŞIK       [yön, sertlik, gün uzunluğu]
-KİRLİLİK   [toz mu çamur mu — ikisi aynı anda olmaz]
-ÇAPALAR    [hazır gelenler + yaratılması gerekenler · en az üç]
-HAVA RİTMİ [mevsim nerede okunur]
-NEGATİF EK [bu sahaya özel İngilizce cümle]
-RİSK       [modelin bu sahada ne bozacağı]
+IŞIK        [yön, sertlik, gün uzunluğu]
+KİRLİLİK    [toz mu çamur mu — ikisi aynı anda olmaz]
+ÇAPALAR     [hazır gelenler + yaratılması gerekenler · en az üç]
+            ⛔ DEĞİŞMEYEN şeyler
+HAVA RİTMİ  [mevsim nerede okunur]
+ZAMAN NESNESİ ⭐ [adlandırılabilir tek nesne · §3.0 tablosuna satır ekler]
+            ⛔ DEĞİŞEN şeyler — "kış" değil, "yamaçtaki kar çizgisi"
+NEGATİF EK  [bu sahaya özel İngilizce cümle]
+RİSK        [modelin bu sahada ne bozacağı]
 ```
