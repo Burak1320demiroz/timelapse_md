@@ -49,8 +49,11 @@ doğrudan görsel/video/müzik modellerine yapıştırılır.
 1. **TEK KAMERA, TEK YER** — Ana istasyon altı sahnenin en az dördünde
    birebir aynıdır: aynı lens, aynı yükseklik, aynı mesafe, aynı bakış açısı.
    Kamera bir kez kurulur ve bir daha dokunulmaz.
-2. **DEĞİŞEN TEK ŞEY ZAMANDIR** — Sahneler arası kesme bir açı değişimi değil,
-   bir **zaman sıçramasıdır.** Aynı kadraj, farklı ay.
+2. **DEĞİŞEN TEK ŞEY ZAMANDIR** — ⛔ 08.09.2026: kesme artık bir zaman
+   sıçraması DEĞİLDİR [KILAVUZ_REHBERI §2.7 ①]. İki keyframe zincirinde
+   dikişin iki yakası **aynı karedir**; kesmede ne açı ne zaman atlar.
+   Zaman yalnız klibin İÇİNDE akar ve her sahne kendi zamanını kendisi
+   gösterir. Aynı kadraj, kesintisiz akış.
 3. **MONOTON BÜYÜME** — Aşama N, N-1'in her şeyini içerir + yeni iş. Yapılmış
    iş geri alınmaz. Tek istisna: sökülüşü plana yazılmış geçici ekipman.
 4. **ARKA PLAN ÇAPASI** — En az üç isimlendirilmiş sabit nesne (komşu bina,
@@ -85,7 +88,7 @@ eğim · rüzgâr · dar parsel · gelgit · zemin suyu · trafik · yükseklik 
 Dikey Timelapse Production Document
 Format: 9:16 (DİKEY) | Sahne: 10 × [X] sn | Kapak kartı: 5 sn | Toplam: [10X+5] sn
 TESLİM YAPISI: sahne bloğu 10 × [X] = [10X] sn  +  kapak kartı 5 sn  = [10X+5] sn
-Prompt yapısı: her sahne için 1 görsel + 2 video promptu (I2V birincil · T2V yedek)
+Prompt yapısı: ⭐ 10 sahne → 11 görsel (G0…G10) + 10 I2V · T2V YOK [§2.7]
 Yapı: [tip] · Saha: [saha kartı] · Zaman yayı: [toplam süre] → [film süresi]
 "[Tek cümlelik tagline — Türkçe]"
 ```
@@ -152,20 +155,23 @@ NEGATIVE: [negatif çekirdek + varsa vinç bloğu + saha/yapı kartı ekleri]
 Output: 9:16, 4K, no text, no watermark.
 ```
 
-**🎥 VİDEO PROMPT — B SÜRÜMÜ (I2V · BİRİNCİL):**
+**🎥 VİDEO PROMPT — I2V · TEK SÜRÜM, İKİ UÇLU:**
 - İlk cümle her zaman: `"The scene begins exactly as the provided image."`
+- İkinci cümle her zaman: `"The shot ends exactly on the second provided image:
+  its last frame is that image, matched frame for frame — same framing, same
+  light, same objects in the same places."` ⛔ Klip iki ONAYLI kare arasında
+  üretilir; hedef karesi olmayan I2V yazılmaz [§2.7].
 - Yapıyı, sahayı, arka planı YENİDEN TARİF ETME — görsel zaten içeriyor.
 - Yalnız **zamanın geçişi** anlatılır: gölge süpürmesi, bulut çizgileri,
   vinç dönüşü, kat/panel belirmesi, araç izleri, ışıkların yanması.
 - Sonunda `Camera:` satırı: `fixed tripod, absolutely zero movement, no shake,
   no drift, no zoom` + değişmeyecekler cümlesi.
 
-**🎥 VİDEO PROMPT — A SÜRÜMÜ (T2V · YEDEK):**
-- `Vertical 9:16. Single continuous locked-off time-lapse shot, 0 cuts, [X] seconds.`
-- Zaman damgalı 5-7 vuruş: `At 0s — ... At 2.4s — ... By [X]s — ...`
-- Her vuruş TEK bir zaman olayını tarif eder.
+**⛔ T2V YEDEĞİ 08.09.2026'DA KALDIRILDI [§2.7 ②]:** metinden üretilen klip
+iki uca kilitlenemez, zinciri taşımaz, dikişi kırar. Bir klip tutmazsa yedek
+AYNI İKİ KAREDEN yeniden koşmaktır. Planda T2V bloğu varsa kapı BLOCK verir.
 
-Her iki video promptunun sonuna **Master Lock**'un kısa formu eklenir:
+Video promptunun sonuna **Master Lock**'un kısa formu eklenir:
 `No dialogue. No narration. No text. No captions. No logos. No watermark. The
 camera never moves. No cuts. Photorealistic documentary time-lapse cinematography.`
 
@@ -179,7 +185,7 @@ Detay: `MUZIK_VE_KAPAK.md`.
 
 ### 3.7 🖼️ Kapak Promptu (1080×1920)
 
-Metinsiz. Kaynak an plana yazılır (hangi sahne, hangi saniye). 120 px posta
+Metinsiz. ⭐ Kaynak kare artık USTA KAREDİR (GN) ve plana adıyla yazılır. 120 px posta
 pulu testi hem kapağa hem S0'ın ilk karesine koşulur. Detay: `MUZIK_VE_KAPAK.md`.
 
 ### 3.8 📣 Başlık ve Açıklama Paketi

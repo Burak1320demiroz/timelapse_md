@@ -146,15 +146,26 @@ Phone-speaker rule: [missing fundamental cümlesi]
 İkisi AYNI görüntüdür. Kart hareketsizdir; zoom, kayma, animasyon yok.
 ```
 
-## 2.2 ⛔ Kapak S9'un usta karesinden TÜRETİLİR
+## 2.2 ⛔ Kapak USTA KAREDEN (GN) TÜRETİLİR
 
 v1'de kapak kartı filmden ayrı üretildi ve **başka bir bina** çıktı
 (① ANCHOR IDENTITY 0/10 · ④ FİNAL BEAT FAIL). Artık:
 
 ```
-S9 usta karesi → aynı kadraj, aynı bina, aynı çapalar → üstüne başlık dizilir
+GN usta karesi → aynı kadraj, aynı bina, aynı çapalar → üstüne başlık dizilir
+⭐ ZİNCİRLİ FORMATTA GN ZATEN ÜRETİLMİŞTİR [KILAVUZ_REHBERI §2.7]: son klibin
+   HEDEF karesidir ve üretimde İLK üretilen karedir. Kapak, teslim dosyası
+   daha ortada yokken hazırdır; teslimden kare almak YEDEK yoldur.
 ⛔ Kapak sıfırdan üretilmez. Üretilirse kart, filmin bitirdiği binadan
    farklı bir bina gösterir ve film kendi finalini yalanlar.
+⛔ ÖLÇÜLDÜ [DERS 30]: LONG DAY'de kapak ayrı üretildi (dev Dünya · iki tepe ·
+   başka vantaj) ve beş mercek END CARD: DIFFERENT yazdı. KAPAK KANITI
+   teslimden önce koşulur: ffmpeg -ss <kaynak sn> ile S9 karesi alınır,
+   bash araclar/zincir_kontrol.sh s9_kaynak.jpg kapak.png — çıkış 2 = teslim yok.
+⛔ VE AYNI FİZİK [P1-i → DERS 30]: kapak, filmin negatif çekirdeğinin HER maddesini
+   taşır. Çekirdeğin yasakladığı hiçbir şey (dev Dünya · gündüz yıldız ·
+   sci-fi afiş estetiği) kapakta "afiş için" serbest değildir. Kapağa özgü
+   tek ek "başlık bandını boş bırak" cümlesidir.
 ```
 
 ## 2.3 BAŞLIK METNİ — sayılarla

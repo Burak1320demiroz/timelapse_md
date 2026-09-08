@@ -9,22 +9,29 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       4
-ÖLÇÜLEN FİLM      4
-TAM ÖLÇÜLEN       3     (6 merceğin 6'sı da koşulmuş)
-ÜRETİLEN FİLM     4
+TOPLAM FİLM       7
+ÖLÇÜLEN FİLM      6
+TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
+SEKİZ MERCEKLE    2     (THE LONG DAY · THE DUST YEAR — ikisi de RUN INCOMPLETE)
+ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
+ÜRETİLEN FİLM     6
+YAZILDI, ÜRETİLMEDİ 1   (BEFORE NIGHTFALL — plan + SPEC hazır, araç kapısı koşulmadı)
 ```
 
 ## TAMLIK MATRİSİ
 
-Bir film "tam ölçüldü" sayılmak için altı merceğin altısını da görmelidir.
+Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelidir.
+⑦ ve ⑧ 07.09.2026'da açıldı; önceki dört filmin hiçbiri bu ikisiyle ölçülmedi.
 
-| Film | ① KARE | ② İNŞA | ③ ZAMAN | ④ TESLİM | ⑤ DEVAM | ⑥ GEÇİŞ | Tam |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **THE MOUNTAIN DOOR** | Ⓥ 1,1 | ⛔ belgesiz | **3,6** | ⛔ belgesiz | Ⓥ 0,2 | ⛔ belgesiz | **6/6** |
-| **THE NARROW LOT** | Ⓥ 6,0 | ⛔ belgesiz | **4,2** | ⛔ belgesiz | Ⓥ 5,6 | ⛔ belgesiz | **6/6** |
-| THE LONG SHADOW v1 | Ⓥ 3,3 | Ⓥ 0,4 | Ⓥ 4,3 | Ⓥ 2,7 | ❌ | ❌ | **4/6** |
-| THE CLOSING SPAN | 1,0 | Ⓥ 0,0 | 1,3 | Ⓥ 5,4 | Ⓥ 0,0 | Ⓥ 1,6 | **6/6** |
+| Film | ① KARE | ② İNŞA | ③ ZAMAN | ④ TESLİM | ⑤ DEVAM | ⑥ GEÇİŞ | ⑦ İŞ | ⑧ YÖNTEM | Tam |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **THE LONG DAY** | Ⓥ 6,4 karesiz | ⛔ belgesiz | **7,0** | ⛔ belgesiz | Ⓥ 5,8 karesiz | ⛔ belgesiz | Ⓥ 4,4 karesiz | ⛔ belgesiz | **8/8** · 8'i de RUN INCOMPLETE |
+| **THE MOUNTAIN DOOR** | Ⓥ 1,1 | ⛔ belgesiz | **3,6** | ⛔ belgesiz | Ⓥ 0,2 | ⛔ belgesiz | ❌ | ❌ | **6/8** |
+| **THE NARROW LOT** | Ⓥ 6,0 | ⛔ belgesiz | **4,2** | ⛔ belgesiz | Ⓥ 5,6 | ⛔ belgesiz | ❌ | ❌ | **6/8** |
+| THE LONG SHADOW v1 | Ⓥ 3,3 | Ⓥ 0,4 | Ⓥ 4,3 | Ⓥ 2,7 | ❌ | ❌ | ❌ | ❌ | **4/8** |
+| THE CLOSING SPAN | 1,0 | Ⓥ 0,0 | 1,3 | Ⓥ 5,4 | Ⓥ 0,0 | Ⓥ 1,6 | ❌ | ❌ | **6/8** |
+| **THE DUST YEAR** | Ⓥ 1,3 karesiz | ⛔ belgesiz 0,9 | 4,0 | ⛔ belgesiz 2,1 | Ⓥ 4,0 karesiz | ⛔ belgesiz 6,6 | Ⓥ 1,3 karesiz | ⛔ belgesiz **0,0** | **8/8** · 7'si RUN INCOMPLETE |
+| BEFORE NIGHTFALL | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ |
 
 ```
 ⚠️ THE LONG SHADOW v1'in ⑤ ve ⑥'sı KOŞULMADI çünkü o iki mercek film
@@ -35,6 +42,13 @@ Bir film "tam ölçüldü" sayılmak için altı merceğin altısını da görme
      ⑥'nın konusu: "cut 1 to cut 2 reverses time entirely" (③ kat.7)
    İki mercek de v1'de ayrı ayrı sorulsaydı bu bulgular DAHA ERKEN ve
    DAHA NET çıkardı. Açılma sebepleri budur.
+
+⚠️ ⑦ İŞ ve ⑧ YÖNTEM dört filmin dördünde de KOŞULMADI — 07.09.2026'da,
+   proje sahibinin isteğiyle açıldılar: "durmadan inşa" ve "her parça
+   sıfırdan, yapımı görünerek". Malzemeleri eski raporlarda zaten var:
+     ⑦'nin konusu: "workers hold frozen poses for the whole clip" (① kat.8)
+     ⑧'in konusu: ② APPEARING hükmü dört filmde dört kez — ama hangi PARÇA
+                  belirdi, hiçbir rapor adıyla yazmadı. ⑧ onu adıyla yazar.
 ```
 
 ```
@@ -48,6 +62,26 @@ Bir film "tam ölçüldü" sayılmak için altı merceğin altısını da görme
 ```
 
 ```
+🔴 THE DUST YEAR — ALTINCI FİLM · İLK MARS SAHASI · ⑧ DEPONUN EN DÜŞÜK SKORU
+   ⛔ Film ARAÇ KAPISI KOŞULMADAN üretildi; üretim günlüğü hâlâ "DURUM ⛔ BOŞ".
+      İzi ölçülebilir: ① dört istasyon grubu (tek istasyon beyan edilmişti) ·
+      teslim ızgarası 6·8·4·4·6·4·10·4·6·10 = 62,0 sn, plan 60,0 idi
+      (S1↔S2 yer değiştirmiş, S9 8,0 → 10,0).
+   ⛔ Düşen: ⑧ APPEARED 0,0/10 — SEKİZ elemanın SEKİZİ "INCOMPLETE at NEVER".
+      Yeni INSAAT_YONTEMI kılavuzunun bütün amacı buydu ve plan ona uymuştu;
+      sonuç THE LONG DAY'den (1/9 MADE) DAHA KÖTÜ → DERS 36.
+      ② DIFFERENT·APPEARING (altıncı kez) · ⑦ PARKED (on klibin sekizi %100
+      boş) · ⑤ A SET REBUILT EACH TIME · ⑥ METRONOM (BEŞİNCİ kez — ızgara
+      varyanslı olduğu hâlde → DERS 44) · ④ COST/FINAL BEAT FAIL.
+   ⭐ Tutan: ⑥ TEXT AND BRANDING 10/10 · ⑤ VEGETATION AND WATER 10/10 ·
+      ⑥ CUT MECHANICS 10/10 · DIRECTION 10/10 · ③ "About one year" —
+      filmden okunan süre plandaki 1 Mars yılını TUTTU.
+   ⭐ Kimse yürüyen insan bildirmedi: DERS 33'ün pozitif yarısı ("No people
+      are present.") TUTTU. İnsan makinenin içinden geldi → DERS 41.
+   → DERSLER.md: DERS 35-44 · DERS 34'ün kilidi ölçüldü ve düştü.
+```
+
+```
 ✅  koşuldu, skor tabloda
 Ⓥ   koşuldu ama mod V (ön koşu) — tamlık için sayılır, skor bağlayıcı değil
 ❌  koşulmadı
@@ -57,6 +91,44 @@ Bir film "tam ölçüldü" sayılmak için altı merceğin altısını da görme
 ## DURUM
 
 ```
+BEFORE NIGHTFALL — YEDİNCİ FİLM · ⛔ HENÜZ ÜRETİLMEDİ
+   ızgara 6 × 8,0 = 48,0 sn + kapak 5,0 · ⛔ DÜZ IZGARA (proje sahibi kilidi)
+   ⭐ İLK KARA DELİK SAHASI · havasız kayaç ova · saha kartı YOK
+   ⭐ FORMATI İLK KOŞAN FİLM: İKİ KEYFRAME ZİNCİRİ — 7 görsel · 6 klip · her
+     klip iki onaylı kareye kilitli; dikişin iki yakası AYNI KARE.
+     08.09.2026'da bu yöntem DEPONUN FORMATI oldu [KILAVUZ_REHBERI §2.7];
+     bu film onun ilk uygulamasıdır. Kesme artık zaman sıçraması değil:
+     film TEK GÜNDÜR (12,0 yerel saat).
+   plan ✅ · QA_SPEC ✅ · KAPAK ✅ · üretim günlüğü ⛔ AÇILMADI (üretim günü açılır)
+   ⛔ KAPI: BLOCK ×1 (süre eşitliği — BİLİNÇLİ, plan §1.2) + FIX ×8
+     (7'si prompt_kontrol §9 ↔ DERS 35 çelişkisi · 1'i ölçülmemiş kutu seti)
+   ⛔ ÜRETİM AÇILMAZ: araç kapısı yedi ölçümü koşulmadı [ARAC_KARTLARI §4].
+     İlk ölçüm bu filmde VAR/YOK sorusudur — kutu seti {4,6,8} çıkarsa 8,0 sn
+     tek klipte teslim edilemez (tavan 7,00 sn) ve ızgara yeniden açılır.
+     ⭐ SEKİZİNCİ SORU ARTIK KILAVUZDA [ARAC_KARTLARI §4 ölçüm 8]: araç İKİ
+     KAREYLE (ilk+son) çalışıyor mu? Çalışmıyorsa bu FORMAT o araçta
+     üretilmez — plan düşürülmez, araç değişir.
+   ⭐ BU FİLM ÜÇ ÖLÇÜLMEMİŞ ŞEYİ İLK KEZ SINAR: DERS 36'nın oran kapısı
+     (tam hâl/ara hâl < 1) · zincirin GEOMETRİ kanalı [A3-d] · DERS 44'ün
+     tersi (kusursuz dikişte düz ızgara ⑥'yı düşürür mü).
+   → dikey_shorts/BEFORE_NIGHTFALL/ · ölçüm yok, satır yok: mercek tablolarına
+     film ÜRETİLMEDEN satır yazılmaz [kart Q ön koşulu].
+
+THE LONG DAY
+   ızgara 10 sahne · plan 6·4·6·4·6·6·8·4·6·10 · ⛔ KURGU 10 × 6,0 DÜZ kesildi
+   ⭐ İLK UZAY SAHASI · İLK SEKİZ MERCEKLİ ÖLÇÜM · kapı üretimden ÖNCE ✅ GO
+   ÜRETİLDİ ✅ · 8/8 mercek koşuldu ✅ · ⛔ SEKİZİ DE RUN INCOMPLETE (karesiz/belgesiz)
+   ⛔ ÜRETİM GÜNLÜĞÜ YOK — plan ile film ayrıştı (astronot · güneş kadrajda ·
+     dikey habitat · ikiz kule) ve sebebi kayıtta değil [DERS 28]
+   ⭐ GEÇEN: ① TIMELAPSE (kamera·kadraj·çapa·istasyon 10/10) · ⑤ SAME WORLD +
+     kanıt nesnesi BULUNDU (kaya + krater) · ④ ONE THING ilk kez bulundu ·
+     ③ SEASON CARRIER 10 mevsimsiz sahada · ⑥ TIME
+   ⛔ DÜŞEN: ② DIFFERENT·APPEARING (5.) · ③ NOT IN ONE DIRECTION (güneş
+     kadrajda, gölge donuk) · ⑥ METRONOM (4.) · ⑦ PARKED · ⑧ APPEARED 1/9 ·
+     ① PEOPLE 0 · SURFACE 0 · beş mercekte END CARD DIFFERENT
+   → KARAR: yayınlanmaz · yeniden üretilmez · Dersler 28-34 ·
+     RAPORLAR/THE_LONG_DAY.md §5
+
 THE MOUNTAIN DOOR
    ızgara 5 × 6,0 (DÜZ — proje sahibi kilidi) · depo İÇİNDE yazıldı, GPT yok
    ⭐ KAPI ÜRETİMDEN ÖNCE KOŞULDU: ✅ GO — deponun dört filminde İLK KEZ

@@ -1,6 +1,6 @@
-# 🔬 ARAŞTIRMA — dört derin araştırma promptu
+# 🔬 ARAŞTIRMA — sekiz derin araştırma promptu
 
-> Bu klasör **bilgi üretmez, bilgi İSTER.** İçindeki dört dosya, harici bir
+> Bu klasör **bilgi üretmez, bilgi İSTER.** İçindeki sekiz dosya, harici bir
 > derin araştırma botuna (ChatGPT Deep Research · Gemini Deep Research ·
 > Perplexity Deep Research · Claude Research) **kesilmeden yapıştırılacak**
 > bloklardır.
@@ -9,10 +9,15 @@
 > vermemektir [D-a]. **Her prompt kendi kendine yeter** — bağlamı, kısıtı ve
 > ölçülmüş arızayı kendi içinde taşır. Bu yüzden dördü de birbirini tekrar eder;
 > tekrar bir savurganlık değil, kendi kendine yetmenin maliyetidir.
+>
+> ⭐ **İKİ KUŞAK VAR.** A1–A4 (03.09.2026) ilk dört filmin arızalarından doğdu
+> ve koşuldu. **A5–A8 (07.09.2026 yazıldı · 08.09.2026 KOŞULDU)** THE LONG DAY'in sekiz mercekli ölçümünden
+> doğdu, HENÜZ KOŞULMADI, ve her biri **yazılmamış bir kılavuzu yazdırmak**
+> için vardır — sonucu doğrudan `kilavuzlar/` altına yeni bir dosya olarak iner.
 
 ---
 
-# 1. 🎯 DÖRT PROMPT NEDEN BU DÖRDÜ
+# 1. 🎯 PROMPTLAR NEDEN BUNLAR
 
 Konular hevesten değil, **QA/RAPORLAR'daki ölçülmüş arızalardan** doğdu.
 Her prompt bir hükmün karşısına konmuştur:
@@ -23,9 +28,26 @@ Her prompt bir hükmün karşısına konmuştur:
 | A2 | `A2_RITIM_VE_TUTUNMA.md` | ⑥ **METRONOM** · RHYTHM 0/10 · "hâlâ yavaş" | DERS 13 · CLOSING SPAN |
 | A3 | `A3_ZINCIR_VE_TUTARLILIK.md` | ② **FARKLI** · ⑤ **NONE FOUND** · ① VANTAGE GROUPS 8 | DERS 5 · 12 · 15 |
 | A4 | `A4_GERCEKLIK_IMZASI.md` | ③ zaman okunmuyor · mevsim taşıyıcısı yok · yıldız izi | DERS 14 · 16 |
+| A5 | `A5_INSA_YONTEMI.md` ⭐ | ⑧ **APPEARED · 1/9 MADE** · ② DIFFERENT beş filmin beşinde · ⑦ PARKED | LONG DAY · DERS 33 |
+| A6 | `A6_SANTIYE_HAREKETI.md` | ⑦ **PARKED** · boş aralık %100 · ① PEOPLE 0 · SURFACE TRUTH 0 | LONG DAY |
+| A7 | `A7_ARAC_PROFILI.md` | araç kapısı beş filmde koşulmadı · negatif sızdı · süre tutmadı | DERS 23 · 31 · 32 · 33 |
+| A8 | `A8_KURGU_VE_TESLIM.md` | ⑥ **METRONOM** dördüncü kez · beş mercekte END CARD DIFFERENT | DERS 13 · 31 |
 
 ⭐ **A3 en yüksek kaldıraçlıdır.** İki film de aynı sebepten düştü ve sebep
 bir üretim aracıdır, bir yazım kuralı değil. Tek prompt koşacaksan A3.
+
+⭐ **Yeni dörtlüde A5 en yüksek kaldıraçlıdır.** ② · ⑦ · ⑧ aynı şeyi üç
+açıdan söylüyor: hiçbir şey inşa edilmiyor, her şey kesmede beliriyor. A5 o üç
+hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6.**
+
+```
+✅ 08.09.2026: DÖRDÜ DE KOŞULDU, DENETLENDİ VE HEDEF KILAVUZLAR YAZILDI.
+   INSAAT_YONTEMI_KILAVUZU · SANTIYE_HAREKETI_KILAVUZU · ARAC_KARTLARI ·
+   KURGU_VE_TESLIM_KILAVUZU — dördü de kilavuzlar/ altında.
+   ⛔ AMA: raporlardan tek bir SAYI doğrudan inmedi. Üç sayı bu depoda
+      yeniden hesaplandı ve düştü, iki ffmpeg komutu koşmadı, bir eşik kör
+      çıktı. Ayrıntı: SONUCLAR/A5-A8_DENETIM.md
+```
 
 ## 1.1 📌 KOŞU DURUMU — 03.09.2026
 
@@ -35,6 +57,12 @@ bir üretim aracıdır, bir yazım kuralı değil. Tek prompt koşacaksan A3.
 | A2 | `SONUCLAR/A2_GEMINI_HAM.md` | Gemini DR | ⭐ akademik | evet (A2-a…e) |
 | A3 | `SONUCLAR/A3_GEMINI_HAM.md` | Gemini DR | akademik + araç dokümanı | evet (A3-a…f) ⭐ en ağır |
 | A4 | `SONUCLAR/A4_GEMINI_HAM.md` | Gemini DR | ⭐ akademik | evet (A4-a…f) |
+| P1 | `SONUCLAR/P1_PLAN_OKUMA_HAM.md` | insan · profesyonel timelapse yapımcısı | uzman okuması · THE LONG DAY v0 PLANI | evet (P1-a…k) — ⛔ ölçüm değil, plan okuması |
+| A5 | ✅ koşuldu | Gemini | 08.09.2026 | ✅ denetlendi → `A5-A8_DENETIM.md` |
+| A6 | ✅ koşuldu | Gemini | 08.09.2026 | ✅ denetlendi → `A5-A8_DENETIM.md` |
+| A7 | ✅ koşuldu | Gemini | 08.09.2026 | ✅ denetlendi → `A5-A8_DENETIM.md` |
+| A8 | ✅ koşuldu | Gemini | 08.09.2026 | ✅ denetlendi → `A5-A8_DENETIM.md` |
+| P2 | `SONUCLAR/P2_LONG_SHADOW_OKUMA_HAM.md` · `P3_MOUNTAIN_DOOR_…` · `P4_NARROW_LOT_…` · `P5_CLOSING_SPAN_…` | aynı yapımcı | uzman okuması · dört ÜRETİLMİŞ filmin planı + QA'sı | evet (P2-a…l · tek kod serisi) — ⛔ ölçüm değil, okuma |
 
 ```
 ⛔ DÖRDÜ DE TEK BOTA KOŞULDU. §2'nin "aynı promptu iki bota koş" uyarısı
@@ -110,5 +138,11 @@ arastirma/
 ├── A2_RITIM_VE_TUTUNMA.md        kanca · kesme varyansı · loop · ses
 ├── A3_ZINCIR_VE_TUTARLILIK.md    ⭐ aynı bina · aynı kamera · aynı hız
 ├── A4_GERCEKLIK_IMZASI.md        gerçek timelapse fiziği · AI işaretleri
+│
+│   ── ikinci kuşak · 07.09.2026 yazıldı · 08.09.2026 ✅ dördü de koşuldu ──
+├── A5_INSA_YONTEMI.md         ⭐ eleman eleman yapım sırası · ara hâller
+├── A6_SANTIYE_HAREKETI.md        ACTIVITY kaynağı · iz · yüzey kanıtı
+├── A7_ARAC_PROFILI.md            aracın ölçülmüş davranışı · test protokolü
+├── A8_KURGU_VE_TESLIM.md         kesme · dikiş · final · kapak · teslim QC
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```

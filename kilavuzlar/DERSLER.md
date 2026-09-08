@@ -40,6 +40,17 @@
 | 25 | ⭐ Kanıt nesnesi yazmak yetmiyor — zincirsiz çapa ilk dikişte ölür | MOUNTAIN DOOR · ⑤ 0,2/10 NONE FOUND | ✅ ölçüldü |
 | 26 | Prompta yazılan MEVSİM, plandaki mevsimi üretmiyor | MOUNTAIN DOOR · ③ SEASON ORDER 0/10 | ✅ ölçüldü |
 | 27 | ⭐ Belgeyi ERKEN yazmak DERS 17'yi çözmedi — eksik olan YORDAM | MOUNTAIN DOOR · 6 merceğin 5'i eksik girdi | ✅ ölçüldü |
+| 28 | ⭐ Üretim günlüğü yoksa QA arızayı ADLANDIRAMAZ — plan ile film ayrıştı | LONG DAY · ② ⑦ ⑧ · plan dışı yapı, insan, güneş | ✅ ölçüldü |
+| 29 | ⭐ Yordam da koşmadı; koşu PAKETLENİR (qa_paket.sh) | LONG DAY · 8 merceğin 8'i RUN INCOMPLETE | ✅ ölçüldü |
+| 30 | Kapak filmin dünyasından ayrı üretildi → KAPAK KANITI | LONG DAY · 5 mercekte END CARD DIFFERENT | ✅ ölçüldü |
+| 31 | Varyanslı ızgara planda kaldı, kurgu düz kesti → kesme_kontrol.sh | LONG DAY · ⑥ 10 × 6,0 · METRONOM (4.) | ✅ ölçüldü |
+| 32 | Gölge süpürmesi üçüncü kez üretilmedi — araç kapısının 3. sorusu | LONG DAY · ③ SUN DIRECTION 4 · güneş kadrajda | ✅ ölçüldü |
+| 33 | ⭐ YOK yazılan özne VAR oldu — koşullu cümle özne üretir (P1-e ölçüldü) | LONG DAY · ① PEOPLE 0 · astronotlar | ✅ ölçüldü |
+| 34 | Fotoğrafik korpusu olmayan saha CGI'ye düşer — korpus cümlesi | LONG DAY · ① SURFACE TRUTH 0 | ✅ ölçüldü |
+| 45 | ⭐ Final beat (Teslim) zifiri karanlıkta bitemez, bitiş görülmelidir | BEFORE NIGHTFALL · ④ TESLİM 2.8/10 | ✅ ölçüldü |
+| 46 | Vinç kancası kadraj dışından sarkamaz, yük yolu kopamaz | BEFORE NIGHTFALL · ① KARE · ② İNŞA | ✅ ölçüldü |
+| 47 | Zaman sıkışıyorsa (motion blur), gölge de süpürmelidir | BEFORE NIGHTFALL · ③ ZAMAN 4.2/10 | ✅ ölçüldü |
+| 48 | ⭐ Malzeme şantiyede yoktan var olamaz, kaynağı görünmelidir | BEFORE NIGHTFALL · ⑧ YÖNTEM 2.5/10 | ✅ ölçüldü |
 
 ---
 
@@ -796,6 +807,637 @@ NEREYE      AGENTS.md kart Q · QA/00_README.md
 
 ---
 
+---
+
+## DERS 28 — ⭐ Üretim günlüğü yoksa QA arızayı ADLANDIRAMAZ
+
+```
+NEREDE      THE LONG DAY · bütün film · ② OBSERVED STAGES · ⑦ · ⑧ ledger
+NE OLDU     Plan: iki yatay gömülü modül + iki güç direği + kafes direk;
+            S0-S8 insansız; güneş kamera arkasında; S9 gece → S0 sabahı;
+            ızgara 6·4·6·4·6·6·8·4·6·10.
+            Ekran: dikey merkez habitat (0:24), ikiz kule (0:30), radar
+            çanağı (0:42), net astronotlar (0:12 · 0:24), güneş diski
+            kadrajda (C6 · C7 · C9), gece biten final, 10 × 6,0 kurgu.
+            ⑧ 9 elemanın 8'i APPEARED; ⑦ beş büyüme olayının beşi sebepsiz.
+NEDEN       ⛔ BİLİNMİYOR — ve ders tam olarak bu. Üretim günlüğü yok:
+            hangi araç, promptlar birebir mi, hangi kare hangi kareden
+            türedi, zincir_kontrol koşuldu mu, araç kapısı koşuldu mu.
+            Prompt kapısı GO vermişti. Ekrandaki film o promptların filmi
+            değil — ama "prompt tutmadı" mı, "prompt kullanılmadı" mı, "araç
+            görmezden geldi" mi ayrılamıyor. Beş ders bu yüzden tek
+            mekanizmaya inemiyor.
+KİLİT       Film klasöründe <FILM>_URETIM_GUNLUGU.md, klip başına tek satır:
+              S<n> · araç+ayar · kaynak kare (dosya) · prompt: birebir /
+              değiştirildi (ne) · zincir_kontrol: geçti/düştü · kanıt
+              nesnesi elle: ✓/✗ · ffprobe süre
+            ⛔ Günlüksüz filme QA paketi açılmaz: araclar/qa_paket.sh durur.
+KALDIRDIĞI  "Üret, sonra bakarız" hızı. Karşılığı: ilk kez bir arıza
+            promptla üretim arasında adreslenebilecek. [D-f]
+NEREYE      araclar/qa_paket.sh (kapı) · araclar/sayac.sh (sayım) ·
+            AGENTS kart B (şablon) · KILAVUZ_REHBERI §8
+```
+
+## DERS 29 — ⭐ Yordam da koşmadı; koşu PAKETLENİR
+
+```
+NEREDE      THE LONG DAY · 8 merceğin 8'i · her raporun ilk satırı
+NE OLDU     ① ⑤ ⑦ "still frames not supplied" · ② ⑧ "specification not
+            supplied" · ④ "plan and cover not supplied" · ⑥ "plan not
+            supplied" (+ses NOT AUDIBLE). Yalnız ③ tam (girdisi tek).
+            kare_al.sh BEŞİNCİ filmde de koşulmadı. SPEC, plan ve KAPAK.md
+            üretimden ÖNCE hazırdı.
+NEDEN       DERS 17 belgeyi erken yazdırdı → yetmedi (27). DERS 27 "girdi
+            satırı" yordamını yazdı → yetmedi (bu). Üçüncü ölçüm aynı şeyi
+            söylüyor: koşu bir sohbet penceresinde, elle yapılıyor; belge
+            ile yordam ayrı yerlerde duruyor ve koşan kişi o anda ikisine
+            de bakmıyor. DERS 12: yazılı kural kapı değildir — yazılı
+            YORDAM da değil.
+KİLİT       bash araclar/qa_paket.sh <film_klasoru> <teslim.mp4> [kapak]
+            → kare_al.sh'ı koşar, sekiz mercek için tek dosya üretir:
+              "verilen girdiler:" satırı + eklenecek dosyaların tam yolu +
+              rubriğin tam metni. Koşan kişi dosyayı açıp yapıştırır; başka
+              hiçbir şeye bakmaz.
+            ⛔ Raporun ilk satırı hâlâ RUN INCOMPLETE diyorsa koşu paketten
+               yapılmamıştır; tekrarlanır.
+KALDIRDIĞI  Hiçbir şey. Yordam aynı, yalnız artık bir dosyada. [D-f]
+NEREYE      araclar/qa_paket.sh · AGENTS kart Q adım 0 · QA/00_README §2
+```
+
+## DERS 30 — Kapak filmin dünyasından ayrı üretildi → KAPAK KANITI
+
+```
+NEREDE      THE LONG DAY · 1:00,0–1:05,0 · ① ② ③ ④ ⑤ END CARD: DIFFERENT
+NE OLDU     ④: "end card portrays a completely different dual-mound
+            structure with Earth prominent in the sky" · ⑤: "lower,
+            completely different vantage point" · ⑥ HAND-OVER 7: "different
+            camera perspective and render style".
+            THE_LONG_DAY_KAPAK.md üretimden önce tam reçeteyi vermişti:
+            S9 klibinden ffmpeg -ss 54.0 kare + başlık dizimi + "aynı fizik".
+            P1-i tam bunu uyarmıştı (dosya kütüphanesindeki afiş).
+NEDEN       Kapak ayrı bir üretim olarak çekici: afiş estetiği tıklama
+            vaat ediyor. MUZIK_VE_KAPAK §2.2 ve KAPAK.md yazılıydı; yazılı
+            kural kapı değildir [DERS 12]. DERS 4 kartı beyan ettirmişti;
+            beyan edilen kart yine başka bir dünya gösterdi.
+KİLİT       KAPAK KANITI — FİNAL KARE KANITI'nın kardeşi, teslimden önce:
+              ffmpeg -ss <kaynak sn> -i teslim.mp4 -frames:v 1 s9_kaynak.jpg
+              bash araclar/zincir_kontrol.sh s9_kaynak.jpg kapak.png
+            Çıkış 2 = kapak filmden türememiş → TESLİM EDİLMEZ. Başlık
+            bandı SSIM'i düşürür; kenar şeritleri (çapaların yeri) tutmalı.
+KALDIRDIĞI  Afiş kapağın tıklama gücü — P1-i'de zaten yazılmıştı. [D-f]
+NEREYE      MUZIK_VE_KAPAK §2.2 · AGENTS kart Y adım 2 · KILAVUZ_REHBERI §8 adım 9
+```
+
+## DERS 31 — Varyanslı ızgara planda kaldı, kurgu düz kesti
+
+```
+NEREDE      THE LONG DAY · ⑥ CUT INTERVALS 6,0 × 10 · RHYTHM 3 · METRONOME
+NE OLDU     Plan §2: 6·4·6·4·6·6·8·4·6·10 = 60,0 — DERS 13 uygulanmıştı ve
+            prompt_kontrol.py GO vermişti. Teslim: her klip 6,0. ⑥: "every
+            clip held for exactly 6.0 seconds … metronomic edit" — DÖRDÜNCÜ
+            METRONOM (CLOSING SPAN · NARROW LOT · MOUNTAIN DOOR · LONG DAY).
+            ⭐ İlk üçünde plan düzdü; bu kez plan VARYANSLIYDI ve kurgu düz.
+NEDEN       SÜRE sütunu yalnız planın tablosunda yaşıyordu. Kapı planı
+            denetler, teslim dosyasını denetlemez. Klipler 6,0 üretildi
+            (araç ayarı) ve kırpılmadan yan yana dizildi — planın "SONDAN
+            kırp" notu okunmadı [DERS 12 yine].
+KİLİT       bash araclar/kesme_kontrol.sh <teslim.mp4> <plan.md>
+            → planın SÜRE sütunundan beklenen kesme listesi · ffmpeg sahne
+              tespitiyle teslimdeki kesmeler · fark > 0,25 sn = ⛔.
+            Yayından ÖNCE koşulur (kart Y). Çıkış 1 = kurgu SÜRE sütunundan
+            yeniden kesilir.
+KALDIRDIĞI  Hiçbir şey. Kural DERS 13; bu yalnız denetim. [D-f]
+NEREYE      araclar/kesme_kontrol.sh · AGENTS kart Y · KILAVUZ_REHBERI §2.2
+```
+
+## DERS 32 — Gölge süpürmesi üçüncü kez üretilmedi; araç kapısının üçüncü sorusu
+
+```
+NEREDE      THE LONG DAY · ③ SUN DIRECTION 4 · TIME RATE 4 · CUT AS TIME JUMP 2
+            0:00 · 0:06 · 0:24 "shadows do not move at all" ·
+            0:30 · 0:48 güneş diski kadrajda, gölge 120° zıplıyor · 0:42 geri
+NE OLDU     Plan: kamera 350°'ye bakar, güneş güneyden geçer, HİÇBİR karede
+            kadrajda değil; on I2V'nin onunda başlangıç VE bitiş azimutu
+            dereceyle [DERS 18 uygulandı]. Ekran: üç klipte güneş diski
+            kadrajda, gölge klip içinde donuk, kesmeler arası ileri-geri.
+            Üçüncü ölçüm: NARROW LOT 0° (açılar yalnız görselde) → MOUNTAIN
+            DOOR 8/10 (I2V'de yazıldı, tuttu) → LONG DAY 0° (I2V'de yazıldı,
+            tutmadı). Aynı cümle bir araçta tutuyor, başkasında tutmuyor —
+            DERS 23'ün gölge hâli.
+NEDEN       Gölge süpürmesi, kamera kilidi gibi, promptun değil ARACIN
+            özelliği. Ve "sun azimuth 100 degrees" yazmak modele güneşi
+            ÇİZ demek olabilir: güneş kadrajda üç kez belirdi.
+KİLİT       ① ARAÇ KAPISI üçüncü soru: test klibinde bir nesnenin gölgesi
+              ilk ve son karede AYNI AÇIDA mı? Aynıysa o araçla bu format
+              üretilmez [DERS 23 ile aynı kapı].
+            ② Güneş kameranın arkasındaysa pozitif kilit: "the sun stays
+              behind the camera for the whole shot; its only sign is the
+              shadows" — "sun azimuth" satırı kalır ama disk anılmaz.
+            ③ A3-e (hızı kurguda ver) bu araçta ilk denenecek alternatif.
+KALDIRDIĞI  Hiçbir şey; araç kapısına bir soru eklendi. [D-f]
+NEREYE      KILAVUZ_REHBERI §8 adım 0b · §7 · AGENTS kart B
+```
+
+## DERS 33 — ⭐ YOK yazılan özne VAR oldu: koşullu cümle özne üretir
+
+```
+NEREDE      THE LONG DAY · ① PEOPLE 0/10 · 0:12 "Astronaut walks in sharp
+            focus" · 0:24 "multiple astronauts" · ⑦ klip 4 %100 boş:
+            "astronauts inspect the prepared site"
+NE OLDU     Plan S0-S8 insansız. On görsel promptun onunda: "Any suited
+            figure appears only as soft motion streaks…" — çünkü
+            prompt_kontrol.py 'motion streaks' arıyordu (§10 insan kuralı).
+            TIME RATE cümlesi de "the people and the vehicles" diyordu.
+            Model koşulu değil özneyi üretti: astronot, net, yürüyor.
+NEDEN       ⭐ P1-e ÖLÇÜLDÜ: "istemediğin şeyi pozitif cümlede anmak ona
+            hatırlatmaktır." Kapının zorunlu imzası (motion streaks) plana
+            olmayan bir özneyi soktu — kapı, DERS 15'in kilidini insansız
+            sahaya körce taşıdı.
+KİLİT       Kadrajda OLMAYAN özne prompta HİÇ girmez — koşulla, yasakla,
+            "any" ile bile. İnsansız film "No people are present." der ve
+            insan kuralı cümlesini YAZMAZ; prompt_kontrol.py bu beyanı
+            görünce 'motion streaks' aramaz (§10 güncellendi). TIME RATE
+            özne listesi sahadan yazılır [P1-e → bu ders].
+KALDIRDIĞI  Kapının tek kalıplı insan kuralı. Karşılığı: kural sahaya göre
+            iki hâl alıyor. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10 · KILAVUZ_REHBERI §7 · PROMPT_SABLONU §1
+
+⭐ 08.09.2026 — DERSİN KAPANMAMIŞ YARISI BULUNDU (THE DUST YEAR yazılırken)
+   Kapı yalnız İNSANI koruyordu. Aynı mekanizma NESNE için de işliyor ve
+   hiçbir şey onu tutmuyordu:
+       ⛔ "There is no mast and no power unit."
+   Bu cümle AT THIS STAGE bloğunda, üretilmemiş bir filmin taslağında
+   yazıldı ve gözden kaçtı. "no mast" ile "no suited figure" arasında
+   mekanizma farkı yoktur: isim tokeni yüksek ağırlıkla aktive olur, "no"
+   görsel bir karşılık bulmaz.
+   ⭐ ÖLÇÜLDÜ — kapı eklenince ÜRETİLMİŞ dört filmin dördü de düştü:
+        THE_LONG_DAY 7 sahne · THE_CLOSING_SPAN 4 · THE_LONG_SHADOW 4 ·
+        THE_MOUNTAIN_DOOR 4 · THE_NARROW_LOT 0
+      En çok düşen film, negatif özneden astronot üreten filmin ta kendisi.
+   KİLİT  Boşluk POZİTİF tarif edilir: orada NE VARSA o yazılır.
+          ⛔ "there is no mast"
+          ✅ "the mast footing is a bare sintered disc flush with the crust"
+   NEREYE prompt_kontrol.py §10a — AT THIS STAGE'de "there is no X" → FIX
+```
+
+## DERS 34 — Fotoğrafik korpusu olmayan saha CGI'ye düşer
+
+```
+NEREDE      THE LONG DAY · ① SURFACE TRUTH 0/10 · 0:00 "entire site is a CGI
+            rendering, miniature appearance, artificial architectural
+            visualization lighting, clean uniform textures"
+NE OLDU     Negatif: "no CGI aesthetic, no science-fiction film look, no
+            miniature look, 35mm film grain" — dört filmde şehir/dağ
+            sahasında tutan çekirdek, Ay'da tutmadı. İniş aracında logo
+            şeridi + yıldız piktogramı (TEXT 6) — metin yasağı da düştü.
+NEDEN       "Photorealistic documentary construction photograph" şehir
+            şantiyesinde bir korpusa oturur (milyonlarca şantiye fotoğrafı).
+            Ay yüzeyinde modelin korpusu Apollo fotoğrafları DEĞİL, bilim-
+            kurgu konsept sanatı ve oyun renderı. Yasak boşluğu doldurmaz
+            [D-c]; pozitif referans yoktu.
+KİLİT       Fotoğrafik korpusu olmayan her sahada (Ay · derin deniz · kutup
+            içi) prompt gerçek bir fotoğraf korpusunu POZİTİF adlandırır:
+              "looks like a 1970s surface photograph from a hand-held
+               70 mm film camera: flat grey regolith, blown highlights,
+               razor-edged black shadows, slight grain, no haze, no depth
+               fog, no rim light"
+            ve SITE TEXTURE bloğu render çukurunu kapatacak somut kirle
+            dolar (iz · toz filmi · bant izi · çizik).
+KALDIRDIĞI  Hiçbir şey; bir cümle ekleniyor.
+🔻 08.09.2026 KİLİT ÖLÇÜLDÜ VE DÜŞTÜ — THE DUST YEAR · ① SURFACE TRUTH 0/10.
+            Sebep ve yeni kilit aşağıda, "İKİ DERSİN HÜKMÜ DEĞİŞTİ" bloğunda.
+NEREYE      KILAVUZ_REHBERI §9.1 · PROMPT_SABLONU §1
+```
+
+---
+
+## 🔴 THE DUST YEAR — ALTINCI FİLM, İLK UZAY FİLMİ · 08.09.2026
+
+```
+⛔ ÖNCE OKUNACAK — BU FİLMİN SKORLARI NASIL OKUNUR
+   Film, ARAÇ KAPISI KOŞULMADAN üretildi. Üretim günlüğü şu anda hâlâ
+   "DURUM ⛔ BOŞ" yazıyor: kutu seti ölçülmedi, geriye zincir kurulmadı,
+   yedi teslim ölçümü koşmadı. Plan bunu §1'de ve QA_SPEC §7'de ⛔ ile
+   yazmıştı.
+   Bunun ölçülebilir izi teslim dosyasında duruyor:
+     · ① VANTAGE GROUPS = 4 (A: 7 klip · B: klip 1 · C: klip 3 · D: klip 5)
+       Tek istasyon beyan edilmiş bir filmde dört istasyon grubu = zincir yok.
+     · Teslim ızgarası 6·8·4·4·6·4·10·4·6·10 = 62,0 sn
+       Plan ızgarası    6·4·8·4·6·4·10·4·6· 8 = 60,0 sn
+       S1↔S2 süreleri yer değiştirmiş, S9 8,0 → 10,0 uzamış. kesme_kontrol.sh
+       koşsaydı 9 kesmenin 1'ini (2. kesme: 10,00 beklenen, 14,00 bulunan)
+       toleransın 16 katı sapmayla düşürürdü.
+   ⭐ BU YÜZDEN: aşağıdaki dersler "araç zincirsiz koşarsa ne olur"un DEĞİL,
+      "prompt metni tek başına neyi taşır"ın ölçümüdür. Zincire bağlı
+      merceklerin (⑤ ⑧ ve ①'in 2-3-4 satırları) skoru DERS 28 · P2-k gereği
+      mekanizmaya inmez — ama PROMPT METNİNDEN doğan arızalar ayrıştı ve
+      aşağıdadır. Zincir koşulduğunda bu dersler yeniden okunacak.
+
+MOD UYARISI [DERS 17]: sekiz merceğin yedisi RUN INCOMPLETE koştu (belge ya da
+   kare seti verilmedi). Skorlar mod D tablosuna YAZILMAZ. HÜKÜMLER ise
+   filmin kendisine bakarak verildi ve okunur:
+     ① SIX SEPARATE SHOTS · ② DIFFERENT · APPEARING · ③ PASSES BUT NOT IN ONE
+     DIRECTION · ④ STOPS + COST/FINAL BEAT FAIL · ⑤ A SET REBUILT EACH TIME ·
+     ⑥ NEXT · METRONOME · ⑦ PARKED · ⑧ APPEARED (0,0/10)
+
+⚠️ ÇELİŞKİ — YAN YANA DURUR, ORTALANMAZ [kart S]
+   ① kesme listesi (klip süreleri): 6·8·4·4·6·4·10·4·6·10 → kesmeler 6,14,18…
+   ⑥ kesme listesi (doğrudan):      5,13,17,21,27,31,41,45,51,61
+   İki mercek aynı dosyada kesmeleri 1,0 sn kaydırmalı okudu. Hangisinin
+   doğru olduğu ffprobe ile ölçülmedi; ölçülene kadar ikisi de yazılıdır.
+```
+
+### 🔻 İKİ DERSİN HÜKMÜ DEĞİŞTİ
+
+```
+DERS 34 ÖLÇÜLDÜ VE KİLİDİ DÜŞTÜ.
+   34 şunu yazmıştı: "⚠️ KİLİT ÖLÇÜLMEDİ — ilk uzay filminde tutup tutmadığı
+   ① SURFACE TRUTH'tan okunacak." İlk uzay filmi koştu:
+       ① SURFACE TRUTH 0/10 · "the glossy, morphed look of architectural
+       visualisation and generative rendering" · ② GEOMETRIC STABILITY 0/10
+       "boil, warp, and breathe"
+   Kilit uygulanmıştı — on promptun onunda:
+       "It looks like a surface photograph from a hard-mounted engineering
+        camera: flat tan light, fine even grain, no lens flare…"
+   ⭐ NEDEN DÜŞTÜ: 34'ün kendi örneği GERÇEK bir korpusu adlandırıyordu
+      ("1970s surface photograph from a hand-held 70 mm film camera" = Apollo).
+      Ben onun yerine UYDURMA bir kamera yazdım. "hard-mounted engineering
+      camera" diye bir fotoğraf külliyatı yoktur; modelin elinde o ada
+      karşılık gelen tek şey yine renderdır.
+      Mars'ın gerçek korpusu vardır ve promptta SIFIR kez geçiyor:
+      Viking · Pathfinder · Spirit · Opportunity · Curiosity · Perseverance.
+   YENİ KİLİT  Korpus cümlesi VAR OLAN bir külliyatı, ALETİYLE adlandırır.
+               ⛔ "a hard-mounted engineering camera"  (uydurma)
+               ✅ "a Mars rover mast camera frame: flat butterscotch light,
+                  fine sensor grain, slightly crushed blacks, no lens flare"
+               TEST: adı bir arama motoruna yazınca fotoğraf mı çıkıyor,
+               konsept sanatı mı? Fotoğraf çıkmıyorsa korpus yoktur.
+   NEREYE      KILAVUZ_REHBERI §9.1 · INSAAT_YONTEMI_KILAVUZU §4 · PROMPT_SABLONU §1
+
+DERS 33'ÜN NESNE YARISI İKİNCİ KEZ ÖLÇÜLDÜ — bkz. DERS 35. Bu sefer taslakta
+   değil, TESLİM EDİLMİŞ FİLMDE. Kapı "there is no X" kalıbını yakalıyordu;
+   yakalamadığı kalıp NEGATIVE bloğunun nesne listesiydi.
+```
+
+## DERS 35 — ⭐ Metin yasağının NESNE LİSTESİ bir ÖZNE listesidir
+
+```
+NEREDE      THE DUST YEAR · ⑤ 0:13→0:14 "modules on right appear" ·
+            ⑦ GROWTH 0:14.0 "utility modules" · ④ sahne 3 "A rover drives
+            in circles around utility modules"
+NE OLDU     Filmde "module" diye bir eleman YOK. YAPI BIBLE'da yok, aşama
+            merdiveninde yok, hiçbir AT THIS STAGE'de yok.
+            ⭐ ÖLÇÜLDÜ: "module" kelimesi on promptun ONUNDA geçiyor ve
+               ONUNDA DA yalnız NEGATIVE bloğunun içinde:
+               "No readable text … not on the machinery, the rover, the
+                module, the habitat, the panel, the mast, the radiator,
+                the antenna, the dish, the spool, the cradle, the
+                manipulator or the scaffolding."
+            Ekranda bir "utility module" belirdi, 4 saniye durdu, kayboldu.
+NEDEN       Cümlenin dilbilgisel amacı METNİ yasaklamaktı; modelin okuduğu
+            şey on üç nesneden oluşan bir DÖŞEME LİSTESİDİR. DERS 33'ün
+            mekanizması birebir aynı: isim tokeni aktive olur, "not on"
+            görsel bir karşılık bulmaz. Yasak boşluğu doldurmaz [D-c] —
+            ama yasağın içindeki İSİM sahneyi doldurur.
+            ⚖️ TAKASIN YALNIZ BEDELİ ÖLÇÜLDÜ, FAYDASI ÖLÇÜLMEDİ. Bu filmde ⑥
+               TEXT 10/10 geldi — ama altı filmin ALTISINDA da aynı liste var
+               (9-13 nesne adı) ve TEXT skorları 0 · 6 · 6 · 8 · 10 · 10.
+               Yani listenin metni tuttuğu GÖSTERİLEMEDİ; ekrana eleman
+               soktuğu gösterildi. Şüphedeki tarafta olan liste kalkar.
+KİLİT       Metin yasağı HİÇBİR NESNE ADI ANMAZ:
+              ⛔ "No readable text … not on the machinery, the rover, the
+                 module, the habitat, the panel, the mast…"
+              ✅ "No readable text, letters, digits, numbers or symbols
+                 anywhere in the frame, on any surface. Nothing here has
+                 been branded, labelled, numbered or annotated by anyone."
+            Aynı kural NEGATIVE'in tamamı için geçerlidir: yasak cümlesi
+            YAPI BIBLE'da adı geçmeyen bir ismi ANAMAZ.
+KALDIRDIĞI  Yasağı nesneye göre daraltma imkânı. Karşılığı: yasak yüzeye
+            göre yazılıyor ("on any surface"), nesneye göre değil. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10a (yeni kapı) · PROMPT_SABLONU §1
+```
+
+## DERS 36 — ⭐ STRUCTURE bloğu TAM HÂLİ BEYAN eder; AT THIS STAGE onu yalnız niteler
+
+```
+NEREDE      THE DUST YEAR · ⑧ YÖNTEM 0,0/10 · defterdeki SEKİZ elemanın
+            SEKİZİ de "first seen INCOMPLETE at NEVER"
+NE OLDU     Yeni INSAAT_YONTEMI_KILAVUZU'nun bütün amacı ⑧'i kurtarmaktı ve
+            plan ona uydu: dokuz elemanın her biri için %25/%50/%75 ara hâl
+            yazıldı, sayılarla. Sonuç THE LONG DAY'den (1/9 MADE) DAHA KÖTÜ.
+            ⭐ ÖLÇÜLDÜ — on promptta, karakter:
+                 STRUCTURE tam-hâl tarifi   751 (onunda da BİREBİR aynı)
+                 AT THIS STAGE ara hâl      403 ortalama
+                 oran 1,86× · ve tam hâl ÖNDE
+               S0'da bile — sahada hiçbir şey yokken — prompt önce 751
+               karakter boyunca bitmiş üssü (habitat, berm, direk, çanak,
+               reaktör, radyatör, iki dizi) tarif ediyor, sonra 378 karakter
+               "nothing of the base exists" diyor.
+NEDEN       Ara hâl bir NİTELEME değil, bir BEYAN olmak zorunda. Model
+            "Complete, it is: …" cümlesini bir varlık beyanı olarak okur;
+            arkasından gelen "AT THIS STAGE" bir istisna maddesidir ve
+            beyanı silmez. İki metin çeliştiğinde uzun, önde ve olumlu
+            olan kazanır.
+            ⭐ Bu, DERS 5'in (ters inşa) prompt içindeki hâlidir: orada
+               KLİPLER arası tam hâl sızıyordu, burada TEK PROMPTUN İÇİNDE.
+            ⭐ ALTI FİLM ÖLÇÜLDÜ — oran ve ② hükmü:
+                 THE_NARROW_LOT     899 / 835  = 1,08x   ② DIFFERENT·APPEARING
+                 THE_LONG_SHADOW    410 / 276  = 1,48x   ② DIFFERENT·APPEARING
+                 THE_MOUNTAIN_DOOR  708 / 451  = 1,57x   ② DIFFERENT·APPEARING
+                 THE_CLOSING_SPAN   567 / 343  = 1,65x   ② DIFFERENT·APPEARING
+                 THE_DUST_YEAR      751 / 403  = 1,86x   ② DIFFERENT·APPEARING
+                 THE_LONG_DAY      1133 / 439  = 2,58x   ② DIFFERENT·APPEARING
+               ⚠️ NEDENSELLİK KANITLANMADI: altı filmin altısında da oran 1'in
+                  ÜSTÜNDE ve altısında da hüküm aynı — yani KARŞI ÖRNEK YOK,
+                  ama oranı 1'in ALTINA indirilmiş bir film de hiç üretilmedi.
+                  Kapı bu yüzden bir HİPOTEZİ zorlar; ilk oran ≤ 1 filminin
+                  ② hükmü bu dersi ya kanıtlar ya düşürür.
+KİLİT       Görsel promptta o sahnede EKRANDA OLMAYAN eleman TARİF EDİLMEZ.
+            STRUCTURE bloğu iki parçaya ayrılır ve sıra tersine döner:
+              ① STRUCTURE  yalnız bu sahnede AYAKTA OLAN, sayılarıyla.
+              ② WHEN COMPLETE  en fazla tek cümle, yalnız TÜRÜ söyler:
+                 "When finished this will be a pressurised surface base."
+                 ⛔ eleman listesi yok, ölçü yok.
+            Tam hâlin sayıları QA_SPEC'te durur — orası kapıdır, prompt değil.
+            ORAN KAPISI: AT THIS STAGE ≥ STRUCTURE tam-hâl tarifi (karakter).
+KALDIRDIĞI  Tek promptun kendi başına bütün yapıyı taşıması [D-a]. Karşılığı:
+            promptlar artık birbirinin AYNI değil; DEĞİŞMEZ blok SITE /
+            BACKGROUND + NEGATIVE + KAMERA'dır, STRUCTURE değil. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10a (oran kapısı) · PROMPT_SABLONU §1 ·
+            INSAAT_YONTEMI_KILAVUZU §2
+```
+
+## DERS 37 — Ara hâl SİLUETİ değiştirmezse ara hâl değildir
+
+```
+NEREDE      THE DUST YEAR · ⑧ "Circular pad · first seen COMPLETE at 0:06.0"
+NE OLDU     Pad'in ara hâlleri şöyle yazılmıştı: S0 %25 ham kesik · S1 %50
+            "graded into a bare circle 30.0 metres across, its surface still
+            loose dust" · S2 %75 "sintered to a dark glassy crust".
+            %50 ile %100 arasındaki fark YÜZEY MALZEMESİDİR: aynı çap, aynı
+            daire, aynı kenar. Mercek %50'yi tamamlanmış pad olarak okudu —
+            ve haklıydı: silüet aynı.
+NEDEN      Okunabilirlik eşiği [INSAAT_YONTEMI §1] nesnenin BOYUTU için
+            yazıldı (0,5 m = 23 px). Ara hâlin kendisi için bir eşik yoktu.
+            Telefon karesinde ayırt edilen şey dokular değil KENARLARDIR.
+KİLİT       Her ara hâl silueti ölçülebilir biçimde değiştirir — üçünden
+            en az biri:
+              ① SAYI    kaç parça duruyor (3/6 panel · 3/6 direk bölümü)
+              ② YÜKSEKLİK  taç kaç metrede (berm 1,6 m → 3,0 m)
+              ③ KAPSAM  kenar nereye kadar ulaştı (daire kayanın dibine)
+            ⛔ Yalnız malzeme/renk/doku değişen hâl ara hâl SAYILMAZ;
+               o hâl kendi sahnesini hak etmez, bir üst hâle katlanır.
+            ⚠️ Bu kilit pad'i kurtarır; ölçüldüğünde diziyi kurtarmadı:
+               S1 "three of their six panels open on each" SAYI değiştiriyordu
+               ve yine COMPLETE geldi. Yani ① tek başına yetmez — DERS 36 ile
+               BİRLİKTE koşar.
+KALDIRDIĞI  Malzeme değişimini tek başına bir aşama sayma imkânı
+            (sinterleme, kaplama, boya). Karşılığı: aşama merdiveni kısalır. [D-f]
+NEREYE      INSAAT_YONTEMI_KILAVUZU §2 · KILAVUZ_REHBERI §8 adım 3
+```
+
+## DERS 38 — ⭐ Kadraj yüzdesi NESNENİN mesafesinden hesaplanır, sahanın YAKIN KENARINDAN değil
+
+```
+NEREDE      THE DUST YEAR · ① STATION IDENTITY 0/10 · ② SCALE LOCK 4/10 ·
+            ① 0:06 "the horizon sits at roughly 58% … shifts to 68% … back
+            to 63% inside the same vantage group"
+NE OLDU     Değişmezler tablosu tek mesafe beyan etti: "pad'in güney
+            kenarından 27,5 m" ve BÜTÜN yüzdeler bu D ile hesaplandı.
+            Ama direk pad'in KENARINDA değil, MERKEZİNDE duruyor:
+            27,5 + 15,0 = 42,5 m.
+            ⭐ YENİDEN HESAPLADIM (f=24, h=8,0, formül KAMERA_ISTASYONU §3):
+                                 planda    D=42,5'te   fark
+                 direk tacı      %82,0      %70,7     11,3 puan
+                 habitat tepesi  %46,1      %47,5      1,4
+                 berm tacı       %37,9      %42,2      4,3
+                 pad yüzeyi      %30,6      %37,5      6,9
+            COMPOSITION bloğu modele "the mast head at eighty-two percent"
+            dedi — beyan edilen istasyonun ÜRETEMEYECEĞİ bir sayı. Model iki
+            çelişen talimattan birini seçmek zorunda kaldı: ya istasyonu
+            kaydırır ya ölçeği bozar. İkisi de oldu.
+NEDEN       KAMERA_ISTASYONU §3 doğru yazıyor: "D = kameradan YAPIYA yatay
+            mesafe". Kılavuzun çalışılmış örneği tek bir kuledir; orada
+            saha kenarı ile yapı ekseni aynı noktadır. GENİŞ SAHADA
+            (pad · kampüs · baraj) bu iki mesafe ayrışır ve kılavuz bunu
+            söylemiyordu.
+KİLİT       Geniş sahada Değişmezler tablosu İKİ mesafe beyan eder:
+              D_kenar  kameradan sahanın YAKIN kenarına — alt çeyreği ve
+                       güvenli alanı bu belirler
+              D_eksen  kameradan YAPI EKSENİNE — BÜTÜN yükseklik yüzdeleri
+                       yalnız bundan hesaplanır
+            ⭐ ALT ÇEYREK EŞİĞİ de buradan çıkar ve yazılır: h=8,0 · f=24 için
+               D < 21,3 m olan her şey kadrajın alt %25'indedir. THE DUST
+               YEAR'ın pad kenarı 27,5 m — sınırın yalnız 6,2 m ötesinde, ve
+               ① SAFE AREA 0/10 geldi ("trenching occurs in the bottom
+               15-25% of the frame").
+KALDIRDIĞI  "mesafe" satırını tek sayıyla yazma imkânı. [D-f]
+NEREYE      KAMERA_ISTASYONU_KILAVUZU §3 (yeni alt başlık) · KILAVUZ_REHBERI §8 adım 2
+```
+
+## DERS 39 — Güneş diski LIGHTING bloğunda ANILIRSA kadraja girer
+
+```
+NEREDE      THE DUST YEAR · ③ gölge tablosu satır 7: "Sun disc in haze N/A
+            52° No" · ③ 0:36 "Sun position in the sky remains fixed"
+NE OLDU     DERS 32 diski yasakladı ve plan §4 bunu yazdı: "disk hiçbir
+            sahnede kadraja giremez". Dokuz promptta girmedi. S6'da girdi —
+            çünkü S6'nın LIGHTING bloğunu ben açtım:
+              "…its only sign is the shadows. A dark ochre sky flattened by
+               a planet wide dust haze, THE SUN A DIM DISC WITH NO EDGE."
+            Aynı blok üç satırda kendisiyle çelişiyor: (a) güneş kamera
+            arkasında, (b) tek işareti gölgeler, (c) gölge oranı 1,38 m
+            verilmiş, (d) ışık neredeyse gölgesiz. Model (c) ve (d) arasında
+            (d)'yi, (a)-(b) ile (…disc) arasında DİSKİ seçti.
+NEDEN       DERS 33'ün ışığa uygulanmış hâli: "no edge" bir sıfattır, "disc"
+            bir nesnedir. Nesne gelir, sıfat gelmez.
+KİLİT       LIGHTING bloğu güneşi YALNIZ etkisiyle anar — açı, gölge yönü,
+            gölge oranı, gökyüzü rengi. "sun", "disc", "sun disc", "solar
+            disc" kelimeleri LIGHTING'e HİÇ girmez, sıfatla bile.
+              ⛔ "the sun a dim disc with no edge"
+              ✅ "a dark ochre sky, uniformly bright from horizon to zenith,
+                 with no bright point anywhere in it"
+            Aynı blok tek bir gölge rejimi beyan eder: ya oran verilir ya
+            "gölgesiz" denir. İkisi birden yazılamaz.
+KALDIRDIĞI  Fırtına ışığını disk üzerinden tarif etme imkânı. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10a (LIGHTING'de disk kapısı) ·
+            ZAMAN_VE_ISIK_KILAVUZU · SANTIYE_HAREKETI_KILAVUZU §2
+```
+
+## DERS 40 — Rejim C zamanın TEK taşıyıcısını kaldırır: gölgesiz klip filmin EN UZUN klibi olamaz
+
+```
+NEREDE      THE DUST YEAR · S6 = 10,0 sn (filmin doruğu) · ⑦ IDLE TABLE
+            klip 7: 9,0 sn · %100 boş — filmin en uzun boşluğu ·
+            ④ "the storm is decorative; it does not impede the work"
+NE OLDU     Yeni SANTIYE_HAREKETI_KILAVUZU rejim C'yi (çalışma günü · 5400×)
+            tanımladı ve S6'ya verdi. Plan §4 fiziği doğru okudu: toz
+            fırtınası ışığı düzleştirir, gölge kalmaz, "o sahnede zamanın
+            taşıyıcısı BİRİKEN TOZDUR".
+            Ekranda ne biriken toz göründü ne gölge süpürmesi. Geriye 10
+            saniyelik hareketli bir filtre kaldı.
+NEDEN       DERS 15 ölçmüştü: model GÖKYÜZÜNÜ hızlandırır, YERİ hızlandırmaz.
+            Gölge, bu araçta çalıştığı ölçülmüş TEK zaman taşıyıcısıdır —
+            gökyüzüne ait olduğu için. "Biriken toz" bir YER olayıdır ve
+            DERS 15 tam olarak onun üretilmediğini söylüyor.
+            Rejim C, gölgeyi fizik gereği kaldırıp yerine DERS 15'in
+            üretilmediğini bildiği bir taşıyıcı koydu.
+KİLİT       Bir sahnede gölge süpürmesi YOKSA:
+              ① O sahne filmin en uzun sahnesi OLAMAZ — en kısa banda iner
+                 (4,0 sn). Uzun klip, taşıyıcısı olan sahnenin hakkıdır.
+              ② Taşıyıcı GÖKYÜZÜNDEN ödünç alınır: pusun kendisi kadraj
+                 boyunca YÖN DEĞİŞTİRİR ("the haze thickens from the left
+                 edge across the frame"), toz DUVARI ufuk boyunca yürür.
+              ③ Ekranda BİR NESNE gömülür ve o nesne kadrajda kalır:
+                 taşıyıcı "toz birikir" değil, "panelin alt sırası kaybolur"
+                 gibi SAYILABİLİR bir kayıptır.
+KALDIRDIĞI  Rejim C'yi doruk sahnesinde kullanma imkânı — yani "fırtına =
+            filmin en büyük anı" kurgusunu. Karşılığı: doruk, fırtınanın
+            BIRAKTIĞI sahnedir. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10a (rejim C + en uzun süre kapısı) ·
+            SANTIYE_HAREKETI_KILAVUZU §1-§2
+```
+
+## DERS 41 — İnsanı yasaklamak İNSAN BİÇİMLİ MAKİNEYİ yasaklamıyor
+
+```
+NEREDE      THE DUST YEAR · ② 0:00 "The excavation machinery features
+            open-air cabins and exposed operators, which is fatally
+            incompatible with the extra-terrestrial environment depicted."
+NE OLDU     ⭐ DERS 33'ÜN POZİTİF YARISI TUTTU: on promptun onunda "No people
+            are present." yazıyor, koşullu cümle yok — ve hiçbir mercek
+            YÜRÜYEN İNSAN bildirmedi. THE LONG DAY'de astronotlar vardı.
+            Ama insan makinenin İÇİNDEN geldi: açık kabin, oturma yeri,
+            operatör konumu. Robotik olduğu beyan edilmiş bir sahada.
+NEDEN       Prompt makineleri şöyle adlandırıyor: "dozer rover" (6 kez),
+            "loader rover" (14), "grader rover" (2). "dozer/loader/grader"
+            ELLE KULLANILAN makine adlarıdır; korpuslarında kabin, cam,
+            ayna, basamak, operatör vardır. "rover" eki gövdeyi değiştirmiyor
+            — sıfat gelmiyor, isim geliyor [DERS 33 · 35 · 39 ile aynı].
+KİLİT       İnsansız sahada makine, insanlı makine adıyla ANILMAZ.
+              ⛔ dozer · bulldozer · loader · grader · excavator · digger
+              ✅ tracked blade unit · bucket unit · regolith hauler ·
+                 sintering crawler · manipulator arm
+            Ve gövde bir kez POZİTİF kapatılır:
+              "Every machine is a sealed robotic unit with no cab, no window,
+               no seat and no handrail."
+            ⚠️ Bu cümle DERS 33'e AYKIRI DEĞİLDİR: yasaklanan özne (insan)
+               anılmıyor, makinenin GÖVDESİ tarif ediliyor.
+KALDIRDIĞI  Şantiye sözlüğünün hazır makine adları. Karşılığı: insansız
+            sahada makine adları elde yazılır. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10a (insansız + elle-kullanılan makine
+            adı kapısı) · INSAAT_YONTEMI_KILAVUZU §4 · SAHA_VE_IKLIM_KARTLARI
+```
+
+## DERS 42 — Yapı adının KORPUSU yapının kendisini değiştirir
+
+```
+NEREDE      THE DUST YEAR · ② STRUCTURE IDENTITY 0/10 · ⑧ defterinde plana
+            AİT OLMAYAN üç eleman
+NE OLDU     Üç ad, üç sapma — üçü de ölçüldü:
+              plan "regolith bags / bag courses"  → ekran "sandbag wall",
+                   "sandbag defensive wall" · ⑤ 0:41'de topluca kayboldu
+              plan "lattice mast … 1.6 m dish"    → ekran "drilling mast",
+                   "drilling rig", "drilling tower" (⑦ MACHINES ON SITE'a
+                   "Drilling Rig" diye yazıldı)
+              plan "vertical inflatable habitat cylinder 8.0 m × 6.4 m"
+                                                   → ekran "hemispherical dome"
+                   ve sonra "tan segmented cladding"
+            ⭐ "dome", "cladding", "drill", "sandbag" kelimelerinin dördü de
+               plan metninde SIFIR kez geçiyor. Model onları ADDAN türetti.
+NEDEN       DERS 34 IŞIK ve DOKU korpusunu ölçtü. Bu onun kardeşidir ve
+            NESNE korpusudur: bir ad, en sık göründüğü bağlamı beraberinde
+            getirir. "bags + wall" → askerî mevzi (ve mevziler sökülür,
+            bu yüzden berm S7'de kayboldu). "mast + spools + surface site"
+            → sondaj kulesi. "inflatable + habitat" → şişme kubbe;
+            "cylinder" tek başına silindiri tutamıyor.
+KİLİT       Her YAPI BIBLE adı için tek soru: bu ad en sık NEYİN yanında
+            geçer? Ad, istenen nesnenin GEOMETRİSİNİ taşımıyorsa
+            geometriyle yeniden yazılır:
+              ⛔ regolith bags        ✅ stacked regolith-filled tubes laid
+                                        in level courses, each course
+                                        stepped back 0,3 m
+              ⛔ lattice mast         ✅ bolted three-leg guyed tower,
+                                        six sections, a 1.6 m parabolic
+                                        reflector on the fifth
+              ⛔ inflatable cylinder  ✅ upright fabric drum, flat circular
+                                        roof, vertical sides, 8.0 m across
+                                        and 6.4 m tall — not a dome
+            ⭐ NEGATİF DEĞİL GEOMETRİ: "no dome" yazmak DERS 33'tür. Kubbeyi
+               engelleyen şey "flat circular roof, vertical sides"tır.
+KALDIRDIĞI  Kısa yapı adları. YAPI BIBLE satırları uzuyor. [D-f]
+NEREYE      KILAVUZ_REHBERI §8 adım 2 · YAPI_TIPI_KARTLARI · INSAAT_YONTEMI §3
+```
+
+## DERS 43 — ACTIVITY cümlesinde makinenin NESNESİ yoksa makine daire çizer
+
+```
+NEREDE      THE DUST YEAR · ⑦ İŞ 1,3/10 · PARKED · on klibin SEKİZİ %100 boş ·
+            ④ sahne farklılaşması 2/10: "Clips 2, 3, 5, 6 and 7 are almost
+            functionally identical: a small rover driving in circles"
+NE OLDU     Kapı ACTIVITY için iki şey istiyordu: EDEN ≥ 2 (özne) ve
+            EYLEM ≥ 1 (fiil). On sahnenin onu da geçti. Ekranda ne çıktı:
+            "the rovers drive in circles without engaging any material",
+            "decorative motion, orbiting the habitat without performing any
+            cycle of work".
+            Kapı ÖZNE ve FİİL sayıyordu; NESNE saymıyordu.
+NEDEN       "A grader rover drives a slow arc around the pad edge" — özne
+            var, fiil var, nesne YOK. Fiil geçişsiz olduğunda makinenin
+            işi yoktur, yalnız yörüngesi vardır. Model yörüngeyi üretir:
+            en ucuz, en güvenli, en tekrarlanabilir hareket.
+            ⭐ ⑦ ile ⑧ aynı arızanın iki yüzü: makine malzemeye DOKUNMUYORSA
+               eleman da büyümüyor demektir — "GROWTH TABLE: NO — none" beş
+               kez.
+KİLİT       Her ACTIVITY cümlesinde en az bir makine, O SAHNEDE BÜYÜYEN
+            ELEMANI dilbilgisel NESNE olarak alır ve fiil GEÇİŞLİDİR:
+              ⛔ "A loader rover drives up out of the deepening pit"
+              ✅ "A loader rover lifts a filled tube out of the pit and
+                 sets it onto the fourth course of the berm"
+            Nesne, aşama merdivenindeki ELEMAN · ARA HÂL sütununun adıdır.
+            Fiil listesi: lifts · sets · bolts · pushes · fills · tips ·
+            welds · pulls · unrolls · lowers.
+            ⛔ drives · crosses · moves · orbits · circles · travels — bu
+               altısı TEK BAŞINA bir ACTIVITY cümlesini kuramaz.
+KALDIRDIĞI  Sahayı canlandıran nötr trafik. Karşılığı: her makine hareketi
+            bir iş adımına bağlanıyor, "arka planda bir araç geçiyor" yok. [D-f]
+NEREYE      araclar/prompt_kontrol.py §10a (geçişli fiil + eleman nesnesi) ·
+            SANTIYE_HAREKETI_KILAVUZU §4
+```
+
+## DERS 44 — ⭐ Varyanslı ızgara metronomu KIRMADI: kesme ANLAM taşımıyorsa süre boşa gider
+
+```
+NEREDE      THE DUST YEAR · ⑥ METRONOM — BEŞİNCİ KEZ · ANCHOR SURVIVAL 4/10
+NE OLDU     DERS 13 ve 31 şunu söylüyordu: hız kesme SIKLIĞI değil kesme
+            VARYANSIDIR; düz ızgara metronom üretir. Bu filmde ızgara düz
+            DEĞİLDİ — teslimde bile 6·8·4·4·6·4·10·4·6·10, dört farklı süre,
+            en kısa 4,0 en uzun 10,0 (2,5 kat aralık). Hüküm yine METRONOM.
+            ⭐ Merceğin gerekçesi süreleri hiç anmıyor:
+               "largely due to the failure of anchor survival across the
+                seams … the site's background objects and ground state reset
+                at almost every transition, the edits read as a slideshow"
+NEDEN       Süre varyansı ⑥'nın GEREK şartıdır, YETER şartı değil. Kesmenin
+            "sonraki" değil "sonra" demesi için dikişin İKİ YAKASINDA aynı
+            dünyanın durması gerekir; duruyorsa süre farkı bir sıçrama
+            büyüklüğü olarak okunur, durmuyorsa yalnız bir slayt sınırıdır.
+            ⭐ SIRALAMA ÖLÇÜLDÜ: ⑥ ⑤'İN ALTINDADIR. ⑤ 4,0/10 ve "A SET
+               REBUILT EACH TIME" iken ⑥'nın hükmü ızgaradan bağımsızdır.
+               P2-k bunu plan okumasından tahmin etmişti; burada ölçüldü.
+KİLİT       ⑥ için ızgara varyansı YETMEZ. Her dikiş, iki yakasında AYNI
+            KALAN en az bir kanıt nesnesi taşır ve bu nesne üretim
+            günlüğünde ELLE işaretlenir [DERS 25].
+            ⭐ OKUMA KURALI: ⑤ hükmü "A SET REBUILT EACH TIME" gelen bir
+               filmde ⑥ METRONOM hükmü ızgaraya YAZILMAZ — sebep ⑤'tir.
+               kesme_kontrol.sh ızgarayı doğrulasa bile bu böyledir.
+            ⛔ Düz ızgara yasağı KALKMAZ; varyans hâlâ gereklidir.
+KALDIRDIĞI  "ızgarayı varyanslı yazdım, ⑥ çözüldü" varsayımı. [D-f]
+NEREYE      KURGU_VE_TESLIM_KILAVUZU §2 · QA/00_README (mercek okuma sırası) ·
+            AGENTS kart R
+```
+
+
+---
+
 ## 🧬 DEVRALINAN DERSLER — `film_md`'de ölçüldü, burada VARSAYIM
 
 > ⛔ Aşağıdakiler bu depoda **ölçülmedi.** Başka bir depoda, başka bir türde
@@ -1135,6 +1777,636 @@ A4-f  AI TESPİTİNİN BAKTIĞI YER: GÖLGE YÖNÜ + OPTİK AKIŞ        [akadem
          beyan ediliyor (değişmez ⑥ · ⑫). Bu maddenin değeri gizlenmek
          değil, ARIZA LİSTESİ olması — tespit araçlarının baktığı yer,
          izleyicinin sahte bulduğu yerdir.
+```
+
+---
+
+## 🔬 İKİNCİ KUŞAK ARAŞTIRMA — A5–A8 · 08.09.2026
+
+> Kaynak: `arastirma/SONUCLAR/A5..A8_GEMINI_HAM.md` · Denetim ve doğrulama:
+> `arastirma/SONUCLAR/A5-A8_DENETIM.md`
+>
+> ⭐ **BU KUŞAKTA BİR ŞEY DEĞİŞTİ:** A1–A4'te raporun etiketine güvenmedik ama
+> sayısını da denetleyemedik. Bu kuşakta **dört raporun sayıları bu depoda
+> yeniden hesaplandı ve ffmpeg ile koşturuldu.** Üç sayı düştü, iki komut
+> çalışmadı, bir eşik kör çıktı. Aşağıdaki maddelerden **ÖLÇTÜM** yazanlar
+> artık varsayım değil — bu makinede ölçüldü. Diğerleri VARSAYIM olarak kalır.
+>
+> ⚠️ Dördü de yine TEK BOTA koşuldu [kart S §4] ve hiçbirinde çözümlenebilir
+> kaynak (URL · DOI · belge adı) yok. Bu, her maddenin ikinci zayıflığıdır.
+
+### A5 — İNŞA YÖNTEMİ  ⭐ ⑧ APPEARED'in panzehiri
+
+```
+A5-a  ⭐ ARA HÂL, GEÇİCİ EKİPMANLA TANIMLANIR                    [mekanizma]
+      Bir elemanın "yapılıyor" olduğunun tek görsel kanıtı, o elemanın
+      NİHAİ hâlinde bulunmayan geçici bir nesnedir: kalıp · donatı kafesi ·
+      iskele · dikme · tırmanır kalıp · kür örtüsü · gergin sapan.
+      ⇒ kilavuzlar/INSAAT_YONTEMI_KILAVUZU.md §2-§3
+      KAPI: prompt_kontrol.py — AT THIS STAGE'de geçici ekipman yoksa FIX.
+
+A5-b  ⭐ ÜÇ TARTIŞMASIZ İŞ KANITI                                [mekanizma]
+      gergin sapan · toz bulutu · ıslak beton parlaklığı. Üçü de fizikle
+      bağlı, 40 m'de okunur ve POZİTİF yazılabilir.
+
+A5-c  ⭐ ÖLÇTÜM — KADRAJ 33,7 × 60,0 m · 32 px/m
+      24 mm eşd. · 40 m · 9:16. Rapor "10-15 kat" dedi; hesap YİRMİ kat verdi.
+      Okunabilirlik eşiği ≈ 0,5 m: insan 58 px (GÖRÜNÜR), kalıp panosu 19 px,
+      donatı 3 px (görünmez).
+      ⛔ RAPORUN İMASI DÜŞTÜ: insan 40 metrede görünür. İnsanı yok eden
+         mesafe değil, zaman sıkıştırmasıdır [A6-a].
+      KAPI: prompt_kontrol.py — 0,5 m altı nesne adı geçerse FIX.
+
+A5-d  ÜÇ STANDART ATFI YANLIŞ ÇIKTI                             [düzeltildi]
+      ASTM A325/A490 2015'te F3125 altında birleşti · EN 13830 montaj sırası
+      şart koşmaz · ASTM D698 laboratuvar deneyidir, saha tabaka kalınlığını
+      yazmaz. Görsel sonuç etkilenmiyor.
+      ⇒ KILAVUZ KURALI: prompta STANDART ADI YAZILMAZ, görünen şey yazılır.
+```
+
+### A6 — ŞANTİYE HAREKETİ  ⭐ ⑦ PARKED'in panzehiri · ⚠️ kendi içinde çelişti
+
+```
+A6-a  ⭐⭐ SIKIŞTIRMA REJİMİ — bu kuşağın tek yeni KAVRAMI
+      Bir klipte gök · gölge · insan · makine · toz AYNI SAATE tabidir.
+      Rejim seçilmezse model her birine ayrı hız verir — DERS 15'in kaynağı budur.
+      REJİM A (10 dk · 100x) · B (2 saat · 1200x) · C (iş günü · 5400x)
+      ⇒ kilavuzlar/SANTIYE_HAREKETI_KILAVUZU.md §1-§2
+      KAPI: prompt_kontrol.py — TIME RATE'te rejim penceresi yoksa FIX;
+            rejim C + görünür insan cümlesi varsa BLOCK.
+
+A6-b  ⭐ ÖLÇTÜM — GÖLGE DÖNÜŞÜ 116°-191°, "135°" DEĞİL
+      Rapor "güneş saatte 15° gider → 9 saatte 135°" dedi ve ÖLÇÜLDÜ etiketledi.
+      15°/saat SAAT AÇISIDIR, azimut değil. 40°N için hesapladım:
+          9 saatte  ekinoks 150,2° · yaz 190,7° · kış 115,9°
+          öğle civarı hız  ekinoks 23,1°/sa · yaz 46,3°/sa · kış 15,3°/sa
+      ⇒ DERS 32'nin sayısal karşılığı buradan gelecekti ve rapor yanlıştı.
+      ⇒ Tam tablo: SANTIYE_HAREKETI_KILAVUZU §1.
+
+A6-c  ⭐ ÖLÇTÜM — SIKIŞTIRMA ARİTMETİĞİ TUTUYOR
+      60x · 300x · 1440x · 5400x dördü de doğrulandı. 9 saat / 6 sn = 5400x,
+      30 fps'de kare başına 180 sn. Raporun doğru olan tek sayı grubu.
+
+A6-d  ⭐ İŞ, İNSANLA DEĞİL YÜZEYLE KANITLANIR                   [mekanizma]
+      Sekiz yüzey kanıtı: iz · eksilen istif · kuruyan çamur · hortum
+      güzergâhı · sökülmüş kalıp yığını · toz · saha aydınlatması · yüzey
+      dönüşümü. Rejim C'de kanıtın TAMAMI buradadır.
+      KAPI: prompt_kontrol.py — ACTIVITY'de iki hareket eden + bir yüzey
+            kanıtı yoksa FIX.
+
+A6-e  ⛔ RAPOR KENDİ TABLOSUYLA ÇELİŞTİ                          [çözüldü]
+      Tablo "5400x'te insan kaybolur" diyor, yedi promptun yedisi "motion
+      streak insan" istiyor. Çözüm A6-a'da: rejim klip başına seçilir.
+```
+
+### A7 — ARAÇ PROFİLİ  ⭐⭐ tek en değerli bulgu · ⛔ envanteri kullanılamaz
+
+```
+A7-a  ⭐⭐ KLİP SÜRELERİ KUTULUDUR — DERS 31'İN GERÇEK SEBEBİ
+      Araç serbest süre vermez, kutuya yuvarlar: {4,6,8} · {5,10} · {5,9}.
+      On klibin onunun da 6,0 çıkması bundandır — prompt tutmadığı için değil.
+      ⭐ ÖLÇTÜM: plan 6·4·6·4·6·6·8·4·6·10, {4,6,8} kutusuyla DOKUZ SAHNEDE
+        TAM OTURUYOR (atılacak 0 sn). ⇒ ⑥ METRONOM ARACIN DEĞİL KURGUNUN
+        ARIZASIYDI. DERS 31 doğrulandı ve mazereti kalktı.
+
+A7-b  ⭐ ÖLÇTÜM — ÜRETİM SÜRESİ = TESLİM SÜRESİ + 1,00 sn
+      Kırpma bütçesi (uçlardan 10-15 kare) süreyi yer.
+      SERT SONUÇ: tek klipte teslim edilebilecek EN UZUN SAHNE =
+      (en büyük kutu − 1,00). {4,6,8} → 7,00 sn · {5,9} → 8,00 · {5,10} → 9,00.
+      ⇒ {4,6,8} veren araçla plana 8 ya da 10 sn'lik sahne YAZILAMAZ.
+      KAPI: prompt_kontrol.py — kutu setinden türeyen tavan aşılırsa BLOCK.
+
+A7-c  ⭐ NEGATİF NEREYE YAZILIR                                  [mekanizma]
+      "no" görsel karşılığı olmayan bir sözdizimi öğesidir; yanındaki isim
+      yüksek ağırlıklı vektöre döner. Ayrı negatif alan vektörü ÇIKARIR,
+      metin içi negatif EKLER. ⇒ DERS 33'ün dışarıdan doğrulanması.
+      ⛔ Raporun "%85 sızma" sayısı kaynaksız — mekanizma indi, sayı inmedi.
+
+A7-d  ⭐ ARAÇ ÖLÇÜMÜ ÜÇ DEĞİL YEDİ SORUDUR
+      süre/kutu · kamera kayması · gölge dönüşü · negatif sızması · prompt
+      tavanı · ilk kare sadakati · en büyük kutu.
+      ⇒ kilavuzlar/ARAC_KARTLARI.md §4-§5.
+
+A7-e  ⛔ ENVANTER KULLANILAMAZ                                   [rapor düştü]
+      Sorulan 11 aracın dördü (Gen-4 · Seedance · Hailuo · Pika) her sütunda
+      BİLİNMİYOR; Gen-4 soruldu, Gen-3 anlatıldı; üç sürüm tarihi çürük.
+      ⇒ ARAC_KARTLARI.md doldurulmuş kart İÇERMEZ; boş açılır, üretim günü
+        ölçülerek doldurulur.
+
+A7-f  ⛔ DERS 2 İLE ÇATIŞTI, DERS 2 KAZANDI                      [kart S §3]
+      Rapor "2.000 karakter altı daha iyi" dedi (kaynaksız); DERS 2 bu depoda
+      "4.500-5.500 karakter" diye ölçüldü. KILAVUZ DEĞİŞMEDİ.
+      Araç kartına "prompt tavanı" ölçüm satırı eklendi.
+```
+
+### A8 — KURGU VE TESLİM  ⭐ en disiplinli rapor · ⛔ iki komudu çalışmıyor
+
+```
+A8-a  ⭐⭐ ÖLÇTÜM — KESME KAPISI KÖRDÜ, AÇIK SANILIYORDU
+      Sabit kadraj + aynı yapı + yalnız aşama ilerleyen 10 klipli sentetik
+      teslimde ölçtüm:
+          eşik 0,40 (A8'in önerdiği)       → 0 kesme
+          eşik 0,30 (kesme_kontrol.sh'nin) → 0 kesme
+          gerçek kesme skorları  0,01629 – 0,02217
+          klip içi en yüksek     0,00538
+      ⇒ Eşik 15-25 kat fazlaydı. ⑥ METRONOM kapısı hiç çalışmamıştı.
+      ⭐ ÇÖZÜM: eşik kaldırıldı, TOP-N geldi. Plandaki kesme sayısı kadar en
+        yüksek skor seçilir. Sentetikte 9/9 tam isabet; THE LONG DAY vakası
+        (plan varyanslı, kurgu düz) yeniden kurulduğunda 9 kesmenin 8'ini
+        yakaladı ve çıkış 1 verdi.
+      ⇒ araclar/kesme_kontrol.sh yeniden yazıldı.
+
+A8-b  ⭐ ÖLÇTÜM — İKİ KOMUT ÇALIŞMIYOR, DÖRDÜ ÇALIŞIYOR
+      ⛔ signalstats komutu raporundaki hâliyle hiçbir şey basmıyor
+         (eşleşen satır 0). Doğrusu: signalstats,metadata=print:key=...YDIF
+      ⚠️ ebur128'in "I:" satırı Summary bloğundadır; `tail` ile kaçar.
+      ✅ ffprobe süre · ffprobe fps · ebur128 · son kare dışa aktarımı koştu.
+
+A8-c  ⭐ İKİNCİ BAĞIMSIZ KESME DEDEKTÖRÜ: YDIF
+      Kesmelerde 1,66-2,26 · klip içi en yüksek 0,54. scene_score ile aynı
+      kesmeleri bulmuyorsa kurgu incelenir.
+
+A8-d  DURUŞA KES, HAREKETE DEĞİL                                 [mekanizma]
+      Bizim formatta her kesme bir AY atlar; kesilen hareket öbür tarafta
+      yoktur. Kesme, mikro hareketin en sakin olduğu ana düşer.
+
+A8-e  ⛔ İKİ SAYI DÜŞTÜ                                          [kaynaksız]
+      "%18,7 tekrar izlenme artışı" ve "son kart 2-3 sn ideal, 5 sn öldürür"
+      — ikisi de ÖLÇÜLDÜ etiketli, ikisi de kaynaksız.
+      ⇒ Kapak kartı 5,0 sn YERİNDE KALDI. Yayından sonra kanalın kendi
+        tutunma eğrisiyle ölçülür [A1-a ile aynı muamele].
+
+A8-f  ⭐ ÇELİŞKİYİ ORTALAMADI                                    [rapor +]
+      LUFS · gamma · dosya boyutu satırlarında iki değeri yan yana bırakıp
+      "BİLİNMİYOR" yazdı. Kart S §4'ün istediği tam olarak budur.
+      ⇒ −14 LUFS kararımız yerinde; çelişki artık KAYITLI.
+```
+
+### ⭐ DÖRT RAPORUN BİRLEŞMESİNDEN ÇIKAN — hiçbirinde tek başına yok
+
+```
+A78-a ⭐ SÜRE ZİNCİRİ: kutu seti (A7) + kırpma bütçesi (A8) birleşince
+      üretim süresi, sahne tavanı ve plan ızgarası tek bir aritmetiğe oturuyor.
+      Ne A7 ne A8 bunu tek başına söylüyor.
+
+A56-a ⭐ İNSAN ÇELİŞKİSİ: A5 döşemede işçi gösteriyor, A6 aynı klipte insanın
+      kaybolduğunu söylüyor. İkisi de doğru — FARKLI REJİMLERDE. Ortalama
+      alınmadı; rejim beyanı kuralı bu çelişkiden doğdu.
+```
+
+---
+
+## 🎬 PROFESYONEL OKUMADAN DEVRALINAN — plan incelemesi, burada VARSAYIM
+
+> ⛔ **Hiçbiri ölçülmedi.** Kaynak: `arastirma/SONUCLAR/P1_PLAN_OKUMA_HAM.md`
+> (profesyonel timelapse yapımcısı · 07.09.2026 · THE LONG DAY v0 PLANINI okudu;
+> film üretilmedi, mercek koşulmadı). Kaynak sınıfı **uzman okuması**: ne
+> akademik ne araç dokümanı — bir yapımcının gözü. Depo felsefesi gereği
+> okunan film DÜZELTİLMEZ; buradaki her madde YENİ film içindir ve ilk
+> üretimden sonra ya numaralı derse dönüşür ya düşer.
+>
+> ⭐ Raporun en ağır cümlesi bir bulgu değil, bir teşhis: *"çok iyi tasarlanmış
+> bir üretim dokümanı olma riski, çok iyi video olma ihtimalinin önüne geçmiş."*
+> Bu depo dört filmde belgeyi büyüttü ve dördü de düştü; P1-j bunu adlandırıyor.
+
+```
+P1-a  İLK 20 SANİYE DÜŞÜK YENİ BİLGİ TAŞIYAMAZ                    [uzman okuması]
+      Okuma: S0→S3 "ilk iz → pad → direk → yığın". Teknik sıra doğru,
+      sinema yok; "yığın tepesi biraz yükseldi" 10 sahnelik filmde pahalı
+      bir sahne. İzleyici ilk 15-20 sn sonunda "burada gerçekten üs
+      kuruluyor" demeli.
+      ⭐ A2-c ile aynı yere basıyor (düşük hareketli kadraj daha hızlı
+         tüketilir) — iki bağımsız kaynak, aynı uyarı.
+      KİLİT   Aşama merdiveninde S1-S3'ün her biri FARKLI TÜRDEN ve BÜYÜK bir
+              değişim taşır; "stok büyüdü" türü hazırlık adımları ya bir
+              büyük adımın İÇİNE gömülür ya kesmenin ARASINA alınır.
+              Test: S3'ün son karesi ile S0'ın ilk karesi yan yana konunca
+              yapının TÜRÜ okunuyor mu? Okunmuyorsa ilk 20 sn düşük.
+      KALDIRDIĞI  Gerçek inşa sırasının her hazırlık adımını ekranda gösterme
+              dürüstlüğü. Hazırlık hâlâ olur; yalnız kendi sahnesini almaz. [D-f]
+      NEREYE  KILAVUZ_REHBERI §4 · ZAMAN_VE_ISIK §7
+
+P1-b  DİRENÇ EKRANDA GÖSTERİLİR, METİNDE SÖYLENMEZ                [uzman okuması]
+      Okuma: 900 ton regolit konsept kapısının en güçlü fiziksel fikri, ama
+      merdivende "yığın büyüdü / küçüldü, berm yükseldi" diye okunuyor.
+      "900 ton bilgisi metinde çok güçlü; görüntüde de 900 ton hissettirmeli."
+      KİLİT   Konsept kapısının DİRENÇ satırına üçüncü alan: EKRANDA NASIL —
+              hangi sahnelerde, hangi tekrarlı hareketle, hangi biriken
+              nesneyle. Direnç sahneleri filmin en yoğun kinetik içeriğini
+              taşır: tekrarlı rota · katman katman yükselme · iz ağının
+              sıklaşması · nesnenin kaybolması. Boş bırakılan alan = direnç
+              bir bible bilgisidir, film bilgisi değil.
+      KALDIRDIĞI  Hiçbir şey; direnç zaten kapıdaydı, şimdi kadraja iniyor.
+      NEREYE  KILAVUZ_REHBERI §6
+
+P1-c  KESİN SÜRE BIBLE BİLGİSİDİR; FİLM MERTEBE ANLATIR  ⚠️ LONG DAY: "one lunar day" — mertebe de tutmadı  [uzman okuması]
+      Okuma: izler ve toz "uzun zaman geçti" dedirtir; "19 Ay günü" demez.
+      "Bunu zorla ispatlamaya çalışma; 'many lunar days' yeterli."
+      ⭐ DERS 14 ve A4-b ile çelişmez: mevsim taşıyıcısı olan sahada yıl
+         sayısı okunur; taşıyıcısı olmayan sahada hedef MERTEBEDİR.
+      KİLİT   Aşama merdiveninin TEMSİL sütunu kesin kalır (üretim onunla
+              yazılır); ③ merceğinin "TIME READ FROM THE FILM ALONE" hedefi
+              plana MERTEBE olarak yazılır ("aylar" · "yaklaşık bir yıl" ·
+              "birkaç yıl") ve rapor o mertebeyi tutturuyorsa geçer.
+      KALDIRDIĞI  Kesin ay sayısını ekrandan doğrulatma hırsı. [D-f]
+      NEREYE  ZAMAN_VE_ISIK §7
+
+P1-d  ZAMAN NESNESİNİN GÖRÜNÜR BİR SEBEBİ OLUR                     [uzman okuması]
+      Okuma: Ay'da rüzgâr yok; iniş aracının grileşmesi "zamanla çöken toz"
+      gibi görünürse fizik yalanlanır. Kaynak faaliyet olmalı: rover
+      geçişleri, kazı, boşaltma, balistik ejecta.
+      ⭐ ⑦ merceğinin "cause and effect" kategorisiyle aynı mantık — orada
+         büyümeye uygulanır, burada ZAMAN NESNESİNE.
+      KİLİT   Aşama merdiveninin MEVSİM TAŞIYICISI / zaman nesnesi sütununa
+              nesnenin SEBEBİ de yazılır ve I2V'de o sebep hareket olarak
+              görünür: "each pass of the crawler throws a fan of regolith
+              against the lander's legs and the grey climbs a little higher."
+              Sebepsiz zaman nesnesi, model için doku değişimidir.
+      KALDIRDIĞI  Hiçbir şey; nesne zaten kadrajda, artık sebebi var.
+      NEREYE  ZAMAN_VE_ISIK §6 · SAHA_VE_IKLIM §3.0
+
+P1-e  TIME RATE ÖZNE LİSTESİ SAHADAN YAZILIR    ⭐ ÖLÇÜLDÜ → DERS 33   [uzman okuması]
+      Okuma: görsel prompt "the clouds, the shadows, the machines, the
+      people" derken negatif "no clouds" diyor ve insan zaten yok. Bu
+      semantic noise: istenmeyen şey pozitif cümlede modele hatırlatılıyor.
+      Öneri: "All visible motion follows the same accelerated time scale:
+      moving shadows, robotic vehicles, articulated machinery and tracking
+      solar arrays."
+      ⛔ DERS 15 ve 18 ile ÇELİŞMEZ, onları daraltır: ölçülen şey cümlenin
+         TEK PARÇA ve TÜM ÖZNELERE yazılmasıydı; özne listesinin evrensel
+         olması ölçülmedi. Kapı imzası (`time-lapsed at the same rate`)
+         korunur; özne listesi kadrajda GERÇEKTEN OLAN şeylerden yazılır.
+      KİLİT   "Everything in this frame is time-lapsed at the same rate:
+              <yalnız bu kadrajda var olan özneler> all move at the same
+              accelerated speed. Nothing in the frame moves at normal speed."
+              ⛔ Negatif çekirdekte yasaklanan hiçbir özne bu listeye girmez.
+      KALDIRDIĞI  Şablon cümlenin kopyala-yapıştır rahatlığı. [D-f]
+      NEREYE  KILAVUZ_REHBERI §7 · PROMPT_SABLONU §1 · araclar/prompt_kontrol.py (imza aynı)
+
+P1-f  HER SAHNENİN KİNETİK İMZASI FARKLIDIR                         [uzman okuması]
+      Okuma: robotik inşa doğru karar; ama tek makine aynı işi tekrar
+      ederse video mekanik monotonlaşır. Her 4-8 saniyede yeni bir HAREKET
+      TÜRÜ: iz açma · bıçakla kesme · teleskoplanma · indirme · boşaltma ·
+      kaybolma · yükselme · kapanma · ışığın dönüşü.
+      ⭐ DERS 13'ün İÇERİK tarafı: kesme varyansı ritmi taşır, hareket
+         varyansı ilgiyi. İkisi ayrı eksen; biri diğerinin yerine geçmez.
+      KİLİT   Aşama merdivenine KİNETİK İMZA sütunu: her satıra tek fiil.
+              Ardışık iki satırda aynı fiil = tablo geçersiz.
+      KALDIRDIĞI  Aynı makinenin aynı işi dört sahne boyunca yapmasını
+              "gerçekçilik" diye savunma imkânı. [D-f]
+      NEREYE  KILAVUZ_REHBERI §4
+
+P1-g  USTA KARE KLİBİ DE OLAY BÜTÇESİNE TABİDİR                     [uzman okuması]
+      Okuma: S9 tek klipte gece → yıldız kayması → güneş doğuşu → direk
+      tepeleri → tümsekler → ova → çanak dönüşü → S0 ışığı. "Kahraman sahne
+      kadar QA ölüm noktası": yıldız erimesi, tümsek geometrisi, eğilen
+      direk, yapay şafak, maviye dönen gök, ışıkla morph.
+      ⭐ ZAMAN_VE_ISIK §3 bütçesi (en fazla İKİ olay türü) zaten var ve
+         usta karede uygulanmadı — çünkü "final sahnesi istisna" sanıldı.
+      KİLİT   Usta kare klibi bütçeden MUAF DEĞİLDİR. Loop'un ışık şartı bir
+              olay sayılır; geriye TEK olay kalır. Fazlası ya önceki sahneye
+              taşınır ya kesilir. Gece + şafak + mekanik hareket aynı klipte
+              yazılmaz.
+      KALDIRDIĞI  Finalin tek klipte "her şeyi" yapması. Karşılığı: final
+              üretilebilir. [D-f]
+      NEREYE  ZAMAN_VE_ISIK §3 · KILAVUZ_REHBERI §8 adım 2
+
+P1-h  FİNAL KARE HİYERARŞİ İSTER, NESNE DEĞİL                       [uzman okuması]
+      Okuma: final "mühendislik belgesi" gibi kontrollü; ilk bakışta çarpması
+      lazım. Çözüm yeni nesne değil, görsel hiyerarşi: iki tümsek aynı anda
+      okunmalı, sıcak lumboz siyah göğe karşı vurmalı, iz yumağı belirgin,
+      gri iniş aracı görünür, direk siluetleri güçlü.
+      KİLİT   FİNAL KARE KANITI satırının yanına FİNAL HİYERARŞİ satırı:
+              gözün sırayla okuyacağı ÜÇ şey, kadrajdaki yeriyle. Usta kare
+              üretilirken kapı sorusu: bu üçü bu sırayla okunuyor mu?
+              Okunmuyorsa kare yeniden — kompozisyonla, ekleme ile değil.
+      KALDIRDIĞI  Hiçbir şey; nesne sayısı sabit kalır.
+      NEREYE  KILAVUZ_REHBERI §8 adım 2 ve 9
+
+P1-i  KAPAK FİLMİN NEGATİF ÇEKİRDEĞİNE TABİDİR  ⭐ ÖLÇÜLDÜ → DERS 30   [uzman okuması]
+      Okuma: dosya kütüphanesindeki kapak görselinde büyük Dünya, yıldızlı
+      gök, sinemasal sci-fi afiş estetiği var; film "Dünya yok · gündüz
+      yıldız yok · sci-fi look yok" diyor. Kapak, videonun vaat ettiği
+      dünyadan başka bir ürün gibi durur.
+      ⭐ MUZIK_VE_KAPAK §2.2 zaten "kapak S9 karesinden türer" diyor; bu
+         madde onun NEDENİNİ bir yüzey daha genişletiyor: kapak yalnız
+         aynı bina değil, aynı FİZİK olmak zorunda.
+      KİLİT   Kapak görseli, filmin negatif çekirdeğinin HER maddesini
+              taşır; kapağa özgü tek ek "başlık bandını boş bırak"tır.
+              Çekirdeğin yasakladığı hiçbir şey kapakta "afiş için" serbest
+              değildir.
+      KALDIRDIĞI  Afiş estetiğinin tıklama gücü. Karşılığı: kapak filmi
+              yalanlamaz. [D-f]
+      NEREYE  MUZIK_VE_KAPAK §2.2
+
+P1-j  BELGE BÜYÜMEZ, SADELEŞİR — PROMPT MODELİN KONTROL ETTİĞİNİ TAŞIR  [uzman okuması]
+      Okuma: "dokümanı daha da ayrıntılandırmazdım, artık sadeleştirirdim.
+      Promptların modelin gerçekten kontrol edebileceği şeylerle,
+      bible'da insanın kontrol edeceği şeyleri ayırırdım."
+      ⭐ Bu deponun kendi teşhisiyle aynı: AGENTS §1 "film_md 40+ kılavuzla
+         çekirdek arızasını engelleyemedi." THE LONG DAY görsel promptları
+         6000 karakter bandına ancak kırpılarak sığdı.
+      KİLİT   Prompta yalnız modelin ÜRETECEĞİ şey yazılır: geometri sayısı,
+              çapa, ışık açısı, tek iş adımı, negatif. İnsanın kurguda,
+              zincirde ve kapakta kontrol ettiği şey (kırpma payı, kesme
+              anı, başlık, söküm takvimi) prompta girmez, planda kalır.
+              Yeni bir kural eklerken soru: bunu MODEL mi uygular, İNSAN mı?
+              İnsansa prompta değil plana yazılır.
+      KALDIRDIĞI  "Her şeyi prompta yaz, model bir kısmını tutar" rahatlığı.
+      NEREYE  PROMPT_SABLONU §1 · KILAVUZ_REHBERI §10
+
+P1-k  OMURGA CÜMLESİ — merdivenden ÖNCE, tek satırda on vuruş       [uzman okuması]
+      Okuma: "Boş Ay → ilk yara → makineler istilası → habitat geliyor →
+      900 ton toprak onu yutuyor → altyapı yükseliyor → ikinci habitat →
+      uzun gece → ışık geri geliyor → aynı sabah, geri dönüşü olmayan üs."
+      KİLİT   Konsept kapısına dördüncü test: OMURGA CÜMLESİ. On vuruş, her
+              biri ≤4 kelime, ok işaretleriyle, tek satır. Bir vuruş
+              yazılamıyorsa o sahne yoktur; iki vuruş aynı şeyi söylüyorsa
+              biri fazladır. Merdiven bu cümleden TÜRER, tersi olmaz.
+      KALDIRDIĞI  Hiçbir şey — yalnız sıra: önce cümle, sonra tablo.
+      NEREYE  KILAVUZ_REHBERI §6
+```
+
+---
+
+## 🎬 DÖRT FİLM OKUMASI — aynı yapımcı, dört üretilmiş film, burada VARSAYIM
+
+> ⛔ **Hiçbiri ölçülmedi.** Kaynak: `arastirma/SONUCLAR/P2_THE_LONG_SHADOW_OKUMA_HAM.md`
+> · `P3_THE_MOUNTAIN_DOOR_…` · `P4_THE_NARROW_LOT_…` · `P5_THE_CLOSING_SPAN_…`
+> (profesyonel timelapse yapımcısı · 07.09.2026 · dört planı ve QA sonuçlarını
+> okudu, her biri için kendi 4 görsel + 4 video şablonunu yazdı). Kaynak sınıfı
+> **uzman okuması.** Okunan dört film DÜZELTİLMEZ; her madde YENİ film içindir.
+>
+> ⭐ Dört okumanın ortak teşhisi tek cümle: **"promptlar fazla detaylı, üretim
+> zinciri yeterince sert değil."** Bu, deponun DERS 5 · 12 · 25'te kendi
+> ölçtüğü şeydir — dışarıdan üçüncü kez söylenmiş oldu. Aşağıda yalnız
+> deponun HENÜZ yazmadığı ya da çelişen maddeler kodlandı; tekrar edenler
+> "DOĞRULAR" olarak tek satırla geçti.
+>
+> DOĞRULAR (yeni madde üretmez): ters zincir zorunlu [DERS 5 · 12] · kamera
+> kilidi araç/pipeline meselesi [DERS 23 · A3-d] · ters söküm açılışı kaldırılır
+> [DERS 3] · kesme varyansı [DERS 13] · bir klip = bir iş adımı [§9.5] ·
+> I2V yapıyı yeniden tarif etmez [PROMPT_SABLONU §2] · bedel = eski yol boş /
+> boşluk kapanır [§6].
+
+```
+P2-a  CHECKPOINT = MASTER'IN TARİHSEL SÜRÜMÜ, YENİ ÜRETİM DEĞİL          [uzman okuması]
+      Okuma (dördünde de): "IMAGE 3, IMAGE 2 referansıyla değil MASTER 4
+      geometrisine bağlı üretilmeli" · "dört ayrı generation değil, bir
+      görüntünün dört tarihsel versiyonu" · "S9 master → S8 edit → S7 edit".
+      ⭐ §8 adım 3 zinciri zaten ister; bu madde zincirin NE OLDUĞUNU
+         daraltıyor: her kare bir öncekinden "esinle üretilmez", master'ın
+         üstünde EDİT edilir (parça kaldır / parça ekle). A3-a'nın hata
+         birikimi iddiasına da cevap veriyor: edit zinciri master'a
+         bağlı kalırsa (A3-b'nin hub mantığı) birikim azalır.
+      KİLİT   Üretim notu her kare için tek satır yazar: "MASTER'dan ne
+              KALDIRILDI / ne EKLENDİ". Sıfırdan üretilen ara kare zincir
+              kırığıdır — betik geçse bile [DERS 25 ile aynı kapı].
+              ⭐ VE I2V'NİN HEDEFİ SONRAKİ ONAYLI KAREDİR: klip, iki onaylı
+              kare ARASINDA üretilir (A3-f'nin sahne içi hâli); "somut bir
+              sonraki kare" olmayan I2V yazılmaz.
+      KALDIRDIĞI  Ara karelerde modelin "kendi yorumunu" katma imkânı. [D-f]
+      NEREYE  KILAVUZ_REHBERI §8 adım 3
+
+P2-b  SAYI PROMPTTA KALIR — ANCAK EKRANDA SAYILABİLİYORSA                [uzman okuması]
+      Okuma (dördünde de): 62 lamba · 14 panel · 22 kablo · %27,8 · bearing
+      035° gibi sayılar bible'da kalmalı; prompta yalnız görsel olarak
+      ayırt edici olan girmeli. "Model geometrik constraint solver değil;
+      prompt uzadıkça asıl 5-6 koşulun ağırlığı düşer."
+      ⛔ DERS 19 İLE ÇELİŞİR GİBİ DURUR — DEĞİL. DERS 19 ölçtü: SAYILI çapa
+         (3 baca · 5 pencere) 10/10, SAYISIZ bible 2/10. Ama o sayılar
+         1080×1920'de SAYILABİLİR sayılardı. "62 lamba" ve "%27,8"
+         ölçülmedi; yapımcı bunların modelde karşılığı olmadığını söylüyor.
+      KİLİT   Sayı testi: izleyici bu sayıyı kadrajda SAYABİLİR mi?
+              Sayabilir (3 baca · 2 yarık · 2 tepe · 18 kat)  → prompta
+              Sayamaz (62 lamba · 14 panel · 620 m · %27,8)   → bible/SPEC'e;
+              prompta yapısal hâli gider: "one evenly spaced line of lights
+              receding with correct perspective".
+              Kamera satırının altı alanı [KAMERA §2] ve güneş açıları
+              [DERS 18] bu testten MUAFTIR — onlar ölçüldü.
+      KALDIRDIĞI  "Her sayı prompta" disiplininin rahatlığı; SPEC artık
+              prompttan fazla sayı taşır. [D-f]
+      NEREYE  KILAVUZ_REHBERI §3 · PROMPT_SABLONU §1
+
+P2-c  NEGATİF ÇEKİRDEK HİYERARŞİKTİR: SÜREKLİLİK KATİLLERİ ÖNCE           [uzman okuması]
+      Okuma: "20 farklı yasak yazınca 'same geometry / fixed camera / no
+      morphing / no teleporting' ile önemsiz yasaklar aynı ağırlığa
+      yaklaşıyor." Yapımcının şablonu: SCENE LOCK → STAGE → DETAILS →
+      NEGATIVE — ve NEGATIVE = yalnız continuity'yi öldüren davranışlar.
+      ⛔ DERS 20 blok etiketlerini kapının ADRESİ yaptı; etiketler kalır.
+         Bu madde bloğun İÇİNDEKİ sırayı ve uzunluğu daraltır.
+      KİLİT   NEGATIVE bloğu üç katmandır ve bu SIRAYLA yazılır:
+              ① süreklilik katilleri (kamera · çapa · geometri · morph ·
+                 teleport · desteksiz parça) — kapı imzaları burada
+              ② metin yasağı (yüzey yüzey, D-b)
+              ③ estetik yasaklar (render · sci-fi · minyatür) — en kısa
+              Toplam 1.000 karakteri geçmez.
+      KALDIRDIĞI  Uzun negatifin "her şeyi kapsadım" hissi. [D-f]
+      NEREYE  KILAVUZ_REHBERI §7
+
+P2-d  I2V FİİL AĞIRLIKLIDIR: KAYNAK DURUM → TEK İŞLEM → HEDEF DURUM       [uzman okuması]
+      Okuma: "'Four months pass' modele fazla soyut. I2V'nin görevi 34 aylık
+      projeyi anlamak değil, A'dan B'ye fiziksel olarak ikna edici hareket
+      üretmek." Şablon: SOURCE STATE → ONE DOMINANT OPERATION → PHYSICAL
+      MOTION → TARGET STATE. "form traveller moves onto the last segment →
+      workers secure it → next segment assembled → next cable tensioned →
+      repeat."
+      ⛔ DERS 18 KORUNUR: güneş açıları I2V'de dereceyle kalır (ölçüldü).
+         Değişen şey takvim cümlesi: "N months pass" TAŞIYICI değildir,
+         işlem döngüsü taşıyıcıdır.
+      KİLİT   I2V'nin zaman paragrafı DÖNGÜ olarak yazılır: makine adımı →
+              malzeme adımı → sonuç adımı → tekrar; ve paragraf HEDEF
+              DURUMLA biter: "…and the shot ends with <sonraki onaylı
+              karenin tek cümlelik durumu>." Yapı yeniden tarif edilmez;
+              hedef bir DURUMDUR, bir tarif değil.
+      KALDIRDIĞI  "Dört ay geçer" cümlesinin anlatı zarafeti. [D-f]
+      NEREYE  PROMPT_SABLONU §2
+
+P2-e  DETAY İSTASYONU AŞAMA DEĞİL EKTİR; DORUKTA KAMERA DEĞİŞMEZ          [uzman okuması]
+      Okuma (LONG SHADOW · CLOSING SPAN): "ana kameradan ayrıldığın her
+      sahnede izleyicinin karşılaştırma hafızasını sıfırlıyorsun" ·
+      "dönüşümün %85-90'ı tek MAIN'den; pylon istasyonu 1-2 sn detail
+      insert; köprü birleşirken kesinlikle kamera değişmez."
+      ⭐ KAMERA §1 zaten "vantajı azalt" diyor; bu madde sayı veriyor.
+      KİLİT   Detay istasyonu bir AŞAMA satırı almaz; bir ana sahnenin
+              içine ≤2 sn EK olarak girer ve kanıt nesnesini taşımaz.
+              Doruk sahnesi (kapanış · teslim · usta kare) HER ZAMAN ANA
+              istasyondadır. Ana istasyon toplam sürenin ≥%85'idir.
+      KALDIRDIĞI  Çukur derinliği gibi yalnız detaydan görünen bilginin
+              kendi sahnesi. Karşılığı: karşılaştırma hafızası kesintisiz.
+      NEREYE  KAMERA_ISTASYONU §1
+
+P2-f  DORUK EN UZUN SÜREYİ ALIR                                            [uzman okuması]
+      Okuma (CLOSING SPAN): "son 20 metrelik açıklığın kapanmasını diğer
+      aşamalardan daha uzun izletirdim" · örnek ızgara 4·3·5·4·7·5·4·8·10·7.
+      NARROW LOT: 4,5 · 7 · 5,5 · 7 + hero hold.
+      ⭐ DERS 13 varyansı ister, doruğun YERİNİ söylemez; §2.2 "doruk
+         öncekiyle kontrast yapar" der. Bu madde ekler: doruk = maksimum.
+      KİLİT   SÜRE sütununun en büyük değeri DORUK sahnesindedir (kapanış /
+              gömülme / açılış) — usta kare sahnesinde değil, eğer ikisi
+              farklıysa. İkinci en uzun süre usta karenin hero hold'udur.
+      KALDIRDIĞI  Hiçbir şey; varyans kuralı yerinde, yalnız sıralandı.
+      NEREYE  KILAVUZ_REHBERI §2.2
+
+P2-g  GÖRÜNMEYEN İLERLEME PROMPTA YAZILMAZ                                 [uzman okuması]
+      Okuma (MOUNTAIN DOOR): "'tünel 300 metre ilerledi' gibi görünmeyen
+      bilgileri image promptundan tamamen çıkarırdım."
+      ⭐ MOUNTAIN DOOR AT THIS STAGE'e "driven 300 metres" yazmıştı; bunun
+         ekranda karşılığı yoktu ve ⑧ merceğinin C1 HIDDEN WORK kategorisi
+         tam bunu ölçecek.
+      KİLİT   AT THIS STAGE yalnız KAMERANIN GÖRDÜĞÜNÜ yazar. Görünmeyen
+              ilerleme SPEC'te "gizli iş + görünür vekil" satırı olarak
+              durur (⑧ C1); prompta yalnız vekil girer.
+      KALDIRDIĞI  Hiçbir şey; bilgi SPEC'te kalıyor.
+      NEREYE  PROMPT_SABLONU §1
+
+P2-h  SÖKÜM BİR EYLEMDİR, BİR KAYBOLMA DEĞİL                              [uzman okuması]
+      Okuma (dördünde de): "disappearing equipment without workers
+      removing it" · "temporary equipment is loaded onto trucks and driven
+      away rather than disappearing" · "nothing appears by itself".
+      ⭐ §4 SÖKÜM SATIRI hangi sahnede söküleceğini yazar; NASIL
+         söküleceğini yazmaz. ⑦ ve ⑧ mercekleri tam bunu ölçecek.
+      KİLİT   Söküm satırındaki her kalem I2V'de bir FİİL alır: "the
+              formwork is stripped panel by panel and stacked on the
+              flatbed, which drives out of frame." Kesme ARASINDA sökülen
+              kalem için giden klibin son saniyesinde sökümün BAŞLANGICI
+              görünür (DERS 21'in ekipman hâli).
+      KALDIRDIĞI  Ekipmanı iki sahne arasında sessizce yok etme kolaylığı.
+      NEREYE  KILAVUZ_REHBERI §4 (söküm satırı)
+
+P2-i  FİNAL TUTUŞU: SON KLİP BİR KONTRASTLA BİTER VE ONU TUTAR             [uzman okuması]
+      Okuma (dördünde de): "hold the final moment long enough to read the
+      contrast: active tunnel below, empty old road above" · "finish with
+      a short hero hold".
+      ⭐ P1-h hiyerarşiyi ister; bu madde SÜREYİ ister. LOOP kuralı (son
+         kare = S0 ışığı) ile çelişmez: tutuş o ışıkta yapılır.
+      KİLİT   Usta kare klibinin son ≥2,0 saniyesi TUTUŞTUR: yapı ve ışık
+              sabit, yalnız araç/insan lekesi akar. Bu 2 saniye SÜRE
+              sütununa dahildir ve FİNAL KARE KANITI bu tutuşun içinden
+              alınır.
+      KALDIRDIĞI  Son saniyeye kadar iş adımı sıkıştırma imkânı. [D-f]
+      NEREYE  KILAVUZ_REHBERI §8 adım 9
+
+P2-j  İKİ BELGE: PRODUCTION BIBLE UZUN, GENERATION PROMPT KISA             [uzman okuması]
+      Okuma (dördünde de): "üretim dokümanı ile generative-video promptunu
+      birbirine fazla yaklaştırmışsın." Bible: ölçüler · azimut · söküm ·
+      QA kriterleri. Prompt: SCENE LOCK → STAGE → DETAILS → NEGATIVE.
+      ⭐ P1-j'nin aynısı, dört filmde dört kez. Depoda belge ZATEN ikiye
+         ayrılmış (plan + SPEC); ayrılmayan şey PROMPTUN İÇİDİR: plan
+         promptu SPEC'in kopyası gibi yazıyor.
+      KİLİT   Görsel prompt bandı 2.000-6.000'den 2.000-4.000'e iner
+              (P2-b · P2-c ile birlikte). Kapı eşiği ilk üretimden sonra
+              ölçülür ve değiştirilir; şimdilik HEDEF, kapı değil.
+      KALDIRDIĞI  6.000'e kadar yazma payı. [D-f]
+      NEREYE  PROMPT_SABLONU §1 (uzunluk hedefi)
+
+P2-k  DİKİŞ = DÜNYA MİRASI: KAMERA ÇÖZÜLDÜ, SIRADAKİ YAPI/DÜNYA KALITIMI  [uzman okuması]
+      Okuma (CLOSING SPAN): "camera lock 10/10 olduğu hâlde 9/9 dikişin
+      bozulması: kamera artık çözülmüş, sıradaki büyük problem
+      world/structure inheritance."
+      ⭐ Bu bir teşhis sıralamasıdır ve deponun ders sırasıyla aynı:
+         DERS 6/11 (kamera) → DERS 5/12/25 (zincir). Yeni madde değil,
+         ÖNCELİK: zincir koşulmadan başka hiçbir ders test edilemez.
+      KİLİT   İlk üretimde tek soru sorulur: ZİNCİR TUTTU MU (⑤ SAME
+              WORLD + ⑧ MADE)? Tutmadıysa diğer merceklerin skoru
+              yorumlanmaz; film "zincir koşulmadı" diye kapanır.
+      KALDIRDIĞI  Hiçbir şey.
+      NEREYE  AGENTS kart R (6b satırı zaten var; bu madde onu ÖNE alır)
+
+P2-l  ⚠️ BEKLETİLEN ÖNERİLER — ölçülmüş bir dersle çelişiyor, ALINMADI     [uzman okuması]
+      ① "İlk 1-2 saniyede final kuleyi hook frame olarak göster, sonra
+         kronolojik." — DERS 3 ters açılışı ölçtü ve vaadi KAPAĞA taşıdı
+         (kart SONDA, A1-b). Baştaki hook karesi ölçülmedi; ters açılışla
+         aynı şey değil ama aynı riski taşır (izleyici "yıkılıyor" okur).
+         → ölçülene kadar kapak sonda kalır.
+      ② "Hero klipte çok hafif dijital crop push-in." — format kimliği
+         sabit kameradır [§1.2]; DERS 6'nın %4 kırpma payı KİLİT içindir,
+         hareket için değil. → alınmadı.
+      ③ "Kar giden klibin içinde kademeli birikir." — DERS 26 ölçtü: ara
+         durum tek kareden türetilemez, kendi karesini ister. → alınmadı.
+      ④ "Workers in PPE physically guide…" (net işçi eylemi) — DERS 15
+         ölçtü: insan gerçek zamanda donuyor; sayıyı azalt. Eylem
+         MAKİNEYE ve MALZEMEYE yazılır (P2-h), insana değil. → alınmadı.
+      Bu dördü ilk üretimden sonra yeniden okunur.
+```
+
+---
+
+## DERS 45 — ⭐ Final beat (Teslim) zifiri karanlıkta bitemez, bitiş görülmelidir
+
+```
+NEREDE      BEFORE NIGHTFALL · ④ TESLİM 2.8/10 · Cut 9 (01:14.0)
+NE OLDU     Filmin final sahnesi (eclipse totality / geceye geçiş) tamamen
+            karanlığa karardı. Bu yüzden izleyici yapının BİTMİŞ HÂLİNİ
+            (FINAL BEAT) göremedi ve yapı 3. sorudan (COST/FINAL BEAT)
+            otomatik olarak FAIL aldı.
+NEDEN       İsim "BEFORE NIGHTFALL" olduğu için prompt'a geceye veya
+            karanlığa geçiş (fade to black) yazıldı. Ancak bitmiş ürün
+            (vaat edilen yapı) görünmediğinde film amacına ulaşmaz.
+KİLİT       Filmin son sahnesi ve kapak kartı (FINAL BEAT) mutlaka AYDINLIK
+            veya net görülebilir biçimde (daylight veya heavy floodlights)
+            olmalıdır. "Fade to black" veya "total darkness" ile final
+            yapmak, yapıyı sakladığı için yasaktır.
+KALDIRDIĞI  Karanlıkta veya tamamen gece karanlığında biten dramatik sonlar. [D-f]
+NEREYE      KURGU_VE_TESLIM_KILAVUZU §2 · ZAMAN_VE_ISIK_KILAVUZU §3
+```
+
+## DERS 46 — Vinç kancası kadraj dışından sarkamaz, yük yolu (load path) kopamaz
+
+```
+NEREDE      BEFORE NIGHTFALL · ① KARE 5.6/10 · ② İNŞA 2.1/10
+NE OLDU     Ağır bir habitat modülü (cylindrical tank) kadrajın üst
+            kenarından inen bir vinç kancasıyla (overhead crane hook) havada
+            taşındı. Ortada bunu taşıyan bir vinç gövdesi (mast/jib) ya da
+            zemine inen bir yük yolu (load path) yoktu.
+NEDEN       Prompt "overhead crane hook lowers the tank" diyerek kancayı
+            çağırdı ama vincin KENDİSİNİ (gövde, ayak) var etmedi veya
+            zaten kurulmamıştı.
+KİLİT       Kaldırma işlemi yapılıyorsa (crane hook, rigging), o vincin
+            gövdesi (mast, jib) şantiyede KURULMUŞ veya GÖRÜNÜR olmalıdır.
+            Havadan sarkan, gövdesiz kancalar "yük yolunu (load path)"
+            kırdığı için yasaktır.
+KALDIRDIĞI  Vincin kendisini göstermeden sadece kancasıyla malzeme
+            indirme kolaylığı. [D-f]
+NEREYE      INSAAT_YONTEMI_KILAVUZU §4 · ARAC_KARTLARI
+```
+
+## DERS 47 — Zaman sıkışıyorsa (motion blur), gölge de süpürmelidir (frozen sun yasağı)
+
+```
+NEREDE      BEFORE NIGHTFALL · ③ ZAMAN 4.2/10
+NE OLDU     Makineler (rover) motion blur (zaman sıkışması) ile hareket
+            ederken, yapıların ve nesnelerin gölgeleri (sun angle) klip
+            boyunca milimetre bile oynamadı.
+NEDEN       Prompt "static, low sun left" gibi hareketsiz bir ışık kaynağı
+            beyan etti. Timelapse formatında (compress time) güneş/gölge
+            sabit kalamaz.
+KİLİT       Ekranda motion blur (hızlı hareket eden araçlar/zaman atlaması)
+            varsa, LIGHTING bloğunda gölgeler sabit kalamaz. Güneş açısı veya
+            gölgeler "sweep, shift, lengthen" gibi hareket fiilleriyle
+            zamanın geçtiğini kanıtlamak zorundadır ("frozen sun" yasağı).
+KALDIRDIĞI  Kolay (static) ışık tutarlılığı. Karşılığı: hareket eden gölge
+            riskini almak. [D-f]
+NEREYE      ZAMAN_VE_ISIK_KILAVUZU §2 · PROMPT_SABLONU
+```
+
+## DERS 48 — ⭐ Malzeme şantiyede yoktan var olamaz, kaynağı görünmelidir
+
+```
+NEREDE      BEFORE NIGHTFALL · ⑧ YÖNTEM 2.5/10 · THE FIRST PIECE THAT APPEARED
+NE OLDU     Habitat modülünün etrafına tuğla duvarlar, anten ve devasa
+            güneş panelleri örüldü; ancak şantiyede hiçbir tuğla paleti,
+            malzeme yığını (stockpile) veya bunları taşıyan donanım yoktu.
+            Parçalar havadan (thin air) belirdi.
+NEDEN       Aşama merdiveninde parçanın "yapılacağı" söylendi ancak
+            o malzemenin SAHAYA NASIL GELDİĞİ (staging, pallets) unutuldu.
+KİLİT       Aşama merdiveninde bir eleman inşa ediliyorsa, o elemanın
+            hammaddesi (tuğla paleti, çelik yığını, toprak) önceki kliplerden
+            itibaren sahada YIĞIN (stockpile/staging) olarak bulunmalıdır.
+            Sahada kaynağı olmayan parça "APPEARED" hükmü yer.
+KALDIRDIĞI  Malzeme lojistiğini (staging) atlayıp doğrudan inşaata
+            geçme kolaylığı. [D-f]
+NEREYE      INSAAT_YONTEMI_KILAVUZU §5
 ```
 
 ---

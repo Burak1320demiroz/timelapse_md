@@ -25,6 +25,11 @@ S9  ANA      ⭐ USTA KARE · teslim   ← S0 ile aynı kadraj, aynı saat, ayn�
 KART         başlıklı kapak · SAHNE DEĞİL · S9'un karesinden türetilir
 ```
 
+⭐ **DETAY = EK, AŞAMA DEĞİL [P2-e]:** detay istasyonu bir merdiven satırı
+almaz; bir ana sahnenin içine ≤2 sn ek olarak girer, kanıt nesnesini
+taşımaz. Doruk (kapanış · gömülme · teslim) HER ZAMAN ana istasyondadır ve
+ana istasyon toplam sürenin ≥%85'idir. Aşağıdaki 8+2 şeması üst sınırdır.
+
 **Neden 8+2:** 10 sahnede vantaj sayısını ARTIRMAK değil AZALTMAK gerekiyor.
 v1'de üç vantaj vardı ve ① merceği filmi "ALTI AYRI GÖRÜNTÜ" saydı; en ağır
 gerekçelerden biri, ikincil vantajlarda hiçbir çapanın görünmemesiydi
@@ -109,6 +114,33 @@ o banda yakın plan zemin ve sokak konur; hikâyeye ait hiçbir şey oraya düş
 ve kadrajın geri kalanı tamamen yapıya kalır.
 
 ---
+
+## ⭐ 3.1 GENİŞ SAHADA İKİ MESAFE — kenar ve eksen  [DERS 38]
+
+```
+§3'ün formülü doğrudur ve "D = kameradan YAPIYA mesafe" der. Çalışılmış
+örnek TEK BİR KULEDİR; orada saha kenarı ile yapı ekseni aynı noktadır.
+GENİŞ SAHADA (pad · kampüs · baraj · liman) bu iki mesafe AYRIŞIR.
+
+THE DUST YEAR ölçüldü: "mesafe: pad'in güney kenarından 27,5 m" yazıldı ve
+BÜTÜN yüzdeler bu D ile hesaplandı. Direk pad'in MERKEZİNDE duruyor: 42,5 m.
+                    planda    D_eksen=42,5   fark
+   direk tacı        %82,0       %70,7      11,3 puan
+   pad yüzeyi        %30,6       %37,5       6,9
+   berm tacı         %37,9       %42,2       4,3
+COMPOSITION bloğu modele "the mast head at eighty-two percent" dedi —
+beyan edilen istasyonun ÜRETEMEYECEĞİ bir sayı. Model ya istasyonu kaydırır
+ya ölçeği bozar; ① STATION IDENTITY 0/10 ve ② SCALE LOCK 4/10 ile ikisi de oldu.
+
+KURAL  Değişmezler tablosu İKİ mesafe beyan eder:
+   D_kenar  kameradan sahanın YAKIN kenarına — güvenli alanı bu belirler
+   D_eksen  kameradan YAPI EKSENİNE — BÜTÜN yükseklik yüzdeleri yalnız bundan
+
+⭐ ALT ÇEYREK EŞİĞİ de buradan hesaplanır ve Değişmezler'e yazılır:
+      D_alt = f × h / (36 × 0,25)      24 mm · h=8,0 m → 21,3 m
+   Bundan yakın her şey kadrajın alt %25'indedir. THE DUST YEAR'ın pad
+   kenarı 27,5 m — sınırın yalnız 6,2 m ötesinde; ① SAFE AREA 0/10 geldi.
+```
 
 # 4. İSTASYON KARTLARI
 

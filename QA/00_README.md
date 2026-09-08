@@ -1,11 +1,11 @@
-# 🔍 QA — ALTI MERCEK
+# 🔍 QA — SEKİZ MERCEK
 
 > Bu klasör **rubrikleri** (girdi) ve **skor tablolarını** (çıktı) tutar.
 > Rubrik üretilmiş işi eleştirir; tablo sonucu saklar. İkisi karışmaz.
 
 ---
 
-## 1. ALTI MERCEK
+## 1. SEKİZ MERCEK
 
 | | Dosya | Tek soru | Girdi | Mod |
 |:-:|---|---|---|:-:|
@@ -15,6 +15,8 @@
 | ④ | `4_TESLIM_QA.md` | Bitiyor mu, duruyor mu? | tam kurgu + plan + kapak | **D** |
 | ⑤ | `5_DEVAMLILIK_QA.md` | Aynı dünya mı, her çekimde yeniden mi kuruldu? | yalnız video + kare grabları | **V** |
 | ⑥ | `6_GECIS_QA.md` | Kesme ZAMAN mı demek, SIRADAKİ mi? | tam kurgu + plan + ses | **D** |
+| ⑦ | `7_IS_QA.md` | Şantiye hiç duruyor mu? Büyümeyi gördüğümüz iş mi yapıyor? | yalnız video + kare grabları | **V** |
+| ⑧ | `8_YONTEM_QA.md` | Her parça sıfırdan, yapımı GÖRÜNEREK mi yapıldı? | video + QA_SPEC | **D** |
 
 ### Eksenler nasıl ayrıldı — çakışma yok
 
@@ -27,30 +29,44 @@
                         geçebiliyor mu — makine · konteyner · çamur · yol ·
                         ağaç · su · yıpranma
 ⑥ KESMENİN KENDİSİ      sıçrama boyu · yön · ritim · ölçü hizası · karta devir
+⑦ İŞ                    şantiye SÜREKLİ çalışıyor mu · boş aralık · makine döngüsü ·
+                        malzeme akışı · her büyümenin o noktada görünür bir SEBEBİ var mı
+⑧ YÖNTEM                PARÇA PARÇA: her eleman önce EKSİK hâliyle mi görüldü ·
+                        donatı→kalıp→döküm sırası · kardeş elemanlar aynı yöntemle mi ·
+                        bir klipte tek adım mı · malzeme nereden geldi
 
 ⛔ ①-④ sahneleri BÜTÜN olarak inceler. Hiçbiri DİKİŞE bakmaz: sahne N'in
    SON karesi ile N+1'in İLK karesi. Onu ⑤ alır; rubriğinin çekirdeği odur.
+⛔ ⑦ ile ③ ayrımı: ③ IŞIĞIN geçtiğini sorar, ⑦ EMEĞİN sürdüğünü. Gölge dönüp
+   makine durabilir — ③ geçer, ⑦ PARKED der.
+⛔ ⑧ ile ② ayrımı: ②'nin APPEARING hükmü BİNAYI bütün olarak sorar; ⑧ her
+   elemanı TEK TEK sorar ve beliren parçayı ADIYLA yazar. ② BUILT derken
+   ⑧ "the third column APPEARED at 0:24,0" diyebilir; ikisi de doğrudur.
 ⛔ ③'ün 7. kategorisi bu yüzden daraltıldı: kesmenin YÖNÜ ve VARLIĞI ③'te
    kalır, BOYU · RİTMİ · MEKANİĞİ ⑥'ya geçti. İki kez puanlanan şey iki
    skoru birden anlamsızlaştırır.
 ```
 
 ```
-⭐ 3-3 BÖLÜNMESİ KASITLIDIR.
-   ① · ③ · ⑤'e DOKÜMAN VERİLMEZ. Üçünün de ölçtüğü şey planı hiç görmemiş bir
+⭐ 4-4 BÖLÜNMESİ KASITLIDIR.
+   ① · ③ · ⑤ · ⑦'ye DOKÜMAN VERİLMEZ. Dördünün de ölçtüğü şey planı hiç görmemiş bir
    izleyicinin gözüdür. Doküman verilirse değerlendirici filmi kendi içinde
    değil plana karşı okur ve filmin KENDİ KENDİSİYLE çeliştiğini kaçırır.
-   Bunun yerine üçü de sonunda "QUESTIONS FOR THE DOCUMENT" listesi çıkarır;
+   Bunun yerine dördü de sonunda "QUESTIONS FOR THE DOCUMENT" listesi çıkarır;
    o soruları ajan plandan cevaplar. Rubriğin ikinci yarısı o adımdır.
 
-   ② · ④ · ⑥ sözleşmeye karşı denetimdir; plan olmadan yalnız ön koşu olur.
+   ② · ④ · ⑥ · ⑧ sözleşmeye karşı denetimdir; plan olmadan yalnız ön koşu olur.
+   ⑧'in belgesi QA_SPEC'tir (②'ninki gibi): eleman listesi oradan çıkar.
 ```
 
 ```
 ⛔ ASGARİ SET — hepsini koşamıyorsan
    ① + ② + ⑤  bu türün öldürücü üç arızasını yakalar:
    kadraj oynadı mı · aynı yapı mı · aynı dünya mı.
-   Kalan üçü olmadan film yayınlanabilir; bu üçü olmadan yayınlanmamalı.
+   Kalan beşi olmadan film yayınlanabilir; bu üçü olmadan yayınlanmamalı.
+   ⭐ Proje sahibi 07.09.2026'da ⑦ ve ⑧'i istedi: "durmadan inşa" ve
+      "her parça sıfırdan, yapımı görünerek". Asgari sete alınmadılar —
+      ilk ölçümden sonra karar verilir.
 ```
 
 ## 2. ÇALIŞTIRMA
@@ -60,8 +76,10 @@
 zaten kaybetmiş olmaktır.
 
 ```
-0. MAKİNE   bash araclar/kare_al.sh <teslim.mp4> 6
-            → 18 kare (her klibin ilk/orta/son karesi)
+0. MAKİNE   ⭐ bash araclar/qa_paket.sh <film_klasoru> <teslim.mp4> [kapak]
+            → kare_al.sh koşar (30 kare) + QA/KOSU/<FILM>/ altına sekiz paket
+              (girdi satırı + eklenecek dosyalar + rubrik) [DERS 29]
+            ⛔ üretim günlüğü yoksa durur [DERS 28]
             → ①'in en zor sorusu bir MODELE değil bir SAYIYA sorulur
 
 1. ① KARE       rubrik + tam kurgu + kare grabları   ⛔ DOKÜMAN VERME
@@ -70,12 +88,31 @@ zaten kaybetmiş olmaktır.
 3. ⑤ DEVAMLILIK rubrik + tam kurgu + kare grabları    ⛔ DOKÜMAN VERME
                 ⭐ kare_al.sh'ın ürettiği "son kare / ilk kare" çiftleri
                    doğrudan bu merceğin DİKİŞ DENETİMİ içindir
+3b. ⑦ İŞ       rubrik + tam kurgu + kare grabları    ⛔ DOKÜMAN VERME
+                ⭐ "THE GROWTH NOBODY MADE" satırı NONE değilse o zaman
+                   damgası yeniden üretim sebebidir
 4. ② İNŞA       rubrik + tam kurgu + <FILM>_QA_SPEC.md
 5. ④ TESLİM     rubrik + tam kurgu + plan dosyası + kapak görseli
 6. ⑥ GEÇİŞ      rubrik + tam kurgu + SESLİ + plan dosyası
+7. ⑧ YÖNTEM     rubrik + tam kurgu + <FILM>_QA_SPEC.md
+                ⭐ ELEMENT LEDGER raporun özüdür; "THE FIRST PIECE THAT
+                   APPEARED" NONE değilse o parçanın sahnesi yeniden üretilir
 ```
 
 Her koşuda **başka hiçbir şey verilmez** — medya + rubrik + (mod D ise) tek belge.
+
+### ⭐ HÜKÜM OKUMA SIRASI — ⑥ ⑤'İN ALTINDADIR  [DERS 44 · 08.09.2026]
+
+```
+Skorlar okunmadan ÖNCE ⑤'in hükmüne bakılır:
+   ⑤ "A SET REBUILT EACH TIME" ise → ⑥ METRONOM hükmü IZGARAYA YAZILMAZ.
+   Sebep ⑤'tir; süre varyansı ⑥'nın gerek şartıdır, yeter şartı değil.
+ÖLÇÜLDÜ (THE DUST YEAR): ızgara varyanslıydı (6·8·4·4·6·4·10·4·6·10, dört
+farklı süre, 2,5 kat aralık) ve hüküm yine METRONOM. ⑥'nın kendi gerekçesi
+süreleri hiç anmıyor: "failure of anchor survival across the seams".
+Aynı okuma ⑦ ile ⑧ için de geçerlidir: ⑦ PARKED ise ⑧'in "APPEARED" hükmü
+promptun ara hâl metnine değil, makinenin malzemeye dokunmamasına yazılır.
+```
 
 ### ⛔ GİRDİ SATIRI — koşudan ÖNCE doldurulur [DERS 27]
 
@@ -99,7 +136,8 @@ Her koşunun başına, koşmadan ÖNCE tek satır yazılır ve rapora yapıştı
 ## 3. SKOR TABLOLARI
 
 ```
-T1_KARE · T2_INSA · T3_ZAMAN · T4_TESLIM · T5_DEVAMLILIK · T6_GECIS  ← satır buraya
+T1_KARE · T2_INSA · T3_ZAMAN · T4_TESLIM · T5_DEVAMLILIK · T6_GECIS ·
+T7_IS · T8_YONTEM                                      ← satır buraya
 00_INDEX.md                                            ⭐ PROJEDEKİ TEK SAYAÇ
 RAPORLAR/<FILM>.md                                     film başına kalıcı kayıt
 HAM_RAPORLAR/<FILM>_<MERCEK>_HAM.md                    modelin ham çıktısı, dokunulmaz
@@ -112,7 +150,7 @@ tabloda bağlayıcı sayılmaz — ama VERDICT satırı her modda bağlayıcıd�
 
 ```
 ⛔ YANLIŞ MODDA KOŞULAN MERCEK [DERS 17]
-   ② ④ ⑥ mod D merceğidir. Belgesi verilmeden koşulduysa:
+   ② ④ ⑥ ⑧ mod D merceğidir. Belgesi verilmeden koşulduysa:
      · skoru T tablosuna SKOR OLARAK yazılmaz
      · satır "belgesiz koşuldu — TEKRARLANACAK" diye açılır
      · bulguları geçerlidir ve rapora işlenir
@@ -134,6 +172,10 @@ hüküm verir. İkisi çelişirse **hüküm kazanır.**
 ⑤ AYNI DÜNYA MI?              AYNI DÜNYA / HER ÇEKİMDE YENİDEN KURULMUŞ
                               + "aynı yeri KANITLAYAN nesne" satırı
 ⑥ KESME ZAMAN MI DEMEK?       ZAMAN / SIRADAKİ  ·  RİTİM / METRONOM
+⑦ ŞANTİYE DURUYOR MU?         WORKING / PARKED
+                              + "kimsenin yapmadığı büyüme" satırı (m:ss / NONE)
+⑧ HER PARÇA YAPILIYOR MU?     MADE / APPEARED
+                              + "ilk beliren parça" satırı (eleman adı · m:ss / NONE)
 ```
 
 ⭐ **⑥'nın METRONOM hükmü yeni ızgaranın kendi riskidir:** on eşit kesme

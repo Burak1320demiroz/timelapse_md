@@ -63,11 +63,38 @@ Gölge boyu  L = h / tan(α)   → yaz gündönümünde en KISA, kış gündön�
 
 ---
 
+## ⭐ 2.5 GÜNEŞ DİSKİ ANILIRSA GELİR  [DERS 39 · 32]
+
+```
+DERS 32 diski yasaklamıştı. THE DUST YEAR'ın dokuz promptunda disk girmedi.
+S6'da girdi — çünkü LIGHTING bloğunu ben açtım:
+   "…its only sign is the shadows. A dark ochre sky flattened by a planet
+    wide dust haze, THE SUN A DIM DISC WITH NO EDGE."
+③ gölge tablosu satır 7: "Sun disc in haze N/A 52° No".
+"no edge" bir SIFATTIR, "disc" bir NESNEDİR. Nesne gelir, sıfat gelmez
+[DERS 33 · 35 · 41 ile aynı mekanizma].
+
+KURAL  LIGHTING güneşi YALNIZ etkisiyle anar: açı · gölge yönü · gölge
+       oranı · gökyüzü rengi. "sun disc" · "solar disc" · "the sun is
+       visible" LIGHTING'e HİÇ girmez, sıfatla bile.
+   ⛔ "the sun a dim disc with no edge"
+   ✅ "a dark ochre sky, uniformly bright from horizon to zenith, with no
+      bright point anywhere in it"
+⛔ Aynı blok TEK bir gölge rejimi beyan eder: ya oran verilir ya "gölgesiz"
+   denir. THE DUST YEAR S6 ikisini birden yazdı (1,38 m gölge oranı VE
+   "almost shadowless") — model çelişkiyi kendi çözdü.
+KAPI  prompt_kontrol.py §10c — LIGHTING'de disk → BLOCK.
+```
+
 # 3. 6 SANİYEDE NE DEĞİŞİR — bütçe
 
 Bir klipte aynı anda çalışabilecek zaman olayları. **En fazla İKİSİ seçilir**
 (⭐ 10 sn ızgarasında üçtü — klip kısaldı, bütçe de kısaldı); üçüncüsü
 kalabalıktır ve model geometriyi eritir.
+
+⛔ **USTA KARE KLİBİ MUAF DEĞİLDİR [P1-g].** Loop'un ışık şartı bir olay
+sayılır; geriye TEK olay kalır. Gece + şafak + mekanik hareket + ışıkların
+sönmesi tek klipte yazılmaz — "kahraman sahne" aynı zamanda QA ölüm noktasıdır.
 
 ```
 ⛔ v1 KANITI: tek klipte 13 kat çıkarıldı ve ② GEOMETRIC STABILITY 0/10 geldi
@@ -198,6 +225,12 @@ yukarıdaki negatif ek geçerlidir.
 ⛔ **Mevsim taşıyıcısı olmayan sahada** (çöl) zaman yükünün tamamı güneş
 yüksekliğine ve yapının kendisine biner; güneş satırı orada daha da kritiktir.
 
+⭐ **ZAMAN NESNESİNİN SEBEBİ YAZILIR [P1-d].** Rüzgârsız sahada (Ay · kapalı
+hacim) toz "zamanla çökmez"; grileşen bir yüzeyin sebebi FAALİYETTİR ve I2V'de
+hareket olarak görünür: "each pass of the crawler throws a fan of regolith
+against the lander's legs and the grey climbs a little higher." Sebepsiz
+zaman nesnesi model için doku değişimidir.
+
 ### ⭐⭐ BETON KÜRLENMESİ — deponun hiç kullanmadığı taşıyıcı [A4-a]
 
 ```
@@ -259,6 +292,11 @@ Sahne başına temsil süresi  → aşama merdiveninin TEMSİL SÜRE sütunu
 
 Bu yay — yavaş / hızlan / en yoğun / yavaşla — filmin nefesidir. On sahneyi
 eşit bölmek videoyu bir tabloya çevirir.
+
+⭐ FİLM MERTEBE ANLATIR, BIBLE SAYI [P1-c]. Mevsim taşıyıcısı olmayan sahada
+   ③'ün "TIME READ FROM THE FILM ALONE" hedefi plana MERTEBE olarak yazılır
+   ("aylar" · "yaklaşık bir yıl" · "birkaç yıl"); kesin ay sayısı üretim
+   bilgisidir ve ekrandan doğrulatılmaz.
 
 ⛔ İzleyicinin okuduğu süre, yazdığın süre değildir. v1'de plan 14 ay
    diyordu ve ③ merceği filmi "1,5-2 yıl" okudu — çünkü bir kış görüp

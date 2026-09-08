@@ -5,8 +5,10 @@
 > `QA/HAM_RAPORLAR` ile aynı disiplinle işler.
 
 ```
-ADLANDIRMA   A<n>_<BOT>_HAM.md
-ÖRNEK        A3_GEMINI_HAM.md · A3_CHATGPT_HAM.md · A1_PERPLEXITY_HAM.md
+ADLANDIRMA   A<n>_<BOT>_HAM.md          araştırma promptu çıktısı
+             P<n>_<FİLM>_OKUMA_HAM.md   ⭐ dış OKUMA (insan · uzman) — bir planı
+                                        ya da filmi okuyan yapımcının metni; ölçüm değil
+ÖRNEK        A3_GEMINI_HAM.md · A3_CHATGPT_HAM.md · P1_PLAN_OKUMA_HAM.md
 
 ⭐ Aynı prompt iki bota koşulduysa İKİ AYRI DOSYA açılır. Ortalama ALINMAZ:
    iki rapor aynı sayıyı farklı veriyorsa o sayı ölçülmemiştir ve bu bilgi,

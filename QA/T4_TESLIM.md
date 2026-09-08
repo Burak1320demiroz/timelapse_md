@@ -5,10 +5,12 @@
 
 | Film | Mod | Skor | VERDICT | Bulgu | Rapor |
 |---|:---:|---:|---|:---:|---|
+| **THE LONG DAY** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 4,8) | ⚠️ ENDS · ⭐ ONE THING BULUNDU (ilk kez) · LOOP 0 · END CARD DIFFERENT | 6 | [kayıt](RAPORLAR/THE_LONG_DAY.md) |
 | **THE MOUNTAIN DOOR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* | ⚠️ ENDS · NONE FOUND | 6 | [kayıt](RAPORLAR/THE_MOUNTAIN_DOOR.md) |
 | **THE NARROW LOT** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* | ⚠️ ENDS · NONE FOUND | 15 | [kayıt](RAPORLAR/THE_NARROW_LOT.md) |
 | **THE CLOSING SPAN** | V | **5,4**/10 Ⓥ | ⚠️ BİTİYOR · NONE FOUND | 10 | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
 | **THE LONG SHADOW** | V | **2,7**/10 Ⓥ | ⛔ DURUYOR · NONE FOUND | 15 | [kayıt](RAPORLAR/THE_LONG_SHADOW.md) |
+| **THE DUST YEAR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 2,1) | ⛔ STOPS · COST/FINAL BEAT **FAIL** · NONE FOUND | 5 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_TESLIM_HAM.md) |
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17]:** plan da kapak da verilmedi. FINAL BEAT beyan edilmiş vuruşa karşı denetlenmedi — mod V'de kategori "bir sonu var mı"ya dönüştü ve PASS verdi. ⛔ NONE FOUND **dördüncü kez** — bu filmde BEDEL plana İKİ kez yazılıydı [DERS 26]. Ham ortalama 4,0.
 

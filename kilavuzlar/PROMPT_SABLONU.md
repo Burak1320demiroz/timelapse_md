@@ -1,8 +1,9 @@
-# 🧩 PROMPT ŞABLONU — Görsel · I2V · T2V
+# 🧩 PROMPT ŞABLONU — Görsel · İKİ UÇLU I2V
 
 > Üç iskelet, sabit sırayla. Her prompt **kendi başına** çalışır: belge atfı
 > (`[DEĞİŞMEZLER]`, `[YAPI BIBLE]`) yasaktır — model belgeyi okumaz, promptu
-> çizer. Uzunluk hedefi: görsel promptu ~2.000-3.000 karakter.
+> çizer. Uzunluk hedefi: görsel promptu 2.000-4.000 karakter [P2-j] — kapı
+> eşiği hâlâ 6.000 (DERS 2); ilk üretimden sonra ölçülüp daraltılır.
 
 ---
 
@@ -41,6 +42,8 @@ accelerated speed. Nothing in the frame moves at normal speed.
 ACTIVITY: [makineler ve konumları] Workers appear only as soft motion streaks
 and blurred figures, none of them sharp, none of them facing the camera, no
 readable face anywhere. Vehicles render as smeared light and colour trails.
+          ⛔ İNSANSIZ FİLMDE bu cümle YAZILMAZ; yerine "No people are present."
+          [DERS 33 — koşullu cümle astronot üretti]
 
 SITE TEXTURE: mud, tyre ruts, standing puddles, stacked material, offcuts,
 tarpaulins and untidy clutter across the working area.
@@ -59,6 +62,34 @@ STRUCTURE'ın YAPI BIBLE kısmı  → ON promptta BİREBİR aynı kelimeler
 SITE / BACKGROUND              → ON promptta BİREBİR aynı kelimeler
 Değişen tek şey: "AT THIS STAGE" cümlesi ve THE TIME MOMENT.
 Izgara 10 sahnedir; sayı değişirse "Scene N of X" hepsinde birlikte değişir.
+```
+
+### ⭐ TIME RATE ÖZNE LİSTESİ SAHADAN YAZILIR [P1-e]
+```
+İMZA KORUNUR   "time-lapsed at the same rate" — kapı bunu arar
+LİSTE DEĞİŞİR  yalnız o kadrajda VAR OLAN özneler: şehir kulesinde bulut ·
+               gölge · makine · insan · araç; Ay ovasında gölge · robotik
+               araç · mafsallı makine · güneşi izleyen panel.
+⛔ Negatifte yasaklanan özne (no clouds · no people) pozitif listeye GİRMEZ —
+   istenmeyeni modele hatırlatmaktır.
+⭐ VE PROMPT YALNIZ MODELİN ÜRETECEĞİNİ TAŞIR [P1-j]: kırpma payı, kesme anı,
+   başlık, söküm takvimi insanın işidir ve planda kalır.
+```
+
+### ⛔ KORPUS CÜMLESİ — fotoğrafı olmayan sahada [DERS 34]
+```
+Ay · derin deniz · kutup içi: "photorealistic documentary" boş işaretçidir.
+Gerçek bir korpus POZİTİF adlandırılır: "looks like a 1970s surface photograph
+from a hand-held 70 mm film camera: flat grey regolith, blown highlights,
+razor-edged black shadows, slight grain, no haze, no depth fog, no rim light."
+⚠️ Kilit ölçülmedi; ilk uzay filminde ① SURFACE TRUTH'tan okunur.
+```
+
+### ⛔ AT THIS STAGE YALNIZ KAMERANIN GÖRDÜĞÜNÜ YAZAR [P2-g]
+```
+"the tube has been driven 300 metres" ekranda yoktur; prompta girmez.
+Görünmeyen ilerleme SPEC'te "gizli iş + görünür vekil" satırıdır (⑧ C1);
+prompta yalnız VEKİL girer (portal önü · pasa sekisi · başlık duvarı).
 ```
 
 ### ⛔ SITE / BACKGROUND'a GEÇİCİ EKİPMAN GİRMEZ [DERS 1]
@@ -128,13 +159,52 @@ Sayı tablosu ve gerekçeleri: ZAMAN_VE_ISIK §5.
 
 ---
 
-# 2. 🎥 I2V PROMPT İSKELETİ ⭐ BİRİNCİL
-
-Bu akışın asıl video promptu budur: görsel önce üretilir ve onaylanır, video
-ondan doğar.
+## ⭐ 08.09.2026 — THE DUST YEAR ÖLÇÜMÜ: İSKELETİN ÜÇ SATIRI DEĞİŞTİ
 
 ```
-The scene begins exactly as the provided image.
+① STRUCTURE SIRASI TERSİNE DÖNDÜ  [DERS 36]
+   ⛔ ESKİ  STRUCTURE: bitmiş yapının tam tarifi … AT THIS STAGE: bu sahne
+   ✅ YENİ  STRUCTURE: yalnız BU SAHNEDE AYAKTA OLAN, sayılarıyla
+            WHEN COMPLETE: tek cümle, yalnız TÜR — "When finished this will
+            be a pressurised surface base."
+   Ölçüldü: altı filmin altısında tam-hâl tarifi ara hâlden UZUN
+   (1,08x … 2,58x) ve altısında da ② hükmü DIFFERENT · APPEARING.
+   KAPI  prompt_kontrol.py §10c — tam hâl > ara hâl ise BLOCK.
+
+② METİN YASAĞI NESNE ADI ANMAZ  [DERS 35]
+   ⛔ "No readable text … not on the machinery, the rover, the module,
+      the habitat, the panel, the mast, the radiator…"
+   ✅ "No readable text, letters, digits, numbers or symbols anywhere in
+      the frame, on any surface. Nothing here has been branded, labelled,
+      numbered or annotated by anyone."
+   Ölçüldü: "module" on promptun onunda YALNIZ bu listede geçti; ekranda
+   "utility modules" belirdi, dört saniye durdu, kayboldu.
+   KAPI  prompt_kontrol.py §10c — 'not on the X, the Y…' → BLOCK.
+
+③ İNSANSIZ SAHADA MAKİNE ADI  [DERS 41]
+   ⛔ dozer · bulldozer · loader · grader · excavator · digger
+      ('rover' eki gövdeyi değiştirmiyor — ölçüldü)
+   ✅ tracked blade unit · bucket unit · regolith hauler · sintering
+      crawler · manipulator arm
+   + gövde bir kez POZİTİF kapatılır:
+      "Every machine is a sealed robotic unit with no cab, no window,
+       no seat and no handrail."
+   KAPI  prompt_kontrol.py §10c — insansız beyan + elle-kullanılan ad → BLOCK.
+```
+
+# 2. 🎥 I2V PROMPT İSKELETİ ⭐ TEK VİDEO PROMPTU
+
+Bu akışın **tek** video promptu budur: iki görsel önce üretilir ve onaylanır,
+video ikisinin ARASINDA doğar [KILAVUZ_REHBERI §2.7].
+
+⛔ **İKİ UÇ DA BİREBİR CÜMLEYLE KİLİTLENİR.** İlk cümle klibin İLK karesini,
+ikinci cümle SON karesini bağlar; ikisi de prompt kapısının aradığı imzadır
+ve nesre çevrilirse kapı BLOCK verir [DERS 20].
+
+```
+The scene begins exactly as the provided image. The shot ends exactly on the
+second provided image: its last frame is that image, matched frame for frame —
+same framing, same light, same objects in the same places.
 
 [ZAMAN GEÇİŞİ — düz nesir, zaman damgasız, akıcı paragraf:]
 Time passes across [temsil süre]. The shadow of [çapa] sweeps [yön] across
@@ -154,6 +224,11 @@ No dialogue. No narration. No text. No captions. No logos. No watermark. No
 cuts. Photorealistic documentary time-lapse cinematography.
 ```
 
+> ⭐ **I2V FİİL AĞIRLIKLIDIR [P2-d]:** zaman paragrafı bir DÖNGÜ olarak yazılır
+> (makine adımı → malzeme adımı → sonuç → tekrar). Hedef durumu ANLATMAK artık
+> gerekmez — hedef KAREDİR ve promptun ikinci cümlesi onu zaten bağlar.
+> "Four months pass" taşıyıcı değildir; güneş açıları [DERS 18] kalır.
+>
 > ⛔ **I2V'de yapıyı, sahayı ve arka planı YENİDEN TARİF ETME.** Görsel zaten
 > içeriyor; yeniden tarif edersen model görseli kullanmak yerine yeniden inşa
 > etmeye çalışır ve kadraj kayar. Yalnız **zamanın geçişi** ve
@@ -161,29 +236,21 @@ cuts. Photorealistic documentary time-lapse cinematography.
 
 ---
 
-# 3. 🎥 T2V PROMPT İSKELETİ (yedek)
+# 3. ⛔ T2V PROMPT İSKELETİ — 08.09.2026'DA KALDIRILDI
 
-Referans görsel yoksa veya I2V tutmadıysa kullanılır.
+> **Bu bölümde bir iskelet vardı ve silindi.** Sebep formatın kendisidir
+> [KILAVUZ_REHBERI §2.7 ②]: metinden üretilen bir klip iki uca kilitlenemez —
+> ne ilk karesi bir önceki görseldir, ne son karesi bir sonraki. Zinciri
+> taşımaz ve dikişi tam da beş filmde beş kez kırıldığı yerde kırar.
 
 ```
-Vertical 9:16. Single continuous locked-off time-lapse shot, 0 cuts, [X] seconds.
-Lens: [f]mm on a fixed tripod, [h] metres above [neyin] level, [D] metres from
-[neyin], bearing [X]°, tilt [X]°. Absolutely zero camera movement.
-
-At 0s — [açılış durumu: yapı hangi aşamada, ışık nerede]
-At [X]s — [gölge/bulut hareketi başlar]
-At [X]s — [makine döngüsü görünür]
-At [X]s — [⭐ İŞ ADIMI: kanıt nesnesi ekranda değişir]
-At [X]s — [ışık döner, gölge yer değiştirir]
-By [X]s — [kapanış durumu] Hard cut to Scene [N+1].
-
-[NEGATİF ÇEKİRDEK kısa formu]
-No dialogue. No narration. No text. No captions. No logos. No watermark. The
-camera never moves. No cuts. Photorealistic documentary time-lapse cinematography.
+YEDEK ARTIK ŞUDUR: bir klip tutmazsa AYNI İKİ KAREDEN yeniden koşulur.
+Kare değişmez, prompt değişmez, tohum değişir.
+⛔ Tutmayan klip için metin yolu AÇILMAZ — o yol dikişi geri getirir.
+⛔ prompt_kontrol.py planda T2V bloğu görürse BLOCK verir.
+KALDIRDIĞI: referans görsel olmadan çekim yapabilme imkânı. Karşılığı,
+            dikişin yapısal olarak kapanmasıdır [§2.7 "BEDELİ"].
 ```
-
-Vuruş sayısı 5-7. Her vuruş **tek** bir zaman olayını tarif eder
-(`ZAMAN_VE_ISIK §3` bütçesi: en fazla üç olay türü).
 
 ---
 
@@ -219,7 +286,7 @@ Output: 9:16, 4K, no text, no watermark.
 ### 🎥 I2V PROMPT
 
 ```
-The scene begins exactly as the provided image.
+The scene begins exactly as the provided image. The shot ends exactly on the second provided image: its last frame is that image, matched frame for frame — same framing, same light, same objects in the same places.
 
 Four months pass. The long blue shadow of the red brick block sweeps slowly across the site from the north-east to the north-west as the low winter sun crosses the sky, and thin grey cloud streaks across the frame in long smooth trails, always from the north-west. The tower crane slews slowly back and forth over the top slab and its hook block rises and falls on a taut cable. Two more floors of bare grey concrete frame appear at the top of the tower, each one arriving as a completed slab with props beneath it, and the formwork tables move up with them. Snow gathers grey and tracked at the edges of the site and partly melts. Trucks enter and leave the hoarding as smeared colour trails.
 

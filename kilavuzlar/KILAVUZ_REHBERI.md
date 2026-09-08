@@ -32,8 +32,30 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
 □ §6  VAAT / DİRENÇ / BEDEL   (bu dosyada — konsept kapısı, geçmezse plan yazılmaz)
 □ §7  NEGATİF ÇEKİRDEK        (bu dosyada — tam metin, her prompta yapıştırılır)
 □ §9  BİLİNEN TUZAKLAR        (bu dosyada)
-□ PROMPT_SABLONU.md           (görsel + I2V + T2V iskeleti)
+□ PROMPT_SABLONU.md           (görsel + iki uçlu I2V iskeleti · T2V YOK)
 □ DERSLER.md                  (ölçülmüş hatalar)
+
+── ⭐ 08.09.2026 · A5–A8 ARAŞTIRMASINDAN DOĞAN DÖRT KILAVUZ ──
+□ ARAC_KARTLARI.md            ⛔ EN ÖNCE — kutu seti ölçülmeden ızgara yazılmaz
+□ INSAAT_YONTEMI_KILAVUZU.md  merdiven satırı = eleman + ara hâl (%25/%50/%75)
+□ SANTIYE_HAREKETI_KILAVUZU.md merdiven satırı = sıkıştırma rejimi (A·B·C)
+□ KURGU_VE_TESLIM_KILAVUZU.md kurgudan önce okunur (kırpma bütçesi süreyi yer)
+```
+
+```
+⭐ 08.09.2026 — ALTINCI FİLM ÖLÇÜLDÜ, DÖRT SATIR EKLENDİ [DERS 35-44]:
+   □ STRUCTURE bloğu yalnız BU SAHNEDE AYAKTA OLANI tarif eder; tam hâl tek
+     cümleye iner ("When finished this will be a …")     [DERS 36 · kapı var]
+   □ Metin yasağı HİÇBİR nesne adı anmaz — "on any surface" [DERS 35 · kapı var]
+   □ ACTIVITY'de en az bir makine büyüyen elemanı NESNE alır [DERS 43 · kapı var]
+   □ Geniş sahada İKİ mesafe: D_kenar ve D_eksen             [DERS 38 · kapı var]
+
+⭐ SIRA ÖNEMLİ: ARAC_KARTLARI plandan ÖNCEDİR.
+   Klip süreleri kutuludur ({4,6,8} · {5,10} · {5,9}) ve tek klipte teslim
+   edilebilecek en uzun sahne = (en büyük kutu − 1,00 sn). Bu sayı bilinmeden
+   §2.2'nin ritim ızgarası yazılamaz [A7-a · A7-b].
+   ⛔ THE LONG DAY'de bilinmiyordu: plan 4-10 sn yazdı, araç 6,0 verdi,
+      ⑥ METRONOM dördüncü kez geldi [DERS 31].
 ```
 
 ## 1.2 ⭐ film_md'DEN NE DEVRALINDI, NE TERS ÇEVRİLDİ
@@ -110,8 +132,12 @@ Süreler eşit olmaz ama **ölçüye oturur** — müzik hizası korunur:
 120 BPM → ölçü 2,0 sn → izinli süreler  4 · 6 · 8 · 10
 160 BPM → ölçü 1,5 sn → izinli süreler  4,5 · 6 · 7,5 · 9
 
+⛔ SÜTUN PLANDA KALMAZ [DERS 31]: LONG DAY varyansı yazdı, kurgu 10 × 6,0
+   kesti, METRONOM 4. kez. Yayından önce: bash araclar/kesme_kontrol.sh
+
 KURAL   en az İKİ sahne KISA · en az BİR sahne UZUN
         doruk sahnesi kendinden ÖNCEKİYLE hız KONTRASTI yapar
+        ⭐ ve SÜRE sütununun EN BÜYÜK değeri doruktadır [P2-f]
         toplam 60,0 sn SABİT kalır
 
 ÖRNEK (160 BPM):  6 · 4,5 · 6 · 4,5 · 6 · 7,5 · 6 · 4,5 · 6 · 9  = 60,0
@@ -142,11 +168,13 @@ YAPI:        10 sahne × 6,0 sn + 1 kapak kartı × 5,0 sn
                 müzik ızgarası O SAYIDAN türetilir [D-d].
 
 DOSYA:       Tek .md · film klasörünün içinde
-İMAJ:        10  (+1 kapak = 11)
-VİDEO:       10 klip × (I2V birincil · T2V yedek) = 20 prompt
-ÜRETİM:      image → image-to-video   ⭐ I2V BİRİNCİL
-             ⛔ ve sahneler arası ZİNCİRLİ: her görsel bir öncekinin
-                karesinden türetilir (§8 ters inşa) [DERS 5]
+İMAJ:        ⭐ N+1  (10 sahne → 11) · kapak AYRI ÜRETİLMEZ, GN'den türer
+VİDEO:       ⭐ N klip × I2V = 10 prompt · ⛔ T2V YOK [§2.7 ②]
+             ⇒ film başına toplam 2N+1 = 21 prompt
+ÜRETİM:      image → image-to-video   ⭐ I2V BİRİNCİL VE İKİ KAREYLE KİLİTLİ
+             ⛔ İKİ KEYFRAME ZİNCİRİ — formatın kendisi [§2.7]:
+                klip n'in ilk karesi Gn, son karesi G(n+1)'dir; her görsel
+                bir öncekinin karesinden türetilir (§8 ters inşa) [DERS 5]
 ŞABLON:      TIMELAPSE_SISTEM_PROMPTU.md
 KAPI:        araclar/prompt_kontrol.py (üretimden ÖNCE)
              + FİNAL KARE KANITI (§8 adım 9)
@@ -158,6 +186,8 @@ DİL:         Belgeler TÜRKÇE · üretim promptları İngilizce
 
 KRİTİK FARK: Sahneler arası değişen tek şey ZAMANDIR. Kamera, arka plan,
              yapı tasarımı ve kadraj on sahnede de birebir aynıdır.
+             ⛔ VE KESMEDE ZAMAN DA ATLAMAZ [§2.7 ①]: dikişin iki yakası
+                aynı karedir. Zaman yalnız klibin İÇİNDE akar.
 
 GÜVENLİ ALAN (1080×1920):
              ÜST   ilk 200-254 px   sekmeler, profil
@@ -265,6 +295,117 @@ Bu, 5 sahnelik ızgaraya değil PROMPT MİMARİSİNE ait bir derstir
 
 ---
 
+## 2.7 ⭐ İKİ KEYFRAME ZİNCİRİ — FORMATIN KENDİSİ
+
+> ⛔ **BU BİR VARYANT DEĞİL, FORMATTIR** — 08.09.2026, proje sahibinin kararı.
+> Bu tarihten sonra yazılan her film böyle kurulur. Önceki altı film ESKİ
+> FORMATTIR, arşivdir ve yeniden üretilmez; prompt kapısı onlara "ESKİ FORMAT"
+> der ve geçirmez.
+
+```
+foto1 ─ video1 ─ foto2 ─ video2 ─ foto3 ─ video3 ─ foto4 ─ …
+
+Her videonun SOLUNDAKİ foto onun İLK karesi,
+                SAĞINDAKİ foto onun SON karesidir.
+```
+
+### Sayılar — hepsi tek kuraldan çıkar
+
+```
+N sahne  →  N+1 GÖRSEL  ·  N I2V  ·  0 T2V  =  2N+1 prompt
+                                               (10 sahne → 21 · 6 sahne → 13)
+
+G0        klip 0'ın ilk karesi · filmin ilk karesi
+Gn        klip n−1'in SON karesi VE klip n'in İLK karesi ⭐ tek kare, iki iş
+GN        ⭐ USTA KARE — yalnız son klibin hedefi, SAHNE DEĞİLDİR.
+          Üretimde İLK üretilen kare budur (§8 adım 2) ve kapak da bundan
+          türer [MUZIK_VE_KAPAK §2.2].
+klip n    G(n) → G(n+1) · iki ONAYLI kareyle kilitli
+
+⛔ Sahne görselleri sahne bloğunun içindedir ("Scene n of N").
+   Usta kare AYRI bölümdedir; prompt kapısı onu sahne saymaz, ama YOKSA
+   BLOCK verir — zincirin son halkası odur.
+⛔ Plana N satırlık aşama merdiveninin YANINA N+1 satırlık KARE TABLOSU
+   yazılır: her görsel ne gösteriyor, hangi klipte, hangi rolde (ilk kare ·
+   dikiş · son kare).
+```
+
+### Ne değişti — dört madde
+
+```
+① KESME ARTIK ZAMAN SIÇRAMASI DEĞİL
+   Dikişin iki yakası AYNI KAREDİR: kesmede ışık, gölge, toz ve yapı
+   ATLAMAZ. ⇒ §2.4'ün ve §8 adım 7'nin "kesme = zaman sıçraması" satırı
+   DÜŞTÜ. Zaman yalnız klibin İÇİNDE akar; her sahne kendi zamanını kendisi
+   göstermek zorundadır ve TIME RATE cümlesi artık zamanın TEK taşıyıcısıdır.
+
+② T2V YEDEĞİ DÜŞTÜ
+   Metinden üretilen klip iki uca kilitlenemez: zinciri taşımaz, dikişi kırar.
+   Bir klip tutmazsa yedek, AYNI İKİ KAREDEN yeniden koşmaktır.
+   ⇒ Film başına prompt sayısı 30'dan 21'e iner (10 sahne).
+
+③ KIRPMA ASİMETRİKTİR
+   Klibin SON karesi bir HEDEFTİR; atılırsa dikiş kaybolur. Kırpma payının
+   tamamı BAŞTAN alınır → KURGU_VE_TESLIM §2.
+
+④ ARAÇ KAPISINA SEKİZİNCİ SORU
+   "Araç İKİ kare (ilk + son) alıyor mu?" Almıyorsa bu format o araçta
+   ÜRETİLMEZ. Plan tek kareli I2V'ye DÜŞÜRÜLMEZ — araç değiştirilir.
+   → ARAC_KARTLARI §4 ölçüm ⑧.
+```
+
+### I2V'nin iki ucu — birebir, çevrilmeden [DERS 20]
+
+```
+İLK CÜMLE   The scene begins exactly as the provided image.
+SON CÜMLE   The shot ends exactly on the second provided image: its last
+            frame is that image, matched frame for frame — same framing,
+            same light, same objects in the same places.
+
+⛔ İkisi de prompt kapısının aradığı İMZADIR. Nesre çevrilirse kapı BLOCK verir.
+⭐ Sebebi §2.6'nın tablosudur: birebir dayatılan her cümle 10/10 aldı,
+   anlatılan her şey düştü.
+```
+
+### Neden — üç ölçüm
+
+```
+⑤ DEVAMLILIK beş filmde beş kez düştü ve beşinde de sebep DİKİŞTİ
+  (CLOSING SPAN 9/9 kusurlu dikiş · MOUNTAIN DOOR 4/4 · DUST YEAR 9'un 7'si).
+  Zincir bunu YAPISAL olarak kapatır: dikişin yerinde kare hiç değişmez.
+① KAMERA KİLİDİ artık promptun iyi niyetine değil GEOMETRİYE bağlanır [A3-d]:
+  ilk/son kare, aracın kilit KANALIDIR — MOUNTAIN DOOR'da aynı cümle bir
+  araçta 10/10, başkasında 0/10 almıştı [DERS 23].
+⑥ METRONOM beş kez geldi ve DERS 44 ölçtü: gerekçe süre varyansı değil
+  "anchor survival across the seams" idi. Zincir tam onu hedefler.
+```
+
+### ⛔ QA MERCEKLERİ DEĞİŞMEZ — format kendini aynı rubrikte kanıtlar
+
+```
+⑤ DEVAMLILIK ve ⑥ GEÇİŞ rubriklerine "dikiş sürekli olmalı" YAZILMAZ.
+İkisi de mod V/D ile koşar ve mercek plandan habersizdir [değişmez ⑦].
+⭐ Sebep: format dikişi YAPISAL olarak kapattığını iddia ediyor. İddiayı
+  sınayacak olan, iddiayı bilmeyen bir okuyucudur. Rubriği formata göre
+  ayarlamak, ölçümü kaybetmektir.
+```
+
+### ⛔ BEDELİ — bu format neyi kaldırdı [değişmez ⑤]
+
+```
+· "AYLAR GEÇİYOR"U KESME TAŞIMAZ. Uzun zaman yayları artık yalnız klip
+  içinde anlatılır; sıçramayla gelen ucuz zaman duygusu gitti.
+· T2V YEDEĞİ YOK. Araç bir klipte tutmazsa elde metin yolu kalmaz.
+· BİR GÖRSEL DAHA üretilir ve zincir bir halka uzar: N+1 kare, N+1 kapı.
+· ARAÇ BAĞIMLILIĞI SERTLEŞTİ: iki kareli modu olmayan araçta format yürümez.
+· ⚠️ VE HİÇ ÖLÇÜLMEDİ. Zincir bu depoda hiçbir filmde koşulmadı [AGENTS §6];
+  format artık en yüksek kaldıraçlı VE en az sınanmış karardır. Zincire karşı
+  bir iddia da var (§8 adım 3a) ve o da koşulmadı. İlk koşacak film:
+  BEFORE NIGHTFALL.
+```
+
+---
+
 # 3. 🔒 DEĞİŞMEZLER TABLOSU — bu depodaki en önemli tablo
 
 `film_md`'nin Character Bible'ının karşılığıdır ve aynı disiplinle işler:
@@ -311,6 +452,9 @@ Her filmin başında doldurulur:
 │ taç            düz çatı, çatı parapeti 1,10 m, tek mekanik hacim    │
 │ ⛔ Bu satırlar S0'da bile geçerlidir: S0'da bina YOKTUR ama          │
 │    üretilecek olan bina BUDUR ve ters üretimde referanstır.          │
+│ ⭐ SAYI TESTİ [P2-b]: izleyici kadrajda SAYABİLİR mi? Sayabilir      │
+│    (18 kat · 3 baca) → prompta. Sayamaz (62 lamba · %27,8) → SPEC'e; │
+│    prompta yapısal hâli: "one evenly spaced line of lights".         │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -380,6 +524,18 @@ taşır.** v1'de çukur sahnesinde hiçbir çapa görünmedi (① C3 0/10) ve me
 o klibin aynı şantiye olduğunu doğrulayamadı. Detay istasyonu, çapasız
 kurulamaz.
 
+### ⭐ İki satır daha — profesyonel okumadan [P1-a · P1-f]
+
+```
+KİNETİK İMZA   her satıra TEK FİİL: iz açar · keser · teleskoplanır · indirir ·
+               boşaltır · gömer · yükseltir · kapatır · aydınlanır.
+               ⛔ Ardışık iki satırda aynı fiil = tablo geçersiz [P1-f].
+İLK 20 SANİYE  S1-S3'ün her biri FARKLI TÜRDEN ve BÜYÜK bir değişim taşır.
+               "stok büyüdü" türü hazırlık adımı kendi sahnesini almaz [P1-a].
+               Test: S3'ün son karesi ile S0'ın ilk karesi yan yana konunca
+               yapının TÜRÜ okunuyor mu?
+```
+
 ### Üç zorunlu satır
 
 ```
@@ -403,6 +559,9 @@ kurulamaz.
 
 ③ SÖKÜM SATIRI: vinç/iskele/çit hangi sahnede kurulur, hangi sahnede
    sökülür. Yazılmazsa model onları rastgele yok eder ve devamlılık ölür.
+   ⭐ VE NASIL [P2-h]: her kalem I2V'de bir FİİL alır ("stripped panel by
+      panel and stacked on the flatbed, which drives out of frame").
+      Söküm bir eylemdir, bir kaybolma değil; ⑦ ve ⑧ bunu ölçer.
 ```
 
 ---
@@ -456,6 +615,9 @@ BEDEL:   kazanmak için ne yok oluyor
 ⛔ KAPI: DİRENÇ boşsa video bir slayt gösterisidir. Her yapı bir şeye
    direnir: kış · su · eğim · rüzgâr · dar parsel · trafik · zemin.
 ⛔ KAPI: BEDEL boşsa filmin sonu "bitti" olur, "oldu" olmaz.
+⛔ KAPI [P1-b]: DİRENÇ satırının üçüncü alanı EKRANDA NASIL — hangi sahnede,
+   hangi tekrarlı hareketle, hangi biriken nesneyle. Boşsa direnç bible
+   bilgisidir, film bilgisi değil ("900 ton metinde güçlü, görüntüde yok").
 ```
 
 Ve üç kabul testi (`film_md` novum kapısının timelapse hâli):
@@ -466,8 +628,11 @@ Ve üç kabul testi (`film_md` novum kapısının timelapse hâli):
 ② KİNETİK BAĞIMSIZLIK  Değişim, 10 saniyelik SABİT bir planın içinde
                     metin/anlatıcı olmadan görülebiliyor mu?
 ③ BAŞLIK ŞEMASI    Vaat ≤5 kelimelik bir başlığa çevrilebiliyor mu?
+④ OMURGA CÜMLESİ   On vuruş, her biri ≤4 kelime, tek satır, ok işaretleriyle
+                   [P1-k]. Yazılamayan vuruş = olmayan sahne; aynı şeyi
+                   söyleyen iki vuruş = fazla sahne. Merdiven BUNDAN türer.
 
-Üçü de ✅ değilse KONSEPT REDDEDİLİR, klasör açılmaz.
+Dördü de ✅ değilse KONSEPT REDDEDİLİR, klasör açılmaz.
 ```
 
 ---
@@ -475,6 +640,12 @@ Ve üç kabul testi (`film_md` novum kapısının timelapse hâli):
 # 7. 🚫 NEGATİF ÇEKİRDEK (tam metin — her prompta yapıştır)
 
 Saha ve yapı kartlarından gelen maddeler bunun ÜSTÜNE eklenir.
+
+⭐ **SIRA VE UZUNLUK [P2-c]:** blok üç katmandır ve bu sırayla yazılır —
+① süreklilik katilleri (kamera · çapa · geometri · morph · teleport ·
+desteksiz parça; kapı imzaları burada) · ② metin yasağı yüzey yüzey ·
+③ estetik yasaklar, en kısa. Hedef ≤1.000 karakter; aşağıdaki tam metin
+referanstır, filme inerken bu sırayla KIRPILIR.
 
 ```
 Locked-off camera on a fixed tripod — the camera never pans, tilts, zooms,
@@ -519,6 +690,22 @@ accelerated speed. Nothing in the frame moves at normal speed.
 > ZAMAN AYARI değil. Cümle promptun BAŞINA, tek parça olarak konur.
 > ⭐ Ek önlem: kadrajdaki insan ve araç SAYISINI AZALT — ne kadar az varsa
 > o kadar az bozulur.
+>
+> ⛔ **YOK YAZILAN ÖZNE VAR OLUR [DERS 33]:** insansız filmde "Any suited
+> figure appears only as soft motion streaks" astronot ÜRETTİ (① PEOPLE
+> 0/10). Kadrajda olmayan özne prompta HİÇ girmez — koşulla, yasakla, "any"
+> ile bile. İnsansız film "No people are present." der; kapı bu beyanı
+> görünce insan kuralı cümlesini aramaz.
+>
+> ⭐ GÜNEŞ KAMERA ARKASINDAYSA [DERS 32]: "the sun stays behind the camera
+> for the whole shot; its only sign is the shadows" — azimut satırı kalır,
+> disk anılmaz. LONG DAY'de güneş üç klipte kadraja girdi.
+>
+> ⭐ ÖZNE LİSTESİ SAHADAN YAZILIR [P1-e → DERS 33]: kapı imzası (`time-lapsed at the
+> same rate`) korunur, ama "the clouds … the people" yalnız o kadrajda VARSA
+> yazılır. Negatifte yasaklanan bir özneyi pozitif cümlede saymak modele
+> istenmeyeni hatırlatır. Ay filminde liste: gölge · robotik araç · mafsallı
+> makine · güneşi izleyen panel.
 >
 > ⚠️ **ÜÇÜNCÜ SEÇENEK VAR VE BU CÜMLEYİ HİÇ YAZMIYOR [A3-e].** Bu cümle iki
 > ayrı yere yazıldı (görsel · I2V) ve iki kez düştü (DERS 15 · DERS 18).
@@ -625,19 +812,40 @@ a slow pendulum, and it always carries a visible load.
                        mod parametresi ya da ilk/son kare kilidi. Kanal
                        yoksa kilit yalnız modelin iyi niyetine bağlıdır ve
                        DERS 23 tam olarak o niyetin ölçümüdür.
+                    ⭐ ÜÇÜNCÜ SORU [DERS 32]: test klibinde bir nesnenin
+                       GÖLGESİ ilk ve son karede aynı açıda mı? Aynıysa o
+                       araçla bu format üretilmez — gölge süpürmesi, kamera
+                       kilidi gibi aracın özelliğidir (üç film, üç ölçüm).
+                    ⛔ SEKİZİNCİ SORU — FORMATIN KENDİSİ [§2.7 ④]: araç İKİ
+                       KARE (ilk + son) alıyor mu? Almıyorsa bu format o
+                       araçta ÜRETİLMEZ; plan tek kareli I2V'ye düşürülmez,
+                       ARAÇ değiştirilir.
                     Geçen aracın adı ve hangi kilit kanalını taşıdığı
-                    plana YAZILIR.
+                    plana YAZILIR — <FILM>_URETIM_GUNLUGU.md'nin ilk
+                    satırı budur [DERS 28].
 
 1. PLAN             §3 Değişmezler + §4 Aşama Merdiveni + §5 güneş saati
                     doldurulur. Sahne haritası bu üç tablodan TÜRER,
                     tersi olmaz.
 
-2. ⭐ USTA KARE      S9 ÜRETİLİR — tamamlanmış yapı, ANA istasyondan.
+2. ⭐ USTA KARE      GN ÜRETİLİR — tamamlanmış yapı, ANA istasyondan.
+                    ⭐ GN son SAHNE değil, son KLİBİN HEDEF KARESİDİR [§2.7].
                     ⛔ KAPI: bina ikna edici değilse, arka plan çapaları
                        okunmuyorsa ya da kadraj güvenli alana oturmuyorsa
                        DİĞER BEŞ SAHNE ÜRETİLMEZ. Usta kare filmin tapusudur.
+                    ⭐ FİNAL HİYERARŞİ [P1-h]: plana yazılmış ÜÇ şey bu
+                       sırayla okunuyor mu? Okunmuyorsa kare yeniden —
+                       kompozisyonla, nesne ekleyerek değil.
+                    ⛔ USTA KARE KLİBİ olay bütçesinden MUAF DEĞİLDİR
+                       [P1-g]: loop ışığı bir olaydır, geriye TEK olay kalır.
 
 3. ⛔ GERİYE İNŞA — BU BİR ÖNERİ DEĞİL, KAPIDIR [DERS 5]
+                    ⭐ ZİNCİR = EDİT [P2-a]: her kare master'ın TARİHSEL
+                       SÜRÜMÜDÜR (parça kaldır / ekle), "esinle" yeni
+                       üretim değil. Üretim notu kare başına tek satır:
+                       "master'dan ne KALDIRILDI / ne EKLENDİ". Ve her
+                       I2V iki ONAYLI kare arasında üretilir; somut hedef
+                       karesi olmayan I2V yazılmaz.
                     S9'dan image-to-image ile geriye inilir ve HER SAHNE
                     BİR ÖNCEKİNİN KARESİNDEN TÜRETİLİR — sıfırdan değil:
                        S9 → cepheyi kaldır                  → S8
@@ -706,7 +914,11 @@ a slow pendulum, and it always carries a visible load.
                        filmde de atlandı. Yazılı kural kapı değildir;
                        kapı KOŞULAN bir şeydir.
 
-4. PROMPT           18 prompt yazılır (6 görsel + 6 I2V + 6 T2V yedek).
+4. PROMPT           ⭐ 2N+1 prompt yazılır: N+1 görsel (G0…GN) + N I2V.
+                    ⛔ T2V YAZILMAZ [§2.7 ②] — metinden üretilen klip iki uca
+                       kilitlenemez ve dikişi kırar.
+                    ⛔ Her I2V'nin İKİ UCU da birebir cümleyle kilitlenir
+                       (§2.7 "I2V'nin iki ucu"). Kapı ikisini de arar.
                     ⛔ Her prompt tek başına çalışır — belge atfı yasak.
 
 5. PROMPT KAPISI    python3 araclar/prompt_kontrol.py <dosya>
@@ -715,16 +927,32 @@ a slow pendulum, and it always carries a visible load.
                     değişmezler bloğunun birebir tekrarı.
                     Çıkış kodu 2 = BLOCK → üretme.
 
-6. VİDEO            Onaylanmış her görselden I2V. Onaylanmamış görselden
-                    video üretme, boşa gider.
+6. VİDEO            ⭐ Her I2V İKİ ONAYLI KARE ARASINDA üretilir: klip n'e
+                    Gn ilk kare, G(n+1) son kare olarak verilir. Somut hedef
+                    karesi olmayan I2V yazılmaz.
+                    ⛔ VE HER KLİPTEN SONRA ÖLÇÜLÜR: klibin son karesi ile
+                       hedef görsel arasında zincir_kontrol.sh. Çıkış 2 =
+                       araç iki kareli modu taşımıyor → §2.7 ④, araç değişir.
+                    Onaylanmamış görselden video üretme, boşa gider.
 
-7. KURGU            6 klip · 0 kesme içi · sert kesme aralarda.
-                    Kesme = zaman sıçraması; geçiş efekti YOK.
+7. KURGU            N klip · 0 kesme içi · sert kesme aralarda · geçiş efekti YOK.
+                    ⛔ KESME ARTIK ZAMAN SIÇRAMASI DEĞİLDİR [§2.7 ①]: dikişin
+                       iki yakası aynı karedir, kesmede hiçbir şey atlamaz.
+                    ⛔ KIRPMA ASİMETRİKTİR: pay BAŞTAN alınır, sondan alınmaz —
+                       son kare hedeftir [KURGU_VE_TESLIM §2].
 
 8. MÜZİK + KAPAK    MUZIK_VE_KAPAK.md — müzik tek parça, BPM ızgaraya oturur;
                     kapak metinsiz + 120 px posta pulu testi.
 
-9. ⛔ FİNAL KARE KANITI   Teslimden önce tek komut:
+9b. ⛔ KAPAK KANITI [DERS 30]  kapak, teslim mp4'ünün S9 karesinden türemiş mi:
+                       ffmpeg -ss <kaynak sn> -i teslim.mp4 -frames:v 1 s9_kaynak.jpg
+                       bash araclar/zincir_kontrol.sh s9_kaynak.jpg kapak.png
+                    Çıkış 2 = kapak başka bir dünya → TESLİM EDİLMEZ.
+9c. ⛔ KESME KANITI [DERS 31]  bash araclar/kesme_kontrol.sh teslim.mp4 <plan>
+                    Kurgu planın SÜRE sütununa oturmuyorsa yeniden kesilir.
+9. ⛔ FİNAL KARE KANITI   ⭐ Usta kare klibinin son ≥2,0 sn TUTUŞTUR [P2-i]:
+                    yapı ve ışık sabit, yalnız leke akar; kanıt karesi
+                    bu tutuşun içinden alınır. Teslimden önce tek komut:
                        ffmpeg -ss <saniye> -i teslim.mp4 -frames:v 1 kanit.jpg
                     SPEC'te yazan "S5 · 0:5X · ekranda GÖRÜLMESİ gereken şey"
                     o karede gerçekten var mı? Yoksa FİLM TESLİM EDİLMEMİŞTİR
@@ -747,7 +975,14 @@ a slow pendulum, and it always carries a visible load.
 ### 9.1 ⛔ ARKİTEKTÜREL RENDER ÇUKURU — bu türün 1 numaralı estetik hatası
 Model "inşaat" görünce parlak bir emlak render'ı üretmeye yatkındır: temiz
 zemin, mükemmel cam, boş şantiye, mavi gökyüzü, gölgesiz ışık. Gerçek şantiye
-**dağınıktır.** Negatif çekirdekteki `working construction site` cümlesi
+**dağınıktır.**
+
+⛔ **KORPUSU OLMAYAN SAHADA ÇUKUR CGI'DİR [DERS 34].** Ay yüzeyinde
+"photorealistic documentary" bir korpusa oturmaz; model bilimkurgu konsept
+sanatına düşer (① SURFACE TRUTH 0/10). Prompt gerçek bir fotoğraf korpusunu
+POZİTİF adlandırır: "looks like a 1970s surface photograph from a hand-held
+70 mm film camera: flat grey regolith, blown highlights, razor-edged black
+shadows, slight grain, no haze, no depth fog, no rim light." Negatif çekirdekteki `working construction site` cümlesi
 pozitif hâliyle her prompt gövdesinde de tekrarlanır: çamur, lastik izi, su
 birikintisi, istiflenmiş malzeme, branda, kesme artığı.
 
@@ -837,6 +1072,8 @@ eğrilik ve ani sarsıntı.**
   kaybolur.
 · Yeni kural bir DERSTEN doğar, fikirden değil. Ders = ölçülmüş bozulma
   (hangi film, hangi saniye, ne oldu). Ölçüm yoksa "OKUMA" diye işaretlenir.
+· Yeni kural eklerken sor: bunu MODEL mi uygular, İNSAN mı? İnsansa prompta
+  değil plana yazılır. Belge büyümez, sadeleşir [P1-j].
 · film_md'nin 40 kılavuzu bu deponun hedefi DEĞİLDİR. O depo kendi teşhisinde
   hacmin çekirdek arızayı engellemediğini ölçtü. Dosya ancak bir ders
   taşıyorsa açılır.
