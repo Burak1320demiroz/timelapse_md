@@ -2423,3 +2423,32 @@ KİLİT       [prompta yazılacak cümle — İngilizce, POZİTİF hâlde]
 KALDIRDIĞI  [bu kilidin engellediği anlatım imkânı — D-f gereği zorunlu]
 NEREYE      [hangi kılavuza indi]
 ```
+
+## DERS 49 — ⭐ Parçalar "saydamlıktan belirerek" (opacity fade) oluşamaz, fiziksel olarak yerine konmalıdır
+
+NEREDE      BUILT FROM DUST · ② İNŞA 2/10 (APPEARING)
+NE OLDU     Temel gridi fiziksel malzeme olarak dökülmedi, kadrajda
+            görünmezken saydamlığını artırarak (fade in) belirdi.
+            (Görsel CGI "belirme" efekti.)
+NEDEN       Model "glowing orange grid" komutunu yapısal bir işlem
+            değil, dijital bir overlay (katman efekti) olarak yorumladı.
+KİLİT       NEGATIVE prompta her sahnede eklenmeli: "no opacity fades,
+            no fading into existence, no hologram appearance, no CGI 
+            appearing effect. Everything is physically placed."
+KALDIRDIĞI  Temeli "sihirli şekilde" var etme kolaylığı.
+NEREYE      KILAVUZ_REHBERI.md (NEGATİF ÇEKİRDEK) ve INSAAT_YONTEMI_KILAVUZU.md
+
+## DERS 50 — ⭐ Timelapse rejiminde araçlar "cam gibi net" kalamaz, motion blur olmalıdır (Time Rate Disconnect)
+
+NEREDE      BUILT FROM DUST · ③ ZAMAN 3.3/10 (TIME RATE FAIL)
+NE OLDU     Gökyüzünde yıldızlar/güneş aşırı hızlı timelapse hızında
+            dönerken, rovers/araçlar ve kalkan toz bulutu GERÇEK ZAMANLI
+            hızda (perfectly sharp, no streaking) renderlandı.
+NEDEN       Araçlar için hız komutu "TIME RATE" içinde verilmediğinden
+            model onları "video fps" hızında (gerçek zamanlı) işledi.
+KİLİT       TIME RATE cümlesine eklenmeli: "Each object — shadow, machine, 
+            dust — retains physically correct relative motion under that 
+            shared compression. Moving vehicles render with heavy motion blur 
+            and streaking."
+KALDIRDIĞI  Araçları net/temiz gösterme kaygısı — araç bulanık olmak ZORUNDADIR.
+NEREYE      ZAMAN_VE_ISIK_KILAVUZU.md ve TIMELAPSE_SISTEM_PROMPTU.md

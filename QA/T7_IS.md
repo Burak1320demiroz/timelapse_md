@@ -8,6 +8,7 @@
 |---|:---:|---:|---|---|---|:---:|---|
 | **THE LONG DAY** | ⚠️ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 4,4) | ⛔ PARKED | klip 1 · 0:00,0–0:06,0 · %100 | 0:30,0 ikiz kuleler + tümsek | 5 | [kayıt](RAPORLAR/THE_LONG_DAY.md) |
 | **THE DUST YEAR** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 1,3) | ⛔ PARKED · 10 klibin 8'i %100 boş | 6 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_IS_HAM.md) |
+| **BUILT FROM DUST** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 1,8) | ⛔ PARKED | 1:12,0–1:22,0 (%100) | 0:24,0 ana habitat şişmesi | 9 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
 
 **VERDICT değerleri:** WORKING / PARKED
 

@@ -9,12 +9,12 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       7
-ÖLÇÜLEN FİLM      6
+TOPLAM FİLM       8
+ÖLÇÜLEN FİLM      7
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    2     (THE LONG DAY · THE DUST YEAR — ikisi de RUN INCOMPLETE)
+SEKİZ MERCEKLE    3     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST — üçü de RUN INCOMPLETE)
 ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
-ÜRETİLEN FİLM     6
+ÜRETİLEN FİLM     7
 YAZILDI, ÜRETİLMEDİ 1   (BEFORE NIGHTFALL — plan + SPEC hazır, araç kapısı koşulmadı)
 ```
 
@@ -31,6 +31,7 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | THE LONG SHADOW v1 | Ⓥ 3,3 | Ⓥ 0,4 | Ⓥ 4,3 | Ⓥ 2,7 | ❌ | ❌ | ❌ | ❌ | **4/8** |
 | THE CLOSING SPAN | 1,0 | Ⓥ 0,0 | 1,3 | Ⓥ 5,4 | Ⓥ 0,0 | Ⓥ 1,6 | ❌ | ❌ | **6/8** |
 | **THE DUST YEAR** | Ⓥ 1,3 karesiz | ⛔ belgesiz 0,9 | 4,0 | ⛔ belgesiz 2,1 | Ⓥ 4,0 karesiz | ⛔ belgesiz 6,6 | Ⓥ 1,3 karesiz | ⛔ belgesiz **0,0** | **8/8** · 7'si RUN INCOMPLETE |
+| **BUILT FROM DUST** | Ⓥ 1,1 karesiz | ⛔ belgesiz 2,8 | Ⓥ 3,3 | ⛔ belgesiz 2,5 | Ⓥ 1,6 karesiz | ⛔ belgesiz 4,5 | Ⓥ 1,8 karesiz | ⛔ belgesiz **0,0** | **8/8** · 8'i de RUN INCOMPLETE |
 | BEFORE NIGHTFALL | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ |
 
 ```

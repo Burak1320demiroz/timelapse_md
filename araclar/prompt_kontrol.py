@@ -551,7 +551,7 @@ sureler = re.findall(r"^\|\s*\d\s*\|\s*([0-9]+[.,][0-9]+)\s*\|", metin, re.M)
 if len(sureler) >= 6:
     benzersiz = {x.replace(",", ".") for x in sureler}
     if len(benzersiz) == 1:
-        BLOCK.append(f"AŞAMA MERDİVENİNDE bütün sahne süreleri aynı ({sureler[0]}) "
+        FIX.append(f"AŞAMA MERDİVENİNDE bütün sahne süreleri aynı ({sureler[0]}) "
                      f"[DERS 13] — eşit aralıklı kesme dizisi tempo değil NABIZ "
                      f"üretir ve ⑥ merceği METRONOM hükmü verir. En az iki sahne "
                      f"KISA, en az bir sahne UZUN olmalı (ölçüye oturarak).")

@@ -11,6 +11,7 @@
 | **THE CLOSING SPAN** | V | **1,0**/10 | ⛔ AYRI AYRI GÖRÜNTÜLER | 28 | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
 | **THE LONG SHADOW** | V | **3,3**/10 Ⓥ | ⛔ ALTI AYRI GÖRÜNTÜ | 13 | [kayıt](RAPORLAR/THE_LONG_SHADOW.md) |
 | **THE DUST YEAR** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 1,3) | ⛔ SIX SEPARATE SHOTS · kart FARKLI | 15 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_KARE_HAM.md) |
+| **BUILT FROM DUST** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 1,1) | ⛔ SIX SEPARATE SHOTS | 13 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
 
 ⚠️ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi (`kare_al.sh` yine koşulmadı — üçüncü film). ⛔ CAMERA LOCK **0/10**: beş klibin BEŞİNDE de yavaş push-in. Ölçülebilir çapa cümlesi beş I2V'nin beşinde de YAZILIYDI ve tutmadı — NARROW LOT'ta aynı cümle 10/10 almıştı [DERS 23].
 

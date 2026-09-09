@@ -37,7 +37,9 @@ LIGHTING: sun azimuth [X]°, elevation [X]°, shadows falling to the [yön].
 
 TIME RATE: Everything in this frame is time-lapsed at the same rate: the clouds,
 the shadows, the machines, the people and the vehicles all move at the same
-accelerated speed. Nothing in the frame moves at normal speed.
+accelerated speed. Each object retains physically correct relative motion under that
+shared compression. Moving vehicles render with heavy motion blur and streaking.
+Nothing in the frame moves at normal speed.
 
 ACTIVITY: [makineler ve konumları] Workers appear only as soft motion streaks
 and blurred figures, none of them sharp, none of them facing the camera, no

@@ -11,6 +11,7 @@
 | **THE CLOSING SPAN** | V | **1,3**/10 | ⛔ YANLIŞ YÖNDE GEÇİYOR | 15 | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
 | **THE LONG SHADOW** | V | **4,3**/10 Ⓥ | ⚠️ GEÇİYOR (ama yön kırık) | 9 | [kayıt](RAPORLAR/THE_LONG_SHADOW.md) |
 | **THE DUST YEAR** | V | **4,0**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "about one year" ✅ | 10 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_ZAMAN_HAM.md) |
+| **BUILT FROM DUST** | V | **3,3**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "about 2 days" | 9 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
 
 ⭐ **THE MOUNTAIN DOOR — ALTI MERCEĞİN TAM KOŞAN TEK'İ.** Girdisi yalnız tam kurgudur ve eksiksiz verildi; skoru **bağlayıcıdır** (Ⓥ yok). Zaman tahmini "about 9 to 12 months", plan 12 ay — **ikinci kez TUTTU**. ⛔ Buna karşılık SEASON ORDER 0/10: plandaki sonbahar hiç görünmedi ve kış ② (erime) YAZ olarak üretildi.
 

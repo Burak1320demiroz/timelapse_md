@@ -8,6 +8,7 @@
 |---|:---:|---:|---|---|---|:---:|---|
 | **THE LONG DAY** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 3,0) | ⛔ APPEARED · 1/9 MADE | graded pad · 0:06,0 | habitat berm | 6 | [kayıt](RAPORLAR/THE_LONG_DAY.md) |
 | **THE DUST YEAR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **0,0**) | ⛔ APPEARED · 0/8 MADE | circular pad · 0:06,0 | NONE | 6 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_YONTEM_HAM.md) |
+| **BUILT FROM DUST** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **0,0**) | ⛔ APPEARED · 0/5 MADE | foundation grid · 0:05,0 | NONE | 8 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
 
 **VERDICT değerleri:** MADE / APPEARED
 

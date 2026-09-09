@@ -662,7 +662,8 @@ the trucks, the scaffolding, the formwork or the facade. Nothing in this frame
 has been branded, labelled, numbered or annotated by anyone: no company logos,
 no flags, no floor numbers, no licence plates, no warning pictograms, no
 measurement or survey marks. No melting or warping geometry, no swimming texture,
-no floating structure, no floor slab without support beneath it, no crane hanging
+no opacity fades, no fading into existence, no hologram appearance, no CGI appearing
+effect, no floating structure, no floor slab without support beneath it, no crane hanging
 from nothing, no machine hovering above the ground. Everything obeys gravity and
 stays in continuous physical contact with the ground or the structure. No cuts,
 no dissolves, no fades, no transitions, no jump cuts, no camera teleportation, no

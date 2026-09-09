@@ -11,6 +11,7 @@
 | **THE CLOSING SPAN** | V | **0,0**/10 Ⓥ | ⛔ FARKLI · APPEARING | 12 | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
 | **THE LONG SHADOW** | V | **0,4**/10 Ⓥ | ⛔ FARKLI · APPEARING | 13 | [kayıt](RAPORLAR/THE_LONG_SHADOW.md) |
 | **THE DUST YEAR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 0,9) | ⛔ DIFFERENT · APPEARING (6. kez) | 11 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_INSA_HAM.md) |
+| **BUILT FROM DUST** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 2,8) | ⛔ DIFFERENT · APPEARING (7. kez) | 9 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17] — İKİNCİ KEZ:** QA_SPEC bu filmde ÜRETİMDEN ÖNCE yazılmıştı ve merceğe yine verilmedi. Skoru tabloya yazılmaz. Ölçülen ham ortalama 1,5. ⛔ DIFFERENT · APPEARING hükmü **dördüncü kez** geldi.
 

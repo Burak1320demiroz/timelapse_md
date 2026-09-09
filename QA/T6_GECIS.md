@@ -10,6 +10,7 @@
 | **THE NARROW LOT** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* | ✅ TIME · ⛔ METRONOM | 3 | [kayıt](RAPORLAR/THE_NARROW_LOT.md) |
 | **THE CLOSING SPAN** | V | **1,6**/10 Ⓥ | ⛔ SIRADAKİ · METRONOM | 9 | [kayıt](RAPORLAR/THE_CLOSING_SPAN.md) |
 | **THE DUST YEAR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 6,6) | ⛔ NEXT · METRONOM (5. kez — ızgara VARYANSLIYKEN) | 6 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_GECIS_HAM.md) |
+| **BUILT FROM DUST** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 4,5) | ⛔ NEXT · METRONOM | 8 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
 
 ⛔ **THE NARROW LOT belgesiz koşuldu [DERS 17]:** plan ve SES verilmedi. MUSIC ALIGNMENT ve END-CARD HAND-OVER hiç ölçülemedi. Ölçülen ham ortalama 8,2 — deponun en yüksek mercek skoru, ama üç kategorisi hiç sorulmadı.
 
