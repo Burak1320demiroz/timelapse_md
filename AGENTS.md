@@ -54,6 +54,17 @@ timelapse_md/
 │   │                                   SEKİZ soruluk ölçüm · negatifin yeri
 │   ├── KURGU_VE_TESLIM_KILAVUZU.md  ⭐ kırpma bütçesi · TOP-N kesme kanıtı ·
 │   │                                   yedi ölçümlük yayın öncesi QC
+│   │  ── üçüncü kuşak · 11.09.2026 · A9–A12 araştırmasından doğdu · §10d kapısı ──
+│   ├── MALZEME_VE_DOKU_KILAVUZU.md  SITE TEXTURE · korpus üçlüsü · BANT kuralı ·
+│   │                                   saha kartı · malzeme = saat
+│   ├── FIZIK_VE_AGIRLIK_KILAVUZU.md PHYSICS · yük yolu · söküm fiili · hammadde
+│   │                                   yığını · robotik gövde · ihlal sözlüğü
+│   ├── PERSPEKTIF_VE_OLCEK_KILAVUZU.md COMPOSITION · referans nesne (px) · kesir
+│   │                                   cümlesi · sayı testi · kanal (sınır: KAMERA)
+│   ├── HAVA_VE_ATMOSFER_KILAVUZU.md TIME RATE + LIGHTING · üç rejim × gök ·
+│   │                                   iki kare arası gök/gölge · altı taşıyıcı
+│   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
+│   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
 │   └── DERSLER.md                   ölçülmüş dersler + devralınan varsayımlar
 │                                     ⭐ DERS 35-44 · altıncı film (THE DUST YEAR)
 │                                       yedisinin kapısı prompt_kontrol.py §10c'de
@@ -67,6 +78,22 @@ timelapse_md/
 │   ⭐ URETIM_GUNLUGU_SABLONU.md   klip başına üretim kaydı · QA paketinin kapısı [DERS 28]
 │   ⛔ FİLM BU DEPODA YAZILIR. Harici bota sipariş verme yolu (siparisler/)
 │      02.09.2026'da kapatıldı; ölçülmüş içeriği KILAVUZ_REHBERI §2.6'da.
+│
+├── yatay_2_dk_filmler/              ⭐ 14.09.2026 · YATAY 16:9 MERDİVENİ — film_md'nin film
+├── yatay_4_dk_filmler/                 klasörü şablonu, BU deponun kılavuz ve dersleriyle
+├── yatay_6_dk_filmler/                 (KILAVUZ_REHBERI §2.8). Sahne sayısı ve ızgara: her
+├── yatay_8_dk_filmler/                 klasörün README'si. Köke yalnız README; sayaç uyarır.
+│   └── <FILM>/
+│        ├── 00_ANALIZ/                 yazımdan ÖNCE: 00_HIKAYE_ONAYI (sahip onayı) · okuma
+│        │                              çizelgesi · ders hasadı · konsept+risk · sıralama ·
+│        │                              uyarılar · 05_SAHNE_CALISMALARI/00_SAHNE_TABLOSU
+│        ├── <FILM>_PLAN.md             değişmezler · merdiven · kare tablosu — ⛔ PROMPT YOK
+│        ├── <FILM>_BOLUM_1.md          sahne blokları (görsel + I2V) · ilk yarı
+│        ├── <FILM>_BOLUM_2.md          ikinci yarı + ## 🌟 USTA KARE (GN)
+│        ├── <FILM>_KAPAK.md · _MUZIK.md · _YAYIN_PAKETI.md (İngilizce) · _QA_SPEC.md
+│        └── <FILM>_URETIM_GUNLUGU.md   ÜRETİM doldurur · qa_paket.sh kapısı [DERS 28]
+│   ⛔ Klasör ELLE açılmaz: bash araclar/film_klasoru_ac.sh <FMT> <FILM>
+│   ⛔ Kapı KLASÖR MODUNDA: python3 araclar/prompt_kontrol.py <FMT>/<FILM>
 │
 ├── QA/                              🔍 SEKİZ MERCEK · ÜRETİMDEN SONRA
 │   ├── 00_README.md                 ⭐ klasör rehberi: mod sistemi · çalıştırma
@@ -111,6 +138,15 @@ timelapse_md/
 │   ├── A8_KURGU_VE_TESLIM.md        kesme · dikiş · final · kapak · teslim QC
 │   │  ✅ A5–A8 08.09.2026'da koşuldu; dördü de bir kılavuz doğurdu
 │   │     (INSAAT_YONTEMI · SANTIYE_HAREKETI · ARAC_KARTLARI · KURGU_VE_TESLIM).
+│   ├── A9_MALZEME_VE_DOKU.md        yüzey · kirlilik katmanı · yaşlanma (v2)
+│   ├── A10_FIZIK_VE_AGIRLIK.md      yük yolu · söküm · robotik gövde · katılık (v2)
+│   ├── A11_PERSPEKTIF_VE_OLCEK.md   referans nesne · sayı sadakati · kanal (v2)
+│   ├── A12_HAVA_VE_ATMOSFER.md      bulut × rejim · derinlik · iki kare arası gök (v2)
+│   │  ✅ A9–A12 11.09.2026'da koşuldu; dördü de bir kılavuz doğurdu
+│   │     (MALZEME_VE_DOKU · FIZIK_VE_AGIRLIK · PERSPEKTIF_VE_OLCEK · HAVA_VE_ATMOSFER).
+│   └── SONUCLAR/A9-A12_DENETIM.md   ⭐ 12 kaynak çekildi: 7 tuttu · 4 yanlış atıf ·
+│         gölge 15°/saat ikinci kez düştü · piksel tabloları tuttu.
+│         ⛔ Yeni arıza sınıfı: kaynak VAR ama iddiaya AİT DEĞİL.
 │   ├── SONUCLAR/                    ham bot çıktısı ⛔ DOKUNULMAZ
 │   └── SONUCLAR/A5-A8_DENETIM.md    ⭐ dört raporun doğruluk denetimi:
 │         üç sayı yeniden hesaplandı ve düştü · iki ffmpeg komudu koşmadı ·
@@ -124,7 +160,9 @@ timelapse_md/
     ├── zincir_kontrol.sh            ⭐ ÜRETİM ARASI kapı · her kareden sonra
     ├── kare_al.sh                   ① ve ⑤ için kare grabları
     ├── qa_paket.sh                  ⭐ QA KOŞU PAKETİ · sekiz mercek · günlük kapısı [DERS 28-29]
-    └── kesme_kontrol.sh             ⛔ YAYIN ÖNCESİ · kurgu SÜRE sütununa uydu mu [DERS 31]
+    ├── kesme_kontrol.sh             ⛔ YAYIN ÖNCESİ · kurgu SÜRE sütununa uydu mu [DERS 31]
+    └── film_klasoru_ac.sh           ⭐ yatay film klasörünü şablondan açar, sahne satırlarını
+                                        damgalar, okuma çizelgesini üretir (kart Y2)
 ```
 
 **Format kartı, yapı/saha kartları, negatif çekirdek → hepsi `KILAVUZ_REHBERI.md`
@@ -171,9 +209,17 @@ ve komşularında. Burada tekrarlanmaz.**
 12. PROMPT KAPISI     python3 araclar/prompt_kontrol.py <dosya>
 
 DOSYA:  dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
+        ⭐ YATAY (16:9): kart Y2 — aynı adımlar, sekiz dosyalı iskelet + 00_ANALIZ;
+          plan <FMT>/<FILM>/<FILM>_PLAN.md, promptlar _BOLUM_1/_BOLUM_2 [KILAVUZ_REHBERI §2.8]
 ```
 
-## 🤝 G — IZGARA SEÇİMİ (10 sahne mi, 5 sahne mi)
+## 🤝 G — IZGARA SEÇİMİ (10 sahne mi, 5 sahne mi — dikey; yatayda modül)
+
+```
+⭐ YATAY MERDİVEN (14.09.2026): ızgara formattan gelir, seçilmez — sahne sayısı ve klip süresi
+   klasörün README'sinde ve KILAVUZ_REHBERI §2.8'de. Bandın dışı = sahip izni + PLAN'a gerekçe.
+   Düz ızgara sahip beyanıdır; karşı kayıt (DERS 13 · 24 · 44) PLAN §DÜZ IZGARA BEYANI'nda durur.
+```
 
 ```
 ⛔ 02.09.2026: HARİCİ BOTA SİPARİŞ VERME YOLU KAPATILDI. `siparisler/`
@@ -193,6 +239,31 @@ VARYANT         5 × 6,0 = 30,0 sn + kapak 5,0        KILAVUZ_REHBERI §2.6
    klip İÇİNE nasıl taşındığı yazılır [KILAVUZ_REHBERI §2.6].
    ⚠️ prompt_kontrol.py süre eşitliğini 5 satırlık tabloda YAKALAYAMAZ
       (eşik 6 satır). Beş sahnede bu kapı yoktur; ⑥ merceği ölçer.
+```
+
+## 🏗️ Y2 — YATAY FİLM YAZACAĞIM (16:9 merdiveni) 🆕 14.09.2026
+
+```
+0. FORMAT          yatay_2 / 4 / 6 / 8_dk_filmler — README'sini oku; sahne sayısı oradan (§2.8)
+1. HİKÂYE ONAYI    sahne sahne öneri SOHBETTE yazılır → sahip onaylar → ancak sonra klasör açılır
+                   (onay-once-uretim). Onaylı metin 00_ANALIZ/00_HIKAYE_ONAYI.md'ye, ONAY tarihli.
+2. KLASÖR          bash araclar/film_klasoru_ac.sh <FMT> <FILM>   ⛔ elle cp -r YOK
+3. 00_ANALIZ       sırayla: 00_OKUMA_CIZELGESI (betikten) → 01 ders hasadı → 02 konsept + risk
+                   (VAAT/DİRENÇ/BEDEL · yapı + saha kartı · 16:9 kamera hesabı · vinç · ışık günü)
+                   → 03 sıralama (inşa sırası → N satır · Σ rejim ≤ 14 h · bölüm sınırı karesi)
+                   → 04 uyarılar (tekrar eden arıza tablosu her satır cevaplı) → 05 sahne tablosu
+4. PLAN            kart A adım 1-7 aynen — <FILM>_PLAN.md (⛔ prompt yok) · ARAÇ KUTU SETİ satırı
+5. USTA KARE       önce BOLUM_2'nin ## 🌟 USTA KARE bölümü (GN) — kapak kaynağı
+6. PROMPTLAR       BOLUM_1 (S0…S(k−1)) · BOLUM_2 (S(k)…S(N−1)) — kart A adım 8 aynen; bölüm
+                   sınırı G_k tek kare, ışık/yapı atlamaz [DERS 52]
+7. KAPAK · MÜZİK · YAYIN PAKETİ · QA_SPEC   kart A adım 9-11 (SPEC künyesi: sahne saatleri · PART GRID)
+8. KAPI            python3 araclar/prompt_kontrol.py <FMT>/<FILM>   ⭐ KLASÖR MODU
+9. ÜRETİM          kart B aynen (ters zincir GN → G0 · günlük klip başına) — bölüm dosyası
+                   üretim sırası DEĞİLDİR
+10. QA             kart Q aynen; 6/8 dk'da iki yarım master (qa_paket.sh --bolum 1|2), ham rapor
+                   <FILM>_B1_<n>_<MERCEK>_HAM.md, T tablosu ve INDEX iki satır, RAPORLAR tek dosya
+
+DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVUZ_REHBERI §2.8)
 ```
 
 ## 🔎 P — PROMPTLAR YAZILDI, ÜRETİM BAŞLAMADI
@@ -482,14 +553,16 @@ commit'i sahibine bırakır.
 ```bash
 bash araclar/sayac.sh
 
-# başlıksız / SPEC'siz film klasörü var mı — çıktı boş olmalı
-for d in dikey_shorts/*/; do
-  ls "$d" | grep -q "_DIKEY_TIMELAPSE.md" || echo "EKSİK PLAN: $d"
-  ls "$d" | grep -q "_QA_SPEC.md"         || echo "EKSİK SPEC: $d"
+# başlıksız / SPEC'siz film klasörü var mı — çıktı boş olmalı (beş format klasörü)
+for d in dikey_shorts/*/ yatay_*_dk_filmler/*/; do
+  [ -d "$d" ] || continue
+  ls "$d" | grep -qE "_(DIKEY_TIMELAPSE|PLAN)\.md" || echo "EKSİK PLAN: $d"
+  ls "$d" | grep -q "_QA_SPEC.md"                  || echo "EKSİK SPEC: $d"
 done
 
-# prompt kapısı tüm filmlerde
+# prompt kapısı tüm filmlerde (yatay: klasör modu)
 for f in dikey_shorts/*/*_DIKEY_TIMELAPSE.md; do python3 araclar/prompt_kontrol.py "$f"; done
+for d in yatay_*_dk_filmler/*/; do [ -d "$d" ] && python3 araclar/prompt_kontrol.py "$d"; done
 
 # ham raporu olup skor tablosunda satırı olmayan film (işlenmemiş rapor)
 ls QA/HAM_RAPORLAR/*_HAM.md 2>/dev/null | sed 's|.*/||; s|_[A-Z]*_HAM\.md||' | sort -u

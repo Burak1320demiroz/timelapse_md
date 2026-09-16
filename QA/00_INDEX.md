@@ -9,13 +9,14 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       8
-ÖLÇÜLEN FİLM      7
+TOPLAM FİLM       14
+ÖLÇÜLEN FİLM      12
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    3     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST — üçü de RUN INCOMPLETE)
+SEKİZ MERCEKLE    8     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK)
+ON İKİ MERCEKLE   3     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK — ⑨ ⑩ ⑪ ⑫ dâhil)
 ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
-ÜRETİLEN FİLM     7
-YAZILDI, ÜRETİLMEDİ 1   (BEFORE NIGHTFALL — plan + SPEC hazır, araç kapısı koşulmadı)
+ÜRETİLEN FİLM     11
+YAZILDI, ÜRETİLMEDİ 2   (BEFORE NIGHTFALL · THE OLD ROAD — plan + SPEC hazır, araç kapısı koşulmadı)
 ```
 
 ## TAMLIK MATRİSİ
@@ -32,7 +33,13 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | THE CLOSING SPAN | 1,0 | Ⓥ 0,0 | 1,3 | Ⓥ 5,4 | Ⓥ 0,0 | Ⓥ 1,6 | ❌ | ❌ | **6/8** |
 | **THE DUST YEAR** | Ⓥ 1,3 karesiz | ⛔ belgesiz 0,9 | 4,0 | ⛔ belgesiz 2,1 | Ⓥ 4,0 karesiz | ⛔ belgesiz 6,6 | Ⓥ 1,3 karesiz | ⛔ belgesiz **0,0** | **8/8** · 7'si RUN INCOMPLETE |
 | **BUILT FROM DUST** | Ⓥ 1,1 karesiz | ⛔ belgesiz 2,8 | Ⓥ 3,3 | ⛔ belgesiz 2,5 | Ⓥ 1,6 karesiz | ⛔ belgesiz 4,5 | Ⓥ 1,8 karesiz | ⛔ belgesiz **0,0** | **8/8** · 8'i de RUN INCOMPLETE |
+| **THE CROSSING** | Ⓥ 8,4 | ⛔ belgesiz 6,4 | **10,0** | ⛔ belgesiz 7,9 | Ⓥ 5,8 karesiz | ⛔ belgesiz **10,0** | Ⓥ 8,8 karesiz | ⛔ belgesiz **2,8** | **8/8** · 4'ü RUN INCOMPLETE |
 | BEFORE NIGHTFALL | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ |
+| THE OLD ROAD ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 16.09.2026 · ilk 16:9 film) |
+| **THE DARK ROCK** | ⛔ V karesiz 4,9 | ⛔ belgesiz 3,8 | Ⓥ 2,8 | ⛔ belgesiz 6,1 | Ⓥ 3,1 karesiz | ⛔ belgesiz 2,9 | ⛔ karesiz 5,1 | ⛔ belgesiz 4,5 | **8/8** + ⑨⑩⑪⑫ · 12'si de RUN INCOMPLETE |
+| **THE EMPTY RIDGE** | Ⓥ 2,8 | ⛔ belgesiz 5,2 | **5,4** | ⛔ belgesiz 3,4 | Ⓥ 7,2 karesiz | ⛔ belgesiz 7,6 | Ⓥ 7,0 karesiz | ⛔ belgesiz **9,1** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
+| **OVER THE WALL** | Ⓥ 5,8 | ⛔ belgesiz 3,8 | Ⓥ 6,0 | ⛔ belgesiz 5,3 | Ⓥ 3,0 karesiz | ⛔ belgesiz 7,0 | Ⓥ 3,8 karesiz | ⛔ belgesiz **0,0** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
+| **POLAR HABITAT** | Ⓥ 7,7 | ⛔ belgesiz | Ⓥ 9,8 | ⛔ belgesiz | Ⓥ 10,0 | ⛔ belgesiz | Ⓥ 7,9 | Ⓥ 8,2 | **8/8** |
 
 ```
 ⚠️ THE LONG SHADOW v1'in ⑤ ve ⑥'sı KOŞULMADI çünkü o iki mercek film
@@ -83,6 +90,45 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ```
 
 ```
+🔴 OVER THE WALL — DOKUZUNCU ÜRETİLEN FİLM · İLK BARAJ · 14.09.2026 · ON İKİ MERCEK
+   ⛔ Film ÜRETİM GÜNLÜĞÜ TUTULMADAN üretildi (günlük "DURUM ⛔ BOŞ" — DUST YEAR
+      ve LONG DAY'den sonra ÜÇÜNCÜ kez [DERS 28]). Kurgu 7 klip · 7,8·8,0·10,7·
+      10,0·8,0·13,0·6,0 = 63,5 + kart 4,5 = 68,0 sn; ne 14.09 planına (8 × 8,0)
+      ne 12.09 planına (10 sahne) oturuyor. Hangi promptlardan üretildiği
+      bilinmiyor. 12 merceğin 11'i RUN INCOMPLETE; yalnız ① kare aldı (69).
+   ⛔ Düşen: ⑤ A SET REBUILT EACH TIME (6/6 dikiş) + ⑧ APPEARED 0/4 → film
+      "zincir koşulmadı" diye kapanır [kart R 6a]. ② DIFFERENT · APPEARING
+      (SEKİZİNCİ kez; POLAR ve CROSSING'in BUILT'inden sonra geri düşüş) ·
+      ① SIX SEPARATE SHOTS (plan dışı İKİNCİ İSTASYON, klip 5) · ③ NOT IN ONE
+      DIRECTION (kar 4 kez gidip geldi; okunan süre 1,5–2 yıl, plan 1 yıl) ·
+      ⑦ PARKED · CAUSE AND EFFECT 0 (duvarda çalışma cephesi YOK, makineler
+      köprüde) · ⑩ MAGICAL APPEARANCE · ⑪ INTRUDERS (havuz · derrick kule) ·
+      ⑫ MELTING (köprüde çift araç birbirinin içinden geçti).
+   ⭐ Tutan: 12/12 END CARD SAME (DERS 30 ilk kez bütün merceklerde) · ① CAMERA
+      LOCK 9 · ③ SEASON CARRIER 10 · ④ ENDS + FINAL BEAT PASS + ONE THING
+      BULUNDU · ⑥ TIME · ⭐ RHYTHM — ⑤ REBUILT iken İLK KEZ; kurgu varyanslıydı.
+      DERS 44'ün tersi ölçüldü; 8 × 8,0 düz kilide karşı kanıt (RAPORLAR §7).
+   → DERSLER.md: DERS 51-54 · RAPORLAR/OVER_THE_WALL.md · HAM_RAPORLAR/OVER_THE_WALL/
+```
+
+```
+⭐ THE EMPTY RIDGE — ONUNCU ÜRETİLEN FİLM · İLK TÜRBİN · 14.09.2026 · ON İKİ MERCEK · DEPONUN EN İYİ ÖLÇÜMÜ
+   ⛔ Plan ve üretim aynı gün; günlük TUTULMADI (dördüncü film [DERS 28]). Kurgu 8 klip, varyanslı
+      (4,9·3,6·6,3·7,0·10,0·8,1·7,9·8,0); plan 7 × 8,0. ① dört istasyon grubu + klip 1–2 push-in;
+      plan tek sabit istasyon. 12 merceğin 11'i RUN INCOMPLETE; ③ tam girdiyle koştu.
+   ⭐ İLK KEZ AYNI ANDA: ⑤ SAME WORLD (kanıt = plana konan yalnız meşe — planlı çapa ilk kez bulundu)
+      · ⑧ MADE 6/6 · 9,1 (deponun en yüksek ⑧; ilk beliren parça YOK) · ⑫ SOLID (ilk SOLID) ·
+      ⑥ TIME · RHYTHM (varyanslı kurgu, 3. kez) · ③ PASSES + süre tahmini "2–3 ay" TUTTU (plan 9,5 hf)
+      · ⑨ PRODUCTIVE · 12/12 END CARD SAME.
+   ⛔ Düşen: ① SIX SEPARATE SHOTS (kamera hareketi, dört istasyon, SURFACE 1) · ② DIFFERENT (yapı BUILT,
+      ama 0:21 ve 0:39'da HAYALET KULE kopyaları) · ⑩ MAGICAL APPEARANCE (segment · nasel · kanat kancasız
+      pop; dağ arka planı halatı kurtarmadı) · ⑪ INTRUDERS · ④ NONE FOUND (5.) · RESISTANCE 2 (rüzgâr
+      bekleyişi okunmadı) · rotor montajda döndü.
+   → DERSLER.md: DERS 55 (çoğul korpus) · 56 (göbek döndürme → rotor döner) · 57 (yük havada taşınmaz;
+     DERS 22 mekanizması düştü) · DERS 25 ✅ tuttu · DERS 44 tersi 3. kez · RAPORLAR/THE_EMPTY_RIDGE.md
+```
+
+```
 ✅  koşuldu, skor tabloda
 Ⓥ   koşuldu ama mod V (ön koşu) — tamlık için sayılır, skor bağlayıcı değil
 ❌  koşulmadı
@@ -92,6 +138,69 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ## DURUM
 
 ```
+THE OLD ROAD — ⭐ DEPONUN İLK YATAY (16:9) FİLMİ · YAZILDI 16.09.2026 · ÜRETİLMEDİ ⛔
+   yatay_2_dk_filmler · ızgara 15 × 8,0 = 120,0 + kart 5,0 = 125,0 sn · ⛔ DÜZ IZGARA (sahip beyanı, modül 12 × 10,0)
+   zincirli · 16 kare (G0…G15) + 15 I2V · ara kare YOK · bölüm sınırı G8 · QA birimi FİLM
+   YAPI: itmeli beton viyadük — 420 m, 7 açıklık, 5 ayak; ⭐ tabliye KALDIRILMAZ, İTİLİR → DERS 8 · 22 · 46 · 57
+     devre dışı kalır; 1 numaralı risk gövdenin sıçraması, araç kapısına ⑨ İTME TESTİ eklendi
+   BEDEL: eski yolun trafiği — G0'da 14 virajda far izleri, G15'te viyadükte tek düz çizgi, virajlar boş ama OKUNUR
+   DİRENÇ: kar erimesi seli — S7'de su yükselirken itme sürer ve kaya bermi dökülür, S8'de sel geçişi ve bermi
+     götürür (itme DURUR), S9'da hat yeniden kurulur: çalışan hat → kopuk hat → yeniden kurulan hat
+   IŞIK: tek gün 05:05 → 18:35 · 9 A + 6 B = 13,5 h ≤ 14 · ⚠️ üsluplu sıkıştırma beyanı (tek günde çekilmedi)
+   TAKVİM: 627 gün ≈ 20,6 ay · iki kış, iki yaz · kar YALNIZ kar çizgisiyle (vadiye kar yağmaz)
+   00_ANALIZ altı dosya ✅ · PLAN ✅ · BOLUM_1/2 ✅ · KAPAK ✅ · MUZIK ✅ · YAYIN_PAKETI ✅ · QA_SPEC ✅ · günlük ⛔ BOŞ
+   ⛔ KAPI (klasör modu): BLOCK 0 · FIX 2 — kutu seti ölçülmedi · süreler eşit (ikisi de beyanlı)
+   ⭐ YATAY (16:9) ilk kez: kadraj formülü, güvenli alan ve ışık günü toplamı ÖLÇÜLMEDİ — bu film onların ilk ölçümü
+   ⭐ Siluet ailesi YATAY (EMPTY RIDGE · DARK ROCK DİKEY'den sonra sıradaki aile) · havuz #4
+   → yatay_2_dk_filmler/THE_OLD_ROAD/
+
+THE DARK ROCK — ON ÜÇÜNCÜ FİLM · İLK FENER · YAZILDI 15.09.2026 · ÜRETİLMEDİ ⛔
+   ızgara 6 × 8,0 = 48,0 sn + kapak 5,0 · ⛔ DÜZ IZGARA (proje sahibi kilidi) · zincirli · 7 kare + 6 I2V
+   ⛔ ARA KARE YOK (proje sahibi, 15.09.2026): her sahne tek 8,0 sn klip · S3'te kopan hat yalnız klip ortasında — kabul edilen risk
+   ⭐ İLK VİNÇSİZ PLAN: tek düşey taşıyıcı raylı asansör kabini; uzun rijit yük havada taşınmaz [DERS 8 · 22 · 46 · 57]
+   ⭐ Eleştiri turundan yedi düzeltme işlendi: fırtına = iniş hattı arızası (rampa kayar → yeniden oturur) · gövde
+     fırtınadan önce biter · 900× dili (köpük ALANI, ıslak BANT) · üst iskele sökümü S4 sonunda tepeden · martı
+     yalnız atmosfer · ödül ilk ışığın BELİRMESİ (huzme yok) · loop iddiası yok, 7,0 sn sonuç ekranı riski beyanlı
+   BEDEL: kayanın çentikli tacı (%39 → kaide %34,5) · AYNI YER: THE NEEDLE (tek sütun, ≈200 px)
+   Işık tek gün 07:00 → 19:00 (6 × rejim B = 12 saat) · takvim tarladan + deniz renginden (~6 ay) · kış yok
+   plan ✅ · QA_SPEC ✅ · KAPAK ✅ (başlık iki satır, alt bantta — ⚠️ sahip kararı) · üretim günlüğü açıldı ⛔ BOŞ
+   ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı) · BLOCK 0
+   ⚠️ DİKEY siluet ailesi — THE EMPTY RIDGE ile ARDIŞIK yayınlanamaz (YAYIN_PLANI §3) · havuz #11
+   → dikey_shorts/THE_DARK_ROCK/
+
+THE EMPTY RIDGE — ON İKİNCİ FİLM · İLK TÜRBİN · ÜRETİLDİ ✅ (günlüksüz ⛔) · 12/12 mercek ✅ · 11'i RUN INCOMPLETE ⛔
+   ızgara 7 × 8,0 = 56,0 sn + kapak 5,0 · ⛔ DÜZ IZGARA (proje sahibi kilidi) · zincirli · 8 kare + 7 I2V
+   ⛔ Kurgu 8 klip varyanslı, plana oturmuyor; kesme_kontrol.sh koşulamadı (teslim.mp4 depoda yok)
+   ⭐ GEÇEN: ⑤ SAME WORLD (meşe) · ⑧ MADE 9,1 · ⑫ SOLID · ⑥ RHYTHM · ③ PASSES (tahmin tuttu) · ⑨ · 12/12 kart SAME
+   ⛔ DÜŞEN: ① SIX SEPARATE SHOTS (push-in + 4 istasyon) · ② DIFFERENT (hayalet kuleler) · ⑩ MAGIC · ⑪ · ④
+   → KARAR: yayınlanmaz · YENİDEN ÜRETİLİR (yeniden yazılmaz): plan tutuyor, üç cümle düzeltilir
+     (DERS 55 · 56 · 57) — önce ARAÇ KAPISI (⑨ vinç testi) + ÖN GÖRSELLEŞTİRME + GÜNLÜK · tek istasyon.
+     RAPORLAR/THE_EMPTY_RIDGE.md §9 · kapak başlığı üst %12,5'te → KAPAK.md bandına çekilir
+   ⭐ DİKEY siluet ailesi (YAYIN_PLANI §3 sırası: OVER THE WALL KÜTLE → DİKEY) · havuz #5
+   ⭐ DERS 22'yi İSTASYONLA çözen ilk vinçli plan: kamera pad'in +100 m üstünde, göz çizgisi = göbek (%50),
+     bom başı %55 < uzak sıradağ silueti %57 → bütün kaldırmalar DAĞA karşı; SAHA ŞARTI (+6°) ve ön
+     görselleştirme adımı plana yazıldı. DERS 51 (iş yüzeyi adı + yüzde) · 52 (tek istasyon) · 53 (dar
+     yüzeyde tek araç) · 54 (kuru katlı ilk hâl) bu planın doğduğu gün kılavuza indi ve uygulandı.
+   ⭐ Işık tek gün 06:00 → 20:00 (7 × rejim B 2 saat = 14 saat, TUTARLI) · takvim tarladan (9,5 hafta) ·
+     bilinçli sıkıştırma beyanlı. Kış yok.
+   plan ✅ · QA_SPEC ✅ · KAPAK ✅ · üretim günlüğü açıldı ⛔ BOŞ
+   ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı)
+   ⚠️ Plan bu ölçümden sonra DÜZELTİLMEDİ — üç cümle (S5 göbek · SITE "only turbine" · S2–S5 kaldırma
+     yolu) yeniden üretimden önce plana yazılır; kart A adım 8 yeniden koşulur.
+   → dikey_shorts/THE_EMPTY_RIDGE/
+
+OVER THE WALL — DOKUZUNCU ÜRETİLEN FİLM · İLK BARAJ · 14.09.2026
+   plan 8 × 8,0 = 64,0 + kapak 5,0 (14.09 · ⛔ DÜZ · proje sahibi kilidi) · zincirli · 9 kare + 8 I2V
+   ÜRETİLDİ ✅ (günlüksüz ⛔) · 12/12 mercek koşuldu ✅ · 11'i RUN INCOMPLETE ⛔ · kapak kartı VAR
+   ⛔ Kurgu 7 klip, hiçbir plan sürümüne oturmuyor; kesme_kontrol.sh koşulamadı (teslim.mp4 depoda yok)
+   ⛔ Zincir hükümleri düştü: ⑤ REBUILT 6/6 · ⑧ APPEARED 0/4 · ② APPEARING (8.) · ⑦ PARKED · ⑩ MAGIC
+   ⭐ GEÇEN: ⑥ TIME · RHYTHM (varyanslı kurgu) · 12/12 END CARD SAME · ① CAMERA LOCK 9 · ③ CARRIER 10
+   → KARAR: yayınlanmaz · yeniden ÜRETİLMEZ — önce ARAÇ KAPISI + GÜNLÜK + ZİNCİR.
+     Yeniden üretilecek: S2 (kuru katlı platform) · S3 BÜYÜR (filmde yok) · S4–S5 (döşekte makine) ·
+     tek istasyon · dar yüzeyde tek araç. Dersler 51-54 · RAPORLAR/OVER_THE_WALL.md §9
+   ⚠️ IZGARA: ⑥ varyanslı kurguda RHYTHM dedi (CROSSING'den sonra 2. kez) — 8 × 8,0 düz kilit
+     proje sahibine geri soruldu; plan DEĞİŞTİRİLMEDİ.
+
 BEFORE NIGHTFALL — YEDİNCİ FİLM · ⛔ HENÜZ ÜRETİLMEDİ
    ızgara 6 × 8,0 = 48,0 sn + kapak 5,0 · ⛔ DÜZ IZGARA (proje sahibi kilidi)
    ⭐ İLK KARA DELİK SAHASI · havasız kayaç ova · saha kartı YOK

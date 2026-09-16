@@ -1,6 +1,6 @@
 # 📁 HAM_RAPORLAR — modelin ham çıktısı, DOKUNULMAZ
 
-Ad kalıbı: `<FILM_ADI>_<MERCEK>_HAM.md`
+Dizin yapısı: `QA/HAM_RAPORLAR/<FILM_ADI>/<FILM_ADI>_<MERCEK>_HAM.md`
 Mercek adları: `KARE` · `INSA` · `ZAMAN` · `TESLIM` · `DEVAMLILIK` · `GECIS` · `IS` · `YONTEM`
 
 ```

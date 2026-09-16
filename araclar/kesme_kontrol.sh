@@ -22,6 +22,8 @@
 #     tolerans varsayılan 0.25 sn
 #
 #  ÇIKIŞ: 0 = ızgara tutuyor · 1 = sapma var · 2 = ölçülemedi
+#  ⭐ 14.09.2026: sahne no iki basamaklı olabilir (yatay 12-48 sahne) — <FILM>_PLAN.md'nin
+#     AŞAMA MERDİVENİ tablosu aynı "| S | SÜRE |" desenini taşır.
 # ═══════════════════════════════════════════════════════════════════
 set -u
 command -v ffmpeg  >/dev/null || { echo "⛔ ffmpeg yok"; exit 2; }
@@ -33,7 +35,7 @@ MP4="$1"; PLAN="$2"; TOL="${3:-0.25}"
 [ -f "$PLAN" ] || { echo "⛔ plan yok: $PLAN"; exit 2; }
 
 # ── plandan süreler ────────────────────────────────────────────────
-SURELER=$(grep -E '^\| [0-9] \| [0-9]+[.,][0-9]+ \|' "$PLAN" | awk -F'|' '{gsub(/ /,"",$3); gsub(",",".",$3); print $3}')
+SURELER=$(grep -E '^\| [0-9]+ \| [0-9]+[.,][0-9]+ \|' "$PLAN" | awk -F'|' '{gsub(/ /,"",$3); gsub(",",".",$3); print $3}')
 N=$(echo "$SURELER" | grep -c .)
 [ "$N" -ge 2 ] || { echo "⛔ planda SÜRE sütunu okunamadı (| S | SÜRE | ... satırları)"; exit 2; }
 

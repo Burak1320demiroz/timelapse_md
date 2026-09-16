@@ -1,4 +1,4 @@
-# 🔬 ARAŞTIRMA — sekiz derin araştırma promptu
+# 🔬 ARAŞTIRMA — on iki derin araştırma promptu
 
 > Bu klasör **bilgi üretmez, bilgi İSTER.** İçindeki sekiz dosya, harici bir
 > derin araştırma botuna (ChatGPT Deep Research · Gemini Deep Research ·
@@ -63,6 +63,10 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | A7 | ✅ koşuldu | Gemini | 08.09.2026 | ✅ denetlendi → `A5-A8_DENETIM.md` |
 | A8 | ✅ koşuldu | Gemini | 08.09.2026 | ✅ denetlendi → `A5-A8_DENETIM.md` |
 | P2 | `SONUCLAR/P2_LONG_SHADOW_OKUMA_HAM.md` · `P3_MOUNTAIN_DOOR_…` · `P4_NARROW_LOT_…` · `P5_CLOSING_SPAN_…` | aynı yapımcı | uzman okuması · dört ÜRETİLMİŞ filmin planı + QA'sı | evet (P2-a…l · tek kod serisi) — ⛔ ölçüm değil, okuma |
+| A9 | ✅ koşuldu · `SONUCLAR/A9_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · standart adları doğru, sayılar çekilmedi | ✅ → MALZEME_VE_DOKU_KILAVUZU · denetim `A9-A12_DENETIM.md` |
+| A10 | ✅ koşuldu · `SONUCLAR/A10_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · standart adları doğru, benchmark DOI'siz | ✅ → FIZIK_VE_AGIRLIK_KILAVUZU |
+| A11 | ✅ koşuldu · `SONUCLAR/A11_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · 15 DOI: 7 ✅ · 4 ❌ yanlış atıf · 1 erişilemedi | ✅ → PERSPEKTIF_VE_OLCEK_KILAVUZU |
+| A12 | ✅ koşuldu · `SONUCLAR/A12_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · "Python Script Snippet" kaynak değil; gölge 15°/sa DÜŞTÜ | ✅ → HAVA_VE_ATMOSFER_KILAVUZU |
 
 ```
 ⛔ DÖRDÜ DE TEK BOTA KOŞULDU. §2'nin "aynı promptu iki bota koş" uyarısı
@@ -144,5 +148,12 @@ arastirma/
 ├── A6_SANTIYE_HAREKETI.md        ACTIVITY kaynağı · iz · yüzey kanıtı
 ├── A7_ARAC_PROFILI.md            aracın ölçülmüş davranışı · test protokolü
 ├── A8_KURGU_VE_TESLIM.md         kesme · dikiş · final · kapak · teslim QC
+│
+│   ── üçüncü kuşak · 08.09.2026 yazıldı · 11.09.2026 v2 (altı cümle + çözümlenebilir kaynak) · ✅ dördü de koşuldu ──
+├── A9_MALZEME_VE_DOKU.md         yüzey gerçekliği · kirlilik katmanı · yaşlanma
+├── A10_FIZIK_VE_AGIRLIK.md       yük yolu · söküm · robotik gövde · katılık ihlalleri
+├── A11_PERSPEKTIF_VE_OLCEK.md    referans nesne · sayı sadakati · zincirde kayma
+├── A12_HAVA_VE_ATMOSFER.md       bulut × rejim · atmosferik derinlik · iki kare arası gök
+├── SONUCLAR/A9-A12_DENETIM.md    ⭐ kaynak doğrulama: 12 çekim, 7 tuttu, 4 yanlış atıf
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```

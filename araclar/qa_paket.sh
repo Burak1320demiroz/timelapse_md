@@ -14,6 +14,9 @@
 #  KULLANIM
 #     bash araclar/qa_paket.sh <film_klasoru> <teslim.mp4> [kapak.png]
 #     örn: bash araclar/qa_paket.sh dikey_shorts/THE_LONG_DAY teslim/long_day.mp4 teslim/kapak.png
+#     ⭐ yatay (14.09.2026): plan <FILM>_PLAN.md ise onu okur; 6/8 dk yarım master için
+#        bash araclar/qa_paket.sh --bolum 1 yatay_6_dk_filmler/<FILM> b1.mp4
+#        → paketler QA/KOSU/<FILM>/B1/ altına, ham rapor adı <FILM>_B1_<n>_<MERCEK>_HAM.md
 #
 #  ÇIKTI:  QA/KOSU/<FILM>/<n>_<MERCEK>_paket.md   (8 dosya)
 #          + kare grabları: <teslim_dizini>/QA_KARELER/  (yoksa kare_al.sh koşulur)
@@ -25,13 +28,19 @@
 set -u
 cd "$(dirname "$0")/.." || exit 2
 
-GUNLUKSUZ=0
-if [ "${1:-}" = "--gunluksuz" ]; then GUNLUKSUZ=1; shift; fi
+GUNLUKSUZ=0; BOLUM=""
+while [ "${1:-}" = "--gunluksuz" ] || [ "${1:-}" = "--bolum" ]; do
+    if [ "$1" = "--gunluksuz" ]; then GUNLUKSUZ=1; shift
+    else BOLUM="${2:-}"; shift 2
+         case "$BOLUM" in 1|2) ;; *) echo "⛔ --bolum 1 ya da 2"; exit 2 ;; esac
+    fi
+done
 [ $# -ge 2 ] || { sed -n '/KULLANIM/,/gunluksuz/p' "$0" | sed 's/^#//'; exit 2; }
 
 DIR="${1%/}"; MP4="$2"; KAPAK="${3:-}"
 FILM="$(basename "$DIR")"
 PLAN="$DIR/${FILM}_DIKEY_TIMELAPSE.md"
+[ -f "$PLAN" ] || PLAN="$DIR/${FILM}_PLAN.md"     # ⭐ yatay iskelet (KILAVUZ_REHBERI §2.8)
 SPEC="$DIR/${FILM}_QA_SPEC.md"
 GUNLUK="$DIR/${FILM}_URETIM_GUNLUGU.md"
 
@@ -57,14 +66,15 @@ MP4DIR="$(cd "$(dirname "$MP4")" && pwd)"
 KARELER="$MP4DIR/QA_KARELER"
 if [ ! -d "$KARELER" ] || [ -z "$(ls -A "$KARELER" 2>/dev/null)" ]; then
     echo "📸 kare grabı yok → kare_al.sh koşuluyor"
-    SAHNE=$(grep -cE '^\| [0-9] \| [0-9]+[.,][0-9]+ \|' "$PLAN")
+    SAHNE=$(grep -cE '^\| [0-9]+ \| [0-9]+[.,][0-9]+ \|' "$PLAN")
+    [ -n "$BOLUM" ] && SAHNE=$((SAHNE / 2))      # yarım master: bölümün klip sayısı
     [ "$SAHNE" -gt 0 ] || SAHNE=10
     bash araclar/kare_al.sh "$MP4" "$SAHNE" || { echo "⛔ kare_al.sh düştü"; exit 2; }
 fi
 KARE_SAYISI=$(ls -1 "$KARELER" 2>/dev/null | wc -l | tr -d ' ')
 
 # ── paketler ──────────────────────────────────────────────────────
-OUT="QA/KOSU/$FILM"; mkdir -p "$OUT"
+OUT="QA/KOSU/$FILM"; [ -n "$BOLUM" ] && OUT="$OUT/B$BOLUM"; mkdir -p "$OUT"
 MP4ABS="$MP4DIR/$(basename "$MP4")"
 KAPAKABS=""; [ -n "$KAPAK" ] && [ -f "$KAPAK" ] && KAPAKABS="$(cd "$(dirname "$KAPAK")" && pwd)/$(basename "$KAPAK")"
 
@@ -77,6 +87,12 @@ paket() {  # <sira> <mercek_kodu> <rubrik> <mod> <girdi_listesi (satır satır)>
         echo "⛔ YUKARIDAKİ SATIR RAPORUN İLK SATIRINA YAPIŞTIRILIR [DERS 27]."
         echo "⛔ MOD $mod — bu mercekte AŞAĞIDAKİLERDEN BAŞKA HİÇBİR ŞEY verilmez."
         [ "$GUNLUKSUZ" -eq 1 ] && echo "⚠️  ÜRETİM GÜNLÜĞÜ YOK — bu koşunun bulguları prompt/üretim ayrımı yapamaz."
+        if [ -n "$BOLUM" ]; then
+            echo "⭐ BÖLÜM $BOLUM / 2 — YARIM MASTER. Rubriğin başına SPEC ile birlikte şu beyan yapıştırılır:"
+            if [ "$BOLUM" = "1" ]; then echo "   \"THIS FILE IS PART 1 OF 2 — the film's ending and the end card are NOT in this file.\""
+            else echo "   \"THIS FILE IS PART 2 OF 2 — the film's opening is NOT in this file.\""; fi
+            echo "   Sayı taşımayan kategoriler ve bölüm sınırı: format README §TEK FARK."
+        fi
         echo
         echo "EKLENECEK DOSYALAR (tam yol):"
         echo "$girdi" | sed 's/^/   /'
@@ -111,5 +127,5 @@ $(pwd)/$PLAN"
 paket 8 YONTEM     8_YONTEM_QA.md     D "$MP4ABS
 $(pwd)/$SPEC"
 echo
-echo "⛔ Rapor geldiğinde: QA/HAM_RAPORLAR/${FILM}_<MERCEK>_HAM.md — dokunmadan."
+echo "⛔ Rapor geldiğinde: QA/HAM_RAPORLAR/${FILM}/${FILM}_${BOLUM:+B${BOLUM}_}<n>_<MERCEK>_HAM.md — dokunmadan."
 echo "   İlk satırı RUN INCOMPLETE diyorsa skoru tabloya yazma, koşuyu TEKRARLA."

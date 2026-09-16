@@ -51,6 +51,15 @@
 | 46 | Vinç kancası kadraj dışından sarkamaz, yük yolu kopamaz | BEFORE NIGHTFALL · ① KARE · ② İNŞA | ✅ ölçüldü |
 | 47 | Zaman sıkışıyorsa (motion blur), gölge de süpürmelidir | BEFORE NIGHTFALL · ③ ZAMAN 4.2/10 | ✅ ölçüldü |
 | 48 | ⭐ Malzeme şantiyede yoktan var olamaz, kaynağı görünmelidir | BEFORE NIGHTFALL · ⑧ YÖNTEM 2.5/10 | ✅ ölçüldü |
+| 49 | ⭐ Parçalar saydamlıktan belirerek oluşamaz, fiziksel olarak yerine konur | BUILT FROM DUST · ② İNŞA 2/10 APPEARING | ✅ ölçüldü |
+| 50 | ⭐ Timelapse rejiminde araçlar cam gibi net kalamaz — motion blur | BUILT FROM DUST · ③ ZAMAN 3,3/10 TIME RATE | ✅ ölçüldü |
+| 51 | ⭐ İki "deck" varsa makine HAZIR olana gider — iş yüzeyi eleman adı + yüzdeyle kilitlenir | OVER THE WALL · ⑦ WORKING FRONT 3 · ⑩ PROXIMITY 2 · SCALE 1 | ✅ ölçüldü |
+| 52 | ⭐ Kesme iki şeyi birden değiştiremez — istasyon değişen kesmede yapı yüzdesi sabit (P2-e ölçüldü) | OVER THE WALL · 00:36,5 · ③ 7 · ⑥ 3 · ⑤ C2 | ✅ ölçüldü |
+| 53 | Dar yüzeyde iki hareketli araç birbirinin içinden geçer (⑫ ilk koşu · A10-g ölçüldü) | OVER THE WALL · ⑫ PASS-THROUGH 5 · MELTING | ✅ ölçüldü |
+| 54 | Nehir yatağındaki ilk kaldırma SU HAVUZU okundu — ıslak beton + nehir = havuz korpusu | OVER THE WALL · ② 4/10 "basin" · ⑪ UNINVITED | ✅ ölçüldü |
+| 55 | ⭐ Korpusu ÇOĞUL olan yapı tek yazılsa da çoğalır — türbin çiftlik doğurur | THE EMPTY RIDGE · 0:39 · ② 3 · ⑤ · ⑧ · ⑪ INTRUDERS | ✅ ölçüldü |
+| 56 | ⭐ Montajda "göbeği döndür" yazmak rotoru döndürür — hareket fiili parçadan yapıya sıçrar | THE EMPTY RIDGE · 0:33–0:42 · ② 4 · ⑦ · ⑨ · ⑩ | ✅ ölçüldü |
+| 57 | Uzun rijit yük havada taşınmaz — model hedefte kopyalar, oturtma anı kancasız (DERS 22 mekanizması düştü) | THE EMPTY RIDGE · 0:21 · ⑩ MAGIC ×3 · ① C1 2 | ✅ ölçüldü |
 
 ---
 
@@ -636,6 +645,16 @@ NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §7 vinç bloğu · PROMPT_SABLONU §1
             kilavuzlar/KILAVUZ_REHBERI.md §2.6
 ```
 
+```
+🔻 MEKANİZMA NOTU — THE EMPTY RIDGE · 14.09.2026 [DERS 57]
+   Halat DAĞA KARŞI da koptu: kamera pad'in +100 m üstündeydi, bom başı (%55) uzak sıradağ
+   siluetinin (%57) altındaydı, yük kısa sapandaydı — ⑩ yine üç kaldırmada "kanca boş" (MAGIC),
+   ① C1 2/10. Sebep gök kontrastı DEĞİL, modelin uzun rijit yükü havada taşıyamamasıdır;
+   ⑫ halatı gövde olarak tuttu (8/10), taşırken tutmadı. Kilit DERS 57'ye taşındı: kaldırma
+   yolu karede biter (G(n) yük hedefin üstünde asılı), klip yalnız oturmayı gösterir.
+   (b) şıkkı (bom kadraj dışı) tower crane için geçerli kalır; paletli vinçte bom dışarı çıkamaz.
+```
+
 ---
 
 ## DERS 23 — ⭐ Ölçülebilir kamera çapası PROMPTUN değil, ARACIN özelliğidir
@@ -738,6 +757,15 @@ NEREYE      araclar/zincir_kontrol.sh (kullanım notu) · AGENTS.md kart B ·
 ```
 
 ---
+
+```
+✅ TUTTU — THE EMPTY RIDGE · 14.09.2026
+   Plana KASTEN konan kanıt nesnesi (yalnız meşe, 64 px, x ≈ 742, kuru taş duvarla) ⑤'te İLK KEZ
+   bulundu: "THE OBJECT THAT PROVES IT IS THE SAME PLACE: solitary oak tree (00:00,5 and 00:54,5)".
+   MOUNTAIN DOOR'da kaya ilk dikişte ölmüştü. Fark: nesne tek, silüeti belirgin, kadrajın kendi
+   yarısında, her promptta piksel boyuyla yazılı. Zincir koşuldu mu bilinmiyor (günlük yok) —
+   bu yüzden DERS 25'in "zincirsiz çapa ölür" hükmü DÜŞMEZ; yalnız çapa SEÇİMİNİN ölçüsü doğrulandı.
+```
 
 ## DERS 26 — Prompta yazılan MEVSİM, plandaki mevsimi üretmiyor
 
@@ -1435,6 +1463,22 @@ NEREYE      KURGU_VE_TESLIM_KILAVUZU §2 · QA/00_README (mercek okuma sırası)
             AGENTS kart R
 ```
 
+```
+🔻 TERSİ ÖLÇÜLDÜ — OVER THE WALL · 14.09.2026
+   ⑤ yine "A SET REBUILT EACH TIME" (6/6 dikiş DEFECT) ama kurgu VARYANSLI kesildi
+   (7,8·8,0·10,7·10,0·8,0·13,0·6,0) ve ⑥ hükmü TIME · RHYTHM (MUSIC 9/10).
+   ⑥'nın gerekçesi: kesmeler ANLAM taşıyor (mevsim · sel · kret · taşkın).
+   THE CROSSING (7·7·19·7·8·16 → RHYTHM 10/10) ile birlikte İKİNCİ KEZ:
+   anlam taşıyan kesme + varyanslı süre = RHYTHM — dünya kırık olsa bile.
+   ⭐ ÜÇÜNCÜ KEZ — THE EMPTY RIDGE (14.09.2026): 4,9·3,6·6,3·7,0·10,0·8,1·7,9·8,0 → TIME · RHYTHM,
+      CUT MECHANICS 10; düşük tek satır ANCHOR SURVIVAL 6 ve sebebi istasyon kayması. Üç film, üç
+      RHYTHM, üçü de varyanslı; planlarındaki düz ızgara üçünde de kullanılmadı.
+   Okuma kuralı değişmez (⑤ REBUILT iken ⑥ METRONOM ızgaraya yazılmaz);
+   ama ⑥ RHYTHM dediğinde bunun ızgaradan geldiği artık iki kez ölçülü.
+   ⚠️ 14.09.2026'da 8 × 8,0 DÜZ ızgaraya kilitlenen OVER THE WALL planı için
+      bu ölçüm KARŞI KANITTIR; karar proje sahibinin [QA/RAPORLAR/OVER_THE_WALL.md §7].
+```
+
 
 ---
 
@@ -1956,6 +2000,153 @@ A56-a ⭐ İNSAN ÇELİŞKİSİ: A5 döşemede işçi gösteriyor, A6 aynı klip
 
 ---
 
+## 🔬 ÜÇÜNCÜ KUŞAK ARAŞTIRMA — A9–A12 · 11.09.2026
+
+> Kaynak: `arastirma/SONUCLAR/A9..A12_GEMINI_HAM.md` · Denetim: `A9-A12_DENETIM.md`
+>
+> ⭐ **BU KUŞAKTA İKİ ŞEY DEĞİŞTİ:** (1) v2 promptları ÇÖZÜMLENEBİLİR KAYNAK şart
+> koştu ve raporlar DOI/standart adı getirdi; 12 kaynak çekildi — 7 tuttu,
+> 4 başka makaleye çıktı, 1 erişilemedi. Yeni arıza sınıfı: kaynak VAR ama
+> iddiaya AİT DEĞİL. (2) Sayılar yine bu depoda yeniden hesaplandı: kadraj ve
+> piksel tabloları TUTTU; A12'nin gölge satırı A6-b ile çelişti ve DÜŞTÜ.
+> Aşağıda **KAYNAK ✅** yazanlar çekilip doğrulandı; **ÖLÇTÜM** yazanlar bu
+> makinede hesaplandı; diğerleri VARSAYIM/İDDİA'dır ve öyle iner.
+>
+> ⚠️ Dördü de yine TEK BOTA koşuldu [kart S §4].
+
+### A9 — MALZEME VE DOKU  ⭐ SITE TEXTURE bloğunun sözlüğü
+
+```
+A9-a  ⛔ KORPUS ADI + ALET + IŞIK ÜÇLÜSÜ                          [VARSAYIM]
+      Rapor her malzemeye bir "külliyat + kamera/lens/ışık" yazdı. Külliyat
+      adlarının çoğu UYDURMA tanımdır ("Concrete Pouring Field Archive");
+      DERS 34'ün testi (adı arama motoruna yaz) bunlara da uygulanır ve düşer.
+      Ayakta kalan kısım: korpus cümlesi ALETİYLE anılır (Mastcam-Z · Kodak
+      KAI-2020 CCD gerçek). ⇒ MALZEME §1
+A9-b  BETON KÜRLENME TAKVİMİ SAYIYLA                              [VARSAYIM · standart adı doğru]
+      0–1 gün koyu ıslak (CIE Y %15–20) · 1–3 gün alacalı · 3–7 gün Y %35–45 ·
+      7–28 gün kemik grisi Y %60–70, L* ~75, kür kimyasalı tebeşir izi.
+      ⭐ "3 gün fark ekranda okunur" — A4-a'nın sayısal hâli. ⇒ MALZEME §4
+A9-c  PAS HIZI İKLİME BAĞLI (ISO 9223 sınıfları)                   [VARSAYIM · standart adı doğru]
+      C1–C2 şehir: aylar · C5–CX kıyı/endüstri: 80–200 µm/yıl · kumlanmış çelikte
+      flash rust saatler. ⇒ MALZEME §4
+A9-d  ⭐ ÖLÇTÜM — 0,5 m EŞİĞİ NESNE İÇİNDİR, BANT AŞAR
+      0,2 m genişlikte pas akıntısı 6 px'tir ama 1–3 m uzunlukta ÇİZGİ olarak
+      okunur; yağ damlası 2–5 px → okunmaz. ⇒ SITE TEXTURE bant ve alan yazar,
+      nesne saymaz. ⇒ MALZEME §2 · kapı
+A9-e  ÜÇ ZAMAN YAYI × GÖRÜNÜR DEĞİŞİM                              [VARSAYIM]
+      1–3 yıl: döküm yaş farkı · pas sınıfı geçişi · toprak→asfalt · cam tozu.
+      Aylar: kürlenme tonu · asfalt soğuması · iz derinliği · kür örtüsü.
+      TEK GÜN: ıslak parlaklık 6 saatte matlaşır · asfalt buharı · yeni iz ·
+      birikinti küçülür. Kürlenme rengi tek günde OKUNMAZ. ⇒ MALZEME §4
+A9-f  RÜZGÂRSIZ DÜNYADA TOZ YALNIZ FAALİYETLE BİRİKİR — P1-d'yi doğrular.
+A9-g  ⛔ EVRENSEL SITE TEXTURE HAVASIZ SAHADA FİZİK DIŞI            [YENİ · kapı]
+      "mud · standing puddles" Ay/Mars'ta yazılamaz. ⇒ prompt_kontrol.py §10d
+```
+
+### A10 — FİZİK VE AĞIRLIK  ⭐ PHYSICS bloğunun sözlüğü
+
+```
+A10-a YÜK YOLU ZİNCİRİ · 18 ELEMAN                                 [VARSAYIM · standart adları doğru]
+      eleman → temas → destek → zemin; BS 5975 · EN 12812 · EN 12811 · EN 1090-2.
+      Bölüm numaraları çekilmedi. ⇒ FIZIK §1
+A10-b ⭐ SÖKÜM BİR FİİLDİR — eleman başına: kılıf sıyrılır · kriko gevşer ·
+      panel devrilir · masa kalıp dışarı sürülür · sapan gevşer · gergi toplanır.
+      P2-h'nin sözlüğü. ⇒ FIZIK §2
+A10-c ⭐ HAMMADDE İSTİF FORMATI — kafes yatay · dikme paletli sepette · profil
+      takozda · boru uç uca · kablo makarada · modül sandıkta. DERS 48'in
+      sözlüğü. ⇒ FIZIK §2
+A10-d ÖLÇTÜM — MAKİNE–ZEMİN PİKSEL TABLOSU 15/15 tutuyor (makine ölçüleri
+      ekipman belgesinden, belge çekilmedi). CAT 320 palet 25 px · LTM kriko
+      230 px · IPEx palet 6 px. ⇒ FIZIK §3
+A10-e ⭐ ROBOTİK GÖVDE SÖZLÜĞÜ                                      [VARSAYIM]
+      excavator → autonomous bucket-drum regolith extractor rover ·
+      loader → uncrewed bulk regolith transport rover platform ·
+      crane → robotic gantry manipulator strut · dozer → autonomous site
+      leveling implement, exposed sensor array. Gövde: MLI battaniye · LIDAR
+      sensör direği · güneş paneli/RTG. DERS 41'in İngilizce hâli. ⇒ FIZIK §3
+A10-f ÖLÇTÜM — DÜŞÜK g: Ay'da sarkaç periyodu √6 = 2,45 kat uzun; toz balistik,
+      bulut yok; counter-rotating tambur (NASA IPEx). ⇒ FIZIK §3
+A10-g İHLAL SÖZLÜĞÜ · 11 SATIR + POZİTİF ENGEL                      [İDDİA — benchmark adı var, DOI yok]
+      floating · clipping · pass-through · warping · split-merge · identity
+      drift · count · opacity fade · unsupported cantilever · gövdesiz kanca ·
+      dönmeyen palet. "Etkili/zayıf" dereceleri KAYNAKSIZ. ⇒ FIZIK §4
+A10-h ⛔ "6 sn yerine 2 sn × 3 klip" — formatla çelişir, ALINMADI; araç
+      kapısına ölçüm sorusu (4 sn vs 8 sn klipte ⑫ farkı).
+A10-i ⛔ "Everything rests on the ground" ASILI YÜKÜ YALANLAR        [YENİ · kural]
+      Her sahnede ASILI olan (kanca · sapan · vantuz) ayrı yazılır; genel
+      cümle yasak değil, EKSİKTİR. ⇒ FIZIK §5 · kapı
+```
+
+### A11 — PERSPEKTİF VE ÖLÇEK  ⭐ COMPOSITION bloğunun sözlüğü
+
+```
+A11-a ÖLÇTÜM — REFERANS NESNE DEFTERİ 7/7 tutuyor (1,5 m söve 48 px ·
+      5 m fener kaidesi 160 px · 15 m mesa 480 px · 10 m krater 320 px).
+      Nesne SEÇİMİ varsayım. ⇒ PERSPEKTIF §1
+A11-b ⛔ ÖLÇEĞİ DEĞİŞEN NESNE REFERANS OLAMAZ (yapı · vinç · iskele · berm)  [VARSAYIM]
+      Kule vinç DOI'si 403. ⇒ PERSPEKTIF §1
+A11-c UFUK %50 TİLT 0° — formül, KAMERA §3'te zaten var. Raporun atfı yanlış
+      (2211.12432 kalibrasyon makalesi); geometri kaynak istemez.
+A11-d "1/3 KURALI UFKU %33/66'YA İTER"                              [VARSAYIM — atıf ❌ PiT]
+A11-e ⭐ GenScale: T2I modelleri GÖRELİ ÖLÇEĞİ tutturamıyor (1.643 ölçüm) [KAYNAK ✅]
+      ⇒ ölçek yalnız cümleyle kilitlenmez; referans nesne + kanal. PERSPEKTIF §1 · §5
+A11-f ⭐ NumBench: küçük tam sayı tutar, sayı büyüdükçe çöker (1–100 test) [KAYNAK ✅]
+      DERS 19 + P2-b'yi dışarıdan doğrular. "10 üstü" eşiği raporun okuması. ⇒ §3
+A11-g SpatialGenEval: uzamsal komut darboğaz (21 model · 1.230 prompt) [KAYNAK ✅]
+      "%90 sağ/sol karıştırıyor" özette yok → İDDİA. Piksel/yüzde konumu
+      metinle tutmaz; GLIGEN (kutu koordinatı) istisna [araç]. ⇒ §2
+A11-h T2I-CompBench++ [KAYNAK ✅] — "boyut çapası doğruluğu artırır" özette
+      yok → İDDİA. ⇒ §4
+A11-i ⭐ AR HATA BİRİKİMİ (FreqForcing) [KAYNAK ✅] → A3-a'yı doğrular.
+      Attention sink (Rolling Forcing) [KAYNAK ✅]: ilk kareye kilit → A3-b
+      hub mantığıyla aynı yön. ⇒ §5
+A11-j MLSD > Depth > Canny; IP-Adapter geometri taşımaz           [VARSAYIM — MLSD atfı ❌, IP-Adapter atfı ❌]
+      A3-c ile aynı yönde. Depth Anything V2 MAE 0,454 m ORMAN benchmark'ında.
+A11-k ⛔ ÖRNEK CÜMLE KESİRLERİ TABLOYLA TUTMUYOR (ÖLÇTÜM)          [kural]
+      1,5 m = 48 px = 1/22, "one tenth" değil. Kesir usta karede ölçülen
+      pikselden hesaplanır. ⇒ §4 · kapı
+A11-l Kamera sayıları prompta yazılmakla kilitlenmez; poz kanalı  [VARSAYIM — atıf ❌ CamPilot]
+      DERS 23 + A3-d ile aynı.
+```
+
+### A12 — HAVA VE ATMOSFER  ⭐ gök cümlesinin sözlüğü
+
+```
+A12-a ÖLÇTÜM — BULUT × REJİM: cumulus 10 m/s → 100× 6 km · 1200× 72 km ·
+      5400× 324 km. Raporun "kadraj geçişi %" yüzdeleri irtifayı mesafe
+      saydığı için 2–5 kat şişkin; NİTEL sonuç ayakta: şerit · akış · silinme.
+      Bulut hızları VARSAYIM. ⇒ HAVA §1
+A12-b ⛔ GÖLGE 15°/SAAT DÜŞTÜ — A6-b ÖLÇTÜM ile çelişir (9 saatte 116–191°).
+      Raporun 2 numaralı örnek cümlesindeki "thirty degrees" de düştü.
+      SANTIYE_HAREKETI §1 geçerli. ⇒ HAVA §1 uyarı satırı
+A12-c ÖLÇTÜM — YER TABLOSU: kamyon 100×'te ~1 kare · işçi 100×'te ~5 kare
+      saydam silüet · 1200×+ ikisi de silinir. Optik yorum VARSAYIM. ⇒ HAVA §1
+A12-d ATMOSFERİK PERSPEKTİF 6 hava × 4 mesafe + cümle                 [İDDİA · kaynak boş]
+      ⇒ HAVA §2
+A12-e HAVASIZ / İNCE ATMOSFER: Ay siyah gök · keskin gölge · yakın ufuk;
+      Mars butterscotch gök + mavi gün batımı (tau); buz gezegeni whiteout  [İDDİA/VARSAYIM]
+      ⇒ HAVA §5
+A12-f YAĞIŞ KLİP İÇİ: ıslanma 1–3 dk · kuruma 30 dk–4 sa · kar 3–5 cm/sa
+      (ÖLÇTÜM: 9 saatte 27–45 cm · 5 cm = 1,6 px) · bayrak Nyquist'te silinir  [VARSAYIM]
+      ⇒ HAVA §3
+A12-g ⭐ GÖLGESİZ SAHNEDE ALTI TAŞIYICI: pus halesi · toz duvarı · ıslak-kuru
+      sınırı · projektör gölgesi · beton kürlenme · yıldız izi (2 sa = 30°, ÖLÇTÜM)
+      DERS 40'ın çıkış kapısı. ⇒ HAVA §4
+A12-h ANLAMSAL AYRIŞMA MEKANİZMASI                                   [İDDİA · kaynaksız]
+      FVD kare keskinliğini zamansal gerçekliğe yeğler; hareket öncülleri insan
+      hızında. Çözüm 1 = gerçek zamanlı üret, kurguda hızlandır (A3-e ile aynı).
+      Çözüm 2'nin cümlesi imzayı bozar, ALINMADI (denetim §3.5).
+A12-i ⭐ İKİ KARE ARASI PROJEKSİYON                                 [VARSAYIM · DERS 47 ile uyumlu]
+      G(n) ve G(n+1)'de gölge açısı rejime göre FARKLI çizilir; bulut konumu
+      rüzgârın projeksiyonu; 1200×'te ilk karedeki bulut son karede kadrajdan
+      çıkmıştır. Aynı açıyla çizilmiş iki kare, "gölge oynamadı"nın sebebidir.
+      ⇒ HAVA §6 · PROMPT_SABLONU §1 LIGHTING satırı
+A12-j 100× REJİMDE KAR YAĞIP ERİYEMEZ — DERS 7'yi fizikle doğrular.
+```
+
+---
+
 ## 🎬 PROFESYONEL OKUMADAN DEVRALINAN — plan incelemesi, burada VARSAYIM
 
 > ⛔ **Hiçbiri ölçülmedi.** Kaynak: `arastirma/SONUCLAR/P1_PLAN_OKUMA_HAM.md`
@@ -2452,3 +2643,261 @@ KİLİT       TIME RATE cümlesine eklenmeli: "Each object — shadow, machine,
             and streaking."
 KALDIRDIĞI  Araçları net/temiz gösterme kaygısı — araç bulanık olmak ZORUNDADIR.
 NEREYE      ZAMAN_VE_ISIK_KILAVUZU.md ve TIMELAPSE_SISTEM_PROMPTU.md
+
+---
+
+## 🔴 OVER THE WALL — DOKUZUNCU ÜRETİLEN FİLM · İLK BARAJ · 14.09.2026
+
+```
+⛔ ÖNCE OKUNACAK — BU FİLMİN DERSLERİ NASIL OKUNUR
+   Film ÜRETİM GÜNLÜĞÜ TUTULMADAN üretildi (günlük "DURUM ⛔ BOŞ") ve on iki
+   mercekle ölçüldü; 12'nin 11'i RUN INCOMPLETE (belgesiz ve/veya karesiz),
+   yalnız ① kare aldı. Kurgu 7 klip (7,8·8,0·10,7·10,0·8,0·13,0·6,0) — ne
+   14.09 planına (8 × 8,0) ne 12.09 planına (10 sahne) oturuyor. Hangi
+   promptlardan üretildiği BİLİNMİYOR [DERS 28 · üçüncü kez].
+   ⑤ A SET REBUILT EACH TIME (6/6 dikiş DEFECT) + ⑧ APPEARED (0/4): zincir
+   hükümleri düştü → diğer skorlar yorumlanmaz [kart R 6a].
+   ⭐ BU YÜZDEN aşağıdaki dört ders "prompt böyle yazıldı, tutmadı" diye
+      DEĞİL, "ekranda bu oldu; elimizdeki plan cümlesi şu ve aynı açığı
+      taşıyor" diye yazıldı. Zincir ve günlükle üretildiğinde yeniden okunur.
+   Hükümler: ① SIX SEPARATE SHOTS · ② DIFFERENT · APPEARING (8.) · ③ NOT IN
+   ONE DIRECTION · ④ ENDS (FINAL BEAT PASS) · ⑤ REBUILT · ⑥ TIME · RHYTHM ⭐ ·
+   ⑦ PARKED · ⑧ APPEARED · ⑨ PRODUCTIVE WORK · ⑩ MAGICAL APPEARANCE ·
+   ⑪ INTRUDERS · ⑫ MELTING. 12/12 END CARD SAME (DERS 30 tuttu).
+   Rapor: QA/RAPORLAR/OVER_THE_WALL.md · ham: QA/HAM_RAPORLAR/OVER_THE_WALL/
+```
+
+## DERS 51 — ⭐ İki "deck" varsa makine HAZIR olana gider: iş yüzeyi eleman adı + yüzdeyle kilitlenir
+
+```
+NEREDE      OVER THE WALL · ⑦ WORKING FRONT 3/10 · ⑩ PROXIMITY WITHOUT WORK 2/10 ·
+            SCALE OF LABOUR 1/10 · ⑨ 00:18,0 · ⑤ 00:44,6 · ① 0:06,0 · 0:48,0
+NE OLDU     Damperler, yükleyiciler ve tanker eski üç kemerli TAŞ KÖPRÜNÜN
+            ÜSTÜNDE dolaştı, park etti, ping-pong yaptı (beş mercek, birbirinden
+            bağımsız). Baraj gövdesinde tek makine görünmedi: ⑦ "Clip 4: lower
+            bridge roadway — NONE on main dam wall"; ⑩ "trucks on the bridge
+            act as visual proximity cover while no equipment touches the dam".
+            Büyüyen eleman (duvar) ile çalışan makine (köprüde) ayrı yüzeylerde
+            → ⑦ CAUSE AND EFFECT 0/10, ⑧ APPEARED.
+NEDEN       Elimizdeki plan sekiz ACTIVITY'nin altısında makineyi "onto the
+            deck / the wet deck" üstüne yazıyor — barajın taze kaldırma yüzeyi
+            kastediliyor. Kadrajda İKİNCİ bir "deck" var: köprü tabliyesi. O
+            her karede hazır, düz, okunaklı; kaldırma yüzeyi ise henüz yok ya
+            da ince. Model iş yüzeyini isimden değil, kadrajdaki en hazır düz
+            yüzeyden seçti. DERS 43'ün NESNESİ vardı ("a fresh load"); eksik
+            olan yüzeyin KİMLİĞİ (hangi elemanın üstü) ve YÜKSEKLİĞİ (yüzde).
+            Günlük olmadığından üretilen promptun bu cümleyi taşıyıp taşımadığı
+            bilinmiyor; plandaki cümle aynı belirsizliği taşıyor.
+KİLİT       ACTIVITY'de iş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ, ve kadrajdaki
+            diğer hazır yüzey POZİTİF boş yazılır:
+            "The trucks tip and the roller packs on the top surface of the dam
+             lift itself — the fresh dark-grey concrete band at forty-six
+             percent of frame height, above and behind the old bridge; the
+             stone bridge below stays empty, its roadway bare stone from
+             parapet to parapet."
+            ⛔ "deck" · "platform" · "the road" gibi ortak yüzey adları tek
+               başına yazılmaz; kadrajda aynı adı alabilecek ikinci yüzey varsa
+               ikisi de adıyla anılır.
+KALDIRDIĞI  Ortak yüzey adı kısayolu; ön plandaki köprüyü/yolu canlı trafikle
+            doldurup şantiyeyi "kalabalık" gösterme kolaylığı. [D-f]
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §4.6 · PROMPT_SABLONU ACTIVITY
+```
+
+## DERS 52 — ⭐ Kesme iki şeyi birden değiştiremez: istasyon değişen kesmede yapı yüzdesi sabittir
+
+```
+NEREDE      OVER THE WALL · 00:36,5 · ③ CUT AS TIME JUMP 3/10 · ⑥ JUMP SIZING 6/10 ·
+            ⑤ C2 SECONDARY VANTAGE 4/10 · ① VANTAGE GROUP B (ufuk %92 vs %73) ·
+            ⑪ en zararlı davetsiz: çelik derrick kule 00:37,5 → 00:40,0'da yok
+NE OLDU     Plan TEK istasyon beyan etti ("eight locked-off shots from one
+            camera"). Filmde 00:36,5–00:44,5 yüksek açılı ikinci bir istasyon
+            var ve AYNI KESMEDE duvar yarım yükseklikten tam krete sıçradı.
+            Üç mercek birbirinden bağımsız aynı saniyeyi yazdı: ③ "structural
+            leap … in a single frame cut", ⑥ "jump sizing disproportionate",
+            ⑤ "portal dimensions and rock face geometry drift across cut".
+            Detay istasyonunun klibinde plana yazılmamış bir vinç kulesi de
+            belirip kayboldu — istasyon değişince "aynı yer" kanıtı gitti,
+            model boş kadraja kendi şantiyesini kurdu.
+NEDEN       İstasyon değişimi izleyiciden "aynı yer" kanıtını alır; yapı da
+            aynı anda sıçrarsa izleyici iki değişkeni birden çözemez ve
+            kesmeyi "sıradaki görüntü" okur. KAMERA_ISTASYONU §1 bunu varsayım
+            olarak taşıyordu (P2-e: detay = ek, aşama değil; aynı aşamanın
+            onaylı karesinden türer, ≤2 sn). Burada tersi yapıldı: filmin en
+            büyük büyümesi (8 → 72 m) detay istasyonuna bırakıldı ve 8,0 sn
+            sürdü. P2-e ÖLÇÜLDÜ.
+KİLİT       Plan hükmü: istasyon değişen kesmenin İKİ yakasında yapı YÜZDESİ
+            (SPEC §2 kilit değeri) aynıdır; detay klibi büyüme TAŞIMAZ.
+            Detay istasyonu promptuna:
+            "This shot shows the same stage as the previous shot from the main
+             station: the wall top stands at the same height, seventy-one
+             percent of frame height, and no new lift is added during this
+             shot; the tunnel outlet arch is in frame at the left edge."
+            ⛔ Planda beyan edilmemiş ikinci istasyon = zincir dışı kare;
+               günlükte "istasyon" sütunu boşsa kare ATILIR.
+KALDIRDIĞI  Büyük yapı sıçramasını açı değişikliğiyle "gizleme" kolaylığı;
+            detay açısında dramatik büyüme anı. [D-f]
+NEREYE      KAMERA_ISTASYONU_KILAVUZU §1 (detay istasyonu dördüncü koşul)
+```
+
+## DERS 53 — Dar yüzeyde iki hareketli araç birbirinin içinden geçer (⑫ ilk koşu · A10-g "zayıf" ölçüldü)
+
+```
+NEREDE      OVER THE WALL · ⑫ PASS-THROUGH AND MERGE 5/10 · MELTING · 00:10,5 ·
+            00:23,5 · 00:24,0 · 00:33,5 · ① 7 [0:23,0] "spontaneously merge"
+NE OLDU     ⑫ merceğinin depodaki İLK koşusu. Statik gövdeler tuttu: duvar,
+            köprü, su, köpük HOLDS. Eriyen her gövde bir ARAÇ ve hepsi DAR bir
+            yüzeyde ÇİFT: köprüde zıt yönde giden damperler birbirinin
+            gövdesinden geçti (00:24,0 · "the body that melted worst"),
+            platformda manevra yapan yükleyicilerin şasileri iç içe girdi
+            (00:23,5), köprü trafiği park hâlindeki makinenin içinden aktı
+            (00:33,5), tanker eksik gövdeyle belirdi (00:51,0).
+NEDEN       FIZIK_VE_AGIRLIK §4 pass-through satırı A10-g'den "zayıf" notuyla
+            devralınmıştı: "iki cismi ayrı kimlikle ve aralarındaki boşlukla
+            yaz". Ölçüldü: dar yüzeyde iki hareketli gövde varsa model çarpışma
+            kutusu kurmuyor; boşluk cümlesi yetmiyor. Elimizdeki plan S3–S5'te
+            aynı döşeğe damper + ikinci damper + dozer + silindir yazıyor
+            (A6-d "iki hareket eden" aynı yüzeyde) — aynı açık.
+KİLİT       Dar yüzeyde (köprü · seki · kret yolu · döşek) aynı anda TEK
+            hareketli araç; A6-d'nin ikinci hareket edeni BAŞKA yüzeyde ya da
+            PARK hâlinde yazılır:
+            "One dump truck at a time crosses the crest road; the second truck
+             stands parked at the east end with its engine off until the first
+             has left the frame, and the roller works on the lift below, on a
+             different surface."
+            Statik gövde için "rigid" tutuyor (⑫ HOLDS ×7) — o satır değişmez.
+KALDIRDIĞI  Aynı yol üstünde karşılıklı (gidiş-dönüş) trafik anlatımı; kalabalık
+            şantiye hissi için aynı yüzeyde çift araç. [D-f]
+NEREYE      FIZIK_VE_AGIRLIK_KILAVUZU §4 (pass-through satırı: ölçüldü) ·
+            SANTIYE_HAREKETI_KILAVUZU §4.6
+```
+
+## DERS 54 — Nehir yatağındaki ilk kaldırma SU HAVUZU okundu: ıslak beton + nehir = havuz korpusu
+
+```
+NEREDE      OVER THE WALL · 0:19,0–0:26,5 · ② STRUCTURE IDENTITY 4/10 ("rectangular
+            stepped concrete basin") · ② 8 (yüzey araç geçince kayıyor) · ① 7 [0:23,0]
+            "drive across the surface of liquid water/concrete" · ⑨ "flooded dam
+            foundation slab" · ⑪ UNINVITED "rectangular concrete water basin" ·
+            ⑧ "Temporary Rectangular Basin"
+NE OLDU     Barajın ilk kaldırması (plan G3: iki damper boyunda düz gri
+            platform) BEŞ mercekte bir SU YAPISI olarak okundu: üstü su gibi
+            parladı, araçlar sıvı yüzeyde yürüdü, ⑪ onu planın davetsizi
+            saydı. Sonra 00:26,5'te bambaşka silüetli kemer duvar geldi; ②
+            "completely different footprint". Barajın ilk hâli barajın ilk
+            hâli olarak okunmadı → ② DIFFERENT, ⑧ ilk parça duvar "NEVER
+            incomplete".
+NEDEN       Elimizdeki G3 cümlesi: "its top a dark WET strip of fresh mix …
+            SLUSH and MELTWATER lie along the edges of the deck and dark
+            meltwater streaks run down the face … the outlet jet pours brown".
+            Nehir yatağı + parlak yatay ıslak yüzey + kenarlarda su = HAVUZ
+            korpusu [DERS 42: ad korpusu yapıyı değiştirir]. Dikdörtgen, alçak,
+            düz platform ile 72 m kemer duvar arasında silüet köprüsü yoktu
+            [DERS 37]. Günlük olmadığından üretilen promptun bu cümleyi
+            taşıyıp taşımadığı bilinmiyor; plandaki cümle aynı açığı taşıyor.
+KİLİT       İlk kaldırma karesi KURU · KATLI · DİKEY OKUNUR yazılır; su
+            platformun YANINDAN değil TÜNELDEN geçer:
+            "The first lifts stand as a dry, matte, pale-grey stepped block
+             with three visible horizontal lift lines, rising eight metres
+             above the bare rock floor; only the topmost band is damp and
+             darker; the river runs inside the black tunnel arch, and the
+             rock floor around the block is dry gravel."
+            ⛔ Islak/parlak taze beton dokusu ilk kaldırma karesine YAZILMAZ;
+               "az önce döküldü" hissi katman çizgisiyle verilir, parlaklıkla değil.
+KALDIRDIĞI  Taze betonun ıslak parlak dokusu; platformla nehir suyunun aynı
+            karede yan yana durması (kar erimesi, kabarık jet). [D-f]
+NEREYE      YAPI_TIPI_KARTLARI §4 BARAJ (RİSK satırı) · MALZEME_VE_DOKU §3
+```
+
+---
+
+## 🔴 THE EMPTY RIDGE — ONUNCU ÜRETİLEN FİLM · İLK TÜRBİN · 14.09.2026
+
+```
+⛔ ÖNCE OKUNACAK
+   Plan ve üretim aynı gün; ÜRETİM GÜNLÜĞÜ TUTULMADI (dördüncü film) — hangi araç, hangi prompt,
+   zincir koşuldu mu bilinmiyor. 12 merceğin 11'i RUN INCOMPLETE. Kurgu 8 klip, varyanslı
+   (4,9·3,6·6,3·7,0·10,0·8,1·7,9·8,0); plan 7 × 8,0. ① dört istasyon grubu + klip 1–2 push-in.
+   ⭐ DEPONUN ÖLÇÜLMÜŞ EN İYİ FİLMİ: ⑤ SAME WORLD (planlı meşe bulundu) + ⑧ MADE 6/6 (9,1) +
+      ⑫ SOLID (ilk) + ⑥ RHYTHM + ③ PASSES (süre tahmini tuttu) + ⑨ PRODUCTIVE — aynı anda, ilk kez.
+   ⛔ Düşen: ① SIX SEPARATE SHOTS (kamera hareketi, dört istasyon) · ② DIFFERENT (yapı BUILT ama
+      hayalet kule kopyaları) · ⑩ MAGICAL APPEARANCE (kaldırma anı kancasız) · ⑪ INTRUDERS ·
+      ④ NONE FOUND · RESISTANCE 2.
+   Aşağıdaki üç ders "ekranda bu oldu; elimizdeki plan cümlesi şu" diye yazıldı [DERS 28].
+   Rapor: QA/RAPORLAR/THE_EMPTY_RIDGE.md · ham: QA/HAM_RAPORLAR/THE_EMPTY_RIDGE/
+```
+
+## DERS 55 — ⭐ Korpusu ÇOĞUL olan yapı tek yazılsa da çoğalır: türbin çiftlik doğurur
+
+```
+NEREDE      THE EMPTY RIDGE · 0:39,0 → 0:40,0 · ② STRUCTURE IDENTITY 3/10 · ⑤ dikiş 7–8 DEFECT ·
+            ⑧ 2 · ⑪ "en zararlı davetsiz: duplicate background wind turbines" · (0:21 iki dik şaft → DERS 57)
+NE OLDU     Kanatlar takılırken meranın üstünde, yolun yanında İKİ TAM BOY türbin belirdi ve bir
+            kesme sonra yok oldu. Dört mercek birbirinden bağımsız aynı anı yazdı. Yapı planda tek
+            yazılmıştı: "a single wind turbine", "one rigid steel structure", "one lone oak" — sayı
+            cümlesi vardı [DERS 19] ve yine çoğaldı.
+NEDEN       "wind turbine" korpusu RÜZGÂR ÇİFTLİĞİDİR: fotoğraf külliyatında tek türbin nadir, sıra
+            hâlinde türbin kuraldır [DERS 42: ad korpusu yapıyı değiştirir]. Kanatlar takılıp silüet
+            "türbin" olarak tamamlanınca model korpusun geri kalanını — komşuları — çağırdı. Tekil
+            sayı ("a single") yapının KENDİSİNİ tek tutar, ETRAFINI tek tutmaz.
+KİLİT       Yapı adı çoğul korpuslu ise (türbin · silo · pilon · direk · konut bloğu) etrafı POZİTİF
+            boş yazılır, her karede ve I2V'de:
+            "This is the only turbine on the ridge and the only one in view: every other crest,
+             slope and field carries only rock, scrub and stubble, with no second mast or tower
+             anywhere from edge to edge."
+            + üretim günlüğü §2 zincir satırına SAYIM sütunu: kule sayısı = 1 (elle ✓/✗) [DERS 25].
+KALDIRDIĞI  "Tek yazdım, tektir" varsayımı; arka planı boş bırakıp modele emanet etme kolaylığı. [D-f]
+NEREYE      YAPI_TIPI_KARTLARI §8 (türbin RİSK) · PROMPT_SABLONU SITE
+```
+
+## DERS 56 — ⭐ Montajda "göbeği döndür" yazmak rotoru döndürür: hareket fiili parçadan yapıya sıçrar
+
+```
+NEREDE      THE EMPTY RIDGE · 0:33,0 → 0:42,5 · ② 4 (rotor montajda yüksek hızda döner) · ② 8 (kanatlar
+            kuleden geçer) · ⑦ 0:39,0 (kanatlar dönen göbeğe "pop") · ⑨ "en amaçsız hareket: asılı
+            kanadın hızlı dönmesi" · ⑩ 0:42,5 MAGIC
+NE OLDU     Üçüncü kanat takılmadan rotor işletme hızında döndü; kanatlar dönen göbeğe sıçradı, dönerken
+            biçim bozdu ve kule gövdesinden geçti. Planın ilk dönüşü S6'daydı (vinç gittikten sonra).
+NEDEN       Planın S5 I2V'si kanatlar arasında "the hub is turned one third of a turn on its own gear"
+            yazdı. Model "hub turns" fiilini rotorun kendisine verdi: türbin korpusunda dönen göbek =
+            dönen rotor. Bir parçaya yazılan hareket fiili, o parçanın bağlı olduğu yapının korpus
+            hareketini çağırır. Aynı mekanizma DERS 43'ün tersi: orada nesnesiz fiil daire çizdirdi,
+            burada nesneli fiil yanlış gövdeye sıçradı.
+KİLİT       Montaj klibinde göbek KİLİTLİ yazılır ve "döndürme" fiili hiç anılmaz:
+            "The hub stays locked and does not turn while any blade flange is bare; each blade goes
+             onto the flange that faces the rack, and the rotor turns for the first time only after
+             the last blade is bolted and the crane has left the pad."
+            Genel kural: yapının KENDİ hareketi (dönme · açılma · sarkma · akma) yalnız bitiş sahnesinde
+            yazılır; montaj sahnelerinde yapı "stands still / stays locked" ile kilitlenir.
+KALDIRDIĞI  Montaj yöntemini gerçekçi anlatan "göbek indekslenir" ayrıntısı. Karşılığı: kanat sırası
+            flanş adıyla verilir, dönüş yalnız finalde. [D-f]
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §4.6 · YAPI_TIPI_KARTLARI §8
+```
+
+## DERS 57 — Uzun rijit yük havada TAŞINMAZ: model hedefte kopyalar ve oturtma anını kancasız çizer
+
+```
+NEREDE      THE EMPTY RIDGE · 0:21,0 → 0:25,5 (⑦ "iki dik segment belirdi, kanca boş" → "tek kuleye dönüştü")
+            · ⑩ MAGIC ×3: segment 0:21,5 · nasel 0:30,5 · kanat 0:42,5, hepsinde "kanca boş ve bağlantısız"
+            · ① C1 CRANE 2/10 "halat yükten koptu, düşey olmayan açıda sarktı" (0:28–0:38)
+            · ama ⑧ C3 LIFTED-IN 9/10 ve ⑫ LOAD PATH BODY 8/10: halat GÖVDE olarak tuttu
+NE OLDU     Segmentin pad'den kuleye yolculuğu gösterilmedi: yük önce HEDEFİN YANINDA dik bir kopya
+            olarak belirdi (0:21 iki şaft), sonra kopya silinip kule bir kademe uzadı (0:25,5).
+            Nasel ve kanatlar aynı biçimde "pop" etti; kanca o anda boştu. Plan §Vinç kararı, DERS 22'yi
+            arka planla çözmüştü (göz çizgisi = göbek, bom başı %55 < silüet %57 → yük dağa karşı).
+NEDEN       DERS 22'nin MEKANİZMASI DÜŞTÜ: halat dağa karşı da koptu; sorun gök kontrastı değil,
+            modelin uzun rijit bir gövdeyi havada TAŞIYAMAMASI. Rijit cismi hareket ettirmenin
+            modeldeki yolu kopyalayıp kaynağı silmektir (⑫'nin "substitution" tanımı). Halat statik
+            bir gövde olarak tutar (⑫ 8/10), yükü taşırken tutmaz (⑩ 2/10). İstasyon çözümü
+            gerekliydi (bom ve yük dağa karşı okunaklı), yeterli değildi.
+KİLİT       KALDIRMA YOLU KAREDE BİTER, KLİPTE DEĞİL: G(n) yükü hedefin HEMEN ÜSTÜNDE, kısa sapanda,
+            gergin, bom başının altında ASILI gösterir; klip yalnız son metreyi ve OTURMAYI gösterir.
+            Yükün yerden kalkışı gösterilmez — kaynağı yerdeki SAYIM taşır (pad'de 3 → 2) [DERS 48].
+            "In the first frame the section already hangs on the short sling a metre above the top
+             flange, the sling taut, the boom head directly above it; across the shot it is lowered
+             onto the flange and bolted, and the sling is slackened only after the bolts are in."
+            ⛔ "rises as a blurred vertical streak" yazılmaz — çizgi kancayı koparıyor.
+            ⚠️ Bedel: her kaldırma için bir ARA KARE (Gn′: yük asılı) gerekir — zincir uzar.
+KALDIRDIĞI  Kaldırmanın kendisi — yükün yerden havalanıp yükselmesi, bu türün en sinematik anı. DERS 22
+            bunu tower crane için almıştı; şimdi paletli vinç için de alınıyor. [D-f]
+NEREYE      FIZIK_VE_AGIRLIK_KILAVUZU §4 (gövdesiz kanca satırı) · YAPI_TIPI_KARTLARI §8 · DERS 22 notu
+```

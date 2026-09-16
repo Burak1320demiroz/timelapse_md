@@ -30,10 +30,14 @@ THE TIME MOMENT: [ilerlemeyi kanıtlayan NESNE + neye göre ölçüldüğü]
 COMPOSITION: Vertical 9:16. [taç ve çalışma seviyesi kare yüzdesiyle] The crown
 of the structure sits below the top eighth of the frame and the working level
 sits above the bottom quarter of the frame; nothing that proves progress falls
-into the right eighth of the frame.
+into the right eighth of the frame. [⭐ + REFERANS NESNE KESİR CÜMLESİ — usta
+karede ölçülen pikselden: "the … spans N pixels of frame width — one nth — and
+keeps that width from the first frame to the last" → PERSPEKTIF_VE_OLCEK §4 · kapı]
 
 LIGHTING: sun azimuth [X]°, elevation [X]°, shadows falling to the [yön].
-[mevsim rengi · gökyüzü · gölge sertliği]
+[mevsim rengi · gökyüzü · gölge sertliği] [⭐ + gök ve derinlik cümlesi: bulut
+tipi ve o rejimdeki görünümü, uzak çapanın tonu → HAVA_VE_ATMOSFER §1–§2;
+G(n) ile G(n+1)'de gölge açısı ve bulut durumu FARKLI yazılır → HAVA §6]
 
 TIME RATE: Everything in this frame is time-lapsed at the same rate: the clouds,
 the shadows, the machines, the people and the vehicles all move at the same
@@ -47,10 +51,16 @@ readable face anywhere. Vehicles render as smeared light and colour trails.
           ⛔ İNSANSIZ FİLMDE bu cümle YAZILMAZ; yerine "No people are present."
           [DERS 33 — koşullu cümle astronot üretti]
 
-SITE TEXTURE: mud, tyre ruts, standing puddles, stacked material, offcuts,
-tarpaulins and untidy clutter across the working area.
+SITE TEXTURE: [saha kartından — MALZEME_VE_DOKU §5; BANT ve ALAN yazılır, nesne
+sayılmaz (§2); malzemenin o zaman yayındaki yaşlanma hâli (§4)]
+          ⛔ Şehir içi örneği: mud, tyre ruts, standing puddles, stacked material,
+          offcuts, tarpaulins and untidy clutter across the working area.
+          ⛔ HAVASIZ SAHADA "mud · puddles" YAZILMAZ — kapı BLOCK verir [A9-g].
 
-PHYSICS: [neyin asılı olduğu · yük yolu · neyin temas hâlinde olduğu]
+PHYSICS: [ÜÇ SATIR — FIZIK_VE_AGIRLIK §5: ① taşınan her eleman ve neyin
+üstünde durduğu · ② asılı olan her şey ve NEYE bağlı olduğu · ③ hareket eden
+makinenin mekanizması ve zemin teması] ⛔ "Everything rests on the ground."
+tek başına yazılmaz [A10-i]; kapı ≥3 temas cümlesi arar.
 
 NEGATIVE: [KILAVUZ_REHBERI §7 negatif çekirdek tam metni + varsa vinç bloğu +
 saha kartı eki + yapı kartı eki]
@@ -101,6 +111,16 @@ GİRMEZ     şantiye çiti · vinç · iskele · konteyner · kalıp · platform
            → bunlar SITE TEXTURE ya da ACTIVITY bloğuna yazılır
 Sebep: bu nesneler sökülür. Değişmez bloğa yazılırlarsa, söküldükleri
 sahnede blok kendiliğinden değişir ve on promptun birebir tekrarı kırılır.
+```
+
+### ⛔ KORPUSU ÇOĞUL YAPIDA ETRAF POZİTİF BOŞ YAZILIR [DERS 55]
+```
+THE EMPTY RIDGE: "a single wind turbine" yazılıydı; 0:39'da merada iki tam türbin belirdi
+(② ⑤ ⑧ ⑪). "wind turbine" korpusu çiftliktir; tekil sayı yapıyı tek tutar, etrafını tutmaz.
+Yapı adı çoğul korpuslu ise (türbin · silo · pilon · direk · konut bloğu) SITE / BACKGROUND'a
+ve her I2V'ye: "This is the only turbine on the ridge and the only one in view: every other
+crest, slope and field carries only rock, scrub and stubble, with no second mast or tower
+anywhere from edge to edge." Günlük §2'ye SAYIM sütunu (kule = 1, elle).
 ```
 
 ### ⛔ KAMERA KİLİDİ POZİTİF VE ÖLÇÜLEBİLİR YAZILIR [DERS 6]

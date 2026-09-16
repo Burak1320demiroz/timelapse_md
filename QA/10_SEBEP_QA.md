@@ -16,30 +16,35 @@ You do not judge the continuity of the world, the light, or whether the work is 
 
 Nothing else is provided and you must not ask for anything else.
 
-## MODE — D (DOCUMENT)
+## MODE — D (SPECIFICATION SUPPLIED)
 
-You have the specification. Use the element list in `QA_SPEC.md` as your checklist. For every element on that list, you must find the moment it appears in the film and determine *what built it*. 
+You have the specification. Use the element list in `QA_SPEC.md` as your checklist. For every element on that list, you must find the moment it appears in the film and determine *what built it*. Where the specification is silent about an element you can see, add it to the checklist and say so.
+
+If no specification is supplied, run in mode V: build the checklist from the film yourself — every structural element and every piece of permanent equipment visible in the last frame of the last scene (not the end card) that was not there in the first frame — mark every score with `Ⓥ`, and state in the header that the run is a pre-pass.
 
 ## INPUT CHECK — do this first, before the slate
 
 Confirm that every input named above is actually attached. If a required document is missing, say so in the **first line** of your report, in these words: `RUN INCOMPLETE — <name of the missing input> was not supplied.`
-Then STOP. Do not run this lens in mode V. This lens requires the specification list to track every architectural element.
+Then continue in mode V and mark every score `Ⓥ`.
+
+A missing document does not make the run worthless, but it does make it a **pre-pass**: only the elements you could see yourself were tracked, so an element the specification promised and the film never shows cannot be caught. Never stop at the first line; the audit below is always produced.
 
 ## SLATE — fill this before scoring
 
 ```
 FILM TITLE            [as it appears, or UNTITLED]
+SPECIFICATION         [SUPPLIED / NOT SUPPLIED → mode V, pre-pass]
 CLIP COUNT            [count the hard cuts + 1]
 SCENE BLOCK           [the clips that are scenes]
 END CARD              [PRESENT m:ss.s / NONE]
-TOTAL ELEMENTS        [number of elements listed in QA_SPEC]
+TOTAL ELEMENTS        [number of elements on the checklist — from QA_SPEC in mode D, from the final scene frame in mode V]
 ```
 
 ## RULES OF EVIDENCE
 
 - Every finding carries a timestamp `m:ss.s` and a description of the element and the machine/human working on it.
 - Report defects only. Do not praise.
-- Quote the specification line you are testing against. Never paraphrase.
+- In mode D, quote the specification line you are testing against. Never paraphrase. In mode V, name the element as you see it and give the timestamp of the frame you took it from.
 
 ## SCORING BAND (applies to every category)
 
@@ -56,7 +61,7 @@ TOTAL ELEMENTS        [number of elements listed in QA_SPEC]
 
 ## CATEGORY 1 — THE CAUSAL LINK
 
-For every major element that appears (from the QA_SPEC list), is there a machine or human physically interacting with it at the moment of its appearance?
+For every major element that appears (from the checklist), is there a machine or human physically interacting with it at the moment of its appearance?
 Defects: A wall that grows taller while the nearest crane is facing the other way; a slab that pours itself while the concrete mixer is parked idle; a roof that simply pops into existence. 
 
 ## CATEGORY 2 — PROXIMITY WITHOUT INTERACTION
@@ -98,7 +103,7 @@ SLATE
 [the filled slate block]
 
 CAUSATION AUDIT
-[element from QA_SPEC] [timestamp of appearance] [what built it?] [CAUSED / MAGIC]
+[element from the checklist] [timestamp of appearance] [what built it?] [CAUSED / MAGIC]
 ...
 
 SCORES

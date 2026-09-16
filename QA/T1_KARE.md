@@ -12,6 +12,11 @@
 | **THE LONG SHADOW** | V | **3,3**/10 Ⓥ | ⛔ ALTI AYRI GÖRÜNTÜ | 13 | [kayıt](RAPORLAR/THE_LONG_SHADOW.md) |
 | **THE DUST YEAR** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 1,3) | ⛔ SIX SEPARATE SHOTS · kart FARKLI | 15 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_KARE_HAM.md) |
 | **BUILT FROM DUST** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 1,1) | ⛔ SIX SEPARATE SHOTS | 13 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
+| **POLAR HABITAT** | V | **7,7**/10 Ⓥ | ✅ TIME-LAPSE | Safe Area %4 · Surface Truth 3 (bloom/lazer) · Text 8 | 14 | [kayıt](RAPORLAR/POLAR_HABITAT.md) |
+| **THE CROSSING** | V | **8,4**/10 Ⓥ | ✅ TIME-LAPSE | Kilit kategorileri 10/10 · Safe Area 6/10 · People/Vehicles 6/10 | 10 | [kayıt](RAPORLAR/THE_CROSSING.md) |
+| **OVER THE WALL** | V | **5,8**/10 Ⓥ | ⛔ SIX SEPARATE SHOTS · CAMERA LOCK 9 · ANCHOR IDENTITY 2 · SURFACE TRUTH 1 · C3 plan dışı ikinci istasyon (klip 5) | 15 | [kayıt](RAPORLAR/OVER_THE_WALL.md) |
+| **THE EMPTY RIDGE** | V (37 kare) | **2,8**/10 Ⓥ | ⛔ SIX SEPARATE SHOTS · CAMERA LOCK 2 (klip 1–2 push-in) · DÖRT istasyon grubu (plan: tek) · ANCHOR 1 · SURFACE 1 · C1 CRANE 2 | 22 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
+| **THE DARK ROCK** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 4,9) | ⛔ SIX SEPARATE SHOTS · ANCHOR 2 · SURFACE 1 · C1 CRANE 2 · 00:35 kara tarlası zıplaması · 00:41 robot kollar | 18 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
 
 ⚠️ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi (`kare_al.sh` yine koşulmadı — üçüncü film). ⛔ CAMERA LOCK **0/10**: beş klibin BEŞİNDE de yavaş push-in. Ölçülebilir çapa cümlesi beş I2V'nin beşinde de YAZILIYDI ve tutmadı — NARROW LOT'ta aynı cümle 10/10 almıştı [DERS 23].
 

@@ -43,6 +43,13 @@ gerekçelerden biri, ikincil vantajlarda hiçbir çapanın görünmemesiydi
    ② Detay istasyonu da SABİTTİR: kendi içinde kamera hiç hareket etmez.
    ③ Bir filmde EN FAZLA İKİ detay sahnesi olur ve ikisi de AYNI detay
       istasyonundandır. Üçüncü bir vantaj, timelapse kimliğini bozar.
+   ⛔ ④ İSTASYON DEĞİŞEN KESMEDE YAPI YÜZDESİ SABİTTİR [DERS 52 · P2-e ÖLÇÜLDÜ]:
+      detay klibi büyüme TAŞIMAZ; iki yakada SPEC §2 kilit değeri aynıdır.
+      OVER THE WALL 00:36,5: plan dışı ikinci istasyon + aynı kesmede duvar
+      yarımdan krete — ③ ⑥ ⑤ üçü de aynı saniyeyi düşürdü. Prompta:
+      "This shot shows the same stage as the previous shot from the main
+       station: the wall top stands at the same height, N percent of frame
+       height, and no new lift is added during this shot."
 
 ⛔ VE DETAY KARELERİ DE ZİNCİRİN İÇİNDEN ÜRETİLİR [DERS 5]: ana istasyondaki
    aynı aşamanın onaylanmış karesi referans alınır, sıfırdan üretilmez.

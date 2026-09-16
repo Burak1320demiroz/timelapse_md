@@ -96,6 +96,13 @@ BEDEL         ⭐ HAZIR: vadi, ağaçlar, eski yol su altında kalır. Bu türü
 RİSK          ⛔ su seviyesi kademeli yükselir, bir sahnede DOLMAZ
               ⛔ kuru yatak ile dolu gölet arasında arka plan çapaları
                  kısmen su altında kalır — hangi çapanın kalacağı plana yazılır
+              ⛔ İLK KALDIRMA HAVUZ OKUNUR [DERS 54]: nehir yatağındaki alçak
+                 düz platform + ıslak parlak üst yüzey + kenarda su = "basin".
+                 İlk kaldırma karesi KURU · MAT · KATLI (lift lines) yazılır;
+                 su platformun yanından değil TÜNELDEN geçer.
+              ⛔ KADRAJDA KÖPRÜ/YOL VARSA makine oraya kaçar [DERS 51]: iş
+                 yüzeyi "the top of the dam lift at N percent" diye adlanır,
+                 köprü "stays empty" diye pozitif boş yazılır.
 ```
 
 ---
@@ -157,6 +164,16 @@ MAKİNE        800 tonluk paletli vinç (kendisi de bir olaydır)
 DİKEY KADRAJ  ⭐ mükemmel — türbin saf dikeydir
 DİRENÇ        rüzgâr (montaj rüzgârda durur) · uzaklık · yükseklik
 FİNAL VURUŞ   ilk dönüş. S3'ün son iki saniyesinde kanat döner.
+RİSK          ⛔ ÇOĞALIR [DERS 55]: "wind turbine" korpusu çiftliktir; tek yazılsa da yanına
+                 türbin gelir (THE EMPTY RIDGE 0:39, dört mercek). Etraf pozitif boş yazılır:
+                 "the only turbine on the ridge … every other crest bare"; günlükte kule sayımı.
+              ⛔ ROTOR ERKEN DÖNER [DERS 56]: montajda "hub is turned" yazma — rotor işletme
+                 hızında döner, kanatlar dönen göbeğe sıçrar. Göbek KİLİTLİ; dönüş yalnız finalde.
+              ⛔ KALDIRMA POP EDER [DERS 57]: segment · nasel · kanat havada taşınmaz, hedefte
+                 belirir, kanca boş kalır — dağ arka planı da kurtarmadı. Kaldırma karede biter:
+                 G(n) yük hedefin üstünde asılı, klip yalnız oturur; her kaldırma bir ara kare.
+              ⭐ 7 SAHNEYE AÇILMIŞ HÂLİ: dikey_shorts/THE_EMPTY_RIDGE/ (yol · temel · bom + seg 1 ·
+                 seg 2–4 · nasel+göbek · 3 kanat · vinç çıkar + ilk dönüş).
 ```
 
 ---

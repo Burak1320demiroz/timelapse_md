@@ -13,6 +13,9 @@
 Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltır.
 
 ```
+⓪ FORMAT?       dikey 9:16 (dikey_shorts · 60 s bandı · §2.1–2.7)
+                yatay 16:9 merdiveni (yatay_2/4/6/8_dk_filmler · 12/24/36/48 × 10 s · §2.8)
+                                                    → format klasörünün README'si
 ① YAPI TİPİ?    kule · konut · köprü · baraj · stadyum · yol/tünel · liman · türbin
                                                     → YAPI_TIPI_KARTLARI.md
 ② SAHA?         şehir içi · kırsal · kıyı · dağ/eğim · kar · çöl
@@ -40,6 +43,14 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
 □ INSAAT_YONTEMI_KILAVUZU.md  merdiven satırı = eleman + ara hâl (%25/%50/%75)
 □ SANTIYE_HAREKETI_KILAVUZU.md merdiven satırı = sıkıştırma rejimi (A·B·C)
 □ KURGU_VE_TESLIM_KILAVUZU.md kurgudan önce okunur (kırpma bütçesi süreyi yer)
+
+── ⭐ 11.09.2026 · A9–A12 ARAŞTIRMASINDAN DOĞAN DÖRT KILAVUZ — dört prompt BLOĞUNUN sözlüğü ──
+□ MALZEME_VE_DOKU_KILAVUZU.md     SITE TEXTURE — korpus üçlüsü · bant kuralı · saha kartı · yaşlanma
+□ FIZIK_VE_AGIRLIK_KILAVUZU.md    PHYSICS — yük yolu · söküm fiili · hammadde yığını · robotik gövde
+□ PERSPEKTIF_VE_OLCEK_KILAVUZU.md COMPOSITION — referans nesne (px) · kesir cümlesi · sayı testi
+□ HAVA_VE_ATMOSFER_KILAVUZU.md    TIME RATE + LIGHTING — üç rejim × gök · iki kare arası gök/gölge
+   ⛔ dördü de prompt_kontrol.py §10d'de sonlanır; kaynak denetimi
+      arastirma/SONUCLAR/A9-A12_DENETIM.md (12 kaynağın 4'ü yanlış atıf)
 ```
 
 ```
@@ -83,6 +94,9 @@ burada kadrajın boş olduğu yer (üst) tam da yapının büyüdüğü yerdir.
 ---
 
 # 2. 📐 FORMAT KARTI — DİKEY TIMELAPSE (9:16)
+
+> §2.1–§2.7 dikey hattır (`dikey_shorts/`). ⭐ **Yatay 16:9 merdiveni §2.8'dedir** (14.09.2026):
+> 12 · 24 · 36 · 48 sahne × 10,0 s; iskelet `FILM_KLASOR_SABLONU/`, betik `araclar/film_klasoru_ac.sh`.
 
 ## 2.1 ⛔ TESLİM YAPISI — her planda beyan edilir
 
@@ -402,6 +416,118 @@ SON CÜMLE   The shot ends exactly on the second provided image: its last
   format artık en yüksek kaldıraçlı VE en az sınanmış karardır. Zincire karşı
   bir iddia da var (§8 adım 3a) ve o da koşulmadı. İlk koşacak film:
   BEFORE NIGHTFALL.
+```
+
+---
+
+## 2.8 ⭐ YATAY MERDİVEN — 16:9 · 12 / 24 / 36 / 48 SAHNE × 10,0 s 🆕 14.09.2026
+
+> **Sahip kararı (14.09.2026):** kardeş depo `film_md`'nin yatay film klasörü şablonu bu depoya
+> taşındı — dört format klasörü, sekiz dosyalı iskelet, `00_ANALIZ/`, açma betiği. **İçerik bu
+> deponun kılavuzları ve dersleridir**: `film_md`'nin tema / novum / kurulum yayı / karakter
+> kapıları ve D-numaralı dersleri burada geçmez (§1.2). Değişen tek şey kadraj ve uzunluktur;
+> zincir (§2.7), değişmezler (§3), merdiven (§4), güneş saati (§5), konsept kapısı (§6), negatif
+> çekirdek (§7) ve ters inşa (§8) aynen geçerlidir.
+
+```
+KLASÖR             yatay_2_dk_filmler   yatay_4_dk_filmler   yatay_6_dk_filmler   yatay_8_dk_filmler
+SAHNE × KLİP       12 × 10,0            24 × 10,0            36 × 10,0            48 × 10,0
+SAHNE BLOĞU        120,0 s (2:00)       240,0 s (4:00)       360,0 s (6:00)       480,0 s (8:00)
++ KAPAK KARTI      5,0 s → 125,0        5,0 s → 245,0        5,0 s → 365,0        5,0 s → 485,0
+GÖRSEL / I2V       13 / 12              25 / 24              37 / 36              49 / 48      (N+1 · T2V YOK)
+BÖLÜM DOSYASI      2 × 6 · sınır G6     2 × 12 · sınır G12   2 × 18 · sınır G18   2 × 24 · sınır G24
+QA BİRİMİ          FİLM                 FİLM                 BÖLÜM (2 yarım × 12) BÖLÜM (2 yarım × 12)
+IŞIK GÜNÜ          B ağırlıklı          A ağırlıklı          A + ≤3 B             A + ≤3 B
+MÜZİK              120 BPM · ölçü 2,0 s · 5 ölçü/sahne · kesmeler her 10,0 s · müziksiz pencere S0
+IZGARA             ⛔ DÜZ N × 10,0 — sahip beyanı; karşı kayıt DERS 13 · 24 · 44 (düz üç kez METRONOM,
+                   varyanslı üç kez RHYTHM). Ritim isteniyorsa SÜRE sütunu (izinli 4 · 6 · 8 · 10 · 12).
+KLİP KUTUSU        10,0 s teslim → {5,10} kutusu; ⛔ ARAÇTAN ölçülmeden kesinleşmez [DERS 23 · 31]
+```
+
+### Kadraj hesabı — yatay [KAMERA_ISTASYONU §3'ün 16:9 hâli]
+
+Tam kare 24 mm, kare eni 36 mm; 16:9 kırpmada kare boyu 20,25 mm. Bir noktanın kare içindeki yeri:
+
+```
+   yüzde(y)  = 50 + 118,5 · (y − h) / D          dikey yer, ALT kenardan   (dikeyde katsayı 66,7)
+   yüzde(x)  = 50 + 66,7 · x / D                 yatay yer, SOLDAN (x = eksenden sağa metre)
+   D (taç %82 için) = (H − h) / 0,27              dikeyde (H − h)/0,48 — kamera 1,8 KAT UZAĞA gider
+   px (1080p) = 1280 · boy(m) / D                 referans nesne piksel boyu — dikeyle AYNI katsayı
+
+   ① UFUK tilt 0°'da yine tam %50'dedir.
+   ② KADRAJIN BOŞ YERİ YANLARDIR, üst değil: dikeyde yapı kadrajın boş üstüne büyüyordu; yatayda
+      iki yan SAHAYA kalır → arka plan çapalarından en az biri yapının SOLUNDA, en az biri SAĞINDA
+      durur ve her promptta adıyla yazılır. Yapı gölgesi yana düşer — süpürme yatayda uzun okunur.
+   ③ TİLT yine 0°: kadraj yetmiyorsa kamera YÜKSELİR ya da uzaklaşır, eğilmez.
+   ⚠️ Bu hesap formülden türedi, ÖLÇÜLMEDİ — ilk yatay filmin ① koşusu doğrular.
+```
+
+### Güvenli alan — 1920×1080 ⬜ ÖLÇÜLMEDİ (varsayılan)
+
+```
+ÜST     ilk 60 px      oynatıcı başlık/paylaş bandı (üstüne gelince)   → yapının TACI buraya girmez
+ALT     son 100 px     ilerleme çubuğu + kontroller                    → kanıt nesnesi buraya girmez
+SAĞ ÜST 300 × 100 px   bilgi kartı                                      → kanıt nesnesi buraya girmez
+SON EKRAN  son 5–20 s  öğeler kadrajı kaplar → kapak kartı 5,0 s o bandın içindedir; final kanıtı
+           kartta değil, son sahnenin ≥2,0 s'lik TUTUŞUNDADIR
+COMPOSITION cümlesi: "the crown of the structure sits below the top eighth of the frame and the
+working level sits above the bottom quarter of the frame; nothing that proves progress falls into
+the bottom tenth or the top-right corner of the frame."
+⛔ Sayılar ilk yatay filmin ① koşusunda ölçülür ve BURAYA yazılır; README'ler buraya işaret eder.
+```
+
+### Işık günü toplanır — rejim sütunu [SANTIYE_HAREKETI §1 · §2.7 ①]
+
+```
+Kesmede ışık atlamaz (dikişin iki yakası aynı kare) → filmin ışık günü KLİPLERİN PENCERE TOPLAMIDIR:
+   Σ = (A × 10 dk) + (B × 2 saat) + (C × 9 saat)  ≤ 14 saat (06:00 → 20:00) — gece yalnız sahip kararıyla
+   12 sahne   6 × B + 6 × A = 13 h    ✓  (tek ışık günü B ağırlıklı — dikey filmlerle aynı)
+   24 sahne   5 × B + 19 × A = 13,2 h ✓  (A ağırlıklı; B klipleri doruk ve kış sahnelerine)
+   36 sahne   3 × B + 33 × A = 11,5 h ✓
+   48 sahne   3 × B + 45 × A = 13,5 h ✓ — C YOK (gölgesiz klip en uzun klip olamaz [DERS 40])
+   Takvim (haftalar / aylar) SAHADAN okunur (tarla · ağaç · kar · su), ışıktan değil [P1-c].
+   Rejim A'da gölge klip içinde fark edilmez → iş YÜZEYLE ve makineyle kanıtlanır (§3); rejim B
+   klipleri gölge süpürmesini taşır [DERS 32 · 47]. PLAN §AŞAMA MERDİVENİ toplamı yazar,
+   03_SAHNE_SIRALAMASI §4 hesaplar. ⚠️ Hesaptır, ölçülmedi.
+```
+
+### Aşama merdiveni uzayınca ne olur
+
+```
+Sahne arttıkça YAPI BÜYÜMEZ, AŞAMA İNCELİR: her eleman ara hâlleriyle (%25 / %50 / %75) kendi
+satırını alır [INSAAT_YONTEMI §2 · DERS 37]; kış yine iki sahne [DERS 7]; monoton büyüme yasası aynı.
+36/48 sahne için SÜRE ≥ 2 yıl olan kartlar (köprü · baraj · liman · stadyum) doğal adaydır; 12 sahne
+için türbin · villa · yol (6–12 ay). Detay istasyonu kuralı değişmez (≤2 klip · üç koşul ·
+KAMERA_ISTASYONU §1); ⬜ uzun formda bölüm başına 2'ye çıkarılıp çıkarılmayacağı sahip kararı.
+```
+
+### ⭐ MODÜL DIŞI IZGARA — sahip izniyle (16.09.2026)
+
+```
+Modül ızgarası (12/24/36/48 × 10,0) bandın kendisidir. Sahip başka bir ızgara isterse:
+  · toplam süre KORUNUR (N × klip + 5,0 sn kart) · kadraj hesabı, ışık günü tavanı ve zincir DEĞİŞMEZ
+  · betik parametre alır:  bash araclar/film_klasoru_ac.sh <FMT> <FILM> <SAHNE> <KLIP>
+    sahne sayısı TEK olabilir (B1 = ceil(N/2) · B2 = kalan); betik bandın dışını UYARIR, engellemez
+  · PLAN'ın künyesine ve §DÜZ IZGARA BEYANI'na gerekçe yazılır; müzik ölçüsü klipten türer (klip ÷ 2 ölçü)
+İLK KOŞU  THE_OLD_ROAD — yatay_2_dk_filmler'de 15 × 8,0 (2 dk hattı, 14 kesme). Ölçüm yayından sonra.
+```
+
+### İskelet ve kapılar
+
+```
+KLASÖR    <FMT>/<FILM>/  →  00_ANALIZ/ (6 dosya + sahne tablosu) · <FILM>_PLAN · _BOLUM_1 · _BOLUM_2
+          (+ USTA KARE) · _KAPAK · _MUZIK · _YAYIN_PAKETI · _QA_SPEC · _URETIM_GUNLUGU
+          kopyalanabilir hâli kilavuzlar/FILM_KLASOR_SABLONU/ · betik araclar/film_klasoru_ac.sh
+          ⛔ elle cp -r yapılmaz; ⛔ format klasörünün köküne .md bırakılmaz (sayaç uyarır)
+BÖLÜM     iki dosya YAZIM birimidir, üretim sırası değil; sınır bir KAREDİR (G_k), kesme değil —
+          BOLUM_1'in son I2V'si G_k'de biter, G_k BOLUM_2'nin ilk görselidir [DERS 52]
+KAPI      python3 araclar/prompt_kontrol.py <FMT>/<FILM>     ⭐ KLASÖR MODU (PLAN + BOLUM_1 + BOLUM_2)
+          bash araclar/kesme_kontrol.sh <teslim> <FILM>_PLAN.md · bash araclar/qa_paket.sh <FMT>/<FILM> …
+          6/8 dk yarım master: qa_paket.sh --bolum 1|2 · ham <FILM>_B1_<n>_<MERCEK>_HAM.md ·
+          T tablosu ve INDEX iki satır (sayaç " B1/ B2" ekini atar) · RAPORLAR tek dosya
+ONAY      00_ANALIZ/00_HIKAYE_ONAYI.md — sahne sahne öneri, açık onay, sonra dosya (onay-once-uretim)
+DİKEY     ayrı hat: oradaki film buraya taşınmaz, buradaki film oraya kırpılmaz (kadraj hesabı,
+          güvenli alan, ızgara farklı — CAPRAZ_YAYIN tek master)
 ```
 
 ---
@@ -978,14 +1104,10 @@ Model "inşaat" görünce parlak bir emlak render'ı üretmeye yatkındır: temi
 zemin, mükemmel cam, boş şantiye, mavi gökyüzü, gölgesiz ışık. Gerçek şantiye
 **dağınıktır.**
 
-⛔ **KORPUSU OLMAYAN SAHADA ÇUKUR CGI'DİR [DERS 34].** Ay yüzeyinde
-"photorealistic documentary" bir korpusa oturmaz; model bilimkurgu konsept
-sanatına düşer (① SURFACE TRUTH 0/10). Prompt gerçek bir fotoğraf korpusunu
-POZİTİF adlandırır: "looks like a 1970s surface photograph from a hand-held
-70 mm film camera: flat grey regolith, blown highlights, razor-edged black
-shadows, slight grain, no haze, no depth fog, no rim light." Negatif çekirdekteki `working construction site` cümlesi
-pozitif hâliyle her prompt gövdesinde de tekrarlanır: çamur, lastik izi, su
-birikintisi, istiflenmiş malzeme, branda, kesme artığı.
+⛔ **KORPUSU OLMAYAN SAHADA ÇUKUR CGI'DİR [DERS 34].** Korpus cümlesinin
+kuralı, testi ve örnekleri 11.09.2026'da `MALZEME_VE_DOKU_KILAVUZU.md` §1'e
+TAŞINDI (burada tekrarlanmaz). Yüzey listesi de artık saha başına o kılavuzun
+§5 kartından gelir — tek cümle her sahaya kopyalanmaz [A9-g].
 
 ### 9.2 ⛔ BİNA DEĞİŞİYOR
 En sık ve en öldürücü bozulma. İlacı üç katmanlıdır ve üçü birden gerekir:

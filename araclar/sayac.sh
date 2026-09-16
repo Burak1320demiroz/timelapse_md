@@ -14,15 +14,26 @@ echo
 
 # ─── FİLMLER ───────────────────────────────────────────────────────
 echo "🏗️  FİLMLER"
-TOPLAM=0; PLANLI=0; SPECLI=0; GUNLUKLU=0
-for d in dikey_shorts/*/; do
+# ⭐ 14.09.2026: beş format klasörü — dikey_shorts (plan = _DIKEY_TIMELAPSE.md) +
+#    yatay merdiven 2/4/6/8 dk (plan = _PLAN.md, KILAVUZ_REHBERI §2.8). Köke .md bırakılmaz.
+FORMATLAR="dikey_shorts yatay_2_dk_filmler yatay_4_dk_filmler yatay_6_dk_filmler yatay_8_dk_filmler"
+TOPLAM=0; PLANLI=0; SPECLI=0; GUNLUKLU=0; DIKEY=0; YATAY=0
+for fmt in $FORMATLAR; do
+  for d in "$fmt"/*/; do
     [ -d "$d" ] || continue
     TOPLAM=$((TOPLAM + 1))
-    ls "$d" 2>/dev/null | grep -q "_DIKEY_TIMELAPSE\.md$" && PLANLI=$((PLANLI + 1))
+    [ "$fmt" = "dikey_shorts" ] && DIKEY=$((DIKEY + 1)) || YATAY=$((YATAY + 1))
+    ls "$d" 2>/dev/null | grep -qE "_(DIKEY_TIMELAPSE|PLAN)\.md$" && PLANLI=$((PLANLI + 1))
     ls "$d" 2>/dev/null | grep -q "_QA_SPEC\.md$"         && SPECLI=$((SPECLI + 1))
     ls "$d" 2>/dev/null | grep -q "_URETIM_GUNLUGU\.md$"  && GUNLUKLU=$((GUNLUKLU + 1))
+  done
 done
-printf "   film klasörü          %s\n" "$TOPLAM"
+printf "   film klasörü          %s   (dikey %s · yatay %s)\n" "$TOPLAM" "$DIKEY" "$YATAY"
+for fmt in $FORMATLAR; do
+    [ -d "$fmt" ] || { printf "   ⛔ format klasörü yok: %s\n" "$fmt"; continue; }
+    KOK_MD=$(ls -1 "$fmt"/*.md 2>/dev/null | grep -vE "README\.md$|URETIM_GUNLUGU_SABLONU\.md$" | wc -l | tr -d ' ')
+    [ "$KOK_MD" -gt 0 ] && printf "   ⛔ %s kökünde %s başıboş .md — köke yalnız README durur\n" "$fmt" "$KOK_MD"
+done
 printf "   planı olan            %s / %s" "$PLANLI" "$TOPLAM"
 [ "$PLANLI" -lt "$TOPLAM" ] && printf "   ⛔ %s klasör plansız" "$((TOPLAM - PLANLI))"; echo
 printf "   SPEC'i olan           %s / %s" "$SPECLI" "$TOPLAM"
@@ -65,9 +76,11 @@ if [ "$PLANLI" -eq 0 ]; then
     echo "   (henüz plan yok)"
 else
     ZINCIRLI=0
-    for f in dikey_shorts/*/*_DIKEY_TIMELAPSE.md; do
+    for f in dikey_shorts/*/*_DIKEY_TIMELAPSE.md yatay_*_dk_filmler/*/*_PLAN.md; do
         [ -f "$f" ] || continue
-        rapor=$(python3 araclar/prompt_kontrol.py "$f" 2>/dev/null)
+        # yatay iskelet: kapı KLASÖR MODUNDA koşar (PLAN + BOLUM_1 + BOLUM_2 birleşik)
+        case "$f" in *_PLAN.md) hedef="$(dirname "$f")" ;; *) hedef="$f" ;; esac
+        rapor=$(python3 araclar/prompt_kontrol.py "$hedef" 2>/dev/null)
         out=$(echo "$rapor" | tail -1)
         # ⭐ format [KILAVUZ_REHBERI §2.7]: usta karesi olan plan ZİNCİRLİDİR
         if echo "$rapor" | grep -q "ESKİ FORMAT"; then
@@ -112,13 +125,13 @@ printf "   ⑧ YÖNTEM      %s satır\n" "$T8"
 # ölçülen film = dört tablonun herhangi birinde adı geçen benzersiz film
 OLCULEN=$(for t in T1_KARE T2_INSA T3_ZAMAN T4_TESLIM T5_DEVAMLILIK T6_GECIS T7_IS T8_YONTEM; do
               tablo_satir "QA/$t.md"
-          done | awk -F'|' '{c=$2; gsub(/\*\*|~~/,"",c); gsub(/^[ \t]+|[ \t]+$/,"",c); if(c!="")print c}' \
-          | sort -u | grep -c .)
+          done | awk -F'|' '{c=$2; gsub(/\*\*|~~/,"",c); gsub(/^[ \t]+|[ \t]+$/,"",c); sub(/ B[12]$/,"",c); if(c!="")print c}' \
+          | sort -u | grep -c .)   # " B1" / " B2" eki atılır: 6/8 dk bölüm satırları TEK film [§2.8]
 printf "   ⭐ ÖLÇÜLEN FİLM   %s / %s\n" "$OLCULEN" "$TOPLAM"
 [ "$OLCULEN" -lt "$TOPLAM" ] && printf "   ⛔ ÖLÇÜLMEMİŞ      %s / %s\n" "$((TOPLAM - OLCULEN))" "$TOPLAM"
 
 # ölçüldü ama tabloya işlenmedi: ham raporu var, T tablosunda satırı yok
-HAM=$(ls -1 QA/HAM_RAPORLAR/*_HAM.md 2>/dev/null | wc -l | tr -d ' ')
+HAM=$(find QA/HAM_RAPORLAR -name "*_HAM.md" 2>/dev/null | wc -l | tr -d ' ')
 printf "   ham rapor         %s\n" "$HAM"
 
 # 00_INDEX karşılaştırması — kural ①: sayı tek yerde durur, ama DOĞRULANIR

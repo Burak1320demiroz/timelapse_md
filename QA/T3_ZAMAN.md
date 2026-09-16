@@ -12,6 +12,11 @@
 | **THE LONG SHADOW** | V | **4,3**/10 Ⓥ | ⚠️ GEÇİYOR (ama yön kırık) | 9 | [kayıt](RAPORLAR/THE_LONG_SHADOW.md) |
 | **THE DUST YEAR** | V | **4,0**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "about one year" ✅ | 10 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_ZAMAN_HAM.md) |
 | **BUILT FROM DUST** | V | **3,3**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "about 2 days" | 9 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
+| **POLAR HABITAT** | V | **9,8**/10 Ⓥ | ✅ PASSES · tahmin "12-14 ay" (plan 10 saat · dünya algısı) | 2 | [kayıt](RAPORLAR/POLAR_HABITAT.md) |
+| **THE CROSSING** | V | **10,0**/10 Ⓥ | ✅ PASSES · okunan süre "about 6 to 12 months" | 0 | [kayıt](RAPORLAR/THE_CROSSING.md) |
+| **OVER THE WALL** | V | **6,0**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "about 1.5 to 2 years" (plan 1 yıl) TUTMADI · SEASON ORDER 2 · kar 4 kez gidip geldi | 8 | [kayıt](RAPORLAR/OVER_THE_WALL.md) |
+| **THE EMPTY RIDGE** | V | **5,4**/10 | ✅ PASSES · okunan süre "about 2 to 3 months" (plan ~2 ay) TUTTU · SEASON ORDER 7 · gölge donuk, bulut akıyor (1 · 5) | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
+| **THE DARK ROCK** | V | **2,8**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "unresolvable" · SEASON ORDER 1 · ışık/mevsim zıplamaları | 12 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
 
 ⭐ **THE MOUNTAIN DOOR — ALTI MERCEĞİN TAM KOŞAN TEK'İ.** Girdisi yalnız tam kurgudur ve eksiksiz verildi; skoru **bağlayıcıdır** (Ⓥ yok). Zaman tahmini "about 9 to 12 months", plan 12 ay — **ikinci kez TUTTU**. ⛔ Buna karşılık SEASON ORDER 0/10: plandaki sonbahar hiç görünmedi ve kış ② (erime) YAZ olarak üretildi.
 

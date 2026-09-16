@@ -239,6 +239,34 @@ KURAL  Her ACTIVITY cümlesinde en az bir makine, O SAHNEDE BÜYÜYEN ELEMANI
    da büyümüyor demektir ("GROWTH TABLE: NO — none", beş kez).
 ```
 
+## ⭐ 4.6 İŞ YÜZEYİ ADIYLA VE YÜZDESİYLE — iki "deck" varsa makine hazır olana gider  [DERS 51 · 53]
+
+```
+OVER THE WALL · ⑦ WORKING FRONT 3/10 · ⑩ PROXIMITY WITHOUT WORK 2/10 · ⑫ MELTING.
+Plan makineyi "onto the deck" yazdı (barajın taze kaldırma yüzeyi); kadrajda
+ikinci bir deck vardı — eski taş köprünün tabliyesi. Beş mercek makineleri
+köprüde saydı, duvarda çalışma cephesi YOK; köprüde çift giden damperler
+birbirinin içinden geçti.
+
+KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of the
+          dam lift itself — the fresh dark-grey band at forty-six percent of
+          frame height, above and behind the old bridge".
+       ② Kadrajda aynı adı alabilecek ikinci yüzey varsa POZİTİF BOŞ yazılır:
+          "the stone bridge below stays empty, its roadway bare stone from
+          parapet to parapet".
+       ③ Dar yüzeyde (köprü · seki · kret yolu · döşek) aynı anda TEK hareketli
+          araç; A6-d'nin ikinci hareket edeni BAŞKA yüzeyde ya da PARK hâlinde
+          [DERS 53]: "one dump truck at a time crosses the crest road; the
+          second stands parked at the east end until the first has left the
+          frame, and the roller works on the lift below".
+   ⛔ "deck" · "platform" · "the road" tek başına ACTIVITY yüzeyi KURAMAZ.
+   ④ YAPININ KENDİ HAREKETİ montaj sahnesinde YAZILMAZ [DERS 56]: THE EMPTY RIDGE'de "the hub
+      is turned one third of a turn" → rotor işletme hızında döndü, kanatlar dönen göbeğe
+      sıçradı (② 4 · ⑦ · ⑨ · ⑩). Parçaya yazılan hareket fiili, bağlı olduğu yapının korpus
+      hareketini çağırır. Montajda: "the hub stays locked and does not turn while any blade
+      flange is bare"; dönme · açılma · sarkma · akma yalnız FİNAL sahnesinde.
+```
+
 # 5. KAPI — bu kılavuz nerede zorlanır
 
 ```

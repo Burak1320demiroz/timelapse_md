@@ -60,7 +60,34 @@ if len(sys.argv) < 2:
     sys.exit(2)
 
 yol = sys.argv[1]
-metin = open(yol, encoding="utf-8").read()
+
+# ⭐ 14.09.2026 · YATAY İSKELET (KILAVUZ_REHBERI §2.8): film klasörü verilirse
+# <FILM>_PLAN.md + <FILM>_BOLUM_1.md + <FILM>_BOLUM_2.md sahne sırasına göre
+# BİRLEŞTİRİLİR ve kapı bir kez, bütün film boyunca koşar. Tek bölüm dosyasına
+# koşulan kapı "usta kare yok / Scene N of X tutmuyor" der — bu arıza değil,
+# eksik koşudur. Şablon klasörü (yolunda SABLON geçen) denetime girmez.
+import os as _os
+if "SABLON" in yol.upper():
+    print(f"  şablon — atlandı: {yol}")
+    sys.exit(0)
+if _os.path.isdir(yol):
+    _film = _os.path.basename(yol.rstrip("/"))
+    _parcalar = [f"{_film}_PLAN.md", f"{_film}_BOLUM_1.md", f"{_film}_BOLUM_2.md"]
+    _yollar = [_os.path.join(yol, d) for d in _parcalar]
+    _eksik = [d for d, y in zip(_parcalar, _yollar) if not _os.path.exists(y)]
+    if _eksik:
+        _tek = _os.path.join(yol, f"{_film}_DIKEY_TIMELAPSE.md")
+        if _os.path.exists(_tek):
+            yol = _tek
+            metin = open(yol, encoding="utf-8").read()
+        else:
+            print(f"⛔ klasör modu: eksik dosya {', '.join(_eksik)} (yatay iskelet PLAN + BOLUM_1 + BOLUM_2 ister)")
+            sys.exit(2)
+    else:
+        metin = "\n\n".join(open(y, encoding="utf-8").read() for y in _yollar)
+        print(f"  📁 FİLM KLASÖRÜ · {len(_yollar)} dosya birleşik (PLAN + BOLUM_1 + BOLUM_2) · {_film}")
+else:
+    metin = open(yol, encoding="utf-8").read()
 bloklar = blok_ayikla(metin)
 
 # ⭐ USTA KARE kendi BÖLÜMÜNDE durur (## başlığı) — sahne değildir [§2.7].
@@ -611,6 +638,90 @@ for s, k in kareler + i2v + t2v:
             continue
         if not re.search(r"\b(no|never|zero|without)\b[^.]*$", onceki):
             FIX.append(f"[{s}] olumlu kamera hareketi kelimesi: '{m.group(0)}' — bağlamı kontrol et")
+
+# ── 10d. ⭐ A9–A12 KILAVUZLARININ KAPISI — 11.09.2026 ─────────────────────
+# Dört prompt bloğu (SITE TEXTURE · PHYSICS · COMPOSITION · TIME RATE gök)
+# üçüncü kuşak araştırmadan birer kılavuz aldı. Yazılı kural kapı değildir
+# [DERS 12]; dördü de burada sonlanır. Kaynak: arastirma/SONUCLAR/A9-A12_DENETIM.md
+
+def _blok(k, ad):
+    m = re.search(rf"(?:^|\n){ad}:(.*?)(?:\n[A-Z][A-Z /+]+:|\nOutput:|\Z)", k, re.S)
+    return m.group(1) if m else None
+
+# MALZEME_VE_DOKU §2 · §5 — SITE TEXTURE bant/alan sayar; havasız sahada su yazmaz
+DOKU = (r"\bmud\b|\brut|\btrack|puddle|standing water|stack|pallet|offcut|tarpaulin|"
+        r"clutter|slurry|spatter|streak|stain|rust|dust|grime|drift|regolith|ejecta|"
+        r"tread|print|frost|ice|snow|sand|sheen|bleed|efflorescence|patch|crust|"
+        r"debris|spoil|gravel|silt|oil|soot|film|band|apron|pond|scar|crack")
+# ⚠️ "regolith" tek başına havasız demek DEĞİLDİR (buz gezegeninde de regolit var,
+# POLAR HABITAT'ta kar yağıyor); yalnız AÇIK atmosfersizlik beyanı sayılır.
+HAVASIZ = (r"\b(in (a |the )?(hard )?vacuum|vacuum of space|airless|no atmosphere|zero atmosphere|without (an )?atmosphere|"
+           r"lunar surface|on the moon|the moon's|martian surface|on mars)\b")
+# "frozen mud" sıvı su değildir; permafrost sahasında meşru.
+SU = r"(?<!frozen )(?<!dried )\b(mud|muddy|puddles?|standing water|rain|rainwater|slush|wet mud)\b"
+for s, k in kareler:
+    dk = _blok(k, "SITE TEXTURE")
+    if dk is None:
+        continue   # blok yokluğu §10'da zaten FIX
+    n = len(set(x.lower() for x in re.findall(DOKU, dk, re.I)))
+    if n < 5:
+        FIX.append(f"[{s}] SITE TEXTURE'da {n} somut yüzey nesnesi/bandı (en az 5) "
+                   f"[MALZEME_VE_DOKU §2 · §5] — bant ve alan yazılır (çamur yolu · pas "
+                   f"akıntısı · şerbet alanı · ejecta yelpazesi); nesne sayılmaz")
+    if re.search(HAVASIZ, k, re.I) and re.search(SU, dk, re.I):
+        BLOCK.append(f"[{s}] HAVASIZ saha beyan edilmiş ama SITE TEXTURE su/çamur yazıyor "
+                     f"[MALZEME_VE_DOKU §5 · A9-g] — Ay/Mars'ta 'mud · puddles' fizik "
+                     f"dışıdır; beş filmde aynı cümle Dünya'dan Ay'a taşındı ve model saçmaladı")
+
+# FIZIK_VE_AGIRLIK §5 — PHYSICS üç satır: taşınan · asılı+taşıyıcı · mekanizma
+TEMAS = (r"\b(rests?|resting|bears?|bearing|bolted|welded|clamped|pinned|anchored|"
+         r"braced|planted|seated|sits|stands? on|pressed into|press into|locked into|"
+         r"footed|founded|embedded|keyed|strapped)\b")
+ASILI = r"\b(hangs?|hanging|suspended|floats?|floating|lifted|hoisted|slung|dangles?)\b"
+TASIYICI = r"\b(cable|sling|hook|jib|boom|crane|tether|rope|wire|chain|trolley|gantry|winch|strap)\b"
+for s, k in kareler:
+    fz = _blok(k, "PHYSICS")
+    if fz is None:
+        FIX.append(f"[{s}] PHYSICS bloğu yok [FIZIK_VE_AGIRLIK §5] — altı filmde ⑧ APPEARED; "
+                   f"her sahnede taşınan · asılı · hareket eden yazılır")
+        continue
+    if len(re.findall(TEMAS, fz, re.I)) < 3:
+        FIX.append(f"[{s}] PHYSICS'te <3 TEMAS cümlesi [FIZIK_VE_AGIRLIK §5 · A10-i] — "
+                   f"'rests on · bears on · bolted · planted · pressed into'; genel "
+                   f"'everything rests on the ground' yük yolunu yazmaz")
+    if re.search(ASILI, fz, re.I) and not re.search(TASIYICI, fz, re.I):
+        FIX.append(f"[{s}] PHYSICS'te ASILI cisim var, TAŞIYICI yok [FIZIK_VE_AGIRLIK §4 · "
+                   f"DERS 46] — gövdesiz kanca sarkar; 'hangs from the jib on one taut cable'")
+
+# PERSPEKTIF_VE_OLCEK §4 — COMPOSITION'da ölçülen pikselden kesir-çapa cümlesi
+KESIR = (r"\b(spans?|occupies|keeps|holds|covers)\b[^.]{0,80}\b(\d+\s*pixels?|one[- ]"
+         r"(half|third|quarter|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|"
+         r"fifteenth|sixteenth|twentieth|[a-z]+(?:-[a-z]+)?th)|percent of (the )?frame)")
+for s, k in kareler:
+    kp = _blok(k, "COMPOSITION")
+    if kp is None:
+        continue   # COMPOSITION yokluğu DERS 20 blok kapısında
+    if not re.search(KESIR, kp, re.I):
+        FIX.append(f"[{s}] COMPOSITION'da referans nesne KESİR/PİKSEL cümlesi yok "
+                   f"[PERSPEKTIF_VE_OLCEK §4] — 'the boulder spans 96 pixels of frame "
+                   f"width — one eleventh — and keeps that width'; yüzde tek başına "
+                   f"ölçeği tutmaz (① STATION IDENTITY 0/10 · ② SCALE LOCK 4/10)")
+
+# HAVA_VE_ATMOSFER §1 · §5 — I2V'de gök/atmosfer hareket cümlesi
+GOK = r"\b(clouds?|sky|haze|fog|mist|stars?|overcast|dust wall|cirrus|cumulus|stratus)\b"
+GOK_FIIL = (r"\b(drift|drifts|streak|streaks|sweep|sweeps|roll|rolls|cross|crosses|"
+            r"stretch|stretches|flow|flows|race|races|boil|boils|thin|thins|hold|holds|"
+            r"stay|stays|remain|remains|fade|fades|brighten|brightens|dim|dims|grade|"
+            r"grades|move|moves|pass|passes|smooth|smooths|clear|clears)\b")
+for s, k in i2v:
+    if not re.search(GOK, k, re.I):
+        FIX.append(f"[{s}] I2V'de GÖK cümlesi yok [HAVA_VE_ATMOSFER §1 · DERS 15 · 47] — "
+                   f"gök yazılmazsa model onu ayrı saatte akıtır ya da dondurur; "
+                   f"rejimin görünümü adıyla yazılır (drift · streak · flat haze) — "
+                   f"havasız sahada 'the sky stays a hard black field'")
+    elif not re.search(GOK + r"[^.]{0,60}" + GOK_FIIL + r"|" + GOK_FIIL + r"[^.]{0,60}" + GOK, k, re.I):
+        FIX.append(f"[{s}] I2V'de gök var ama HAREKETİ yok [HAVA_VE_ATMOSFER §1] — "
+                   f"bulut/gök bir fiil alır: drift · streak · sweep · roll · hold")
 
 # ── 13. uzunluk ────────────────────────────────────────────────────────────
 for s, k in kareler:

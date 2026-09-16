@@ -9,7 +9,11 @@
 | **THE LONG DAY** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 3,0) | ⛔ APPEARED · 1/9 MADE | graded pad · 0:06,0 | habitat berm | 6 | [kayıt](RAPORLAR/THE_LONG_DAY.md) |
 | **THE DUST YEAR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **0,0**) | ⛔ APPEARED · 0/8 MADE | circular pad · 0:06,0 | NONE | 6 | [ham](HAM_RAPORLAR/THE_DUST_YEAR_YONTEM_HAM.md) |
 | **BUILT FROM DUST** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **0,0**) | ⛔ APPEARED · 0/5 MADE | foundation grid · 0:05,0 | NONE | 8 | [kayıt](RAPORLAR/BUILT_FROM_DUST.md) |
-
+| **POLAR HABITAT** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 10,0) | ✅ MADE · 7/7 MADE | NONE | Central Core Shaft / Geodesic Frame | 0 | [kayıt](RAPORLAR/POLAR_HABITAT.md) |
+| **THE CROSSING** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 2,8) | ⛔ APPEARED | Concrete Pylon Towers · 00:07,0 | Marine Pylon Foundations · 00:00,0 | 6 | [kayıt](RAPORLAR/THE_CROSSING.md) |
+| **OVER THE WALL** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **0,0**) | ⛔ APPEARED · 0/4 MADE | Concrete Dam Wall · 00:26,6 | NONE | 7 | [kayıt](RAPORLAR/OVER_THE_WALL.md) |
+| **THE EMPTY RIDGE** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **9,1**) | ✅ MADE · 6/6 MADE — deponun en yüksek ⑧ | NONE | Concrete Foundation Pad · 00:09,0 | 5 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
+| **THE DARK ROCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 4,5) | ⛔ APPEARED | Lantern Room Glazing · 00:27,0 | Main Tower Shaft | 6 | [ham](HAM_RAPORLAR/THE_DARK_ROCK/THE_DARK_ROCK_YONTEM_HAM.md) |
 **VERDICT değerleri:** MADE / APPEARED
 
 ```

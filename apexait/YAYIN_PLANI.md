@@ -71,7 +71,7 @@ Buradan tek bir sert kural çıkar:
 ⛔ ARDIŞIK İKİ VİDEO AYNI SİLUET AİLESİNDEN OLAMAZ.
 
 SİLUET AİLELERİ
-   DİKEY    kule · konut bloğu · türbin           → kadrajı yukarı doldurur
+   DİKEY    kule · konut bloğu · türbin · fener   → kadrajı yukarı doldurur
    YATAY    köprü · yol/tünel · liman             → ufka yayılır
    KÜTLE    baraj · stadyum · villa               → tek büyük gövde
 
@@ -125,13 +125,14 @@ AÇILIŞTAN SONRA
 | 1 | THE LONG SHADOW | kule / şehir dar parsel | DİKEY | karşı bloğun ikindi güneşi — S0'da cephe aydınlık, S9'da gölge üstünde |
 | 2 | THE LAST TERRACE | baraj / dağ vadisi | KÜTLE | vadinin taş set duvarları — son sahnede su hizası setlerin üstünü geçer |
 | 3 | THE LAST CROSSING | köprü / kıyı-boğaz | YATAY | vapur izi — S0'da suda düzenli beyaz iz var, S9'da su boş |
-| 4 | THE OLD ROAD | dağ yolu / eğim-kar | YATAY | eski virajlı yolun trafiği — iki yol da kadrajda, birinin ışık izleri söner |
-| 5 | THE EMPTY RIDGE | rüzgâr türbini / kırsal sırt | DİKEY | sırt hattının üstündeki boş gökyüzü |
+| 4 | THE OLD ROAD | itmeli viyadük / dağ vadisi | YATAY | eski virajlı yolun trafiği — iki yol da kadrajda; G0'da virajlarda far izleri, G15'te viyadükte tek düz çizgi → plan: `yatay_2_dk_filmler/THE_OLD_ROAD/` (16.09.2026) |
+| 5 | THE EMPTY RIDGE | rüzgâr türbini / kırsal sırt | DİKEY | sırt hattının üstündeki boş gökyüzü + yalnız meşenin tek dikey olma hâli (meşe küçülmez, ölçek değişir) → plan: `dikey_shorts/THE_EMPTY_RIDGE/` (14.09.2026) |
 | 6 | THE VIEW THROUGH | stadyum / şehir kenarı | KÜTLE | arsanın içinden görünen şehir — çanak yükseldikçe arka plan kapanır |
 | 7 | WHERE THE WATER WAS | liman dolgusu / kıyı | YATAY | kıyı çizgisinin kendisi — su hattı kadrajda geri çekilir |
 | 8 | THE SKY GOES OUT | konut / çöl | DİKEY | gece gökyüzü — S9'da katlar yanar, yıldızlar kaybolur |
 | 9 | THE FORD | tek açıklık köprü / kırsal nehir | YATAY | suya giren eski geçit izi |
 | 10 | THE PATH ACROSS | villa / dağ eğimi | KÜTLE | parseli kesen patika |
+| 11 | THE DARK ROCK | kaya feneri / açık deniz kayalığı | DİKEY | kayanın çentikli tacı — G0'da iki tepe, G6'da düz kesilmiş kaide; aynı yer kanıtı yanındaki tek deniz sütunu → plan: `dikey_shorts/THE_DARK_ROCK/` (15.09.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA

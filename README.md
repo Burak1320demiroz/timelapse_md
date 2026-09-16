@@ -21,3 +21,9 @@ kaldırıldı ve ölçülmüş içeriği `KILAVUZ_REHBERI §2.6`'ya taşındı.
 Kardeş depo: `film_md` (uzay/bilimkurgu dikey shorts). Bu depo onun iskeletini
 devraldı ama kurallarının bir kısmını **bilerek tersine çevirdi** — sebepleri
 `KILAVUZ_REHBERI` §1.2'de yazılı.
+
+⭐ **Yatay 16:9 merdiveni (14.09.2026):** `yatay_2_dk_filmler/` · `yatay_4_dk_filmler/` ·
+`yatay_6_dk_filmler/` · `yatay_8_dk_filmler/` — `film_md`'nin film klasörü şablonu (sekiz dosya +
+`00_ANALIZ/`), bu deponun kılavuz ve dersleriyle. Kart `KILAVUZ_REHBERI` §2.8, iskelet
+`kilavuzlar/FILM_KLASOR_SABLONU/`, açma betiği `araclar/film_klasoru_ac.sh`, akış `AGENTS` kart Y2.
+Dikey hat (`dikey_shorts/`) ayrı kalır.
