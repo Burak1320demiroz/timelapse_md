@@ -191,6 +191,46 @@ DİRENÇ        küçük ölçekte direnç zayıftır — SAHA'dan gelmelidir (e
 
 ---
 
+## 9b. 🌾 KAYAR KALIPLA SİLO / BACA / ŞAFT 🆕 17.09.2026
+
+```
+İNŞA SIRASI   ① dairesel kazı + radye dökümü (starter bar bırakılır)
+              ② kayar kalıp halkası kurulur: şut panelleri + yoke + kriko +
+                 tırmanma çubuğu + asılı iskele + üst çalışma platformu
+              ③ ⭐ KESİNTİSİZ DÖKÜM — kalıp gece gündüz tırmanır (≈ 3-4 m/gün)
+              ④ tepede kalıp sökülür, kriko ve çubuklar alınır
+              ⑤ üst yapı (başlık / makine katı) vinçle oturur
+              ⑥ yan ekipman (elevatör muhafazası, boru, merdiven) bağlanır
+              ⑦ apron + çevre betonu, sonra ilk işletme
+SÜRE          şaftın kendisi 8-12 gün · toplam 2-4 ay
+MAKİNE        beton pompası · mikser · malzeme asansörü · mobil vinç (yalnız üst yapı)
+DİKEY KADRAJ  ⭐ EN İYİ ADAYLARDAN BİRİ — yapı saf dikeydir VE kalıp kendisi
+              9:16'nın eksenini yukarı süpürür (kadraj içi kinetik ② bedava gelir)
+⭐ İKİ TERS SÜPÜRME  kalıp YUKARI çıkarken, altındaki taze/kürlenmiş beton sınırı
+              gövdeye göre AŞAĞI iner. Aynı klipte zıt yönde iki hareket; A9-b'nin
+              kürlenme takvimi bunun sözlüğüdür. ⇒ MALZEME_VE_DOKU §4
+DİRENÇ        kürlenme hızı (kalıp betondan hızlı çıkarsa duvar yırtılır) ·
+              kesintisiz döküm zorunluluğu · hasat/işletme penceresi · rüzgâr
+FİNAL VURUŞ   ilk ürünün ALINMASI — ⛔ yapının DOLMASI değil [P3-d]
+RİSK          ⛔ ÇOĞALIR [DERS 55]: "silo" korpusu DİZİDİR. Tek yazılsa da yanına
+                 silo gelir. Üç katlı savunma: pozitif sayım cümlesi + "ufuk
+                 gövdenin iki yanında da görünür" yerleşimi + araç kapısında SAYIM TESTİ.
+              ⛔ KALIP İSKELE OKUNUR: "scaffold" demek kalıbı iskeleye çevirir.
+                 Halka olarak yazılır: "a continuous ring of shutter panels clamped
+                 round the wall on its yokes, with jacks on the climbing rods".
+              ⛔ AKIŞ GÖRÜNMEZ [P3-d]: kapalı düzenekten tahıl/malzeme akışı
+                 istenmez; kaynak ağzı ve düştüğü kap aynı kadrajda olmalı.
+              ⛔ EŞİK ERKEN GEÇİLİR [P3-g]: "kule şu yapıyı geçer" olayı merdivene
+                 yazılmadan önce KADRAJDAKİ hiza hesaplanır — alçak istasyonda
+                 komşu yapılar ufkun altındadır ve eşik ilk üçte birde geçilir.
+7 SAHNEYE EŞLEME  S0 zemin bozulur · S1 radye · S2 kalıp + ilk tırmanış ·
+              S3 tırmanış · S4 gövde tamam + yan ekipman · S5 kalıp sökülür +
+              üst yapı · S6 apron kapanır + ilk ürün
+⭐ İLK UYGULAMA  dikey_shorts/THE_LAST_CIRCLE/ (17.09.2026 · tahıl silosu · ova)
+```
+
+---
+
 ## 10. 🆕 YENİ YAPI TİPİ ŞABLONU
 
 ```

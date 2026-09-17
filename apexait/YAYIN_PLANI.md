@@ -74,8 +74,16 @@ SİLUET AİLELERİ
    DİKEY    kule · konut bloğu · türbin · fener   → kadrajı yukarı doldurur
    YATAY    köprü · yol/tünel · liman             → ufka yayılır
    KÜTLE    baraj · stadyum · villa               → tek büyük gövde
+   ⭐ ZEMİN  havuz/gölet · avlu · teras · meydan   → kadraja YUKARIDAN bakılır, siluet YOKTUR,
+            ayrışma DOKU ve SINIR ile olur   (ÖNERİ 16.09.2026 · THE HIDDEN OASIS · sahip onayı bekliyor)
 
 Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
+      (ZEMİN kabul edilirse: DİKEY → YATAY → ZEMİN → KÜTLE → …)
+⭐ 17.09.2026: THE LAST CIRCLE DİKEY ailesine yazıldı. Son üç plan üç ayrı aileden
+   (GİZLİ VAHA ZEMİN · NARROW GORGE KÜTLE · LAST CIRCLE DİKEY) — üçü ardışık yayınlanabilir.
+⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
+   diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
+   OVER THE WALL ile ardışık yayınlanamaz.
 Sebep ikili:
   ① kanal sayfası ızgarası altı ayrı iş gibi görünür (tıklama)
   ② POLITIKA_VE_RISK §1: "videodan videoya çok az değişen" cümlesine karşı
@@ -133,6 +141,9 @@ AÇILIŞTAN SONRA
 | 9 | THE FORD | tek açıklık köprü / kırsal nehir | YATAY | suya giren eski geçit izi |
 | 10 | THE PATH ACROSS | villa / dağ eğimi | KÜTLE | parseli kesen patika |
 | 11 | THE DARK ROCK | kaya feneri / açık deniz kayalığı | DİKEY | kayanın çentikli tacı — G0'da iki tepe, G6'da düz kesilmiş kaide; aynı yer kanıtı yanındaki tek deniz sütunu → plan: `dikey_shorts/THE_DARK_ROCK/` (15.09.2026) |
+| 12 | THE HIDDEN OASIS | bahçe göleti restorasyonu / duvarlı avlu | ⭐ ZEMİN | havuzun havuz olması — G0'da açık mavi seramik, merdiven ve yüzülebilir hacim; G7'de aynı sınır, içi taş kenarlı gölet → plan: `dikey_shorts/THE_HIDDEN_OASIS/` (16.09.2026) |
+| 13 | THE NARROW GORGE | kemer barajı / dar kireçtaşı boğazı | KÜTLE | dolaşan doğal akış, söğütlü çakıl bariyerleri ve değirmen arkının suyu — G0'da ırmak bütün tabanı kaplar, G7'de aynı yatakta tek ölçülü kol · ⭐ deponun ilk KURGU YAKINLAŞMASI → plan: `dikey_shorts/THE_NARROW_GORGE/` (16.09.2026) |
+| 14 | THE LAST CIRCLE | kayar kalıp tahıl silosu / ova · eski harman yeri | DİKEY | harman dairesi — G0'da Ø22 m'lik bütün, tanınabilir sıkışmış toprak daire (kadraj genişliğinin yarısı); G7'de aynı yerde kesintisiz beton apron, taş yuvak kenarda kalan tanık · ⭐ deponun ilk kayar kalıbı ve TEK kamera hareketi (yalnız S6) → plan: `dikey_shorts/THE_LAST_CIRCLE/` (17.09.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA

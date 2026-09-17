@@ -159,6 +159,17 @@ GİRDİ    Tek prompt (§5) · AYNI prompt · 5 klip · farklı seed/koşu
      beş kez tam orada düştü.
    ⭐ Ölçüm 6 zincirin BAŞINI, ölçüm 8 SONUNU sınar. İkisi ayrı sorudur:
      araç ilk kareye sadık olup son kareyi hiç görmeyebilir.
+
+⭐ ÖLÇÜM 9 · ÇÖZÜNÜRLÜK — yalnız KURGU YAKINLAŞMASI olan filmde  🆕 17.09.2026
+   ffprobe -v error -select_streams v:0 -show_entries stream=width,height \
+           -of csv=p=0 klip_1.mp4
+   → Yakınlaşma tavanı = kaynak genişliği / teslim genişliği.
+     Sayılar ve gerekçe: kilavuzlar/KAMERA_HAREKETI_KILAVUZU.md §3.3
+   ⛔ Büyütme (upscale) bu tavanı SAĞLAMAZ; ölçüm aracın GERÇEKTEN verdiği
+     piksele bakar.
+   ⛔ Araç tavanı vermiyorsa PLANDAKİ YAKINLAŞMA TABLOSU YENİDEN YAZILIR —
+     prompt zorlanmaz, tavan düşürülür.
+   ⚠️ Yakınlaşma olmayan filmde bu ölçüm atlanır; kart satırı "uygulanmaz" yazar.
 ```
 
 ---

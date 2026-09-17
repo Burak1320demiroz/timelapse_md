@@ -17,6 +17,7 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
                 yatay 16:9 merdiveni (yatay_2/4/6/8_dk_filmler · 12/24/36/48 × 10 s · §2.8)
                                                     → format klasörünün README'si
 ① YAPI TİPİ?    kule · konut · köprü · baraj · stadyum · yol/tünel · liman · türbin
+                · ⭐ kayar kalıpla silo/baca/şaft (§9b · 17.09.2026)
                                                     → YAPI_TIPI_KARTLARI.md
 ② SAHA?         şehir içi · kırsal · kıyı · dağ/eğim · kar · çöl
                                                     → SAHA_VE_IKLIM_KARTLARI.md
@@ -51,6 +52,14 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
 □ HAVA_VE_ATMOSFER_KILAVUZU.md    TIME RATE + LIGHTING — üç rejim × gök · iki kare arası gök/gölge
    ⛔ dördü de prompt_kontrol.py §10d'de sonlanır; kaynak denetimi
       arastirma/SONUCLAR/A9-A12_DENETIM.md (12 kaynağın 4'ü yanlış atıf)
+
+── ⭐ 17.09.2026 · A13–A18 ARAŞTIRMASINDAN DOĞAN TEK KILAVUZ ──
+□ KAMERA_HAREKETI_KILAVUZU.md     ⭐ "kamera hareketi" istendiğinde HANGİ KATMAN:
+                                  ① üretim (SABİT · değişmedi) · ② kurgu (yakınlaşma ·
+                                  sahip kararı · ÖLÇÜLMEDİ) · ③ kadraj içi (serbest)
+   ⛔ YALNIZ kurgu yakınlaşması olan filmde okunur; olmayan filmde §7 yeter.
+   ⚠️ Bu kuşakta prompt YOK ve kaynak ÇEKİLEMİYOR — denetim
+      arastirma/SONUCLAR/A13-A18_DENETIM.md (tek sayı indi, o da burada hesaplandı)
 ```
 
 ```

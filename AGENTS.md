@@ -63,6 +63,11 @@ timelapse_md/
 │   │                                   cümlesi · sayı testi · kanal (sınır: KAMERA)
 │   ├── HAVA_VE_ATMOSFER_KILAVUZU.md TIME RATE + LIGHTING · üç rejim × gök ·
 │   │                                   iki kare arası gök/gölge · altı taşıyıcı
+│   │  ── dördüncü kuşak · 17.09.2026 · A13–A18 araştırmasından doğdu ──
+│   ├── KAMERA_HAREKETI_KILAVUZU.md  ⭐ "kamera hareketi" istendiğinde hangi KATMAN:
+│   │                                   üretim (sabit) · kurgu (yakınlaşma · HOME
+│   │                                   paketi · çözünürlük kapısı) · kadraj içi
+│   │                                   ⛔ katman 2 ÖLÇÜLMEDİ — sahip kararı
 │   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
 │   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
 │   └── DERSLER.md                   ölçülmüş dersler + devralınan varsayımlar
@@ -202,6 +207,9 @@ ve komşularında. Burada tekrarlanmaz.**
                       ⭐ AT THIS STAGE'e INSAAT_YONTEMI §5'ten ara hâl cümlesi
                       ⭐ TIME RATE'e SIKIŞTIRMA REJİMİ (A·B·C) beyanı [A6-a]
                       ⭐ ACTIVITY'ye iki hareket eden + bir yüzey kanıtı [A6-d]
+8b. KAMERA HAREKETİ?  "hareket" isteniyorsa ÖNCE KAMERA_HAREKETI_KILAVUZU §0:
+                      istek kadraj içi mi, kurgu yakınlaşması mı. Yakınlaşma
+                      varsa plana KURGU bölümü + araç kapısına çözünürlük ölçümü.
 9. MÜZİK + KAPAK      MUZIK_VE_KAPAK — 120 BPM (3 ölçü/sahne) · kapak SON
                       sahnenin usta karesinden türer ve ⭐ İNGİLİZCE BAŞLIK taşır
 10. PAKETLEME         ⛔ başlık/açıklama/hashtag/yorum İNGİLİZCE

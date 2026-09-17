@@ -67,6 +67,28 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | A10 | ✅ koşuldu · `SONUCLAR/A10_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · standart adları doğru, benchmark DOI'siz | ✅ → FIZIK_VE_AGIRLIK_KILAVUZU |
 | A11 | ✅ koşuldu · `SONUCLAR/A11_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · 15 DOI: 7 ✅ · 4 ❌ yanlış atıf · 1 erişilemedi | ✅ → PERSPEKTIF_VE_OLCEK_KILAVUZU |
 | A12 | ✅ koşuldu · `SONUCLAR/A12_GEMINI_HAM.md` | Gemini (tahmin) | 11.09.2026 · "Python Script Snippet" kaynak değil; gölge 15°/sa DÜŞTÜ | ✅ → HAVA_VE_ATMOSFER_KILAVUZU |
+| A13 | ⚠️ İSTENMEDİ · `SONUCLAR/A13_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · aritmetik temiz (20/20) ama fiziksel kamera anlatıyor | ✅ → KAMERA_HAREKETI_KILAVUZU |
+| A14 | ⚠️ İSTENMEDİ · `SONUCLAR/A14_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · güvenli alan rakamı kendi tablosuyla çelişti, DÜŞTÜ | ⚠️ kısmen (mekanizma) |
+| A15 | ⚠️ İSTENMEDİ · `SONUCLAR/A15_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · CTR bantları pazarlama sınıfı, inmedi | ⚠️ → MUZIK_VE_KAPAK §4 |
+| A16 | ⚠️ İSTENMEDİ · `SONUCLAR/A16_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · 11 satırın 10'u tuttu, 1'i bin kat şişik | ⚠️ yalnız yöntem (sapma çarpanı) |
+| A17 | ⚠️ İSTENMEDİ · `SONUCLAR/A17_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · platform zarfı (1280×720 · 2 MB · süre etiketi) | ⚠️ → MUZIK_VE_KAPAK §4 |
+| A18 | ⚠️ İSTENMEDİ · `SONUCLAR/A18_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · A14 ile TERS yönde konuşuyor (sabit kamera) | ⚠️ çelişki kaydı |
+
+```
+⭐ DÖRDÜNCÜ KUŞAK BAŞKA TÜRLÜ GELDİ — 17.09.2026
+   Altı rapor, tek yapıştırmayla ve BU DEPODA YAZILMIŞ BİR PROMPT OLMADAN geldi.
+   İlk üç kuşakta soruyu biz yazdık; burada yazmadık.
+   ⛔ Yeni körlük: neyin SORULDUĞU bilinmiyorsa neyin DIŞARIDA BIRAKILDIĞI da
+      bilinmiyor. Rapor "en sık kullanılan on hareket" diyor — hangi evrenden
+      seçildiği, hangi filtreyle elendiği yazmıyor ve sorulamıyor.
+   ⛔ İkinci körlük: [cite: n] işaretleri var, KAYNAKÇA YOK. A9–A12'de 12 kaynak
+      çekilebilmişti (7 tuttu, 4 yanlış atıf); burada çekilecek bir şey yok.
+   ⇒ Bu yüzden altı rapordan kılavuza TEK SAYI indi ve o da raporun değil,
+     denetimde bu makinede hesaplanan sayıdır (A13-c · yakınlaşma tavanı).
+   ⭐ Buna rağmen kuşağın değeri yüksek çıktı: bir ÇELİŞKİ görünür oldu
+     (A18-a · sabit kamera) ve bu, kart S §4'ün "iki rapor aynı şeyi farklı
+     söylüyorsa o şey ölçülmemiştir" kuralının ilk gerçek uygulamasıdır.
+```
 
 ```
 ⛔ DÖRDÜ DE TEK BOTA KOŞULDU. §2'nin "aynı promptu iki bota koş" uyarısı
@@ -155,5 +177,10 @@ arastirma/
 ├── A11_PERSPEKTIF_VE_OLCEK.md    referans nesne · sayı sadakati · zincirde kayma
 ├── A12_HAVA_VE_ATMOSFER.md       bulut × rejim · atmosferik derinlik · iki kare arası gök
 ├── SONUCLAR/A9-A12_DENETIM.md    ⭐ kaynak doğrulama: 12 çekim, 7 tuttu, 4 yanlış atıf
+│
+│   ── dördüncü kuşak · 17.09.2026 · ⛔ PROMPT YOK, rapor sipariş edilmeden geldi ──
+├── SONUCLAR/A13…A18_BEYANSIZ_HAM.md  kamera hareketi · tutunma · kapak (altı rapor)
+├── SONUCLAR/A13-A18_DENETIM.md   ⭐ 20 formül yeniden hesaplandı · 1 çarpan bin kat
+│                                   şişik · güvenli alan rakamı düştü · A14↔A18 çelişkisi
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```

@@ -9,14 +9,14 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       14
+TOPLAM FİLM       17
 ÖLÇÜLEN FİLM      12
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
 SEKİZ MERCEKLE    8     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK)
 ON İKİ MERCEKLE   3     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK — ⑨ ⑩ ⑪ ⑫ dâhil)
 ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
 ÜRETİLEN FİLM     11
-YAZILDI, ÜRETİLMEDİ 2   (BEFORE NIGHTFALL · THE OLD ROAD — plan + SPEC hazır, araç kapısı koşulmadı)
+YAZILDI, ÜRETİLMEDİ 5   (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE — plan + SPEC hazır, araç kapısı koşulmadı)
 ```
 
 ## TAMLIK MATRİSİ
@@ -36,6 +36,9 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | **THE CROSSING** | Ⓥ 8,4 | ⛔ belgesiz 6,4 | **10,0** | ⛔ belgesiz 7,9 | Ⓥ 5,8 karesiz | ⛔ belgesiz **10,0** | Ⓥ 8,8 karesiz | ⛔ belgesiz **2,8** | **8/8** · 4'ü RUN INCOMPLETE |
 | BEFORE NIGHTFALL | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ |
 | THE OLD ROAD ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 16.09.2026 · ilk 16:9 film) |
+| THE HIDDEN OASIS | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 16.09.2026 · ilk restorasyon) |
+| THE NARROW GORGE | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 16.09.2026 · ilk kurgu yakınlaşması) |
+| THE LAST CIRCLE | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 17.09.2026 · ilk kayar kalıp · tek hareket S6'da) |
 | **THE DARK ROCK** | ⛔ V karesiz 4,9 | ⛔ belgesiz 3,8 | Ⓥ 2,8 | ⛔ belgesiz 6,1 | Ⓥ 3,1 karesiz | ⛔ belgesiz 2,9 | ⛔ karesiz 5,1 | ⛔ belgesiz 4,5 | **8/8** + ⑨⑩⑪⑫ · 12'si de RUN INCOMPLETE |
 | **THE EMPTY RIDGE** | Ⓥ 2,8 | ⛔ belgesiz 5,2 | **5,4** | ⛔ belgesiz 3,4 | Ⓥ 7,2 karesiz | ⛔ belgesiz 7,6 | Ⓥ 7,0 karesiz | ⛔ belgesiz **9,1** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
 | **OVER THE WALL** | Ⓥ 5,8 | ⛔ belgesiz 3,8 | Ⓥ 6,0 | ⛔ belgesiz 5,3 | Ⓥ 3,0 karesiz | ⛔ belgesiz 7,0 | Ⓥ 3,8 karesiz | ⛔ belgesiz **0,0** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
@@ -138,6 +141,46 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ## DURUM
 
 ```
+THE NARROW GORGE — ON ALTINCI FİLM · İLK BARAJ · YAZILDI 16.09.2026 · ÜRETİLMEDİ ⛔
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK (sahip kararı) · zincirli · 8 kare + 7 I2V
+   YAPI: dar boğazda çift eğrilikli beton KEMER BARAJI · kapaklı dolusavak · dip savak · enerji kırıcı havuz
+   ⭐ İKİNCİ VİNÇSİZ PLAN: beton BANT KONVEYÖRLE gelir ve OLUKTAN düşer; havada asılı yük yok [DERS 8 · 22 · 46 · 57]
+   ⭐⭐ DEPONUN İLK KAMERA HAREKETİ — KURGU YAKINLAŞMASI (proje sahibinin kararı, 16.09.2026):
+      HOME ana kadraj · S0 1,55× · S1 2,0× · S3 1,7× · S6 2,0× · S2/S4/S5 sabit · her sahne HOME'da başlar ve biter
+      ⛔ KILAVUZ_REHBERI §1.2 ("format kimliği sabit kameradır") ve DERSLER P2-l ② ("crop push-in ALINMADI")
+         AÇIKÇA GEÇERSİZ KILINDI. Karar sahibindir, ÖLÇÜLMEMİŞTİR; ① KARE ve ⑤ DEVAMLILIK hükümleri
+         BEKLENEN sayılacak. Promptlar sabit kamera ister; yakınlaşma yalnız KURGUDA.
+      ⛔ FORMAT ŞARTI: kaynak klipler ≥ 2160 × 3840 (2,0× için). Araç vermiyorsa tavan düşer — araç kapısı ⑨.
+   ⭐ Eleştiri turundan sekiz düzeltme işlendi: ilk saniyede kırıcı kayada · bedel "denetime alınan akış +
+     söğütlü kıyının kaybı" · üç su sistemi ayrıldı (geçici tünel ÇIKIŞI köprünün aşağısında · dip savak ·
+     kapaklı dolusavak) · S3 kanıtı GÖZ ÇİZGİSİ (%50) oldu (köprü hizası kadrajda gerçekleşmiyordu) ·
+     final "ilk kontrollü salım" (kapak S4'te yerleşir, S6'da açılır; hazne dolumu S5→S6 kesmesinde) ·
+     S4 TAMAMLAR · kart kaldırıldı · finalde krette doğrudan altın ışık istenmiyor (mavi saat)
+   BEDEL: dolaşan doğal akış + söğütlü çakıl bariyerleri + değirmen arkının suyu · AYNI YER: tek gözlü taş köprü
+   Işık tek gün 05:30 → 19:30 (7 × rejim B = 14,0 saat ⚠️ üst sınırın TAM üstünde) · takvim KESMELERDE geçer
+   plan ✅ · QA_SPEC ✅ (§7 KURGU KAPISI) · KAPAK ✅ (kart yok; bölünmüş küçük resim G0 + G7) · günlük açıldı ⛔ BOŞ
+   ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı) · BLOCK 0
+   ⚠️ AÇIK KARARLAR: ışık günü 14,0 saat mi 12,5 mi · GİZLİ VAHA'nın kartı da kalksın mı · S6 fiziksel
+     hareket denemesi üretilsin mi · siluet ailesi KÜTLE
+   → dikey_shorts/THE_NARROW_GORGE/
+
+THE HIDDEN OASIS — ON BEŞİNCİ FİLM · İLK RESTORASYON · YAZILDI 16.09.2026 · ÜRETİLMEDİ ⛔
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 + kart 5,0 = 61,0 sn · ⛔ DÜZ IZGARA (sahip kilidi) · zincirli · 8 kare + 7 I2V
+   ⛔ ARA KARE YOK: her sahne tek 8,0 sn klip
+   ⭐ İLK YIKIM-DEĞİL-DÖNÜŞTÜRME: yapı sıfırdan kurulmaz, VAR OLAN havuz başka bir şeye çevrilir
+   ⭐ İLK AŞAĞI BAKAN İSTASYON: tilt −40° · KAMERA_ISTASYONU §3 formülü GEÇMEZ, plan kendi formülünü yazar
+     (yüzde(d) = (76,87° − atan(6,0/d)) / 73,74°) · ufuk ve gök kadrajda YOK → kılavuza yeni alt kart borcu
+   ⭐ KİNETİK PAKET: THE DARK ROCK'tan dokuz araç devralındı (kenar geçişi · dikey süpürme · gölge süpürmesi ·
+     bulut gölgesi · üç vuruş · ödülün gecikmesi · yüzey sınırı · iz bırakan araç · ekip lekesi) + onuncu olarak
+     YANSIMA. ⛔ Kamera hareketi DEVRALINMADI — DARK ROCK'ta da yoktur (sahip düzeltmesi, 16.09.2026)
+   BEDEL: havuzun havuz olması (açık mavi seramik + merdiven + hacim) · AYNI YER: kemerli niş (≈99 × 134 px)
+   Işık tek gün 06:20 → 18:30 · 6 × B + 1 × A = 12 sa 10 dk ≤ 14 · takvim YOK (film BİR GÜN anlatır, beyanlı)
+   plan ✅ · QA_SPEC ✅ · KAPAK ✅ (bölünmüş ızgara kapağı + G7 kartı) · üretim günlüğü açıldı ⛔ BOŞ
+   ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı) · BLOCK 0
+   ⚠️ AJAN KARARLARI sahibin onayına açık: kapak kartı eklendi (dış plan kartsızdı) · rejim B+A · S1 yükü ·
+     siluet ailesi "ZEMİN" önerildi (yeni aile) · tilt kartı ölçülmedi
+   → dikey_shorts/THE_HIDDEN_OASIS/
+
 THE OLD ROAD — ⭐ DEPONUN İLK YATAY (16:9) FİLMİ · YAZILDI 16.09.2026 · ÜRETİLMEDİ ⛔
    yatay_2_dk_filmler · ızgara 15 × 8,0 = 120,0 + kart 5,0 = 125,0 sn · ⛔ DÜZ IZGARA (sahip beyanı, modül 12 × 10,0)
    zincirli · 16 kare (G0…G15) + 15 I2V · ara kare YOK · bölüm sınırı G8 · QA birimi FİLM

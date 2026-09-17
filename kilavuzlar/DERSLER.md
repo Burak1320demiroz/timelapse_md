@@ -2147,6 +2147,113 @@ A12-j 100× REJİMDE KAR YAĞIP ERİYEMEZ — DERS 7'yi fizikle doğrular.
 
 ---
 
+## 🔬 DÖRDÜNCÜ KUŞAK ARAŞTIRMA — A13–A18 · 17.09.2026
+
+> Kaynak: `arastirma/SONUCLAR/A13…A18_BEYANSIZ_HAM.md` (altı rapor, tek yapıştırma)
+> Denetim: `arastirma/SONUCLAR/A13-A18_DENETIM.md`
+>
+> ⛔ **BU KUŞAĞIN İKİ YENİ ZAYIFLIĞI VAR ve her maddeden önce okunur:**
+> (1) **PROMPT YOK** — raporlar bu depoda yazılmış bir A<n> promptuna cevap değil;
+> ne SORULDUĞU bilinmiyorsa ne DIŞARIDA BIRAKILDIĞI da bilinmiyor.
+> (2) **KAYNAK ÇEKİLEMİYOR** — `[cite: n]` işaretleri var, kaynakça yok. A9–A12'de
+> 12 kaynak çekilebilmişti; burada çekilecek bir şey yok.
+> ⇒ Bu kuşaktan kılavuza **tek bir sayı indi** (A13-c) ve o da raporun değil,
+> bu makinedeki hesabın sayısıdır.
+>
+> ⭐ Ve bu kuşak, kapanmış bir tartışmayı yeniden açtı: **kurgu yakınlaşması.**
+> Karar araştırmadan değil, proje sahibinden geldi (16.09.2026) — araştırma
+> yalnız sınırını ve bedelini yazdırdı. ⇒ `KAMERA_HAREKETI_KILAVUZU.md`
+
+### A13 — MOTION-CONTROL VE KAMERA HAREKETİ  ⭐ yeni kılavuzun omurgası
+
+```
+A13-a ⚠️ YİRMİ FORMÜLÜN YİRMİSİ DE TUTTU — VE YİRMİSİ DE UYGULANAMAZ  [ÖLÇTÜM]
+      T=N×I · N=T×fps · D_kare=D_toplam/N · T_simetrik=(2N_yarı+N_bekleme)×I:
+      hepsi yeniden hesaplandı, hepsi tuttu. Dört kuşakta ilk kez aritmetik temiz.
+      ⛔ Ama tamamı FİZİKSEL KAMERAYI anlatır; bu depoda kamera yoktur. Doğru
+         olmak, uygulanabilir olmak değildir. ⇒ KAMERA_HAREKETI §2
+A13-b ⭐ DİJİTAL YAKINLAŞMA SIFIR PARALAKS ÜRETİR                    [VARSAYIM · fizik]
+      Ön plan ve arka plan aynı oranda büyür; optik perspektif değişmez.
+      ⇒ Kurgu yakınlaşması DERİNLİK vaat edemez, yalnız DİKKAT yönetir.
+         Plana "paralaks/derinlik artar" YAZILMAZ. ⇒ KAMERA_HAREKETI §2.3
+A13-c ⭐ YAKINLAŞMA TAVANI = kaynak genişliği / teslim genişliği      [ÖLÇTÜM · kapı]
+      Rapor ">%120 pikselleşir" der — kaynak = teslim olduğunda doğru, bizde
+      eksik koşullu. 1080×1920 teslimde: 1674×2976 → 1,55× · 1836×3264 → 1,70× ·
+      2160×3840 → 2,00×. Upscale bu tavanı SAĞLAMAZ. ⇒ KAMERA_HAREKETI §3.3
+A13-d 180° ENSTANTANE KURALI, BİZİM MOTION STREAK ŞARTIMIZIN OPTİK KARŞILIĞI —
+      A4/DERS 50 ile aynı yönde, yeni bir şey söylemiyor.
+```
+
+### A14 — KAMERA HAREKETİ VE İZLEYİCİ TUTMA
+
+```
+A14-a ⭐ KARAR İLK 0–1 SANİYEDE VERİLİYOR                            [VARSAYIM]
+      ⇒ Bizde karşılığı: G0'da DEĞİŞİM ZATEN BAŞLAMIŞ olmalı — boş arsa değil,
+        ilk müdahalenin görüldüğü arsa. THE NARROW GORGE'un 1. düzeltmesi.
+        ⇒ KAMERA_HAREKETI §4
+A14-b ÇIPA VE KEŞİF DENGESİ (sürenin çoğu sabit ana kamerada)        [VARSAYIM]
+      Oran çözümlenemiyor, yön bizim formatımızla aynı. ⇒ KAMERA_HAREKETI §3.2 ④
+A14-c ⭐ KESİNTİSİZ KAMERA HAREKETİ + TIMELAPSE HIZI = DOKU BOZULMASI [VARSAYIM]
+      DERS 56 ile aynı yönde; katman 1'in kapalı kalma gerekçesini dışarıdan
+      destekler. ⇒ KAMERA_HAREKETI §1.1
+A14-d ⛔ LOOP: BİZDE KADRAJ DÖNGÜSÜ OLUR, DURUM DÖNGÜSÜ OLMAZ         [YENİ]
+      Son kare ilk kareye "bağlanırsa" yapı sökülmüş olur ve film vaadini geri
+      alır. Bizim loop'umuz kavramsaldır: aynı kadraj, başka dünya.
+      ⇒ KAMERA_HAREKETI §5
+A14-e ❌ "900×1400 evrensel güvenli alan" DÜŞTÜ                       [DENETİM]
+      Kendi marj tablosuyla çelişiyor; en kötü hâl 940×979. Bizim zarfımız
+      (KAMERA_ISTASYONU §6) zaten daha dar ve DEĞİŞMEDİ.
+A14-f 9:16'DA YATAY PAN ÖZNEYİ KADRAJDAN ÇIKARIR — dikey eksen tercih edilir.
+      Bizde ikisi de katman 1'de; yalnız kadraj içi DİKEY SÜPÜRME olarak kalır.
+```
+
+### A15 · A16 · A17 — KAPAK VE PAKETLEME
+
+```
+A15-a ⛔ CTR BANTLARI · "%25–30 yüz" · "60.000 kat" KILAVUZA İNMEDİ   [İDDİA]
+      Kaynak sınıfı pazarlama; 00_README §3 adım 2b gereği durduruldu.
+A15-b ⭐ KARŞILAŞTIRMA ARACI KAZANANI İZLEME SÜRESİ PAYINA GÖRE SEÇER [İDDİA · araç dokümanı]
+      ⇒ Kapak yarışı CTR yarışı değildir; tıklatıp tutamayan kapak kaybeder.
+        §3.3 spoiler bütçesini güçlendirir. ⇒ MUZIK_VE_KAPAK §4.3
+A15-c ⭐ SAĞ ALT KÖŞEYİ SÜRE ETİKETİ KAPATIR                          [İDDİA · araç dokümanı]
+      ⇒ 120 px testine üçüncü soru eklendi. ⇒ MUZIK_VE_KAPAK §4.2
+A16-a ⭐ SAPMA ÇARPANI YÖNTEMİ: başarı toplam izlenme değil, KANAL ORTALAMASINA
+      GÖRE sapmadır. ⇒ Yayın ölçümümüzün metriği bu olmalı [apexait/YAYIN_PLANI].
+A16-b ❌ TABLO HATASI: 1.200.000/25.000 = 48x; rapor 48.000x yazıyor. On bir
+      satırın onu tuttu, biri bin kat şişik — ve o satır örüntü kanıtı sayılmış.
+A16-c KÜÇÜK KANAL, BÜYÜK KANALIN KAPAĞINI KOPYALAYAMAZ: tanınmayan yüz/minimalizm
+      soğuk izleyicide karşılık bulmaz. ⇒ Bizde zaten yüz yok; odak YAPININ kendisi.
+A17-a YZ KAPAK KUSURLARI (plastik cilt · anatomi · tutarsız ışık kaynağı) — bizim
+      kapağımız usta kareden türediği için bu risk FİLMDE çözülür, kapakta değil.
+A17-b 1280×720 · 2 MB · 16:9 — uzun format kapağının teknik zarfı. Dikeyde
+      kapak yüklemesi ayrı yüzeydir. ⇒ MUZIK_VE_KAPAK §4.3 uyarısı
+A17-c ⚠️ KISA DİKEY FORMATTA A/B TESTİ YOK — deneme uzun formata ertelenir.
+```
+
+### A18 — VİRAL TIMELAPSE KAMERA ÖRÜNTÜLERİ
+
+```
+A18-a ⛔ ÇELİŞKİ — SABİT KAMERA KUSUR MU, İMZA MI                     [ÖLÇÜLMEMİŞ]
+      A14: "tamamen sabit kamera 10. saniyeden sonra %40 kayıp".
+      A18: aynı veri setinde EN SIK kullanılan hareket = sabit kamera, ve
+      merkez-kilitli sabit kadraj "kesin bulgu" sayılıyor.
+      ⇒ Aynı yapıştırmada gelen iki rapor ters yönde konuşuyor. Kart S §4:
+        bu değişken ÖLÇÜLMEMİŞTİR ve bu bilgi sayının kendisinden değerlidir.
+        ⛔ Format kimliği bu kuşak yüzünden DEĞİŞMEZ.
+A18-b MERKEZ KİLİTLEME: dikeyde ana dönüşüm alanı kadrajın orta şeridinde durur.
+      ⇒ KAMERA_ISTASYONU §6 zarfıyla aynı yönde, yeni bir sayı getirmiyor.
+A18-c "ÇEVRE ELEMANLARINI SABİTLEME" — nesne değişirken arka plan ve ışık sabit.
+      ⇒ Negatif çekirdeğin arka plan cümlesinin birebir aynısı [§7]. Doğrulama.
+A18-d TEPEDEN 90° KADRAJ en yüksek ikinci sıklık — bizde YOK ve olmayacak:
+      şantiyede kuş bakışı sabit istasyon kurulamaz, drone HAREKET olarak yasak.
+A18-e FİNALDE GERİ ÇEKİLME (pull-out reveal) — bizde finalin karşılığı USTA
+      KAREDİR ve zaten en geniş hâldir; geri çekilecek yer yoktur.
+A18-f ❌ YÜZDE TABLOLARI 100 ETMİYOR (%102,5 ve %97,5): bir video çift, bir video
+      hiç sayılmış. ⇒ Tablolar SIRALAMA olarak okunur, ORAN olarak değil.
+```
+
+---
+
 ## 🎬 PROFESYONEL OKUMADAN DEVRALINAN — plan incelemesi, burada VARSAYIM
 
 > ⛔ **Hiçbiri ölçülmedi.** Kaynak: `arastirma/SONUCLAR/P1_PLAN_OKUMA_HAM.md`
@@ -2316,6 +2423,75 @@ P1-k  OMURGA CÜMLESİ — merdivenden ÖNCE, tek satırda on vuruş       [uzma
               biri fazladır. Merdiven bu cümleden TÜRER, tersi olmaz.
       KALDIRDIĞI  Hiçbir şey — yalnız sıra: önce cümle, sonra tablo.
       NEREYE  KILAVUZ_REHBERI §6
+```
+
+---
+
+## 🎬 P3 — PLAN OKUMASI · THE LAST CIRCLE · 17.09.2026
+
+> Kaynak: `arastirma/SONUCLAR/P6_THE_LAST_CIRCLE_OKUMA_HAM.md` (uzman okuması ·
+> YAZILMAMIŞ bir planı okudu; film yok, referans kare yok, klip yok).
+> Kaynak sınıfı **uzman okuması** — ne akademik ne araç dokümanı.
+> ⛔ Hiçbiri ölçülmedi; hepsi VARSAYIM. Film üretilince ya derse dönerler ya düşerler.
+>
+> ⭐ Bu okumanın özelliği: **yazılı bir kılavuz maddesini düzeltti.** P3-a,
+> `KAMERA_HAREKETI_KILAVUZU §4`'ün bir gün önce yazılmış hâlini geçersiz kıldı.
+
+```
+P3-a  ⛔ "G0'DA DEĞİŞİM BAŞLAMIŞ OLSUN" YANLIŞTI — DEĞİŞİM KLİBİN İÇİNDE BAŞLAR
+      16.09.2026'da §4'e "ilk kare, ilk müdahalenin GÖRÜLDÜĞÜ arsadır" yazılmıştı.
+      Okuma ölçtü: ilk yara G0'da açıksa açılışın en değerli olayı klibin DIŞINDA
+      kalır ve izleyici bozulmamış hâli hiç görmediği için neyin bozulduğunu
+      anlayamaz. Doğrusu: G0 bütün hâli tanıtır, araç TEMAS hâlinde hazırdır,
+      kırılma 0,3–0,8 sn'de olur. İzleyici bütün şekli ve onu bozan eylemi AYNI
+      klipte görür. ⇒ KAMERA_HAREKETI §4 · DÜZELTİLDİ
+P3-b  ⭐ DUYGUYU TAŞIYAN NESNE PİKSELLE SEÇİLİR, ANLAMLA DEĞİL
+      Planda bedeli "taş yuvak" taşıyordu; yuvak kadrajda %1,7 = 33 px. Bedeli
+      taşıyan şey 546 px genişliğindeki DAİRE olmalı, yuvak kenarda kalan TANIK.
+      Kural: bir nesneye duygusal yük bindirmeden önce kadrajdaki piksel
+      ölçüsü yazılır; adını bilmeyen izleyici de hikâyeyi izleyebilmelidir.
+      ⚠️ Küçük tanık nesne ARA SAHNELERDE de kaybolmamalı — kaybolursa finaldeki
+      yer değişiminin önemi okunmaz. ⇒ PERSPEKTIF_VE_OLCEK · QA_SPEC
+P3-c  ⛔ GÖSTERİLMEYEN YER DEĞİŞTİRME IŞINLANMADIR — dördüncü iş sayılır
+      Plan taşı S6 başında göbekte, sonunda kenarda gösteriyordu; taşıma hiçbir
+      klipte yoktu. Bir nesnenin konumu değişiyorsa DEĞİŞTİREN EYLEM bir klibin
+      içinde görünür. Taşıma S5'e alındı (ekip yuvarlar) ve S6 yalnız örtmeye
+      kaldı. DERS 48/49'un konum hâli. ⇒ FIZIK_VE_AGIRLIK · INSAAT_YONTEMI
+P3-d  ⭐ AKIŞ TARİFİ ÜÇ ŞEY İSTER: KAYNAK · HEDEF · GÖRÜNÜRLÜK
+      "Bant döner, tahıl akar" bir görüntü tarifi değildir. Kapalı bir düzenekte
+      akış görünmez; kovalı elevatörde bant, muhafaza ve başlık ayrı unsurlardır
+      ve bandın dışarıdan göründüğü VARSAYILAMAZ. Çözüm: akışın çıktığı ağız ve
+      düştüğü kap aynı kadrajda, ikisi de klipten ÖNCE yerinde. Ve fiil iddiayı
+      küçültür: silo DOLMAZ, ⭐ İLK ÜRÜNÜ ALIR. ⇒ FIZIK_VE_AGIRLIK §5
+P3-e  ⛔ TAZE BETON İŞLETME YOLUNA DÖNÜŞEMEZ — sertleşme anlatılmayan bir iştir
+      Final "son izi ört + işletmeyi başlat" istiyordu; ikisi aynı yüzeyde olursa
+      yüklü araç taze betonun üstünden geçer. Çözüm yerleşimdir: son döküm araç
+      güzergâhının DIŞINDAKİ küçük parçadır, işletme önceden bitmiş alanda
+      çalışır. Böylece iki olay aynı klipte kalır, fizik bozulmaz. ⇒ INSAAT_YONTEMI
+P3-f  ⭐ YAKINLAŞMANIN HEDEFİ ANLATININ NESNESİDİR, YAPININ TEPESİ DEĞİL
+      Kaybolan iz ile yerini alan şey AYNI yakın kompozisyonda olmalı; sığmıyorsa
+      yerleşim düzeltilir, ikinci hareket eklenmez. Önce zemine sonra tepeye
+      savrulan iki hareket finali dağıtır. Ve yakın kadrajda HOME'un yüzdeleri
+      geçersizdir. ⇒ KAMERA_HAREKETI §3.2 ⑦ · EKLENDİ
+P3-g  ⛔ EŞİK OLAYI İKİ KEZ KURULAMAZ — geometriden okunur, plandan değil
+      "S4'te kule ambarı geçer" yazılmıştı; hesap, ambarın kadrajdaki çatı
+      çizgisinin 6,7 m'de geçildiğini verdi — yani olay S2'nin içinde. Bir eşik
+      olayı merdivene yazılmadan ÖNCE hangi karede geçileceği hesaplanır; geçmiş
+      bir eşik ikinci kez olay yapılamaz. S4 TAMAMLANIR'a döndü.
+      ⚠️ Ve eşik fiziksel yükseklikle değil KADRAJDAKİ HİZAYLA ölçülür: nesnenin
+      kameraya mesafesi hizayı değiştirir. ⇒ KAMERA_ISTASYONU §3 · DERS 38'in akrabası
+P3-h  EŞİT SÜRE, EŞİT RİTİM DEĞİLDİR
+      7 × 8,0 kuralı ritmi öldürmez: ritim ilk değişimin başladığı an, hareketin
+      büyüklüğü, ilerleyen malzeme sınırı, duraklama, ses ve odakla çeşitlenir.
+      Her klibe aynı 2–4–2 dağılımını zorunlu tutmak gerekmez.
+      ⚠️ DERS 13 ile çelişmiyor: DERS 13 KESME dizisini ölçtü, bu madde KLİP
+      İÇİNİ söylüyor — ve DERS 24 klip içi varyansın metronomu kırmadığını
+      ölçmüştü. İkisi birlikte okunur. ⇒ KAMERA_HAREKETI §6
+P3-i  ⛔ "KONTROL GRUBU" GEREKÇESİ KAMERA KARARI VEREMEZ
+      "Bu filmi sabit çekelim, öbürüne kontrol olur" savı reddedildi: iki filmde
+      konu, manzara, hareket ve final de değişiyorsa fark kameraya bağlanamaz.
+      Kamera kararı, o filmin FİNALİNİN OKUNMASINA göre verilir.
+      ⇒ KAMERA_HAREKETI §10'un karşılaştırma borcu bu yüzden zayıf bir borçtur.
 ```
 
 ---
@@ -2513,6 +2689,11 @@ P2-l  ⚠️ BEKLETİLEN ÖNERİLER — ölçülmüş bir dersle çelişiyor, AL
       ② "Hero klipte çok hafif dijital crop push-in." — format kimliği
          sabit kameradır [§1.2]; DERS 6'nın %4 kırpma payı KİLİT içindir,
          hareket için değil. → alınmadı.
+         ⛔ 16.09.2026 · BU MADDE PROJE SAHİBİNİN KARARIYLA GEÇERSİZ KILINDI.
+            THE NARROW GORGE kurgu yakınlaşmasıyla yazıldı (HOME paketi).
+            Karar ÖLÇÜLMEMİŞTİR; sınırı, bedeli ve kapıları
+            kilavuzlar/KAMERA_HAREKETI_KILAVUZU.md'de. Film QA'dan geçince bu
+            satır ya numaralı bir derse döner ya "alınmadı"ya geri düşer.
       ③ "Kar giden klibin içinde kademeli birikir." — DERS 26 ölçtü: ara
          durum tek kareden türetilemez, kendi karesini ister. → alınmadı.
       ④ "Workers in PPE physically guide…" (net işçi eylemi) — DERS 15

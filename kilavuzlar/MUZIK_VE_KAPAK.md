@@ -271,3 +271,60 @@ PINNED COMMENT
 TEK CÜMLE TESTİ: dört yüzey yan yana konunca bir yabancı, videoyu izlemeden
 sürecin dönüm noktasını söyleyebiliyor mu? → HAYIR olmalı.
 ```
+
+---
+
+# 4. ⭐ DÖRDÜNCÜ KUŞAK EKİ — KAPAK (A15 · A16 · A17 · 17.09.2026)
+
+> Kaynak: `arastirma/SONUCLAR/A15…A17_BEYANSIZ_HAM.md` ·
+> denetim `A13-A18_DENETIM.md`
+> ⛔ **Bu kuşaktan SAYI inmedi.** Raporların CTR bantları, "%25–30 daha yüksek
+> tıklama", "%72–84 bakış oranı" gibi rakamları çözümlenemeyen kaynaklara
+> dayanıyor ve kılavuza girmedi. Aşağıdakiler **mekanizma** ve **yordamdır.**
+
+## 4.1 ✅ Mevcut kuralları DOĞRULAYANLAR — değişiklik yok
+
+```
+· 0–3 kelime kuralı              → §2.3 zaten sayıyla yazılı
+· küçük boyutta okunabilirlik     → §2.5 120 px testi zaten İKİ ŞEY arıyor
+· kapağın videoda karşılığı olması → §3.3 spoiler bütçesi + [DERS 30] kapak kanıtı
+· başlık ile kapağın AYNI şeyi söylememesi → §2.3 · §3.3
+```
+
+## 4.2 ⭐ YENİ — sağ alt köşe (zaman damgası) yasağı
+
+```
+Platform, kapağın sağ alt köşesine video süresini basar (≈120 × 35 px bandı).
+⇒ KAPAK PROMPTUNA VE KONTROLE: başlığın son satırı, silüetin tepe noktası ve
+  kanıt nesnesi bu köşeye DÜŞMEZ.
+⇒ 120 px testine üçüncü bir soru eklenir:
+    ⓒ sağ alt köşeye siyah bir kutu konduğunda kaybolan bir şey var mı?
+```
+
+## 4.3 ⭐ YENİ — A/B testi bir YORDAMDIR, bir tasarım kuralı değil
+
+```
+Platformun kendi karşılaştırma aracı (3 varyant · kazananı İZLEME SÜRESİ PAYINA
+göre seçer, tıklama oranına göre DEĞİL) [A15 · A17 · araç dokümanı sınıfı].
+
+⇒ BİZE NE SÖYLÜYOR: kapak yarışı CTR yarışı değildir. Tıklatıp tutamayan kapak
+  kaybeder — bu, §3.3'ün spoiler bütçesiyle aynı yönde ve onu güçlendirir.
+⛔ Üç varyant birbirinin küçük varyasyonu OLMAZ; ayrı konseptler olur:
+    ⓐ siluet + başlık (bizim varsayılanımız · §2.2)
+    ⓑ BEDELİN nesnesi (kaybedilen şey) + başlık
+    ⓒ metinsiz — yalnız usta kare kırpması
+⛔ Üçü de USTA KAREDEN türer [DERS 30]. Kapak kanıtı üçü için de koşulur.
+⚠️ Kısa dikey formatta (Shorts) bu araç çalışmıyor [A17]; deneme uzun formatta
+   ya da sonraki filmlerde yapılır.
+```
+
+## 4.4 ⚠️ ALINMAYANLAR — ve sebebi
+
+```
+⛔ "İnsan yüzü kapağı %25–30 yükseltir"  → bu kanalda yüz YOK; kanal kimliği
+   yapının silüetidir [`apexait/KANAL_KIMLIGI.md`]. Ayrıca sayı çözümlenemiyor.
+⛔ "Abartılı/şok ifade"                   → gerçeklik beyanıyla çelişir [§3.2]
+⛔ "Öncesi/sonrası bölünmüş kapak"        → THE NARROW GORGE'da DENENDİ (üst %45
+   G0 · alt %55 G7). Ölçülmedi; kural değil, TEK DENEME olarak duruyor.
+⛔ "Kırmızı ok · çember · alev efekti"    → paletin dışı [`KANAL_KIMLIGI`]
+```
