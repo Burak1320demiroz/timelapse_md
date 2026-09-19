@@ -139,6 +139,44 @@ DİRENÇ        eğim · kaya · kar · heyelan
 
 ---
 
+## 6b. 🕳️ ŞEHİR İÇİ ÇÖKÜK / ALTYAPI ONARIMI 🆕 19.09.2026
+
+```
+İNŞA SIRASI   ① aracın/yükün çukurdan çıkarılması (vinç + sapan) → ② kazının desteklenmesi
+              (palplanş / kutu iksa) + kenarların testereyle kesilmesi + su tahliyesi (pompa)
+              → ③ molozun çıkarılması, çakıl yatak, ESKİ HATTIN İKİ UCUNA yeni boru/bilezik
+              → ④ pompa çıkar (su kontrolde) → ⑤ KATMANLI geri dolgu: dök · yay · sıkıştır
+              → ⑥ desteklerin sökümüyle birlikte son katman (söküm ve dolgu birlikte ilerler)
+              → ⑦ alt temel + asfalt yama + çizgi → ⑧ trafiğe açılış
+              Kaynak: acil altyapı onarımı pratiği; iksa sökümü ile geri dolgunun birlikte
+              ilerlemesi ilgili kazı güvenliği standardında yazılıdır (dış değerlendirme 19.09.2026).
+SÜRE          acil onarımda 1–3 gün · filmde tek ışık günü (format konvansiyonu)
+MAKİNE        paletli vinç (ahşap matlarda, kenardan ≥ 5 m geride) · ekskavatör + vibro çekiç/kıskaç
+              · pompa · damperli kamyon · hendek silindiri · finişer · tandem silindir · çizgi makinesi
+DİKEY KADRAJ  ⚠️ zor — iş YERİN ALTINDADIR ve yol yataydır. Çözüm: ⭐ AŞAĞI BAKIŞ istasyonu
+              (karşı çatı, tilt −40°, HIDDEN OASIS formülü) — çukurun uzak yarısının tabanı
+              görünür; boru hattı UZAK yarıya yatırılır ki yakın perde örtmesin. Gök kadraja girmez
+              → ZEMİN ailesi (YAYIN_PLANI §3).
+DİRENÇ        kazıda biriken su (pompa görünür) · gevşek zemin (iksa görünür) · dar iş alanı,
+              kapalı şeritler · trafik baskısı (bedel: kapalı cadde)
+FİNAL VURUŞ   yolun YÜKÜ TAŞIMASI — ⛔ yamanın bitmesi değil: bir araç geçer, arka tekerler
+              dikişi aşar, yama arkasında BÜTÜN görünür (rejim G aday) [P3-d]
+RİSK          ⛔ ÇOĞALIR [DERS 55]: "sinkhole" korpusu krater, "roadworks" çok çukurlu cadde
+                 doğurur. Pozitif sayım cümlesi ("one street with one worked rectangle in it")
+                 + ikinci çukura yer bırakmayan yerleşim + araç kapısında SAYIM TESTİ.
+              ⛔ TEK ARIZA: "patlamış su borusu + kanal" gibi iki arıza anlatılmaz; onarımın
+                 nedeni tek ve görünür olur (pompa → bağlantı → pompa gider).
+              ⛔ SIVI DOLGU (F05): dolgu tek hamlede dolmaz; katmanlar + silindir izi.
+              ⛔ CETVEL GÖMÜLMEZ: dolgu iksa üstünün altında kalır, bant söküme kadar okunur.
+              ⛔ BOŞ ÇUKURA HAYALET: kazı boşken model içine araç/boru koyar — G(boş) elle sayılır.
+              ⛔ VİNÇ KENARDA DEĞİL: ağır makine kazı kenarında inandırıcı değildir (HSE).
+7 SAHNEYE EŞLEME  S0 yük çıkar · S1 iksa + tahliye · S2 boru bağlanır, su kontrolde ·
+              S3 katmanlı dolgu · S4 söküm + son katman · S5 asfalt + çizgi + açılış · S6 araç geçer
+⭐ İLK UYGULAMA  dikey_shorts/THE_SWALLOWED_BUS/ (19.09.2026 · otobüs yutan cadde · şehir içi)
+```
+
+---
+
 ## 7. ⚓ LİMAN / DALGAKIRAN
 
 ```

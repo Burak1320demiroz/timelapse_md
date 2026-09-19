@@ -368,6 +368,15 @@ KALDIRDIĞI  Izgaranın matematiksel basitliği — artık sahne başına ölç�
 NEREYE      KILAVUZ_REHBERI §4 · MUZIK_VE_KAPAK §1.1 · TIMELAPSE_SISTEM_PROMPTU
 ```
 
+```
+✅ ALTINCI ÖLÇÜM — THE SWALLOWED BUS · 19.09.2026
+   7 × 8,0 = 56,0 sn · sahip dikey süreyi 8,0 sn sabit ilan etti → C1-e beyanı geçerli.
+   ⑥ RHYTHM AND PATTERN 5/10 · VERDICT: METRONOME.
+   ⭐ KARŞI KAYDIN DURUMU: OVER THE WALL · THE EMPTY RIDGE · THE CROSSING beyanı YOK,
+   yine geçti (RHYTHM); THE SWALLOWED BUS C1-e beyanıyla geçildi, yine METRONOME.
+   Kural değişmiyor; beyan "kabul ettim" demektir, "çözdüm" değil.
+```
+
 ## DERS 14 — Mevsim taşıyıcısı olmayan sahne zamanı durdurur
 
 ```
@@ -653,6 +662,16 @@ NEREYE      kilavuzlar/KILAVUZ_REHBERI.md §7 vinç bloğu · PROMPT_SABLONU §1
    ⑫ halatı gövde olarak tuttu (8/10), taşırken tutmadı. Kilit DERS 57'ye taşındı: kaldırma
    yolu karede biter (G(n) yük hedefin üstünde asılı), klip yalnız oturmayı gösterir.
    (b) şıkkı (bom kadraj dışı) tower crane için geçerli kalır; paletli vinçte bom dışarı çıkamaz.
+```
+
+```
+✅ POZİTİF DOĞRULAMA — THE SWALLOWED BUS · 19.09.2026
+   Paletli vinç + kısa sapan + yük lowbed'e indiriliyor (havada uzun mesafe yok).
+   ① C1 CRANE 8/10 — depodaki en yüksek skor. Önceki: EMPTY RIDGE 2/10, OVER THE WALL 0/10.
+   Neden tuttu: sapan kısa → halat havada kısa → kopma noktası yakın. DERS 57 kilidininkiyle
+   aynı mantık: "yük hedefin hemen üstünde asılı, yalnız son metreyi göster."
+   Yol/altyapı onarımında vinç görevi (lowbed'e indirme) kaldırma değil TAŞIMA DESTEĞİDİR;
+   halat hiç dikey uzun pozisyona gitmiyor → kırılgan bölge yok.
 ```
 
 ---
@@ -2585,6 +2604,69 @@ P5-d  ⚠️ BİRİNCİ RİSK: G(n) ≈ G(n+1) OLAN KLİP DURGUN GELEBİLİR
       Bir tam turun ilk ve son karesi aynıdır; I2V modeli "hiç dönmedi" ile "bir tur
       döndü" arasında ayrım yapamaz. Kanıt klip İÇİNDEN alınır: 0 · 4 · 8 sn'de işaretli
       kol açısı [günlük §0 ⑯]. Ölçülene kadar bu, rejim G'nin açık sorusudur.
+```
+
+---
+
+## 🎬 P6 — PLAN KARARI · THE SWALLOWED BUS · 19.09.2026 · ⭐ DIŞ DEĞERLENDİRMEYLE DÜZELTİLEN İLK PLAN
+
+> Kaynak: ajan önerisi (sohbet) + aynı gün gelen dış değerlendirme (yedi madde) + sahip onayı
+> (`dikey_shorts/THE_SWALLOWED_BUS/`). Kaynak sınıfı **tasarım varsayımı**.
+> ✅ **19.09.2026 — FİLM ÜRETİLDİ VE QA KOŞULDU.** P6-a · b · c · e · f beş madde
+> ekranda ölçülebilir biçimde TUTTU; P6-d (kamera istasyonu borcu) bir sonraki koşun sorusudur.
+
+```
+P6-a  ⭐ VAAT, İLK SAHNEDE CEVAPLANAN SORU OLAMAZ
+      "Otobüs kurtulacak mı?" S0'ın sonunda biter; kalan altı sahne için merak kalmaz. Vaat,
+      SON sahnede cevaplanan soruya bağlanır ("bu yol yeniden otobüs taşıyabilecek mi?") ve
+      ilk sahnenin sonunda ikinci sorunun devraldığı görünür (boş çukur, kırık boru uçları).
+      ⇒ KILAVUZ_REHBERI §6 VAAT satırının okunuşu; SAHNE_PLAN_KARTI ④ (klip sonunda ne değişti).
+P6-b  ⭐ TEK ARIZA, GÖRÜNÜR NEDEN ZİNCİRİ
+      "Patlamış su hattı + çökmüş kanal" iki arızadır ve biri onarılmadan kalır — izleyici
+      mantık açığını görür. Onarımın nedeni TEK olur ve zinciri ekranda okunur: pompa (su var)
+      → yeni boru eski hattın İKİ UCUNA bağlanır → pompa gider (su kontrolde) → dolgu.
+      ⇒ YAPI_TIPI_KARTLARI §6b RİSK "TEK ARIZA"; beş soru ③ "nereye oturuyor" = eski hattın ucu.
+P6-c  ⭐ KANIT NESNESİ KENDİ ÖLÇTÜĞÜ ŞEYİN ALTINDA KALMAZ
+      "Palplanş üst şeridi = dolgu cetveli" iyi fikirdir, ama dolgu şeridin üstüne çıkarsa
+      cetvel gömülür. Dolgu, sökümden önce cetvelin altında durur (bant görünür kalır);
+      söküm ve son katman BİRLİKTE ilerler. ⇒ INSAAT_YONTEMI ara hâl mantığı; SPEC §5.
+P6-d  ⭐ AŞAĞI BAKIŞ, ÇUKUR FİLMİNİN İSTASYONUDUR — VE ÖN GÖRSELLEŞTİRME İSTER
+      h 7 m / D 22 m'de görüş çizgisi 18°: yakın kenar tabanı örter, boru görünmez. Yerin
+      altındaki iş için istasyon yükselir ve tilt alır (HIDDEN OASIS formülü); boru hattı
+      çukurun UZAK yarısına yatırılır. Üç sabit çapa devamlılığı tutar, kompozisyonu tutmaz —
+      otobüs · vinç · lowbed · taban · geçiş yolu aynı kadrajda OKUNUYOR MU, ölçülmeden usta
+      kare üretilmez. ⇒ KAMERA_ISTASYONU "AVLU / AŞAĞI BAKIŞ" alt kartı borcu (ikinci koşu).
+P6-e  ⭐ HER G KARESİ TEK SAAT, TEK DURUM
+      Zincirde S(n)'in son karesi S(n+1)'in ilk karesidir; "S5 sonu: çizgi yok / S6 başı: çizgi
+      var" iki kare değil, çelişkidir. Saatler de zincirlidir: 10 dakikalık S0 07:20'de
+      başlarsa G1 07:30'dur, 10:00 değil. ⇒ KILAVUZ_REHBERI §2.7; kare tablosu N+1 satır.
+P6-f  ⭐ FİNAL, SONUCU KAPATAN NESNEYLE BİTMEZ
+      Otobüs yamanın üstündeyken kesmek hem yamayı örter hem geçişin bittiğini göstermez.
+      Arka tekerler dikişi aşar, otobüs kadrajdan çıkarken yama arkasında bütün görünür;
+      hız ve mesafe geçişin 8 sn'de TAMAMLANMASINA göre hesaplanır (yürüme temposu, ~28 m).
+      Kadraj döngüsü ("otobüs aynı yerde") bundan daha az değerlidir. ⇒ MUZIK_VE_KAPAK §5 FİNAL;
+      KURGU_VE_TESLIM §7.
+P6-g  ⚠️ İKİNCİ HİKÂYE AÇMA
+      "1890 tarihli tuğla tonoz" metinsiz anlaşılmaz ve "yol kurtarıldı"nın yanına "tarihî yapı
+      yok mu edildi?" sorusunu koyar. Kısa filmde bedel TEK olur (otobüs + kapalı cadde).
+      ⇒ KILAVUZ_REHBERI §6 BEDEL: bir bedel, kadrajda görünür.
+P6-h  ⚠️ "İLK SANİYEDE DURDURUR · SONA KADAR TUTAR" PLANA YAZILMAZ
+      İkisi de yaratıcı varsayımdır; izleyici verisiyle ölçülür (QA_CAPRAZ_ANALIZ/06 · YAYIN_PLANI
+      §6). Plan yalnız ekranda ne olduğunu yazar, ne yapacağını değil.
+```
+
+```
+✅ ÖLÇÜM ÖZETİ — THE SWALLOWED BUS · 19.09.2026
+   P6-a TUTTU: ④ TESLİM 9.5/10 — vaat son sahnede kapandı (otobüs geçti).
+   P6-b TUTTU: ⑩ SEBEP 10/10 — tek arıza, görünür neden zinciri; pompa → boru → kapandı.
+   P6-c TUTTU: ⑧ YÖNTEM 9.9/10 — kanıt nesnesi (palplanş bant) söküme kadar okundu.
+   P6-d AÇIK: kamera istasyonu uyumu ③ ZAMAN 6.2/10'a kısmen katkıda bulunmuş olabilir
+         (gökyüzü bant dışı → cloud carrier yok); ölçülemez, ikinci koşuda incelenir.
+   P6-e TUTTU: ⑤ DEVAMLILIK 8.8/10 · SAME WORLD — kare-kare saat tutarlı.
+   P6-f TUTTU: ① KARE 8.3/10 — final sahnede otobüs dikişi geçti, yama görünür.
+   ⭐ GENEL SONUÇ: P6, bu depodaki EN YÜKSEK TOPLU HÜKÜM PUANINI verdi
+      (⑦⑧⑨⑩⑪⑫ altısı birden 9.9-10.0). Plan okuması → üretim → QA döngüsü İLK KEZ
+      bu düzeyde kapandı.
 ```
 
 ---

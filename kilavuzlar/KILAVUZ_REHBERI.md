@@ -18,6 +18,7 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
                                                     → format klasörünün README'si
 ① YAPI TİPİ?    kule · konut · köprü · baraj · stadyum · yol/tünel · liman · türbin
                 · ⭐ kayar kalıpla silo/baca/şaft (§9b · 17.09.2026)
+                · ⭐ şehir içi çökük / altyapı onarımı (§6b · 19.09.2026 · aşağı bakış)
                                                     → YAPI_TIPI_KARTLARI.md
 ② SAHA?         şehir içi · kırsal · kıyı · dağ/eğim · kar · çöl
                                                     → SAHA_VE_IKLIM_KARTLARI.md
