@@ -1,92 +1,80 @@
-# 🧠 THE_BORROWED_HILL — KONSEPT VE RİSK
+# 🎯 THE BORROWED HILL — KONSEPT VE RİSK
 
-> Girdi: `00_HIKAYE_ONAYI.md` (onaylı) + `01_QA_DERS_HASADI.md`.
-> ⛔ Konsept kapısının üçü de ✅ olmadan `03_SAHNE_SIRALAMASI.md` yazılmaz.
-> Bu dosya onaylı hikâyeyi İYİLEŞTİRİR, değiştirmez; bozulacaksa 00_HIKAYE_ONAYI SAPMA + yeniden onay.
-
----
-
-## 0. 🗳️ AÇILIŞ SORULARININ CEVAPLARI
+## 1. Konsept kapısı [KILAVUZ_REHBERI §6]
 
 ```
-① KONU:       ⬜ [sahip verdi / ajan önerdi — önerdiyse GEREKÇE: apexait/YAYIN_PLANI siluet sırası ·
-              YAPI_TIPI kartlarından kullanılmamış olan · aynı sahanın tekrarı değil]
-② FORMAT:     yatay_4_dk_filmler → KILAVUZ_REHBERI §2.8 · 24 sahne · 2 bölüm (S0–S11 · S12–S23) · QA birimi FİLM (tek master × 12 mercek)
-③ SAHNE:      24 (formatın modülü) — dışına çıkılıyorsa sahip izni + gerekçe: ⬜
-④ YAPI KARTI: YAPI_TIPI_KARTLARI §⬜ — SÜRE ⬜ · 24 sahneye nasıl açılıyor (kartın 6/4 sahneye indirme
-              satırı → ara hâllerle 24 satır)
-⑤ SAHA KARTI: SAHA_VE_IKLIM_KARTLARI §⬜ — mevsim taşıyıcısı ⬜ · negatif eki ⬜ · korpus cümlesi [DERS 34]
-⑥ ARAÇ:       ⬜ [biliniyor mu — kutu seti ÖLÇÜLMEDİ; ızgara 10,0 s'yi hangi kutu taşır]
-⑦ HİKÂYE ONAYI: ONAY ⬜ <tarih> · TUR ⬜/3
+VAAT     Bir tepe küçülürken toprağı başka bir yerde yaşam alanına dönüşüyor;
+         sonuç ve doğada bıraktığı iz AYNI KADRAJDA.
+DİRENÇ   Örtü ve dolgu yerinden kazılacak · kırağı mevsimi · toz fırtınası ·
+         panellerin körelmesi · izlerin dolması
+BEDEL    Tepecik: %66,9 → %44,9; uzak krater sırtının (%51,6) üstünden altına
+TEK CÜMLE  Tepe kaybolmuyor — ev oluyor.
 ```
 
-## 1. 🎯 SAHİBİN TALEBİ — birebir
+### Dört kabul testi
 
 ```
-TALEP: "⬜"                        (kelimesi kelimesine, yorumsuz)
+① KADRAJDA MI        evet — tepe G0'da 329 px geniş, tacı %66,9
+② SABİT KAMERADA MI  evet — 25 kare tek istasyon; hareket yalnız kurguda, üç anda
+③ ÖLÇÜLEBİLİR Mİ     evet — geçilen çizgi GÖRÜNÜR (uzak krater sırtı %51,6)
+④ MALZEME DENGELİ Mİ evet — alınan 4.724 m³ = kullanılan 4.724 m³ (plan §HACİM DEFTERİ)
 ```
 
-**Talep fizikle / inşa sırasıyla çelişiyorsa yeniden tanımlanır ve sapma AÇIKÇA yazılır.**
-Emsal: THE EMPTY RIDGE'de "rotor montajda döner" isteği DERS 56 ile çelişti; göbek kilitlendi,
-dönüş finale alındı.
+## 2. Kart seçimi
 
-| sahibin isteği | fiziksel / inşa sorunu | yeniden tanım | gerekçe kaydı |
+```
+YAPI TİPİ   ⬜ KARTTA YOK. Gömülü kemer sığınak + ISRU örtü bu depoda ilk kez.
+            En yakın akraba: YAPI_TIPI_KARTLARI §9b (kayar kalıp) — biçimin gerekçesi
+            ortak (basınç kabı köşeli olamaz), yöntem farklı.
+            ⇒ Üretimden sonra kart açılır [kart H]: "gömülü kemer + yerel örtü".
+SAHA        SAHA_VE_IKLIM §3.6 çöl/kurak'ın Mars hâli — ⬜ kart yok.
+            Devralınan: film_md UZAY_USSU §3 (F1-a…F1-e)
+KAMERA      KAMERA_ISTASYONU §1 saf tek istasyon · §2.8 yatay formüller
+```
+
+## 3. Kamera hesabı — özet
+
+```
+h = +6,0 m · D_eksen 95 m · 24 mm · bearing 0° · tilt 0°
+yüzde(y) = 50 + 118,5 · (y − 6,0) / D        px = 1280 · boy(m) / D
+alt çeyrek eşiği D_alt = 24 × 6,0 / (36 × 0,25) = 16,0 m — en yakın nesne 25 m ✅
+⭐ ÇİZGİ  uzak krater sırtı (40 m @ 2.500 m) = %51,6 · 25 karede DEĞİŞMEZ
+⛔ Kamera neden 12,0 m'den 6,0 m'ye indi: 12,0 m'de tepe S18'de %50'ye geliyordu ve
+   S21 doruğu ÖNCE TÜKENİYORDU [P4-b]. Ayrıntı: plan §ELEŞTİRİ TURU ②.
+```
+
+## 4. Vinç kararı
+
+```
+⛔ BU FİLMDE VİNÇ YOKTUR. "crane" kelimesi 25 promptun tamamından kaldırıldı.
+SEBEP  ① DERS 8 · 22: kanca iki filmde de koptu, (a) şıkkı düştü
+       ② DERS 57: uzun rijit yük havada TAŞINMAZ, modelde hedefte belirir
+       ③ kelime negatif bloğun yüzey listesinde geçtiği için kapı 25 karede birden açıldı
+YERİNE "lifting rig" — yükü bom başında İKİ GERGİN SAPANLA tutar, kanca anılmaz.
+       Kaldırma karede biter: kaburga G(n)'de dikilmiş durur, klip yalnız oturtur.
+```
+
+## 5. Işık günü
+
+```
+06:20 → 19:30 = 13 sa 10 dk   ·   5 × B + 19 × A = 13,17 sa ≤ 14 ✅
+B sahneleri: S0 (ilk yara) · S2 (pad) · S7 (hendek) · S14 (ilk örtü) · S21 (son örtü)
+⚠️ Mars solü 24 sa 39 dk; 40°N yaz gün uzunluğu ≈ 15 sa — 13 sa 10 dk zarfın içinde.
+⚠️ Güneş açıları TÜRETİLMİŞ MODELDİR, efemeris iddiası değildir.
+```
+
+## 6. ⛔ RİSK TABLOSU — her satır ölçülmüş bir arızaya bağlı
+
+| risk | kaynak | karşı tedbir | nerede ölçülür |
 |---|---|---|---|
-| ⬜ |  |  |  |
-
-## 2. 🚪 KONSEPT KAPISI — VAAT / DİRENÇ / BEDEL [KILAVUZ_REHBERI §6]
-
-```
-VAAT      ⬜ (video başlamadan önce de var olan İŞ)                                          ✅/⛔
-DİRENÇ    ① ⬜  ② ⬜  ③ ⬜  — ekranda: S⬜ ⬜ · S⬜ ⬜ · S⬜ ⬜ [P1-b]                              ✅/⛔
-BEDEL     ⬜ — G0'da var, usta karede (G24) yok; kadrajda %⬜ / ⬜ px; hangi sahnede gidiyor: S⬜        ✅/⛔
-KANAL TEZİ  ne kayboluyor ⬜ · kadrajda görünüyor mu ⬜ · cevap "zaman geçiyor" değil ⬜        ✅/⛔
-DÖRT TEST   ① tek kare ⬜  ② kinetik bağımsızlık ⬜  ③ başlık şeması ⬜  ④ omurga cümlesi (24 vuruş) ⬜
-⛔ Üçü de ✅ değilse KONSEPT REDDEDİLİR ve sıralama yazılmaz.
-```
-
-## 3. 🎥 KAMERA HESABI — 16:9 [KILAVUZ_REHBERI §2.8 · KAMERA_ISTASYONU §3 · DERS 38]
-
-```
-GİRDİ      H = ⬜ m (bitmiş yapı) · h = ⬜ m (kamera, neyin üstünde) · hedef taç %82
-D          = (H − h)/0,27 = ⬜ m   → görüş açık mı (araya ne girer): ⬜ · D_kenar = ⬜ m
-YÜZDE(y)   = 50 + 118,5·(y − h)/D  → taban %⬜ · taç %⬜ · kanıt nesnesi %⬜ (≈ 1280·boy/D = ⬜ px)
-YANLAR     x(m) → %50 + 66,7·x/D → çapa ① (SOL) %⬜ · çapa ② (SAĞ) %⬜ · yapı eni %⬜–%⬜
-GÖLGE      kamera bakışı ⬜° · güneş ⬜→⬜ az → gölge yana ⬜ düşer (yatayda okunur, uzun)
-KALDIRMA   bom başı / en yüksek yük → %⬜ → gök mü kara mı: ⬜ [DERS 22 · ⬜ SAHA ŞARTI varsa buraya]
-⛔ ÖN GÖRSELLEŞTİRME: yan kesit çizildi mi ⬜ (kamera · yapı · çapalar · ufuk · bom)
-```
-
-## 4. 🏗️ VİNÇ / GEÇİCİ EKİPMAN KARARI [DERS 1 · 8 · 22 · 46 · 48 · 57]
-
-```
-GEÇİCİ EKİPMAN  ⬜ (vinç tipi · bom ⬜ m · iskele · kalıp · şantiye yolu) — DEĞİŞMEZLER'e GİRMEZ [DERS 1]
-KANCA           yük hep görünür · kanca boş sarkmaz · kaldırma yolu KAREDE biter (G(n) yük hedefin üstünde asılı,
-                klip yalnız oturtur) [DERS 57] · bom kadraj dışından sarkmaz [DERS 46]
-KAYNAK          her eleman kadrajda nerede birikir → ⬜ [DERS 48]
-SÖKÜM           S⬜'de ekranda gider; usta karede YOK
-```
-
-## 5. ☀️ IŞIK GÜNÜ VE TAKVİM [ZAMAN_VE_ISIK §2 · §6 · §7 · SANTIYE_HAREKETI §1]
-
-```
-IŞIK GÜNÜ   06:00 → ⬜ · Σ pencere = ⬜×A (10 dk) + ⬜×B (2 h) + ⬜×C (9 h) = ⬜ saat ≤ 14 ✓/✗
-            (kesmede ışık atlamaz [§2.7 ①]; 24 sahnede rejim dağılımı: KILAVUZ_REHBERI §2.8 tablosu)
-TAKVİM      ⬜ [ay → ay] · taşıyıcı: ⬜ · KIŞ S⬜ + S⬜ [DERS 7 · 21] · mertebe cümlesi: "⬜" [P1-c]
-GECE        yok / S⬜ (sahip kararı) · final zifirde bitmez [DERS 45]
-GÜNEŞ DİSKİ hiçbir LIGHTING bloğunda anılmaz [DERS 39] · gölge G(n)↔G(n+1) farklı [DERS 32 · 47]
-```
-
-## 6. ⚠️ RİSK — yapı kartının RİSK satırları + bu deponun tekrar eden arızaları
-
-| risk (YAPI_TIPI §⬜ RİSK · SAHA §⬜ · DERS n) | tetiklendi mi | neden | tasarımla düşürüldü mü | kalan risk |
-|---|:--:|---|---|:--:|
-| ⬜ | ⬜ |  |  |  |
-
-### ⭐ 1 NUMARALI RİSK SAYIYLA YAZILIR
-
-```
-RİSK       ⬜ (tek cümle — modelin bu yapıda ne bozacağı)
-SAYI       ⬜ (hangi kilit, hangi yüzde / px / derece bunu tutuyor)
-ÖLÇÜM      hangi mercek yakalar: ⬜ · hangi saniyede bakılır: ⬜
-```
+| **Bilimkurgu sızıntısı** (ışın · bloom · ark) | POLAR HABITAT | negatifte beş ayrı yasak · üs şantiye dilinde yazıldı | araç kapısı ⑩ · QA_SPEC §7 |
+| **⑧ APPEARED** | DUST YEAR 0,0 · BUILT FROM DUST 0,0 | 24 ince aşama · her AT THIS STAGE'de geçici ekipman | prompt kapısı · ⑧ merceği |
+| **⑦ PARKED / IDLE** | BUILT FROM DUST (24 sn daire) | DERS 43 geçişli fiil + büyüyen eleman nesne | prompt kapısı · ⑦ merceği |
+| **Çoğul üs** | DERS 55 (türbin çiftliği) | sayım cümlesi + yerleşim + araç kapısı ⑨ | araç kapısı ⑨ · QA_SPEC §6 |
+| **Operatörlü makine** | DERS 41 | ELLİ makine adı hiç kullanılmadı · mühürlü birim cümlesi | araç kapısı ⑬ |
+| **Ay dili Mars'a** | F1-d (film_md) | "no atmospheric haze" ve "mutlak siyah gölge" YASAK | araç kapısı ⑫ |
+| **Tepenin kendiliğinden erimesi** | ⭐ P4-c | ALINAN → VARIŞ YERİ sütunu · fırtınada ocak durur | QA_SPEC §4 |
+| **Doruğun erken tükenmesi** | ⭐ P4-b | çizgi görünür sırta taşındı · S21 sabit kamera | QA_SPEC §2 · §8 ③ |
+| **Ölçek: ayrıntı çok küçük** | ⭐ P4-e | üç yakınlaşma + px hedefleri + yakın referans denetimi | günlük §0b |
+| **Kutu seti {4,6,8}** | DERS 23 · 31 | 24 ara kare gerekir → karar SAHİBE döner | araç kapısı ① |
+| **16:9 güvenli alan** | ⬜ ÖLÇÜLMEDİ | varsayılan kullanıldı; ⭐ bu film ilk ölçüm | ① koşusu → §2.8 |

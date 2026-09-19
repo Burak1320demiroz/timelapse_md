@@ -50,6 +50,9 @@ and blurred figures, none of them sharp, none of them facing the camera, no
 readable face anywhere. Vehicles render as smeared light and colour trails.
           ⛔ İNSANSIZ FİLMDE bu cümle YAZILMAZ; yerine "No people are present."
           [DERS 33 — koşullu cümle astronot üretti]
+          ⭐ ANA EYLEMİ DESTEKLEYEN AZ SAYIDA UNSUR [C1-d]: hareket sayısı değil,
+          hareketin ana işe hizmeti sayılır. Yükü tutan vincin beklemesi doğrudur;
+          kalabalık okunurluğu düşürür → SANTIYE_HAREKETI §4 "İŞE BAĞLI HAREKET".
 
 SITE TEXTURE: [saha kartından — MALZEME_VE_DOKU §5; BANT ve ALAN yazılır, nesne
 sayılmaz (§2); malzemenin o zaman yayındaki yaşlanma hâli (§4)]
@@ -228,6 +231,10 @@ The scene begins exactly as the provided image. The shot ends exactly on the
 second provided image: its last frame is that image, matched frame for frame —
 same framing, same light, same objects in the same places.
 
+MOTION FOCUS: [TEK ana iş — malzeme NEREDEN kalkıyor, HANGİ taşıyıcıyla, NEREYE
+oturuyor; "from … onto/into …" kalıbı; klip sonunda görünür fark. Bu paragraf
+TEK BAŞINA durur (önü ve arkası boş satır) — kapı onu boş satıra kadar okur.]
+
 [ZAMAN GEÇİŞİ — düz nesir, zaman damgasız, akıcı paragraf:]
 Time passes across [temsil süre]. The shadow of [çapa] sweeps [yön] across
 [yüzey] as the sun climbs and falls. Clouds streak across the sky in long
@@ -255,6 +262,35 @@ cuts. Photorealistic documentary time-lapse cinematography.
 > içeriyor; yeniden tarif edersen model görseli kullanmak yerine yeniden inşa
 > etmeye çalışır ve kadraj kayar. Yalnız **zamanın geçişi** ve
 > **değişmeyecekler** yazılır.
+> ⭐ Dışarıdan doğrulandı (18.09.2026): Google'ın I2V rehberi de aynı şeyi
+> söylüyor — kaynak görsel sahneyi, konuyu ve stili zaten verir, prompt yalnız
+> HAREKETİ yazar. Depoda YAPI BIBLE görsel promptta tekrar edilir (model
+> hafızasızdır, DERS 19); I2V'de edilmez. İki kural çelişmez: biri görsel, biri video.
+
+### ⭐ MOTION FOCUS — TEK ANA İŞ, kendi paragrafında  [C1-c · 18.09.2026]
+
+```
+NEDEN     ② İNŞA 9/15, ⑩ SEBEP 4/5 filmde düştü; F01 · F05 · F08 aynı şeyin üç
+          yüzü: malzemenin nereden gelip nereye oturduğu I2V'de yazılı değildi.
+          Zaman paragrafı "iş adımı" için tek köşeli parantez ayırıyordu ve o
+          parantez "two more floors appear" gibi SONUÇ cümlesiyle dolduruluyordu —
+          bu, ⑩'un "MAGIC" dediği şeyin ta kendisi.
+
+YAZIM     Beş Soru kartının ①②③④ cevabı (SAHNE_PLAN_KARTI §4):
+            MOTION FOCUS: The crawler crane lifts the second tower segment
+            from the stacked pile on the north pad and seats it onto the
+            flange of the first segment; by the last frame the segment
+            stands bolted and the sling hangs empty.
+          · TEK nesne · "from … onto/into …" · son karede görünür fark
+          · ÖNÜ VE ARKASI BOŞ SATIR — kapı paragrafı boş satıra kadar okur
+          · column grid · bay spacing · footprint YAZILMAZ (yeniden tarif kapısı)
+          · < 0,5 m birleşim ayrıntısı (cıvata · harç) YAZILMAZ [INSAAT_YONTEMI §1]
+
+KAPI      prompt_kontrol.py §10e: paragraf yok → FIX · "from … onto" yok → FIX ·
+          ≥3 yapı elemanı adı → FIX ("birden fazla ana iş"). BLOCK değil — pilot
+          filmde ölçülmedi. ⭐ Sahip kararı 19.09.2026: FIX KALIR; BLOCK'a
+          çevirmek ancak pilot ölçümünden sonra yeniden sorulur.
+```
 
 ---
 
@@ -310,6 +346,8 @@ Output: 9:16, 4K, no text, no watermark.
 ```
 The scene begins exactly as the provided image. The shot ends exactly on the second provided image: its last frame is that image, matched frame for frame — same framing, same light, same objects in the same places.
 
+MOTION FOCUS: The tower crane lifts each formwork table from the stack on the east edge of the top slab and seats it onto the fresh slab edge; by the last frame two more bare concrete floors stand on their props and the crane hook hangs empty above the top slab.
+
 Four months pass. The long blue shadow of the red brick block sweeps slowly across the site from the north-east to the north-west as the low winter sun crosses the sky, and thin grey cloud streaks across the frame in long smooth trails, always from the north-west. The tower crane slews slowly back and forth over the top slab and its hook block rises and falls on a taut cable. Two more floors of bare grey concrete frame appear at the top of the tower, each one arriving as a completed slab with props beneath it, and the formwork tables move up with them. Snow gathers grey and tracked at the edges of the site and partly melts. Trucks enter and leave the hoarding as smeared colour trails.
 
 The camera does not move at any point. The framing is identical in the first and last frame. The red brick block with its two chimneys, the leaning cypress tree and the ridge line behind the site stay exactly where they are, at exactly the same size and shape, for the whole shot. The horizon stays at exactly half the frame height. Nothing already built is removed, moved or resized, and no new floor appears without support beneath it. The crane mast never floats, never bends and never changes height.
@@ -328,7 +366,8 @@ No dialogue. No narration. No text. No captions. No logos. No watermark. No cuts
 | Çapayı farklı kelimeyle yazmak | arka plan kayar | tek cümle, altı kez aynı |
 | I2V'de sahneyi yeniden tarif | kadraj kayar, görsel kullanılmaz | yalnız zaman + değişmeyecekler |
 | Güneş satırını atlamak | ışık rastgele, saat ölür | dereceyle yaz |
-| Bir klipte iki iş adımı | geometri erir | bir klip = bir iş adımı |
+| Bir klipte iki iş adımı | geometri erir | bir klip = bir iş adımı — MOTION FOCUS tek nesne [C1-c] |
+| I2V'de iş adımı SONUÇ cümlesiyle yazılmış ("two floors appear") | ⑩ SEBEP "MAGIC" · F01 | MOTION FOCUS: nereden · hangi taşıyıcı · nereye |
 | "no logo" tek nesneye bağlı | tabelada/yelekte yazı çıkar | yüzey yüzey say |
 | Temiz şantiye | emlak render'ı | SITE TEXTURE bloğu zorunlu |
 | Net işçi yüzü | tekinsiz vadi + AI algısı | bulanık çizgi olarak yaz |

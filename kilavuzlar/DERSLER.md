@@ -2496,6 +2496,199 @@ P3-i  ⛔ "KONTROL GRUBU" GEREKÇESİ KAMERA KARARI VEREMEZ
 
 ---
 
+## 🎬 P4 — PLAN OKUMASI · THE BORROWED HILL · 17.09.2026
+
+> Kaynak: `arastirma/SONUCLAR/P7_THE_BORROWED_HILL_OKUMA_HAM.md` (uzman okuması ·
+> YAZILMAMIŞ bir planı okudu). Kaynak sınıfı **uzman okuması**. ⛔ Hiçbiri ölçülmedi.
+>
+> ⭐ **BU OKUMANIN ÖZELLİĞİ: BİR HESAP HATASI YAKALADI.** Deponun bir planı ilk kez
+> kendi formülüyle çelişkisinden düzeltildi — iddia değil, aritmetik.
+
+```
+P4-a  ⛔ AÇILIŞ, TÜRÜN GENEL GÖRÜNTÜSÜ DEĞİL FİLMİN KENDİ FİKRİ OLMALI
+      İlk sahne "ilk tekerlek izi" idi: Mars yüzeyinde atmosfer kurar ama "birçok keşif
+      aracı videosuna ait olabilir". Filmin kendi vaadi (tepe → örtü) ancak 2:30'da
+      kuruluyordu. Kural: ilk on saniye, o filmden BAŞKA bir filme ait olamayacak olayı
+      göstermeli. ⇒ S0 tepenin ilk yarası oldu. ⇒ KAMERA_HAREKETI §4'ün akrabası
+P4-b  ⭐ DORUK, GÖRÜNMEZ BİR ÇİZGİYE BAĞLANAMAZ — VE HESABI ÖNCE YAPILIR
+      "Tepe ufkun altına iner" doruğu S21'e konmuştu; okuma, verilen kamera yüksekliğiyle
+      (h=12 m) tepenin S18'de %50'ye geldiğini hesapladı — olay doruktan ÜÇ SAHNE ÖNCE
+      tükeniyordu. İki düzeltme: (1) kamera 12,0 → 6,0 m, (2) çizgi geometrik ufuk
+      (%50,0 · GÖRÜNMEZ) yerine ⭐ uzak krater sırtı (%51,6 · GÖRÜNÜR) seçildi.
+      Kural: siluet olayının çizgisi izleyicinin GÖREBİLECEĞİ bir nesne olmalı; ufuk
+      bir nesne değildir. ⇒ KAMERA_ISTASYONU §3 · QA_SPEC §2
+P4-c  ⭐ EKSİLEN MALZEMENİN GÖRÜNÜR BİR VARIŞ YERİ OLMALI
+      Tepe kırağı, tank ve fırtına sahnelerinde de küçülüyordu; kazı görünmediği için
+      izleyici "taşınıyor" değil "kendiliğinden eriyor" okur. Kural: tepeden eksilen
+      malzemenin AYNI ya da SONRAKİ sahnede görünür bir varış yeri vardır — merdivene
+      "ALINAN → VARIŞ YERİ" sütunu eklendi. Ve iş durursa GEOMETRİ DE DURUR: fırtına
+      klibinde ocak durur, fırtınadan sonra yeni bitmiş iş belirmez.
+      ⇒ INSAAT_YONTEMI · FIZIK_VE_AGIRLIK · QA_SPEC §4
+P4-d  "MALZEME YERELDİR" CÜMLESİ AYRIŞTIRILIR
+      "Malzeme Mars'tan geliyor" → ⭐ "ÖRTÜ VE DOLGU Mars'tan geliyor". Çelik, panel,
+      kablo ve tank Dünya'dan gelir ve kadrajda DOLU BAŞLAYIP BOŞALAN bir malzeme alanı
+      ister. İki ters sayaç doğdu: yığın boşalır, tümsek büyür. ⇒ QA_SPEC §5
+P4-e  ⭐ GENİŞ PLANDA OLAY, BÜYÜK BİÇİM DEĞİŞİMİDİR — KÜÇÜK AYRINTI DEĞİL
+      95 m'de 1,0 m = 13 px. Cıvata, dikiş, ince kablo ve küçük pencere geniş planda
+      sahne olayı olamaz. Geniş planın olayları: kemerin ayağa kalkması, açıklığın
+      kapanması, toprak kütlesinin büyümesi, siluetin çizgi geçmesi. Küçük ama anlamlı
+      ayrıntılar için yakınlaşma kullanılır — ve ⛔ "her sahnede kullanırsan etkisi
+      azalır": üç ana yeter. ⇒ KAMERA_HAREKETI §3.2 ⑦ ile aynı yönde
+P4-f  ⛔ SON BÜYÜK DÖNÜŞÜMDEN SONRA YENİ MONTAJ İŞİ AÇILMAZ
+      Doruk (S21) ile final (S23) arasına anten ve boru montajı konmuştu; izleyiciyi
+      yapım sürecine geri döndürüyordu. Kural: doruktan sonraki sahneler yalnız
+      BOŞALMA ve ÖDÜL taşır. ⇒ anten S6'ya, tanklar S17'ye alındı
+P4-g  ⚠️ KORUMA İDDİASI YAPILMAZ
+      "2 m örtü = radyasyon güvenliği" sunulmaz; koruma radyasyonun türüne ve malzemeye
+      bağlıdır. Örtü kalınlığı filmin TASARIM VARSAYIMIDIR ve öyle beyan edilir.
+      Aynı disiplin: hava olaylarında da "ÇÖZÜLÜR" yerine "KIRAĞI ÇEKİLİR" — sözcük
+      Mars'ta olmayan bir su hâlini çağırmamalı.
+P4-h  ⭐ EŞİT SÜRE, EŞİT RİTİM DEĞİLDİR — VE 24 SAHNE HATAYI ÇÖZMEZ
+      İki ayrı uyarı, aynı yerden: (1) süre eşitliği ritmi öldürmez; ritim ilk değişimin
+      anı, hareketin büyüklüğü, ilerleyen malzeme sınırı, duraklama, ses ve odakla
+      çeşitlenir — her klibe aynı 2–4–2 dağılımı zorunlu değildir. (2) Aşamaları
+      inceltmek ⑧'i kendiliğinden çözmez; daha fazla sahne, nesnenin şekil ve yer
+      değiştirebileceği daha fazla GEÇİŞ demektir.
+      ⇒ Ve buradan bir yordam çıktı: ⭐ 49 istem yazılmadan önce ÜÇ ZOR AN denenir.
+        Bu filmde: ilk kazı · ilk örtüleme · pencereye yaklaşma ve dönüş [günlük §0c]
+P4-i  ⛔ "KONTROL GRUBU" GEREKÇESİ KAMERA KARARI VEREMEZ — İKİNCİ KEZ
+      P3-i ile aynı hüküm, bu kez ters yönden: "sabit çekelim, öbürüne kontrol olur"
+      değil, "hareket koyalım" gerekçesi de performansa dayandırılamaz. Konu, manzara,
+      hareket ve final birlikte değişiyorsa fark kameraya bağlanamaz. Kamera kararı
+      o filmin FİNALİNİN OKUNMASINA göre verilir.
+      ⇒ KAMERA_HAREKETI §10'un karşılaştırma borcu ikinci kez zayıfladı.
+```
+
+---
+
+## 🎬 P5 — PLAN KARARI · ONE MORE TURN · 18.09.2026 · ⭐ REJİM G (GERÇEK ZAMAN)
+
+> Kaynak: proje sahibinin konsepti + sohbette onaylanan plan (`dikey_shorts/ONE_MORE_TURN/`).
+> Kaynak sınıfı **tasarım varsayımı**. ⛔ Hiçbiri ölçülmedi; ilk koşu bu filmdir.
+
+```
+P5-a  ⭐ SIKIŞTIRILAMAYAN OLAY İÇİN DÖRDÜNCÜ REJİM: G = 1×
+      Bir su çarkı 8 saniyede bir tur atar. Rejim A'da (10 dk) bu 75 turdur — bulanık
+      bir disk; ödül görünmez. Rejim B/C'de hiç. Deponun üç rejimi (A · B · C) yapının
+      BÜYÜMESİNİ sıkıştırır; yapının ÇALIŞMASI gerçek hızda okunur. ⇒ SANTIYE_HAREKETI
+      §1'e rejim G satırı; prompt_kontrol.py'ye "moves at natural speed · eight seconds
+      pass" imzası. Işık gününe 0 dk yazar; gölge KIPIRDAMAZ; dere ipek değil dalgadır.
+P5-b  ⭐ GERÇEK ZAMANDA İNSAN GÖRÜNÜR — AMA SIRTI DÖNÜK
+      Rejim A/B'de insan iz olarak yazılır [DERS 15]. 1×'te iz yoktur; figür net çıkar
+      ve yüz üretilir. Kural: rejim G'de en fazla BİR figür, "back to the camera / no
+      readable face" — kapı bunu ister. Figürün işi tek nesneye bağlıdır (çıkrık).
+P5-c  ⚠️ REJİM DİKİŞİ KESMEDE OLUR VE BEYAN EDİLİR
+      B → G geçişinde dere ipekten dalgaya, gölge süpürmeden durmaya döner. Bu kesme
+      (32,0) filmin en görünür dikişidir; müziksiz pencere oraya konur, mercek
+      ① / ③ hükmü BEKLENEN sayılır. İki rejim aynı klibe KONMAZ.
+P5-d  ⚠️ BİRİNCİ RİSK: G(n) ≈ G(n+1) OLAN KLİP DURGUN GELEBİLİR
+      Bir tam turun ilk ve son karesi aynıdır; I2V modeli "hiç dönmedi" ile "bir tur
+      döndü" arasında ayrım yapamaz. Kanıt klip İÇİNDEN alınır: 0 · 4 · 8 sn'de işaretli
+      kol açısı [günlük §0 ⑯]. Ölçülene kadar bu, rejim G'nin açık sorusudur.
+```
+
+---
+
+## 🔎 C1 — ÇAPRAZ ANALİZ · 15 film · 12 mercek · 18.09.2026 · dış değerlendirmeyle düzeltildi
+
+> Kaynak: `QA/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/HAM_RAPORLAR/` altındaki 15 dikey
+> filmin ham raporlarının çapraz okuması + aynı gün gelen dış değerlendirme.
+> Sayılar: `python3 araclar/capraz_sayim.py` (elle yazılan ilk sürüm 138 dedi,
+> matris 132 veriyordu; ② İNŞA 11/15 dedi, 9/15'ti — sayı tek yerde durur).
+>
+> ⛔ **BU BÖLÜMDEKİ HİÇBİR MADDE ÖLÇÜLMÜŞ DERS DEĞİLDİR.** Çapraz analiz geçmiş
+> filmlerin RAPORLARINI okudu, yeni film üretmedi; dış değerlendirme bir okumadır.
+> Kaynak sınıfı: ÖLÇÜLMÜŞ QA raporlarının SENTEZİ + dış okuma → hepsi VARSAYIM.
+> Her madde ilk pilot üretimden sonra ya numaralı derse döner ya düşer. Kapıdaki
+> karşılıkları bu yüzden FIX/INFO, BLOCK değil.
+>
+> ⭐ Bu kuşağın düzelttiği varsayım: "prompta etiket koyunca sorun çözülür."
+> Etiket PLANLAMA kontrolüdür; görüntü ayrı aşamada doğrulanır (QA/00_README §7).
+
+```
+C1-a ⭐ BEŞ SORU KARTI — malzeme nerede · taşıyıcı · nereye oturur · ne değişti ·
+      ne sabit; prompttan ÖNCE, klip başına                     [VARSAYIM · sentez]
+      ② İNŞA 9/15, ⑩ SEBEP 4/5 filmde 4,0 altı; F01 · F05 · F08 aynı sorunun üç yüzü.
+      ⇒ kilavuzlar/SAHNE_PLAN_KARTI.md · 00_SAHNE_TABLOSU "BEŞ SORU" sütunu ·
+        üretim günlüğü "beş soru ✓" + "baş/orta/son" hücreleri
+C1-b ⭐ FİNAL ÜRETİLEBİLİRLİK TESTİ — zincirin ilk halkası: referans + ilk I2I
+      halkası + çalışan final, üçü onaylanmadan zincir sürmez   [VARSAYIM · sentez]
+      BUILT FROM DUST · DUST YEAR · CLOSING SPAN sonuna kadar üretildi, ⑧ 0,0.
+      ⇒ KILAVUZ_REHBERI §8 adım 2b · üretim günlüğü §1b PİLOT ÜÇLÜ · AGENTS kart B 1b
+C1-c ⭐ MOTION FOCUS — I2V'de tek ana iş, kendi paragrafında, "from … onto …"
+      kalıbı; ≥3 yapı elemanı = birden fazla iş                 [VARSAYIM · dış okuma]
+      Google I2V rehberi "prompt for motion only" der; depodaki P2-d ile aynı yön.
+      ⇒ PROMPT_SABLONU §2 · prompt_kontrol.py §10e (FIX)
+      ⚠️ _blok() I2V'de sona kadar yakalar — ayrı ayıklayıcı, boş satıra kadar
+         (165 I2V'de ölçüldü: eski ayıklayıcıyla 128 yanlış geçiş)      [ÖLÇTÜM]
+C1-d ⭐ İŞE BAĞLI HAREKET — hareket sayısı değil ana işe hizmet; yükü tutan vinç
+      PARKED değil; finalde şantiye hareketi aranmaz; toz/egzoz kanıt değil
+                                                                [VARSAYIM · sentez]
+      OVER_THE_WALL: ⑪ 9,3 · ⑧ 0,0 · ⑩ 1,3 — araç varlığı ≠ yapıyla bağ.
+      ⇒ SANTIYE_HAREKETI §3 not · §4 giriş · §4.7 · PROMPT_SABLONU ACTIVITY ·
+        prompt_kontrol.py ACTIVITY >4 → INFO
+C1-e ⭐ EŞİT SÜRE TEK BAŞINA KÖTÜ RİTİM DEĞİLDİR — ritmi klip başına FARKLI
+      görünür sonuç taşır; sahip dikey süreyi sabit ilan etti  [VARSAYIM · dış okuma]
+      ⛔ DERS 13 · 24 · 44 SİLİNMEDİ — ölçülmüş karşı kayıt olarak durur.
+      ⇒ KILAVUZ_REHBERI §2.2 karşı kayıt · KURGU_VE_TESLIM §2.4 klip içi denetim ·
+        prompt_kontrol.py "süreler eşit" FIX mesajı (beyanlı) · 06 deney adım 3-4 ölçer
+C1-f ⭐ ORANSAL KAYMA EŞİĞİ + 3 NİRENGİ + ANA REFERANS — eşik = genişlik × oran;
+      genel kayma ile yerel deformasyon ayrılır; her kare öncekiyle VE usta kareyle
+                                                                [VARSAYIM · dış okuma]
+      "2 px" dört yerde kopyalıydı → tek yer: zincir_kontrol.sh ESIK_KAYMA_ORAN.
+      ⚠️ Oran deponun ölçülmüş 2 px @ 1080'inden türedi; dış okumanın "%1"i alınmadı
+         — sahip 19.09.2026'da onayladı. MOTION FOCUS kapısı da sahip kararıyla FIX kaldı.
+      ⇒ KAMERA_ISTASYONU §7 · zincir_kontrol.sh (ölçek eşitleme · px satırı · 3. argüman)
+      ⛔ Betik hatası ÖLÇÜLDÜ: farklı çözünürlükte SSIM boş dönüyor, awk boş dizeyi
+         0 sayıp her eşiği ⛔ veriyordu — sebep söylenmeden.               [ÖLÇTÜM]
+C1-g ⭐ SAHNEYE ÖZGÜ DIŞLAMA — evrensel negatif blok tek başına engellemez;
+      F10 üç ayrı durumdur (uydurma yazı · kaynak izi · filigran)  [VARSAYIM · dış okuma]
+      ⇒ KILAVUZ_REHBERI §7 giriş + metin yasağı notu
+C1-h ⭐ ÜÇ NOKTA KONTROLÜ — açılış (sorun + başlamış eylem) · kapak (yalnız
+      gerçekleşen) · final (çalışan sonuç); kadraj döngüsü var, durum döngüsü
+      aranmaz                                                    [VARSAYIM · dış okuma]
+      F09 6/14 filmde. Açılış tercihi KURAL DEĞİL, 06 deney adım 1-2'de ölçülür.
+      ⇒ MUZIK_VE_KAPAK §5 · KURGU_VE_TESLIM §7
+```
+
+---
+
+## 🛰️ F1 — KARDEŞ DEPODAN DEVRALINAN · film_md · 17.09.2026
+
+> Kaynak: `../film_md/kilavuzlar_ve_sistem_dosyalari/UZAY_USSU_VE_ISTASYON_MIMARISI_KILAVUZU.md`
+> ⛔ **ÇİFTE VARSAYIM:** bu maddeler o depoda da ölçülmedi (kılavuzun kendi §0'ı
+> "DÜRÜST KAYIT — bu kılavuzun sınırları" diye açılıyor). Burada VARSAYIMDIR ve ilk
+> üretimden sonra ya derse döner ya düşer.
+> ⚠️ Ve `KILAVUZ_REHBERI §1.2` gereği film_md'nin tema/novum/karakter kapıları BURADA
+> GEÇMEZ; aşağıdakiler yalnız FİZİKSEL ve GÖRSEL maddelerdir.
+
+```
+F1-a  ⭐ MARSTA İZ SİLİNİR, AYDA İZ BİRİKİR                        [VARSAYIM]
+      Ayda patika hiç silinmez: ezilir, sıkışır, altındaki koyu regolit çıkar ve
+      kararır. Marsta patika DOLAR ve yumuşar; her yüzey aynı kızıl okside boyanır.
+      ⇒ Yaş, izin keskinliğiyle değil KAYBOLMASIYLA okunur. İkisi TERS çalışır.
+      ⇒ THE BORROWED HILL'in ikinci zaman taşıyıcısı budur. ⇒ MALZEME_VE_DOKU §4
+F1-b  ÖRTÜ 1,5–2,5 m REGOLİT = GÜNEŞ PATLAMASI SIĞINAĞI MERTEBESİ  [VARSAYIM]
+      ⛔ "Dünya atmosferi eşdeğeri" DEĞİLDİR — eşdeğerlik için ~6,5 m gerekir.
+      Görsel sonuç: üs narin bir laboratuvar değil, GÖMÜLÜ BİR TÜMSEKTİR.
+      ⚠️ P4-g ile birlikte okunur: kalınlık tasarım varsayımıdır, koruma iddiası değil.
+F1-c  BASINÇ KABI KÖŞELİ OLAMAZ — iç basınç köşede yırtar. Küre ideal, fırlatma
+      kaportası silindiri dayatır: her şey silindir, kapsül ya da torustur. [VARSAYIM]
+      ⇒ Kemer kaburgalı tonoz doğru biçimdir. ⇒ YAPI_TIPI_KARTLARI (kart açılacak)
+F1-d  ⛔ AY BLOĞU MARS'A YAPIŞTIRILMAZ                              [VARSAYIM · kapı]
+      Mars'ta atmosferik saçılma VARDIR: "no atmospheric haze" ve "shadows absolutely
+      black" cümleleri orada FİZİK HATASI yazdırır. Gölge zayıf ve yumuşak kenarlıdır,
+      dolgu ışığı motivasyonludur — bu MEŞRUDUR, render hatası değildir.
+      ⇒ HAVA_VE_ATMOSFER · araç kapısı ⑫ (THE BORROWED HILL günlüğü)
+F1-e  ⛔ "fabric · cloth · blanket" PROMPT GÖVDESİNE GİRMEZ         [VARSAYIM]
+      Model onları yeryüzü kumaşı sanıp dalgalandırır. Pozitif ve KATI adla yazılır:
+      "taut foil-skinned insulation panels" · "a weighted mesh clamped at its edges".
+      ⚠️ Dünya filmlerinin "curing blanket" sözcüğü uzay sahasına TAŞINMAZ.
+      ⇒ MALZEME_VE_DOKU · PROMPT_SABLONU
+```
+
+---
+
 ## 🎬 DÖRT FİLM OKUMASI — aynı yapımcı, dört üretilmiş film, burada VARSAYIM
 
 > ⛔ **Hiçbiri ölçülmedi.** Kaynak: `arastirma/SONUCLAR/P2_THE_LONG_SHADOW_OKUMA_HAM.md`

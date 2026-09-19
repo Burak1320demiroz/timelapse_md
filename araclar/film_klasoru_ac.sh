@@ -104,9 +104,9 @@ damga={
  "<KARE_SATIRLARI>": "\n".join(f"| {g} | ⬜ | ⬜° | ⬜° | ⬜ | ⬜ | ⬜ | " + ("⭐ USTA KARE — tamam, söküm bitti" if g==N else ("⭐ bölüm sınırı — ⬜" if g==K else "⬜")) + " |" for g in range(N+1)),
  "<SIRALAMA_SATIRLARI>": "\n".join(f"| S{n:02d} | {KLIP},0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |" for n in range(N)),
  "<SPEC_SATIRLARI>": "\n".join(f"| S{n:02d} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |" for n in range(N)),
- "<TABLO_SATIRLARI>": "\n".join(f"| S{n:02d} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |" for n in range(N)) + f"\n| G{N} ⭐ | USTA KARE | ⬜ | söküm: hepsi gitti | ⬜ | ⬜ | ⬜ | — | ⬜ | ⬜ |",
+ "<TABLO_SATIRLARI>": "\n".join(f"| S{n:02d} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |" for n in range(N)) + f"\n| G{N} ⭐ | USTA KARE | ⬜ | söküm: hepsi gitti | ⬜ | ⬜ | ⬜ | — | ⬜ | — | ⬜ |",
  "<ZINCIR_SATIRLARI>": "\n".join(f"| {g} | | G{g+1} | | | geçti/düştü | ✓/✗ | ✓/✗ | " + ("⭐ bölüm sınırı karesi" if g==K else "") + " |" for g in range(N-1,-1,-1)),
- "<I2V_SATIRLARI>": "\n".join(f"| {n} | | | G{n} | G{n+1}{' (usta kare)' if n+1==N else ''} | geçti/düştü | | | 30/0 | {KLIP},0 | | |" for n in range(N)),
+ "<I2V_SATIRLARI>": "\n".join(f"| {n} | | | G{n} | G{n+1}{' (usta kare)' if n+1==N else ''} | geçti/düştü | | | 30/0 | {KLIP},0 | | ✓/✗ | ✓✗✗ | |" for n in range(N)),
 }
 def cizelge():
     rows=[]

@@ -67,6 +67,9 @@ If the slate cannot be filled, stop and return **UNVERIFIABLE**.
 - Where you judge how much time a cut communicates, say what you read it from.
 - If audio is absent or cannot be assessed, write `NOT AUDIBLE` in Category 7
   and score it `NOT TRIGGERED`. Do not guess.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 

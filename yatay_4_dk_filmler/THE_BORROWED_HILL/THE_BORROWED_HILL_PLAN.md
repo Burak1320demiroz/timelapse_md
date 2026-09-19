@@ -206,35 +206,35 @@ OCAK       katmanlı tepecik — üçgen prizma 34,0 × 18,0 × 16,0 m = 4.896 m
 
 | S | SÜRE | FİİL | ELEMAN + ARA HÂL | REJİM | SAAT | TEPE h → h · kadraj | ALINAN → VARIŞ YERİ | YIĞIN | MEVSİM TAŞIYICISI | KAMERA |
 |:-:|:---:|---|---|:-:|---|---|---|:-:|---|---|
-| 0 | 10,0 | AÇAR | ocak açılır — tepenin kuzey eteğinde ilk kesik, farklı renkli tabaka açığa çıkar (%0 → %4) | B | 06:20 | 16,0 → 15,7 m · %66,9 → %66,4 | 190 m³ → ocak önü ilk yığın | %100 | berrak gök · el değmemiş sırtlar · hiç iz yok | ⭐ 1,0× → 2,0× → 1,0× |
-| 1 | 10,0 | TAŞIR | nakliye hattı sürülür + pad yerinde ilk stok yığını (%15) | A | 08:20 | 15,7 → 15,3 m · %66,4 → %65,8 | 210 m³ → pad yerinde stok yığını | %100 | ilk izler keskin | sabit |
-| 2 | 10,0 | SIYIRIR | pad sıyrılır — rüzgâr sırtları pad üstünde kalkar (%60) | B | 08:30 | 15,3 → 14,8 m · %65,8 → %64,9 | 300 m³ → kenar bermi + stok | %100 | gölge süpürmesi · sırtlar pad üstünde ölür | sabit |
-| 3 | 10,0 | SIKIŞTIRIR | pad dolgusu serilir ve sıkıştırılır (%100) + kenar bermi | A | 10:30 | 14,8 → 14,5 m · %64,9 → %64,3 | 200 m³ → pad dolgusu | %96 | pad yüzeyi koyulaşır | sabit |
-| 4 | 10,0 | İŞARETLER | sığınak aksı ve hendek hattı kazıklanır, ip gerilir (%100) | A | 10:40 | 14,5 → 14,1 m · %64,3 → %63,6 | 220 m³ → pad dolgusu | %92 | ilk izler yumuşamaya başlar | sabit |
-| 5 | 10,0 | DİZER | panel tarlası sıraları dikilir (%100) | A | 10:50 | 14,1 → 13,7 m · %63,6 → %63,1 | 180 m³ → panel şeridi tesviyesi | %78 | paneller temiz · yığın eksiliyor | sabit |
-| 6 | 10,0 | GÖMER | kablo hendeği kazılır, kablo serilir, örtülür (%100) | A | 11:00 | 13,7 → 13,4 m · %63,1 → %62,6 | 140 m³ → hendek dolgusu | %74 | kablo hendeği çizgisi taze | sabit |
-| 7 | 10,0 | DİKER | anten direği temeline dikilir, gergi telleri gerilir (%100) | A | 11:10 | 13,4 → 13,2 m · %62,6 → %62,3 | 100 m³ → direk temeli dolgusu | %62 | direk gölgesi ovayı keser | sabit |
-| 8 | 10,0 | KAZAR | hendek kazısı — 2,0 m derinlik, 14,0 m genişlik (%70) | B | 11:20 | 13,2 → 13,0 m · %62,3 → %61,9 | 100 m³ → pasa → stok yığını | %62 | uzun gölge · pasa yığını büyür | sabit |
-| 9 | 10,0 | BASAMAKLAR | hendek yüzleri basamaklanır, pasa banklanır (%100 kazı) | A | 13:20 | 13,0 → 12,9 m · %61,9 → %61,7 | 80 m³ → banket + stok | %60 | hendek yüzleri basamaklı | sabit |
-| 10 | 10,0 | PİŞİRİR | sinterlenmiş regolit temel kirişleri hendek tabanına dökülür (%100) | A | 13:30 | 12,9 → 12,7 m · %61,7 → %61,4 | 70 m³ → hendek tabanı düzeltme | %52 | sinter kirişleri açık gri | sabit |
-| 11 | 10,0 | KALDIRIR | kemer kaburgaları dikilir — 14 kaburganın 5'i (%35) | A | 13:40 | 12,7 → 12,6 m · %61,4 → %61,2 | 70 m³ → kaburga temeli dolgusu | %40 | yığın yarıya indi | sabit |
-| 12 | 10,0 | TAMAMLAR | kaburga dizisi baştan sona kapanır + çaprazlama (%100) | A | 13:50 | 12,6 → 12,5 m · %61,2 → %61,0 | 50 m³ → çalışma apronu | %30 | kaburga dizisi gökyüzünü tarar | sabit |
-| 13 | 10,0 | KAPLAR | kabuk panelleri kaburgalara cıvatalanır (%80) | A | 14:00 | 12,5 → 12,4 m · %61,0 → %60,9 | 40 m³ → çalışma apronu | %18 | kabuk paneli yığını erir | sabit |
-| 14 | 10,0 | KAPATIR | hava kilidi portalı ve iki uç kapağı oturur (%100 kabuk) | A | 14:10 | 12,4 → 12,3 m · %60,9 → %60,7 | 40 m³ → portal önü rampası | %10 | hava kilidi portalı kapanır | sabit |
-| 15 | 10,0 | ÖRTER | ⭐ örtünün ilk serimi — kabuğun üstüne ilk toprak (%35) | B | 14:20 | 12,3 → 10,9 m · %60,7 → %58,3 | 630 m³ → ⭐ KABUĞUN ÜSTÜ — ilk serim | %10 | örtünün ilk şeridi · izler dolmuş | ⭐ 1,0× → 1,8× → 1,0× |
-| 16 | 10,0 | DONAR | kış ① kırağı — ince serim sürer (%40) | A | 16:20 | 10,9 → 10,8 m · %58,3 → %58,1 | 60 m³ → iş yavaşlar — ince serim | %10 | kırağı · kuzey yüzler beyaz | sabit |
-| 17 | 10,0 | KIRAĞI ÇEKİLİR | kış ② kırağı çekilir, çizgi tümseğin biçimini yazar (%45) | A | 16:30 | 10,8 → 10,7 m · %58,1 → %57,9 | 40 m³ → berm eteği | %10 | kırağı çizgisi bermin biçimini yazar | sabit |
-| 18 | 10,0 | KURAR | tank çifti kendi pad'ine oturur + boru hattı gömülür (%100) | A | 16:40 | 10,7 → 10,5 m · %57,9 → %57,6 | 70 m³ → tank pad bermi | %4 | paneller grileşiyor | sabit |
-| 19 | 10,0 | KARARIR | ⛔ toz fırtınası — görüş düşer, makineler durur, DEĞİŞİM YOK (%45) | A | 16:50 | 10,5 → 10,5 m · %57,6 → %57,6 | 0 m³ → ⛔ ALINMAZ — ocak DURUR | %4 | ⛔ fırtına · görüş düşer · makineler durur | sabit |
-| 20 | 10,0 | SİLER | paneller silinir, iş yeniden başlar — örtü (%50) | A | 17:00 | 10,5 → 10,3 m · %57,6 → %57,3 | 77 m³ → eleme reddi yığını | %4 | gök berraklaşır · paneller yeniden parlar | sabit |
+| 0 | 10,0 | AÇAR | ocak açılır — tepenin kuzey eteğinde ilk kesik, parlak ayrışmamış bant açığa çıkar (%0 → %4) | B | 06:20 | 16,0 → 15,7 m · %66,9 → %66,4 | 190 m³ → ocak önü ilk yığın + pad'e ilk yük | %100 | berrak gök · el değmemiş sırtlar · hiç iz yok | ⭐ 1,0× → 2,0× → 1,0× |
+| 1 | 10,0 | TAŞIR | nakliye hattı sürülür + pad yerinde stok yığını + pad kazıklanır (%15) | A | 08:20 | 15,7 → 15,3 m · %66,4 → %65,8 | 210 m³ → pad yerinde stok yığını | %100 | ilk izler keskin | sabit |
+| 2 | 10,0 | SIYIRIR | pad sıyrılır — rüzgâr sırtları pad üstünde kalkar (%100 sıyırma) | B | 08:30 | 15,3 → 14,8 m · %65,8 → %64,9 | 300 m³ → kenar windrow + stok | %100 | gölge süpürmesi · sırtlar pad üstünde ölür | sabit |
+| 3 | 10,0 | SIKIŞTIRIR | pad dolgusu serilir, sıkıştırılır, kenar bermi + hendek hattı kazıklanır (%100) | A | 10:30 | 14,8 → 14,5 m · %64,9 → %64,3 | 200 m³ → pad dolgusu | %96 | pad yüzeyi koyulaşır | sabit |
+| 4 | 10,0 | DÜZLER | panel şeridi tesviye edilir, ilk panel sıraları dikilir (%30) | A | 10:40 | 14,5 → 14,1 m · %64,3 → %63,6 | 220 m³ → panel şeridi tesviyesi | %92 | ilk izler yumuşamaya başlar | sabit |
+| 5 | 10,0 | DİZER | panel tarlası tamamlanır + kablo hendeği kazılır ve kablo serilir (%100 / %50) | A | 10:50 | 14,1 → 13,7 m · %63,6 → %63,1 | 180 m³ → kablo hendeği yatağı | %78 | paneller temiz · yığın eksiliyor | sabit |
+| 6 | 10,0 | DİKER | anten direği üç bölüm hâlinde dikilir, gergi telleri gerilir (%100) | A | 11:00 | 13,7 → 13,4 m · %63,1 → %62,6 | 140 m³ → direk temeli dolgusu | %74 | direk gölgesi ovayı keser | sabit |
+| 7 | 10,0 | KAZAR | hendek kazısı — 2,0 m derinlik, 14,0 m genişlik (%90) | B | 11:10 | 13,4 → 13,2 m · %62,6 → %62,3 | 100 m³ → pasa sırtı → stok yığını | %62 | uzun gölge · pasa sırtı büyür | sabit |
+| 8 | 10,0 | BASAMAKLAR | hendek yüzleri iki basamağa çekilir, taban tesviye edilir (%100 kazı) | A | 13:10 | 13,2 → 13,0 m · %62,3 → %61,9 | 100 m³ → tesviye tabakası | %62 | hendek yüzleri basamaklı | sabit |
+| 9 | 10,0 | PİŞİRİR | sinterlenmiş regolit temel kirişleri dökülür, ankraj pimleri konur (%100) | A | 13:20 | 13,0 → 12,9 m · %61,9 → %61,7 | 80 m³ → hendek tabanı düzeltme | %60 | sinter kirişleri açık gri | sabit |
+| 10 | 10,0 | KALDIRIR | ilk beş kemer kaburgası dikilir, payandalanır (%35) | A | 13:30 | 12,9 → 12,7 m · %61,7 → %61,4 | 70 m³ → kaburga temeli çevresi | %52 | yığın yarıya indi | sabit |
+| 11 | 10,0 | TAMAMLAR | kaburga dizisi baştan sona kapanır + aşık ve çapraz (%100) | A | 13:40 | 12,7 → 12,6 m · %61,4 → %61,2 | 70 m³ → çalışma apronu | %40 | kaburga dizisi gökyüzünü tarar | sabit |
+| 12 | 10,0 | KAPLAR | kabuk panelleri kaburgalara cıvatalanır (%80) | A | 13:50 | 12,6 → 12,5 m · %61,2 → %61,0 | 50 m³ → çalışma apronu | %30 | kabuk paneli yığını erir | sabit |
+| 13 | 10,0 | KAPATIR | uç kapakları ve hava kilidi portalı oturur, dikişler kapanır (%100 kabuk) | A | 14:00 | 12,5 → 12,4 m · %61,0 → %60,9 | 40 m³ → portal önü rampası | %18 | hava kilidi portalı kapanır | sabit |
+| 14 | 10,0 | ÖRTER | ⭐ örtünün ilk serimi — kabuğun üstüne ilk toprak (%35) | B | 14:10 | 12,4 → 10,9 m · %60,9 → %58,3 | 670 m³ → ⭐ KABUĞUN ÜSTÜ — ilk serim | %10 | örtünün ilk şeridi · izler dolmuş | ⭐ 1,0× → 1,8× → 1,0× |
+| 15 | 10,0 | DONAR | kış ① kırağı — ince serim sürer, ağırlıklı file battenlenir (%40) | A | 16:10 | 10,9 → 10,8 m · %58,3 → %58,1 | 60 m³ → iş yavaşlar — ince serim | %10 | kırağı · kuzey yüzler beyaz | sabit |
+| 16 | 10,0 | KIRAĞI ÇEKİLİR | kış ② kırağı çekilir, çizgi tümseğin biçimini yazar (%45) | A | 16:20 | 10,8 → 10,7 m · %58,1 → %57,9 | 40 m³ → berm eteği | %10 | kırağı çizgisi tümseğin biçimini yazar | sabit |
+| 17 | 10,0 | KURAR | tank çifti kendi pad'ine oturur + boru hattı gömülür (%100) | A | 16:30 | 10,7 → 10,5 m · %57,9 → %57,6 | 70 m³ → tank pad bermi | %10 | paneller grileşiyor | sabit |
+| 18 | 10,0 | KARARIR | ⛔ toz fırtınası — görüş düşer, makineler park edilir, ÖRTÜ DEĞİŞMEZ (%45) | A | 16:40 | 10,5 → 10,5 m · %57,6 → %57,6 | 0 m³ → ⛔ ALINMAZ — ocak DURUR | %4 | ⛔ fırtına · görüş düşer · makineler durur | sabit |
+| 19 | 10,0 | SİLER | paneller silinir, hava açılır, iş yeniden başlar (%45) | A | 16:50 | 10,5 → 10,4 m · %57,6 → %57,4 | 40 m³ → eleme reddi yığını | %4 | gök berraklaşır · paneller yeniden parlar | sabit |
+| 20 | 10,0 | YÜKSELTİR | örtü krona doğru yükselir (%50) | A | 17:00 | 10,4 → 10,3 m · %57,4 → %57,3 | 37 m³ → kabuğun üstü — ara serim | %4 | örtü krona doğru çıkar | sabit |
 | 21 | 10,0 | ÖRTER | ⭐ örtü tamamlanır (%100) — tepe uzak sırt çizgisini GEÇER | B | 17:10 | 10,3 → 3,0 m · %57,3 → %44,9 | 1857 m³ → ⭐ KABUĞUN ÜSTÜ — son serim | %2 | ⭐ örtü tamamlanır · tepe sırt çizgisini geçer | ⛔ SABİT — karşılaştırma şart |
-| 22 | 10,0 | BOŞALIR | geçici işler ve makineler çekilir, apron düzlenir (SÖKÜM) | A | 19:10 | 3,0 → 3,0 m · %44,9 → %44,9 | 0 m³ → — ocak kapalı | %0 | izler dolmuş · ocak tabanı düz | sabit |
+| 22 | 10,0 | BOŞALIR | geçici işler ve makineler çekilir, apron düzlenir (SÖKÜM) | A | 19:10 | 3,0 → 3,0 m · %44,9 → %44,9 | 0 m³ → — ocak kapalı | %0 | izler silinmiş · ocak tabanı düz | sabit |
 | 23 | 10,0 | YANAR | ⭐ hava kilidi penceresinde ilk ışık — otomatik sistemler devreye girer | A | 19:20 | 3,0 → 3,0 m · %44,9 → %44,9 | 0 m³ → — ocak kapalı | %0 | akşam · uzun gölge · tek ışık | ⭐ 1,0× → 2,0× → 1,0× |
 
 ```
 IŞIK GÜNÜ   06:20 → 19:30 = 13 sa 10 dk   (5 × B + 19 × A = 13,17 sa)  ≤ 14 sa ✅
-⭐ REJİM B yalnız beş sahnede: S0 (ilk yara) · S2 (pad sıyrılır) · S8 (hendek) ·
-   S15 (ilk örtü) · S21 (son örtü + çizgi geçişi). Beşi de gölge süpürmesi taşır.
+⭐ REJİM B yalnız beş sahnede: S0 (ilk yara) · S2 (pad sıyrılır) · S7 (hendek) ·
+   S14 (ilk örtü) · S21 (son örtü + çizgi geçişi). Beşi de gölge süpürmesi taşır.
 ⛔ DERS 40 kapısı: rejim A sahneleri gölgesiz değildir (Mars'ta gölge zayıf ama VARDIR),
    ve bütün süreler eşit olduğu için "en uzun klip" kapısı açılmaz.
 ```
@@ -286,21 +286,21 @@ SONUÇ      4.896 − 4.724 = 172 m³ kalır → h = 3,0 m ⭐ merdivenin son sa
 | 5 | 10:50 | 128° / 53° | 14,1 m · %63,6 | %0 | %78 |  |
 | 6 | 11:00 | 131° / 54° | 13,7 m · %63,1 | %0 | %74 |  |
 | 7 | 11:10 | 134° / 55° | 13,4 m · %62,6 | %0 | %62 |  |
-| 8 | 11:20 | 137° / 56° | 13,2 m · %62,3 | %0 | %62 |  |
+| 8 | 13:10 | 192° / 56° | 13,2 m · %62,3 | %0 | %62 |  |
 | 9 | 13:20 | 194° / 55° | 13,0 m · %61,9 | %0 | %60 |  |
 | 10 | 13:30 | 196° / 54° | 12,9 m · %61,7 | %0 | %52 |  |
 | 11 | 13:40 | 199° / 53° | 12,7 m · %61,4 | %0 | %40 |  |
 | 12 | 13:50 | 201° / 51° | 12,6 m · %61,2 | %0 | %30 | ⭐ BÖLÜM SINIRI — kaburgalar ayakta, hendek açık |
 | 13 | 14:00 | 203° / 50° | 12,5 m · %61,0 | %0 | %18 |  |
 | 14 | 14:10 | 205° / 49° | 12,4 m · %60,9 | %0 | %10 |  |
-| 15 | 14:20 | 207° / 48° | 12,3 m · %60,7 | %0 | %10 |  |
-| 16 | 16:20 | 238° / 25° | 10,9 m · %58,3 | %35 | %10 |  |
-| 17 | 16:30 | 239° / 24° | 10,8 m · %58,1 | %40 | %10 |  |
-| 18 | 16:40 | 241° / 22° | 10,7 m · %57,9 | %45 | %4 |  |
-| 19 | 16:50 | 242° / 21° | 10,5 m · %57,6 | %45 | %4 |  |
-| 20 | 17:00 | 244° / 19° | 10,5 m · %57,6 | %45 | %4 | fırtına sonrası — yeni bitmiş iş YOK |
+| 15 | 16:10 | 237° / 26° | 10,9 m · %58,3 | %35 | %10 |  |
+| 16 | 16:20 | 238° / 25° | 10,8 m · %58,1 | %40 | %10 |  |
+| 17 | 16:30 | 239° / 24° | 10,7 m · %57,9 | %45 | %10 |  |
+| 18 | 16:40 | 241° / 22° | 10,5 m · %57,6 | %45 | %4 |  |
+| 19 | 16:50 | 242° / 21° | 10,5 m · %57,6 | %45 | %4 | ⛔ FIRTINA — makineler park, örtü G18 ile AYNI |
+| 20 | 17:00 | 244° / 19° | 10,4 m · %57,4 | %45 | %4 | fırtına sonrası — yeni bitmiş iş YOK |
 | 21 | 17:10 | 245° / 18° | 10,3 m · %57,3 | %50 | %2 |  |
-| 22 | 19:10 | 268° / 3° | 3,0 m · %44,9 | %100 | %0 | ⭐ tepe sırt çizgisinin ALTINDA |
+| 22 | 19:10 | 268° / 3° | 3,0 m · %44,9 | %100 | %0 | ⭐ tepe sırt çizgisinin ALTINDA (%44,9 < %51,6) |
 | 23 | 19:20 | 269° / 2° | 3,0 m · %44,9 | %100 | %0 |  |
 | 24 | 19:30 | 270° / 1° | 3,0 m · %44,9 | %100 | %0 | ⭐ USTA KARE — pencere yanık, ocak tabanı düz |
 
@@ -336,14 +336,14 @@ FİNAL     G24'te güneş 1°: tümsek ve direk son ışığı alır, ova soğuk
 ```
 ⛔ 24 × 10,0 sabittir. Ritim şuradan gelir:
 S0   ilk saniyelerde kepçe kayaya girer — filmin en sert tek olayı, rejim B
-S1–S7  hazırlık: her sahne TEK ve BÜYÜK bir biçim değişimi taşır (yol · pad · panel · direk)
-S8–S9  hendek — kadrajın ortasında büyüyen kara boşluk; hareket yoğun
-S10–S14 yapı: kaburga → dizi → kabuk → kapanma. Açıklığın kapanması büyük biçim olayıdır
-S15   ⭐ ilk örtü — toprağın kabuğa ilk teması; yakınlaşma
-S16–S17 kırağı: hareket ve ses düşer, iki sahne boyunca DURULUR
-S18   tank ve boru — orta tempo
-S19   ⛔ fırtına: görüş düşer, makineler durur, ses kesilir — filmin tek ÖLÜ noktası
-S20   temizlik: iş yeniden başlar, tempo geri gelir
+S1–S6  hazırlık: her sahne TEK ve BÜYÜK bir biçim değişimi taşır (yol · pad · panel · direk)
+S7–S8  hendek — kadrajın ortasında büyüyen kara boşluk; hareket yoğun
+S9–S13 yapı: kaburga → dizi → kabuk → kapanma. Açıklığın kapanması büyük biçim olayıdır
+S14   ⭐ ilk örtü — toprağın kabuğa ilk teması; yakınlaşma
+S15–S16 kırağı: hareket ve ses düşer, iki sahne boyunca DURULUR
+S17   tank ve boru — orta tempo
+S18   ⛔ fırtına: görüş düşer, makineler durur, ses kesilir — filmin tek ÖLÜ noktası
+S19   temizlik · S20 örtü krona çıkar: iş yeniden başlar, tempo geri gelir
 S21   ⭐ doruk — son örtü ve çizgi geçişi · ⛔ KAMERA SABİT (karşılaştırma şart)
 S22   boşalma: hareket sıfıra iner
 S23   ⭐ tek ışık — yakınlaşma, bekleme, ışık, geri dönüş
@@ -374,7 +374,7 @@ S23   ⭐ tek ışık — yakınlaşma, bekleme, ışık, geri dönüş
 | an | sahne | büyütme ve eğri | hedef | hikâyeye katkısı |
 |---|:-:|---|---|---|
 | **İlk kazı** | S0 | 1,0× → **2,0×** → 1,0× · hızlanarak yaklaş, kontrollü dön | kepçenin açtığı kesit + farklı renkli tabaka (kepçe 2,5 m → 91 px) | tepenin değişmeye başladığını hissettirir |
-| **İlk örtüleme** | S15 | 1,0× → **1,8×** → 1,0× · yumuşak, eşit hızlı | toprağın kabuğa ilk temas ettiği nokta + dökülen malzemenin yayılışı (araç 6,0 m → 146 px) | tepeden çıkan toprağın YENİ YERİNİ açıklar |
+| **İlk örtüleme** | S14 | 1,0× → **1,8×** → 1,0× · yumuşak, eşit hızlı | toprağın kabuğa ilk temas ettiği nokta + dökülen malzemenin yayılışı (araç 6,0 m → 146 px) | tepeden çıkan toprağın YENİ YERİNİ açıklar |
 | **Son ışık** | S23 | 1,0× → **2,0×** → 1,0× · yavaşlayarak yaklaş, bekle, geri çekil | hava kilidi portalı (3,0 m → 94 px) ve penceresi (1,2 m → 37 px) | küçük ışığı filmin duygusal ödülüne çevirir |
 
 ```
@@ -415,7 +415,7 @@ TAVAN     = kaynak genişliği / teslim genişliği  [KAMERA_HAREKETI §3.3]
    Üç yakınlaşmanın hedef kompozisyonu, ÜRETİMDEN ÖNCE geniş kareden 2,0× kırpılarak
    denetlenir ve üretim günlüğü §0b'ye yazılır:
      N0   S0'ın kesiti — kepçe + açılan tabaka        hedef ≥ 90 px kepçe
-     N15  S15'in ilk teması — araç + yayılan malzeme  hedef ≥ 140 px araç
+     N14  S14'ün ilk teması — araç + yayılan malzeme  hedef ≥ 140 px araç
      N23  S23'ün portalı — kapı + pencere             hedef ≥ 90 px portal · ≥ 35 px pencere
    ⛔ Üçünden biri hedefi tutmuyorsa o sahnenin YERLEŞİMİ düzeltilir (nesne kameraya
       yaklaştırılır ya da büyütülür); büyütme artırılmaz.

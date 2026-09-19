@@ -60,6 +60,14 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
    ⛔ YALNIZ kurgu yakınlaşması olan filmde okunur; olmayan filmde §7 yeter.
    ⚠️ Bu kuşakta prompt YOK ve kaynak ÇEKİLEMİYOR — denetim
       arastirma/SONUCLAR/A13-A18_DENETIM.md (tek sayı indi, o da burada hesaplandı)
+
+── ⭐ 18.09.2026 · 15 FİLMİN ÇAPRAZ ANALİZİNDEN DOĞAN TEK KILAVUZ — prompttan ÖNCE ──
+□ SAHNE_PLAN_KARTI.md            ⭐ BEŞ SORU klip başına: ① malzeme nerede · ② hangi
+                                  taşıyıcı · ③ nereye oturuyor · ④ klip sonunda ne değişti
+                                  · ⑤ sabit kalanlar → I2V MOTION FOCUS paragrafı
+   ⛔ Beş sorusu cevaplı olmayan sahnenin promptu yazılmaz (kart A adım 7b · Y2 adım 3).
+   ⚠️ Kaynak QA/QA_CAPRAZ_ANALIZ/ (sayılar: araclar/capraz_sayim.py) — ölçülmedi,
+      DERSLER.md ÇAPRAZ ANALİZ bölümünde VARSAYIM (C1-a…h); kapı FIX, BLOCK değil.
 ```
 
 ```
@@ -166,6 +174,19 @@ KURAL   en az İKİ sahne KISA · en az BİR sahne UZUN
 ÖRNEK (160 BPM):  6 · 4,5 · 6 · 4,5 · 6 · 7,5 · 6 · 4,5 · 6 · 9  = 60,0
                   ↑ kısa kısa                ↑ nefes        ↑ doruk uzun
 ```
+
+> ⭐ **18.09.2026 · SAHİP KURALI VE KARŞI KAYIT [C1-e].** Proje sahibi dikey
+> shorts'ta sahne süresini SABİT ilan etti (sayı filmin PLAN künyesinde; süre
+> varyansı önerilmez). Yukarıdaki DERS 13 · 24 · 44 kaydı SİLİNMEZ — ölçülmüştür
+> — ama artık şu okumayla durur: **eşit süre tek başına kötü ritim değildir.**
+> Ritmi taşıyan şey sürenin dağılımı değil, her klibin **bir öncekinden farklı bir
+> görünür sonuç** taşımasıdır: görsel değişimin büyüklüğü · eylemin yönü · ses
+> vurgusu klipten klibe farklılaşır; aynı işin aynı görünümü iki klipte tekrar
+> ederse METRONOM oradan doğar, süreden değil. Denetimi KURGU_VE_TESLIM §2.4'te.
+> `prompt_kontrol.py`'nin "süreler eşit" FIX'i sahip beyanlı düz ızgarada
+> BEKLENENDİR: düzeltilmez, plana kabul edilmiş risk olarak yazılır.
+> ⚠️ Bu okuma dış değerlendirmeden geldi ve ÖLÇÜLMEDİ — izleyici deney planının
+> 3-4. adımı (QA/QA_CAPRAZ_ANALIZ/06) tam bunu ölçer.
 
 ## 2.3 NEDEN 10 SAHNE — iki ayrı kazanç
 
@@ -782,6 +803,15 @@ desteksiz parça; kapı imzaları burada) · ② metin yasağı yüzey yüzey ·
 ③ estetik yasaklar, en kısa. Hedef ≤1.000 karakter; aşağıdaki tam metin
 referanstır, filme inerken bu sırayla KIRPILIR.
 
+⭐ **SAHNEYE ÖZGÜ DIŞLAMA [C1-g · 18.09.2026]:** evrensel uzun blok tek başına
+hiçbir arızayı engellemez — 15 filmde çekirdek her prompta yapıştırıldı ve F01 ·
+F04 · F05 yine geldi (QA/QA_CAPRAZ_ANALIZ/03). Negatif prompt, doğru eylemin
+(MOTION FOCUS) ve sağlam referansın (zincir + 3 nirengi) YERİNİ TUTMAZ; onların
+yanına, modelin desteklediği biçimde **kısa ve o sahneye özgü 1-3 dışlama**
+eklenir ("no second crane", "no snow on the deck"). DERS 35 kalır: metin yasağı
+hiçbir nesne adı anmaz. 05_NIHAI_RAPOR'un ilk sürümündeki "tüm promptlara
+kilitlenecek evrensel NEGATIVE bloğu" önerisi bu gerekçeyle alınmadı.
+
 ```
 Locked-off camera on a fixed tripod — the camera never pans, tilts, zooms,
 rolls, shakes or drifts, and the framing is identical from the first frame to
@@ -920,6 +950,13 @@ a slow pendulum, and it always carries a visible load.
 > *"The crane carries no logo"* vinci korur; tabelayı, yeleği, konteyneri
 > ve çiti korumaz. Şantiye, bu depodaki en yoğun metin yüzeyidir —
 > yasak YÜZEY YÜZEY sayılır, tek nesneye bağlanmaz.
+>
+> ⭐ **F10 ÜÇ AYRI DURUMDUR [C1-g]:** ⓐ modelin UYDURDUĞU yazı (tabela, yelek,
+> gökte harf) — negatif + yüzey yüzey yasak buna bakar · ⓑ KAYNAK GÖRSELDEKİ iz
+> (usta karede kalmış bir logo, zincirle her kareye taşınır) — kaynak temizlenir,
+> prompt değil · ⓒ HİZMETİN FİLİGRANI (köşe damgası) — araç kapısı ④ ve
+> CAPRAZ_YAYIN filigran yasağı. Üçü ayrı teşhis edilir; görüntüden hareketle
+> "eğitim verisi sızıntısı" diye adlandırılmaz — o bir kaynak iddiasıdır, gözlem değil.
 
 ---
 
@@ -974,6 +1011,30 @@ a slow pendulum, and it always carries a visible load.
                        kompozisyonla, nesne ekleyerek değil.
                     ⛔ USTA KARE KLİBİ olay bütçesinden MUAF DEĞİLDİR
                        [P1-g]: loop ışığı bir olaydır, geriye TEK olay kalır.
+
+2b. ⛔ FİNAL ÜRETİLEBİLİRLİK TESTİ — zincirin İLK HALKASI [C1-b · 18.09.2026]
+                    Bütün filmi üretip hatayı SON sahnede keşfetmek en pahalı
+                    yoldur (BUILT FROM DUST · THE DUST YEAR · CLOSING SPAN:
+                    ⑧ YÖNTEM 0,0 — üçü de sonuna kadar üretildi). Adım 3'e
+                    geçmeden ÜÇ PARÇA üretilir ve sahip onaylar:
+                      (a) REFERANS   GN + üç sabit nirengi px'iyle işaretli
+                                     (KAMERA_ISTASYONU §7) — PLAN §DEĞİŞMEZLER'e
+                      (b) İLK HALKA  GN → G(N−1) image-to-image; zincir_kontrol.sh
+                                     ilk kez BURADA koşulur (önceki = ana = GN)
+                      (c) FİNAL      G(N−1) → GN arasında final I2V: vaat edilen
+                                     sonuç GÖRÜNÜR (çark döner · su geçer · kapanış
+                                     tamamlanır); tutuş kuralı adım 9 [P2-i]
+                          + PİLOT    en zor montaj hareketinin klibi (beş soru
+                                     kartı dolu — SAHNE_PLAN_KARTI) — hangi sahne
+                                     olduğu 04_UYARI_NOTLARI'ndan okunur
+                    ⛔ (c) ÜRETİLEMİYORSA KAPSAM DARALIR: sahne çıkar, vaat
+                       küçülür; prompt "düzeltilip" tekrar denenmez [DERS 23'ün
+                       mantığı — araç değişir, plan zorlanmaz].
+                    ⭐ Bu adım §2.7 "iki onaylı kare arası" kuralıyla ÇELİŞMEZ:
+                       (b) zincirin ilk halkasıdır, (c) o iki kare arasındadır.
+                    KALDIRDIĞI: "önce hepsini üret, sonra bakarız" imkânı.
+                       Karşılığı, üçüncü klipte kesilen bir filmin bedelidir.
+                    Günlük: URETIM_GUNLUGU §1b PİLOT ÜÇLÜ.
 
 3. ⛔ GERİYE İNŞA — BU BİR ÖNERİ DEĞİL, KAPIDIR [DERS 5]
                     ⭐ ZİNCİR = EDİT [P2-a]: her kare master'ın TARİHSEL

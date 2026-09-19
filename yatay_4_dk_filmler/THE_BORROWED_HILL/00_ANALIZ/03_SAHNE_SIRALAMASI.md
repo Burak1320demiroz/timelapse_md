@@ -1,83 +1,68 @@
-# 🎞️ THE_BORROWED_HILL — SAHNE SIRALAMASI (aşama merdiveninin türetildiği yer)
+# 🪜 THE BORROWED HILL — SAHNE SIRALAMASI
 
-> **Bu dosya sıranın TÜRETİLDİĞİ ve DENETLENDİĞİ yerdir.** Sonuç `THE_BORROWED_HILL_PLAN.md` §AŞAMA MERDİVENİ
-> ve §KARE TABLOSU'na taşınır — orası sonucu taşır, burası hesabı.
-> ⛔ Burada `## 🎬 SAHNE <n>` başlığı yoktur; sahneler TABLO satırıdır.
-> Girdi: `02_KONSEPT_VE_RISK.md` (yapı kartı · kamera · ışık günü · risk) + onaylı sahne satırları.
+> Tam merdiven (24 satır, bütün sütunlarıyla) `THE_BORROWED_HILL_PLAN.md` §AŞAMA MERDİVENİ'ndedir.
+> Burada yalnız SIRANIN GEREKÇESİ ve toplamlar durur.
 
----
-
-## 1. 🧱 İNŞA SIRASI → 24 SATIR [YAPI_TIPI_KARTLARI · INSAAT_YONTEMI §2-§3]
+## 1. İnşa sırası neden bu
 
 ```
-KARTIN SIRASI      ① ⬜ ② ⬜ ③ ⬜ … (kartın kendi adımları — uydurulmaz)
-24 SATIRA AÇMA    her adım kaç sahne alıyor ve ara hâlleri (%25 / %50 / %75) hangi satırlar:
-                   ① → S⬜–S⬜ · ② → S⬜–S⬜ · …
-MONOTON BÜYÜME     hiçbir satır öncekinden az yapı göstermez ✓/✗ · ara hâl SİLUETİ değiştiriyor mu [DERS 37] ✓/✗
-KIŞ                S⬜ (kar · döngü yavaşlar) + S⬜ (erime · çamur) — iki sahne [DERS 7 · 21]
-DORUK              S⬜ — en büyük görünür değişim (düz ızgarada süre değil, KATMAN ve rejimle vurgulanır)
-SÖKÜM              S⬜ — geçici ekipman ekranda gider
-TERS AÇILIŞ YOK    S0 ileri yönlü kanca [DERS 3]: ⬜
+Sıra uydurulmadı; gömülü kemer sığınağın kendi mühendislik sırasıdır:
+  ocak açılır → yol ve pad yapılır (ocaktan gelen malzemeyle) → güç ve haberleşme
+  kurulur (yapı işi durmadan önce) → hendek kazılır → temel → kaburga → kabuk →
+  kapatma → ÖRTÜ → işletme
+⭐ GÜÇ VE ANTEN YAPIDAN ÖNCE: şantiyenin kendisi enerji ister; ayrıca bu ikisi
+   sonraya kalırsa doruktan SONRA montaj işi açılır ve final dağılır [P4-f].
+⭐ ÖRTÜ EN SONA: örtü yapının hem amacı hem bedelidir; tepe onunla biter.
 ```
 
-## 2. 🗺️ SIRALAMA — 24 sahne, sırayla
-
-| S | SÜRE (sn) | AŞAMA FİİLİ | ELEMAN + ARA HÂL (%) | TEMSİL SÜRE | REJİM | SAAT | AZ/EL | İSTASYON | KANIT NESNESİ (px) | onaylı satırla aynı mı |
-|:-:|:-:|---|---|---|:-:|:-:|:-:|:-:|---|:-:|
-| S00 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S01 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S02 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S03 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S04 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S05 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S06 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S07 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S08 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S09 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S10 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S11 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S12 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S13 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S14 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S15 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S16 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S17 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S18 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S19 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S20 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S21 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S22 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-| S23 | 10,0 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ANA | ⬜ | ⬜ |
-
-## 3. 📐 DİKİŞ DENETİMİ — mekanik, göz kararı değil [§2.7 · DERS 52]
-
-> Zincirli formatta dikiş bir KAREDİR: G(n+1) hem S(n)'in son karesi hem S(n+1)'in ilk karesi.
-> Her dikişte yapı yüzdesi, gölge açısı, gök, çapalar AYNIDIR; değişen yalnız klibin içindedir.
-
-| dikiş | kare | yapı yüzdesi | gölge açısı | gök | istasyon aynı mı | not |
-|---|:-:|:-:|:-:|:-:|:-:|---|
-| S0→S1 | G1 |  |  |  | ✓ |  |
-| … |  |  |  |  |  |  |
-| S11→S12 | G12 ⭐ bölüm sınırı |  |  |  | ✓ | iki dosya, tek kare |
-
-## 4. ☀️ IŞIK GÜNÜ TOPLAMI — rejim sütunu TOPLANIR
+## 2. Monoton büyüme — iki ters sayaç
 
 ```
-A × ⬜ = ⬜ dk · B × ⬜ = ⬜ h · C × ⬜ = ⬜ h   →  Σ = ⬜ saat   (≤ 14 ✓/✗ · gece yok/var)
-SAAT SÜTUNU   S0 ⬜:00 → S23 ⬜:00 — monoton artar ✓/✗ · her G'nin azimut/yükseklik değeri KARE TABLOSU'na
-REJİM C       yalnız gölgesiz klip; en uzun klip OLAMAZ [DERS 40] — düz ızgarada hepsi eşit → C kullanılıyorsa gerekçe: ⬜
+ARTAN     sığınak · örtü (%0 → %100) · tümsek yüksekliği (0 → 7,5 m)
+AZALAN    ⭐ tepecik (16,0 m → 3,0 m) · ⭐ Dünya malzemesi yığını (%100 → %0)
+⛔ HİÇBİRİ GERİ GİTMEZ. Bir karede alınan malzeme geri gelmez; bir karede eksilen
+   sandık geri dolmaz; örtülen kabuk açılmaz.
 ```
 
-## 5. ⭐ ÜÇ ZORUNLU SATIR — PLAN'a taşınacak
+## 3. Rejim toplamı [SANTIYE_HAREKETI §1 · §2.8]
 
 ```
-KANIT   ⬜ (nesne · x px · %y · boy px) — G0…G24 birebir
-LOOP    G24 ↔ G0: kadraj aynı · ışık ⬜
-SÖKÜM   S⬜ · ⬜ ekranda gider
+5 × B (2 sa) = 10 sa      19 × A (10 dk) = 3 sa 10 dk      Σ = 13 sa 10 dk ≤ 14 ✅
+B NEREYE  S0 ilk yara · S2 pad sıyrılır · S7 hendek · S14 ilk örtü · S21 son örtü
+NEDEN     beşi de ya büyük bir yüzey değişimi ya da doruk taşıyor; gölge süpürmesi
+          bu beş klipte okunur. Rejim A kliplerinde gölge klip içinde fark edilmez,
+          iş YÜZEYLE ve makineyle kanıtlanır.
+⛔ DERS 40 kapısı açılmaz: bütün süreler eşit olduğu için "en uzun klip" yoktur.
 ```
 
-## 6. 🔁 ONAYLI HİKÂYEYLE FARK
+## 4. Bölüm sınırı — G12 [DERS 52]
 
 ```
-SAPMA: yok   /   S⬜: onaylı "⬜" → burada "⬜" — sebep ⬜ → 00_HIKAYE_ONAYI SAPMA'ya yazıldı, yeniden onay ⬜
+BOLUM_1  S0–S11  (G0…G11 + 12 I2V)  0,0–120,0 sn
+BOLUM_2  S12–S23 (G12…G24 + 12 I2V) 120,0–240,0 sn
+SINIR    G12 TEK KAREDİR: kaburga dizisi ayakta, hendek açık, örtü yok.
+         S11'in I2V'si G12'de biter; G12 BOLUM_2'nin ilk görselidir.
+         ⛔ Işık (13:40 · az 199° · el 53°), gölge açısı, tepe yüksekliği (12,6 m ·
+            %61,2) ve yığın (%30) orada ATLAMAZ.
+⭐ SINIR NEDEN BURADA: yapının siluetinin ilk kez tam okunduğu kare. Bölüm 1 "yer",
+   bölüm 2 "örtü" — ikisi arasındaki eşik açık çelik iskelettir.
+```
+
+## 5. Mevsim taşıyıcıları — takvim sahadan okunur [P1-c]
+
+```
+① İZ DOLMASI      Mars'ta iz BİRİKMEZ, SİLİNİR [F1-a]: taze iz keskin, eski iz yumuşak.
+                  S1'de "ilk izler keskin" → S14'te "izler dolmuş" → S22'de "silinmiş"
+② PANEL TOZU      S5 temiz → S17 grileşiyor → S18 matte → S19 silinir → S20 parlak
+③ KIRAĞI          S15 · S16 — iki sahne [DERS 7] · ⛔ kırağı, su birikintisi DEĞİL
+④ TOZ FIRTINASI   S18 · S19 — görüş düşer, iş durur, temizlikten sonra başlar
+⚠️ Filmin yayı ~iki Mars yılıdır ve bunu IŞIK SÖYLEMEZ; bu dört taşıyıcı söyler.
+```
+
+## 6. Üç zorunlu satır
+
+```
+KANIT   uzak krater sırtı — 25 karede %51,6 · bazalt kümesi 120 px
+LOOP    G0 ↔ G24 aynı kadraj · ⛔ KAVRAM döngüsü, durum döngüsü değil
+SÖKÜM   S22 BOŞALIR — geçici işler, örtüler, file, bearer ve makineler çekilir
 ```

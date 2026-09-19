@@ -201,4 +201,48 @@ Rapor geldi  → AGENTS.md §2 kart R (rapor işleme)
 Yeni bozulma → kilavuzlar/DERSLER.md kart D
 Skor         → T tablosuna satır + RAPORLAR/<FILM>.md + 00_INDEX güncelle
 Ham çıktı    → HAM_RAPORLAR/ (dokunulmaz)
+Olay         → RAPORLAR/<FILM>.md OLAY TABLOSU (§8) — mercekler arası tek kimlik
+```
+
+## 7. ⭐ ÜÇ AŞAMA — biri geçmek ötekini geçmiş saymaz  [C1 · 18.09.2026]
+
+> Kaynak: QA/QA_CAPRAZ_ANALIZ/05. 15 filmde prompt kapısından geçen planlar
+> üretildi ve ② İNŞA'da 9/15 film düştü. Kapı METİN denetler (AGENTS §6);
+> görüntüde doğru eylemin oluştuğu ayrı aşamadır. Üçüncü aşama (izleyici)
+> depoda hiç yoktu.
+
+| aşama | ne denetlenir | araç | çıktı nereye |
+|---|---|---|---|
+| **1 · PLAN** | beş soru cevaplı mı · eylem, başlangıç, sonuç açık mı · bloklar birebir mi | `prompt_kontrol.py` + SAHNE_PLAN_KARTI (00_SAHNE_TABLOSU sütunu) | GO/FIX/BLOCK · üretim günlüğü §0 |
+| **2 · ÜRETİLEN VİDEO** | planlanan iş gerçekten oluştu mu · parça boyunu korudu mu · kamera sabit mi | `zincir_kontrol.sh` (SSIM + px eşiği) + klip BAŞ/ORTA/SON elle | üretim günlüğü §2-§3 (baş/orta/son ✓✗ hücresi) |
+| **3 · YAYIN SONRASI** | izleyici hangi anda devam etti, hangi anda ayrıldı | YouTube Analytics (tutma eğrisi · Engaged views) | QA/QA_CAPRAZ_ANALIZ/06 deney tablosu |
+
+```
+⛔ Aşama 1 geçti ≠ aşama 2 geçti. Prompta doğru kelimeyi yazmak görüntüde
+   doğru eylemi garanti etmez; etiket PLANLAMA kontrolüdür.
+⛔ Aşama 2 geçti ≠ aşama 3 geçti. Teknik puanı yükseltmek faydalıdır; hangi
+   yaratıcı tercihin izlenmeyi artırdığını yalnız yayın verisi söyler.
+```
+
+## 8. ⭐ KAYIT FORMATI — zaman kodu · olay kimliği · doğrulanamıyor  [C1 · 18.09.2026]
+
+```
+⛔ ESKİ   "Bu klip yapay duruyor"
+✅ YENİ   "00:03–00:04 arasında ana kirişin boyu değişiyor; destekler aynı
+          konumda; katı parça geometrisi korunmadığı için klip yeniden üretilecek"
+
+KURAL    · her bulgu ZAMAN KODU + görünen şey + karar taşır (rubrik zaten ister)
+         · gözlenemeyen ayrıntı → NOT VERIFIABLE (rubriklerde) — 0 puan DEĞİL
+         · dosyası açılamayan koşu → INC (00_INDEX / T tablosu) — 0 puan DEĞİL
+         · AYNI OLAY farklı mercekleri etkiliyorsa TEK olay kimliği alır (E01, E02…)
+           — F01 · F05 · F08 çoğu filmde aynı montaj olayının üç görünümüdür;
+           üç arıza saymak yanıltır (QA/QA_CAPRAZ_ANALIZ/03)
+
+OLAY TABLOSU  — RAPORLAR/<FILM>.md'ye, kart R adım 7 (mercekler koşulduktan SONRA
+              ajan doldurur; mercekler birbirini görmez, körlük korunur):
+
+| olay | zaman | ne oldu (görünen) | mercekler | kanıt karesi | karar |
+|---|---|---|---|---|---|
+| E01 | 0:03.0–0:04.0 | ana kiriş boyu değişiyor, destekler sabit | ② ⑤ ⑫ | S1_son.jpg | S1 yeniden — MOTION FOCUS tek nesne |
+| E02 | 0:41.5 | kanca yükü bıraktı, yük havada kaldı | ⑧ ⑩ | S6_orta.jpg | S6 yeniden — PHYSICS taşıyıcı |
 ```

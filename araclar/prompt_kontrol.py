@@ -304,10 +304,17 @@ for s, k in kareler:
     if insansiz and re.search(r"motion streaks|suited figure|workers appear", k, re.I):
         BLOCK.append(f"[{s}] insansız beyan VAR ama insan cümlesi de var [DERS 33] — "
                      f"olmayan özne prompta girmez, koşulla bile")
-    if "motion streaks" not in k and not insansiz:
+    # ⭐ 18.09.2026 REJİM G (gerçek zaman · 1×) [SANTIYE_HAREKETI §1 · ONE MORE TURN]:
+    # klip sıkıştırılmıyorsa iz (streak) fiziksel olarak yoktur; insan kuralı
+    # "sırtı kameraya, yüz okunmaz" hâline döner. ⚠️ Ölçülmedi — ilk koşu ONE MORE TURN.
+    gercek = re.search(r"moves at natural speed", k)
+    if gercek and not re.search(r"back to the camera|no readable face", k, re.I):
+        FIX.append(f"[{s}] REJİM G (gerçek zaman) beyanı var ama insan kuralı yok — "
+                   f"'back to the camera' / 'no readable face' [DERS 15 · SANTIYE_HAREKETI §1]")
+    if "motion streaks" not in k and not insansiz and not gercek:
         FIX.append(f"[{s}] insan kuralı yok ('soft motion streaks') [§9.4]")
     # [DERS 15] hız tek cümlede ve TÜM öznelere birden yazılır
-    if not re.search(r"time-lapsed at the same rate", k):
+    if not re.search(r"time-lapsed at the same rate|moves at natural speed", k):
         BLOCK.append(f"[{s}] TIME RATE bloğu yok [DERS 15] — model gökyüzünü "
                      f"hızlandırıp yeri gerçek zamanda bırakıyor. Tek cümle, "
                      f"tüm özneler: bulut · gölge · makine · insan · araç.")
@@ -353,13 +360,13 @@ for _i, (s, k) in enumerate(gorsel):
                    f"kadraja inmez, token harcar")
 
 # SANTIYE_HAREKETI §1-2 — sıkıştırma rejimi beyan edilir ve tek olur
-REJIM = r"ten minutes pass|two hours pass|a full working day passes|working day passes"
+REJIM = r"ten minutes pass|two hours pass|a full working day passes|working day passes|eight seconds pass"  # ⭐ G: gerçek zaman (18.09.2026)
 REJIM_C = r"(a full )?working day passes"
 for s, k in kareler + i2v:
-    if re.search(r"time-lapsed at the same rate", k) and not re.search(REJIM, k, re.I):
+    if re.search(r"time-lapsed at the same rate|moves at natural speed", k) and not re.search(REJIM, k, re.I):
         FIX.append(f"[{s}] TIME RATE var ama SIKIŞTIRMA REJİMİ penceresi yok "
                    f"[SANTIYE_HAREKETI §2] — 'ten minutes pass' / 'two hours pass' / "
-                   f"'a full working day passes' üçünden biri yazılır; yoksa model "
+                   f"'a full working day passes' / 'eight seconds pass' (G) dördünden biri yazılır; yoksa model "
                    f"göğü sıkıştırıp yeri gerçek zamanda bırakır [DERS 15]")
     if re.search(REJIM_C, k, re.I) and re.search(
             r"\b(worker|workers|crew|people|operator)\b.{0,60}\b(walk|walks|carry|carries|"
@@ -390,6 +397,9 @@ for _j, (s, k) in enumerate(gorsel):
     mt = re.search(r"SITE TEXTURE:(.*?)(?:\n[A-Z][A-Z /]+:|\Z)", k, re.S)
     yuzey_govde = g + (mt.group(1) if mt else "")
     neden = len(set(x.lower() for x in re.findall(EDEN, g, re.I)))
+    if neden > 4:   # ⭐ C1-d: hareket sayısı değil, ana işe hizmet — kalabalık okunurluğu düşürür
+        INFO.append(f"[{s}] ACTIVITY'de {neden} farklı hareket eden — hepsi ANA İŞE bağlı mı? "
+                    f"[SANTIYE_HAREKETI §4 İŞE BAĞLI HAREKET · C1-d]")
     var_eylem = bool(re.search(EYLEM, g, re.I))
     yuzey_var = bool(re.search(YUZEY, yuzey_govde, re.I))
     if neden < 2 or not var_eylem or not yuzey_var:
@@ -581,7 +591,9 @@ if len(sureler) >= 6:
         FIX.append(f"AŞAMA MERDİVENİNDE bütün sahne süreleri aynı ({sureler[0]}) "
                      f"[DERS 13] — eşit aralıklı kesme dizisi tempo değil NABIZ "
                      f"üretir ve ⑥ merceği METRONOM hükmü verir. En az iki sahne "
-                     f"KISA, en az bir sahne UZUN olmalı (ölçüye oturarak).")
+                     f"KISA, en az bir sahne UZUN olmalı (ölçüye oturarak). "
+                     f"⭐ Sahip beyanlı DÜZ IZGARADA (KILAVUZ_REHBERI §2.2 karşı kayıt · C1-e) "
+                     f"bu uyarı BEKLENENDİR: düzeltilmez, plana kabul edilmiş risk yazılır.")
     else:
         INFO.append(f"süre dağılımı: {' · '.join(sureler)}")
 elif "| SÜRE |" not in metin and "| S | SÜRE" not in metin:
@@ -723,6 +735,34 @@ for s, k in i2v:
         FIX.append(f"[{s}] I2V'de gök var ama HAREKETİ yok [HAVA_VE_ATMOSFER §1] — "
                    f"bulut/gök bir fiil alır: drift · streak · sweep · roll · hold")
 
+# ── 10e. ⭐ MOTION FOCUS — 18.09.2026 · SAHNE_PLAN_KARTI · C1-a/c ──────────
+# Çapraz analiz (QA/QA_CAPRAZ_ANALIZ): ② İNŞA 9/15, ⑩ SEBEP 4/5 filmde 4,0 altı.
+# F01 · F05 · F08 aynı şeyin üç yüzü — malzemenin NEREDEN gelip HANGİ taşıyıcıyla
+# NEREYE oturduğu I2V'de yazılı değildi. I2V'ye kendi paragrafında MOTION FOCUS
+# girer (PROMPT_SABLONU §2). ⚠️ ÖLÇÜLMEDİ — bu yüzden FIX, BLOCK değil.
+# ⛔ _blok() BURADA KULLANILMAZ: I2V nesrinde büyük harfli sonlandırıcı yok,
+#    _blok() metnin sonuna kadar yakalar ve "from the north-east to the north-west"
+#    gibi gök cümleleri kalıbı yanlış geçirir (165 I2V'de 128 yanlış geçiş ölçüldü).
+#    Paragraf BOŞ SATIRA kadar okunur.
+MF_KAYNAK_HEDEF = r"\bfrom\b.{3,200}?\b(onto|into|to|against|on)\b"
+MF_ELEMAN = (r"\b(foundation|footing|column|pier|wall|beam|girder|slab|deck|roof|"
+             r"truss|segment|floor)s?\b")
+for s, k in i2v:
+    m = re.search(r"(?:^|\n)MOTION FOCUS:(.*?)(?:\n\s*\n|\Z)", k, re.S)
+    if not m:
+        FIX.append(f"[{s}] I2V'de MOTION FOCUS paragrafı yok [PROMPT_SABLONU §2 · SAHNE_PLAN_KARTI · C1-c] — "
+                   f"tek ana iş: malzeme NEREDEN, HANGİ taşıyıcıyla, NEREYE; yoksa iş adımı "
+                   f"sonuç cümlesine döner ve ⑩ SEBEP 'MAGIC' verir")
+        continue
+    mf = m.group(1)
+    if not re.search(MF_KAYNAK_HEDEF, mf, re.I | re.S):
+        FIX.append(f"[{s}] MOTION FOCUS'ta kaynak→hedef yok [C1-c] — 'lifts … from the pile … "
+                   f"onto the flange' kalıbı; beş sorunun ① ve ③'ü bu paragrafta yazılır")
+    eleman = set(x.lower() for x in re.findall(MF_ELEMAN, mf, re.I))
+    if len(eleman) >= 3:
+        FIX.append(f"[{s}] MOTION FOCUS'ta {len(eleman)} yapı elemanı ({' · '.join(sorted(eleman))}) — "
+                   f"tek klipte TEK ana iş [C1-c]; ikincisi sıvı büyümeye döner (F05), sahne bölünür")
+
 # ── 13. uzunluk ────────────────────────────────────────────────────────────
 for s, k in kareler:
     n = len(k)
@@ -744,7 +784,7 @@ for baslik, liste, isaret in [("BLOCK", BLOCK, "⛔"), ("FIX", FIX, "⚠️")]:
         print()
 
 if INFO:
-    print("ℹ️  prompt uzunlukları")
+    print("ℹ️  bilgi (uzunluk · süre dağılımı · kalabalık)")
     for x in INFO:
         print(f"   {x}")
     print()

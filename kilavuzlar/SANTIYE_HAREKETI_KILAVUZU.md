@@ -35,6 +35,18 @@ Ay atlaması KESMEDE olur; rejim KLİBİN İÇİNDEDİR. İkisi karıştırılma
 | **A · SAAT** | 10 dk | 100× | 3,3 | 2,6°–8,0° · fark edilmez | ⭐ **görünür**, hızlı ama tanınır | yumuşak akış |
 | **B · YARIM GÜN** | 2 saat | 1200× | 40 | 30°–84° · ⭐ **bariz süpürme** | iz (streak) ve strobo | uzayan şerit |
 | **C · İŞ GÜNÜ** | 9 saat | 5400× | 180 | 116°–191° · ⭐⭐ tam süpürme | ⛔ **tamamen kaybolur** | silinir, gök homojenleşir |
+| **G · GERÇEK ZAMAN** ⚠️ | 8 sn | 1× | 0,033 | 0° · yok | ⭐ tam görünür — iz YOK, sırtı kameraya, yüz okunmaz | durur ("holds") |
+
+```
+⭐ REJİM G (18.09.2026 · ONE MORE TURN · ⚠️ ÖLÇÜLMEDİ): klip sıkıştırılmaz; ödül,
+   filmin nesnesinin DOĞAL HIZDA hareket etmesidir (su çarkın ilk turu). Kural:
+   · TIME RATE cümlesi "moves at natural speed … eight seconds pass" — "time-lapsed" YAZILMAZ
+   · gölge süpürmesi YOK → ışık günü toplamına 0 dk girer; ışık, G'den önceki kesmede sabitlenir
+   · insan izi (streak) fiziksel olarak yoktur → tek figür, sırtı kameraya, yüz okunmaz [DERS 15]
+   · yalnız filmin SON sahnelerinde ve yalnız hareket ÖDÜLSE; süreç sahnesi G'de anlatılmaz
+   · ⛔ A/B'den G'ye kesmede dere/su dokusu ipekten dalgaya döner — beyanlı dikiş
+   Kapı: prompt_kontrol.py "moves at natural speed" imzasını REJİM olarak tanır.
+```
 
 ```
 Gölge sütunu ölçüldü, iddia değil (40°N, öğle ortalı pencere):
@@ -148,6 +160,13 @@ AY / VAKUM    ⭐ rüzgâr yok: palet izi bozulmadan GÜNLERCE kalır ·
               ⛔ Ay'da toz havada asılı kalmaz; parabol çizip düşer.
 ```
 
+> ⛔ **TOZ VE EGZOZ ÜRETİM KANITI DEĞİLDİR [C1-d].** Yüzey kanıtı, YAPIDA ya da
+> MALZEMEDE kalıcı bir değişimdir (iz · eksilen istif · dökülen tabaka). Toz
+> bulutu, egzoz dumanı, dönen mikser tamburu hareketin GÖRÜNÜMÜDÜR, işin sonucu
+> değil — ⑦ İŞ "THE GROWTH NOBODY MADE" satırı tozdan ikna olmaz. 05_NIHAI_RAPOR'un
+> ilk sürümündeki "araçların en az %50'si egzoz/toz izi taşısın" önerisi bu
+> gerekçeyle alınmadı.
+
 ---
 
 # 4. AŞAMA BAŞINA HAREKET — ACTIVITY cümleleri
@@ -157,6 +176,20 @@ AY / VAKUM    ⭐ rüzgâr yok: palet izi bozulmadan GÜNLERCE kalır ·
 > C'de hareket İZ olarak görünür.
 > ⛔ Sayı yazma. Rapor "2 ekskavatör, 5 kamyon, 17-22 kişi" verdi ama tek bir
 > kaynak göstermedi [A6-X3]. Mertebe yazılır, adet yazılmaz.
+
+> ⭐ **İŞE BAĞLI HAREKET [C1-d · 18.09.2026].** İki hareket kaynağı kuralı KALIR
+> ama ölçüsü değişti: sayılan şey hareketin ANA İŞE HİZMETİDİR, hareket eden
+> adedi değil. OVER_THE_WALL ölçtü: ⑪ ENVANTER 9,3 (ekipman sahada, hareketli),
+> ⑧ YÖNTEM 0,0 (yapıyı o ekipman yapmadı) — "daha fazla araç ekle" yaklaşımının
+> neden yetmediğinin en net verisi (QA/QA_CAPRAZ_ANALIZ/02).
+> · Ana işi yapan araç DERS 43'ün geçişli fiil + NESNESİNİ alır (§4.5) ve
+>   MOTION FOCUS'un taşıyıcısıdır (SAHNE_PLAN_KARTI ②).
+> · Yükü tutan vincin BEKLEMESİ doğrudur — yük havadayken vinç PARKED değildir;
+>   ⑦ merceği "kancada yük var mı"ya bakar, kola değil.
+> · İnsan: az sayıda, ana işi destekleyen görevli. Kalabalık okunurluğu düşürür
+>   (PROMPT_SABLONU §5 "kalabalık şantiye"). Kapı: ACTIVITY'de 4'ten fazla farklı
+>   hareket eden → INFO "hepsi ana işe bağlı mı?"
+> · Finalde şantiye hareketi ARANMAZ → §4.7.
 
 ```
 KAZI       B  an excavator swings in the lower third while a loader crosses the
@@ -265,6 +298,22 @@ KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of 
       sıçradı (② 4 · ⑦ · ⑨ · ⑩). Parçaya yazılan hareket fiili, bağlı olduğu yapının korpus
       hareketini çağırır. Montajda: "the hub stays locked and does not turn while any blade
       flange is bare"; dönme · açılma · sarkma · akma yalnız FİNAL sahnesinde.
+```
+
+## ⭐ 4.7 FİNAL SAHNESİ İSTİSNASI — ödül yapının çalışmasıdır  [C1-d]
+
+```
+FİNALDE sürekli şantiye hareketi ARANMAZ. Filmin ödülü tamamlanmış yapının
+ÇALIŞMASIDIR (çark döner · su geçer · kapı kapanır · ışık yanar) — §4.6 ④'ün
+"yalnız FİNAL sahnesinde" dediği hareket budur ve REJİM G (§1) bunun için var.
+   · İki hareket kaynağı kuralı finalde YAPININ hareketiyle karşılanabilir;
+     kapı usta kare için zaten yumuşak (FIX + "kasıtlıysa planda gerekçelendir").
+   · Şantiye kalıntısı (vinç · iskele · pad) finalde SÖKÜLMÜŞTÜR [merdiven SÖKÜM
+     satırı]; "iş devam ediyor" görünümü vaadi yalanlar (F09 · ④ TESLİM).
+   · Çalışan sonucu ANLAMAYA fırsat verecek süre: tutuş kuralı KILAVUZ_REHBERI
+     §8 adım 9 [P2-i]; kusursuz döngü aranmaz → KURGU_VE_TESLIM §7.
+KALDIRDIĞI: finalde "hâlâ çalışan şantiye" ile ölçek göstermek. Karşılığı,
+            kapak/başlık vaadinin filmde gerçekleşmiş olmasıdır.
 ```
 
 # 5. KAPI — bu kılavuz nerede zorlanır

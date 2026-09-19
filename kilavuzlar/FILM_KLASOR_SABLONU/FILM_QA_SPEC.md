@@ -80,7 +80,7 @@ KOMUT
 | vinç bom başı / en yüksek kaldırma | ⬜ | ⬜ | ⬜ | — | gök mü kara mı: ⬜ [DERS 22] |
 
 ```
-KAMERA SABİTLİK  ① için: ilk/son kare kayması ≤ 2 px (araç kapısı ②) · film boyunca çapa ① ② konumu ±2 px
+KAMERA SABİTLİK  ① için: ilk/son kare kayması ≤ KAMERA_ISTASYONU §7 eşiği (araç kapısı ②) · film boyunca 3 nirengi konumu aynı eşik içinde
 ```
 
 ---

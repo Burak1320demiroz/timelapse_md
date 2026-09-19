@@ -28,7 +28,7 @@ ARAÇ            [ad + sürüm/mod]
    ⛔ tavan < <KLIP>,0 ise <N> sahnenin hepsi iki zincirli klip (ara kare Gn′) — ızgara kararı
       proje sahibine döner; karar buraya yazılır:
    KARAR         ____
-② KAMERA        ilk/son kare kayması: ____ px    (>2 px ise ÜRETİLMEZ)
+② KAMERA        ilk/son kare kayması: ____ px    (KAMERA_ISTASYONU §7 eşiğini aşıyorsa ÜRETİLMEZ)
    GEOMETRİ KANALI [static mode · start/end frame · yok]
 ③ GÖLGE         ilk/son kare açı farkı: ____°    (0° ise ÜRETİLMEZ)
 ④ NEGATİF       metin içi: __/5 klipte sızdı · ayrı alan: __/5 · ayrı alan var mı: __
@@ -54,6 +54,20 @@ PİKSEL  kanıt nesnesi __ px · çapa ① __ px → PLAN ve SPEC §2'ye yazıld
 DOSYA   [kare dosya adı]
 ```
 
+
+## 1b. ⛔ PİLOT ÜÇLÜ — FİNAL ÜRETİLEBİLİRLİK TESTİ [KILAVUZ_REHBERI §8 adım 2b · C1-b]
+
+> Zincirin İLK halkası. Üçü onaylanmadan §2'nin kalanı üretilmez; (c) üretilemiyorsa
+> kapsam daralır (sahne çıkar), prompt "düzeltilmez". Nirengi eşiği: KAMERA_ISTASYONU §7
+> (`zincir_kontrol.sh` çıktısındaki px satırı).
+
+| parça | dosya | zincir_kontrol (önceki ↔ yeni · ana referans ↔ yeni) | 3 nirengi (px) | beş soru ✓ | sahip onayı (tarih) |
+|---|---|---|---|:---:|---|
+| (a) referans karesi G<N> + 3 nirengi işaretli | | — | | — | |
+| (b) ilk halka G<N> → G<N_SON> | | geçti/düştü · geçti/düştü | | — | |
+| (c) final I2V (G<N_SON> → G<N>) — vaat edilen sonuç görünür | | geçti/düştü | | ✓/✗ | |
+| (c′) en zor montaj hareketinin pilot klibi (hangi sahne: ____) | | geçti/düştü | | ✓/✗ | |
+
 ## 2. GERİYE ZİNCİR — KARE başına TEK satır, sıra: G<N_SON> → G0
 
 > Her kare bir öncekinin üstünde EDİT [P2-a]. Kanıt nesnesi = ⬜, elle ✓/✗ [DERS 25].
@@ -68,7 +82,8 @@ DOSYA   [kare dosya adı]
 ⛔ zincir_kontrol "düştü" yazan satırın ALTINDAKİ satırlar boş kalır — o kare atılır, yeniden
    türetilir, satır yeniden yazılır [DERS 12 · 25]. Düşen kareden türetilmiş alt kare tabloya giremez.
 ⚠️ <N1> karelik zincirde hata birikimi (A3-a) beklenir: her ~10 karede G(n) ↔ G<N> yan yana konur
-   (çapa ① ② ve kanıt nesnesi px) — kayma ≥ 2 px ise zincir usta kareden yeniden alınır.
+   (3 nirengi px · KAMERA_ISTASYONU §7) — kayma eşiği aşıyorsa zincir usta kareden yeniden alınır;
+   ⭐ her koşuda üçüncü argüman GN verilir: zincir_kontrol.sh <onceki> <yeni> <GN>.
 ```
 
 ## 3. VİDEO — I2V, klip başına TEK satır
@@ -76,9 +91,13 @@ DOSYA   [kare dosya adı]
 > ÜRETİM SÜRESİ = TESLİM SÜRESİ + 1,00 sn [A7-b]. Kırpma BAŞTAN [§2.7 ③]. REJİM sütunu boş bırakılamaz [A6-a].
 > ⛔ HER KLİP İKİ ONAYLI KAREYE KİLİTLİDİR: ilk kare G(n), son kare G(n+1); klip üretildikten SONRA
 > son kare ↔ hedef görsel zincir_kontrol koşulur [§2.7 · ARAC_KARTLARI ⑧].
+>
+> ⭐ **baş/orta/son** [C1-a]: klip üç noktada ELLE izlenir — başta malzeme kartın ① yerinde mi ·
+> ortada taşıyıcıyla birlikte mi hareket ediyor (süzülmüyor, boyu değişmiyor) · sonda ④ farkı
+> görünüyor mu. Üç ✓ olmayan klip, zincir_kontrol geçse bile yeniden üretilir.
 
-| S | araç + ayar | rejim | ilk kare | son kare | son kare ↔ hedef zincir_kontrol | prompt birebir mi | ffprobe süre | kırpma (baş/son, kare) | teslim süre | yüzey kanıtı ✓/✗ | dosya |
-|:-:|---|:-:|---|---|:---:|---|---:|---|---:|:---:|---|
+| S | araç + ayar | rejim | ilk kare | son kare | son kare ↔ hedef zincir_kontrol | prompt birebir mi | ffprobe süre | kırpma (baş/son, kare) | teslim süre | yüzey kanıtı ✓/✗ | beş soru ✓/✗ | baş/orta/son | dosya |
+|:-:|---|:-:|---|---|:---:|---|---:|---|---:|:---:|:---:|:---:|---|
 <I2V_SATIRLARI>
 
 ## 4. KURGU VE TESLİM — YEDİ ÖLÇÜM [KURGU_VE_TESLIM_KILAVUZU §6] — TAM master

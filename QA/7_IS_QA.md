@@ -74,6 +74,9 @@ every category. A static end card is not an idle stretch.
 - If something cannot be determined from the media, write `NOT VISIBLE`.
 - Do not judge whether the method is correct. Lens 8 does that. You judge
   whether work is **happening**, **continuous**, and **causing** the growth.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 
@@ -247,7 +250,7 @@ C2 OPENING / HANDOVER     x/10 or NOT TRIGGERED
 AVERAGE                   x.x/10
 
 FINDINGS
-[category number] [m:ss.s] [what is visible]
+[category number] [m:ss.s] [what is visible] [evidence frame: grab file name, if frames were supplied]
 ...
 
 IDLE TABLE

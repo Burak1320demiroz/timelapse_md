@@ -42,6 +42,9 @@ VISIBLE HUMANS        [PRESENT / NONE]
 - Every finding carries a timestamp `m:ss.s` and a description of the activity.
 - Report defects only. Do not praise.
 - If something cannot be determined, write `NOT VISIBLE`. Never infer.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 
@@ -113,7 +116,7 @@ SCORES
 AVERAGE                   x.x/10
 
 FINDINGS
-[category number] [m:ss.s] [what was the fake/idle activity]
+[category number] [m:ss.s] [what was the fake/idle activity] [evidence frame: grab file name, if frames were supplied]
 ...
 
 VERDICT

@@ -84,6 +84,9 @@ Score the end card only on this single question, reported at the end:
 - If something cannot be determined, write `NOT VISIBLE`. Never infer.
 - Where you estimate an angle, say it is an estimate and give the object you
   measured it from.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 
@@ -273,7 +276,7 @@ C4 VEGETATION          x/10 or NOT TRIGGERED
 AVERAGE                x.x/10
 
 FINDINGS
-[category number] [m:ss.s] [what is visible]
+[category number] [m:ss.s] [what is visible] [evidence frame: grab file name, if frames were supplied]
 ...
 
 SHADOW TABLE

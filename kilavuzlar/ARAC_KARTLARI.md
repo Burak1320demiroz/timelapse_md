@@ -119,8 +119,10 @@ GİRDİ    Tek prompt (§5) · AYNI prompt · 5 klip · farklı seed/koşu
 ÖLÇÜM 2 · KAMERA KİLİDİ
    ffmpeg -v error -y -i klip_1.mp4 -frames:v 1 ilk.png
    ffmpeg -v error -y -sseof -0.05 -i klip_1.mp4 -frames:v 1 son.png
-   → İki kareyi üst üste koy. Sabit bir arka plan noktası kaç piksel kaydı?
-   ⛔ > 2 px ise KAMERA KİLİDİ YOK. Bu araçla bu format üretilmez.
+   → İki kareyi üst üste koy. ÜÇ sabit nirengi (bina köşesi · kaya · ufuk kesişimi)
+     kaç piksel kaydı? Eşik çözünürlüğe oranlıdır → KAMERA_ISTASYONU §7
+     (`zincir_kontrol.sh` px eşiğini basar).
+   ⛔ Eşiği aşıyorsa KAMERA KİLİDİ YOK. Bu araçla bu format üretilmez.
      Prompt düzeltilmez [DERS 23].
 
 ÖLÇÜM 3 · GÖLGE DÖNÜYOR MU

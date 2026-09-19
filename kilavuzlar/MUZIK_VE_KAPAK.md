@@ -328,3 +328,30 @@ göre seçer, tıklama oranına göre DEĞİL) [A15 · A17 · araç dokümanı s
    G0 · alt %55 G7). Ölçülmedi; kural değil, TEK DENEME olarak duruyor.
 ⛔ "Kırmızı ok · çember · alev efekti"    → paletin dışı [`KANAL_KIMLIGI`]
 ```
+
+---
+
+# 5. ⭐ ÜÇ NOKTA KONTROLÜ — açılış · kapak · final BİRLİKTE  [C1-h · 18.09.2026]
+
+> Kaynak: çapraz analiz F09 "kapak vaadi ile final kare uyuşmazlığı" 6/14 filmde
+> (QA/QA_CAPRAZ_ANALIZ/03) + dış değerlendirme. Üç yüzey ayrı ayrı zaten
+> denetleniyordu (§2.2 kapak GN'den · DERS 30 kapak kanıtı · §3.3 spoiler
+> bütçesi); eksik olan üçünün YAN YANA okunmasıydı. ÖLÇÜLMEDİ — VARSAYIM.
+
+| nokta | ne gösterir | ne GÖSTERMEZ | kanıt |
+|---|---|---|---|
+| **AÇILIŞ** (S0'ın ilk ~1-2 sn'si) | anlaşılır bir SORUN (eksik parça · boş açıklık · çıplak zemin) + BAŞLAMIŞ bir eylem (taşıyıcı yükle kadrajda) | boş saha; sonucun ipucu | `kare_al.sh` S0 ilk kare + 120 px testi (§2.5 ②) |
+| **KAPAK** | YALNIZ filmde gerçekleşen son durum — GN'den türer (§2.2) | filmde ulaşılmayan yapı · finalde görünmeyen çalışma | `zincir_kontrol.sh s9_kaynak.jpg kapak.png` [DERS 30] |
+| **FİNAL** (son klip) | ÇALIŞAN sonuç: çark döner · su geçer · kapanış tamamlanır; anlamaya süre verir | şantiye kalıntısı · kusursuz döngü zorlaması (KURGU_VE_TESLIM §7) | FİNAL KARE KANITI `ffmpeg -ss … kanit.jpg` + SPEC satırı |
+
+```
+BİRLİKTE OKUMA   üç görüntü yan yana konur (açılış karesi · final karesi · kapak):
+   □ açılıştaki SORUN, finalde ÇÖZÜLMÜŞ mü?          (aynı yer, aynı eleman)
+   □ kapaktaki yapı, final karesindeki yapı mı?       (fazlası yok, eksiği yok)
+   □ finalde çalışan şey, başlıkta vaat edilen şey mi?
+   Üçünden biri HAYIR → kapak ya da final yeniden; açılış tercihi PLANA yazılır.
+
+⚠️ AÇILIŞ TERCİHİ KESİN KURAL DEĞİL, TEST EDİLECEK KURGU SEÇİMİDİR:
+   (A) eksik parça açıkça görünür  vs  (B) yerleşmek üzere olan parçayla yakın sonuç
+   → QA/QA_CAPRAZ_ANALIZ/06_IZLEYICI_DENEY_PLANI adım 1-2 bunu ölçer.
+```

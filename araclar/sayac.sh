@@ -46,7 +46,7 @@ echo
 echo "📚 DERSLER"
 DERS=$(grep -cE "^## DERS [0-9]+" kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
 VARSAYIM=$(grep -cE "^D-[a-z]  " kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
-ARASTIRMA=$(grep -cE "^[AP][0-9]-[a-z]  " kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
+ARASTIRMA=$(grep -cE "^[APC][0-9]+-[a-z] +" kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')   # ⭐ C = çapraz analiz (18.09.2026) · A10+ iki haneli
 HAM_ARASTIRMA=$(ls -1 arastirma/SONUCLAR/[AP]*_HAM.md 2>/dev/null | wc -l | tr -d ' ')
 printf "   ölçülmüş ders         %s\n" "${DERS:-0}"
 printf "   devralınan varsayım   %s   ⚠️ film_md'den · bu depoda ÖLÇÜLMEDİ\n" "${VARSAYIM:-0}"

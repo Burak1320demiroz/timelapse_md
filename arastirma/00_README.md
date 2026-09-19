@@ -73,6 +73,8 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | A16 | ⚠️ İSTENMEDİ · `SONUCLAR/A16_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · 11 satırın 10'u tuttu, 1'i bin kat şişik | ⚠️ yalnız yöntem (sapma çarpanı) |
 | A17 | ⚠️ İSTENMEDİ · `SONUCLAR/A17_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · platform zarfı (1280×720 · 2 MB · süre etiketi) | ⚠️ → MUZIK_VE_KAPAK §4 |
 | A18 | ⚠️ İSTENMEDİ · `SONUCLAR/A18_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · A14 ile TERS yönde konuşuyor (sabit kamera) | ⚠️ çelişki kaydı |
+| P6 | `SONUCLAR/P6_THE_LAST_CIRCLE_OKUMA_HAM.md` | insan · uzman okuması | 17.09.2026 · YAZILMAMIŞ planı okudu | evet (P3-a…P3-i) — ⛔ bir kılavuz maddesini DÜZELTTİ |
+| P7 | `SONUCLAR/P7_THE_BORROWED_HILL_OKUMA_HAM.md` | insan · uzman okuması | 17.09.2026 · YAZILMAMIŞ planı okudu | evet (P4-a…P4-i) — ⭐ bir HESAP HATASI yakaladı |
 
 ```
 ⭐ DÖRDÜNCÜ KUŞAK BAŞKA TÜRLÜ GELDİ — 17.09.2026

@@ -82,6 +82,9 @@ If any slate field cannot be filled from the media, stop and return
 - If something cannot be determined, write `NOT VISIBLE`. Never infer.
 - Do not speculate about how the film was made or which tool produced it.
 - Name objects by what they look like, not by what you assume they are.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 
@@ -264,7 +267,7 @@ C2 SECONDARY VANTAGE      x/10 or NOT TRIGGERED
 AVERAGE                   x.x/10
 
 FINDINGS
-[category number] [m:ss.s] -> [m:ss.s] [what was one way and is now another]
+[category number] [m:ss.s] -> [m:ss.s] [what was one way and is now another] [evidence frame: grab file name, if frames were supplied]
 ...
 
 VERDICT

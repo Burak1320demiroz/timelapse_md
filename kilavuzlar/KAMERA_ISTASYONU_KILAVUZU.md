@@ -209,3 +209,53 @@ COMPOSITION satırına yazılacak cümle:
 working level sits above the bottom quarter of the frame; nothing that proves
 progress falls into the right eighth of the frame."
 ```
+
+---
+
+# 7. ⭐ SABİTLİK DOĞRULAMASI — ÜÇ NİRENGİ VE ORANSAL EŞİK  [C1-f · 18.09.2026]
+
+> Kaynak: 15 filmin çapraz analizi (F04 "çapa/istasyon bozulması" 10/15 filmde,
+> `QA/QA_CAPRAZ_ANALIZ/03`) + dış değerlendirme. Depoda ÖLÇÜLMEDİ — VARSAYIM
+> (`DERSLER.md` ÇAPRAZ ANALİZ). Eskiden "> 2 px" tek sayı olarak dört yerde
+> duruyordu; sayı artık **tek yerde** — `araclar/zincir_kontrol.sh`
+> `ESIK_KAYMA_ORAN` — ve buradan yalnız FORMÜLÜ okunur.
+
+```
+NEDEN ORANSAL   Aynı kayma 1080 genişlikte 2 px, 3840'ta 7 px görünür; mutlak
+                sayı çözünürlük değişince ya kör ya paranoyak olur.
+                eşik_px = genişlik × ESIK_KAYMA_ORAN   (betik hesaplar ve basar)
+                ⛔ Oran deponun ölçülmüş "2 px @ 1080" kuralından türedi; %1 gibi
+                   daha gevşek bir oran ÖLÇÜLMEDEN alınmaz.
+                ⭐ Sahip kararı 19.09.2026: taban 2 px @ 1080 KALIR.
+
+ÜÇ NİRENGİ      En az üç SABİT nokta, üçü de kadrajın farklı bölgesinde:
+                  ① yapı DIŞI bir köşe (komşu bina · kaya · direk)
+                  ② ufuk çizgisinin bir kesişimi (sırt · çatı silueti · deniz)
+                  ③ ön plan zemininde sabit bir şey (çit direği · bordür · kaya)
+                Yapının kendisi nirengi OLAMAZ — o büyür.
+                Üçü de usta karede px koordinatıyla PLAN §DEĞİŞMEZLER'e yazılır.
+
+İKİ ADIM        ⓐ GENEL KAYMA — üç nokta AYNI yöne, AYNI kadar ötelenmiş mi?
+                   → kamera istasyonu kaymış; kare atılır, önceki onaylıdan türetilir.
+                ⓑ YEREL DEFORMASYON — genel kayma yoksa (ya da düzeltildikten
+                   sonra) tek bir nokta kendi başına mı oynamış?
+                   → dünya yeniden üretilmiş (⑤ "A SET REBUILT"); kare atılır.
+                ⚠️ ⓐ ile ⓑ'yi ayırmadan "kaydı" demek, hangisinin düzeltileceğini
+                   söylemez: ⓐ istasyon işi, ⓑ referans işi.
+
+İKİ REFERANS    Her yeni kare İKİ kareyle karşılaştırılır:
+                  · bir önceki ONAYLI kare        (zincir)
+                  · ANA REFERANS = usta kare GN   (birikim)
+                bash araclar/zincir_kontrol.sh <onceki> <yeni> <GN>
+                ⛔ Yalnız öncekiyle karşılaştırmak yetmez — ardışık I2I hata
+                   BİRİKTİRİR [A3-a]; on karede her biri eşiğin altında kalıp
+                   toplamda eşiğin beş katı kaymak mümkündür.
+
+NEREYE YAZILIR  Üretim günlüğü §2 kare satırı (px) ve §1b pilot üçlü.
+                Betik SSIM ölçer, nirengi ÖLÇMEZ — px değeri elle okunup yazılır.
+```
+
+⛔ **Eşiği aşan kare ATILIR — betik geçse bile.** KALDIRDIĞI: "gözle aynı
+görünüyor" diyerek kareyi kabul etme imkânı. Karşılığı, ① KARE merceğinin
+"SIX SEPARATE SHOTS" hükmünü üretimden önce yakalamaktır.
+

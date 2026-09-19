@@ -86,6 +86,17 @@ KURAL  Süre varyansı ⑥'nın GEREK şartıdır, YETER şartı değil. Kesmeni
    ⑤ hükmü "A SET REBUILT EACH TIME" ise ⑥ METRONOM hükmü IZGARAYA YAZILMAZ.
    Sebep ⑤'tir. kesme_kontrol.sh ızgarayı doğrulasa bile bu böyledir.
 ⛔ Düz ızgara yasağı KALKMAZ; varyans hâlâ gereklidir — tek başına yetmiyor.
+   ⭐ 18.09.2026 karşı kayıt [C1-e]: sahip dikey shorts'ta süreyi SABİT ilan etti
+   (KILAVUZ_REHBERI §2.2). O ızgarada ritim yükünü taşıyan şey aşağıdaki denetimdir.
+
+⭐ KLİP İÇİ İLERLEME VE TEKRAR DENETİMİ [C1-e] — kurgudan ÖNCE, klip başına:
+   □ görünür SONUÇ bir öncekinden farklı mı? (④ beş soru — hangi eleman, yüzde)
+   □ görsel değişimin BÜYÜKLÜĞÜ farklı mı? (küçük parça / büyük kütle / söküm)
+   □ eylemin YÖNÜ farklı mı? (kaldır / indir / yatay taşı / döndür)
+   □ SES vurgusu farklı mı? (müzik katmanı = kat, MUZIK_VE_KAPAK §1.2)
+   Aynı işin aynı görünümü iki ardışık klipte tekrar ediyorsa METRONOM oradan
+   doğar, süreden değil. Tablo üretim günlüğü §4'e yazılır; ⑥ merceği okunurken
+   METRONOM hükmünün yanına bu tablo konur.
 ```
 
 # 3. KESME YERİ — nereye düşer
@@ -252,6 +263,14 @@ KOŞ:  bash araclar/kesme_kontrol.sh teslim.mp4 <plan.md>
 
 ⭐ DÖNGÜ: S9'un son karesi S0'ın ilk karesine bağlanır [merdiven LOOP satırı].
    Kırpmadan SONRA kontrol edilir — kırpma döngü noktasını kaydırır.
+   ⭐ KADRAJ döngüsü aranır, DURUM döngüsü aranmaz [A14-d · C1-h]: aynı kamera,
+     aynı çapalar; yapı finalde bitmiş, başta yok — bu ZATEN döngü kırığıdır ve
+     doğrudur. "Kusursuz loop" için finali kısaltmak ya da yapıyı geri almak YOK.
+   ⭐ FİNAL: çalışan sonucu ANLAMAYA fırsat verecek süre — tutuş KILAVUZ_REHBERI
+     §8 adım 9 [P2-i]; çalışan mekanizma (çark · su · kapı) son klipte GÖRÜNÜR,
+     kapağın vaadi budur (MUZIK_VE_KAPAK §5 üç nokta kontrolü).
+   KALDIRDIĞI: finali döngüye uydurmak için kısa kesme imkânı. Karşılığı,
+     ④ TESLİM'in "vaat edilen sonuç görüldü" satırıdır.
 ```
 
 ---

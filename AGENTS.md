@@ -68,6 +68,10 @@ timelapse_md/
 │   │                                   üretim (sabit) · kurgu (yakınlaşma · HOME
 │   │                                   paketi · çözünürlük kapısı) · kadraj içi
 │   │                                   ⛔ katman 2 ÖLÇÜLMEDİ — sahip kararı
+│   │  ── beşinci kuşak · 18.09.2026 · 15 filmin ÇAPRAZ ANALİZİNDEN doğdu (C1) ──
+│   ├── SAHNE_PLAN_KARTI.md          ⭐ BEŞ SORU prompttan ÖNCE: malzeme nerede · taşıyıcı ·
+│   │                                   nereye oturur · ne değişti · ne sabit → I2V MOTION
+│   │                                   FOCUS · kapısı prompt_kontrol.py §10e (FIX)
 │   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
 │   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
 │   └── DERSLER.md                   ölçülmüş dersler + devralınan varsayımlar
@@ -112,8 +116,11 @@ timelapse_md/
 │   ├── 7_IS_QA.md                   ⑦ şantiye hiç duruyor mu · büyümenin sebebi · mod V
 │   ├── 8_YONTEM_QA.md               ⑧ her parça sıfırdan, yapımı görünerek · mod D
 │   ├── T1..T8                       skor tabloları
-│   ├── RAPORLAR/                    film başına kalıcı kayıt (ajanın özeti)
-│   └── HAM_RAPORLAR/                modelin ham çıktısı ⛔ DOKUNULMAZ
+│   ├── RAPORLAR/                    film başına kalıcı kayıt (ajanın özeti) + OLAY TABLOSU
+│   ├── HAM_RAPORLAR/                modelin ham çıktısı ⛔ DOKUNULMAZ
+│   └── QA_CAPRAZ_ANALIZ/            ⭐ 18.09.2026 · 15 filmin çapraz okuması: skor matrisi ·
+│                                       arıza kalıpları · önlem tablosu · izleyici deney planı
+│                                       ⛔ sayılar elle değil: araclar/capraz_sayim.py
 │
 ├── apexait/                         📺 KANAL — QA'dan sonrası · ÜÇ HESAP
 │   ├── README.md                    yapı · okuma sırası · açık işler
@@ -162,7 +169,9 @@ timelapse_md/
 └── araclar/
     ├── sayac.sh                     sayıları dosya sisteminden hesaplar
     ├── prompt_kontrol.py            ÜRETİMDEN ÖNCE koşan kapı · çıkış 2 = BLOCK
-    ├── zincir_kontrol.sh            ⭐ ÜRETİM ARASI kapı · her kareden sonra
+    ├── zincir_kontrol.sh            ⭐ ÜRETİM ARASI kapı · her kareden sonra · 3. argüman = ana
+    │                                   referans (GN) · px kayma eşiğini basar (KAMERA_ISTASYONU §7)
+    ├── capraz_sayim.py              QA_CAPRAZ_ANALIZ skor matrisini yeniden hesaplar
     ├── kare_al.sh                   ① ve ⑤ için kare grabları
     ├── qa_paket.sh                  ⭐ QA KOŞU PAKETİ · sekiz mercek · günlük kapısı [DERS 28-29]
     ├── kesme_kontrol.sh             ⛔ YAYIN ÖNCESİ · kurgu SÜRE sütununa uydu mu [DERS 31]
@@ -199,6 +208,9 @@ ve komşularında. Burada tekrarlanmaz.**
                       ⭐ Süreler KUTULUDUR [A7-a]. Plana ARAÇ KUTU SETİ satırı
                         yazılır ve sahne tavanı = (en büyük kutu − 1,00 sn)
                         aşılmaz [ARAC_KARTLARI §2]. Aşılırsa prompt kapısı BLOCK.
+7b. SAHNE PLAN KARTI  ⭐ SAHNE_PLAN_KARTI — klip başına BEŞ SORU cevaplanır
+                      (yatay: 00_SAHNE_TABLOSU sütunu · dikey: kare tablosu + günlük).
+                      ⛔ Beş sorusu cevaplı olmayan sahnenin promptu yazılmaz [C1-a].
 8. PROMPTLAR          PROMPT_SABLONU iskeletiyle · ⭐ 2N+1 prompt:
                       N+1 GÖRSEL (G0…GN · sonuncusu USTA KARE, ayrı bölümde)
                       + N I2V · ⛔ T2V YOK [KILAVUZ_REHBERI §2.7]
@@ -207,6 +219,8 @@ ve komşularında. Burada tekrarlanmaz.**
                       ⭐ AT THIS STAGE'e INSAAT_YONTEMI §5'ten ara hâl cümlesi
                       ⭐ TIME RATE'e SIKIŞTIRMA REJİMİ (A·B·C) beyanı [A6-a]
                       ⭐ ACTIVITY'ye iki hareket eden + bir yüzey kanıtı [A6-d]
+                        — sayı değil ANA İŞE hizmet [C1-d]
+                      ⭐ I2V'ye MOTION FOCUS paragrafı (kartın ①②③④'ü) [C1-c]
 8b. KAMERA HAREKETİ?  "hareket" isteniyorsa ÖNCE KAMERA_HAREKETI_KILAVUZU §0:
                       istek kadraj içi mi, kurgu yakınlaşması mı. Yakınlaşma
                       varsa plana KURGU bölümü + araç kapısına çözünürlük ölçümü.
@@ -260,6 +274,7 @@ VARYANT         5 × 6,0 = 30,0 sn + kapak 5,0        KILAVUZ_REHBERI §2.6
                    (VAAT/DİRENÇ/BEDEL · yapı + saha kartı · 16:9 kamera hesabı · vinç · ışık günü)
                    → 03 sıralama (inşa sırası → N satır · Σ rejim ≤ 14 h · bölüm sınırı karesi)
                    → 04 uyarılar (tekrar eden arıza tablosu her satır cevaplı) → 05 sahne tablosu
+                   (⭐ BEŞ SORU sütunu dolu — SAHNE_PLAN_KARTI; KAPI ✅ olmadan prompt yok)
 4. PLAN            kart A adım 1-7 aynen — <FILM>_PLAN.md (⛔ prompt yok) · ARAÇ KUTU SETİ satırı
 5. USTA KARE       önce BOLUM_2'nin ## 🌟 USTA KARE bölümü (GN) — kapak kaynağı
 6. PROMPTLAR       BOLUM_1 (S0…S(k−1)) · BOLUM_2 (S(k)…S(N−1)) — kart A adım 8 aynen; bölüm
@@ -289,7 +304,7 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
       ⭐ 08.09.2026: ÜÇ SORU YEDİYE ÇIKTI → kilavuzlar/ARAC_KARTLARI.md §4
       Tek prompt (ARAC_KARTLARI §5) · BEŞ klip · SEKİZ ölçüm:
         ① ffprobe süre → KUTU SETİ · ızgara o sayıdan yazılır [D-d]
-        ② KAMERA HAREKET EDİYOR MU? (>2 px ise bu araçla üretilmez)
+        ② KAMERA HAREKET EDİYOR MU? (eşik KAMERA_ISTASYONU §7 — aşıyorsa bu araçla üretilmez)
         ③ GÖLGE DÖNÜYOR MU? (ilk/son karede aynı açıysa DUR)
         ④ NEGATİF SIZIYOR MU? (metin içi ve ayrı alan ayrı ayrı) [DERS 33]
         ⑤ PROMPT TAVANI — promptun son nesnesi kaç klipte göründü?
@@ -312,6 +327,11 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
    ⭐ FORMAT: foto1 – video1 – foto2 – video2 – … Her videonun SOLUNDAKİ foto
       onun İLK karesi, SAĞINDAKİ foto SON karesidir. N sahne = N+1 görsel.
    1. USTA KARE (GN) üretilir → KAPI: ikna edici değilse DUR
+   1b. ⛔ PİLOT ÜÇLÜ — FİNAL ÜRETİLEBİLİRLİK TESTİ [KILAVUZ_REHBERI §8 adım 2b · C1-b]:
+       (a) GN + 3 nirengi işaretli referans · (b) ilk halka GN → G(N−1) + zincir_kontrol ·
+       (c) o iki kare arasında çalışan FİNAL I2V + en zor montajın pilot klibi.
+       Üçü sahip onayı almadan adım 2 sürmez; (c) üretilemiyorsa KAPSAM DARALIR.
+       Günlük §1b. Her zincir_kontrol koşusunda üçüncü argüman GN verilir.
    2. Usta kareden GERİYE image-to-image: GN → G(N-1) → … → G0
    3. ⛔ HER KAREDEN SONRA, SONRAKİNE GEÇMEDEN ÖNCE:
          bash araclar/zincir_kontrol.sh <onceki_onayli> <yeni>
@@ -437,6 +457,10 @@ Her koşuda BAŞKA HİÇBİR ŞEY verilmez: medya + rubrik + (mod D ise) tek bel
                  ortalama ne olursa olsun. Parça adı T8 tablosuna yazılır.
 7. KALICI KAYIT  QA/RAPORLAR/<FILM>.md (skor · hüküm · en ağır üç bulgu ·
                  karar: hangi sahne yeniden üretilecek, hangi kusur kabul edildi)
+                 ⭐ + OLAY TABLOSU [C1]: aynı olay farklı mercekleri etkiliyorsa TEK
+                 kimlik (E01…) · zaman kodu · kanıt karesi · karar — format
+                 QA/00_README §8. Mercekler koşulduktan SONRA ajan doldurur.
+                 Dosyası açılamayan koşu INC yazılır, 0 değil.
 8. TAMLIK        QA/00_INDEX.md matrisini ve sayımı güncelle
 9. YENİ DERS     yeni bir bozulma çıktıysa kart D
 ```
@@ -540,6 +564,9 @@ commit'i sahibine bırakır.
   hiçbiri ölçülmedi. İlk üretimden sonra ya derse dönüşürler ya düşerler.
 · prompt_kontrol.py yalnız METİN denetler; anlam denetlemez. Kapıdan geçen
   bir prompt iyi bir prompt değildir, yalnız biçimsel olarak eksiksizdir.
+  ⭐ 18.09.2026 ölçüldü: 15 filmin planı kapıdan geçti, ② İNŞA'da çoğu düştü.
+  Kapıyı geçmek görüntüde doğru eylemi garanti etmez — ikinci aşama (klip
+  baş/orta/son + zincir_kontrol) ayrı koşulur [QA/00_README §7].
 · Kadraj hesabı (KAMERA_ISTASYONU §3) tam kare dikey (36 mm kare yüksekliği)
   varsayar. Başka sensör/araç kullanılırsa formülün 36 sabiti değişir.
 · Ters inşa (image-to-image ile geriye) bu depoda BEŞ filmde de koşulmadı
@@ -560,6 +587,7 @@ commit'i sahibine bırakır.
 
 ```bash
 bash araclar/sayac.sh
+python3 araclar/capraz_sayim.py     # QA_CAPRAZ_ANALIZ sayıları matrisle uyuşuyor mu
 
 # başlıksız / SPEC'siz film klasörü var mı — çıktı boş olmalı (beş format klasörü)
 for d in dikey_shorts/*/ yatay_*_dk_filmler/*/; do

@@ -83,6 +83,9 @@ category and from the ledger.
   What changes across a cut belongs to Lens 5. Whether a movement is
   purposeful belongs to Lens 9. Do not score any of those here.
 - If something cannot be determined from the media, write `NOT VISIBLE`.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 
@@ -265,7 +268,7 @@ C3 WATER AND SNOW         x/10 or NOT TRIGGERED
 AVERAGE                   x.x/10
 
 FINDINGS
-[category number] [m:ss.s] [body] [what is visible]
+[category number] [m:ss.s] [body] [what is visible] [evidence frame: grab file name, if frames were supplied]
 ...
 
 BODY LEDGER

@@ -45,6 +45,9 @@ TOTAL ELEMENTS        [number of elements on the checklist — from QA_SPEC in m
 - Every finding carries a timestamp `m:ss.s` and a description of the element and the machine/human working on it.
 - Report defects only. Do not praise.
 - In mode D, quote the specification line you are testing against. Never paraphrase. In mode V, name the element as you see it and give the timestamp of the frame you took it from.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 

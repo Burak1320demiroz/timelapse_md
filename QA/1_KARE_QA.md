@@ -84,6 +84,9 @@ Score the end card only on this single question, reported at the end:
 - Do not speculate about how the film was made or which tool produced it.
 - Percentages of frame height are measured from the bottom of the frame:
   bottom edge = 0%, top edge = 100%.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 
@@ -266,7 +269,7 @@ C4 NIGHT               x/10 or NOT TRIGGERED
 AVERAGE                x.x/10
 
 FINDINGS
-[category number] [m:ss.s] [what is visible]
+[category number] [m:ss.s] [what is visible] [evidence frame: grab file name, if frames were supplied]
 ...
 
 MEASUREMENT TABLE

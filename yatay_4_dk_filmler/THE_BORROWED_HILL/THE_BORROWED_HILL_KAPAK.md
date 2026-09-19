@@ -1,60 +1,61 @@
-# 🖼️ THE_BORROWED_HILL — KAPAK
-
-**Kaynak:** `MUZIK_VE_KAPAK.md` §2 · kart A adım 9 · KAPAK KANITI [DERS 30]
-
-## 0. İKİ İŞ, TEK GÖRÜNTÜ
+# 🖼️ THE BORROWED HILL — KAPAK
 
 ```
-KAYNAK KARE     G24 usta kare — kapak AYRI ÜRETİLMEZ, ondan türer [§2.2]. Prompt aşağıda usta kare (G24) promptunun
-                kopyası + tek ek satır (başlık bandı). Model başlığı YAZMAZ; tipografi post-prodüksiyon.
-KAPAK KARTI     teslimin son 5,0 sn'si (240,0–245,0) · hareketsiz · başlıklı · SAHNE DEĞİL [DERS 4]
-KAPAK KANITI    kaynak TESLİM dosyasından alınır (kırpma kareleri kaydırır — KURGU_VE_TESLIM §2):
-                ffmpeg -ss ⬜ -i teslim.mp4 -frames:v 1 g24_kaynak.jpg
-                bash araclar/zincir_kontrol.sh g24_kaynak.jpg kapak.png   → çıkış 2 = kapak filmin dünyasından değil, TESLİM YOK
-BAŞLIK          "⬜" (İngilizce · ≤3 kelime) — YAYIN_PAKETI başlığıyla aynı vaadi söyler
-ÖLÇÜ            16:9 · 1920×1080 (video içi kart) · küçük resim 1280×720 aynı kaynaktan
+⛔ FİLMDE KAPAK KARTI YOKTUR (sahip kararı 17.09.2026). Film S23'ün son geniş
+   kadrajında biter. Bu dosya yalnız platforma YÜKLENEN küçük resmi tanımlar.
+BOYUT   1280 × 720 · JPG · ≤ 2 MB  [A17-b · araç dokümanı sınıfı]
+KAYNAK  G0 ve G24 — ikisi de filmin kendi kareleri [DERS 30]
+KANIT   bash araclar/zincir_kontrol.sh g24_kaynak.jpg kapak.png → çıkış 2 = TESLİM YOK
 ```
 
----
-
-## 📸 KAPAK GÖRSEL PROMPTU (G24 + başlık bandı satırı)
-
-> ⛔ Bu başlık bilerek `📸 GÖRSEL PROMPT` DEĞİLDİR: kapak bir sahne değildir ve kapı sayımına girmez.
-> ⛔ **Metinsiz üret.** Prompt hâlâ `no text` der. Model yazdığı yazıyı bozar.
+## 1. Fikir — aynı açıdan iki durum
 
 ```
-[G24 USTA KARE PROMPTU BİREBİR — BOLUM_2 son bölümü]
-+ ek satır (COMPOSITION sonuna):
-Leave a horizontal band between roughly ⬜ and ⬜ percent of frame height on the ⬜ [left / right] ⬜
-of the picture visually simple and low-contrast so that a title can be set over it: no structural
-detail, no strong edge and no bright object inside that band — open sky / plain ground only.
-Output: 16:9, 4K, no text, no watermark.
+Proje sahibinin şartı (17.09.2026): "Kapakta, aynı açıdan başlangıçtaki tepe ile son
+durum arasındaki fark okunmalı; küçük yazı ve çok sayıda makine bu fikri gölgelemesin."
+
+⭐ İki yarı DEĞİL, İKİ DURUM: kapak dikey olarak ortadan bölünür.
+   SOL %50   G0 kırpması — tepe 16,0 m, kadrajın %66,9'unda, uzak krater sırtının ÜSTÜNDE
+   SAĞ %50   G24 kırpması — tepe 3,0 m, %44,9, o çizginin ALTINDA; tümsek ve yanık pencere
+⛔ İKİ YARIDA DA UZAK KRATER SIRTI GÖRÜNÜR ve AYNI YÜKSEKLİKTEDİR (%51,6).
+   Kapağın çalışması buna bağlıdır: izleyici farkı ancak ortak çizgiden okur.
+⛔ İki yarı da 1:1 piksel kırpmadır; ölçeklenmez. Aralarına çizgi, çerçeve ya da
+   gradyan konmaz — sert kesme.
+⛔ MAKİNE YOK: iki yarıda da çalışan makine görünmez. Fikri gölgeler.
+   G0 kırpmasında kesim rigi kadraj dışında bırakılır; G24 zaten boştur.
 ```
 
-⚠️ Yatayda bant YANDA durur (yapının boş tarafında), dikeydeki "üst orta üçte bir" kuralı değil:
-yapı ve kanıt nesnesi kadrajın ⬜ [sol/sağ] yarısında, başlık öbür yarıda; bant güvenli alan
-dışında (üst 60 px · alt 100 px · sağ üst 300×100 px — §2.8 varsayılanı, ⬜ ölçülmedi).
-
----
-
-## 🔤 BAŞLIK DİZGİSİ (post-prodüksiyon) [MUZIK_VE_KAPAK §2.3]
+## 2. Metin
 
 ```
-METİN        ⬜ (büyük harf · ≤3 kelime)
-YÜKSEKLİK    büyük harf ≥ %8 kare boyu = ≥ 86 px @1080 (120 px'e küçülünce ≈ 10 px — okunma eşiği)
-KONUM        x = ⬜–⬜ px (banda) · y = ⬜–⬜ px · sağ üst 300×100 px'e ve alt 100 px'e girmez
-KONTRAST     ≥ 4,5:1 · gerekirse düz koyu bant (gradyan değil)
-YAZI TİPİ    tek ağırlık · geniş harf aralığı · gölge/kontur/parlama YOK · animasyon YOK (5 sn hareketsiz)
+METİN   SAME HILL        (2 kelime · 0–3 kelime kuralı [MUZIK_VE_KAPAK §2.3])
+YER     üst orta bant · y 40–140 · iki yarının ortasına oturur, ikisini de kesmez
+PUNTO   kalın sans-serif · büyük harf · siyah dış hat + düşme gölgesi
+⛔ "Mars" · "üs" · "sığınak" kelimeleri KULLANILMAZ — başlık zaten söylüyor,
+   kapak SORUYU sorar [MUZIK_VE_KAPAK §3.3 spoiler bütçesi].
+⛔ SAĞ ALT KÖŞE BOŞ: süre etiketi bandı (≈120 × 35 px) [MUZIK_VE_KAPAK §4.2].
+   Yanık pencere oraya DÜŞMEZ — sağ yarının orta bandında durur.
 ```
 
----
-
-## 🔍 KONTROL VE KANITLAR
+## 3. Testler
 
 ```
-① 120 PX TESTİ  sips -Z 120 kapak.png --out kapak_120.png   → ⓐ silüet (yapı + ⬜) okunuyor mu · ⓑ KELİME şekli ayırt ediliyor mu
-                 ⓐ kayboluyorsa SAHNE yeniden üretilir, kapak yeniden çerçevelenmez; ⓑ kayboluyorsa punto/kelime
-② KAPAK KANITI  zincir_kontrol.sh g24_kaynak.jpg kapak.png → çıkış: ⬜   [DERS 30]
-③ SPOILER       dört yüzey (başlık · kapak · ilk 2 sn · açıklama) yan yana → yabancı dönüm noktasını söyleyebiliyor mu: HAYIR olmalı [§3.3]
-④ BAŞLIK = VAAT  kapak neyi vaat ediyor, YAYIN_PAKETI başlığı aynı şeyi mi söylüyor: ⬜
+① 120 PX       sips -Z 120 kapak.png → ⓐ iki yarının farkı ⓑ metin okunuyor mu
+② SAĞ ALT      köşeye siyah kutu koy: kaybolan bir şey var mı
+③ ⭐ ÇAPA      uzak krater sırtı iki yarıda da aynı yükseklikte mi
+④ ⭐ PENCERE   sağ yarıda yanık pencere seçiliyor mu (1,2 m → 19 px; kapak kırpmasında
+               1280 geniş kaynaktan ~2,0× → ≈ 25 px · sıcak leke olarak okunmalı)
+⑤ KAPAK KANITI zincir_kontrol.sh g24_kaynak.jpg kapak.png [DERS 30]
+⑥ KARANLIK MOD sağ yarı akşam ışığındadır; koyu temada tümsek ile gök ayrışıyor mu
+```
+
+## 4. Üç varyant [MUZIK_VE_KAPAK §4.3]
+
+```
+ⓐ İKİ DURUM + METİN   yukarıdaki yerleşim · ana varyant
+ⓑ YALNIZ G24          tek kare: tümsek, düz ocak tabanı, yanık pencere · metin yok
+ⓒ YALNIZ G0           tek kare: el değmemiş sırt tarlası ve tepe · metin "SAME HILL"
+⚠️ Kısa dikey formatta platform A/B aracı çalışmaz; bu film 16:9 UZUN formattır,
+   yani "Test & Compare" BU FİLMDE KULLANILABİLİR [A15-b · A17-c]. ⭐ Deponun ilk
+   A/B denemesi burada yapılabilir — kazanan İZLEME SÜRESİ PAYINA göre seçilir.
 ```

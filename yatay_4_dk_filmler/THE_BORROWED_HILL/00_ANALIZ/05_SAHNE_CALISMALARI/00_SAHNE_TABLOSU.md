@@ -1,64 +1,38 @@
-# 🧮 THE_BORROWED_HILL — SAHNE TABLOSU (sahne başına BİR satır · 24 satır + usta kare)
+# 🎬 THE BORROWED HILL — SAHNE TABLOSU
 
-> Sahne başına ayrı çalışma dosyası yazılmaz (kardeş depo ölçtü: 25 sahne × 120 satır → 747 KB,
-> üretim 0 kare); **bu tablo** yazılır. Satırları betik damgalar (`| S00 |` …); elle satır
-> eklenmez/silinmez. Her hücre TEK satır, boş hücre yok ("—" yazılır). Bir satırın KAPI'sı ✅
-> olmadan o sahnenin promptu yazılmaz.
->
-> ⛔ Burada `## 🎬 SAHNE <n>` başlığı ve 📸/🎥 prompt başlığı YAZILMAZ. Prompt yalnız bölüm dosyasında.
+> Sahne başına BİR satır. Tam merdiven planda; bu tablo ÜRETİM sırasında hızlı bakış içindir.
 
-## Sütunlar
-
-| sütun | ne yazılır | kaynak |
-|---|---|---|
-| **S** | sahne no (betik damgalar) · son satır G24 usta kare | `03_SAHNE_SIRALAMASI` |
-| **AŞAMA FİİLİ · ELEMAN %** | `AÇAR · yol %60` — fiil + eleman + ara hâl yüzdesi; ara hâl silueti değiştiriyor mu | `INSAAT_YONTEMI` §2-§3 · DERS 37 |
-| **AT THIS STAGE (İng.)** | kameranın GÖRDÜĞÜ kadarı, POZİTİF, geçici destek kelimesiyle (sling · formwork · scaffold · rebar · roller …); "there is no X" YASAK | `INSAAT_YONTEMI` §5 · DERS 33 · 35 · 36 |
-| **GEÇİCİ EKİPMAN giren/çıkan** | bu karede kadraja giren ya da çıkan geçici şey + nereden geldi / nereye gitti | DERS 1 · 48 |
-| **REJİM · SAAT · AZ/EL** | `B · 10:00 · 108°/48°` — TIME RATE ve LIGHTING satırlarının kaynağı | `SANTIYE_HAREKETI` §1-§2 · `ZAMAN_VE_ISIK` §2 |
-| **İKİ HAREKET EDEN + YÜZEY KANITI** | makine + fiil + NESNE × 2 · bir yüzey izi (ruts · spoil · dust band …) | DERS 43 · A6-d · `SANTIYE_HAREKETI` §3 |
-| **KANIT NESNESİ · ÇAPALAR** | kanıt nesnesi px + konum; sol/sağ çapa yüzdesi — her karede aynı | DERS 25 · PLAN §DEĞİŞMEZLER |
-| **KALDIRMA / FİZİK** | asılı yük var mı → neye bağlı; kaldırma karede bitiyor mu (G(n) yük hedefin üstünde) | DERS 8 · 22 · 46 · 57 · `FIZIK_VE_AGIRLIK` §5 |
-| **KİLİT / UYARI** | bu sahneye düşen DERS n + `04_UYARI_NOTLARI` satır no; en çok 3 | `01_QA_DERS_HASADI` |
-| **KAPI** | ⬜ → ✅ satır tam, yüzdeler PLAN ile aynı, kesir cümlesi px'i var | — |
-
-Doldurulmuş satır nasıl görünür (örnek; gerçek satırlar aşağıda betik damgalıdır):
+| S | fiil | saat | rejim | güneş az/el | tepe h → h | alınan m³ | örtü | yığın | kamera |
+|:-:|---|---|:-:|---|---|---:|:-:|:-:|---|
+| 0 | AÇAR | 06:20 | B | 72° / 4° | 16,0 → 15,7 m | 190 | %0 → %0 | %100 | ⭐ yakınlaşma |
+| 1 | TAŞIR | 08:20 | A | 90° / 25° | 15,7 → 15,3 m | 210 | %0 → %0 | %100 | sabit |
+| 2 | SIYIRIR | 08:30 | B | 92° / 27° | 15,3 → 14,8 m | 300 | %0 → %0 | %100 | sabit |
+| 3 | SIKIŞTIRIR | 10:30 | A | 122° / 50° | 14,8 → 14,5 m | 200 | %0 → %0 | %96 | sabit |
+| 4 | DÜZLER | 10:40 | A | 125° / 51° | 14,5 → 14,1 m | 220 | %0 → %0 | %92 | sabit |
+| 5 | DİZER | 10:50 | A | 128° / 53° | 14,1 → 13,7 m | 180 | %0 → %0 | %78 | sabit |
+| 6 | DİKER | 11:00 | A | 131° / 54° | 13,7 → 13,4 m | 140 | %0 → %0 | %74 | sabit |
+| 7 | KAZAR | 11:10 | B | 134° / 55° | 13,4 → 13,2 m | 100 | %0 → %0 | %62 | sabit |
+| 8 | BASAMAKLAR | 13:10 | A | 192° / 56° | 13,2 → 13,0 m | 100 | %0 → %0 | %62 | sabit |
+| 9 | PİŞİRİR | 13:20 | A | 194° / 55° | 13,0 → 12,9 m | 80 | %0 → %0 | %60 | sabit |
+| 10 | KALDIRIR | 13:30 | A | 196° / 54° | 12,9 → 12,7 m | 70 | %0 → %0 | %52 | sabit |
+| 11 | TAMAMLAR | 13:40 | A | 199° / 53° | 12,7 → 12,6 m | 70 | %0 → %0 | %40 | sabit |
+| 12 | KAPLAR | 13:50 | A | 201° / 51° | 12,6 → 12,5 m | 50 | %0 → %0 | %30 | sabit |
+| 13 | KAPATIR | 14:00 | A | 203° / 50° | 12,5 → 12,4 m | 40 | %0 → %0 | %18 | sabit |
+| 14 | ÖRTER | 14:10 | B | 205° / 49° | 12,4 → 10,9 m | 670 | %0 → %35 | %10 | ⭐ yakınlaşma |
+| 15 | DONAR | 16:10 | A | 237° / 26° | 10,9 → 10,8 m | 60 | %35 → %40 | %10 | sabit |
+| 16 | KIRAĞI ÇEKİLİR | 16:20 | A | 238° / 25° | 10,8 → 10,7 m | 40 | %40 → %45 | %10 | sabit |
+| 17 | KURAR | 16:30 | A | 239° / 24° | 10,7 → 10,5 m | 70 | %45 → %45 | %10 | sabit |
+| 18 | KARARIR | 16:40 | A | 241° / 22° | 10,5 → 10,5 m | 0 | %45 → %45 | %4 | sabit |
+| 19 | SİLER | 16:50 | A | 242° / 21° | 10,5 → 10,4 m | 40 | %45 → %45 | %4 | sabit |
+| 20 | YÜKSELTİR | 17:00 | A | 244° / 19° | 10,4 → 10,3 m | 37 | %45 → %50 | %4 | sabit |
+| 21 | ÖRTER | 17:10 | B | 245° / 18° | 10,3 → 3,0 m | 1857 | %50 → %100 | %2 | ⛔ SABİT |
+| 22 | BOŞALIR | 19:10 | A | 268° / 3° | 3,0 → 3,0 m | 0 | %100 → %100 | %0 | sabit |
+| 23 | YANAR | 19:20 | A | 269° / 2° | 3,0 → 3,0 m | 0 | %100 → %100 | %0 | ⭐ yakınlaşma |
 
 ```
-S02 · KURAR · bom %100, segment 1 %100 · "the lattice boom stands raised …, the first tower section
-stands upright on the foundation on a short sling, its top flange bare" · vinç bomu KALKTI (pad'de
-yatıktan) / segment 2 rafta · B · 10:00 · 108°/48° · crawler crane swings … + assist crane holds … /
-crushed-stone ruts · meşe 64 px x≈742 · duvar sol %28 · segment sapanda, bom başında · DERS 57 · U-3 · ✅
+TOPLAM   24 × 10,0 = 240,0 sn  ·  ⛔ kapak kartı YOK
+IŞIK     06:20 → 19:30 = 13 sa 10 dk  (5 × B + 19 × A)
+HACİM    alınan 4.724 m³ = kullanılan 4.724 m³  ·  kalan 172 m³ = 3,0 m kütük
+⭐ ÇİZGİ  uzak krater sırtı %51,6 — tepe S21'de üstünden altına geçer
+⛔ S18    fırtına: tepe DEĞİŞMEZ (0 m³) · fırtına sonrası yeni bitmiş iş YOK
 ```
-
----
-
-## 📋 TABLO
-
-| S | AŞAMA FİİLİ · ELEMAN % | AT THIS STAGE (İng.) | GEÇİCİ EKİPMAN giren/çıkan | REJİM · SAAT · AZ/EL | İKİ HAREKET EDEN + YÜZEY KANITI | KANIT NESNESİ · ÇAPALAR | KALDIRMA / FİZİK | KİLİT / UYARI | KAPI |
-|:--:|---|---|---|---|---|---|---|---|:--:|
-| S00 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S01 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S02 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S03 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S04 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S05 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S06 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S07 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S08 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S09 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S10 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S11 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S12 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S13 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S14 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S15 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S16 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S17 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S18 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S19 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S20 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S21 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S22 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| S23 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| G24 ⭐ | USTA KARE | ⬜ | söküm: hepsi gitti | ⬜ | ⬜ | ⬜ | — | ⬜ | ⬜ |

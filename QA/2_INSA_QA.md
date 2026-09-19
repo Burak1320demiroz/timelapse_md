@@ -85,6 +85,9 @@ Score the end card only on this single question, reported at the end:
   film shows. Never paraphrase the specification.
 - If something cannot be determined from the media, write `NOT VISIBLE`.
 - Do not redesign the building. You are not asked whether the design is good.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 

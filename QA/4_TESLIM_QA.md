@@ -84,6 +84,9 @@ Score the end card only on this single question, reported at the end:
 - "It is implied" is not delivery. If a thing is not on screen, it did not
   happen. Write `NOT ON SCREEN`.
 - Do not rewrite the film. You are not asked what it should have been.
+- If the media does not let you decide a point, write `NOT VERIFIABLE` for that
+  point and leave it unscored — never turn "could not see" into a 0. A missing
+  input file is `RUN INCOMPLETE` (first line), not a score.
 
 ## SCORING BAND (applies to every category)
 

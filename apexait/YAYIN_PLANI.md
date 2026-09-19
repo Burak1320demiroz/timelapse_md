@@ -81,6 +81,9 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       (ZEMİN kabul edilirse: DİKEY → YATAY → ZEMİN → KÜTLE → …)
 ⭐ 17.09.2026: THE LAST CIRCLE DİKEY ailesine yazıldı. Son üç plan üç ayrı aileden
    (GİZLİ VAHA ZEMİN · NARROW GORGE KÜTLE · LAST CIRCLE DİKEY) — üçü ardışık yayınlanabilir.
+⭐ 18.09.2026: ONE MORE TURN KÜTLE ailesine yazıldı (Ø 5 m su çarkı = duvara asılı tek büyük gövde;
+   kadraj eninin üçte ikisi). LAST CIRCLE DİKEY → BORROWED HILL YATAY → ONE MORE TURN KÜTLE:
+   üçü ardışık yayınlanabilir. Aile ataması sahip onayı bekliyor.
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
@@ -144,6 +147,8 @@ AÇILIŞTAN SONRA
 | 12 | THE HIDDEN OASIS | bahçe göleti restorasyonu / duvarlı avlu | ⭐ ZEMİN | havuzun havuz olması — G0'da açık mavi seramik, merdiven ve yüzülebilir hacim; G7'de aynı sınır, içi taş kenarlı gölet → plan: `dikey_shorts/THE_HIDDEN_OASIS/` (16.09.2026) |
 | 13 | THE NARROW GORGE | kemer barajı / dar kireçtaşı boğazı | KÜTLE | dolaşan doğal akış, söğütlü çakıl bariyerleri ve değirmen arkının suyu — G0'da ırmak bütün tabanı kaplar, G7'de aynı yatakta tek ölçülü kol · ⭐ deponun ilk KURGU YAKINLAŞMASI → plan: `dikey_shorts/THE_NARROW_GORGE/` (16.09.2026) |
 | 14 | THE LAST CIRCLE | kayar kalıp tahıl silosu / ova · eski harman yeri | DİKEY | harman dairesi — G0'da Ø22 m'lik bütün, tanınabilir sıkışmış toprak daire (kadraj genişliğinin yarısı); G7'de aynı yerde kesintisiz beton apron, taş yuvak kenarda kalan tanık · ⭐ deponun ilk kayar kalıbı ve TEK kamera hareketi (yalnız S6) → plan: `dikey_shorts/THE_LAST_CIRCLE/` (17.09.2026) |
+| 15 | THE BORROWED HILL ⭐ yatay 4 dk | gömülü kemer sığınak / Mars ovası · katmanlı tepecik | YATAY | tepecik — G0'da 16,0 m ve uzak krater sırtının (kadrajın %51,6'sı) ÜSTÜNDE bir siluet; G24'te 3,0 m ve o çizginin ALTINDA, toprağı sığınağın üstünde 2,0 m örtü olarak duruyor · ⭐ deponun ilk 4 dakikalık filmi ve ilk 16:9 ölçümü → plan: `yatay_4_dk_filmler/THE_BORROWED_HILL/` (17.09.2026) |
+| 16 | ONE MORE TURN | ahşap su çarkı yenilemesi / ormanlık vadi · eski taş değirmen | KÜTLE | eski çarkın kendisi — G0'da gri, yarık, altı kollu ve sarmaşıklı; S0'da parça parça römorka iner, G6'da aynı demir göbeğin üstünde yeni çark suyla DÖNÜYOR (711 px · kadrajın üçte ikisi) · ⭐ deponun ilk GERÇEK ZAMAN sahneleri (rejim G · S4–S5) → plan: `dikey_shorts/ONE_MORE_TURN/` (18.09.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA
@@ -171,6 +176,9 @@ bir kanal, film üreten bir hobi olur.
 □ ⭐ YORUM KALİTESİ: sektörden biri bir HATA düzeltti mi?
      Düzelttiyse o yorum doğrudan kilavuzlar/DERSLER.md'ye ders adayıdır.
      Bu, kanalın en ucuz ve en değerli çıktısıdır.
+□ ⭐ 18.09.2026: ilk 6 film TEK DEĞİŞKENLİ deney dizisidir — hangi filmin hangi
+     tercihi taşıdığı ve 7. gün karşılaştırması QA/QA_CAPRAZ_ANALIZ/06'da.
+     Engaged views kullanılır; görüntüleme sayısı tek başına karar verdirmez.
 ```
 
 ## 6.2 ⛔ Ne zaman kural olur
