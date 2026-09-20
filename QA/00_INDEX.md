@@ -12,8 +12,8 @@
 TOPLAM FİLM       21
 ÖLÇÜLEN FİLM      13
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    8     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK)
-ON İKİ MERCEKLE   3     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK — ⑨ ⑩ ⑪ ⑫ dâhil)
+SEKİZ MERCEKLE    9     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER)
+ON İKİ MERCEKLE   4     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER — ⑨ ⑩ ⑪ ⑫ dâhil)
 ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
 ÜRETİLEN FİLM     12
 YAZILDI, ÜRETİLMEDİ 8   (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS)
@@ -47,7 +47,7 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | THE BORROWED HILL ⭐ yatay 4 dk | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 17.09.2026 · 24 × 10,0 · ilk 4 dk · ikinci Mars sahası) |
 | ONE MORE TURN | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 18.09.2026 · 6 × 8,0 · ilk su çarkı · ⭐ ilk rejim G gerçek zaman) |
 | THE SWALLOWED BUS | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 19.09.2026 · 7 × 8,0 · ilk şehir içi altyapı onarımı · ⭐ ikinci aşağı bakış · ikinci rejim G) |
-| **BACK TO WATER** | Ⓥ 5,8 (33 kare) | **9,3** | Ⓥ 9,4 | — | — | — | — | — | **3/8** · QA sürüyor (ilk 3 mercek) |
+| **BACK TO WATER** | Ⓥ 5,8 (33 kare) | **9,3** | Ⓥ 9,4 | ⛔ belgesiz 7,1 | Ⓥ 9,7 karesiz | ⛔ belgesiz 9,9 | Ⓥ 10,0 karesiz | ⛔ belgesiz 9,2 | **8/8** + ⑨⑩⑪⑫ · 4'ü RUN INCOMPLETE |
 | **THE DARK ROCK** | ⛔ V karesiz 4,9 | ⛔ belgesiz 3,8 | Ⓥ 2,8 | ⛔ belgesiz 6,1 | Ⓥ 3,1 karesiz | ⛔ belgesiz 2,9 | ⛔ karesiz 5,1 | ⛔ belgesiz 4,5 | **8/8** + ⑨⑩⑪⑫ · 12'si de RUN INCOMPLETE |
 | **THE EMPTY RIDGE** | Ⓥ 2,8 | ⛔ belgesiz 5,2 | **5,4** | ⛔ belgesiz 3,4 | Ⓥ 7,2 karesiz | ⛔ belgesiz 7,6 | Ⓥ 7,0 karesiz | ⛔ belgesiz **9,1** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
 | **OVER THE WALL** | Ⓥ 5,8 | ⛔ belgesiz 3,8 | Ⓥ 6,0 | ⛔ belgesiz 5,3 | Ⓥ 3,0 karesiz | ⛔ belgesiz 7,0 | Ⓥ 3,8 karesiz | ⛔ belgesiz **0,0** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |

@@ -14,6 +14,8 @@
 | **OVER THE WALL** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 3,8) | ⛔ PARKED · CAUSE AND EFFECT 0 · duvarda çalışma cephesi YOK | 0:51,0–0:55,5 · klip 6 · 4,5 s · %22,5 | 0:26,5 monolitik beton baraj duvarı | 10 | [kayıt](RAPORLAR/OVER_THE_WALL.md) |
 | **THE EMPTY RIDGE** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 7,0) | ✅ WORKING · CAUSE AND EFFECT 3 | 0:51,5–0:55,0 · klip 12 · 3,5 s · %70 | 0:26,5 iki dik kule segmenti (boş kanca) | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 5,1) | ⛔ PARKED | 0:32,0–0:34,0 (%66,7) | 0:04,0 natural rock pinnacle instantaneously replaced | 5 | [ham](HAM_RAPORLAR/THE_DARK_ROCK/THE_DARK_ROCK_IS_HAM.md) |
+| **BACK TO WATER** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda ilk 10,0 tam iş skoru | 0:00,0 (%0) | NONE | 0 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+
 **VERDICT değerleri:** WORKING / PARKED
 
 ```
