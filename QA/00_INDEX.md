@@ -9,14 +9,14 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       20
-ÖLÇÜLEN FİLM      12
+TOPLAM FİLM       21
+ÖLÇÜLEN FİLM      13
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
 SEKİZ MERCEKLE    8     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK)
 ON İKİ MERCEKLE   3     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK — ⑨ ⑩ ⑪ ⑫ dâhil)
 ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
-ÜRETİLEN FİLM     11
-YAZILDI, ÜRETİLMEDİ 8   (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS — plan + SPEC hazır, araç kapısı koşulmadı)
+ÜRETİLEN FİLM     12
+YAZILDI, ÜRETİLMEDİ 8   (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS)
 ```
 
 ## TAMLIK MATRİSİ
@@ -47,6 +47,7 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | THE BORROWED HILL ⭐ yatay 4 dk | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 17.09.2026 · 24 × 10,0 · ilk 4 dk · ikinci Mars sahası) |
 | ONE MORE TURN | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 18.09.2026 · 6 × 8,0 · ilk su çarkı · ⭐ ilk rejim G gerçek zaman) |
 | THE SWALLOWED BUS | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 19.09.2026 · 7 × 8,0 · ilk şehir içi altyapı onarımı · ⭐ ikinci aşağı bakış · ikinci rejim G) |
+| **BACK TO WATER** | Ⓥ 5,8 (33 kare) | **9,3** | Ⓥ 9,4 | — | — | — | — | — | **3/8** · QA sürüyor (ilk 3 mercek) |
 | **THE DARK ROCK** | ⛔ V karesiz 4,9 | ⛔ belgesiz 3,8 | Ⓥ 2,8 | ⛔ belgesiz 6,1 | Ⓥ 3,1 karesiz | ⛔ belgesiz 2,9 | ⛔ karesiz 5,1 | ⛔ belgesiz 4,5 | **8/8** + ⑨⑩⑪⑫ · 12'si de RUN INCOMPLETE |
 | **THE EMPTY RIDGE** | Ⓥ 2,8 | ⛔ belgesiz 5,2 | **5,4** | ⛔ belgesiz 3,4 | Ⓥ 7,2 karesiz | ⛔ belgesiz 7,6 | Ⓥ 7,0 karesiz | ⛔ belgesiz **9,1** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
 | **OVER THE WALL** | Ⓥ 5,8 | ⛔ belgesiz 3,8 | Ⓥ 6,0 | ⛔ belgesiz 5,3 | Ⓥ 3,0 karesiz | ⛔ belgesiz 7,0 | Ⓥ 3,8 karesiz | ⛔ belgesiz **0,0** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
@@ -149,6 +150,26 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ## DURUM
 
 ```
+BACK TO WATER — YİRMİ BİRİNCİ FİLM · İLK KURU HAVUZ / TEKNE · ⭐ İLK KIYI SAHASI · ÜÇÜNCÜ REJİM G · YAZILDI 19.09.2026 · ÜRETİLMEDİ ⛔
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · zincirli · 8 kare + 7 I2V
+   YAPI: TEK kuru havuzda (26 × 12 × 6 m) TEK çelik balıkçı teknesi (14 m): jet kabuğu soyar → kumlama + iki delik kare
+         kesilir → iki levha sapanla iner, kaynak → kırmızı/lacivert boya → kabin krem + 5 cam, ekipman çıkar → havuz dolar,
+         tekne takozdan kalkar, keson kayar → tekne kendi motoruyla kapıdan çıkar
+   ⭐ SENARYO SAHİPTEN (S1–S7 · "Suya Dönüş") → depo formatına çevrildi (S0–S6 · tek ışık günü · S0 rejim A · kapı G6'da ·
+      tekne 14 m · kapak SON KAREDEN) → sahip onayı 19.09.2026; yedi değişiklik plana §KONSEPT KAPISI altına yazıldı
+   ⭐ KAMERA: batı rıhtımı başı projektör platformu h 12 m · D_eksen 16 m · bearing 20° · tilt −22° — ufuk %80, gök %20
+      (kapak başlığı için); iskele bordası + güverte + taban + kapı + deniz tek kadrajda. ⛔ ön görselleştirme zorunlu.
+   BEDEL: kesilip atılan iki gövde parçası (S2'de kamyon kasasında sağdan gider) + havuzun kendisi (S5'te su altında; G7'de
+      dolu ve BOŞ) · ÖDÜL: S6 çıkış, iz kapıdan içeri
+   Işık tek gün 07:00 → 17:10 (A + 5×B = 10 sa 10 dk · G 0 dk) · G6 = G7 ışığı birebir · her G karesi tek saat/tek durum
+   plan ✅ (BEŞ SORU tablosu + her I2V'de MOTION FOCUS) · QA_SPEC ✅ (§4 YÜK YOLU · §5 SU SAATİ/KAPI · §7 REJİM G) ·
+   KAPAK ✅ (kart yok; ⭐ YALNIZ G7 + BACK TO / WATER gök bandında — öncesi/sonrası YOK) · günlük açıldı ⛔ BOŞ
+   (⑪ aşağı bakış + ufuk · ⑫ sapan · ⑬ su · ⑭ kapı · ⑮ geçiş)
+   ⛔ KAPI: FIX ×3 (kutu seti ölçülmedi · süreler eşit · S6 ACTIVITY tek hareket eden — üçü de beyanlı) · BLOCK 0
+   ⚠️ AÇIK: yüzdeler TÜRETİLMİŞ, ön görselleştirmede ölçülecek · S6 hızı (kıç 18 m / 8 sn ≈ 4,4 knot; yavaşsa ikinci kabul
+      SPEC §1) · kıçın sancak köşesi %94 (UI bandı) · yapı tipi kartı YOK (liman kartı §7 uymaz — yeni kart adayı)
+   → dikey_shorts/BACK_TO_WATER/
+
 THE SWALLOWED BUS — YİRMİNCİ FİLM · İLK ŞEHİR İÇİ ALTYAPI ONARIMI · ⭐ İKİNCİ AŞAĞI BAKIŞ · İKİNCİ REJİM G · YAZILDI 19.09.2026 · ÜRETİLMEDİ ⛔
    dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK (varsayım — ONE MORE TURN kararı gibi) · zincirli · 8 kare + 7 I2V
    YAPI: caddede TEK çöküntü (8 × 6 m · 3,5 m): otobüs vinçle çıkar → palplanş iksa + pompa → eski hattın iki ucuna
@@ -160,7 +181,8 @@ THE SWALLOWED BUS — YİRMİNCİ FİLM · İLK ŞEHİR İÇİ ALTYAPI ONARIMI �
    BEDEL: otobüsün kendisi (S1'de soldan gider) + kapalı cadde · ÖDÜL: S6 geçiş, yama bütün
    Işık tek gün 07:20 → 17:30 (A + 5×B = 10 sa 10 dk · G 0 dk) · G6 = G7 ışığı birebir · her G karesi tek saat/tek durum
    plan ✅ (BEŞ SORU tablosu + her I2V'de MOTION FOCUS) · QA_SPEC ✅ (§4 YÜK YOLU · §5 KATMAN/CETVEL · §7 REJİM G) ·
-   KAPAK ✅ (kart yok; dikey bölme x %40,7 G0 | G7) · günlük açıldı ⛔ BOŞ (⑪ aşağı bakış · ⑫ sapan · ⑬ katman · ⑭ bağlı söküm · ⑮ geçiş)
+   KAPAK ✅ (kart yok; ⭐ YALNIZ G7 + THE SWALLOWED / BUS — öncesi/sonrası bölme 19.09.2026'da sahip kararıyla KALDIRILDI) ·
+   günlük açıldı ⛔ BOŞ (⑪ aşağı bakış · ⑫ sapan · ⑬ katman · ⑭ bağlı söküm · ⑮ geçiş)
    ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı) · BLOCK 0 · MOTION FOCUS FIX 0
    ⚠️ AÇIK: kapak kartı var mı yok mu (sahip) · başlık metni (sahip) · yüzdeler TÜRETİLMİŞ, ön görselleştirmede ölçülecek ·
       S6'da otobüs sağ UI bandından girer (kanıt yama, otobüs değil) · yapı kartı §6b yeni, ilk uygulama

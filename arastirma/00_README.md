@@ -75,6 +75,7 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | A18 | ⚠️ İSTENMEDİ · `SONUCLAR/A18_BEYANSIZ_HAM.md` | ⛔ beyan edilmedi | 17.09.2026 · A14 ile TERS yönde konuşuyor (sabit kamera) | ⚠️ çelişki kaydı |
 | P6 | `SONUCLAR/P6_THE_LAST_CIRCLE_OKUMA_HAM.md` | insan · uzman okuması | 17.09.2026 · YAZILMAMIŞ planı okudu | evet (P3-a…P3-i) — ⛔ bir kılavuz maddesini DÜZELTTİ |
 | P7 | `SONUCLAR/P7_THE_BORROWED_HILL_OKUMA_HAM.md` | insan · uzman okuması | 17.09.2026 · YAZILMAMIŞ planı okudu | evet (P4-a…P4-i) — ⭐ bir HESAP HATASI yakaladı |
+| A19 | ⚠️ İSTENMEDİ · `SONUCLAR/A19_KAMERA_DILI_HAM.md` (kökten taşındı) | ⛔ beyan edilmedi | 20.09.2026 · ⭐ kaynakça ÇEKİLDİ: 11'in 10'u iddiaya ait · 8 sayının 8'i tuttu · yarısı fiziksel kamera | ✅ → KAMERA_DILI_KILAVUZU · denetim `A19_DENETIM.md` (yeni sayı yok, iki formül) |
 
 ```
 ⭐ DÖRDÜNCÜ KUŞAK BAŞKA TÜRLÜ GELDİ — 17.09.2026
@@ -184,5 +185,10 @@ arastirma/
 ├── SONUCLAR/A13…A18_BEYANSIZ_HAM.md  kamera hareketi · tutunma · kapak (altı rapor)
 ├── SONUCLAR/A13-A18_DENETIM.md   ⭐ 20 formül yeniden hesaplandı · 1 çarpan bin kat
 │                                   şişik · güvenli alan rakamı düştü · A14↔A18 çelişkisi
+│
+│   ── A19 · 20.09.2026 · ⛔ PROMPT YOK, sahip köke bıraktı · ⭐ kaynakça çekildi ──
+├── SONUCLAR/A19_KAMERA_DILI_HAM.md  viral timelapse kamera/çekim rehberi (19 bölüm · 8 prompt)
+├── SONUCLAR/A19_DENETIM.md       ⭐ 11 kaynağın 10'u açıldı · 8 sayı tuttu · katsayı formülü
+│                                   rejim tablosunu bağımsız üretti · tiltli kadraj açığı
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```

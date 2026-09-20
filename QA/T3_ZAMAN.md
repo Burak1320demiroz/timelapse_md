@@ -17,6 +17,8 @@
 | **OVER THE WALL** | V | **6,0**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "about 1.5 to 2 years" (plan 1 yıl) TUTMADI · SEASON ORDER 2 · kar 4 kez gidip geldi | 8 | [kayıt](RAPORLAR/OVER_THE_WALL.md) |
 | **THE EMPTY RIDGE** | V | **5,4**/10 | ✅ PASSES · okunan süre "about 2 to 3 months" (plan ~2 ay) TUTTU · SEASON ORDER 7 · gölge donuk, bulut akıyor (1 · 5) | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | V | **2,8**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "unresolvable" · SEASON ORDER 1 · ışık/mevsim zıplamaları | 12 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
+| **BACK TO WATER** | V | **9,4**/10 Ⓥ | ✅ PASSES · tahmin "10–12 saat" (plan 10 sa 10 dk) TUTTU · S0–S5 sıkıştırma → S6 1x akıcı (rejim G) · ⛔ kart DIFFERENT | 2 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+
 
 ⭐ **THE MOUNTAIN DOOR — ALTI MERCEĞİN TAM KOŞAN TEK'İ.** Girdisi yalnız tam kurgudur ve eksiksiz verildi; skoru **bağlayıcıdır** (Ⓥ yok). Zaman tahmini "about 9 to 12 months", plan 12 ay — **ikinci kez TUTTU**. ⛔ Buna karşılık SEASON ORDER 0/10: plandaki sonbahar hiç görünmedi ve kış ② (erime) YAZ olarak üretildi.
 

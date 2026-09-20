@@ -72,6 +72,10 @@ timelapse_md/
 │   ├── SAHNE_PLAN_KARTI.md          ⭐ BEŞ SORU prompttan ÖNCE: malzeme nerede · taşıyıcı ·
 │   │                                   nereye oturur · ne değişti · ne sabit → I2V MOTION
 │   │                                   FOCUS · kapısı prompt_kontrol.py §10e (FIX)
+│   │  ── altıncı kuşak · 20.09.2026 · A19 dış raporundan doğdu (sahip köke bıraktı) ──
+│   ├── KAMERA_DILI_KILAVUZU.md      ⭐ istasyondan ÖNCE: karar cümlesi · DEĞİŞİM BOYUTU →
+│   │                                   BAKIŞ AİLESİ · ⭐ TİLTLİ KADRAJ FORMÜLÜ (aşağı bakış
+│   │                                   ailesi · KAMERA_ISTASYONU §3 yalnız tilt 0) · katsayı
 │   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
 │   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
 │   └── DERSLER.md                   ölçülmüş dersler + devralınan varsayımlar
@@ -159,7 +163,9 @@ timelapse_md/
 │   └── SONUCLAR/A9-A12_DENETIM.md   ⭐ 12 kaynak çekildi: 7 tuttu · 4 yanlış atıf ·
 │         gölge 15°/saat ikinci kez düştü · piksel tabloları tuttu.
 │         ⛔ Yeni arıza sınıfı: kaynak VAR ama iddiaya AİT DEĞİL.
-│   ├── SONUCLAR/                    ham bot çıktısı ⛔ DOKUNULMAZ
+│   ├── SONUCLAR/A19_DENETIM.md      ⭐ 20.09.2026 · kökteki kamera rehberi taşındı: 11 kaynağın
+   │                                   10'u çekildi ve tuttu · yeni sayı yok · tiltli formül açığı
+   ├── SONUCLAR/                    ham bot çıktısı ⛔ DOKUNULMAZ
 │   └── SONUCLAR/A5-A8_DENETIM.md    ⭐ dört raporun doğruluk denetimi:
 │         üç sayı yeniden hesaplandı ve düştü · iki ffmpeg komudu koşmadı ·
 │         bir eşik kör çıktı. ⛔ Rapordan doğrudan inen SAYI yoktur.

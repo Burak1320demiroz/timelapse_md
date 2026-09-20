@@ -223,6 +223,8 @@ KARAR      Kapak SONDA kalır. Değişmedi.
    aynı filmin iki teslimi — biri kartsız, biri ilk 0,8 sn'de USTA KAREDEN
    alınmış tek flaş kareyle — ve yalnız TUTUNMA karşılaştırılır.
    ⛔ Denenene kadar plana yazılmaz.
+   ⚠️ 20.09.2026 · DÖRDÜNCÜ öneri [A19-i]: dış rapor da bunu KURAL değil DENEY olarak
+      öneriyor ("iki açılışı test et"). Sayaç dış 4 · iç 1; karar ve ölçüm yolu aynı.
 ```
 
 ---

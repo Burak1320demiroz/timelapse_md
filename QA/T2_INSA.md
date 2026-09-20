@@ -17,6 +17,8 @@
 | **OVER THE WALL** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 3,8) | ⛔ DIFFERENT · APPEARING (8. kez) · havuz → kemer duvar 00:26,5 | 9 | [kayıt](RAPORLAR/OVER_THE_WALL.md) |
 | **THE EMPTY RIDGE** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 5,2) | ⛔ DIFFERENT · ✅ BUILT (ilk kez bu ikili) · hayalet kule kopyaları 0:21 · 0:39 · rotor montajda döndü | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 3,8) | ⛔ DIFFERENT · APPEARING (9. kez) · fener odası kaybolma 00:32 · robot kollar 00:41 · kara tarlası 00:37 | 5 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
+| **BACK TO WATER** | D | **9,3**/10 | ✅ SAME · BUILT · ⛔ kart DIFFERENT · vinçli kamyon ve sac montajı tam · suyla kalkış +1.8m · pervane köpüğü fiziksel uyumlu | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17] — İKİNCİ KEZ:** QA_SPEC bu filmde ÜRETİMDEN ÖNCE yazılmıştı ve merceğe yine verilmedi. Skoru tabloya yazılmaz. Ölçülen ham ortalama 1,5. ⛔ DIFFERENT · APPEARING hükmü **dördüncü kez** geldi.
 

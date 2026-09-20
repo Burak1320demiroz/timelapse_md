@@ -94,6 +94,9 @@ kare içindeki dikey yeri:
 ③ TİLT VERİRSEN dikey çizgiler yakınsar (keystone). Gerçek şantiye
    kameralarının imzası tilt 0°'dır ve dikey çizgilerin dik kalmasıdır.
    ⛔ Tilt vermek yerine KAMERAYI YÜKSELT — aynı kadrajı keystone olmadan verir.
+   ⭐ 20.09.2026 [A19-c]: bu kural KULE ailesi içindir. AŞAĞI BAKIŞ ailesinde (çökük ·
+      kuru havuz · yol) tilt kaçınılmazdır ve yukarıdaki formül tilt ≠ 0'da GEÇMEZ —
+      genel hâli (tan ile) KAMERA_DILI_KILAVUZU §3'tedir; doğrusal açı formülü kullanılmaz.
 ```
 
 ### Çalışılmış örnek — referans proje (18 katlı kule)

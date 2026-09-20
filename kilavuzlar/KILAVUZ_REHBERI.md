@@ -26,6 +26,9 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
                                                     → ZAMAN_VE_ISIK_KILAVUZU.md
 ④ KAMERA?       hibrit (4 ana + 2 detay) · saf tek istasyon · çok istasyon
                                                     → KAMERA_ISTASYONU_KILAVUZU.md
+                ⭐ ÖNCE bakış ailesi: değişim YÜKSEKLİK mi, ALAN mı, SEVİYE mi →
+                  hiza (tilt 0) / yüksek çapraz (aşağı bakış) · tilt ≠ 0 ise kadraj formülü
+                                                    → KAMERA_DILI_KILAVUZU.md §2.3 · §3
 ```
 
 ### Her filmde okunacaklar (değişmez)
@@ -69,6 +72,15 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
    ⛔ Beş sorusu cevaplı olmayan sahnenin promptu yazılmaz (kart A adım 7b · Y2 adım 3).
    ⚠️ Kaynak QA/QA_CAPRAZ_ANALIZ/ (sayılar: araclar/capraz_sayim.py) — ölçülmedi,
       DERSLER.md ÇAPRAZ ANALİZ bölümünde VARSAYIM (C1-a…h); kapı FIX, BLOCK değil.
+
+── ⭐ 20.09.2026 · A19 DIŞ RAPORUNDAN DOĞAN TEK KILAVUZ — istasyondan ÖNCE ──
+□ KAMERA_DILI_KILAVUZU.md        ⭐ KARAR CÜMLESİ (§0) · DEĞİŞİM BOYUTU → BAKIŞ AİLESİ (§2.3) ·
+                                  ⭐ TİLTLİ KADRAJ FORMÜLÜ (§3 — KAMERA_ISTASYONU §3 yalnız tilt 0°)
+                                  · katsayı δ = pencere/(L×f) (§5) · raporun promptları neden
+                                  kapıdan geçmez (§7) · negatif alan sorusu (§8)
+   ⛔ tilt ≠ 0 olan her planda (aşağı bakış ailesi) §3 formülü zorunlu; tilt 0'da §3 gereksiz.
+   ⚠️ Kaynak A19 — prompt YOK ama kaynakça ÇEKİLDİ (11'in 10'u iddiaya ait);
+      denetim arastirma/SONUCLAR/A19_DENETIM.md · yeni SAYI inmedi, iki formül indi.
 ```
 
 ```

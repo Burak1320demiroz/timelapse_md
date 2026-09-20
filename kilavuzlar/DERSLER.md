@@ -2273,6 +2273,77 @@ A18-f ❌ YÜZDE TABLOLARI 100 ETMİYOR (%102,5 ve %97,5): bir video çift, bir 
 
 ---
 
+## 🔬 A19 — KAMERA DİLİ · 20.09.2026 · tek rapor, sahip köke bıraktı
+
+> Kaynak: `arastirma/SONUCLAR/A19_KAMERA_DILI_HAM.md` (kökteki VIRAL_TIMELAPSE_KAMERA_KILAVUZU.md
+> buraya taşındı) · Denetim: `arastirma/SONUCLAR/A19_DENETIM.md` · Kılavuz: `KAMERA_DILI_KILAVUZU.md`
+>
+> ⭐ **Dört kuşakta en temiz kaynakça:** 11 kaynağın 10'u bu makinede açıldı ve iddiaya AİT
+> çıktı (beş YouTube sayfası · matjoez · YouTube Yardım · Nikon ×2 · Veo rehberi · zeitraffer).
+> ⛔ **Ama hiçbiri "hangi açı daha çok izlenir" sorusunu ölçmüyor** ve rapor bunu kendisi
+> yazıyor ("bu bir viral formül değildir"). Prompt yine YOK. Bu kuşaktan kılavuza YENİ SAYI
+> inmedi; iki FORMÜL indi (biri bizim türetmemiz) ve bir KARAR ÇERÇEVESİ.
+> Her madde VARSAYIMDIR; ilk sınavı tiltli üç filmin usta kare ölçümüdür.
+
+```
+A19-a ⭐ KAYNAKÇA ÇEKİLDİ — 11'İN 10'U İDDİAYA AİT                    [DOĞRULANDI · bu makinede]
+      İzlenme · tarih · ekipman (D750 + Rokinon 12 mm) · bölüm işaretleri · "1 pic a day
+      değil" cümlesi · Veo "no/don't" tavsiyesi · YouTube 31.03.2025 — hepsi sayfada.
+      ⛔ Kaynak sınıfı bir şeyi KANITLAMAZ: hiçbiri açı→izlenme ölçmez. ⇒ A19_DENETIM §1.1
+A19-b ⭐ DEĞİŞİM BOYUTU → BAKIŞ AİLESİ                                 [VARSAYIM · karar çerçevesi]
+      "Tepeden ALANI, yandan SEVİYEYİ, çapraz İKİSİNİ gösterir; seçim videonun sorduğu
+      soruya bağlıdır." Konsept kapısı ile Değişmezler arasında yazılı olmayan adım.
+      ⇒ KAMERA_DILI §0 karar cümlesi + §2.3 tablosu (tilt bandı aileden gelir, seçilmez).
+A19-c ⭐ TİLTLİ KADRAJ FORMÜLÜ — üç film yaklaşık formül kullanmış      [ÖLÇTÜM · türetim]
+      KAMERA_ISTASYONU §3 yalnız tilt 0° için kesin. HIDDEN OASIS · SWALLOWED BUS (−40°) ·
+      BACK TO WATER (−22°) açıyı kareye ORANTILI dağıtan doğrusal formülle yazıldı;
+      rektilineer lens tanjantla dağıtır: yüzde = 50 + f·tan(tilt − atan((h−y)/d))/0,36.
+      24 mm'de en büyük fark 2,9 puan — planı düşürmez, yöntemi düzeltir. Ufuk yalnız
+      tilt'e bağlı: 50 + f·tan(tilt)/0,36. ⇒ KAMERA_DILI §3 · KALDIRDIĞI: göz kararı tilt.
+A19-d KATSAYI FORMÜLÜ REJİM TABLOSUNU BAĞIMSIZ ÜRETTİ                  [ÖLÇTÜM]
+      δ = pencere/(L×f) · oran = δ×f → SANTIYE_HAREKETI §1'in A·B·C satırları aynen çıkıyor
+      (6 s). 8 s ızgarada sayı değişir; SANTIYE'ye EKLENMEZ, formül KAMERA_DILI §5'te.
+A19-e POZLAMA ≈ İNTERVALİN YARISI → İZ                                 [VARSAYIM · optik]
+      Rejim B'de δ 30–40 s → 15–20 s pozlama → insan İZ olur; G'de δ 0,033 s → iz yok.
+      DERS 47 · 50 · A13-d'nin dördüncü dış doğrulaması; "soft motion streaks" üslup değil
+      pozlamadır. ⇒ KAMERA_DILI §5
+A19-f TELE SIKIŞTIRMAZ, KONUM SIKIŞTIRIR · ZOOM ≠ DOLLY                 [VARSAYIM · optik]
+      A13-b (sıfır paralaks) ile aynı yön; detay istasyonu 50 mm "yakın" değil aynı D'den
+      DAR bakıştır. ⇒ KAMERA_DILI §4 · PERSPEKTIF §4 ölçek cümlesi
+A19-g ⛔ HAREKET REÇETELERİ ALINMADI                                    [ÇELİŞKİ · karar değişmedi]
+      slider 40 cm · orbit 20° · dolly out 1,5 m · pedestal 0,7 m · "finalde geri çekilme"
+      → katman 1 üç kez düştü [KAMERA_HAREKETI §1.1]; final usta karedir [A18-e].
+      Raporun kendi "önce sabit sürümü dene · tek hareket" uyarısı bizim kuralın gevşek hâli.
+A19-h ⚠️ NEGATİFTE "NO" — Veo "öğe adı yaz" diyor, imzalar kalıyor      [araç dokümanı ✅ · kısmi çelişki]
+      İmzalar ölçülmüş kapı [DERS 35]; gövde zaten pozitif [DERS 11]; DERS 33 aynı yönde.
+      ⇒ Araç kartına SORU (⑨ adayı): ayrı negatif alanda "no X" ile "X" aynı sonucu veriyor mu.
+      Ölçülmeden kural olmaz. ⇒ KAMERA_DILI §8
+A19-i ⚠️ TERS AÇILIŞ DÖRDÜNCÜ KEZ ÖNERİLDİ — alınmadı                  [ÇELİŞKİ]
+      DERS 3 · A1-b · P2-l ① · A14/A15 · şimdi A19 §12. Dış 4, iç karşı kayıt 1 film.
+      Ölçüm borcu KAMERA_HAREKETI §4.1'de yazılı; rapor da bunu DENEY olarak öneriyor.
+A19-j "HER HAREKETİN GEREKÇESİ TEK CÜMLE" — katman 2 tablosu bunu zaten ister [VARSAYIM]
+      "yakında görülen · HOME'a dönünce kazanılan" sütunları [KAMERA_HAREKETI §3.4];
+      ikisi dolmayan yakınlaşma plana yazılmaz. ⇒ KAMERA_DILI §6
+A19-k RAPORUN KAYIT KARTI = BİZİM ON BLOK; SEKİZ PROMPTU KAPIDAN GEÇMEZ [VARSAYIM]
+      Aynı on alan, bizde her biri imzalı. Promptlar T2V (iki uç yok) · "Scene n of N" yok ·
+      milimetre yazıyor · rejim beyanı yok · dördü hareket ister. Çeviri kuralı: mm plana,
+      metre+derece prompta. ⇒ KAMERA_DILI §7
+A19-l 15 BELİRTİNİN 14'Ü BİZDE KARŞILIKLI, 7'Sİ NUMARALI DERS         [dış doğrulama]
+      "temizlenen yeniden kirleniyor" = DERS 5 · "malzeme kayboluyor" = DERS 48 · "bina
+      eğiliyor" = DERS 19 · "final acele" = DERS 45 · "orbitte arka değişir" = DERS 52 …
+      Raporun düzeltme sırası (süreklilik → kadraj → ritim → efekt) = kart R 6a. ⇒ §12
+A19-m ⚠️ YATAYDAN SHORTS KESİTİ — AÇIK SORU                             [sahip kararı]
+      4K yatay master → 1215×2160 merkez kırpma ayrıntı korur; 1080p → 608×1080 üretmez.
+      CAPRAZ_YAYIN §1 "tek master" bu soruyu kapsamıyor; yatay HOME dikey kesite göre
+      kurulmadı. ⇒ KAMERA_DILI §9 — karar verilirse CAPRAZ_YAYIN'a iner.
+A19-n TEST MATRİSİ ALTIDAN BİRE İNER                                    [VARSAYIM]
+      A2/B2/C2 katman 2 (NARROW GORGE ölçümü) · C1 alçak yok · B1 tepeden yalnız kare.
+      Test edilebilen: aile İÇİNDE tilt bandı ve h/D, aynı yapı tipinde iki film, tek
+      değişken [06_IZLEYICI_DENEY_PLANI]. Kayıt satırına AÇI etiketi (aile · tilt · h/D).
+```
+
+---
+
 ## 🎬 PROFESYONEL OKUMADAN DEVRALINAN — plan incelemesi, burada VARSAYIM
 
 > ⛔ **Hiçbiri ölçülmedi.** Kaynak: `arastirma/SONUCLAR/P1_PLAN_OKUMA_HAM.md`

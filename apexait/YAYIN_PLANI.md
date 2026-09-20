@@ -86,6 +86,9 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
    üçü ardışık yayınlanabilir. Aile ataması sahip onayı bekliyor.
 ⭐ 19.09.2026: THE SWALLOWED BUS ZEMİN ailesine yazıldı (aşağı bakan istasyon, gök yok — HIDDEN OASIS'ten
    sonra ikinci). ZEMİN kabul edilmezse KÜTLE'ye düşer ve HIDDEN OASIS ile ardışık yayınlanamaz.
+⭐ 19.09.2026: BACK TO WATER KÜTLE ailesine yazıldı (14 m tekne gövdesi = G0–G5'te kadrajın %33–56 × %40–76'sı;
+   ONE MORE TURN'ün çarkı gibi tek büyük gövde). Aşağı bakan istasyon ama ufuk %80'de GÖRÜNÜR — ZEMİN
+   tanımına (ufuk yok) uymaz. SWALLOWED BUS ZEMİN → BACK TO WATER KÜTLE ardışık yayınlanabilir. Sahip onayı bekliyor.
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
@@ -152,6 +155,7 @@ AÇILIŞTAN SONRA
 | 15 | THE BORROWED HILL ⭐ yatay 4 dk | gömülü kemer sığınak / Mars ovası · katmanlı tepecik | YATAY | tepecik — G0'da 16,0 m ve uzak krater sırtının (kadrajın %51,6'sı) ÜSTÜNDE bir siluet; G24'te 3,0 m ve o çizginin ALTINDA, toprağı sığınağın üstünde 2,0 m örtü olarak duruyor · ⭐ deponun ilk 4 dakikalık filmi ve ilk 16:9 ölçümü → plan: `yatay_4_dk_filmler/THE_BORROWED_HILL/` (17.09.2026) |
 | 16 | ONE MORE TURN | ahşap su çarkı yenilemesi / ormanlık vadi · eski taş değirmen | KÜTLE | eski çarkın kendisi — G0'da gri, yarık, altı kollu ve sarmaşıklı; S0'da parça parça römorka iner, G6'da aynı demir göbeğin üstünde yeni çark suyla DÖNÜYOR (711 px · kadrajın üçte ikisi) · ⭐ deponun ilk GERÇEK ZAMAN sahneleri (rejim G · S4–S5) → plan: `dikey_shorts/ONE_MORE_TURN/` (18.09.2026) |
 | 17 | THE SWALLOWED BUS | şehir içi çökük onarımı / altı şeritli bulvar · karşı çatıdan aşağı bakış | ⭐ ZEMİN | otobüsün kendisi — G0'da burnu çukurda, 30° eğik, kapıları açık; S0'da lowbed'e biner, S1'de soldan gider; G7'de aynı yerde başka bir otobüs yamanın ötesinde, yama bütün → plan: `dikey_shorts/THE_SWALLOWED_BUS/` (19.09.2026) |
+| 18 | BACK TO WATER | kuru havuzda balıkçı teknesi onarımı / kıyı · rıhtım başından aşağı bakış, ufuk görünür | KÜTLE | havuzun kendisi — G0'da kuru taban, takozlar, kabuklu tekne; S5'te su tabanı ve takozları örter, tekne kalkar; G7'de havuz DOLU ve BOŞ, tekne kapının ötesinde denizde, izi kapıdan içeri · ⭐ senaryo sahipten · kapak yalnız G7 → plan: `dikey_shorts/BACK_TO_WATER/` (19.09.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA
