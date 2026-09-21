@@ -89,6 +89,13 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
 ⭐ 19.09.2026: BACK TO WATER KÜTLE ailesine yazıldı (14 m tekne gövdesi = G0–G5'te kadrajın %33–56 × %40–76'sı;
    ONE MORE TURN'ün çarkı gibi tek büyük gövde). Aşağı bakan istasyon ama ufuk %80'de GÖRÜNÜR — ZEMİN
    tanımına (ufuk yok) uymaz. SWALLOWED BUS ZEMİN → BACK TO WATER KÜTLE ardışık yayınlanabilir. Sahip onayı bekliyor.
+⭐ 21.09.2026: THE EMPTY LOCK ZEMİN ailesine yazıldı (değirmen parapetinden aşağı çapraz bakış, tilt −38°, ufuk %102 —
+   gök YOK; HIDDEN OASIS · SWALLOWED BUS'tan sonra üçüncü). BACK TO WATER KÜTLE → EMPTY LOCK ZEMİN ardışık
+   yayınlanabilir; SWALLOWED BUS ile ardışık YAYINLANAMAZ (aynı aile). Sahip onayı bekliyor.
+⭐ 21.09.2026: THE QUIET FIELD DİKEY ailesine yazıldı (hiza · tilt 0 · ufuk %50; LONG SHADOW · EMPTY RIDGE ·
+   LAST CIRCLE'dan sonra dördüncü). EMPTY LOCK ZEMİN → QUIET FIELD DİKEY ardışık yayınlanabilir; EMPTY RIDGE ile
+   ardışık YAYINLANAMAZ (aynı aile, ikisi de kırsal dikey). ⭐ Deponun ilk gece-gündüz çemberi ve ilk müziksiz
+   filmi. Sahip onayı bekliyor.
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
@@ -156,6 +163,8 @@ AÇILIŞTAN SONRA
 | 16 | ONE MORE TURN | ahşap su çarkı yenilemesi / ormanlık vadi · eski taş değirmen | KÜTLE | eski çarkın kendisi — G0'da gri, yarık, altı kollu ve sarmaşıklı; S0'da parça parça römorka iner, G6'da aynı demir göbeğin üstünde yeni çark suyla DÖNÜYOR (711 px · kadrajın üçte ikisi) · ⭐ deponun ilk GERÇEK ZAMAN sahneleri (rejim G · S4–S5) → plan: `dikey_shorts/ONE_MORE_TURN/` (18.09.2026) |
 | 17 | THE SWALLOWED BUS | şehir içi çökük onarımı / altı şeritli bulvar · karşı çatıdan aşağı bakış | ⭐ ZEMİN | otobüsün kendisi — G0'da burnu çukurda, 30° eğik, kapıları açık; S0'da lowbed'e biner, S1'de soldan gider; G7'de aynı yerde başka bir otobüs yamanın ötesinde, yama bütün → plan: `dikey_shorts/THE_SWALLOWED_BUS/` (19.09.2026) |
 | 18 | BACK TO WATER | kuru havuzda balıkçı teknesi onarımı / kıyı · rıhtım başından aşağı bakış, ufuk görünür | KÜTLE | havuzun kendisi — G0'da kuru taban, takozlar, kabuklu tekne; S5'te su tabanı ve takozları örter, tekne kalkar; G7'de havuz DOLU ve BOŞ, tekne kapının ötesinde denizde, izi kapıdan içeri · ⭐ senaryo sahipten · kapak yalnız G7 → plan: `dikey_shorts/BACK_TO_WATER/` (19.09.2026) |
+| 19 | THE EMPTY LOCK | kanal kilidi kapı yenilemesi / kırsal kanal · değirmen parapetinden aşağı çapraz bakış, gök yok | ⭐ ZEMİN | eski meşe kapının kendisi — G0'da kara, yamuk, mitresinden fışkıran; S1–S2'de batı çekek yoluna yatar ve G7'de ORADA kalır: sarı yeni kapının karşısında iki kara levha, hazne dolu, tekne coping hizasında · ⭐ deponun ilk kanal kilidi ve makinesiz finali (yalnız su) → plan: `dikey_shorts/THE_EMPTY_LOCK/` (21.09.2026) |
+| 20 | THE QUIET FIELD | Lovell tipi 76 m radyo teleskopu, SIFIRDAN / kırsal çayır · güney tepecikten hiza bakışı, ufuk %50 | DİKEY | çayır ve sırt hattı — G0'da kesintisiz yeşil çayır + pegli daire + baştan başa kret + tek yapı olarak taş ambar; G7'de beton halka, ray, kompaund ve tırtıl izleri çayırı kesiyor, kretin orta yarısı 50° devrilmiş çanağın arkasında, ambar kulenin dibinde bir kutu · ⭐ deponun ilk gece-gündüz çemberi (17:20 → 05:30 · 53°K yaz gecesi · S3–S4 gece, projektör + yıldız yayı) ve ilk MÜZİKSİZ filmi (diegetik ses yatağı) · final rejim A: çanak kameraya döner → plan: `dikey_shorts/THE_QUIET_FIELD/` (21.09.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA

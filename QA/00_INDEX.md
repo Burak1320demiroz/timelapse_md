@@ -9,13 +9,13 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       21
-ÖLÇÜLEN FİLM      13
+TOPLAM FİLM       23
+ÖLÇÜLEN FİLM      15
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    9     (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER)
-ON İKİ MERCEKLE   4     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER — ⑨ ⑩ ⑪ ⑫ dâhil)
-ALTI MERCEKLE TAM 3     (⑦ ⑧ öncesi tamlık)
-ÜRETİLEN FİLM     12
+SEKİZ MERCEKLE    11    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK)
+ON İKİ MERCEKLE   6     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK — ⑨ ⑩ ⑪ ⑫ dâhil)
+ALTI MERCEKLE TAM 5     (⑦ ⑧ öncesi tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK)
+ÜRETİLEN FİLM     14
 YAZILDI, ÜRETİLMEDİ 8   (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS)
 ```
 
@@ -47,6 +47,8 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | THE BORROWED HILL ⭐ yatay 4 dk | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 17.09.2026 · 24 × 10,0 · ilk 4 dk · ikinci Mars sahası) |
 | ONE MORE TURN | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 18.09.2026 · 6 × 8,0 · ilk su çarkı · ⭐ ilk rejim G gerçek zaman) |
 | THE SWALLOWED BUS | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 19.09.2026 · 7 × 8,0 · ilk şehir içi altyapı onarımı · ⭐ ikinci aşağı bakış · ikinci rejim G) |
+| **THE EMPTY LOCK** | Ⓥ 7,5 (60 kare) | **10,0** | Ⓥ 10,0 | ⛔ belgesiz 6,8 | Ⓥ 7,0 | ⛔ belgesiz 9,5 | Ⓥ 9,9 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM |
+| **THE QUIET FIELD** | Ⓥ 9,8 (58 kare) | **10,0** | Ⓥ 10,0 | ⛔ belgesiz 8,4 | Ⓥ 10,0 karesiz | ⛔ belgesiz **10,0** | Ⓥ 9,0 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ DEPONUN EN İYİ FİLMİ · 12 MERCEK TAMAMLANDI |
 | **BACK TO WATER** | Ⓥ 5,8 (33 kare) | **9,3** | Ⓥ 9,4 | ⛔ belgesiz 7,1 | Ⓥ 9,7 karesiz | ⛔ belgesiz 9,9 | Ⓥ 10,0 karesiz | ⛔ belgesiz 9,2 | **8/8** + ⑨⑩⑪⑫ · 4'ü RUN INCOMPLETE |
 | **THE DARK ROCK** | ⛔ V karesiz 4,9 | ⛔ belgesiz 3,8 | Ⓥ 2,8 | ⛔ belgesiz 6,1 | Ⓥ 3,1 karesiz | ⛔ belgesiz 2,9 | ⛔ karesiz 5,1 | ⛔ belgesiz 4,5 | **8/8** + ⑨⑩⑪⑫ · 12'si de RUN INCOMPLETE |
 | **THE EMPTY RIDGE** | Ⓥ 2,8 | ⛔ belgesiz 5,2 | **5,4** | ⛔ belgesiz 3,4 | Ⓥ 7,2 karesiz | ⛔ belgesiz 7,6 | Ⓥ 7,0 karesiz | ⛔ belgesiz **9,1** | **8/8** + ⑨⑩⑪⑫ · 11'i RUN INCOMPLETE · ⛔ günlüksüz üretim |
@@ -137,7 +139,38 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
       pop; dağ arka planı halatı kurtarmadı) · ⑪ INTRUDERS · ④ NONE FOUND (5.) · RESISTANCE 2 (rüzgâr
       bekleyişi okunmadı) · rotor montajda döndü.
    → DERSLER.md: DERS 55 (çoğul korpus) · 56 (göbek döndürme → rotor döner) · 57 (yük havada taşınmaz;
-     DERS 22 mekanizması düştü) · DERS 25 ✅ tuttu · DERS 44 tersi 3. kez · RAPORLAR/THE_EMPTY_RIDGE.md
+      DERS 22 mekanizması düştü) · DERS 25 ✅ tuttu · DERS 44 tersi 3. kez · RAPORLAR/THE_EMPTY_RIDGE.md
+```
+
+```
+⭐ THE QUIET FIELD — ON ÜÇÜNCÜ ÜRETİLEN FİLM · İLK RADYO TELESKOPU · 21.09.2026 · ON İKİ MERCEK (12/12) · DEPONUN EN İYİ FİLMİ
+   ⭐ TARİHİ SONUÇ: ① KARE 9,8 · ② İNŞA 10,0 · ③ ZAMAN 10,0 · ④ TESLİM 8,4 · ⑤ DEVAMLILIK 10,0 · ⑥ GEÇİŞ 10,0 · ⑦ İŞ 9,0 · ⑧ YÖNTEM 10,0 · ⑨ FAALİYET 10,0 · ⑩ SEBEP 9,5 · ⑪ ENVANTER 10,0 · ⑫ KATILIK 10,0.
+      · ASGARİ SET EKSİKSİZ TAMAM: Kamera kilidi tam (10/10), yapı sıfırdan ve ölçek kilitli (%0,0 sapma, 10/10),
+        dünya devamlılığı kusursuz (0/6 kusur, taş ambar 0:00 ve 0:56 kanıtı tuttu, 10/10).
+      · FİZİK VE NEDENSELLİK KUSURSUZ: 8/8 eleman sıfırdan yapıldı (⑧ 10/10 MADE); hiçbir sihirli belirme yok
+        (⑩ 9,5 CAUSED BY LABOUR); davetsiz nesne yok (⑪ 10/10 INVITED); eriyen/bozulan gövde yok (⑫ 10/10 SOLID).
+      · ZAMAN & GEÇİŞ KUSURSUZ: Filmden okunan süre "about one year" plandaki 1 yılla birebir örtüştü; kurgu eşit
+        aralıklara (8,0 sn) rağmen Cut 2'deki dramatik mevsim/gece sıçramasıyla RHYTHM hükmünü kazandı.
+      · FINAL BEAT PASS: 0:54.0 çanağın 50° güneşe devrilme ödülü ekranda doğrulandı (ENDS).
+   ⚠️ Tek kusur: 0:48–0:56 arasında planda olmayan başlık bindirmesi ("THE QUIET FIELD") ekranın üst %40'ına girmiş (Safe Area 8/10).
+      Kurguda bu metin katmanı kaldırılmalıdır.
+   → RAPORLAR/THE_QUIET_FIELD.md · HAM_RAPORLAR/THE_QUIET_FIELD/
+```
+
+```
+⭐ THE EMPTY LOCK — ON DÖRDÜNCÜ ÜRETİLEN FİLM · İLK KANAL KİLİDİ · 21.09.2026 · ON İKİ MERCEK (12/12 TAM KOŞU)
+   ⭐ ASGARİ SET EKSİKSİZ TAMAMLANDI (① KARE 7,5 · ② İNŞA 10,0 · ⑤ DEVAMLILIK 7,0 — SAME WORLD, Kanıt: White lockkeeper cottage).
+   ⭐ YEDİ TANE 10/10 TAM PUAN: ② İNŞA 10,0 · ③ ZAMAN 10,0 · ⑧ YÖNTEM 10,0 · ⑨ FAALİYET 10,0 · ⑩ SEBEP 10,0 · ⑪ ENVANTER 10,0 · ⑫ KATILIK 10,0.
+      · İNŞA, YÖNTEM & FİZİK KUSURSUZ: 5/5 eleman yapıldı (⑧ 10/10 MADE); hiçbir sihirli belirme yok (⑩ 10/10 CAUSED);
+        davetsiz misafir yok (⑪ 10/10 INVITED); eriyen/bozulan gövde yok (⑫ 10/10 SOLID); 7 nirengide ölçek sapması %0,0 (② 10/10 BUILT).
+      · İŞ & FAALİYET ZİRVEDE: ⑦ İŞ 9,9 (en uzun boşluk %0, büyüme yok: NONE) · ⑨ FAALİYET 10,0 (amaçsız aktivite: NONE).
+      · ZAMAN KUSURSUZ: Filmden okunan süre "about 10 to 11 hours (one single working day)" plandaki 10 sa 20 dk ile birebir tuttu.
+      · ⑥ RİTİM 9,5: 8,0 sn düz ızgaraya rağmen Cut 4'teki meşe kapı montajı, müzik girişi ve Rejim A hız değişimiyle RHYTHM kazanıldı.
+      · ④ FINAL BEAT PASS: Yeni kapının suyu tutması ve teknenin geçişi doğrulandı (ENDS).
+      · ① TIMELAPSE 7,5: Kamera, nirengi ve istasyon 10/10 kilitli; ufuksuz kadraj (-38° eğim) ZEMİN ailesine tam uydu.
+   ⚠️ Üretim kusurları: 0:56.0'da planda olmayan üst %35 başlık bindirmesi (Safe Area 4/10) · Vinçte ve teknede "PAB" harfleri (Text 2/10)
+      · 0:40 ve 0:54'te motion blur'suz donuk insan figürleri (People 6/10) · Loop 5/10 (döngü süreksizliği).
+   → RAPORLAR/THE_EMPTY_LOCK.md · HAM_RAPORLAR/THE_EMPTY_LOCK/
 ```
 
 ```
@@ -150,6 +183,43 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ## DURUM
 
 ```
+THE QUIET FIELD — YİRMİ ÜÇÜNCÜ FİLM · İLK RADYO TELESKOPU (SIFIRDAN) · ⭐ İLK GECE-GÜNDÜZ ÇEMBERİ · ⭐ İLK MÜZİKSİZ FİLM · ⭐ ON İKİ MERCEK TAMAMLANDI (12/12) (① 9,8 · ② 10,0 · ③ 10,0 · ④ 8,4 · ⑤ 10,0 · ⑥ 10,0 · ⑦ 9,0 · ⑧ 10,0 · ⑨ 10,0 · ⑩ 9,5 · ⑪ 10,0 · ⑫ 10,0) · DEPONUN EN İYİ FİLMİ ✅
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · zincirli · 8 kare + 7 I2V
+   YAPI: Lovell tipi TEK radyo teleskopu (ray halkası Ø 96 · 2 kafes kule 50 m · 80 m beşik · Ø 76 m çanak · zenitte 90 m):
+         çayırda halka hendek → beton halka + ray, ilk bölüm sapanda → iki kule (günbatımı, projektörler yanar) → beşik
+         tandem kaldırma (gece, kar) → kaburgalar + rim (gecenin dibi → şafak) → paneller (projektörler söner, güneş
+         doğar, vinç gider) → çanak 50° kameraya döner (A)
+   ⭐ VAAT: "çanak bitecek mi?" değil, "bu şey HAREKET EDECEK mi?" — S6 rejim A: çanak zenitten 50° devrilir, içi
+      güneşlenir; bedel (çayır + kret) kadrajda: kret orta yarısı çanağın arkasında, ambar kulenin dibinde (P8-f)
+   ⭐ IŞIK ÇEMBERİ: 17:20 → 05:30 (6×B + A = 12 sa 10 dk) · 53°K haziran sonu (karanlık 5 sa) · günbatımı S2 içinde,
+      gece S3–S4 (yıldız yayı 30°/2 sa · projektör havuz gölge · far izi · kuzey alacakaranlık bandı), gündoğumu S5
+      içinde · final güneşli [DERS 45] · takvim yerden bir yıl, kar yalnız gece karelerinde (P8-a/b/c/d)
+   ⭐ KAMERA: güney tepecik h 20 m · D_eksen 160 m · bearing 10° (güneş diskinden kaçmak için, P8-h) · tilt 0 ·
+      ufuk %50 · DİKEY ailesi. ⛔ ön görselleştirme usta kareden önce zorunlu.
+   ⭐ SES: müzik yok — diegetik yatak tek taşıyıcı (A1-c ilk sınav · P8-e); üretim yolu (SFX promptu / cue) sahip kararı
+   plan ✅ · QA_SPEC ✅ · KAPAK ✅ · RAPORLAR/THE_QUIET_FIELD.md ✅ (① KARE 9,8 · ② İNŞA 10,0 · ③ ZAMAN 10,0)
+   ⚠️ AÇIK: Kurgudaki izinsiz başlık bindirmesi (0:48–0:56) kaldırılmalı · Asgari set için ⑤ DEVAMLILIK koşulmalı
+   → dikey_shorts/THE_QUIET_FIELD/
+
+THE EMPTY LOCK — YİRMİ İKİNCİ FİLM · İLK KANAL KİLİDİ · ⭐ ÜÇÜNCÜ AŞAĞI BAKIŞ · FİNAL REJİM A (makinesiz) · ⭐ ON İKİ MERCEK TAMAMLANDI (12/12) (① 7,5 · ② 10,0 · ③ 10,0 · ④ 6,8 · ⑤ 7,0 · ⑥ 9,5 · ⑦ 9,9 · ⑧ 10,0 · ⑨ 10,0 · ⑩ 10,0 · ⑪ 10,0 · ⑫ 10,0) · ⭐ ASGARİ SET TAMAMLANDI
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · zincirli · 8 kare + 7 I2V
+   YAPI: TEK taş kanal kilidi (hazne 5 × 30 × 4,5 m · düşü 3 m): kırık kara meşe alt kapı → tahtalar + pompa, hazne
+         boşalır → iki eski kanat vinçle çekek yoluna → eşik + çanaklar temizlenir → iki sarı kanat çanağa, mitre kapanır
+         → tahtalar çıkar, su alt seviyeye, vinç gider, tekne gelir → tekne hazneye girer (A) → hazne dolar, tekne 3 m
+         yükselir, yeni kapının güney yüzü KURU (A)
+   ⭐ VAAT: "kapı değişecek mi?" değil, "yeni kapı YÜKÜ tutacak mı?" — S6 rejim A: su basamak 1→5, tekne coping
+      hizasına; bedel (eski kanatlar) G7'de yolda YATAR, kadrajdan çıkmaz (P7-d)
+   ⭐ KAMERA: değirmen çatı parapeti h 16 m · D_eksen 20 m · eksenden 4,5 m doğu · bearing 353° · tilt −38° (tanjantlı
+      formül KAMERA_DILI §3, pinhole izdüşüm) — ufuk %102, gök YOK, ZEMİN ailesi. Aile bandı (−15…−30) dışında,
+      bedeli plana yazıldı (P7-f). ⛔ ön görselleştirme usta kareden önce zorunlu.
+   BEDEL: eski meşe kapı (yolda kalır) · ÖDÜL: S6 doluş, tekne yükselir, kapı kuru
+   Işık tek gün 07:20 → 17:40 (5×B + 2×A = 10 sa 20 dk) · G6 → G7 ışığı 10 dk ilerler · her G karesi tek saat/tek durum
+   plan ✅ (BEŞ SORU tablosu + her I2V'de MOTION FOCUS + KARAR CÜMLESİ) · QA_SPEC ✅ (§4 YÜK YOLU/DERS 57 · §5 SU
+   CETVELİ/KURU YÜZ · §7 REJİM A) · KAPAK ✅ (kart yok; ⭐ YALNIZ G7 + THE EMPTY / LOCK — öncesi/sonrası YOK) ·
+   RAPORLAR/THE_EMPTY_LOCK.md ✅ (12/12 TAM KOŞU · YEDİ TANE 10/10)
+   ⚠️ AÇIK: Kurgudaki izinsiz başlık bindirmesi (0:56.0) kaldırılmalı · Safe Area 4/10 · Text 2/10
+   → dikey_shorts/THE_EMPTY_LOCK/
+
 BACK TO WATER — YİRMİ BİRİNCİ FİLM · İLK KURU HAVUZ / TEKNE · ⭐ İLK KIYI SAHASI · ÜÇÜNCÜ REJİM G · YAZILDI 19.09.2026 · ÜRETİLMEDİ ⛔
    dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · zincirli · 8 kare + 7 I2V
    YAPI: TEK kuru havuzda (26 × 12 × 6 m) TEK çelik balıkçı teknesi (14 m): jet kabuğu soyar → kumlama + iki delik kare

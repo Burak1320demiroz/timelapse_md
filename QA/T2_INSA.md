@@ -18,6 +18,8 @@
 | **THE EMPTY RIDGE** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 5,2) | ⛔ DIFFERENT · ✅ BUILT (ilk kez bu ikili) · hayalet kule kopyaları 0:21 · 0:39 · rotor montajda döndü | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 3,8) | ⛔ DIFFERENT · APPEARING (9. kez) · fener odası kaybolma 00:32 · robot kollar 00:41 · kara tarlası 00:37 | 5 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
 | **BACK TO WATER** | D | **9,3**/10 | ✅ SAME · BUILT · ⛔ kart DIFFERENT · vinçli kamyon ve sac montajı tam · suyla kalkış +1.8m · pervane köpüğü fiziksel uyumlu | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | D | **10,0**/10 | ✅ SAME · BUILT · deponun ilk tam puanlı inşa koşusu · 7 milestonedaki ölçek sapması %0,0 · hendekten 50° devrilmeye kesintisiz montaj | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | D | **10,0**/10 | ✅ SAME · BUILT · 7 nirengide ölçek sapması %0,0 · dewatering'den tekne kaldırmaya kusursuz montaj ve hidrolik fizik | 0 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17] — İKİNCİ KEZ:** QA_SPEC bu filmde ÜRETİMDEN ÖNCE yazılmıştı ve merceğe yine verilmedi. Skoru tabloya yazılmaz. Ölçülen ham ortalama 1,5. ⛔ DIFFERENT · APPEARING hükmü **dördüncü kez** geldi.

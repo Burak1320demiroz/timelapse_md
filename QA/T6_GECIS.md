@@ -17,6 +17,8 @@
 | **THE EMPTY RIDGE** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 7,6) | ✅ TIME · ⭐ RHYTHM (kurgu varyanslı 4,9·3,6·6,3·7,0·10,0·8,1·7,9·8,0 — 3. kez) · ANCHOR SURVIVAL 6 | 5 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 2,9) | ⛔ NEXT · METRONOM · DIRECTION 1 · JUMP SIZING 2 | 10 | [ham](HAM_RAPORLAR/THE_DARK_ROCK/THE_DARK_ROCK_GECIS_HAM.md) |
 | **BACK TO WATER** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,9) | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 11 (0:20.5) su dolumu · kilitler 1-13 tam · plan ve ses verilmedi | 1 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 10,0) | ✅ TIME · ⭐ RHYTHM · 0 kusur · THE CUT THAT CARRIES: Cut 2 (0:16.0) gündüzden karlı geceye geçiş · plan verilmedi | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,5) | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 4 (00:32.0) yeni meşe kapı ve müzik girişi · plan verilmedi | 2 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 
 ⛔ **THE NARROW LOT belgesiz koşuldu [DERS 17]:** plan ve SES verilmedi. MUSIC ALIGNMENT ve END-CARD HAND-OVER hiç ölçülemedi. Ölçülen ham ortalama 8,2 — deponun en yüksek mercek skoru, ama üç kategorisi hiç sorulmadı.

@@ -2742,6 +2742,84 @@ P6-h  ⚠️ "İLK SANİYEDE DURDURUR · SONA KADAR TUTAR" PLANA YAZILMAZ
 
 ---
 
+## 🎬 P7 — PLAN KARARI · THE EMPTY LOCK · 21.09.2026 · ⭐ İLK KANAL KİLİDİ · TEKNE YÜKSELİR
+
+> Kaynak: ajan önerisi (üç adayın birincisi, sohbet) + sahip onayı ("önerileni hazırla")
+> (`dikey_shorts/THE_EMPTY_LOCK/`). Kaynak sınıfı **tasarım varsayımı**. ⛔ Hiçbiri ölçülmedi.
+
+```
+P7-a  ⭐ ÖDÜL, KİLİDİN KENDİ İŞİDİR: SU DÖNER, TEKNE YÜKSELİR
+      İlk taslakta final "tekne hazneye girer"di. Dolu hazne + kapalı yeni kapı + 3 m yükselen tekne
+      "yeni kapı yükü tuttu" kanıtını ve ödülü AYNI karede taşır; giriş S5'e alındı. Doluş 8–10 dk
+      sürer → rejim G (1×) 2 cm gösterirdi; final rejim A (10 dk → 8 sn). ⇒ SANTIYE_HAREKETI §4.7
+      "ödül yapının çalışmasıdır" ilk kez makinesiz bir klipte: yalnız su hareket eder.
+P7-b  ⭐ "KURBAN" NESNE ALT UI BANDINA DÜŞÜYORSA G0'A KONMAZ
+      Alt havuz (d < 12) aşağı bakışta y < %25'e düşer. Yarım görünen tekne altı karede devamlılık
+      borcu yaratır, kanıt taşımaz. Tekne S4'ün içinde gelir, G5'te bekler (SWALLOWED BUS G6 kalıbı).
+      Kanca yapının kendi arızasıyla kurulur (yamuk kanat + fışkırma + yarım hazne).
+P7-c  ⭐ GEÇİCİ SU KESİCİ, KANIT NESNESİNİ ÖRTMEZ
+      Kapama tahtaları coping'e kadar çıkarsa kamera eşiği göremez (görüş çizgisi d ≥ 23'e düşer).
+      Alt su −3,75 için tahta üstü −2,75 yeter; eşik ve topuk çanağı d ≥ 16,4'ten görünür. Aynı ilke
+      P6-c (cetvel gömülmez): geçici yapı, kanıtı kendi ölçtüğü şeyin altında bırakmaz.
+P7-d  ⭐ BEDEL KADRAJDA KALIR
+      Eski kanatlar batı çekek yoluna yatar ve G7'de oradadır — yeni sarı kapının karşısında iki kara
+      levha. ONE MORE TURN / SWALLOWED BUS'ta bedel kadrajdan ÇIKTI; burada DURUR. Kapak kancasının
+      ikinci ayağı bu (eski/yeni aynı karede). Ölçülecek: ④ TESLİM bunu "bedel" mi "çöp" mü okuyor.
+P7-e  ⭐ G5'TEN SONRA "CRANE" YOK — DERS 8'in üretim tarafı
+      Giden vincin kancası yüksüzdür; kapı boş kancayı yasaklar. Vinç + lowbed S4'ün içinde geçitten
+      çıkar; S5–S6 promptlarında kelime hiç geçmez. Kadraj boşalması SÖKÜM satırını da kapatır.
+P7-f  ⚠️ TİLT AİLE BANDININ DIŞINDA — BEDELİ YAZILDI
+      KAMERA_DILI §2.3 "su seviyesi" satırı −15…−30° der; −25° eşiği alt UI bandına düşürür. −38°
+      seçildi (ufuk %102, gök yok → bulut taşıyıcı yok). SWALLOWED BUS P6-d'nin açık sorusu (gök yok
+      → ③ ZAMAN) bu filmde de ölçülür. Bandın dışına çıkan ilk seviye-ailesi filmi.
+P7-g  ⚠️ UZUN RİJİT YÜK ÜÇ KEZ HAVADA (S1 · S3 · S4) — DERS 57'nin ilk bilinçli sınavı
+      4 t · 5 m kanat dik asılı, döndürülmez, iki güdüm halatı. Pilot üçlü (c) klibi S3: kanat
+      havada boy değiştirir ya da hedefte kopyalanırsa kapsam daralır (yatay istasyon ya da iki
+      klip dikişi) — sahip kararı.
+P7-h  ⚠️ İKİ TEK-GÜN FİLMİNDEN SONRA ÜÇÜNCÜSÜ: "aynı gün onarım" konvansiyonu (SWALLOWED BUS ·
+      BACK TO WATER · EMPTY LOCK) ölçülmüş bir tercih değil, kalıp. Üç film QA'dan geçince
+      KILAVUZ_REHBERI §6'ya "acil onarım" konsept sınıfı olarak yazılıp yazılmayacağı sahip kararı.
+```
+
+---
+
+## 🎬 P8 — PLAN KARARI · THE QUIET FIELD · 21.09.2026 · ⭐ İLK GECE-GÜNDÜZ ÇEMBERİ · İLK MÜZİKSİZ FİLM
+
+> Kaynak: ajan önerisi (üç adayın birincisi, sohbet) + sahip onayı + sahip eki ("gece gündüz döngüsü de
+> ekle", "hiçbir sahnede kesinlikle müzik olmayacak") (`dikey_shorts/THE_QUIET_FIELD/`). Kaynak sınıfı
+> **tasarım varsayımı**. ⛔ Hiçbiri ölçülmedi.
+
+```
+P8-a  ⭐ GECE-GÜNDÜZ ÇEMBERİ 12 SAATLİK IŞIK PENCERESİNE ENLEMLE SIĞAR
+      Işık günü kesmede zaman atlamaz (EMPTY RIDGE); 6×B + A = 12 sa 10 dk, 24 saat değil. Tam çevrim
+      (gündüz → gece → gündüz) için karanlık ≤ 5 sa gerekir: 53° kuzey, yaz gündönümü (güneş dip −14°,
+      sivil karanlık 22:35–03:45). Pencere 17:20 → 05:30. ⇒ Gece isteyen film ENLEM ve TARİH seçer,
+      ızgarayı değil. Final gündoğumundan 40 dk sonra, güneşli [DERS 45].
+P8-b  ⭐ KAR YALNIZ GÜNEŞSİZ KAREDE — takvim yerden bir yıl, ışık geometrisi tek gün
+      Kar gece karelerine (G3–G5) konur; haziran güneşi ile kar aynı karede olmaz. Sıkıştırma 12 ay →
+      1 gün (EMPTY RIDGE 3 ay). Ölçülecek: ③ ZAMAN bunu "takvim" mi "hata" mı okuyor.
+P8-c  ⚠️ GECE İKİ KLİP (S3 · S4) — ZAMAN_VE_ISIK §5 "bir kez" 10 sahnelik ızgaranın kuralıdır; burada gece
+      TEKTİR, iki klibe bölünmüştür ve filmin en ağır işi (80 m beşik, tandem) oradadır — gerçek ağır
+      kaldırma pratiği (rüzgârsız gece). Gölgesiz iki klibin taşıyıcısı: yıldız yayı 30° + far izi + kuzey
+      alacakaranlık bandı (53°K fiziği). Ölçülmemiş.
+P8-d  ⭐ IŞIK DEVİR TESLİMİ İKİ KEZ, İKİ YÖNDE — S2 gün ışığı söner → projektörler SIRAYLA yanar; S5
+      projektörler SIRAYLA söner → güneş doğar, gölgeler DOĞAR. §5 "ışıklar kat kat" ilkesinin şantiye hâli;
+      her klipte iki olay (bütçe tam), üçüncü yok.
+P8-e  ⭐ MÜZİK YOK → SES YATAĞI TEK TAŞIYICI — MUZIK_VE_KAPAK §1.3 A1-c varsayımının ("yatak müziğin
+      önünde olabilir", kaynak zayıf) ilk tam sınavı. Görüntü 900×/75×, ses 1×; KATMAN=KAT sese uygulandı
+      (sahne başına tek imza; S6'da makine sessizliği + motor). Ölçülecek: izlenme süresi, yorum.
+P8-f  ⭐ ÖDÜL YAPININ KENDİ İŞİ, İKİNCİ KEZ MAKİNESİZ — çanak 50° döner (rejim A). 50°, 40° değil: 40°'de
+      yakın rim kretin üstünde kalır ve bedel (kret gizlenir) düşer. Rejim seçimi geometriden geldi.
+P8-g  ⚠️ TANDEM KALDIRMA (iki vinç, 80 m rijit yük) — DERS 57'nin en ağır hâli; pilot üçlü (c) S3 gece.
+      Beşik boy değiştirir / eğilir / hedefte kopyalanır / kuleleri oynatırsa sahip kararı.
+P8-h  ⚠️ BEARING GÜNEŞ DİSKİNDEN KAÇMAK İÇİN SEÇİLDİ (10°): batış 27° solda, doğuş 8° sağda; 5°'te batan
+      güneş sol kenara 22° yaklaşırdı. ⇒ Gece-gündüz filminde bearing, azimut tablosundan SONRA seçilir.
+P8-i  ⚠️ KALABALIK KASITLI (S1 · S2 kapı INFO 6–7 hareket eden): sahip "daha çok iş yapılan" istedi;
+      C1-d okunurluk riski kabul, ölçülecek.
+```
+
+---
+
 ## 🔎 C1 — ÇAPRAZ ANALİZ · 15 film · 12 mercek · 18.09.2026 · dış değerlendirmeyle düzeltildi
 
 > Kaynak: `QA/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/HAM_RAPORLAR/` altındaki 15 dikey

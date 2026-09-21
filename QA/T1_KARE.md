@@ -18,6 +18,8 @@
 | **THE EMPTY RIDGE** | V (37 kare) | **2,8**/10 Ⓥ | ⛔ SIX SEPARATE SHOTS · CAMERA LOCK 2 (klip 1–2 push-in) · DÖRT istasyon grubu (plan: tek) · ANCHOR 1 · SURFACE 1 · C1 CRANE 2 | 22 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 4,9) | ⛔ SIX SEPARATE SHOTS · ANCHOR 2 · SURFACE 1 · C1 CRANE 2 · 00:35 kara tarlası zıplaması · 00:41 robot kollar | 18 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
 | **BACK TO WATER** | V (33 kare) | **5,8**/10 Ⓥ | ✅ TIME-LAPSE · ⛔ kart DIFFERENT · CAMERA LOCK 7 · kule açısal kayma 00:08 · işçi statik poz 00:01 · dijital boya dokusu 00:14 | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | V (58 kare) | **9,8**/10 Ⓥ | ✅ TIME-LAPSE · Safe Area 8/10 (0:48–0:56 üst %40 başlık bindirmesi) · kamera, nirengi ve zemin 10/10 kilitli | 1 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | V (60 kare) | **7,5**/10 Ⓥ | ✅ TIME-LAPSE · Safe Area 4 (0:56 başlık bindirmesi) · Text 2 ("PAB" vinç/tekne yazıları) · People 6 (donuk işçiler) · kamera/istasyon/nirengi 10/10 | 7 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 
 ⚠️ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi (`kare_al.sh` yine koşulmadı — üçüncü film). ⛔ CAMERA LOCK **0/10**: beş klibin BEŞİNDE de yavaş push-in. Ölçülebilir çapa cümlesi beş I2V'nin beşinde de YAZILIYDI ve tutmadı — NARROW LOT'ta aynı cümle 10/10 almıştı [DERS 23].

@@ -18,6 +18,8 @@
 | **THE EMPTY RIDGE** | V | **5,4**/10 | ✅ PASSES · okunan süre "about 2 to 3 months" (plan ~2 ay) TUTTU · SEASON ORDER 7 · gölge donuk, bulut akıyor (1 · 5) | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | V | **2,8**/10 Ⓥ | ⛔ TEK YÖNDE DEĞİL · okunan süre "unresolvable" · SEASON ORDER 1 · ışık/mevsim zıplamaları | 12 | [kayıt](RAPORLAR/THE_DARK_ROCK.md) |
 | **BACK TO WATER** | V | **9,4**/10 Ⓥ | ✅ PASSES · tahmin "10–12 saat" (plan 10 sa 10 dk) TUTTU · S0–S5 sıkıştırma → S6 1x akıcı (rejim G) · ⛔ kart DIFFERENT | 2 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | V | **10,0**/10 Ⓥ | ✅ PASSES · tahmin "about one year" (plan 1 yıl) TAM TUTTU · mevsim çemberi 360° · gece yıldız izi + gündüz gölge süpürmesi kusursuz | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | V | **10,0**/10 Ⓥ | ✅ PASSES · tahmin "about 10 to 11 hours (one single working day)" (plan 10 sa 20 dk) TAM TUTTU · gölge süpürmesi 1:2.0 → 1:0.6 → 1:4.3 | 0 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 
 ⭐ **THE MOUNTAIN DOOR — ALTI MERCEĞİN TAM KOŞAN TEK'İ.** Girdisi yalnız tam kurgudur ve eksiksiz verildi; skoru **bağlayıcıdır** (Ⓥ yok). Zaman tahmini "about 9 to 12 months", plan 12 ay — **ikinci kez TUTTU**. ⛔ Buna karşılık SEASON ORDER 0/10: plandaki sonbahar hiç görünmedi ve kış ② (erime) YAZ olarak üretildi.

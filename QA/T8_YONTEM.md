@@ -15,6 +15,8 @@
 | **THE EMPTY RIDGE** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham **9,1**) | ✅ MADE · 6/6 MADE — deponun en yüksek ⑧ | NONE | Concrete Foundation Pad · 00:09,0 | 5 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 4,5) | ⛔ APPEARED | Lantern Room Glazing · 00:27,0 | Main Tower Shaft | 6 | [ham](HAM_RAPORLAR/THE_DARK_ROCK/THE_DARK_ROCK_YONTEM_HAM.md) |
 | **BACK TO WATER** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,2) | ⛔ APPEARED · 7/8 MADE · SPEC verilmedi | Cabin window glazing · 00:16,5 | Steel hull patch plates (00:07,0) | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | D | **10,0**/10 | ✅ MADE · 8/8 MADE · depoda ilk belgeli 10/10 | NONE | Elevation cradle cross-truss (0:24.0–0:30.0) | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | D | **10,0**/10 | ✅ MADE · 5/5 MADE · deponun ikinci belgeli 10/10'u | NONE | New West Oak Gate Leaf (00:25.0) | 0 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 **VERDICT değerleri:** MADE / APPEARED
 

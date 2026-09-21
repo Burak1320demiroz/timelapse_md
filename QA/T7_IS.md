@@ -15,6 +15,8 @@
 | **THE EMPTY RIDGE** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 7,0) | ✅ WORKING · CAUSE AND EFFECT 3 | 0:51,5–0:55,0 · klip 12 · 3,5 s · %70 | 0:26,5 iki dik kule segmenti (boş kanca) | 7 | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 5,1) | ⛔ PARKED | 0:32,0–0:34,0 (%66,7) | 0:04,0 natural rock pinnacle instantaneously replaced | 5 | [ham](HAM_RAPORLAR/THE_DARK_ROCK/THE_DARK_ROCK_IS_HAM.md) |
 | **BACK TO WATER** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda ilk 10,0 tam iş skoru | 0:00,0 (%0) | NONE | 0 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | ⚠️ V karesiz | **9,0**/10 Ⓥ | ✅ WORKING · çalışma cephesi 10/10 · sebep-sonuç 10/10 | 0:46.0–0:48.0 · klip 6 · 2.0s · %25 | NONE | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | ⚠️ V karesiz | **9,9**/10 Ⓥ | ✅ WORKING · sebep-sonuç 10/10 · malzeme akışı 10/10 | 0:00.0 (%0) | NONE | 1 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 **VERDICT değerleri:** WORKING / PARKED
 

@@ -17,6 +17,8 @@
 | **THE EMPTY RIDGE** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 7,2) | ✅ SAME WORLD · ⭐ kanıt BULUNDU: plana konan YALNIZ MEŞE (00:00,5 ve 00:54,5) — planlı nesne ilk kez tuttu | 5/9 dikiş | [kayıt](RAPORLAR/THE_EMPTY_RIDGE.md) |
 | **THE DARK ROCK** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 3,1) | ⛔ A SET REBUILT EACH TIME · NONE FOUND · 12 dikişin 10'u kusurlu | 5/12 dikiş | [ham](HAM_RAPORLAR/THE_DARK_ROCK/THE_DARK_ROCK_DEVAMLILIK_HAM.md) |
 | **BACK TO WATER** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 9,7) | ✅ SAME WORLD · ⭐ kanıt BULUNDU: kapı kuleleri + sarı merdiven · ⛔ kart DIFFERENT · dikiş 9 (00:18) ekipman kaybolması | 1/11 dikiş | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
+| **THE QUIET FIELD** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 10,0) | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Taş ambar (0:00.0 ve 0:56.0) · 0/6 dikiş kusursuz | 0/6 dikiş | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
+| **THE EMPTY LOCK** | V | **7,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: White lockkeeper cottage (00:00.0 ve 00:56.0) · 0/6 dikiş kusursuz | 0/6 dikiş | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi. Dört dikişin DÖRDÜ de kusur taşıyor. ⭐ En ağır satır: plana KASTEN yerleştirilen kanıt nesnesi (2,4 m üstü düz granit kaya) 0:05,9 → 0:06,0'da **kayboldu** ve mercek NONE FOUND yazdı. Kanıt nesnesi yazmak yetmiyor [DERS 25].
