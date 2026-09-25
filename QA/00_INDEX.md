@@ -9,14 +9,14 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       23
-ÖLÇÜLEN FİLM      15
+TOPLAM FİLM       30
+ÖLÇÜLEN FİLM      20
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    11    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK)
-ON İKİ MERCEKLE   6     (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK — ⑨ ⑩ ⑪ ⑫ dâhil)
-ALTI MERCEKLE TAM 5     (⑦ ⑧ öncesi tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK)
-ÜRETİLEN FİLM     14
-YAZILDI, ÜRETİLMEDİ 8   (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS)
+SEKİZ MERCEKLE    15    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE VANISHING ROOM)
+ON İKİ MERCEKLE   11    (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE STONE DRAGON · THE VANISHING ROOM — ⑨ ⑩ ⑪ ⑫ dâhil)
+ALTI MERCEKLE TAM 7     (⑦ ⑧ öncesi / alternatif tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK · THE STONE DRAGON · THE VANISHING ROOM)
+ÜRETİLEN FİLM     19
+YAZILDI, ÜRETİLMEDİ 11  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE GLASS CROSSING)
 ```
 
 ## TAMLIK MATRİSİ
@@ -47,7 +47,14 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | THE BORROWED HILL ⭐ yatay 4 dk | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 17.09.2026 · 24 × 10,0 · ilk 4 dk · ikinci Mars sahası) |
 | ONE MORE TURN | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 18.09.2026 · 6 × 8,0 · ilk su çarkı · ⭐ ilk rejim G gerçek zaman) |
 | THE SWALLOWED BUS | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 19.09.2026 · 7 × 8,0 · ilk şehir içi altyapı onarımı · ⭐ ikinci aşağı bakış · ikinci rejim G) |
+| THE TIDE GATE | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 22.09.2026 · 7 × 8,0 · ilk fırtına seddi · ⭐ dikey havuzun ilk YATAY filmi · üçüncü rejim G · üçüncü müziksiz) |
+| THE GLASS CROSSING | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 24.09.2026 · 7 × 8,0 · ilk cam döşeme · ⭐ şeffaflığı ÖLÇÜLEBİLİR yapan ilk film · ilk vinçsiz boğaz geçişi · fikir sahipten · sekizinci DİKEY) |
+| **THE DEEP END** | Ⓥ 9,6 (21 kare) | **10,0** | Ⓥ 10,0 | **9,9** | Ⓥ 10,0 | **9,4** | Ⓥ 9,3 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM |
+| **THE STONE DRAGON** | Ⓥ 6,0 | **9,2** | Ⓥ 9,1 | Ⓥ 5,7 | Ⓥ 3,9 | **9,4** | *V2 Ⓥ 6,5* | 🔴 RED (audit) | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM (⑦/⑧ denetim formatında) · ASGARİ SET DÜŞTÜ (⑤ 3,9) · ⛔ BİTİŞ KARTI İHLALİ |
+| **THE VANISHING ROOM** | Ⓥ 8,9 | **10,0** | Ⓥ 10,0 | Ⓥ 9,5 | **9,9** | Ⓥ 9,6 | Ⓥ 8,4 | **9,9** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · BEŞ TANE 10/10 · ASGARİ SET TAM (① 8,9 · ② 10,0 · ⑤ 9,9) |
+| **THE BLUE DOOR** | Ⓥ 8,6 | **9,7** | Ⓥ 10,0 | **9,2** | Ⓥ 9,3 | **9,2** | Ⓥ 10,0 karesiz | ⛔ belgesiz 9,5 | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · DÖRT TANE 10/10 · ASGARİ SET TAM |
 | **THE EMPTY LOCK** | Ⓥ 7,5 (60 kare) | **10,0** | Ⓥ 10,0 | ⛔ belgesiz 6,8 | Ⓥ 7,0 | ⛔ belgesiz 9,5 | Ⓥ 9,9 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM |
+| **THE BROKEN CLIMB** | Ⓥ 4,1 (33 kare) | **10,0** | Ⓥ 9,9 | ⛔ kapaksız 5,1 | Ⓥ 10,0 | **9,9** | Ⓥ 10,0 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · SEKİZ TANE 10/10 · ASGARİ SET TAM |
 | **THE QUIET FIELD** | Ⓥ 9,8 (58 kare) | **10,0** | Ⓥ 10,0 | ⛔ belgesiz 8,4 | Ⓥ 10,0 karesiz | ⛔ belgesiz **10,0** | Ⓥ 9,0 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ DEPONUN EN İYİ FİLMİ · 12 MERCEK TAMAMLANDI |
 | **BACK TO WATER** | Ⓥ 5,8 (33 kare) | **9,3** | Ⓥ 9,4 | ⛔ belgesiz 7,1 | Ⓥ 9,7 karesiz | ⛔ belgesiz 9,9 | Ⓥ 10,0 karesiz | ⛔ belgesiz 9,2 | **8/8** + ⑨⑩⑪⑫ · 4'ü RUN INCOMPLETE |
 | **THE DARK ROCK** | ⛔ V karesiz 4,9 | ⛔ belgesiz 3,8 | Ⓥ 2,8 | ⛔ belgesiz 6,1 | Ⓥ 3,1 karesiz | ⛔ belgesiz 2,9 | ⛔ karesiz 5,1 | ⛔ belgesiz 4,5 | **8/8** + ⑨⑩⑪⑫ · 12'si de RUN INCOMPLETE |
@@ -183,6 +190,195 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ## DURUM
 
 ```
+THE GLASS CROSSING — OTUZUNCU FİLM · İLK CAM DÖŞEME · ⭐ ŞEFFAFLIĞI ÖLÇÜLEBİLİR YAPAN İLK FİLM · ⭐ FİKİR SAHİPTEN · YAZILDI 24.09.2026 · ⛔ ÜRETİLMEDİ
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: adı verilmeyen bir kaya boğazında 27,00 m'lik çürümüş kalas köprünün CAM ZEMİNLİ GEÇİDE dönüşmesi.
+         eski hâl: iki paslı çelik kiriş + çürük meşe kaplama + halat korkuluk →
+         söküm (kaplama · korkuluk · kirişler 4,50 m'lik parçalara kesilir) → yeni çelik ızgara (iki kenar rayı +
+         3,00 m'de bir çapraz taşıyıcı = 9 göz) → beyaz koruyucu filmli 9 cam ünite (2,40 × 3,00 × 0,040 m · 720 kg)
+         neopren üstüne oturur ve alüminyum bastırma çerçevesiyle kenetlenir → cam korkuluk → ⭐ FİLMLER SOYULUR
+   KAYNAK: sahibin yapıştırdığı 50 sn / 7 satır fikri ("THE GLASS CROSSING") → 7 × 8,0'a katlandı. SEKİZ KARAR
+         değiştirildi, ikisi YAPISAL: ① soyma yönü TERS çevrildi (uzak uçtan yakına — dereyi gösteren tek göz
+         yakın gözdür ve sona saklandı) ② son iki filmi FİGÜRÜN KENDİSİ söküyor (VANISHING ROOM iskeletini
+         kırmak için: figür gelen konuk değil, örtüyü kaldıran kişi). Diğer altısı: derinlik 18,00 m'de
+         kilitlendi (güvenli alan) · açıklık 27,00 m · eski köprüye çelik kiriş eklendi · ⛔ vinç kaldırıldı,
+         geçici tel kondu · başlık değiştirildi · aile DİKEY yazıldı (YATAY satın alınamadı).
+   KAMERA: güney kenarın üst kaya terası · h +20,00 m · d0 11,00 m · D_eksen 24,50 m · bearing 0° · tilt 33° · roll 0
+         ufuk %93,29 (KADRAJDA · üstte 129 px gök) · kare altı d 7,33 m · d_50 30,80 m
+         ⭐ camdan görme: görülen = d × (1 + 18,00/20,00) = d × 1,90 — tilt GİRMEZ [P14-c]
+         ⭐ istasyon ARANMADI, ÇÖZÜLDÜ: tan(tilt + 36,87°) ≥ 2 · derinlik / açıklık [P15-d]
+   BEDEL: eski köprünün kendisi — 3,24 m³ çürük meşe (≈2,43 t) + 4,50 m'lik parçalara kesilmiş iki paslı kiriş
+         (≈2,97 t) boğaz TABANINA iner, orada kalır, hiçbir karede küçülmez.
+         ⭐ Yığın 8,00 m eninde kurulur; köprü taban düzleminde 4,56 m'lik şerit örter →
+            G1 ~70 px · G2–G6 134 px · G7 223 px. KİMSE DOKUNMADAN genişler; genişleten şey CAMDIR.
+   TANIK: ① dere bandı %20,05 · 106 px · kadrajı soldan sağa keser; döşeme onu d 12,89'da 201 px kara barla keser
+            → KESİK: G0 · G1 · G4 · G5 · G6   ·   KESİNTİSİZ: G2 · G3 · G7
+          ② güney kayadaki eski ankraj yuvaları (d 8,50 · 28 px) — G0 dolu, G2'den sonra boş, yeri sabit
+          ③ çentikli kret + tek çam, ufkun hemen altında
+   ÖDÜL: tek figür cam zeminin üstünde, 18,00 m suyun DOĞRUDAN üstünde, aşağı bakıyor — ve o zemini
+         kaldıran kişi kendisi (elinde son film tomarı, arkasında 209 px'lik beyaz iz).
+   ⭐ GÖRÜNÜRLÜK EĞRİSİ: 0 → 12 020 → 104 863 → 100 401 → 0 → 0 → 53 298 → 111 556 px²
+         Deponun diğer 29 filmi BÜYÜMEYİ ölçer; bu film İKİ KEZ kapanıp İKİ KEZ açılan bir eğriyi ölçer [P15-e].
+   IŞIK GÜNÜ: 6 × 2 sa = 12,00 sa ≤ 14 sa · 44°K · δ +8° · gündüz 13 sa 02 dk (05:29–18:31) · iki uçta 31'er dk pay
+         gölge süpürmesi 191,5° · güneş hiçbir karede kadrajda değil (yatay yarı açı 26,57°)
+         ⭐ boğaz tabanı gün boyu AÇIK GÖLGEDE (yalnız G3'te öğle güneşi iner) — hata değil, kontrast bütçesi [P15-f]
+   SİLUET: DİKEY (sekizinci) — G7'den okundu: 236 px'ten 68 px'e daralan kama. VANISHING ROOM ZEMİN → GLASS
+         CROSSING DİKEY ardışık yayınlanabilir. ⚠️ Ama ÖDÜL MEKANİZMASI aynı; araya film girmeli [P15-a].
+         ⚠️ Izgara: DİKEY 8 · ZEMİN 5 · KÜTLE 4 · YATAY 1 — YATAY üçüncü kez aç kaldı [P15-b].
+   DOSYALAR: dikey_shorts/THE_GLASS_CROSSING/ — _DIKEY_TIMELAPSE.md (907 satır) · _QA_SPEC.md (235) · _KAPAK.md (128)
+   ⛔ KAPI: python3 araclar/prompt_kontrol.py … → ⚠️ FIX ×2 (ikisi de BEYANLI: ARAÇ KUTU SETİ ölçülmedi ·
+         yedi sahnenin yedisi de 8,0 sn → ⑥ METRONOM) · BLOCK 0 · MOTION FOCUS FIX 0
+   AÇIK: platform başlığı ("A Rotten Plank Bridge Becomes a Glass Crossing | AI Timelapse") · SES üretim yolu ·
+         ⛔ ARAÇ KUTU SETİ ÖLÇÜLMEDİ (üretim açılamaz) · S6'da yürünen mesafe (6,00 m önerilen) · yayın aralığı
+   EN BÜYÜK RİSK: modelin camı İKİNCİ BİR OPAK YÜZEY sanması. Pilot klip S5 — kadrajdan bir şey ÇIKARAN tek klip;
+         modelin ölçülmüş eğilimi EKLEMEKTİR [P14-h]. Üretim sırası: G6 → G7 → S5 → G3-G4 → G0 → kalanlar.
+   ⛔ DEVAM EDEN AÇIK [P13-h]: prompt_kontrol.py §9 metin yasağı kapsam denetimi "…annotated by anyone" arıyor,
+         ev yazımı "…included." ile bitiyor; sekiz yüzey sayımı hiçbir filmde ateşlenmedi. Sahip kararı olarak taşınıyor.
+
+THE VANISHING ROOM — YİRMİ DOKUZUNCU FİLM · İLK GÖMÜLÜ BAHÇE ODASI · ⭐ DORUĞU BOŞLUK OLAN İLK FİLM · ⭐ FİKİR SAHİPTEN · YAZILDI 23.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · BEŞ TANE 10/10 TAM PUAN (② 10,0 · ③ 10,0 · ⑩ 10,0 · ⑪ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 8,9 · ② 10,0 · ⑤ 9,9) · FINAL BEAT PASS (10/10) · 0/6 dikiş kusuru · ORTALAMA: 9,65/10
+   ⭐ DEPO REKORLARI: THE GROWTH NOBODY MADE: NONE · THE FIRST PIECE THAT APPEARED: NONE · THE MOST PURPOSELESS ACTIVITY: NONE · THE MOST DAMAGING INTRUDER: NONE · THE BODY THAT MELTED WORST: NONE
+   ⭐ BİTİŞ KARTI: Tüm merceklerde "AYNI" (SAME) onaylandı.
+   → RAPORLAR/THE_VANISHING_ROOM.md · HAM_RAPORLAR/THE_VANISHING_ROOM/
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: adı verilmeyen bir evin duvarlı arka bahçesinde çimin ALTINA gömülen tek oda (iç 3,00 × 4,20 × 2,60 m,
+         taban −2,90 m, tavan üstü −0,30 m): çim 18 ruloda kaldırılır → 3,80 × 5,00 × 2,90 m çukur açılır →
+         taban + dört duvar + düz merdiven dökülür → ⭐ ODA ÜSTÜ AÇIKKEN DÖŞENİR (ahşap kaplama, uzun bank, raf,
+         halı, lineer armatür yanar) → tavan 2,20 × 2,60 m ağız bırakılarak dökülür, ray + zincir + dişli tahrik
+         takılır, 300 mm toprak ve çim geri serilir → ⭐ KENDİ ÇİMİNİ TAŞIYAN 550 kg'lık KAPAK kapanır ve oda
+         kadrajdan tamamen silinir → 8 gerçek saniyede kapak 1,80 m kayar, yerden sıcak ışık çıkar, tek figür
+         üç basamak iner. Hacim kapalı: ÇUKUR 55,1 m³ = ODA 40,7 + GERİ DOLGU 14,4; net dışarı 36,0 m³.
+   KAYNAK: sahibin yapıştırdığı 50 sn / 8 satır fikri ("THE VANISHING ROOM") → 7 × 8,0'a katlandı. ON KARAR
+         (plan §TASARIM KARARLARI); ikisi yapısal: ① iç döşeme TAVANDAN ÖNCEYE alındı — bir delikten görülen
+         taban ağzın boyu × (1 + derinlik/h) kadardır ve DUVARLAR GÖRÜNMEZ, yani kitaplık ve bank tavan
+         takılıyken sabit dış istasyondan okunamaz; ② mevsim geç yaza (δ +8°) kaydı — altı rejim B klibi 12 saat
+         eder ve bu pencere ekinoksta sıfır payla, erken sonbaharda hiç kapanmaz.
+   KAMERA: HOME · bahçe deposunun düz çatısı · h 7,00 m · d_yakın 5,00 m / d_eksen 7,50 m · bearing 0° ·
+         ⭐ tilt 40° AŞAĞI · roll 0 · 24 mm f/8 · ufuk %105,94 (KADRAJIN DIŞINDA — gök YOK) · formül KAMERA_DILI §3.
+         h 7,00 tilt değil YÜKSEKLİK olarak seçildi: görünür oda tabanını açan tek değişken h'dir (h 4,60 → 0,40 m,
+         h 7,00 → 3,68 m).
+   BEDEL: ⭐ TOPRAK SETİ — çukurdan çıkan 36,0 m³'ün 8,8 m³'ü bahçenin solunda dikili bir sırt olarak kalır
+         (G1 2,00 m → G4 5,00 m · x %14,2–26,6 · 88–103 px). Hiçbir karede küçülmez. Oda kaybolmaz, biçim
+         değiştirip bahçenin kenarında ayakta durur.
+   TANIK ①: 18 ÇİM RULOSU — S1'de kalkan çim S5–S6'da odanın üstüne geri iner (18 → 11 → 2). ⭐ KAPANAN DEFTER.
+   TANIK ②: DİKİŞ — kapağın çevresinde 2,4 px'lik kapanmayan çizgi, G5→G7 kilitli piksellerde. Bilerek okunurluk
+         eşiğinin ALTINDA: okunur olsaydı gizlenme başarısız olurdu [P14-f].
+   ÖDÜL: rejim G · 48,0–56,0 · kapak 0,225 m/sn ile 1,80 m kayar, 186 px'lik yarık açılır, ⭐ IŞIK AŞAĞIDAN
+         YUKARI çıkar (filmin tek yukarı doğru hareketi), tek figür sırtı kameraya üç basamak iner.
+   IŞIK GÜNÜ: 06:00 → 18:00 + 8 sn = 12 sa 0 dk 8 sn ≤ 14 sa · 40°K · δ +8° · doğuş 05:33 · batış 18:27 ·
+         gölge süpürmesi 20,0 / 28,1 / 48,1 / 48,1 / 28,1 / 20,0 derece · güneş hiçbir karede kadrajda değil.
+   SİLUET: ⭐ ZEMİN (G7'den okundu) · beşinci ZEMİN · STONE DRAGON DİKEY'den sonra ardışık yayınlanabilir ·
+         ⛔ HIDDEN OASIS · SWALLOWED BUS · EMPTY LOCK · DEEP END ile yayınlanamaz.
+         ⚠️ Izgara DİKEY 7 · ZEMİN 5 · KÜTLE 4 · YATAY 1 — YATAY daha da aç kalıyor ve bu konu o yuvayı dolduramaz.
+   DOSYALAR: dikey_shorts/THE_VANISHING_ROOM/{_DIKEY_TIMELAPSE.md · _QA_SPEC.md · _KAPAK.md}
+   ⛔ KAPI: prompt_kontrol.py → FIX ×2, ikisi de BEYANLI (araç kutu seti ölçülmedi · 7 sahne süresi eşit → ⑥ METRONOM).
+         BLOCK 0 · MOTION FOCUS FIX 0 · promptlar 5875–5995 karakter · "crane" hiçbir promptta yok.
+   AÇIK: platform başlığı · ses üretim yolu · ⛔ ARAÇ KUTU SETİ ÖLÇÜLMEDİ (üretim açılamaz) · kapağın G7'deki
+         yolu (1,80 m önerildi) · ızgaranın YATAY açığı · üretim sırası (G6 → G7 → pilot S5 → G3-G4-G5 → S6 → kalanlar).
+   ⚠️ EN BÜYÜK RİSK: G6'da kadrajda ölçülecek YAPI YOKTUR — yalnız çim vardır ve 2 px eşiği tamamen üç saha
+         çapasına yaslanır [P14-b]. İkinci risk: modelin eğilimi EKLEMEKTİR, S5 ise sekiz saniyede sekiz şeyi
+         ÇIKARIR [P14-h]. Pilot bu yüzden S5'tir.
+   ⚠️ P13-h DEVAM EDİYOR: kapının §9 metin yasağı kapsam kontrolü bu korpusun NEGATIVE yazımında hiç koşmuyor;
+         bu film de ev standardıyla yazıldı. Sahip kararı bekliyor.
+
+THE STONE DRAGON — YİRMİ SEKİZİNCİ FİLM · İLK TAŞ OYMA · ⭐ DEPONUN İLK EKSİLTMELİ FİLMİ · ⭐ FİKİR SAHİPTEN · YAZILDI 23.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · İNŞAAT VE FİZİK GEÇTİ (② 9,2 · ⑫ 9,5 · ⑩ 9,25 · ③ 9,1 · ⑥ 9,4) · 11 nirengide ölçek sapması 0 px (%0,0) · Rejim G 00:46 canlı su doruk kesmesi · 12-14 saatlik güneş yayı tam tuttu
+   🚨 ŞANTİYE DİKİŞLERİ VE GÖRSEL DEVAMLILIK DÜŞTÜ: ⑤ 3,9 Ⓥ (10/12 dikiş kusurlu: moloz sıfırlanması, vinç buharlaşması 00:43) · ⑪ ENVANTER 5,5 Ⓥ (izinsiz testere aparatı 00:16, kompresör) · ⑧ DENETİM RED / REJECTED
+   🚨 ORTAK KRİTİK HATA: BİTİŞ KARTI (00:55.5–01:00.0) tamamen farklı bir AI ejderha modeli (çift dev kanatlı) göstermektedir (`END CARD: DIFFERENT`). Kurgudan derhal 4 sn kesilecek.
+   → RAPORLAR/THE_STONE_DRAGON.md · HAM_RAPORLAR/THE_STONE_DRAGON/
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: taş atölyesinin açık avlusunda tek ham ocak bloğu 1,25 × 1,05 × 2,35 m, 0,45 m taş banker üstünde iki meşe
+         takozda: köşeler düşer, kütle düz keski düzlemlerine iner → BAŞ çıkar (iki kısa boynuz, sağa kıvrılan boyun)
+         → karot matkabı boynun arkasından dikey delik açar, çıkan taş silindir banker'ın sağına dikilir → gözler,
+         oyuk ağız (tabanında delik), gövdeye yatık kanat, kuyruk, kaba hazne → pullar + kanat çizgileri + eğe +
+         hortumla yıkama (taşın gerçek rengi) → bronz boru ağza, pompa çukura, saha avlu kapısından çıkar →
+         rejim G: pompa çalışır, su ağızdan hazneye 296 px düşer, göğüs ıslanıp koyulaşır, işçi geri çekilir
+   ⭐ KAYNAK: sahibin yapıştırdığı 50 sn / 7 bölüm fikri ("THE STONE DRAGON") → 7 × 8,0'a katlandı (3 değişiklik:
+      süre 50→56,0 · tesisat YANDAN → TAŞIN İÇİNDEN (karot deliği, S2'ye alındı) · hazne ayrı tekne → AYNI BLOKTAN)
+      + fikrin kendi 6 sınırı sert kilit hâline getirildi (hacim · kısa boynuz · yatık kanat · yalnız aletin
+      çalıştığı yerde eksilme · sabit ön çapraz kamera · heykel finalde de TAŞ)
+   KAMERA: HOME tek istasyon · avlu döşemesinde · h +1,70 m · D_ön 4,20 m · D_banker 5,00 m · bearing 0° (KUZEY) ·
+      ⭐ TİLT 0 · ufuk %50 · ölçek 257 px/m · tiltli formül borcu YOK
+   ⭐ BEDEL: MOLOZ YIĞINI — G0'da yok, G5'te 1,70 × 0,68 m (367 × 174 px), banker'ın solunda; hiçbir karede küçülmez
+   ⭐ TANIK ①: HAM OCAK KESİMİ BANDI — bloğun dibinde hiç oyulmayan 0,25 m, %30,16–34,13 · 76 px · G0→G7 AYNI PİKSEL
+   ⭐ TANIK ②: KAROT — Ø0,09 × 1,40 m taş silindir (22 × 407 px · x %73,86), G3→G7 kadrajda
+   ÖDÜL: rejim G'de su (296 px düşüş) + iki renkli taş (ağzın üstü kuru/soluk, altı ıslak/koyu)
+   IŞIK GÜNÜ: 07:00 → 19:00 + 8 sn = 12 sa 0 dk 8 sn (6 × B + 1 × G) ≤ 14 sa ✅ · 40°K · δ +21° (erken yaz) ·
+      güneş 82°/24° → 295°/+2,6° · hiçbir karede kadrajda değil · takvim ~5 hafta, IŞIKTAN değil YIĞINDAN okunur
+   SİLUET: ⭐ DİKEY (aile G7'den okundu) · DEEP END ZEMİN → STONE DRAGON DİKEY ardışık yayınlanabilir ·
+      ⛔ LONG SHADOW · EMPTY RIDGE · LAST CIRCLE · DARK ROCK · QUIET FIELD · BROKEN CLIMB ile ardışık YAYINLANAMAZ
+   DOSYALAR: dikey_shorts/THE_STONE_DRAGON/ → plan (922 satır) · QA_SPEC (203) · KAPAK (110)
+   ⛔ KAPI: prompt_kontrol.py → FIX ×2 (kutu seti ÖLÇÜLMEDİ · 7 sahnenin süresi eşit = ⑥ METRONOM, ikisi de
+      BEYANLI) · BLOCK 0 · MOTION FOCUS FIX 0 · görsel promptlar 5628–5942 karakter · "crane" hiçbir promptta yok
+   AÇIK: platform başlığı ("A Rough Stone Becomes a Dragon Fountain | AI Timelapse") · ses üretim yolu (SFX
+      üreteci mi kütüphane mi) · ARAÇ KUTU SETİ ölçülmedi → ⛔ üretim açılamaz · üretim sırası (G7 → pilot S1 →
+      G2-G3-G4 üçlüsü → S6 → kalanlar)
+   ⚠️ EN BÜYÜK RİSK: serbest geometri — ejderha sekiz bağımsız karede farklı çizilebilir. Azaltma: blok zarfı
+      px kilitli (394 × 716) · ham kesim bandı çapa · beş maddelik ejderha cümlesi G2→G7 birebir · ⭐ PİLOT S1
+      (geometri sahnesi değil KİMLİK sahnesi — deponun ilk kez pilotu en zor geometriden başka bir yere koyması)
+   ⚠️ P13-h: kapının §9 metin yasağı 8-yüzey kontrolü bu depodaki negatif çekirdek yazımıyla FİİLEN KOŞMUYOR
+      (kontrol "…annotated by anyone" arıyor, çekirdek "…included." ile bitiyor) — 27 filmin hepsini ilgilendirir,
+      sahip kararı bekliyor
+
+THE DEEP END — YİRMİ YEDİNCİ FİLM · İLK HAVUZ → GİZLİ AÇIK HAVA SİNEMASI · ⭐ FİKİR SAHİPTEN · İLK KADEMELİ GÜVERTE · YAZILDI 23.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · YEDİ TANE 10/10 TAM PUAN (② 10,0 · ③ 10,0 · ⑤ 10,0 · ⑧ 10,0 · ⑩ 10,0 · ⑪ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 9,6 · ② 10,0 · ⑤ 10,0) · FINAL BEAT PASS (10/10) · Rejim G 00:48 doruk vuruşu · ORTALAMA: 9,83/10
+   ⚠️ 00:56–01:00 bitiş kartı kurguda kesilecek · 00:44.5–00:48.0 teslimat geçişi 3.5 sn boşluk (⑦ İŞ 9,3)
+   → RAPORLAR/THE_DEEP_END.md · HAM_RAPORLAR/THE_DEEP_END/
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: duvarlı bahçede 10,0 × 4,0 m terk edilmiş havuz (sığ uç −1,0 · derin uç −2,0): pompa suyu çeker + tramplen
+         sökülür → yaprak + silt çıkar, basınçlı yıkama başlar → kabuk onarılır (çatlak · yalıtım · paslanmaz ızgara) →
+         4 kademeli larch güverte kameradan uzağa kapanır → 4 bank + krem minder + SÖNÜK pirinç armatürler →
+         beyaz perde uzak duvara + projektör, saha boşalır → rejim G: armatürler sırayla yanar, huzme havuzu geçer,
+         perdede deniz, tek figür koridordan inip oturur
+   ⭐ KAYNAK: sahibin yapıştırdığı 50 sn / 8 bölüm fikri ("THE HIDDEN CINEMA") → 7 × 8,0'a katlandı (8 değişiklik:
+      süre · bedel eklendi (tramplen) · düz taban → 4 kademe · iki figür → tek figür · ışık rejim G'ye · gök kaldırıldı
+      (ZEMİN) · vinç yok (rampa) · derinlik rakamı çıkarıldı (metin yasağı))
+   ⭐ KAMERA: havuz evi terası h +5,0 · D_kenar 2,5 · D_eksen 7,5 · tilt −38° · ufuk %102,1 (KADRAJ DIŞI) ·
+      perde 208 px (KESİR) · ZEMİN ailesi (dördüncü)
+   BEDEL: tramplen (G0'da derin ucun üstünde, perde tam o duvara gelir) · TANIK: tramplen çimende (G1→G7, 215 px) +
+      kesintisiz turkuaz fayans bandı + krom korkuluk · ÖDÜL: S6'da ışık, huzme ve perdedeki deniz
+   Işık tek gün 08:30 → 20:30 + 8 sn (6×B + G) · güneş 100°/11° → 280°/−11,4° · takvim yok, mevsim taşıyıcısı
+      erken sonbahar (çınar + düşen yapraklar)
+   plan ✅ (BEŞ SORU + her I2V'de MOTION FOCUS) · QA_SPEC ✅ (§4 YÜK YOLU · §6 SAYIM · §7 REJİM G) · KAPAK ✅ (YALNIZ G7 ·
+   THE DEEP END · bantsız, karaçam bandında) · günlük ⛔ AÇILMADI
+   ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı) · BLOCK 0 · MOTION FOCUS FIX 0
+   ⚠️ AÇIK: kapak başlığı (sahip) · SES üretim yolu (sahip) · yüzdeler TÜRETİLMİŞ · ⛔ THE HIDDEN OASIS ile ARDIŞIK
+      YAYINLANAMAZ (aynı aile VE aynı konu) · gece finali riski (bahçe aydınlanırsa "gizli oda" kaybolur) ·
+      BROKEN CLIMB ④ dersi: teslim 56,0 sn, kart BASILMAZ
+   → dikey_shorts/THE_DEEP_END/
+
+THE BLUE DOOR — YİRMİ ALTINCI FİLM · İLK CEPHE RESTORASYONU (DÜKKÂN → KAFE) · ⭐ SENARYO SAHİPTEN · İLK YAPAY IŞIKLI FİNAL · YAZILDI 22.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · DÖRT TANE 10/10 TAM PUAN (③ 10,0 · ⑦ 10,0 · ⑨ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 8,6 · ② 9,7 · ⑤ 9,3) · FINAL BEAT PASS (10/10) · Rejim G 00:48 doruk vuruşu
+   ⚠️ 00:56-01:00 bitiş kartı ve fon müziği sızıntısı kurguda kesilecek · ⑩ SEBEP 7,0 (00:14 kasanın askıda kalması) · ⑪ ENVANTER 9,4 (00:17 sepetli araç bomu)
+   → RAPORLAR/THE_BLUE_DOOR.md · HAM_RAPORLAR/THE_BLUE_DOOR/
+
+THE TIDE GATE — YİRMİ BEŞİNCİ FİLM · İLK FIRTINA KABARMASI SEDDİ · ⭐ DİKEY HAVUZUN İLK YATAY FİLMİ · ÜÇÜNCÜ REJİM G · YAZILDI 22.09.2026 · ÜRETİLMEDİ ⛔
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · zincirli · 8 kare + 7 I2V
+   YAPI: Atlantik haliç limanının 60 m'lik ağzına 3 gri beton kule (+22) + 2 kavisli çelik segment kapak (24 m):
+         taşkın çekilir, jack-up gelir → 3 palplanş batardo kurutulur → kuleler yükselir → kapak 1 (sheerleg, dışarıdan) →
+         kapak 2 + silindirler, kapaklar KALKAR → fırtına: kapaklar İNER → rejim G: dalga kapalı kapaklara çarpar
+   ⭐ KAYNAK: sahibin taslağı + ajanın dört fizik düzeltmesi (fiyort → makrogelgitli haliç · gelgit "dalgası" → kabarma ·
+      final A → B + G · "ayna" iç su → rüzgâr pürüzü) → sahip "başla"
+   ⭐ KAMERA: kilise avlusu h +25 · D_eksen 160 · tilt −8° · ufuk %59,4 — kule kabinleri (+28) ufku keser (bedel)
+   BEDEL: açık ağız + içeri giren dalga · TANIK: evlerde kahverengi taşkın çizgisi (G1→G7 aynı) · ÖDÜL: S6 patlama, içerisi düz
+   Işık tek gün 06:15 → 18:15 + 8 sn (6×B + G) · takvim bir yıl (burun bitkileri) · su kotu her G karesinde kilitli
+   plan ✅ (BEŞ SORU + her I2V'de MOTION FOCUS) · QA_SPEC ✅ (§4 YÜK YOLU · §6 SAYIM · §7 REJİM G) · KAPAK ✅ (YALNIZ G7 ·
+   THE TIDE / GATE · alternatif THE LAST WAVE) · günlük ⛔ AÇILMADI
+   ⛔ KAPI: FIX ×2 (kutu seti ölçülmedi · süreler eşit — ikisi de beyanlı) · BLOCK 0 · MOTION FOCUS FIX 0
+   ⚠️ AÇIK: kapak başlığı (sahip) · SES üretim yolu (sahip) · yüzdeler TÜRETİLMİŞ · kot farkı 27 px (kanıt doku) ·
+      BROKEN CLIMB ④ dersi: teslim 56,0 sn, kart BASILMAZ
+   → dikey_shorts/THE_TIDE_GATE/
+
+THE BROKEN CLIMB — YİRMİ DÖRDÜNCÜ FİLM · İLK FÜNİKÜLER ONARIMI · ⭐ İKİNCİ MÜZİKSİZ FİLM · ÜRETİLDİ ✅ · ⭐ ON İKİ MERCEK TAMAMLANDI (12/12) (① 4,1 Ⓥ · ② 10,0 · ③ 9,9 Ⓥ · ④ 5,1 Ⓥ · ⑤ 10,0 Ⓥ · ⑥ 9,9 · ⑦ 10,0 Ⓥ · ⑧ 10,0 · ⑨ 10,0 Ⓥ · ⑩ 10,0 · ⑪ 10,0 Ⓥ · ⑫ 10,0) · ⭐ SEKİZ TANE 10/10 TAM PUAN
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · zincirli · 8 kare + 7 I2V
+   YAPI: yamaç FÜNİKÜLERİ onarımı (120 m hat, 35° eğim, 40 m yarık): 12 mikrokazık + 8 prekast panel istinat (5 × 9 m) + 4 ray paneli + tek sarı yeni vagon + halat
+   ⭐ SEKİZ TANE 10/10 TAM PUAN: ② İNŞA 10,0 · ⑤ DEVAMLILIK 10,0 (0/6 dikiş) · ⑦ İŞ 10,0 (boşluk %0, büyüme: NONE) · ⑧ YÖNTEM 10,0 (4/4 MADE) · ⑨ FAALİYET 10,0 · ⑩ SEBEP 10,0 · ⑪ ENVANTER 10,0 Ⓥ · ⑫ KATILIK 10,0
+   ⭐ ZAMAN VE GEÇİŞ ZİRVEDE: ③ ZAMAN 9,9/10 (okunan süre 07:30–17:50 tam tuttu) · ⑥ GEÇİŞ 9,9/10 (TIME · RHYTHM, 00:20.3 tırmanış vuruşu)
+   ⛔ DÜŞEN: ① KARE 4,1/10 Ⓥ (ALTI AYRI ÇEKİM · 4 istasyon grubu · Klip 4 ve 6 push-in/kayma · kilise mimari mutasyonu 0:11 · vagon metinleri)
+   ⚠️ KURGU VE TESLİM İHLALİ: ④ TESLİM 5,1/10 Ⓥ (ENDS, Final Beat Fail) · 56,0 sn plan yerine 32,0 sn kesilmiş · şartname dışı "IT CLIMBED AGAIN" kapanış kartı
+   plan ✅ · QA_SPEC ✅ · KAPAK ✅ · RAPORLAR/THE_BROKEN_CLIMB.md ✅
+   → dikey_shorts/THE_BROKEN_CLIMB/
+
 THE QUIET FIELD — YİRMİ ÜÇÜNCÜ FİLM · İLK RADYO TELESKOPU (SIFIRDAN) · ⭐ İLK GECE-GÜNDÜZ ÇEMBERİ · ⭐ İLK MÜZİKSİZ FİLM · ⭐ ON İKİ MERCEK TAMAMLANDI (12/12) (① 9,8 · ② 10,0 · ③ 10,0 · ④ 8,4 · ⑤ 10,0 · ⑥ 10,0 · ⑦ 9,0 · ⑧ 10,0 · ⑨ 10,0 · ⑩ 9,5 · ⑪ 10,0 · ⑫ 10,0) · DEPONUN EN İYİ FİLMİ ✅
    dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · zincirli · 8 kare + 7 I2V
    YAPI: Lovell tipi TEK radyo teleskopu (ray halkası Ø 96 · 2 kafes kule 50 m · 80 m beşik · Ø 76 m çanak · zenitte 90 m):

@@ -20,6 +20,11 @@
 | **BACK TO WATER** | D | **9,3**/10 | ✅ SAME · BUILT · ⛔ kart DIFFERENT · vinçli kamyon ve sac montajı tam · suyla kalkış +1.8m · pervane köpüğü fiziksel uyumlu | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | D | **10,0**/10 | ✅ SAME · BUILT · deponun ilk tam puanlı inşa koşusu · 7 milestonedaki ölçek sapması %0,0 · hendekten 50° devrilmeye kesintisiz montaj | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | D | **10,0**/10 | ✅ SAME · BUILT · 7 nirengide ölçek sapması %0,0 · dewatering'den tekne kaldırmaya kusursuz montaj ve hidrolik fizik | 0 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | D | **10,0**/10 | ✅ SAME · BUILT · 6 nirengide ölçek sapması %0,0 · 8 panel istinat ve 4 ray paneli kusursuz lineer büyüme · ⛔ şartname dışı "IT CLIMBED AGAIN" kapanış kartı | 3 | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | D | **9,7**/10 | ✅ SAME · BUILT · 6 nirengide ölçek sapması %0,0 · sarmaşık sökümünden mavi kapı montajına eksiksiz sıra · 0:19.0 gri perde pop-in (8/10) · ⛔ kart DIFFERENT | 2 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | D | **10,0**/10 | ✅ SAME · BUILT · kart SAME · 6 nirengide ölçek sapması %0,0 · su tahliyesinden amfi ve perde montajına sıfır hata ("No defects found") | 0 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE STONE DRAGON** | D | **9,2**/10 | ✅ SAME · BUILT · 11 nirengide ölçek sapması %0,0 · tek bloktan eksiltme kusursuz · ⛔ kart DIFFERENT | 4 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
+| **THE VANISHING ROOM** | D | **10,0**/10 | ✅ SAME · BUILT · kart SAME · 7 nirengide ölçek sapması %0,0 · kazıdan kayar çim kapağa sıfır hata ("No defects found") | 0 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17] — İKİNCİ KEZ:** QA_SPEC bu filmde ÜRETİMDEN ÖNCE yazılmıştı ve merceğe yine verilmedi. Skoru tabloya yazılmaz. Ölçülen ham ortalama 1,5. ⛔ DIFFERENT · APPEARING hükmü **dördüncü kez** geldi.

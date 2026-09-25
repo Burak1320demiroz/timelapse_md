@@ -19,6 +19,11 @@
 | **BACK TO WATER** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,9) | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 11 (0:20.5) su dolumu · kilitler 1-13 tam · plan ve ses verilmedi | 1 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 10,0) | ✅ TIME · ⭐ RHYTHM · 0 kusur · THE CUT THAT CARRIES: Cut 2 (0:16.0) gündüzden karlı geceye geçiş · plan verilmedi | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,5) | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 4 (00:32.0) yeni meşe kapı ve müzik girişi · plan verilmedi | 2 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | D | **9,9**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: 00:20.3 (S5→S6 rejim A tırmanışı) · 7 sert kesme · nirengi hayatta kalma 10/10 · diegetik ses yatağı | 7 | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | D | **9,2**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: 00:48.0 (Rejim B→G doruk geçişi) · 7 sert kesme · nirengi 10/10 · ⛔ kart ihlali | 5 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | D | **9,4**/10 | ✅ TIME · ⚠️ METRONOME · THE CUT THAT CARRIES: Cut 6 (00:48.0 Rejim B→G doruk geçişi) · 7 sert kesme · nirengi 10/10 · müzik yok (diegetik ses) | 5 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE STONE DRAGON** | D | **9,4**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: 00:46.0 (Rejim B→G canlı su doruğu) · 7 sert kesme · nirengi 10/10 · diegetik taş/su sesi | 4 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
+| **THE VANISHING ROOM** | D | **9,6**/10 Ⓥ | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 5 (00:48.0 Rejim B→G doruk geçişi) · 6 sert kesme · nirengi 10/10 · müzik yok | 2 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 
 ⛔ **THE NARROW LOT belgesiz koşuldu [DERS 17]:** plan ve SES verilmedi. MUSIC ALIGNMENT ve END-CARD HAND-OVER hiç ölçülemedi. Ölçülen ham ortalama 8,2 — deponun en yüksek mercek skoru, ama üç kategorisi hiç sorulmadı.

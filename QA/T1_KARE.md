@@ -20,6 +20,11 @@
 | **BACK TO WATER** | V (33 kare) | **5,8**/10 Ⓥ | ✅ TIME-LAPSE · ⛔ kart DIFFERENT · CAMERA LOCK 7 · kule açısal kayma 00:08 · işçi statik poz 00:01 · dijital boya dokusu 00:14 | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | V (58 kare) | **9,8**/10 Ⓥ | ✅ TIME-LAPSE · Safe Area 8/10 (0:48–0:56 üst %40 başlık bindirmesi) · kamera, nirengi ve zemin 10/10 kilitli | 1 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | V (60 kare) | **7,5**/10 Ⓥ | ✅ TIME-LAPSE · Safe Area 4 (0:56 başlık bindirmesi) · Text 2 ("PAB" vinç/tekne yazıları) · People 6 (donuk işçiler) · kamera/istasyon/nirengi 10/10 | 7 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | V (33 kare) | **4,1**/10 Ⓥ | ⛔ ALTI AYRI ÇEKİM (SIX SEPARATE SHOTS) · CAMERA LOCK 5 · ANCHOR 2 · STATION 3 · 4 ayrı istasyon grubu · kilise mimari başkalaşım 0:11 · bitiş kartı "IT CLIMBED AGAIN" | 14 | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | V | **8,6**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor 10/10 · ⛔ kart DIFFERENT · Text 3 (Bulk skip, plakalar) · People/Vehicles 3 | 5 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | V (21 kare) | **9,6**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor 10/10 · kart SAME · Safe Area 9 (y %17-22 alt bant) · People/Vehicles 7 (S6 net figür) | 3 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE STONE DRAGON** | V | **6,0**/10 Ⓥ | ⛔ ALTI AYRI ÇEKİM (SIX SEPARATE SHOTS) · kamera 7 · ankor 4 (servi ağacı form kayması) · vinç 3 · ⛔ kart DIFFERENT | 12 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
+| **THE VANISHING ROOM** | V | **8,9**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor 10/10 · kart SAME · Safe Area 8 (alt bant kumanda) · Text 7 · %0,0 yayılma | 4 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 
 ⚠️ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi (`kare_al.sh` yine koşulmadı — üçüncü film). ⛔ CAMERA LOCK **0/10**: beş klibin BEŞİNDE de yavaş push-in. Ölçülebilir çapa cümlesi beş I2V'nin beşinde de YAZILIYDI ve tutmadı — NARROW LOT'ta aynı cümle 10/10 almıştı [DERS 23].

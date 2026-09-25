@@ -20,6 +20,11 @@
 | **BACK TO WATER** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 7,1) | ⚠️ ENDS · COST/FINAL BEAT PASS (9/10) · ⭐ ONE THING BULUNDU · LOOP 3 · kapak ve plan verilmedi | 8 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 8,4) | ✅ ENDS · COST/FINAL BEAT PASS (9/10) · ⭐ ONE THING BULUNDU · plan ve kapak verilmedi | 1 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 6,8) | ✅ ENDS · COST/FINAL BEAT PASS (7/10 Ⓥ) · ⭐ ONE THING BULUNDU · LOOP 5 · plan ve kapak verilmedi | 4 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | ⛔ V | *kapaksız koşuldu — TEKRARLANACAK* (ham 5,1 Ⓥ) | ✅ ENDS · FINAL BEAT FAIL (Ⓥ 3/10) · ⭐ ONE THING BULUNDU · süre 32s (plan 56s) · şartname dışı "IT CLIMBED AGAIN" kartı | 5 | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | D | **9,2**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · 4 sn bitiş kartı ve fon müziği sızıntısı | 4 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | D | **9,9**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · Loop 9/10, kurgu sonuna 4 sn statik başlık kartı eklenmiş | 2 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE STONE DRAGON** | D | **5,7**/10 Ⓥ | ⚠️ ENDS · FINAL BEAT FAIL (4/10 Ⓥ) · ONE THING BULUNDU · 00:54 su akışı tam · ⛔ kart DIFFERENT teslim vaadini kırdı | 6 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
+| **THE VANISHING ROOM** | D | **9,5**/10 Ⓥ | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · 00:48–00:55 gizli kapak açılışı tam · kart SAME | 1 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17]:** plan da kapak da verilmedi. FINAL BEAT beyan edilmiş vuruşa karşı denetlenmedi — mod V'de kategori "bir sonu var mı"ya dönüştü ve PASS verdi. ⛔ NONE FOUND **dördüncü kez** — bu filmde BEDEL plana İKİ kez yazılıydı [DERS 26]. Ham ortalama 4,0.

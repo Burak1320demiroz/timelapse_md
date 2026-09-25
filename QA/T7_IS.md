@@ -17,6 +17,10 @@
 | **BACK TO WATER** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda ilk 10,0 tam iş skoru | 0:00,0 (%0) | NONE | 0 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | ⚠️ V karesiz | **9,0**/10 Ⓥ | ✅ WORKING · çalışma cephesi 10/10 · sebep-sonuç 10/10 | 0:46.0–0:48.0 · klip 6 · 2.0s · %25 | NONE | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | ⚠️ V karesiz | **9,9**/10 Ⓥ | ✅ WORKING · sebep-sonuç 10/10 · malzeme akışı 10/10 | 0:00.0 (%0) | NONE | 1 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda ikinci 10,0 tam iş skoru · 8/8 kategori 10/10 | 0:00.0 (%0) | NONE | 0 | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda üçüncü 10,0 tam iş skoru · 8/8 kategori 10/10 | 0:00.0 (%0) | NONE | 0 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | ⚠️ V karesiz | **9,3**/10 Ⓥ | ✅ WORKING · çalışma cephesi 10/10 · malzeme akışı 10/10 | 00:44.5–00:48.0 · klip 6 · 3.5 sn · %43.8 (teslimat geçişi) | NONE | 3 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE VANISHING ROOM** | ⚠️ V karesiz | **8,4**/10 Ⓥ | ✅ WORKING · çalışma cephesi 9/10 · sebep-sonuç 9/10 | 00:46.0–00:48.0 · klip 13 · 2.0 sn · %50 (teslimat temizliği) | NONE | 7 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 **VERDICT değerleri:** WORKING / PARKED
 

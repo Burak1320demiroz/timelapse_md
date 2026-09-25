@@ -2820,6 +2820,323 @@ P8-i  ⚠️ KALABALIK KASITLI (S1 · S2 kapı INFO 6–7 hareket eden): sahip "
 
 ---
 
+## 🎬 P9 — PLAN KARARI · THE BROKEN CLIMB · 22.09.2026 · ⭐ İLK FÜNİKÜLER · İLK ÇAPRAZ HAT
+
+> Kaynak: ajan önerisi (ana aday + iki yedek, sohbet) + sahip onayı ("hazırla")
+> (`dikey_shorts/THE_BROKEN_CLIMB/`). Kaynak sınıfı **tasarım varsayımı**. ⛔ Hiçbiri ölçülmedi.
+
+```
+P9-a  ⭐ IŞIK PENCERESİ IZGARAYI SEÇTİRDİ — P8-a'nın GÜNDÜZ hâli
+      38°K ekinoksta el ≥ 6° penceresi 11 saattir; 6×B + A = 12 sa 10 dk sığmaz. 5×B + 2×A = 10 sa 20 dk
+      (EMPTY LOCK kalıbı) seçildi; son iki sahne rejim A. ⇒ Tek-gün filminde rejim dağılımı enlem + tarihten
+      SONRA yazılır, önce değil.
+P9-b  ⭐ ÖDÜL YAPININ KENDİ İŞİ, ÜÇÜNCÜ KEZ MAKİNESİZ — ve bu kez ÖLÇEK DEĞİL HAREKET
+      Üst istasyondaki vagon 28 × 73 px'tir (küçük); kanıt 887 px'lik köşegende 760 px'lik YER DEĞİŞİMİDİR.
+      P3-b'nin tersi değil tamamlayıcısı: bedeli taşıyan piksel duvar (259 × 104) + yelpaze; ödülü taşıyan
+      piksel hareketin uzunluğu. Ölçülecek: ④ TESLİM ve ⑫ KATILIK 26 px'lik gövdeyi nasıl okuyor.
+P9-c  ⭐ REJİM A'YA YAVAŞ SEFER: gerçek füniküler 120 m'yi 1–2 dk'da çıkar (75×'te 1–1,6 sn). "Onarım sonrası
+      ilk sefer 0,2 m/s" → 10 dk → 8 sn'nin tamamı tırmanış. Rejim, olayın gerçek süresine değil GÖSTERİLMESİ
+      gereken süreye göre seçilir; gerekçe (yavaş ilk sefer) fizik dışı değildir.
+P9-d  ⭐ GÖRÜNMEZ TAŞIYICI (halat, 40 mm @ d 100 = 0,5 px) HAREKETLE KANITLANIR: "gerer" sahnesi düştü, "bağlar"
+      geldi — vagon BİR BOY kımıldar ve durur (S5 sonu). Prompt halatı yazar ama kanıt vagondur.
+P9-e  ⭐ 35° YAMAÇTA HER MAKİNE VİNÇLE GELİR VE VİNÇLE GİDER — DERS 48'in eğim hâli: mini ekskavatör ve delgi
+      makinesi sapanda yamaca çıkar, sapanda iner; lastikli araçlar yalnız meydanda. ⑦/⑧ "yamaçta beliren makine"
+      riski böyle kapatıldı. Kanca G0–G5 hep yüklü (mini ekskavatör · ray · panel · ray paneli · spreader).
+P9-f  ⭐ İKİ BEDEL, İKİSİ DE KADRAJDA KALIR (P7-d'nin ikinci uygulaması): incir tomrukları (G1→) ve mavi vagon
+      takozda (G5→) — G7'de sarı tepede, mavi aşağıda. Kapak kancasının ikinci ayağı.
+P9-g  ⚠️ ON DÖRT UZUN RİJİT KALDIRMA (panel ×8 dik · ray paneli ×4 yatay · vagon ×2) — DERS 57'nin en kalabalık
+      hâli; pilot üçlü (c) S4 (vagon, spreader, düşey). Dokuzuncu panel / ikinci sarı vagon → kapsam daralır.
+P9-h  ⚠️ ÇAPRAZ HAT: tilt 0 hiza ailesinde yapı düşey değil köşegen; her kilit kendi d'siyle (70 → 155) hesaplandı,
+      tek D_eksen yok (112,5 orta nokta). ② GEOMETRİ riski: model eğimi düşürür ya da hattı kıvırır — 887 px
+      köşegen sekiz karede ±3 px ölçülür.
+P9-i  ⚠️ KALABALIK KASITLI (S0–S4 kapı INFO 5–7 hareket eden): kompaund kademeli boşalır (damper → lowbed → flatbed
+      → vinç), sıra fizikle bağlı; C1-d okunurluk riski kabul, ölçülecek.
+```
+
+---
+
+## 🎬 P10 — PLAN KARARI · THE TIDE GATE · 22.09.2026 · ⭐ İLK FIRTINA SEDDİ · DİKEY HAVUZUN İLK YATAY FİLMİ
+
+> Kaynak: proje sahibinin taslağı (yapıştırılan "THE TIDE GATE") + ajanın dört fizik düzeltmesi (sohbet) + sahip onayı
+> ("başla") (`dikey_shorts/THE_TIDE_GATE/`). Kaynak sınıfı **tasarım varsayımı**. ⛔ Hiçbiri ölçülmedi.
+
+```
+P10-a ⭐ TASLAK FİZİĞİ PLANDAN ÖNCE DÜZELTİLİR — sahip taslağında dört fizik açığı vardı: fiyortta 8 m gelgit (gerçekte
+      1–2 m) · gelgit "dalgası" (gelgit dalga değildir; tehdit fırtına KABARMASIDIR) · finalde rejim A (75×'te dalga
+      sisli düzlük, köpük okunmaz) · fırtınada "ayna gibi" iç su. Dördü sohbette gerekçesiyle önerildi, onaydan sonra
+      yazıldı. ⇒ Sahip konsepti de konsept kapısından geçer; kapı "fikir kimin" diye bakmaz.
+P10-b ⭐ REJİM G'NİN İKİNCİ UYGULAMASI — KIRILAN DALGA: P5-a "yapının çalışması gerçek hızda okunur" dedi (çark). Burada
+      çalışan şey yapı değil ona KARŞI KOYAN deniz; ödül yine 1×'tedir (8 sn = bir kabarmanın gelişi + tek patlama).
+      A (75×) üçüncü rejim olurdu → yasak [SANTIYE_HAREKETI §1]; kapakların inişi B'ye (S5) alındı (gerçekte 1–2 sa).
+P10-c ⭐ KOT FARKI PİKSELDE YOK, KANIT DOKUDA: dış +5,5 · iç +2,0 → set hattında 27 px. Duygu taşıyıcı piksel kot değil
+      DOKU karşıtlığıdır (beyaz kabaran dış · düz koyu iç) [P3-b'nin deniz hâli]. QA kot farkını kanıt olarak ARAMAZ.
+P10-d ⭐ AYNI HAREKET İKİ YÖNDE, İKİ SAHNEDE: kapaklar S4'te YUKARI (test, ağız açılır), S5'te AŞAĞI (fırtına). Montaj
+      sırası bunu doğurdu (kapak kapalı oturur, silindir bağlanınca kalkar); ritim yükünü eşit sürede bu taşır [C1-e].
+P10-e ⭐ SU KOTU KARE KİLİDİDİR: makrogelgitte her G karesi farklı kotta (+6,0 · −3,0 · 0 · +3,0 · 0 · +2,0 · +5,5/+2,0);
+      kot promptta ve KARE TABLOSU'nda yazılı. Kot değişimi ⑤ DEVAMLILIK hatası sayılmaz; taşkın çizgisi, fener,
+      evler, burunlar sayılır. G0 → G1 9 m iniş (kabarma + ebb) beyanlı sıkıştırmadır.
+P10-f ⭐ TAKVİM BİR YIL, IŞIK TEK GÜN — 12 saatlik 6×B penceresi 48°K'de ancak yaz geometrisiyle (δ +15°) el ≥ 9° tutar;
+      sonbahar fırtınası bu ışıkta çekilir. Tutarsızlık BEYANLIDIR, fırtına bulutu finalde gölge açısını örter
+      [P1-c · P9-a: pencere ızgarayı seçtirir; burada rejim sayısı da seçtirdi].
+P10-g ⭐ TANIK BEDEL SU İZİDİR: evlerdeki taşkın çizgisi S0'da doğar, G1–G7 aynı kalır (P7-d'nin üçüncü uygulaması).
+      Tanık yıkıntı değil İZ olabilir — G7'de "su bir daha buraya gelmedi" okunur.
+P10-h ⚠️ SAYIM KORPUSU: "storm surge barrier" = Thames (10 ayak, gümüş kabuk). Pozitif üst sınır ("no more than three
+      towers and two gates") + biçim ("plain grey concrete … flat-topped") yazıldı [DERS 55]. Ölçülecek.
+P10-i ⚠️ KAMERA YÜKSEKLİĞİ BEDELİ SEÇER: h +45'te set ufkun altında kalıyordu (ufuk kesilmez, bedel yok); h +25'te kule
+      kabinleri (+28) ufku keser. ⇒ YATAY ailede kamera yüksekliği "yapı ufku kesiyor mu" sorusundan hesaplanır.
+P10-j ⚠️ SHEERLEG DIŞARIDA — kapalı limanın tek çıkışı yapının kendisidir; A-çerçeve açık kapağın altından geçemez →
+      kaldırma aracı setin deniz yanında çalışır, S4 içinde denize çekilir (DERS 8 · P7-e: G5'ten sonra "crane" yok).
+```
+
+---
+
+## 🎬 P11 — PLAN KARARI · THE BLUE DOOR · 22.09.2026 · ⭐ İLK CEPHE RESTORASYONU · İLK YAPAY IŞIKLI FİNAL
+
+> Kaynak: proje sahibinin yapıştırdığı senaryo (50 sn · 9 bölüm · "terk edilmiş taş dükkân → sokak kafesi") + ajanın
+> 7 × 8,0 uyarlaması (sohbet) + sahip onayı ("hazırla") (`dikey_shorts/THE_BLUE_DOOR/`). Kaynak sınıfı **tasarım
+> varsayımı**. ⛔ Hiçbiri ölçülmedi.
+
+```
+P11-a ⭐ DIŞ SENARYO KATLANIR, KIRPILMAZ — 9 bölümlük 50 sn akış 7 × 8,0'a oturdu: bitişik bölümler tek fiilde birleşti
+      (çöp + sarmaşık → SÖKER · söküm + ışık → YANAR · kapı + fincan → AÇAR). Senaryonun "5–8 sn'de bir görünür sonuç"
+      ilkesi deponun "her sahne tek kanıt nesnesi" kuralıyla aynıdır.
+P11-b ⭐ SENARYO KURALLA ÇELİŞİNCE KURAL KAZANIR, GEREKÇE YAZILIR: öncesi/sonrası (48–50 sn) → döngü; müzik → diegetik
+      yatak; 50 sn → 56 sn; iki eylemli final → tek figür. Dört değişiklik sohbette önerildi, onaydan sonra yazıldı.
+P11-c ⭐ BEDELSİZ SENARYOYA BEDEL EKLENİR: dönüşüm senaryoları (temizlik, restorasyon) çoğu zaman yalnız KAZANÇ anlatır.
+      Kanal tezi kaybı ister → sarmaşık (yaşayan tek şey) + saksıdaki çelik (tanık, P10-g kalıbı).
+P11-d ⭐ FİNAL IŞIĞI YAPININ KENDİSİ: güneş −1,4°; "aydınlık final" [DERS 45] fener + vitrin + kapıdan dökülen yelpazeyle
+      karşılanır. Işık kaynağı yanmadan ÖNCE kadrajda sönük durur (fenerler S3'te takılır, G4–G5 sönük) — ışık da bir
+      MALZEMEDİR, belirmez [DERS 48'in ışık hâli].
+P11-e ⭐ REJİM G'NİN DÖRDÜNCÜ UYGULAMASI — KAPI: kapının açılması ve buhar sıkıştırılamaz [P5-a]. Tek figür, sırtı
+      dönük, kapıya YÜRÜR ve onu AÇAR; kapı içe açılır ki figür kameraya dönmeden eşiğe girsin [P5-b'nin geometrisi].
+P11-f ⚠️ RENK DEĞİŞİRKEN GEOMETRİ SABİT — S1'de bütün cephe kara → bal döner: model cepheyi YENİDEN ÇİZEBİLİR (taş örgüsü,
+      boşluk yeri, komşu ev). Pilot (c) bu yüzden kaldırma değil RENK sahnesi (S1). Ölçülecek.
+P11-g ⚠️ GÜNEŞ YÖNÜ CEPHE YÖNÜNÜ SEÇTİ: öneride "batıya bakan cephe" vardı; kamera doğuya bakınca sabah güneşi (88°/21°)
+      çatının üstünde kadraja girer [DERS 39]. Cephe güneye çevrildi (kamera kuzey). ⇒ Yön öneride değil, güneş
+      hesabından SONRA kesinleşir (P9-a'nın yön hâli).
+```
+
+---
+
+## 🎬 P12 — PLAN KARARI · THE DEEP END · 23.09.2026 · ⭐ İLK HAVUZ→SİNEMA · İLK KADEMELİ GÜVERTE
+
+> Kaynak: proje sahibinin yapıştırdığı fikir (50 sn · 8 bölüm · "THE HIDDEN CINEMA") + ajanın 7 × 8,0 uyarlaması
+> (sohbet) + sahip onayı ("yapalım o zmna") (`dikey_shorts/THE_DEEP_END/`). Kaynak sınıfı **tasarım varsayımı**.
+> ⛔ Hiçbiri ölçülmedi.
+
+```
+P12-a ⭐ AYNI KONUNUN İKİNCİ FİLMİ BEDELİYLE AYRILIR: depoda zaten bir havuz dönüşümü var (THE HIDDEN OASIS, 12. sıra)
+      ve onun bedeli "havuzun havuz olmaması". İkinci havuz filmi aynı bedeli alırsa birincinin kopyası olur.
+      Bedel TRAMPLENE taşındı — sökülen, geri dönmeyen, tanığı kadrajda kalan TEK nesne. ⇒ Konu tekrar edebilir,
+      BEDEL edemez. (P11-c'nin devamı: bedel yalnız EKLENMEZ, AYIRT EDİCİ de seçilir.)
+P12-b ⭐ CEVABI BAŞLIK VERMEZ: fikrin adı "THE HIDDEN CINEMA" idi ve filmin 48. saniyedeki sürprizini daha tıklanmadan
+      harcıyordu. Ad THE DEEP END oldu — hem havuzun derin ucu hem deyim; soru üretir, cevap vermez [P6'nın ad hâli].
+P12-c ⭐ YAPININ MEVCUT GEOMETRİSİ BEDAVA TASARIMDIR: fikir tabanı düzleyip oturakları yan duvarlara koyuyordu. Havuz
+      sığ uçta −1,0, derin uçta −2,0 ve perde derin uçta: taban ZATEN perdeye iniyor. Güverte eğimi izleyen DÖRT
+      KADEME oldu → bedava basamaklı sinema, daha az malzeme ve dikey kadrajda dört yatay çizgi = derinlik.
+      ⇒ Dönüşüm planlarken önce YAPININ KENDİ eğimi/aksı okunur, sonra program yazılır.
+P12-d ⭐ IŞIK TİMELAPSE'TE YANMAZ: 900×'te armatür 0,01 sn'de yanar ve "belirmiş" okunur. Fikrin ödülü (ışıklar +
+      projektör) bütün olarak S6'nın 8 GERÇEK saniyesine alındı ve SIRALANDI: anahtar → kademe kademe armatür →
+      lamba → koni → huzme perdeye → görüntü. [P5-a'nın dördüncü uygulaması · P11-d'nin ritim hâli]
+P12-e ⭐ ZEMİN AİLESİ GÖK BORCUNU KALDIRIR: tilt −38° ufku %102,1'e çıkarır (EMPTY LOCK'ta ölçülen eşik). Üç kazanç:
+      ① bulut taşıyıcısı borcu yok ② güneş diski hiçbir karede kadraja giremez [DERS 39] — dikey ve yatay olarak iki
+      kez dışarıda ③ üst %9,2'deki koyu ağaç kütlesi KAPAK METNİNİ bantsız taşır.
+P12-f ⚠️ METİN YASAĞI EN İYİ TANIĞI ÖLDÜREBİLİR: fikrin doğal tanığı duvardaki boyalı derinlik işaretiydi ("2,00" bir
+      minderin üstünde) ve çok güçlüydü; ama negatif çekirdek her karede RAKAM yasaklar. Yerine rakamsız üç tanık
+      kondu: turkuaz fayans bandı · krom korkuluk (havuz küpeştesi → koridor korkuluğu) · soluk beton dikdörtgen.
+      ⇒ Tanık seçilirken önce NEGATİF ÇEKİRDEKTEN geçirilir; okunaklılığı sonra tartışılır.
+P12-g ⚠️ KARANLIK FİNAL, AYDINLIK KADRAJ: güneş −11,4° (deniz alacası) ve bahçe siyah. "Aydınlık final" [DERS 45]
+      ışığın KAYNAĞI kadrajın içinde olduğu için karşılanır (perde + kademe armatürleri) ve final filmin EN PARLAK
+      karesi olur. BLUE DOOR'un mavi saatinden farkı: orada ışık dışarıdan okunuyordu. Risk tersine döner — model
+      BAHÇEYİ de aydınlatırsa "gizli oda" kaybolur. Ölçülecek.
+```
+
+---
+
+## 🎬 P13 — PLAN KARARI · THE STONE DRAGON · 23.09.2026 · ⭐ DEPONUN İLK EKSİLTMELİ FİLMİ · İLK SERBEST GEOMETRİ
+
+> Kaynak: proje sahibinin yapıştırdığı fikir (50 sn · 7 bölüm · "THE STONE DRAGON") + ajanın 7 × 8,0 uyarlaması
+> (sohbet) + sahip onayı ("yapalım") (`dikey_shorts/THE_STONE_DRAGON/`). Kaynak sınıfı **tasarım varsayımı**.
+> ⛔ Hiçbiri ölçülmedi.
+
+```
+P13-a ⭐ EKSİLTMELİ İŞ, MALZEME DEFTERİNİ TERSE ÇEVİRİR — VE BU BİR KAZANÇTIR. Yirmi yedi filmde soru "bu parça
+      nereden geldi?"dir ve cevabı kadraj dışında bir istif ya da kamyondur [DERS 48 · 49]. Oymada soru "bu taş
+      nereye gitti?"ye döner ve cevabı KADRAJIN İÇİNDE, ölçülebilir biçimde durur: moloz yığını. Yapı ortaya
+      çıktıkça yığın büyür — ters yönde iki nicelik aynı karede, ikisi de tek yönlü.
+      ⇒ Eksiltmeli her filmde YIĞIN BEDELDİR ve hiçbir karede küçülemez; küçüldüğü kare BLOCK'tur.
+
+P13-b ⭐ SERBEST GEOMETRİDE ÇAPA, İŞLENMEYEN PARÇADIR. Depodaki bütün yapılar dik açılıydı ve piksele kilitlenirdi;
+      bir ejderha başı kilitlenemez. Çözüm nesneyi tarif etmeyi artırmak DEĞİL, hiç dokunulmayan bir parça
+      BIRAKMAKTIR: bloğun dibinde 0,25 m'lik ham ocak kesimi bandı (76 px), G0'dan G7'ye aynı pikselde, üstünde
+      testere yaylarıyla. Bu bant hem çapa (yer) hem tanık (özdeşlik) hem de kapağın kanıtıdır.
+      ⇒ Ölçülemeyen bir kontur üretilecekse, onun yanına ÖLÇÜLEBİLİR VE HİÇ DEĞİŞMEYEN bir komşu konur.
+
+P13-c ⭐ MEKANİZMA SAHNESİ, SORUYU SORAN SAHNEDİR. Fikir tesisatı "yandan görülebilen bağlantı" olarak sona
+      koyuyordu. Karot deliği öne (S2) alındı: suyun katı taştan yol bulması FİZİKSEL bir zorunluluk ve delik
+      boyun incelmeden açılmak zorunda. Kazanç üç katlı — sahneye gerekçe, ikinci tanık (çıkan karot silindiri),
+      ve 16. saniyede izleyiciye SEBEBİNİ BİLMEDİĞİ bir delik. ⇒ "Sonradan eklenen tesisat" bir sahne harcar;
+      "önce açılması zorunlu olan kanal" bir sahne KAZANDIRIR.
+
+P13-d ⭐ OKUNURLUK EŞİĞİ MUTLAK DEĞİL, MESAFEYE BAĞLIDIR. INSAAT_YONTEMI §1'in "0,5 m altı nesne okunmaz" kuralı
+      40 m istasyonda 32 px/m için ölçülmüştü. Bu filmde istasyon 4,2 m'de ve ölçek 257 px/m — pul 15 px, göz
+      çukuru 23 px, boynuz 46 px. Kural ihlal edilmedi, KOŞULU değişti.
+      ⇒ Eşik her filmde px/m'den yeniden hesaplanır; kapının KUCUK listesi (torque mark · bolt head · rivet)
+      yine de sözlük yasağıdır ve mesafeden bağımsız uygulanır.
+
+P13-e ⭐ KESİNTİSİZ IŞIK GÜNÜ MEVSİMİ SEÇER, MEVSİM IŞIĞI DEĞİL. Film erken sonbahar yazılmıştı; 40°K'de 12 saatlik
+      tek ışık günü (6 × rejim B) o mevsimde kapanmıyor — 19:00 güneşi −19° çıkıyordu. Mevsim erken yaza (δ +21°)
+      alındı ve 19:00 güneşi +2,6° oldu; finalin sıyırıcı ışığı uydurma değil, hesaptan geldi.
+      ⇒ Işık günü toplamı ile ENLEM+MEVSİM birlikte çözülür; sıra "mevsim seç, sonra saatleri yaz" DEĞİLDİR.
+
+P13-f ⭐ SOLUK NESNE KOYU ZEMİN İSTER — TİLT BUNUN İÇİN SEÇİLİR. Boynuzlara gök vermek için tilt +4° düşünüldü ve
+      ATILDI: bal rengi kireçtaşı parlak göğe karşı siluete düşer ve bütün oyma ayrıntısı kaybolur. Tilt 0'da ufuk
+      %50, servi kütlesi kadrajda kalır ve baş KOYU zemin önünde okunur. (P12-g'nin tersi: orada karanlık final
+      parlak kare istiyordu, burada soluk özne koyu zemin istiyor — aynı kural, iki yönü.)
+
+P13-g ⭐ REFERANS NESNESİ CEVABI ELE VERİR. Ustanın yanına yarım boy alçı maket konması düşünüldü ve ATILDI:
+      maket G0'dan itibaren "bu bir ejderha olacak" derdi ve filmin 16. saniyedeki keşfini harcardı. Yerine
+      bloğun yüzüne tebeşir kılavuz ÇİZGİLERİ kondu — oyuldukça taşla birlikte kaybolurlar ve hiçbir harf ya da
+      rakam taşımazlar [DERS 35]. ⇒ Sahadaki her referans nesnesi bir SPOILER adayıdır; süreç gösterilirken
+      hedefin maketi kadraja girmez.
+
+P13-h ⚠️ KAPININ §9 METİN YASAĞI KAPSAM KONTROLÜ BU DEPODA FİİLEN KOŞMUYOR. Kontrol "No readable text …
+      annotated by anyone" aralığını arıyor; depodaki negatif çekirdek "… included." ile bitiyor, dolayısıyla
+      8-yüzey sayımı hiçbir filmde denetlenmedi. Taş atölyesinde dürüstçe sayılabilecek yüzey 5–6 olduğu için
+      liste UYDURULMADI (kontrolün kendi notu: "bir yüzeyi saymak onu ÇAĞIRMAK olmasın").
+      ⇒ Sahip kararına açık ve 27 filmin hepsini ilgilendirir: ya kontrol "included." ile de biten çekirdeği
+      tanır, ya çekirdek yeniden yazılır. ⛔ Ölçülmedi, tek filmde çözülmez.
+```
+
+---
+
+## 🎬 P14 — PLAN KARARI · THE VANISHING ROOM · 23.09.2026 · ⭐ DORUĞU BOŞLUK OLAN İLK FİLM
+
+> Yirmi dokuzuncu film. Fikir sahipten geldi (50 sn, 8 satır, çim altında gizli oda) ve 7 × 8,0'a
+> uyarlandı. Aşağıdakiler ÖLÇÜLMEDİ; plan kararlarıdır ve ilk üretimde sınanacaktır.
+
+```
+P14-a ⭐ DORUK BİR ŞEYİN GÖRÜNMESİ OLMAK ZORUNDA DEĞİL — GÖRÜNMEMESİ DE OLABİLİR.
+      Yirmi sekiz filmde ölçülen şey hep BÜYÜMEYDİ ve her filmin doruğu bir şeyin TAMAMLANMASIYDI.
+      Bu filmde doruk S5'tedir ve orada kadrajdaki nesne sayısı her saniye AZALIR; klibin sonunda
+      geriye tek bir çim düzlemi kalır. Bu meşru bir doruktur çünkü izleyici o boşluğa KENDİ BİLGİSİNİ
+      koyar — az önce orada bir oda gördü.
+      KOŞULU ŞUDUR: boşluğun ÖNCESİNDE doyurulmuş olmak. S3 (oda biter, ışık yanar) olmadan S5 bir
+      hiçtir. Bu yüzden S1 kasıtlı olarak "sorusuz" yazıldı: doyum eğrisi S3'te tepe yapsın diye.
+
+P14-b ⭐ ÖZNESİ SİLİNEN KARENİN SÜREKLİLİK BORCU ÇAPALARA DÜŞER, YAPIYA DEĞİL.
+      G6'da kadrajda ölçülecek YAPI YOKTUR — yalnız çim vardır. 2 px eşiği bu karede tamamen üç
+      nirengiye (çakıl yol · duvar kretesi · ağaç gövdesi) yaslanır. STONE DRAGON'da çapa, yapının
+      hiç işlenmemiş parçasıydı [P13-b]; burada yapının HİÇBİR parçası kalmıyor, o yüzden çapa
+      SAHANIN kendisi olmak zorunda ve sayısı üçten aşağı düşemez.
+      KURAL: bir filmde öznenin kadrajdan çıktığı bir kare varsa, o film EN AZ ÜÇ saha çapası taşır
+      ve çapalar kadrajın üç ayrı bölgesine (alt · orta · üst) dağıtılır.
+
+P14-c ⭐ BİR DELİĞİN İÇİ KAMERA YÜKSEKLİĞİYLE GÖRÜLÜR, TİLTLE DEĞİL.
+      Görünür taban = ağzın kamera eksenindeki boyu × (1 + derinlik / h). Bu ifadede TİLT YOKTUR.
+      Tilt yalnız kadrajın nereye düştüğünü belirler; deliğin içini açan tek değişken h'dir.
+      Ölçüldü (plan hesabı): h 4,60 → görünür taban 0,40 m · h 7,00 → 3,68 m. Aynı tiltte, dokuz kat.
+      ⛔ Bu, KAMERA_ISTASYONU §3 ③'ün ("tilt verme, kamerayı yükselt") AŞAĞI BAKIŞ ailesindeki
+      karşılığıdır ve gerekçesi başkadır: orada keystone, burada GÖRÜŞ.
+
+P14-d ⭐ REJİM G'NİN "SIRTI KAMERAYA" KURALI TALİMATLA DEĞİL GEOMETRİYLE ÇÖZÜLÜR.
+      SANTIYE_HAREKETI §1 rejim G'de tek figürün sırtını kameraya dönmesini ister. Bunu prompta
+      yazmak modelden UYUM beklemektir; sahneyi öyle kurmak ise seçeneksiz bırakır.
+      Burada merdiven KAMERADAN UZAĞA iner: inen kişi zaten sırtını dönmek zorundadır. Fikrin
+      "merdiven" kelimesi bu yüzden dik seyyar merdiven değil, 42°'lik düz merdiven olarak yazıldı —
+      dik merdivende inen kişi kameraya DÖNÜK iner ve rejim G düşer.
+      GENEL KURAL: bir prompt kuralını sahne düzeniyle zorunlu hâle getirebiliyorsan, prompta güvenme.
+
+P14-e ⭐ SIKIŞTIRMA REJİMİ SAYISI MEVSİMİ SEÇER (P13-e'nin tersten okunuşu).
+      Altı rejim B klibi = 12 saat ve bu pencere gündüzün İÇİNDE kapanmak zorunda. 40°K'de ekinoksta
+      gün tam 12 saattir — pay SIFIR. Erken sonbaharda pencere hiç kapanmaz. δ +8° (geç yaz) gün
+      uzunluğunu 12 sa 54 dk'ya çıkarır ve iki ucunda 27'şer dakika pay bırakır.
+      KURAL: rejim B sayısı × 2 saat + (gündoğumu/batımı payı) ≤ gün uzunluğu. Bu eşitsizlik
+      sağlanmıyorsa ya mevsim ya rejim sayısı değişir; ÜÇÜNCÜ seçenek yoktur.
+
+P14-f ⭐ GİZLENECEK BİR SINIR, OKUNURLUK EŞİĞİNİN ALTINDA TASARLANIR.
+      Depo ayrıntıyı hep OKUNSUN diye ölçer [P13-d]. Burada bir nesne — kapağın dikişi — bilerek
+      eşiğin ALTINA (2,4 px) konur: okunur olsaydı gizlenme başarısız olurdu. Ama YOK da olamaz,
+      çünkü ⑤ DEVAMLILIK merceğinin G5 → G6 → G7 bağını ölçecek tek şey odur.
+      KURAL: gizlenmesi gereken kanıt nesnesinin ALT ve ÜST sınırı birlikte yazılır (burada 1 px – 6 px).
+      Tek sınır yazmak, iki ayrı arızadan yalnız birini yakalar.
+
+P14-g ⭐ BİR DEFTER TEK YÖNLÜ OLMAK ZORUNDA DEĞİL — AMA FİLMDE EN AZ BİR TANESİ OLMALI.
+      Bu filmde iki defter var: TOPRAK tek yönlüdür (36,0 m³ çıkar, geri dönmez → set) ve bedeli
+      taşır; ÇİM ise KAPANIR (18 rulo kalkar, odanın üstüne geri iner) ve filmin iddiasını taşır
+      ("bahçeye hiçbir şey eklenmedi, yalnız yer değiştirdi").
+      Kapanan defter anlatıyı, tek yönlü defter kapıyı besler. Yalnız kapanan defteri olan bir filmin
+      BEDELİ YOKTUR ve sonu "bitti" olur, "oldu" olmaz [KILAVUZ_REHBERI §6].
+
+P14-h ⚠️ MODELİN EĞİLİMİ EKLEMEKTİR; ÇIKARMA İSTEYEN KLİP PİLOT OLMALIDIR.
+      S5 sekiz saniyede sekiz şeyi kadrajdan çıkarır. Bu, üretim aracının en güçlü eğilimine terstir
+      ve ölçülmemiş bir risktir. Pilot sırası bu yüzden yine değişti: G6 → G7 → S5.
+      STONE DRAGON'da pilot KİMLİK sahnesiydi [P13'ün pilot notu]; burada KAYBOLMA sahnesidir.
+      GENEL KURAL: pilot, filmin en zor GEOMETRİSİ değil, aracın en çok DİRENECEĞİ istektir.
+```
+
+---
+
+## 🎬 P15 — PLAN KARARI · THE GLASS CROSSING · 24.09.2026 · ⭐ ŞEFFAFLIĞI ÖLÇÜLEBİLİR YAPAN İLK FİLM
+
+> Otuzuncu film. Konu sahipten geldi (çürümüş kalas köprü → cam zeminli geçit, 50 sn, 7 satır) ve
+> 7 × 8,0'a katlandı. Aşağıdaki yedi madde PLAN kararıdır — ölçülmedi, üretimden sonra sınanacak.
+
+```
+P15-a  ⭐ ARDIŞIK İKİ FİLM AYNI ÖDÜL MEKANİZMASINI PAYLAŞABİLİR VE BU SİLUET KADAR ÖNEMLİDİR.
+       Depoda siluet ailesi için ardışıklık yasağı var (YAYIN_PLANI §3); ÖDÜL MEKANİZMASI için yok.
+       THE VANISHING ROOM ile bu film yan yana konunca farklı görünür (bahçe / boğaz) ama iskeletleri
+       aynıdır: bir örtü kalkar → altındaki ödül görünür → tek figür girer → final rejim G.
+       Bu benzerlik konsept kapısında GÖRÜNMEZ, çünkü kapı VAAT/DİRENÇ/BEDEL'e bakar, mekanizmaya değil.
+       ⭐ Çözüm iki türlüdür: (a) yayın sırasında araya film koymak, (b) figürün ROLÜNÜ tersine çevirmek.
+       Burada (b) seçildi: figür gelen konuk değil, son örtüyü SÖKEN kişidir. Beat aynı, anlam terstir.
+       ⛔ Yine de ardışık yayın önerilmiyor — rol değişimi iskeleti değil, yalnız anlamı değiştirir.
+
+P15-b  ⭐ BİR KONU, ADI BİR AİLEYİ ÇAĞIRSA BİLE O AİLEYE YAZILAMAYABİLİR.
+       "Köprü" YAYIN_PLANI §3'te YATAY ailesinin baş örneğidir ve §5 satır 148 açıkça "YATAY → bir köprü
+       ya da yol" der. Ama bu köprü YATAY OLAMAZ: yatay okunması için profilden çekilmesi gerekir,
+       profilden çekilince döşemenin ÜSTÜ görünmez ve filmin bütün işi (panel oturması, film soyulması)
+       kadraj dışında kalır. Aile, konunun ADINDAN değil, DEĞİŞİMİN NEREDE OLDUĞUNDAN okunur.
+       Bu filmde değişim döşemenin ÜST YÜZEYİNDEDİR → kamera üstte olmak zorundadır → siluet DİKEY'dir.
+       ⛔ Sonuç: YATAY üçüncü kez aç kaldı. Izgara boşluğu KONU SEÇEREK değil, DEĞİŞİM YÜZEYİ seçerek dolar.
+
+P15-c  ⭐ DERİNLİK, GÜVENLİ ALAN TARAFINDAN SINIRLANIR.
+       Fikir "çok aşağıda akan dere" istiyordu. Derinlik arttıkça dere kadrajda AŞAĞI iner; platformların
+       arayüz bandı (alt %10) onu yutar. Bu istasyonda sınır 18,00 m'dir (dere %20,05'te durur).
+       Daha derin bir boğaz ölçülemez bir boğazdır: kanıt kadrajda var ama İZLEYİCİDE yok.
+       ⭐ Yükseklik duygusu SAYIYLA değil, üç şeyle verilir: dikey bantlı duvar · 63 px'lik insan ·
+       236 → 68 px'lik perspektif daralması.
+
+P15-d  ⭐ İKİ SINIR ARASINDA TEK İSTASYON KALIR — ve o istasyon ARANARAK değil, ÇÖZÜLEREK bulunur.
+       ① Camın altından boğaz TABANINI görmek için: h ≥ 2 · d0 · derinlik / açıklık   [P14-c'den türedi]
+       ② Ufkun kadrajda kalması için (24 mm): tilt ≤ 36,87°
+       İkisi birleşince tek eşitsizlik kalır:   tan(tilt + 36,87°) ≥ 2 · derinlik / açıklık
+       Bu filmde: açıklık 27,00 · derinlik 18,00 → tilt ≥ 26,6° ve tilt ≤ 36,87° → tilt 33° seçildi,
+       h +20,00 m buradan türedi. ⛔ Önce istasyon seçip sonra yapıyı zorlamak, tersini yapmaktan pahalıdır.
+
+P15-e  ⭐ BİR FİLMİN ÖLÇTÜĞÜ EĞRİ TEK YÖNLÜ OLMAK ZORUNDA DEĞİL — AMA DEFTERİ ÖYLE OLMAK ZORUNDA.
+       Bu filmde boşluk İKİ KEZ kapanır ve İKİ KEZ açılır (0 → 104 863 → 0 → 111 556 px²). P14-e'nin
+       "doruğu boşluk olan film"inden farkı budur: orada eğri bir kez sıfırlanıyordu, burada iki kez.
+       Eğri salınırken izleyicinin tutunacağı tek şey TEK YÖNLÜ DEFTERDİR (tabandaki kereste yığını).
+       ⛔ Kural: eğri ne kadar salınırsa, defterin o kadar SERT tek yönlü olması gerekir.
+
+P15-f  ⭐ SÜREKLİ GÖLGEDE KALAN BİR ALAN HATA DEĞİL, KONTRAST BÜTÇESİDİR.
+       Dar bir boğazın tabanı günde yalnız öğle civarında doğrudan aydınlanır (burada güneşin 53,1°
+       üstünde olması gerekiyor). İlk refleks "o hâlde boğaz görünmez" demekti; ölçüm tersini söyledi:
+       ŞEFFAFLIK tam da böyle okunur — ÇEVRESİ aydınlık, ALTI koyu. Açık gölge siyah değildir; dere
+       gökyüzünü yansıttığı için karenin en parlak nesnesidir ve çakıl barları soluk kalır.
+       ⛔ Aydınlatma sorununu çözmeye çalışmak yerine, onu kanıtın ZEMİNİ yapmak daha ucuzdur.
+
+P15-g  ⭐ ŞEFFAF BİR YÜZEY, YOK OLARAK DEĞİL, ÇERÇEVEYLE KANITLANIR.
+       "Cam görünsün" isteği promptla çözülmez; negatif çekirdekteki "no architectural visualisation
+       look" tam da camda çiğnenir. Çözüm YAPIDADIR: her 3,00 m'de koyu çapraz taşıyıcı (7,93 px),
+       her gözde 60 mm alüminyum çerçeve (4,63 px), her kenarda 40 mm lamine yeşil çizgi (3,09 px).
+       Boşluk bu ızgaranın İÇİNDEDİR, ızgaranın yerine geçmez.
+       ⭐ Fresnel bunu doğruluyor (n = 1,5): yakın gözde geliş açısı 28,8° → yansıma %4,1 (pencere),
+       uzak gözde 62,2° → %10,1 (hafif ayna). Aynı karede hem şeffaflık hem madde okunur; ⛔ bu yüzden
+       filmler UZAK uçtan soyulur ve en şeffaf göz (dereyi gösteren tek göz) SONA saklanır.
+```
+
 ## 🔎 C1 — ÇAPRAZ ANALİZ · 15 film · 12 mercek · 18.09.2026 · dış değerlendirmeyle düzeltildi
 
 > Kaynak: `QA/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/HAM_RAPORLAR/` altındaki 15 dikey

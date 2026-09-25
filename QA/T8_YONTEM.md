@@ -17,6 +17,10 @@
 | **BACK TO WATER** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,2) | ⛔ APPEARED · 7/8 MADE · SPEC verilmedi | Cabin window glazing · 00:16,5 | Steel hull patch plates (00:07,0) | 4 | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | D | **10,0**/10 | ✅ MADE · 8/8 MADE · depoda ilk belgeli 10/10 | NONE | Elevation cradle cross-truss (0:24.0–0:30.0) | 0 | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | D | **10,0**/10 | ✅ MADE · 5/5 MADE · deponun ikinci belgeli 10/10'u | NONE | New West Oak Gate Leaf (00:25.0) | 0 | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | D | **10,0**/10 | ✅ MADE · 4/4 MADE · deponun üçüncü belgeli 10/10'u | NONE | Sarı Vagon (00:15.0–00:27.0) | 0 | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,5) | ✅ MADE · 8/8 MADE | NONE | Kemerli Mavi Kapı (0:22.0–0:29.0) | 5 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | D | **10,0**/10 | ✅ MADE · 10/10 MADE · deponun dördüncü belgeli 10/10'u | NONE | Ahşap Kademe Amfi Yapısı (0:21.0–0:31.0) | 5 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE VANISHING ROOM** | D | **9,9**/10 | ✅ MADE · 9/9 MADE · deponun beşinci belgeli tam yöntemi | NONE | Beton Çevre Duvarları (0:14–0:20) | 1 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 **VERDICT değerleri:** MADE / APPEARED
 

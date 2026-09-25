@@ -19,6 +19,11 @@
 | **BACK TO WATER** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 9,7) | ✅ SAME WORLD · ⭐ kanıt BULUNDU: kapı kuleleri + sarı merdiven · ⛔ kart DIFFERENT · dikiş 9 (00:18) ekipman kaybolması | 1/11 dikiş | [kayıt](RAPORLAR/BACK_TO_WATER.md) |
 | **THE QUIET FIELD** | ⛔ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 10,0) | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Taş ambar (0:00.0 ve 0:56.0) · 0/6 dikiş kusursuz | 0/6 dikiş | [kayıt](RAPORLAR/THE_QUIET_FIELD.md) |
 | **THE EMPTY LOCK** | V | **7,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: White lockkeeper cottage (00:00.0 ve 00:56.0) · 0/6 dikiş kusursuz | 0/6 dikiş | [kayıt](RAPORLAR/THE_EMPTY_LOCK.md) |
+| **THE BROKEN CLIMB** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Çeşme Havuzu ve Alt İstasyon Binası (00:03.0 ve 00:25.0) · 0/6 dikiş kusursuz (6 INTENDED) · tomruk istifi ve takozdaki mavi vagon sabit | 0/6 dikiş | [kayıt](RAPORLAR/THE_BROKEN_CLIMB.md) |
+| **THE BLUE DOOR** | V | **9,3**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Sarı moloz konteyneri (00:00.0 ve 00:40.9) · 2/6 kusurlu dikiş (iskele) · ⛔ kart DIFFERENT | 2/6 dikiş | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
+| **THE DEEP END** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Krom korkuluk (00:00 ve 00:55) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_DEEP_END.md) |
+| **THE STONE DRAGON** | V | **3,9**/10 Ⓥ | ⛔ A SET REBUILT EACH TIME · 10/12 dikiş kusurlu · moloz sıfırlanması · vinç kaybolması (00:43) · kanıt: taş duvar ve serviler | 10/12 dikiş | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
+| **THE VANISHING ROOM** | V | **9,9**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Olgun meşe ağacı (x %87,5) ve arka duvar (00:00 ve 00:54) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi. Dört dikişin DÖRDÜ de kusur taşıyor. ⭐ En ağır satır: plana KASTEN yerleştirilen kanıt nesnesi (2,4 m üstü düz granit kaya) 0:05,9 → 0:06,0'da **kayboldu** ve mercek NONE FOUND yazdı. Kanıt nesnesi yazmak yetmiyor [DERS 25].
