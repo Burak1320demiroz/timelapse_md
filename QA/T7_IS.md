@@ -21,6 +21,13 @@
 | **THE BLUE DOOR** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda üçüncü 10,0 tam iş skoru · 8/8 kategori 10/10 | 0:00.0 (%0) | NONE | 0 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
 | **THE DEEP END** | ⚠️ V karesiz | **9,3**/10 Ⓥ | ✅ WORKING · çalışma cephesi 10/10 · malzeme akışı 10/10 | 00:44.5–00:48.0 · klip 6 · 3.5 sn · %43.8 (teslimat geçişi) | NONE | 3 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE VANISHING ROOM** | ⚠️ V karesiz | **8,4**/10 Ⓥ | ✅ WORKING · çalışma cephesi 9/10 · sebep-sonuç 9/10 | 00:46.0–00:48.0 · klip 13 · 2.0 sn · %50 (teslimat temizliği) | NONE | 7 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | ⚠️ V karesiz | **9,1**/10 Ⓥ | ✅ WORKING · çalışma cephesi 10/10 · sebep-sonuç 9/10 | 00:00.0–00:00.5 · klip 1 · 0.5 sn · %16 (hazırlık) | NONE | 3 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda dördüncü 10,0 tam iş skoru · sebep-sonuç 10/10 | 00:25.5–00:28.0 · klip 7 · 2.5 sn · %62.5 (teslimat) | NONE | 0 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | ⚠️ V karesiz | **10,0**/10 Ⓥ | ✅ WORKING · depoda beşinci 10,0 tam iş skoru · 8/8 kategori 10/10 | 00:27.0–00:28.0 · klip 7 · 1.0 sn · %25 (teslimat) | YOK | 0 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | ⚠️ V karesiz | **7,0**/10 Ⓥ | ✅ WORKING · 7 eksiltme adımı moloz akışıyla tutarlı | 0:24.0–0:28.0 · klip 7 · 4.0 sn · %50 (teslimat) | 0:08.0–0:20.0 üst kemer ve sütunlar (altta alet teması yok) | 3 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | ⚠️ V karesiz | **9,6**/10 Ⓥ | ✅ WORKING · 10 büyüme adımının tamamı çalışan makinelerle gerçekleşti | 0:00.0–0:00.5 · klip 1 · 0.5 sn · %12.5 | NONE | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | ⚠️ V karesiz | **8,8**/10 Ⓥ | ✅ WORKING · 5 büyüme adımının tamamı çalışan insan gücü ve el arabasıyla gerçekleşti | 0:03.5–0:04.0 · klip 1 · 0.5 sn · %6.25 | NONE | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | ⚠️ V karesiz | **8,2**/10 Ⓥ | ✅ WORKING · çalışma cephesi 9/10 · sebep-sonuç 7/10 · büyüme adımları işçi emeğiyle açıklandı | 00:26.0–00:27.5 · klip 7 · 1.5 sn · %37.5 (teslimat temizliği) | NONE | 1 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 **VERDICT değerleri:** WORKING / PARKED
 

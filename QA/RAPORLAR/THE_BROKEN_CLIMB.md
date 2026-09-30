@@ -89,6 +89,23 @@ ANALİZ:
 
 ---
 
+## ⚡ 2.1. 2× HIZLANDIRILMIŞ KURGU (32.0 sn Master) VE QA ELEŞTİRİSİ
+
+```
+⚠️ DİKKAT: BU FİLM 2 KAT HIZLANDIRILMIŞ OLARAK ÜRETİLDİ VE ELEŞTİRİLDİ:
+1. SÜRE VE KLİP FARKI:
+   - Planda beyan edilen hedef: 7 sahne × 8,0 sn = 56,0 sn tek master kurgu.
+   - Üretilen ve değerlendirilen video: 6 klip (2,5s–5,5s) = 27,5 sn sahne bloğu + 4,5 sn bitiş kartı = 32,0 sn.
+   - Yani video tam 2× HIZLANDIRILMIŞ dinamik bir Shorts/Reels temposuyla realizedir.
+2. QA MERCEKLERİNE ETKİSİ:
+   - ⑦ İŞ (10,0/10): Klip süreleri kısaldığı için rölanti ve boşluklar %0'a inmiş, deponun ikinci tam 10/10 iş skoru gelmiştir.
+   - ⑫ KATILIK (10,0/10): Difüzyon modelinin uzun sürede yaşadığı erimeler 3–5 sn pencerelerinde engellenmiş, gövdeler rijit kalmıştır.
+   - ⑥ GEÇİŞ (9,9/10): Hızlı kesmeler metronom uyuşukluğunu kırmış ve rejim A geçişiyle (00:20.3) ritim zirveye çıkmıştır.
+   - ④ TESLİM (5,1/10 Ⓥ): Planlanan 56,0 sn süre yerine videonun 32,0 sn gelmesi kurgu süresi uyumsuzluğu olarak not edilmiş ve skorunu etkilemiştir.
+```
+
+---
+
 ## 3. 🚨 EN AĞIR BULGULAR
 
 1. **[④ TESLİM & ② İNŞA & ① KARE — Şartname Dışı Kapanış Kartı]:** 0:28.0–0:32.0 arasında ekranın ortasını kaplayan "IT CLIMBED AGAIN" metinli statik grafik kapanış kartı yer almaktadır. Oysa plan §TESLİM YAPISI açıkça `KAPAK KARTI YOK`, `LOGO YOK` kuralını koymuştur.

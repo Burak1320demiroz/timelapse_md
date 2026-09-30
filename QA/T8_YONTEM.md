@@ -21,6 +21,13 @@
 | **THE BLUE DOOR** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 9,5) | ✅ MADE · 8/8 MADE | NONE | Kemerli Mavi Kapı (0:22.0–0:29.0) | 5 | [kayıt](RAPORLAR/THE_BLUE_DOOR.md) |
 | **THE DEEP END** | D | **10,0**/10 | ✅ MADE · 10/10 MADE · deponun dördüncü belgeli 10/10'u | NONE | Ahşap Kademe Amfi Yapısı (0:21.0–0:31.0) | 5 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE VANISHING ROOM** | D | **9,9**/10 | ✅ MADE · 9/9 MADE · deponun beşinci belgeli tam yöntemi | NONE | Beton Çevre Duvarları (0:14–0:20) | 1 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | D | **9,2**/10 | ✅ MADE · 5/5 MADE · deponun altıncı belgeli tam yöntemi | NONE | Cam Taban ve Örtü (00:11–00:24) | 3 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | D | **10,0**/10 | ✅ MADE · 8/8 MADE · depoda yedinci belgeli 10/10'u | NONE | Taşıyıcı Kemer İskeleti (00:11–00:14) | 0 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | D | **10,0**/10 | ✅ MADE · 7/7 MADE · depoda sekizinci belgeli 10/10'u | NONE | Parapet Duvarı (00:12–00:16) | 0 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 6,0 Ⓥ) | ⛔ APPEARED · 5/7 MADE | Üst Su Tahliye Kanalları · 0:24,1 | Moloz Apronu (0:07.1–0:19.1) | 3 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | D | **10,0**/10 | ✅ MADE · 10/10 MADE · depoda dokuzuncu belgeli 10/10'u | NONE | 260m Çelik Çatı Halkası (00:20–00:28) | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | D | **10,0**/10 | ✅ MADE · 7/7 MADE · depoda onuncu belgeli 10/10'u | NONE | Corbelled Stone Dome (00:03.0–00:09.0) | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | D | **9,3**/10 | ✅ MADE · 5/5 MADE | NONE | Tuğla Kama (Brick Wedge, 00:08.0–00:18.0) | 0 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 **VERDICT değerleri:** MADE / APPEARED
 

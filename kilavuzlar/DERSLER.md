@@ -3137,6 +3137,544 @@ P15-g  ⭐ ŞEFFAF BİR YÜZEY, YOK OLARAK DEĞİL, ÇERÇEVEYLE KANITLANIR.
        filmler UZAK uçtan soyulur ve en şeffaf göz (dereyi gösteren tek göz) SONA saklanır.
 ```
 
+## 🎬 P16 — PLAN KARARI · THE MOUNTAIN CROWN · 25.09.2026 · ⭐ AYNI MADDEYİ İKİ DEFTERDE SAYAN İLK FİLM
+
+```
+KONU   Boş bir bazalt duvarın, üstünden inen iki şelale KAPATILARAK, kaya oyma bir su sarayına
+       dönüşmesi. Fikir sahipten geldi; ajan dört bulgu bildirdi ve üç tersine çevirme önerdi.
+```
+
+P16-a ⭐ ÖDÜL MEKANİZMASI KOMŞULUĞUNUN İKİNCİ VE AĞIR VAKASI — BU KEZ DEFTER DE PAYLAŞILIYORDU.
+      [P15-a] GLASS CROSSING ile VANISHING ROOM'un aynı mekanizmayı paylaştığını kaydetmişti.
+      Burada daha kötüsü çıktı: fikrin ilk hâli THE STONE DRAGON ile (25. film, iki film önce)
+      hem ödül mekanizmasını (oy → figür çıksın → SU AKSIN) hem BEDEL NESNESİNİ (büyüyen moloz
+      yığını, ters defter) paylaşıyordu. İki konsept yan yana okunmadan bu görünmez; konsept
+      kapısının VAAT/DİRENÇ/BEDEL satırları İKİSİNİ DE geçiriyordu.
+      ⭐ KURAL: yeni konsept, SON ÜÇ FİLMİN "ödül mekanizması + BEDEL nesnesi" çiftine karşı
+      ayrıca okunur. Aynı aile yasağı gibi, bu da ardışıklık değil BENZERLİK yasağıdır.
+      ÇÖZÜM: su ÖDÜLDEN DİRENCE çevrildi. STONE DRAGON'da su yeni gelir; burada su ZATEN VARDIR,
+      alınır ve geri verilir. Aynı madde, ters rol.
+
+P16-b ⭐ ÖLÇEK, KANIT NESNESİNİN ALT SINIRINI BELİRLER — VE O SINIR FİKRİ KESER.
+      Fikir "40 katlı saray" diyordu. 40 kat ≈ 160 m cephe; kadraja sığdırmak için d ≈ 129 m
+      gerekir ve orada 8,4 px/m kalır (işçi 15 px, kat 33 px).
+      ⛔ Asıl kırılma piksel değil HACİMDİR: 100 × 160 × 25 m oyum ≈ 400 000 m³ katı, 600 000 m³
+      gevşek. 35° doğal şevde bu, 53 m YÜKSEK ve kaya dibinden 76 m İLERİ bir yelpazedir —
+      78 m'deki kameranın üçte birine kadar gelir. Kadrajdan atılırsa 20 m³/kamyon ile 21 000
+      sefer = 12 saatlik ışık gününde DAKİKADA 29 KAMYON.
+      ⭐ KURAL: eksiltmeli bir konsept kabul edilmeden önce MOLOZ ŞEVİ ÇİZİLİR. Yapının boyutu
+      estetikle değil, çıkan hacmin kadrajda duracağı yerle belirlenir. Burada defterin kapandığı
+      boyut 42,00 × 30,00 × 6,00 m'ydi (8 kat) ve fikir oraya indirildi.
+
+P16-c ⭐ NEGATİF ÇEKİRDEĞİN "YALNIZ MALZEME KAZANIR" CÜMLESİ BU FİLMDE İKİ KEZ YANLIŞTIR.
+      [P13-a] STONE DRAGON'da cümleyi "Stone is only ever taken away, never put back" ile
+      değiştirmişti — tek yönlü, eksiltmeli. Burada iş İKİ YÖNLÜDÜR ve ikisi AYNI MADDEDİR:
+      kayalık eksilir, apron toplar, ikisi de bazalttır. Tek bir cümle bunu kapatamaz; üç cümle
+      gerekti:
+        "Rock is only ever taken out of the cliff and never put back on it"
+        "the cut stays inside the face and nothing is ever built out in front of it"
+        "The apron at the foot only ever grows and is never carted away"
+      ⭐ KURAL: bir filmde hem eksilen hem toplayan bir defter varsa, negatif blok HER İKİ YÖNÜ
+      AYRI AYRI kilitler; "malzeme" tek bir yönde kilitlenirse model diğer yönü serbest sayar.
+
+P16-d ⭐ DEFTERİN KAPANMASI BİR TASARIM KISITIDIR, BİR SÜS DEĞİL — VE YAPIYI O BELİRLER.
+      Çıkan katı 10 228 m³ (cephe 6 426 + rampa 3 402 + iki oluk 400), ×1,25 kabarma = 12 785 m³.
+      Apron 50,00 m en · tepe +13,00 m · düz 14,00 m · 35° şev 18,57 m → brüt 15 135 − havuz 2 352
+      = net 12 783 m³. FARK −2 m³ (%0,02).
+      ⭐ Apronun ENİ, DERİNLİĞİ ve YÜKSEKLİĞİ seçilmedi; cephenin hacminden ÇIKTI. Bu, deponun
+      ilk filmi ki yapının bir parçasının boyutları tamamen başka bir parçanın hacmiyle belirlendi.
+
+P16-e ⭐ ÖN PLANDAKİ DOLGU KADRAJI YER VE BU PERSPEKTİFİN KENDİSİDİR.
+      Apronun burnu d 45,53 m'dedir — kameradan 32,47 m daha yakın. Orada 50,00 m'lik eni
+      %x −4,90 … 104,90'a yayılır ve iki kenardan da taşar. Bu bir kompozisyon hatası sanıldı,
+      sonra ölçüldü: bir dolgu ne kadar yükselirse şevi o kadar öne uzanır ve öne uzandıkça
+      kadrajda BÜYÜR — yani defterin görünürlüğü kendi kendini besler.
+      ⭐ KURAL: öne taşan bir dolgunun KANITI eni değil, ÜST KENARININ YÜKSEKLİĞİDİR ve o yükseklik
+      kadrajın ORTA EKSENİNDE okunur. Sağ beşte bire taşan kısmı benzersiz bilgi taşımaz;
+      "sağ beşte bir yasağı" bu yüzden ona uygulanmaz.
+
+P16-f ⭐ CEPHE NORMALİ MEVSİMDEN ÖNCE SEÇİLİR — 15 DERECE FİLMİN İKİ UCUNU KURTARDI.
+      Tam güneye bakan bir yüz (normal 180°) yalnız az 90°–270° arasında aydınlanır. 44°K · δ +8°'de
+      06:00 güneşi az 84,23°, 18:00 güneşi az 275,77°'dir: İKİSİ DE DIŞARIDA. Film hem karanlık
+      başlar hem karanlık biterdi.
+      Normal 195°'ye çevrilince yalnız 06:00 gölgede kalır (katsayı 0,000) ve 18:00 kurtulur (0,160).
+      ⭐ Ve gölgede kalan o tek kare KURGUYA döndü: film soğuk mavi gölgede, siyah ıslak bir kayayla
+      açılır; ışık yüze tam olarak SU KESİLDİĞİ saatte ulaşır. Işık eğrisi ile kuruma eğrisi
+      aynı eğridir (0,000 → 0,014 → 0,351 → 0,568 → 0,607 → 0,457 → 0,160).
+      ⭐ KURAL: düşey bir yüzün AYDINLIK KATSAYISI = cos(yükseklik) · cos(azimut − normal). Bu sayı
+      istasyon seçilirken hesaplanır; sonra hesaplanırsa mevsim ya da saat değiştirmek gerekir.
+
+P16-g ⭐ REJİM G EV FİNALİNE DÖNÜŞTÜ — VE EN SAĞLAM GEREKÇESİ BU FİLMDE ÇIKTI.
+      DEEP END (24) ışıklar · STONE DRAGON (25) su · VANISHING ROOM (26) kapak · GLASS CROSSING (27)
+      yürüyüş: son dört filmin dördü de rejim G ile bitiyor. Beşincisi kuralı silahsızlandırır.
+      Buradaki gerekçe yine de deponun en sağlamıdır ve bunu kaydetmek gerekir: 61,00 m'lik serbest
+      düşüş √(2h/g) = 3,53 SANİYE sürer. Rejim G'nin 8,0 saniyesinin yarısı, suyun HAVADA olduğu
+      süredir — uydurulmuş bir tempo değil, bir YERÇEKİMİ SABİTİ.
+      ⭐ KURAL: rejim G yalnız SÜRESİ HESAPLANABİLEN bir olay için seçilir. "Doğal hızda görünsün"
+      bir gerekçe değildir; "bu olay tam olarak şu kadar sürer" gerekçedir.
+      ⚠️ KAYIT: bir sonraki filmin finali rejim G OLMAMALI. [sahip onayı 25.09.2026]
+
+## 🎬 P17 — PLAN KARARI · THE LAST HARBOR · 26.09.2026 · ⭐ ANA YAPISI İLK KAREDE ZATEN TAM OLAN İLK FİLM
+
+> Kaynak: proje sahibinin yapıştırdığı fikir (4 dakikalık, anlatılı, bilim-kurgu bir "SON LİMAN")
+> + ajanın format teşhisi + bir tersine çevirme + bir ekleme + sahip onayı.
+> ⛔ Hiçbiri ölçülmedi. Hepsi PLAN KARARIDIR ve ilk üretimden sonra ya doğrulanır ya düşer.
+
+P17-a ⛔ BİR FİKİRDE İNŞAAT YOKSA KISALTARAK KURTARILAMAZ — EKLENİR  [PLAN KARARI]
+      Gelen metinde hiçbir şey yapılmıyordu: çok eski bir makine uyanıyordu. Süreyi 4 dakikadan
+      56 saniyeye indirmek, karakteri çıkarmak ve kesmeleri silmek bu filmi kurtarmazdı, çünkü
+      eksik olan UZUNLUK değil MOTORDU: aşama merdiveni, GEÇİCİ EKİPMAN defteri ve kanıt nesnesi
+      boş kalırdı; kanalın tezi ("ne kayboluyor ve kadrajda görünüyor mu") cevapsız kalırdı.
+      ⭐ KURAL: bir konsept kapıya geldiğinde önce şu sorulur — BU FİKİRDE BİRİNİN YAPTIĞI BİR İŞ
+      VAR MI? Yoksa fikir reddedilmez, İÇİNE BİR YAPIM İŞİ ARANIR; ve aranan iş, fikrin
+      ŞAŞKINLIĞINI taşıyan iş olmalıdır, herhangi bir iş değil.
+      Burada bulunan iş: yüzer beton kaysonun batırılarak liman kolu yapılması. Fikrin mücevheri
+      ("iskele sandığın şey aslında bir gemidir") korundu, YÖNÜ ters çevrildi: gemi sandığın şey
+      bir daha hiç gemi olmayacak.
+      KALDIRDIĞI: "fikir formata uymuyor, reddedelim" ve "fikri kısaltıp içini boşaltalım".
+
+P17-b ⛔ DENİZDE TİLT SIFIR OLAMAZ — BU BİR TERCİH DEĞİL, GEOMETRİK ZORUNLULUKTUR  [HESAP]
+      `KAMERA_ISTASYONU §3` "tilt verme, kamerayı yükselt" der ve bu KULE ailesi için doğrudur.
+      Denizde ise ufuk yalnız tilt'e bağlıdır: ufuk% = 50 + f·tan(tilt)/0,36 [KAMERA_DILI §3 ①].
+      Tilt 0'da ufuk HER ZAMAN tam %50'dedir — yani gök kadrajın YARISIDIR, kamera nereye kurulursa
+      kurulsun. 9:16'da bu, 960 piksellik boş gök demektir.
+      ⭐ KURAL: ufuk kadrajda olan bir filmde GÖK BANDI istenen değere göre ÖNCE tilt seçilir,
+      sonra h ve d hesaplanır. Bu filmde tilt 15° göğü %32,14'e (617 px) indirdi ve 46 piksellik
+      parapet bandı ile 185 piksellik açık deniz bandının AYRI AYRI okunmasını mümkün kıldı.
+      ⚠️ Bedeli keystone'dur [KAMERA_DILI §3 ③] ve deniz filminde bu bedel yoktur: kadrajda
+      yakınsayacak düşey çizgi hemen hemen hiç bulunmaz.
+
+P17-c ⭐ ANA YAPI İLK KAREDE %100 OLABİLİR — DEĞİŞEN ŞEY ONUN HÂLİ OLUR  [PLAN KARARI]
+      Otuz iki filmin otuz birinde yapı kadrajda BÜYÜR ya da bir kayadan ÇIKAR. Burada 5 182 tonluk
+      gövde G0'da zaten oradadır, tamdır ve hiç değişmez; film boyunca değişen şey onun SU İÇİNDEKİ
+      YÜKSEKLİĞİ ve çevresindeki SUYUN HÂLİDİR.
+      ⭐ KURAL: böyle bir filmde ⑧ merceğinin "APPEARED" riski yapıda değil, YÜZEYDEDİR — ara hâl
+      gövdeyle değil, gövdenin ÇEVRESİYLE yazılır (silt yakası, grout eteği, taşma lekesi, kırılan
+      köpük). Negatif çekirdeğin "yalnız malzeme kazanır" cümlesi bu filmde YETMEZ; yerine iki yön
+      ayrı ayrı kilitlenir: gövde bir daha KALKMAZ, yakın su bir daha DALGALANMAZ.
+      [P13-a'nın üçüncü uygulaması]
+
+P17-d ⭐ BİR YAPISAL NUMARA İKİ FİLM ÜST ÜSTE KULLANILMAZ  [PLAN KARARI]
+      MOUNTAIN CROWN deponun ilk "iki defter" filmiydi ve numara çalıştı. Bu filmde de iki defter
+      kurulabilirdi (fribord + köpük). KURULMADI: tek defter (iç köpük 7 → 0) bırakıldı, fribord
+      bedele, dış köpük çapraz kontrole çevrildi.
+      ⭐ KURAL: METRONOM yalnız SÜREDEN doğmaz [KILAVUZ_REHBERI §2.2 karşı kayıt]; aynı yapısal
+      numaranın ardışık tekrarından da doğar. Izgarada aile sayılıyorsa, plan defterinde de NUMARA
+      sayılmalıdır. ⚠️ Bu bir gözlemdir, ölçüm değil — üç filmde aynı yönde çıkmadan kural olmaz.
+
+P17-e ⭐ YÜZDÜRME ARİTMETİĞİ KADRAJDAN ÖNCE KOŞULUR  [HESAP]
+      İlk taslak 0,50 m duvar ve 1,00 m taban öngörüyordu: 2 644 m³ beton = 6 478 t, ve 36 × 16 m'lik
+      bir kutu bunu ancak 10,97 m su çekiminde taşır. Fribord 22,00 − 10,97 = 11,03 m'ye düşer ve
+      batma düşüşü kadrajda 169 px yerine ≈ 120 px okunur. Duvar 0,40 m, taban 0,80 m'ye indi:
+      2 115,2 m³ = 5 182 t, su çekimi 9,00 m, fribord 13,00 m, düşüş 169 px.
+      ⭐ KURAL: yüzen bir gövdenin kadrajdaki BOYU bir kompozisyon tercihi değil, ARŞİMET'in
+      sonucudur. Fribord seçilmez, HESAPLANIR; kadraj ondan sonra kurulur.
+      [P16-b'nin deniz hâli: orada moloz şevi, burada su çekimi]
+
+P17-f ⭐ DEFTERİN SAYILDIĞI YER BOŞ TUTULUR  [PLAN KARARI]
+      Bu filmin bütün iddiası kadrajın alt 857 pikselinde sayılan köpük sayısıdır. Bu yüzden kum
+      mavnası, vinç mavnası, taş dökümü ve beton pompası — hepsi kolun DENİZ yakasına konuldu ve
+      G3'ten sonra kolun arkasında kalıyor; yalnız bomları kretin üstünde okunuyor [P10-j].
+      İki römorkör de kadrajın iki ucunda, yarısı dışarıda duruyor.
+      ⭐ KURAL: bir filmin defteri kadrajın belirli bir bandında sayılıyorsa, o bant ŞANTİYEDEN
+      ARINDIRILIR. Yakın suya giren tek gemi finaldeki teknedir ve o da ödülün kendisidir.
+      KALDIRDIĞI: "iş görünsün diye her yere makine koymak" ve ⑦ merceğinin "kalabalık" riski
+      [SANTIYE_HAREKETI §4 · C1-d].
+
+P17-g ⭐ REJİM A DA BİR FİNAL OLABİLİR — VE SON CÜMLEYİ MAKİNE SÖYLEMEK ZORUNDA DEĞİL  [PLAN KARARI]
+      P16-g "bir sonraki filmin finali rejim G OLMAMALI" diye kaydedilmişti. Uyuldu. Final rejim
+      A'dır (10 dakika · 100×) ve deponun İLK rejim-A finalidir.
+      ⭐ Gerekçe rejimin kendisinde değil, OLAYIN SÜRESİNDEDİR: bir teknenin yaklaşıp yanaşması
+      ve arkasındaki izin sönmesi gerçek zamanda 8 saniyeye sığmaz, 10 dakika sürer. Rejim G'de
+      bu olay ya kesilir ya yalan söyler. [P16-g'nin kuralı burada da geçerli: rejim, SÜRESİ
+      HESAPLANABİLEN olaya göre seçilir.]
+      ⭐ Ve filmin son cümlesini bir makine değil, LİMANI KULLANAN İLK TEKNE söyler: ödül bir
+      NESNE değil, bir YOKLUKTUR — dalganın yokluğu.
+      ⚠️ ÖLÇÜLMEDİ: 100×'te bir teknenin çizdiği çizginin sürekli okunup okunmadığı ve fenerin
+      çakmalarının tek boncuğa dönüşüp dönüşmediği modelde SINANMADI. İlk üretimden sonra
+      `SANTIYE_HAREKETI §1`'e tek satır iner. [QA_SPEC §8]
+
+## 🎬 P18 — PLAN KARARI · THE FIRST GUEST · 26.09.2026 · ⭐ ÖLÇEĞİ BİLEREK SAKLAYAN İLK FİLM
+
+> Kaynak: proje sahibinin yapıştırdığı fikir (4 dakikalık, iki karakterli, anlatılı bilim-kurgu)
+> + ajanın çevirisi + sahip onayı. ⛔ Hiçbiri ölçülmedi.
+
+P18-a ⭐ ÜÇ ARDIŞIK ANLATI KONSEPTİ — VE KONSEPT HAVUZUNUN TEK SORUSU  [PLAN KARARI]
+      GLASS CROSSING'den sonra gelen üç fikrin üçü de (MOUNTAIN CROWN · LAST HARBOR · FIRST GUEST)
+      anlatılı metinlerdi ve ikisinde İNŞAAT HİÇ YOKTU [P17-a]. Ajan üç kez inşaatı ekledi; her
+      ekleme fikri sahibin gördüğü şeyden biraz daha uzaklaştırdı ve bu bir MALİYETTİR.
+      ⭐ KURAL: bu formatta hayatta kalan şey OLAY değil, İZDİR. Bir karakterin yaptığı hiçbir şey
+      kadraja girmez; o karakterin BIRAKTIĞI her şey girer — iz, çukur, yığın, leke, ışık.
+      Bir konsept havuza girerken tek soru sorulur: **"sabah ile akşam arasında bu YERDE ne DEĞİŞTİ?"**
+      Cevabı olan fikir çeviriye ihtiyaç duymaz; olmayan fikir her seferinde yeniden yazılır.
+      KALDIRDIĞI: "fikri kısaltıp içini boşaltmak" ve "formata uymuyor, reddedelim".
+
+P18-b ⭐ KADRAJ ÖLÇEĞİ SAKLAYABİLİR — VE BU BİR KOMPOZİSYON TERCİHİ DEĞİL, ÖNERMEDİR  [HESAP]
+      Fikrin en iyi görüntüsü bir ÖLÇEK YANILGISIYDI ("sütun sandığımız şey bir bacak"). Bir
+      karakterle anlatılamazdı; KADRAJLA anlatıldı. G0'da kadrajda tanıdık TEK BİR NESNE yoktur:
+      gök yok, ufuk yok, insan yok, araç yok. Duvar dört metre de olabilir dört yüz metre de.
+      ⭐ VE BU ŞANS DEĞİL, GEOMETRİ: tilt 34°, h 14,00 m, d 60,00 m'de kadrajın üst kenarı o
+      mesafede yalnız y = +17,01 m'ye ulaşır. Kaya 160,00 m'dir; tepesi HİÇBİR KAREDE GÖRÜNMEZ.
+      ⭐ KURAL: bir filmin önermesi "ölçeği bilmiyorsun" ise, bunu prompt DEĞİL İSTASYON kurar.
+      Ölçek S0'ın sonunda, ilk paletli iz kumu kestiğinde düşer — sekizinci saniyede.
+      ⚠️ Karşı yükümlülük: o kadraj ÖLÇEK REFERANSI barındırmadığı için ⑤ DEVAMLILIK borcu artar;
+      üç çapa (serbest taş sütun · taban çizgisi · dört nervür) bu yüzden ZORUNLUDUR.
+
+P18-c ⭐ AİLE, BEDELİN NEREDE SAYILDIĞINA GÖRE SEÇİLİR  [PLAN KARARI]
+      Kadrajı kaplayan bir kaya yüzü KÜTLE olurdu ve MOUNTAIN CROWN'ın kompozisyonunu bire bir
+      tekrarlardı. ZEMİN seçildi, çünkü bu filmin bedeli KUMDUR ve kumdaki izi ancak aşağı bakan
+      bir istasyon SAYABİLİR.
+      ⭐ KURAL: siluet ailesi ızgara için seçilmez, DEFTER İÇİN seçilir. Izgara dengesi ailenin
+      SIRASINI belirler; hangi ailenin mümkün olduğunu BEDELİN ÖLÇÜLDÜĞÜ YER belirler.
+      [VANISHING ROOM'da aynı argüman ters yönde kullanılmıştı: "bir deliğin içi ancak aşağı bakan
+      istasyondan görülür" — orada YATAY'ı elemişti, burada KÜTLE'yi eliyor.]
+
+P18-d ⭐ ÜÇÜNCÜ TÜR DEFTER: KENAR · SAYI · ALAN  [PLAN KARARI]
+      MOUNTAIN CROWN bir KENARIN yüksekliğini ölçtü (apron üst kenarı, px). LAST HARBOR ayrık
+      nesneleri SAYDI (kırılan köpük, adet). FIRST GUEST bir ALAN ölçüyor (temiz kum, yüzde).
+      ⭐ KURAL: bir yapısal numara iki film üst üste kullanılmaz [P17-d'nin uygulaması]. Defterin
+      TÜRÜ de sayılır, yalnız varlığı değil. Üç tür artık adlandırıldı; dördüncüsü aranacak.
+      ⚠️ Alan defterinin ölçüm yöntemi KENAR ve SAYI defterlerinden daha pahalıdır ve QA_SPEC'te
+      yazılı olmak zorundadır (32 × 32 px kutu taraması, doku yönü ±10°) — yoksa "gözle" ölçülür
+      ve defter düşer.
+
+P18-e ⭐ HAVASIZ SAHADA SES YATAĞI DİEGETİK OLAMAZ  [PLAN KARARI]
+      Depodaki bütün müziksiz filmler sesi DİEGETİK yatakla taşıdı. Burada taşıyamaz: havasız bir
+      sahada dışarıda ses YOKTUR. Bir kazı bıçağının, bir sinterleme kafasının, düşen bir panelin
+      sesi FİZİKEN duyulamaz.
+      ⭐ Yatak tamamen KASKIN İÇİDİR: nefes, kumanda tıkırtısı, ve yalnız TEMASLA gövdeden iletilen
+      darbe. ⭐ Ve bunun bir bedeli, bir de armağanı var:
+        BEDEL   kütüphane sesleri DOĞRUDAN kullanılamaz; hepsi alçak geçiren filtreden ve gövde
+                rezonansından geçmelidir.
+        ARMAĞAN filmin EN BÜYÜK GÖRSEL OLAYI (28,0'deki gölge bıçağı) filmin EN SESSİZ anıdır —
+                yalnız nefes, ve nefesin bir an durması. Bu, kurgu değil FİZİKTİR.
+      ⭐ KURAL: saha kartı ses yatağını da belirler. "Diegetik yatak" bir varsayımdır, kural değil.
+
+P18-f ⭐ TEK REJİM BİR FİLMİN TAMAMINI TAŞIYABİLİR — EĞER IŞIK EĞRİSİ VARSA  [PLAN KARARI]
+      G beş kez üst üste final olmuştu [P16-g], A daha yeni kullanılmıştı [P17-g], ve aynı numarayı
+      iki film üst üste kullanmak METRONOM'u süreden değil YAPIDAN doğurur [P17-d]. Geriye tek
+      rejim kaldı ve bu bir mecburiyet DEĞİL, bir keşif oldu.
+      ⭐ Gerekçe olayın SÜRESİNDEDİR: 12 m'lik bir taş kanat dakikalarca kayar; rejim G'de 8 saniyede
+      ancak 30 santim kayardı ve YALAN SÖYLERDİ. [P16-g'nin kuralı yine geçerli: rejim, süresi
+      hesaplanabilen olaya göre seçilir.]
+      ⭐ Ve tek rejimin taşıyıcısı IŞIK EĞRİSİ oldu: kaya yüzü katsayısı 0,981 → 0,000, kum katsayısı
+      0,060 → 0,303 → 0,000. ⭐ İki eğri filmin ORTASINDA kesişir; ışık DUVARDAN YERE, sonra yerden
+      HİÇBİR YERE gider. Film bir KAYA fotoğrafı olarak başlar, bir KUM fotoğrafı olur, bir LAMBA
+      fotoğrafı olarak biter.
+      ⚠️ ÖLÇÜLMEDİ: ⑥ merceği yedi eşit sıkıştırmayı "tekdüze" okur mu, yoksa ışık eğrisi tek başına
+      yeter mi? İlk üretimden sonra SANTIYE_HAREKETI §1 ve KURGU_VE_TESLIM §2.4'e birer satır iner.
+
+P18-g ⛔ YASAK KELİME TARAMASI DAR OLMAK ZORUNDADIR — İKİ KEZ ÖLÇÜLDÜ  [ÖLÇÜLDÜ]
+      Bu filmin bir numaralı riski, G7'deki koyu bandın bir yaratığa dönüşmesidir. QA_SPEC'e bir
+      yasak kelime taraması kondu ve İKİ KEZ yanlış alarm verdi:
+        ① kelime sınırsız `limb` deseni, NEGATIVE'deki `climbed` kelimesini yakaladı → 17 yanlış pozitif
+        ② `face|head|arm|leg|body` deseni, kaya YÜZÜNÜ (face), sinter KAFASINI (head), rover KOLUNU
+           (arm), tripod AYAĞINI (leg) ve kilidin GÖVDESİNİ (body) yakaladı → 130 yanlış pozitif
+        ③ `being`, sayım cümlesinin zorunlu kuyruğunu ("nothing else being worked on") yakaladı → 18
+      ⛔ Ve `face` ASLA yasaklanamaz: insan kuralı cümlesi ("no readable face anywhere") ZORUNLUDUR.
+      ⭐ KURAL: bir yasak kelime kapısı, o filmin KENDİ TEKNİK SÖZLÜĞÜNE karşı test edilmeden
+      QA_SPEC'e yazılmaz. Yanlış pozitif veren bir kapı, kapı değildir — gürültüdür ve üçüncü
+      koşuda kimse ona bakmaz [DERS 12'nin tersi: kapı olmayan kural gibi, yanlış çalışan kapı da
+      kural değildir].
+      ⭐ Ve ucuz temizlik yapıldı: yaratık riski olan bir filmde `body` → `shell` (kilidin gövdesi),
+      `silhouette` → `flat black shape` (kum yığını). İkisi de anlam kaybetmeden riski düşürdü.
+
+## 🔥 P19 — THE LAST FIRING (otuz dördüncü film · 26.09.2026)
+
+**P19-a · Bir defter kadrajın DIŞINA kapanabilir, yeter ki görünür bir kanıtı olsun.**
+Otuz üç filmde defter hep kadrajın içinde kapandı: bir kenar indi, bir sayı azaldı, bir alan
+kirlendi. Bu filmde defterin kapanışı kadrajda HİÇ GÖRÜNMEZ — 15,8 ton kireçtaşının 6,93 tonu
+karbondioksit olarak havaya gider. Film bunu ancak dolaylı kanıtlayabilir: yük kütlesini
+kaybederken kubbe 0,44 m çöker ve bu 67 pikseldir. ⭐ Kural: görünmeyen bir bedel, ancak
+GÖRÜNÜR bir hareketin sebebi olarak yazılabilir. Bedeli doğrudan gösteremiyorsan, onun
+kaçınılmaz sonucunu göster ve sonucu ÖLÇ. Dumanı "bedel" diye göstermek yalandır — duman
+yakıttan gelir, taştan değil.
+
+**P19-b · İstasyon yüksekliği bir tercih değil, defterin bir terimi olabilir.**
+Burada h = 2,00 m'dir çünkü kubbenin kapanmadan önceki son yüksekliği 2,00 m'dir. Lens tam
+oraya konunca G3'ün defteri matematiksel olarak SIFIRDIR ve ufuk çizgisi gerçek bir cetvele
+döner. ⭐ Kural: bir sayı "güzel dursun" diye seçildiyse ölçülemez; bir denklemden çıktıysa
+pilot onu doğrular ya da çürütür. Bu filmin pilotu bir estetik yargı değil, bir eşitliktir
+(|defter(G3)| ≤ 2 px) ve tutmazsa plan baştan yazılır.
+
+**P19-c · Aile tekrarı kompozisyondan gelir, konudan değil — çözümü arka plana bakmaktır.**
+FIRST GUEST'te KÜTLE reddedilmişti çünkü kadrajı kaplayan bir kaya yüzü MOUNTAIN CROWN'ı
+tekrarlardı [P18-c]. Bu filmde KÜTLE alındı ve tekrar, taş ocağını KAMERANIN ARKASINA alarak
+kırıldı: kadrajın üst 825 pikseli açık göktür ve ufku kesen yalnız iki şey vardır. ⭐ Kural:
+aynı aileye ikinci kez girerken değiştirilecek şey konu değil, ARKA PLANDIR. Aynı gövde,
+farklı arkada, farklı bir siluet okur.
+
+**P19-d · Dördüncü defter türü: İŞARETLİ MESAFE — ve ilk kez iki yönlü.**
+MOUNTAIN CROWN bir KENAR ölçtü (px yükseklik), LAST HARBOR bir SAYI saydı (kesikli nesne),
+FIRST GUEST bir ALAN ölçtü (yüzde). Bu film sabit bir çizgiye göre İŞARETLİ bir mesafe ölçer
+ve defter tek yönlü değildir: G0→G4 artar, G4→G7 azalır. ⭐ Kural: tek yönlülük defteri ucuz
+denetlenebilir yapar ama zorunlu değildir — iki yönlü bir defterin şartı, DÖNÜM NOKTASININ
+FİLMDEKİ BİR OLAYA KİLİTLİ olmasıdır. Burada dönüm G4'tür ve G4 ateşin verildiği karedir.
+Dönüm noktası keyfi olsaydı defter değil, gürültü olurdu.
+
+**P19-e · Saha kuralları film film TERSİNE dönebilir; kurallar sahadan gelir, alışkanlıktan değil.**
+FIRST GUEST'te hale YASAKTI, yarı gölge YOKTU, toz asılı kalmıyordu — havasız bir aydı. Bu
+filmde üçü de ZORUNLUDUR. İki film arka arkaya ve kural tersine döndü. ⭐ Kural: bir önceki
+filmin negatif çekirdeğini kopyalayıp yapıştırmak, en pahalı hatadır — "keskin gölge kenarı"
+cümlesi havası olan bir sahaya taşınırsa model fiziği bozar. Her yeni filmde saha tipi
+yeniden sorulur ve atmosfer cümleleri SIFIRDAN yazılır [MALZEME_VE_DOKU §5 · A9-g'nin aynadaki
+yüzü].
+
+**P19-f · Son sahnede defter durabilir, yeter ki yerine başka bir şey geçsin.**
+S6 rejim A'dır (10 dakika) ve defter yalnız 3 piksel oynar — pratikte DONAR. Film ölmez çünkü
+o sekiz saniyede hareket eden şey IŞIKTIR: yüz kırılır, delik açılır, turuncu ışık kuma uzanır
+ve ocak gökyüzünden parlak olur. ⭐ Kural: finalde defter donduğunda sahneyi taşıyacak İKİNCİ
+BİR SAAT önceden kurulmuş olmalıdır. Burada ikinci saat filmin ortasında (S4'ün 3,32.
+saniyesinde) kurulmuştu ve S6'da devralması hazırdı. ⛔ İkinci saati finalde kurmaya kalkmak
+geç kalmaktır.
+
+**P19-g · Konu önerirken riski gizleme — ÖLÇ ve söyle; sahip doğru seçimi ancak o zaman yapar.**
+Sahip üç konu istedi. Ajan üçünü de KÜTLE kurdu, üçünün defter türünü ayırdı ve ikincisini
+(hareket eden ana yapı) "ev kurallarını doğrudan karşısına alıyor, kapıyı geçer mi ÖNCE ölçerim"
+diye işaretledi. Sahip riskli olanı değil, tez cümlesi en güçlü olanı seçti. ⭐ Kural: öneri
+bir satış konuşması değildir. Her öneriye (a) defter türü (b) saat (c) aile okuması (d) kapıyı
+geçme riski yazılır. Riski yazılmamış öneri, sahibin değil ajanın kararıdır ve üretimde patlar.
+
+---
+
+## 🌗 P20 — THE LONG SHADOW (otuz altıncı film · 28.09.2026)
+
+> Bir aralık sokakta bir günde yapılan üç katlı dolgu ev; defter karşı duvardaki gölge
+> çizgisinin O DUVARIN KENDİ YÜKSEKLİĞİNE ORANI. Deponun ilk gölge filmi, ilk birimsiz defteri
+> ve tarihi hesaptan çıkan ilk filmi.
+
+### P20-a — Filmin GÜNÜ bir tercih değil, bir denklemin köküdür
+
+Ekinoksta güneşin yolu tek bir düzlemdir. Doğu-batı uzanan bir duvara düşen gölge çizgisinin
+YÜKSEKLİĞİ bu yüzden gün boyu değişmez ve yalnız enlemden gelir:
+
+    düşüş = sokak eni × cot(φ)        (δ = 0 için, bütün saatlerde)
+    3,60 × cot 41° = 4,1413 m         (06:02'de de 17:58'de de aynı; min = maks, sayısal doğrulandı)
+
+Yani ekinoksta GÜNEŞ DEFTERE HİÇBİR ŞEY KATMAZ; çizgiyi yalnız inşaat yükseltir. Bir filmin
+tarihi "güzel ışık" diye seçilirse tarih bir dekordur; bir denklemden çıkarsa tarih bir TERİMDİR
+ve pilotta yanlışlanabilir. ⭐ Kural: mevsimi seçmeden önce, mevsimin deftere ne kattığını hesapla.
+Katkısı sıfır olan bir gün varsa film o gündedir.
+
+### P20-b — Defter BİRİMSİZ olabilir; bazen olmak zorundadır
+
+Bu filmde gölge bandı gün boyu duvar boyunca kayar: merkezi 27,50 m derinlikten 13,40 m derinliğe
+gelir ve duvarın ölçeği 46,3 px/m'den 93,7 px/m'ye çıkar. Ham piksel defteri bu yüzden yalnız
+yanlış değil, YANILTICIDIR — sahnelerin sırasını değiştirir:
+
+    ham px adımı : S4 180 px (serinin en büyüğü)   ·  S1 123 px
+    ORAN adımı   : S1 0,228 (serinin en büyüğü)    ·  S4 0,151
+
+Ham defter "filmin en büyük sahnesi S4" der; duvar aslında en çok S1'de kaybeder. Pay da payda da
+AYNI karede AYNI sütunda ölçüldüğü için oran derinlikten bağımsızdır ve tek geçerli ölçüdür.
+⭐ Kural: ölçülen şeyin ÖLÇEĞİ film boyunca değişiyorsa defter mutlak olamaz. Beşinci defter türü
+budur ve ilk kez birimi yoktur (KENAR · SAYI · ALAN · İŞARETLİ MESAFE · ⭐ ORAN) [P17-d].
+
+### P20-c — Defteri atan nesne film içinde değişebilir; defter bunu fark etmemelidir
+
+Gölgeyi sırayla iki ayırma duvarı, prekast merdiven çekirdeği, kat kasetleri, çatı ve harpuşta
+atar. Defter kimin gölgesi olduğunu sormaz — yalnız üst kenarın yerini sorar. Bunun tek şartı
+vardır: HER ATAN NESNENİN ÜST KENARI MASİF VE DÜZ OLMALIDIR. Kafes bir iskele kırık kenarlı gölge
+atar ve defteri ölçülemez kılar. ⭐ Kural: defteri bir NESNEYE değil, bir KENARA bağla; sonra o
+kenarın sürekliliğini yapım yöntemiyle garanti et.
+
+### P20-d — Saha kısıtı bir engel değil, ölçüm aracıdır
+
+Sokak 3,60 m'dir. Bu yüzden dış iskele kurulamaz ve direkli hiçbir makine giremez; ağır parçalar
+meydanda duran bir bomdan tek zincirle iner. Kısıt üç şeyi birden çözer: kenar masif kalır, kadraja
+ikinci bir gölge atıcı girmez, ve sokağın darlığı defterin sabitini (4,1413 m) zaten belirler.
+⭐ Kural: kısıtı ölçümün DIŞINDA bir zorluk gibi yazma; kısıtla ölçüm aynı sayıdan geliyorsa film
+kendi içinde kilitlenir.
+
+### P20-e — Gölge ölçen film, gölgenin FİZİĞİNİ de ölçmek zorundadır
+
+Bir gölge kenarı jilet gibi olamaz: güneşin açısal çapı 0,53°, ışın yolu 5,49 → 7,16 m, yarıgölge
+3,5 → 6,2 px. Yarıgölge gün boyu BÜYÜR. Dar bir sokakta gölge siyah da olamaz: karşı yüzey dolgu
+atar, fark 2,5–4,0 stop olmalıdır. Ve en önemlisi: gölge çizgisi dünyada yataydır ama KADRAJDA
+DEĞİLDİR — sokakla aynı kaçış noktasına yakınsar, hatta lens hizasının altındayken ters eğimlidir
+ve tam lens yüksekliğinden geçerken (S1'in 4,71. saniyesi) bir an yatay olur.
+⭐ Kural: bu üç ölçüm (yarıgölge · sekme · eğim) boyanmış gölgeyi hesaplanmış gölgeden ayırır ve
+QA'da defterin kendisinden önce gelir. Kenarı yanlış olan bir defterin sayısı zaten anlamsızdır.
+
+### P20-f — Riski ölçüp söylemek öneriyi zayıflatmıyor (P19-g'nin ikinci koşusu)
+
+Ajan üç DİKEY konu sundu, üçünün defter türünü ayırdı (ORAN · UZUNLUK · AÇI), üçünün de kapı
+riskini ÖLÇTÜ ve üçüncüsünü ⛔ yüksek riskli işaretledi ("ana yapı dönüyor; açı → px doğrusal
+değil; 86° → 90° yalnız 2 px yükselme"). Sahip bu kez "önerini hazırla" dedi — yani ajanın
+kendi önerisini seçti. ⭐ Kayıt: iki koşuda da riskin açıkça yazılması sahibin kararını
+kolaylaştırdı, öneriyi değersizleştirmedi. Risk yazılmayan öneri sahibin değil ajanın kararıdır.
+
+### P20-g — Düşmüş bir filmi yeniden planlamak, aynı filmi yeniden çekmek değildir
+
+THE LONG SHADOW v1 deponun İLK filmiydi: üretildi, dört merceğin dördü de düştü
+(① 3,3 ALTI AYRI GÖRÜNTÜ · ② 0,4 FARKLI/APPEARING · ③ 4,3 yön kırık · ④ 2,7 DURUYOR) ve karar
+"yeniden planlanıp yeniden üretilir" oldu. v2 otuz beş film sonra yazıldı ve iki şeyi ayırdı:
+
+    KORUNAN   konu ve BEDEL — "karşı bloğun ikindi güneşi" (havuz satırı 1'in kendi cümlesi)
+    DEĞİŞEN   saha ve ölçü — kule bir şehir parselinde gölgesini ölçülebilir bir yüzeye
+              düşüremiyordu; 3,60 m'lik bir aralık sokak hem defterin sabitini (4,1413 m)
+              hem paydasını (7,20 m) kadrajın içine sokuyor
+
+v1'in yedi arızasının her biri v2'de bir yapı kararına bağlandı, dilek cümlesine değil:
+bağımsız üretilen kareler → İKİ KEYFRAME ZİNCİRİ · BIBLE tekrarının yetmemesi → beş ±2 px çapa ·
+beyan edilmemiş kapak kartı → kartsız teslim + ayrı kapak dosyası · "no zoom"un tutmaması →
+ölçülebilir çapa cümlesi · ters açılış → tek yönlü defter ve iki yasa · çöken mevsim yayı →
+tek gün, tek ışık günü, zamanı taşıyan çapraz defter · belgesiz mercek koşusu → kapı kapı QA şartnamesi.
+
+⭐ Kural: bir filmi yeniden planlarken önce raporundaki KÖK SEBEBİ satır satır karşıla; konuyu
+değil, konunun ÖLÇÜLEMEZ olduğu yeri değiştir. Aynı bedeli ölçülebilir bir sahaya taşıyamıyorsan
+yeniden plan değil, yeni film yazıyorsundur.
+
+---
+
+## 📐 P21 — BACK TO PLUMB (otuz yedinci film · 28.09.2026)
+
+> Bir ova çiftliğinin avlusunda 5,00° yatık, 57,2 t'luk donatısız bir tuğla tahıl kulesi altı
+> krikoyla düşeye döndürülür. Defter, konik şapkanın ucunun taban halkası merkezinden inen
+> düşeyden YATAY KAÇIKLIĞI: 64,6 → 0,0 px. Deponun ilk düzeltme filmi ve ilk SAPMA defteri.
+
+### P21-a — Bir inşaat filmi hiçbir şey inşa etmeyebilir
+
+Otuz altı film boyunca her film bir şey EKLEDİ (ev, kubbe, köprü, çatı) ya da ÇIKARDI (köprü
+sökümü, ocağın çöküşü). Bu film ikisini de yapmaz: bir HATAYI GERİ ALIR. Kadrajda yeni bir
+yapı doğmaz, eski bir yapı ölmez; var olan yapı yalnız YERİNİ DÜZELTİR.
+
+Bunun bedeli ve kazancı aynı yerdedir. Kazanç: konu daha önce hiç yapılmadı ve "inşaat
+timelapse'i" beklentisini kırar. Bedel: finalde kadrajda GÖSTERİLECEK YENİ BİR ŞEY YOKTUR
+(P21-f). Bir düzeltme filminin kanıtı, düzeltilen şeyde değil, düzeltmenin ARTIKLARINDA
+durur — açık kuyular, boşalmış krikolar, altına giren yeni tuğla.
+
+⭐ KURAL: Konu "bir şey yapılıyor" değil "bir şey düzeltiliyor" ise, kanıt nesnesi baştan
+ARTIK üzerinden seçilir. Düzeltilen nesne kanıt olamaz, çünkü düzeltmenin tanımı onun
+normalleşmesidir.
+
+### P21-b — Bazı defterlerin referansı görüntünün İÇİNDE değil, KADRAJIN KENDİSİNDEDİR
+
+Deponun önceki beş defter cinsi (KENAR · SAYI · ALAN · İŞARETLİ MESAFE · ORAN) hep kadrajın
+İÇİNDEKİ iki şey arasında ölçülüyordu. SAPMA defteri farklıdır: ölçtüğü şey bir nesnenin
+KENDİ DÜŞEYİNDEN kaçıklığıdır ve "düşey" kadrajın bir özelliğidir, sahnenin değil.
+
+Sonucu sayıyla: şapkanın ucu kadraj merkezinin 563 px üstündedir; kadraj θ kadar dönerse
+yatayda 563 · tan θ px YALANCI kaçıklık doğar.
+
+    roll 0,2° → 1,97 px     0,5° → 4,9 px     1,0° → 9,8 px = bir sahne adımının TAMAMI
+
+Defter bu yalancı kaçıklığı gerçeğinden AYIRT EDEMEZ. Yani roll burada bir kalite kuralı
+değil, ölçü aletinin SIFIRIDIR.
+
+Üç zorunlu sonuç:
+① Ölçüm ölçülen nesneden YAPILMAZ. Kule zaten yatıktır; roll iki DIŞ düşeyden okunur
+   (ahşap direk x% 10,0 · ahır köşesi x% 82,0; taban 778 px → 0,2° = 2,71 px eğim farkı).
+   ⛔ Tek düşey yetmez: model kadrajı döndürmeden kuleyi dikleştirip çevreyi eğebilir.
+② ⛔ DÖNDÜREREK KURTARMA YOKTUR. Kareyi döndürmek defterin ölçtüğü şeyi de döndürür; hatayı
+   yok etmez, GÖRÜNMEZ yapar. Düşen kare yeniden üretilir.
+③ ⛔ Yazılım stabilizasyonu, otomatik ufuk düzeltme, lens profili ve perspektif düzeltme
+   YASAKTIR — hepsi kadrajı döndürür ya da ölçekler.
+
+⭐ KURAL: Defter kadrajın bir geometrik özelliğini (düşeylik, yataylık, ölçek) referans
+alıyorsa, o özelliğin kapısı defterin YANINDA değil İÇİNDE tanımlanır ve ÖNCE koşulur.
+
+### P21-c — Bir filmin iddiasını DEĞİŞMEYEN bir sayı da taşıyabilir
+
+Bu depoda bugüne kadar her defter DEĞİŞEN bir sayıydı; ölçüm hep "ne kadar ilerledi" sorusunun
+cevabıydı. Bu filmde üç sayı birden ölçülür ve biri değişmemek zorundadır:
+
+    ① DEFTER    64,6 → 0,0 px    azalır   — ne kadar düzeldi
+    ② KAMA       0 → 26 px       büyür    — karşılığında ne verildi
+    ③ ÇATLAK     4,6 px          DEĞİŞMEZ — bedeli ödenmedi mi
+
+Sebep fizikseldir: 57,2 t'luk donatısız bir tuğla gövdeyi tek yandan kaldırdığınızda gerçek
+risk kulenin yarılmasıdır. Defter kulenin dikleştiğini söyler; kulenin YARILMADIĞINI yalnız
+çatlak söyler. Çatlak büyümüşse kule doğrulmuş ama operasyon başarısızdır — ve film, iddia
+ettiğinin TERSİNİ kanıtlamış olur.
+
+⛔ Ölçüm yöntemi de buna göre kurulur: tek tek ölçümler toleransta olsa bile DİZİDE EĞİLİM
+aranır (üç kot × sekiz kare, regresyon eğimi |a| ≤ 0,15 px/kare). Sabitlik bir ortalama
+değil, bir EĞİLİMSİZLİKTİR.
+
+⚠️ Bu aynı zamanda modelin en olası hatasıdır: çevresindeki her şey değişirken model çatlağı
+"çalışan bir detay" sanıp büyütür. Metin savunması (sekiz karede birebir aynı cümle +
+NEGATIVE kilidi) yeterli SAYILMAZ; pilot klipte ÖLÇÜLÜR.
+
+⭐ KURAL: Bir işlem bir şeyi düzeltiyorsa, o işlemin YAN HASAR YAPMADIĞINI gösteren sabit bir
+ölçüm de deftere girer. Değişen sayı ilerlemeyi, değişmeyen sayı DÜRÜSTLÜĞÜ ölçer.
+
+### P21-d — Yöntem, zaman ölçeğiyle seçilir; sıkıştırmayla kurtarılmaz
+
+İlk tasarımda yatıklık YÜKSEK yandan toprak çekilerek azaltılıyordu. O yöntem haftalar sürer.
+Rejim tavanı 900×'tir [SANTIYE_HAREKETI §1]; 56 saniyede taşınabilecek en uzun gerçek süre
+14 saattir. Yani yöntem sıkıştırmayla KURTARILAMAZ — değiştirilmek zorundadır.
+
+Yöntem kriko + alttan alma olarak değiştirildi ve üç şey birden kazanıldı:
+    ⓐ bir günün dürüst zaman ölçeği (07:00 → 15:30, ışık günü 8 sa 30 dk)
+    ⓑ yeni bir tanık: 0 → 26 px büyüyen kama tuğla bandı (defterin fiziksel karşılığı)
+    ⓒ bir final vuruşu: defter 0'a krikolar ÇALIŞIRKEN değil, BOŞALIRKEN varır
+
+⭐ KURAL: Konu seçildikten sonra sorulacak ilk soru "bu nasıl güzel görünür" değil, "bu gerçekte
+ne kadar sürer" olmalıdır. Süre rejime sığmıyorsa değişecek olan rejim değil, YÖNTEMDİR.
+(P19-a'nın tersten okunuşu: orada saha ölçüme uyduruldu, burada YÖNTEM süreye uyduruldu.)
+
+### P21-e — Filmin bütün mekaniği kadrajın dışında olabilir; ölçülen şey SONUÇTUR
+
+Bu filmin her şeyi altı kuyunun içinde olur ve kuyuların içi hiçbir karede görünmez. Kamera
+avlu kotundadır ve yalnız ağızlarını görür. Seyirci krikoyu çalışırken görmez; yalnız
+şapkanın ucunun 9 px sağa geldiğini görür.
+
+Bu bir eksiklik değil, bir seçimdir ve iki şey sağlar: ① gizlenen iş merak yaratır ② ölçüm
+yalnız SONUCA bakar, yani mekanizmanın görsel inandırıcılığına bağımlı olmaz. Modelin altı
+krikoyu doğru çizmesi gerekmez; kulenin doğru yerde durması gerekir.
+
+⭐ KURAL: Gizli iş [DERS 48 · 49] yalnız "neyi göstermiyoruz" sorusu değildir; aynı zamanda
+"ölçümü neye BAĞLAMIYORUZ" sorusudur. Kadrajın dışına alınan mekanizma, ölçümü de o
+mekanizmanın çizim hatalarından kurtarır.
+
+### P21-f — Zayıf kapak ÖLÇÜLÜR ve BEYAN EDİLİR; kırpmayla kurtarılmaz
+
+Bu filmin finali deponun en sessiz karesidir: düz bir kule. 120 px testinin üç sorusundan
+ikisi "KISMEN" çıkar — depoda bir ilk.
+
+    kule          247 × 847 px → 27 × 94 px   ✅ siluet okunur
+    kama bandı     26 px       →  2,9 px      ⚠️ SINIRDA
+    çelişki       başlık olmadan tamamlanmaz  ⚠️ deponun tek başlığa bağımlı kapağı
+
+Üç kurtarma yolu vardı ve üçü de REDDEDİLDİ: ⓐ kırpma (kuyuları ve molozu kadrajdan atar,
+geriye yalnız sıradan bir kule kalır) ⓑ kontrast itmesi (eski/yeni tuğla ton ayrımını kapatır
+ya da kamayı yakar) ⓒ öncesi/sonrası bölme (sahip kararı 19.09.2026 · ve bu filmde cazibesi
+en yüksek olan yer tam burasıdır).
+
+Onun yerine zayıflık KAPAK dosyasının §1'ine, plana (§RİSKLER ③), INDEX'e ve bu derse ÖLÇÜLEREK
+yazıldı. P19-g ve P20-f'nin üçüncü koşusu: riski ölçmek ve yazmak öneriyi zayıflatmaz — ama
+bu ilk kez ölçülen şey RİSK değil, TESLİMİN KENDİSİDİR.
+
+⭐ KURAL: Bir teslim kalemi (kapak, final karesi, ses) ölçüldüğünde eşiğin altında kalıyorsa,
+üç seçenek vardır: düzelt · değiştir · BEYAN ET. Gizlemek dördüncü seçenek değildir, çünkü
+gizlenen zayıflık bir sonraki filmde aynı yerde tekrarlanır.
+
+### P21-g — Depo kendi kaydını iki kez üst üste kaybetti; sayaç bunu buldu, plan bulmadı
+
+BACK TO PLUMB yazılırken `araclar/sayac.sh` 38 film saydı, `QA/00_INDEX.md` 37 diyordu. Fark
+benim eklediğim filmden değil, THE GLASS WALL'dan (yatay_2_dk_filmler, 16:9, 12 × 10,0,
+28.09.2026) geliyordu: tam bir film klasörü — plan, iki bölüm, QA spec, kapak, müzik, yayın
+paketi, üretim günlüğü — ve hiçbir INDEX'te kayıtlı değil. Kendi planı "Havuz kaydı: §5 #5
+THE GLASS WALL" diyor; §5 satır 5 THE EMPTY RIDGE'dir.
+
+⚠️ İKİNCİ KEZ OLUYOR: THE LAST LIFT de (35. film) LONG SHADOW v2 yazılırken aynı şekilde
+bulunmuştu ve YAYIN_PLANI §3/§4'te hâlâ kayıtlı değil.
+
+İki gözlem:
+① ⭐ SAYAÇ ÇALIŞTI, PLAN ÇALIŞMADI. Tutarsızlığı bulan şey insanın ya da ajanın dikkati değil,
+   dosya sistemini sayan bir betikti. Elle tutulan her sayı er geç dosya sisteminden ayrılır.
+② ⛔ BULUNAN AÇIK KAPATILMAZ, KAYDEDİLİR. Başkasının filminin alanlarını doldurmak, kaydı
+   düzeltmek değil UYDURMAKTIR. THE GLASS WALL INDEX'e yalnız SAYIM olarak ve yalnız kendi
+   üretim günlüğünden okunabilen durumuyla ("⛔ BOŞ — araç kapısı koşulmadı") girdi; gerisi
+   sahibin kararına bırakıldı.
+
+⭐ KURAL: Her film yazımının son adımı `sayac.sh` koşmaktır ve çıktı ✅ değilse film bitmiş
+sayılmaz. Tutarsızlığın sebebi yazılan film değilse bile, BULAN yazılan filmdir ve kaydetmek
+onun borcudur.
+
+---
+
 ## 🔎 C1 — ÇAPRAZ ANALİZ · 15 film · 12 mercek · 18.09.2026 · dış değerlendirmeyle düzeltildi
 
 > Kaynak: `QA/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/HAM_RAPORLAR/` altındaki 15 dikey

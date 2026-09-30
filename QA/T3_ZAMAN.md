@@ -25,6 +25,13 @@
 | **THE DEEP END** | V | **10,0**/10 Ⓥ | ✅ PASSES · tahmin "one single day (morning to night, 08:30 to 20:30)" DAKİKASINA KADAR TUTTU · gölge süpürmesi 1:5.1 → 1:0.9 (48°) → 1:4.8 → alacakaranlık/gece projektör açılışı kusursuz | 0 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE STONE DRAGON** | V | **9,1**/10 Ⓥ | ✅ PASSES · tahmin "12 ila 14 saat" (plan 12 sa 0 dk 8 sn) TAM TUTTU · 180° gölge süpürmesi (1:1.8 → 1:0.4 → 1:2.5) · Rejim G 1x su akışı | 2 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
 | **THE VANISHING ROOM** | V | **10,0**/10 Ⓥ | ✅ PASSES · tahmin "about 4 to 5 weeks" (plan ~5 hafta) TAM TUTTU · 8/8 kategori 10/10 · 180° gölge süpürmesi · Rejim G 1x hıza kusursuz geçiş | 0 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | V | **10,0**/10 Ⓥ | ✅ PASSES · tahmin "12 saat (06:00 → 18:00)" TAM TUTTU · 8/8 kategori 10/10 · kanyon gölge süpürmesi · Rejim G 1x hıza kusursuz geçiş | 0 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | V | **10,0**/10 Ⓥ | ✅ PASSES · tahmin "12–14 saat (tek vardiya)" TAM TUTTU · 8/8 kategori 10/10 · güneşten yapay projektör rejimine geçiş tam | 0 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | V | **9,8**/10 Ⓥ | ✅ PASSES · tahmin "several weeks to a few months" TUTTU · 12 sa 10 dk güneş saati yayı kusursuz · Rejim A final yanaşma teknesi | 1 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | V | **5,7**/10 Ⓥ | ⛔ PASSES BUT NOT IN ONE DIRECTION · 00:24.3 kesmesinde ışık gün batımından öğleye sıçradı · ⛔ kart DIFFERENT | 4 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | V | **9,8**/10 Ⓥ | ✅ PASSES · tahmin "about 2 years (24 months)" TAM TUTTU · tam 4 mevsim döngüsü (`yaz → sonbahar → kış → ilkbahar → yaz`) · gölge 10/10 | 1 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | V | **8,9**/10 Ⓥ | ✅ PASSES · tahmin "yaklaşık 2 - 3 gün" · gölge süpürmesi 1:1.5 → 1:1.0 → 1:4.0 (14° gün batımı) · kart SAME | 3 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | V | **9,1**/10 Ⓥ | ✅ PASSES · tahmin "1 Çalışma Günü (07:00 – 15:30/17:00)" TAM TUTTU · mevsim sırası 10/10 · kesme 10/10 · gölge 1:1.5 → 1:0.8 → 1:2.1 uyumlu · kart SAME | 0 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 
 ⭐ **THE MOUNTAIN DOOR — ALTI MERCEĞİN TAM KOŞAN TEK'İ.** Girdisi yalnız tam kurgudur ve eksiksiz verildi; skoru **bağlayıcıdır** (Ⓥ yok). Zaman tahmini "about 9 to 12 months", plan 12 ay — **ikinci kez TUTTU**. ⛔ Buna karşılık SEASON ORDER 0/10: plandaki sonbahar hiç görünmedi ve kış ② (erime) YAZ olarak üretildi.

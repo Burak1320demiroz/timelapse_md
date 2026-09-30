@@ -24,6 +24,13 @@
 | **THE DEEP END** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Krom korkuluk (00:00 ve 00:55) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE STONE DRAGON** | V | **3,9**/10 Ⓥ | ⛔ A SET REBUILT EACH TIME · 10/12 dikiş kusurlu · moloz sıfırlanması · vinç kaybolması (00:43) · kanıt: taş duvar ve serviler | 10/12 dikiş | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
 | **THE VANISHING ROOM** | V | **9,9**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Olgun meşe ağacı (x %87,5) ve arka duvar (00:00 ve 00:54) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | V | **8,7**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Kereste atık yığını (00:05 ve 00:28) · 2/8 dikiş kusurlu (ekskavatör pop-in) · kart SAME | 2/8 dikiş | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | V | **9,4**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Taş Sütun monolit (00:00 ve 00:27) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Sol kaya adacığı ve bazalt mendirek (00:00 ve 00:27.9) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | V | **5,6**/10 Ⓥ | ⛔ A SET REBUILT EACH TIME · 7/7 dikiş kusurlu · payandalar kilitli ama iskele/oluk/vinçler sıçrıyor · ⛔ kart DIFFERENT | 7/7 dikiş | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: İki şeritli asfalt karayolu (00:01 ve 00:39) · 0/9 dikiş kusursuz (9 INTENDED) · kart SAME | 0/9 dikiş | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Yaşlı İncir Ağacı (00:00 ve 00:28) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | V | **8,3**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Ahşap direk ve taş ahır (00:00 ve 00:27.5) · 2/6 dikiş kusurlu (00:08 beliren ve 00:12 yok olan tripod) · kart SAME | 2/6 dikiş | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi. Dört dikişin DÖRDÜ de kusur taşıyor. ⭐ En ağır satır: plana KASTEN yerleştirilen kanıt nesnesi (2,4 m üstü düz granit kaya) 0:05,9 → 0:06,0'da **kayboldu** ve mercek NONE FOUND yazdı. Kanıt nesnesi yazmak yetmiyor [DERS 25].

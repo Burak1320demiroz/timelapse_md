@@ -9,14 +9,26 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       30
-ÖLÇÜLEN FİLM      20
+TOPLAM FİLM       41
+ÖLÇÜLEN FİLM      27
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    15    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE VANISHING ROOM)
-ON İKİ MERCEKLE   11    (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE STONE DRAGON · THE VANISHING ROOM — ⑨ ⑩ ⑪ ⑫ dâhil)
-ALTI MERCEKLE TAM 7     (⑦ ⑧ öncesi / alternatif tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK · THE STONE DRAGON · THE VANISHING ROOM)
-ÜRETİLEN FİLM     19
-YAZILDI, ÜRETİLMEDİ 11  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE GLASS CROSSING)
+SEKİZ MERCEKLE    22    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB)
+ON İKİ MERCEKLE   18    (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE STONE DRAGON · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB — ⑨ ⑩ ⑪ ⑫ dâhil)
+ALTI MERCEKLE TAM 8     (⑦ ⑧ öncesi / alternatif tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK · THE STONE DRAGON · THE VANISHING ROOM · THE LAST FIRING)
+ÜRETİLEN FİLM     26
+YAZILDI, ÜRETİLMEDİ 15  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE LONG SHADOW v2 · THE GLASS WALL · THE STONE TOWER · THE IRON BRIDGE · THE DEEP STEP)
+```
+
+```
+⚠️ 28.09.2026 — KAYIT AÇIĞI, BACK TO PLUMB yazılırken tespit edildi (sayaç 38 diyordu, INDEX 37):
+   ⛔ THE GLASS WALL (yatay_2_dk_filmler/THE_GLASS_WALL/) bu INDEX'e HİÇ GİRMEMİŞTİ.
+   Klasör tam: PLAN · BÖLÜM 1 · BÖLÜM 2 · QA_SPEC · KAPAK · MÜZİK · YAYIN PAKETİ · ÜRETİM GÜNLÜĞÜ
+   · 00_ANALIZ. 16:9 · 12 × 10,0 = 120,0 sn + 5,0 sn kapak kartı · YATAY ailesi · 28.09.2026.
+   Durumu KENDİ günlüğünden okundu: '⛔ BOŞ — araç kapısı KOŞULMADI' → YAZILDI, ÜRETİLMEDİ.
+   ⛔ Başka hiçbir alanı buraya yazılmadı: bu film bu oturumda YAZILMADI, yalnız SAYILDI.
+   ⚠️ Ayrıca kendi planı 'Havuz kaydı: YAYIN_PLANI §5 #5 THE GLASS WALL' diyor ama §5 satır 5
+      THE EMPTY RIDGE'dir; film YAYIN_PLANI'nda da kayıtlı DEĞİL. İki açık da sahibin kararını bekler.
+   ⚠️ İkinci kez oluyor: THE LAST LIFT de (35. film) YAYIN_PLANI §3/§4'te hâlâ kayıtlı değil.
 ```
 
 ## TAMLIK MATRİSİ
@@ -48,7 +60,18 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | ONE MORE TURN | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 18.09.2026 · 6 × 8,0 · ilk su çarkı · ⭐ ilk rejim G gerçek zaman) |
 | THE SWALLOWED BUS | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 19.09.2026 · 7 × 8,0 · ilk şehir içi altyapı onarımı · ⭐ ikinci aşağı bakış · ikinci rejim G) |
 | THE TIDE GATE | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 22.09.2026 · 7 × 8,0 · ilk fırtına seddi · ⭐ dikey havuzun ilk YATAY filmi · üçüncü rejim G · üçüncü müziksiz) |
-| THE GLASS CROSSING | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 24.09.2026 · 7 × 8,0 · ilk cam döşeme · ⭐ şeffaflığı ÖLÇÜLEBİLİR yapan ilk film · ilk vinçsiz boğaz geçişi · fikir sahipten · sekizinci DİKEY) |
+| **THE GLASS CROSSING** | Ⓥ 8,9 | **8,1** | Ⓥ 10,0 | Ⓥ 8,5 | Ⓥ 8,7 | Ⓥ 10,0 | Ⓥ 9,1 | **9,2** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · DÖRT TANE 10/10 · ASGARİ SET TAM (① 8,9 · ② 8,1 · ⑤ 8,7) · ⛔ VİNÇ İHLALİ |
+| **THE MOUNTAIN CROWN** | Ⓥ 8,1 | **7,3** | Ⓥ 5,7 | Ⓥ 6,9 | Ⓥ 5,6 | Ⓥ 6,4 | Ⓥ 7,0 | ⛔ belgesiz 6,0 | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET DÜŞTÜ (② 7,3 · ⑤ 5,6) · ⛔ BİTİŞ KARTI İHLALİ · ⛔ SİHİRLİ OYMA |
+| **THE LAST HARBOR** | Ⓥ 9,8 | **10,0** | Ⓥ 9,8 | **9,5** | Ⓥ 10,0 | Ⓥ 9,4 | Ⓥ 10,0 | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ALTI TANE 10/10 · ASGARİ SET TAM (① 9,8 · ② 10,0 · ⑤ 10,0) · ORTALAMA 9,79 |
+| **THE FIRST GUEST** | Ⓥ 9,3 | **9,3** | **10,0** | **9,6** | Ⓥ 9,4 | **10,0** | Ⓥ 10,0 | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ALTI TANE 10/10 · ASGARİ SET TAM (① 9,3 · ② 9,3 · ⑤ 9,4) |
+| **THE LAST FIRING** | Ⓥ 9,4 (33 kare) | **10,0** | Ⓥ 8,9 | **8,0** | Ⓥ 10,0 | **9,7** | Ⓥ 8,8 | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM (① 9,4 · ② 10,0 · ⑤ 10,0) · ORTALAMA 9,57 (8 mercek: 9,35) |
+| **THE LAST LIFT** | Ⓥ 9,7 | **9,9** | Ⓥ 9,8 | Ⓥ 9,6 | Ⓥ 10,0 | **10,0** | Ⓥ 9,6 | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM (① 9,7 · ② 9,9 · ⑤ 10,0) · 🏆 REKOR ORTALAMA 9,83 |
+| THE LONG SHADOW v2 | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 28.09.2026 · 7 × 8,0 · ⭐ ilk GÖLGE filmi · ⭐ ilk BİRİMSİZ defter (ORAN · beşinci tür) · ⭐ tarihi hesaptan çıkan ilk film (ekinoks sabiti 4,1413 m) · ⭐ son yükseklik türetilmiş (11,34 m) · konu ajandan, üç öneriden ajanın önerisi seçildi · dokuzuncu DİKEY · ⭐ v1'in YENİDEN PLANI: v1 üretildi, 4/4 mercek düştü, yayınlanmadı) |
+| **BACK TO PLUMB** | Ⓥ 6,8 (32 kare) | **8,4** | Ⓥ 9,1 | **6,1** | Ⓥ 8,3 karesiz | **9,6** | Ⓥ 8,2 | **9,3** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 6,8 · ② 8,4 · ⑤ 8,3) · ORTALAMA 8,80 (8 mercek: 8,23) · ⛔ FINAL BEAT FAIL · ⛔ §3 ÇATLAK SIVANMASI |
+| THE GLASS WALL ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 28.09.2026 · 12 × 10,0 · YATAY ailesi) |
+| THE STONE TOWER | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 30.09.2026 · 7 × 8,0 · DİKEY ailesi · kuru taş gözetleme kulesi) |
+| THE IRON BRIDGE ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 30.09.2026 · 12 × 10,0 · YATAY ailesi · tek açıklıklı çelik kemer yaya köprüsü) |
+| THE DEEP STEP | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 30.09.2026 · 7 × 8,0 · ZEMİN ailesi · yeraltı basamaklı su kuyusu / stepwell) |
 | **THE DEEP END** | Ⓥ 9,6 (21 kare) | **10,0** | Ⓥ 10,0 | **9,9** | Ⓥ 10,0 | **9,4** | Ⓥ 9,3 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM |
 | **THE STONE DRAGON** | Ⓥ 6,0 | **9,2** | Ⓥ 9,1 | Ⓥ 5,7 | Ⓥ 3,9 | **9,4** | *V2 Ⓥ 6,5* | 🔴 RED (audit) | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM (⑦/⑧ denetim formatında) · ASGARİ SET DÜŞTÜ (⑤ 3,9) · ⛔ BİTİŞ KARTI İHLALİ |
 | **THE VANISHING ROOM** | Ⓥ 8,9 | **10,0** | Ⓥ 10,0 | Ⓥ 9,5 | **9,9** | Ⓥ 9,6 | Ⓥ 8,4 | **9,9** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · BEŞ TANE 10/10 · ASGARİ SET TAM (① 8,9 · ② 10,0 · ⑤ 9,9) |
@@ -190,7 +213,325 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 ## DURUM
 
 ```
-THE GLASS CROSSING — OTUZUNCU FİLM · İLK CAM DÖŞEME · ⭐ ŞEFFAFLIĞI ÖLÇÜLEBİLİR YAPAN İLK FİLM · ⭐ FİKİR SAHİPTEN · YAZILDI 24.09.2026 · ⛔ ÜRETİLMEDİ
+BACK TO PLUMB — OTUZ YEDİNCİ FİLM · ⭐ DEPONUN İLK DÜZELTME FİLMİ · ⭐ İLK SAPMA DEFTERİ · ⭐ İLK 'DEĞİŞMEMESİ GEREKEN' ÖLÇÜM · ÖNERİ 28.09.2026 · YAZILDI 28.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · ÜÇ TANE 10/10 TAM PUAN (⑨ 10,0 · ⑩ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 6,8 · ② 8,4 · ⑤ 8,3) · 8 MERCEK ORTALAMASI: 8,23/10 · 12 MERCEK: 8,80/10 · ⛔ §5 FINAL BEAT FAIL (STOPS) · ⛔ §3 ÇATLAK SIVANMASI
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare (G0..G7) + 7 I2V
+   YAPI: bir ova çiftliğinin avlusunda YATIK YUVARLAK TUĞLA TAHIL KULESİ — h 9,60 m, dış çap 3,20 m,
+      duvar 0,35 m, konik kiremit şapka, gövde 30,08 m³ = 57,2 t. Yatıklık 5,00°, tepe taban
+      ekseninden 0,837 m kaçık. Sebep kadrajda görünür: tek sıra DONATISIZ tuğla ayak halkası.
+      ⭐ HİÇBİR ŞEY İNŞA EDİLMEZ, HİÇBİR ŞEY YIKILMAZ — altı kuyu, iki parça çelik taban kirişi,
+      altı 20 t kriko, kademeli kaldırma. ⭐ KALKIŞ TÜRETİLDİ: 0,2800 m = 3,20 × tan 5,00°.
+      ⛔ Vinç yok, iskele yok, kuleye hiçbir şey eklenmez — bütün iş taban kotunun ALTINDADIR.
+   KAYNAK: Sahip "dikey 3 yeni konu öner" dedi. Ajan üç DİKEY konsept sundu (BACK TO PLUMB (SAPMA) ·
+      THE GAP CLOSES (UZUNLUK) · THE LAST CAIRN (HACİM)) ve ①'i önerdi; sahip "senin önerine başla"
+      dedi, ajan sahne sahne öneriyi sundu, sahip "hazırla" dedi. ⭐ Konu ajandan.
+   ⭐ DEFTER (SAPMA · altıncı tür): konik şapkanın ucunun x'i − taban halkası merkezinden inen düşeyin x'i.
+      64,6 → 55,0 → 46,0 → 37,0 → 27,0 → 18,0 → 9,0 → 0,0 px. Yedi adım: 9,6 · 9 · 9 · 10 · 9 · 9 · 9.
+      ⛔ Kesinlikle azalan, eksiye geçmez, G7 = 0,0 ± 2 px filmin TANIMIDIR.
+   ⭐ ÜÇ ÖLÇÜM: ① defter AZALIR ② yeni tuğla kaması BÜYÜR (0 → 26 px) ③ eski çatlak HİÇ DEĞİŞMEZ (4,6 px).
+      ③ deponun ilk 'sabit kalması gereken' ölçümüdür: kule doğrulmuş ama yarılmışsa film düşer.
+   ⛔ ROLL KAPISI: şapkanın ucu kadraj merkezinin 563 px üstünde → roll 0,2° tek başına 1,97 px yalancı
+      kaçıklık üretir (bir adımın beşte biri). Ölçüm kuleden değil, iki DIŞ düşeyden yapılır (ahşap direk
+      x% 10,0 · ahır köşesi x% 82,0; taban 778 px → eğim farkı ≤ 2,71 px). ⛔ Döndürerek kurtarma YOK,
+      ⛔ yazılım stabilizasyonu YASAK. Bu deponun ilk 'kadrajın kendisi ölçü aletidir' filmidir.
+   SAHA: 41°K · ekim başı (δ −5°) · gün 11 sa 25 dk · pencere 07:00 → 15:30 · ışık günü 8 sa 30 dk
+      istasyon h +1,60 m · d 14,00 m · bearing 340° · tilt 6° yukarı · roll ⛔ 0 · 24 mm
+      ⛔ güneş azimutu 104° → 240°, kadraj 313,4° … 6,6° — hiçbir karede kadraja girmez
+   REJİM: B × 4 + A × 3 (iki rejim) · ⛔ rejim G yok · ⭐ ikinci saat: kulenin kendi gölgesi
+      (69,2 → 10,4 → 22,0 m; sabah kadrajın solundan, öğlen tam arkadan, ikindi sağından)
+   ⚠️ BEYAN EDİLEN ZAYIFLIK: final görsel olarak deponun en sessiz karesidir ('düz bir kule').
+      120 px küçük resimde kama 2,9 px kalır. ⛔ Kırpma, kontrast itmesi ve ikinci açı ile
+      kurtarılmaz; kapak dosyası §1 bunu ölçerek kaydeder.
+   DOSYALAR: dikey_shorts/BACK_TO_PLUMB/ — PLAN (992 satır) · QA_SPEC (304) · KAPAK (130)
+   KAPI: prompt_kontrol.py → ⚠️ FIX 2 (ikisi de beyanlı: ARAÇ KUTU SETİ ölçülmedi · ⑥ METRONOM) · BLOCK 0
+   ⭐ ÜRETİLDİ: 12 mercek raporlandı (QA/RAPORLAR/BACK_TO_PLUMB.md) · asgari set tam · defter G0→G7 tuttu · ⛔ §3 çatlak sıvanması ve §10 müzik ihlali tespit edildi
+   ⛔ YAYIN: LONG SHADOW v2 (DİKEY) ile ARDIŞIK YAYINLANAMAZ — araya DİKEY olmayan bir film girmeli.
+
+THE LONG SHADOW v2 — OTUZ ALTINCI FİLM · ⭐ DEPONUN İLK GÖLGE FİLMİ · ⭐ İLK BİRİMSİZ DEFTER (ORAN) · ⭐ TARİHİ HESAPTAN ÇIKAN İLK FİLM · ÖNERİ 27.09.2026 · YAZILDI 28.09.2026 · ⛔ ÜRETİLMEDİ
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare (G0..G7) + 7 I2V
+   YAPI: eski bir tepe kasabasında 3,60 m'lik aralık sokağa sıkışmış ÜÇ KATLI DOLGU EV — parsel
+      12,00 × 6,40 m, iki yanında tek katlı taş depo (saçak 3,60 m), iki blok ayırma duvarı,
+      prekast merdiven çekirdeği (tek kaldırma), iki CLT kat kaseti, çatı kaseti, taş harpuşta.
+      ⭐ SON YÜKSEKLİK SEÇİLMEDİ, TÜRETİLDİ: 11,34 m = 7,20 + 3,60 × cot 41° = 7,20 + 4,1413.
+      ⛔ Dış iskele YOK, vinç kadrajda YOK (sokak 3,60 m) — ağır parçalar meydandaki bomdan tek zincirle iner.
+   KAYNAK: Sahip "yeni 3 öneride bulun" dedi. Ajan üç DİKEY konsept sundu (LONG SHADOW · GAP CLOSES ·
+      LAST MAST), her birinin defter cinsini ve ÖLÇÜLMÜŞ riskini yazdı ve ①'i önerdi. Sahip
+      "önerini hazırla" dedi; sahne sahne öneri sunuldu; sahip "hazırla" dedi.
+   KAMERA: h +1,60 m · d 18,00 m (parsel merkezi) · bearing 270° (batı) · tilt 6° YUKARI · roll 0 · 24 mm.
+      Ufuk %42,993 = 825 px — ⭐ GÖRÜNMEZ: gökte değil, iki saçak hattının birleşeceği noktada.
+   ⭐ DEFTER (beşinci tür · ORAN · BİRİMSİZ): gölge çizgisinin karşı duvardaki yüksekliği ÷ o duvarın
+      kendi yüksekliği, aynı karede aynı sütunda iki px uzunluk:
+      0,000 · 0,094 · 0,323 · 0,546 · 0,698 · 0,848 · 0,955 · 1,000  (±0,006) — kesinlikle artan.
+      ⭐ Ham px defteri sahnelerin SIRASINI değiştirirdi (S4 180 px ile en büyük görünür, oysa duvar
+      en çok S1'de kaybeder: 0,228). Bant 27,50 m'den 13,40 m derinliğe kayar, px/m 46,3 → 93,7.
+   ⭐ EKİNOKS: δ = 0'da doğu-batı bir duvara düşen gölge çizgisinin düşüşü GÜN BOYU SABİTTİR ve yalnız
+      enlemden gelir: 3,60 × cot 41° = 4,1413 m (06:02'de de 17:58'de de aynı; min = maks, ölçüldü).
+      Güneş deftere hiçbir şey katmaz; çizgiyi yalnız inşaat yükseltir. Ekinoks MENTEŞE GÜNÜDÜR:
+      o günden 21 Mart'a kadar karşı duvar hiçbir saatte güneş almaz (mevsim tablosu planda).
+   IŞIK: 41°K · ekinoks · gün 12 sa · pencere 08:00 → 14:40 = 6 sa 40 dk · rejim B × 3 + A × 4.
+      Güneş azimut 111° → 232°, kadraj 243,4° … 296,6° → hiçbir karede kadrajda değil (pay 51 dk).
+   SES: ⛔ müzik yok · tam diegetik · ⭐ 3,60 m'lik sokağın 21 ms'lik tek yankısı filmin imzası.
+   SİLUET: DİKEY (dokuzuncu) · ızgara DİKEY 9 · ZEMİN 6 · KÜTLE 7 · YATAY 2 · LAST LIFT KÜTLE'den sonra ✅
+   DOSYALAR: dikey_shorts/THE_LONG_SHADOW_V2/ → _DIKEY_TIMELAPSE.md (961 satır) · _QA_SPEC.md (263) · _KAPAK.md (132)
+   KAPI: prompt_kontrol.py → FIX 2 (ikisi de beyanlı: düz ızgara [DERS 13], araç kutu seti ölçülmedi) · BLOCK 0
+   ⛔ ÜRETİLMEDİ: araç kapısı koşulmadı · tek kare üretilmedi · pilot görsel test edilmedi
+   ⭐ PİLOT: G7 (defter 1,000 · |pay − payda| ≤ 2 px — tutmazsa BÜTÜN PLAN yeniden yazılır) +
+      S0 klibi (defter 7,45. sn'de açılıyor mu) + G2/G4 (20 dakikada gölge yönü değişmemeli)
+   ⭐ v1 BAĞI: bu film deponun İLK FİLMİNİN yeniden planıdır. v1 üretildi, dört merceğin dördü de
+      düştü (① 3,3 ALTI AYRI GÖRÜNTÜ · ② 0,4 FARKLI/APPEARING · ③ 4,3 yön kırık · ④ 2,7 DURUYOR)
+      ve karar 'yeniden planlanıp yeniden üretilir' idi. Planın §v1'İN CEVABI bölümü v1'in yedi
+      arızasını tek tek karşılar. Havuz satırı 1'in bedeli korundu, ölçülebilir hâle getirildi.
+      ⛔ v1'in QA kaydı ayrıdır (matriste 'THE LONG SHADOW v1'); klasör adı bu yüzden _V2'dir.
+   ⚠️ v1'in plan dosyası (dikey_shorts/THE_LONG_SHADOW/, 791 satır) KANIT OLARAK YERİNDE DURUYOR ve
+      dokunulmadı. v2 ayrı klasördedir (_V2). ⛔ v1'in kendi içindeki 'v2 şöyle yazılacak' notu
+      (10 sahne × 6 sn + 5 sn kapak kartı = 65 sn) ARTIK GEÇERSİZDİR: sahne süresi 8,0 sn ve
+      video içi kapak kartı yok — ikisi de sonraki sahip kuralları (19.09.2026 · 21.09.2026).
+   ⭐ DERS: P20-a…g [kilavuzlar/DERSLER.md]
+
+THE LAST LIFT — OTUZ BEŞİNCİ FİLM · ⭐ DEPONUN İLK STADYUM FİLMİ · ⭐ İLK 260M ÇELİK UZAY KAFES ÇATI VE STRAND JACK LİFTİ · ⭐ ÜRETİLDİ VE ÖLÇÜLDÜ (12/12 QA) — 28.09.2026
+   🏆 DEPO REKORU: 9,83 / 10 GENEL ORTALAMA · YEDİ MERCEKTE TAM 10/10 (⑤ ⑥ ⑧ ⑨ ⑩ ⑫ + ⑥ 120 BPM senkronu) · RAPOR: QA/RAPORLAR/THE_LAST_LIFT.md
+   dikey_shorts · ızgara 10 × 6,0 = 60,0 sn · hızlandırılmış 44,0 sn master · 120 BPM müzik · zincirli · 11 kare (G0..G10) + 10 I2V
+   YAPI: 60.000 kişilik stadyum çanağı + 260m çelik uzay kafes çatı (strand jack ile 4 geçici kafes kuleden kaldırılır).
+   KAYNAK: Sahip "viral bir timelapse dikey shorst planlarmısın" dedi. Ajan 3 konsept sundu (stadyum seçildi), kullanıcı başlığı "THE LAST LIFT" olarak seçti.
+   KAMERA: h +45,0m · D_kenar 120,0m · D_eksen 220,0m · bearing 315° (KB) · tilt -25° (aşağı) · roll 0° · 24mm. Ufuk tabandan 1557 px (%81,09), üstte 363 px dağ sırtı ve açık gök.
+   DEFTER: Çatının yükseliş defteri (S0-S4 zemin/çanak, S5 çatı montajı zemin kotunda +3,0m, S6 kaldırma başlar +18,0m, S7 kaldırma biter +54,0m, S8 kilit + membran, S9 zemin/çim, S10 tamamlandı).
+   DOSYALAR: THE_LAST_LIFT_DIKEY_TIMELAPSE.md (791 satır) · _QA_SPEC.md (260 satır) · _KAPAK.md (180 satır)
+   KAPI: prompt_kontrol.py -> FIX 2 (beyanlı: düz ızgara [DERS 13], araç kutu seti ölçülmedi) · BLOCK 0
+   ⭐ PİLOT: G10 (usta kare) + G6 (kaldırma anı) + G5 (zemin montajı)
+
+THE LAST FIRING — OTUZ DÖRDÜNCÜ FİLM · ⭐ İLK YANMA FİLMİ · ⭐ İLK TAM EL İŞİ YAPIMI · ⭐ DEFTERİ KADRAJIN DIŞINA KAPANAN İLK FİLM · ⭐ İLK İKİ YÖNLÜ DEFTER · YAZILDI 26.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · YEDİ TANE 10/10 TAM PUAN (② 10,0 · ⑤ 10,0 · ⑧ 10,0 · ⑨ 10,0 · ⑩ 10,0 · ⑪ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 9,4 · ② 10,0 · ⑤ 10,0) · FINAL BEAT PASS (8/10) · ORTALAMA: 9,57/10
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: elle örülen TARLA TİPİ KİREÇ OCAĞI — dış Ø 3,40 m · tepe +2,20 m · korbelli taş kubbe ·
+      iç yanma odası Ø 2,40 × 1,60 m · ateş ağzı 0,60 × 0,80 m · tepede Ø 0,55 m baca gözü ·
+      kil + saman sıva 0,10 m (23,50 m² → 2,35 m³). ⭐ Kemer KUM KALIBIN üstüne örülür ve kum ateş
+      ağzından kürekle çıkarılır (3,00 → 3,45 m³ kabarmış; kadrajda ÖNLÜK olarak kalır, geri dönmez).
+      YÜK 8,98 m³ dizili kireçtaşı = 15,8 t. ⭐ CaCO3 15,8 t → CaO 8,83 t + CO2 6,93 t (%43,97 GAZ).
+      İş: serilir → kalıplanır → örülür → yüklenir → tutuşur → yanar → açılır.
+   KAYNAK: sahip "yeni bir konu bulalım öneride bulun 3 tane" dedi. Ajan üç KÜTLE konusu sundu —
+      ① THE LAST TERRACE (denklik defteri · su saati) ② AWAY FROM THE EDGE (mesafe defteri · ⛔ ana
+      yapı kımıldıyor, RİSKLİ işaretlendi) ③ THE LAST FIRING (görünmez defter · ateş saati). Sahip
+      "the last fırıng olsun" dedi; ajan sahne sahne öneri sundu; sahip "onay" dedi.
+   KAMERA: ısı paravanının gerisinde sabit sehpa · h +2,00 m · d 8,50 m (kubbe merkezi) · d 6,80 m
+      (ön yüz) · bearing 340° · ⭐ TİLT 6° AŞAĞI · roll 0 · 24 mm · KAMERA_DILI §3.
+      ⭐ UFUK KADRAJDA VE CETVEL: %57,007 = tabandan 1095 px · üstte 825 px açık gök.
+      kare dibi d 2,15 m · optik eksen d 19,03 m · kadraj eni = d = 8,50 m → yatay 127,06 px/m ·
+      dikey ocakta 148,9 px/m → ⭐ ayrıntı tabanı 0,23 m (DEPONUN EN YAKIN İSTASYONU).
+      ⭐ h SEÇİLMEDİ, HESAPLANDI: kubbenin kapanmadan önceki son yüksekliğine EŞİT → G3 defteri TAM SIFIR.
+   ⭐ DEFTER (dördüncü tür · İŞARETLİ MESAFE · iki yönlü): ocağın tepesi ile ufuk arasındaki fark
+      G0 −246 · G1 −165 · G2 −83 · G3 ⭐0 · G4 ⭐+31 · G5 +18 · G6 −33 · G7 −36 px (±2 px)
+      ⛔ G0→G4 KESİN ARTAR (örülüyor) · ⛔ G4→G7 KESİN AZALIR (yanıyor) · dönüm G4 = ateşin verildiği kare
+      ⭐ Defterin biçimi ile filmin biçimi aynı biçimdir. Toplam oturma 0,44 m = 67 px (tam yanmanın %71'i).
+      ÇAPRAZ DEFTER: kum önlüğü 831 × 132 px — G2'de belirir, hiçbir karede küçülmez.
+   KADRAJ: kubbe 432 × 328 px (%40,0 en · taban 797 px) · yaşlı incir 234 × 488 px (%x 9,17–30,83,
+      tacı ufkun 276 px üstünde) · ateş ağzı 95 × 145 px · ham bant 143 × 90 px (sol etek, G4→G7) ·
+      baca gözü 87 px (⛔ küçük resimde 9,7 px, okunmaz — beyanlı) · taş yığını 576 × 199 px (G0–G2).
+   IŞIK: 43°K · δ +12° · gün 13 sa 32 dk (05:14 → 18:46) · pencere 06:00 → 18:10 = 12 sa 10 dk ≤ 14 ✅
+      rejim B × 6 + ⭐ A × 1 (iki rejim) · ⛔ REJİM G YOK [P16-g]
+      yakın yüz katsayısı 0,192 · 0,460 · 0,567 · 0,484 · 0,233 · 0,000 · 0,000 · 0,000
+      ⭐ ocağın kendi saati (kor) 0,00 · 0,00 · 0,00 · 0,00 · 0,02 · 0,30 · 0,80 · 1,00
+      ⭐ İKİ SAAT S4'ün 3,32. saniyesinde KESİŞİR (≈14:50) · güneş yakın yüzü 5,41. saniyede terk eder (15:21)
+      ⛔ Güneş hiçbir karede kadraja girmez (kadraj 313,4°…6,6°, azimut 81° → 281°).
+   SES: ⭐ TAM DİEGETİK (hava var) — taş, kürek, mala, çalının tutuşması, çekiş uğultusu, kilin çatlaması.
+      Ölçülebilir iddia: 51,0–53,5'te RMS, 40,0–48,0 ortalamasının ≥ 6 dB üstünde, enerjinin ≥ %70'i < 200 Hz.
+   SİLUET: KÜTLE (altıncı) · FIRST GUEST ⭐ZEMİN → LAST FIRING KÜTLE ardışık yayınlanabilir
+      ⛔ NARROW GORGE · ONE MORE TURN · BACK TO WATER · BLUE DOOR · MOUNTAIN CROWN ile olmaz
+      Izgara DİKEY 8 · ZEMİN 6 · KÜTLE 6 · YATAY 2
+   DOSYALAR: THE_LAST_FIRING_DIKEY_TIMELAPSE.md (892 satır) · _QA_SPEC.md (238) · _KAPAK.md (123)
+   KAPI: prompt_kontrol.py → ⚠️ FIX 2 (ikisi de BEYANLI: ⛔ kutu seti ölçülmedi · ⑥ METRONOM) ·
+      ⛔ BLOCK 0 · MOTION FOCUS FIX 0 · prompt uzunlukları 4 980 – 5 143
+   ⭐ ÜRETİLDİ: 12 mercek raporlandı (QA/RAPORLAR/THE_LAST_FIRING.md) · asgari set tam · defter sıfır sapmayla tuttu · 8 mercek ortalaması: 9,35 / 10 · 12 mercek ortalaması: 9,57 / 10
+   ⭐ PİLOT: G3 + G4 (|defter(G3)| ≤ 2 px) — tuttu (|defter(G3)| = 0 px, |defter(G4)| = +31 px)
+   DERSLER: P19-a…g
+
+THE FIRST GUEST — OTUZ ÜÇÜNCÜ FİLM · İLK HAVASIZ SAHA FİLMİ (GÜNCEL KONTRATLA) · ⭐ ÖLÇEĞİ BİLEREK SAKLAYAN İLK FİLM · ⭐ İLK TEK REJİMLİ FİLM · ⭐ FİKİR SAHİPTEN · YAZILDI 26.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · ALTI TANE 10/10 TAM PUAN (③ 10,0 · ⑥ 10,0 · ⑦ 10,0 · ⑧ 10,0 · ⑩ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 9,3 · ② 9,3 · ⑤ 9,4) · FINAL BEAT PASS (9/10) · ORTALAMA: 9,66/10 · ⚠️ HAVASIZ SAHADA ASILI TOZ SAPMASI (⑪ 8,5)
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: havasız bir ayda, BAŞKASININ YAPTIĞI 160,00 m'lik kesme kaya kapısının önüne kurulan 4,50 m'lik
+      İNSAN GEÇİŞ KİLİDİ — iki tarafın kıyafet çıkarmadan buluşabileceği tek oda. Pad 14,00 × 10,00 m,
+      0,60 m kazılıp SİNTERLENMİŞ cam taban · 6 kavisli kaburga · panel + gergin dış örtü · gövde
+      6,00 × 5,00 m, kapısı 2,40 × 2,60 m ve KARŞI KAPIYA BAKAR · gemiden 3 sehpalı göbek bağı.
+      Karşısında 12,00 × 12,00 m'lik KARE SERVİS GEÇİDİ (kadrajda 216 × 315 px — insan kilidinin 2,08 KATI).
+      ⛔ KAPININ TEPESİ HİÇBİR KAREDE GÖRÜNMEZ: d 60,00'da kadrajın üst kenarı yalnız y = +17,01 m'ye ulaşır.
+   KAYNAK: sahibin yapıştırdığı 4 dakikalık, iki karakterli, anlatılı bilim-kurgu fikri ("İLK MİSAFİR":
+      genç keşifçi, dev muhafız, ritimle kurulan selamlaşma, ayın iç yüzeyindeki şehir). Ajan ÜÇ ÇARPIŞMA
+      bildirdi: ① 4 dk anlatı · iki kostüm · mekân değiştiren kesme · kamera hareketi — dördü de formatın
+      kendisine aykırı ② ⛔ FİKİRDE İNŞAAT YOK (üst üste üçüncü kez) ③ dev şehir reveal'ı tek kadrajda
+      gösterilemez. Ajan fikrin TEK timelapse'lik görüntüsünü aldı — ⭐ ÖLÇEK YANILGISI ("sütun sandığımız
+      şey bir bacak") — ve altına gerçek bir yapım işi koydu: misafirin BAŞKASININ KAPISININ ÖNÜNE
+      KENDİ KAPISINI kurması. Muhafız GÖVDE olarak değil, GÖLGE olarak kaldı (aşağıda).
+      Sahip 26.09.2026'da "oney" dedi.
+   KAMERA: iniş gemisinin direğinde sabit tripod · h +14,00 m · d_yüz 60,00 m · ⭐ D_eksen 39,00 m ·
+      d_sütun 44,00 m [DERS 38] · bearing 270° · ⭐ TİLT 34° AŞAĞI · roll 0 · 24 mm · KAMERA_DILI §3.
+      ⛔ KADRAJDA GÖK YOK, UFUK YOK, KARA YOK. Kadrajı kapatan şey kapının KENDİSİDİR (%75,41'den yukarısı).
+      kare dibi d 4,86 m · kum bandı %0 → %75,41 = 1 448 px · px/m yatay d38 28,42 · d60 18,00 · dikey 31,9
+   BEDEL: ⭐ DOKUNULMAMIŞ KUM. G0'da alt 1 448 pikselin TAMAMI milyonlarca yıllık, rüzgârsız, izsiz
+      orijinal dalgalı dokudadır. ⭐ Havasız bir ayda hiçbir şey izi SİLMEZ — misafirin ilk yıktığı şey,
+      buraya kimsenin gelmemiş olmasıdır.
+   DEFTER: ⭐ TEMİZ KUM ALANI (yüzde) 100 · 92 · 71 · 55 · 44 · 38 · 35 · 35 — monoton azalan, G6'da DONAR.
+      ⭐ ÜÇÜNCÜ TÜR DEFTER: MOUNTAIN CROWN bir KENAR ölçtü, LAST HARBOR bir SAYI saydı, bu film bir ALAN
+      ölçüyor [P18-d]. HACİM: 84,0 m³ katı × 1,20 = 100,8 m³ gevşek → solda 2,25 m yüksek (72 px) yığın;
+      hiçbir şey kadrajı terk etmez.
+   TANIK: ① ⭐ 11,00 m'lik SERBEST TAŞ SÜTUN (367 × 61 px · %x 15,34 → 21,02) — fikrin "sütunu" budur ve
+      hiç dokunulmaz; ilk yarıda GÖLGESİ saattir (182,1 → 63,1 → 41,4 → 34,6 m) ② kapı tabanı çizgisi
+      (%75,41 · 1 448 px) ③ dört nervür (%x 5,00 · 35,00 · 50,00 · 58,33)
+   ÖDÜL: ⭐ bir nesne değil, bir TEMAS — karşı tarafın ışığının bizim kapımıza ULAŞMASI. G7'de 225 piksellik
+      turuncu kama padı geçer ve küçük beyaz kabuğun yakın yüzünü yıkar. Kimse konuşmaz, kimse görünmez.
+   ⭐ MUHAFIZ = GÖLGE: G7'de turuncu kamayı baştan sona kesen, ≈120 px eninde, DÜZ KENARLI, AYRINTISIZ
+      tek koyu bant. Gövde yok, uzuv yok, yüz yok. Sebep hesaplandı: 12 m'lik bir figür bu kadrajda
+      ≈380 px olur ve filmin ÖZNESİ hâline gelir; timelapse ölür, yaratık filmi başlar.
+      ⛔ Sekiz görselin ve yedi I2V'nin hiçbirinde yaratık kelimesi GEÇMEZ (tarandı, 0) [P18-g].
+   IŞIK: 72° kuzey · δ 0 · ay günü 32 saat · gündüz 16,00 sa · doğuş 04:00 · batış 20:00
+      ışık günü 05:00 → 19:00 = ⭐ 7 × 2,00 = 14,00 sa — TAVANIN TAM ÜSTÜNDE, sıfır israf
+      kaya yüzü katsayısı 0,981 → 0,831 → 0,556 → 0,195 → 0,000 · kum katsayısı 0,060 → 0,303 → 0,000
+      ⭐ İKİ EĞRİ FİLMİN ORTASINDA KESİŞİR: ışık duvardan yere, sonra yerden hiçbir yere gider.
+      ⭐ GÖLGE BIÇAĞI: S3 klibinin 4,00 → 6,32. saniyeleri arasında 160 m'lik kayanın gölge kenarı bütün
+      kadrajı 2,32 saniyede süpürür ve geçtiği her ışıklı kum sırtı SIRAYLA söner. Havasız → yarı gölge YOK.
+      İkinci yarının saati IŞIK KAYNAĞI SAYISI (3 → 4 → 5 → ⭐ 6) ve SIÇRAMA MESAFESİDİR (103 → 2 603 m).
+      ⛔ Güneş hiçbir karede kadrajda değil, iki ayrı sebeple: 05:00–12:00 kameranın ARKASINDA,
+      13:00–19:00 kayanın ARKASINDA.
+   ⭐ SES: deponun ilk DİEGETİK OLMAYAN yatağı. Havasız sahada dışarıda ses yoktur; yatak tamamen kaskın
+      içidir (nefes · kumanda · TEMASLA iletilen titreşim). Filmin en büyük görsel olayı (28,0'deki bıçak)
+      filmin EN SESSİZ anıdır; en yüksek sesi ise 50,0–53,5'te taş kanadın KUMDAN gelen titreşimidir [P18-e].
+   SİLUET: ⭐ ZEMİN (altıncı · HIDDEN OASIS · SWALLOWED BUS · EMPTY LOCK · DEEP END · VANISHING ROOM'dan sonra)
+      Izgara DİKEY 8 · ZEMİN 6 · KÜTLE 5 · YATAY 2. LAST HARBOR YATAY → FIRST GUEST ZEMİN ardışık OK.
+      ⚠️ KÜTLE bilerek seçilmedi: kadrajı kaplayan bir kaya yüzü MOUNTAIN CROWN'ı tekrarlardı [P18-c].
+   DOSYALAR: THE_FIRST_GUEST_DIKEY_TIMELAPSE.md (994 satır) · THE_FIRST_GUEST_QA_SPEC.md (266) ·
+      THE_FIRST_GUEST_KAPAK.md (132)
+   ⛔ KAPI: prompt_kontrol.py → FIX ×2 (ARAÇ KUTU SETİ ölçülmedi · yedi sahne de 8,0 → ⑥ METRONOM),
+      ikisi de BEYANLI · BLOCK 0 · MOTION FOCUS FIX 0 · prompt uzunlukları 5 292 – 5 651
+   AÇIK: platform başlığı · ⛔ ses üretim yolu (standart yol YOK — temas iletimli yatak) ·
+      ⛔ ARAÇ KUTU SETİ ölçülmedi (üretimi BLOKE ediyor) · kapak varyantı (⭐ bu filmde ⓑ BAŞLIKSIZ
+      ÖNERİLMİYOR, kare çok koyu; ⓒ alt başlık "DAY ONE" ciddi aday) · yayın aralığı
+   EN BÜYÜK RİSK: ⭐ KOYU BANT (QA_SPEC §1). Model onu bir yaratığa çevirirse film düşer; hiç üretmezse
+      final ölür. ⛔ YEDEK PLAN YOK — bandı çıkarmak finali yok eder. Bu yüzden pilot S6'dır.
+   PİLOT: G6 → G7 → S6 (koyu bant · deponun modele verdiği en zor tek talimat) → S3 (2,32 saniyede
+      bütün kadrajı karartan sert gölge bıçağı) → G0 → G1 → kalanlar
+   ⭐ REJİM: 7 × B, TEK REJİM. ⛔ G kullanılmadı [P16-g], A kullanılmadı [P17-d]. Gerekçe: 12 m'lik taş
+      kanat dakikalarca kayar; rejim G burada YALAN SÖYLERDİ. ÖLÇÜLMEDİ: yedi eşit sıkıştırma ⑥ merceğinde
+      "tekdüze" okunur mu, yoksa ışık eğrisi tek başına yeter mi? [P18-f]
+
+THE LAST HARBOR — OTUZ İKİNCİ FİLM · İLK KAYSON · ⭐ ANA YAPISI İLK KAREDE ZATEN TAM OLAN İLK FİLM · ⭐ İLK REJİM-A FİNALİ · ⭐ FİKİR SAHİPTEN · ⭐ ÜRETİLDİ VE ÖLÇÜLDÜ (12/12 QA) — 28.09.2026
+   ⭐ 12 MERCEK TAMAMLANDI · ALTI TANE 10/10 TAM PUAN (② ⑤ ⑦ ⑧ ⑨ ⑩) · GENEL ORTALAMA 9,79 / 10 · FİNAL BEAT PASS 10/10 · RAPOR: QA/RAPORLAR/THE_LAST_HARBOR.md
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: adı verilmeyen bir kuzey kıyısında, eski limanın ağzının DIŞINDA, 36,00 × 16,00 × 22,00 m'lik
+      hücreli betonarme YÜZER KAYSON → liman kolunun başı. 2 115,2 m³ beton = 5 182 t; 9,00 m su çekiminde
+      deplasman 5 314 t (fark +132 t = donatı ve teçhizat payı). Yüzerken fribord 13,00 m; hazır kaya
+      yatağının üstü −16,00 m; oturduğunda tepe +6,00 m, kumla 1,00 m gömülür; 1,50 m başlık plağı →
+      kret +6,50 m; deniz yüzünde 2,50 m parapet → +9,00 m. 5 baba · sol başta 6,00 m fener direği ·
+      sağ uçta geçici kaya bermi. Hücrelere 9 600 m³ kum (3 mavna × 3 200 m³).
+      ⛔ KADRAJDA KARA YOKTUR — kıyı kameranın ARKASINDADIR.
+   KAYNAK: sahibin yapıştırdığı 4 dakikalık, anlatılı, bilim-kurgu fikri ("SON LİMAN — THE LAST HARBOR":
+      fırtınalı gezegen, dev liman, muhafız, limanın aslında bir göç gemisi olduğu ve havalandığı finali).
+      Ajan ÜÇ ÇARPIŞMA bildirdi: ① 4 dk anlatı · karakter · mekân değiştiren kesme · kamera hareketi ·
+      hava değişimi — beşi de formatın kendisine aykırı ② ⛔ FİKİRDE İNŞAAT YOK: hiçbir şey yapılmıyor,
+      eski bir makine uyanıyor; aşama merdiveni, geçici ekipman defteri ve kanıt nesnesi boş kalır
+      ③ finalin "kalkış"ı BACK TO WATER'ın (18. film) iskeletini tekrarlar: su yükselir, gövde takozdan
+      kalkar, gövde gider. Ajan fikri REDDETMEDİ; bir TERSİNE ÇEVİRME ve bir EKLEME yaptı:
+      ⭐ TERSİNE ÇEVİRME — liman gemi çıkıp KALKMAZ; gemi liman çıkıp BİR DAHA HİÇ KIMILDAMAZ.
+         BACK TO WATER'da nesne giderek kurtulur; burada nesne KALARAK TÜKENİR.
+      ⭐ EKLEME — fikrin şaşkınlığını taşıyan GERÇEK bir yapım işi arandı ve bulundu: kaysonun batırılması.
+      Sahip 26.09.2026'da "okeydirr y yap bunu" dedi.
+   KAMERA: eski mendireğin başında sabit tripod · h +18,50 m (ortalama deniz seviyesinden) ·
+      d_yakın 52,00 m · ⭐ D_eksen 60,00 m · d_uzak 68,00 m [DERS 38] · bearing 310° · ⭐ TİLT 15° AŞAĞI ·
+      roll 0 · 24 mm · tilt formülü KAMERA_DILI §3.
+      ⭐ İSTASYON SEÇİLMEDİ, ÜÇ SINIRIN KESİŞİMİNDEN ÇIKTI: 36 m'lik kolun iki başıyla kadraja girmesi
+      ENİ (d 52,00 → 748 px · %69,23), 7,00 m'lik batmanın en az 150 px okunması YÜKSEKLİĞİ
+      (h 18,50 → 169 px), göğün kadrajın üçte birini geçmemesi de TİLTİ (15° → %32,14) belirledi.
+      ⛔ TİLT SIFIR OLAMAZDI: denizde tilt 0 demek ufkun HER ZAMAN tam %50'de durması, yani göğün
+      kadrajın YARISI olması demektir — geometrik zorunluluk, tercih değil [P17-b].
+   BEDEL: ⭐ GEMİLİK — kutunun yüzer olmasına ait ne varsa kadrajda tek tek yok olur:
+      ① fribord 13,00 m (304 px) → 6,00 m (136 px) → kumla 5,00 m (113 px)
+      ② ⭐ KIRMIZI ZEHİRLİ BOYA BANDI 4,00 m (90 px) — S1'in ilk iki saniyesinde denize girer, BİR DAHA GÖRÜNMEZ
+      ③ iki çekme köstek gözü (41 px · %x 26,92 / 73,08) — G7'de durur ama İŞLEVSİZDİR
+      ④ iki römorkör — S2'de sağdan çıkar ve DÖNMEZ   ⑤ dört sarı şamandıra — S5'te toplanır
+   DEFTER: ⭐ TEK DEFTER — kolun İÇ yakasındaki (kadrajın alt 857 pikseli) kırılan beyaz köpük sayısı:
+      G0 7 · G1 7 · G2 5 · G3 4 · G4 2 · G5 1 · G6 0 · G7 0. Hiçbir karede ARTMAZ.
+      ÇAPRAZ KONTROL dış bantta: kırılma çizgisi S4'te DIŞARI yürür ve açık deniz bandı 231 → 185 px'e iner.
+      ⭐ Enerji yok olmaz, YER DEĞİŞTİRİR — iki bandın ters yönde gitmesi bu filmin fiziğidir.
+      ⛔ MOUNTAIN CROWN'ın "iki defter" numarası BİLEREK TEKRARLANMADI [P17-d].
+   TANIK: ① eski mendirek başı (%x 10,00 → 90,00 · %y 1,63 → 10,04 · 161 px · kameranın üstünde durduğu taş)
+      ② kaya adacığı (x −30,00 · d 66,00 · %x 4,55 · 73 px) ③ ufuk çizgisi (%67,86 · 1303 px)
+      ⭐ Bu filmde çapa sorunu deponun en zorudur: kadrajda kara yoktur ve suyun kendisi çapa olamaz.
+   ÖDÜL: kolun kendisi değil, KOLUN YAPTIĞI ŞEY — kadrajın alt 857 pikseli dümdüz kararır ve oraya bir
+      tekne gelir. ⭐ Ödül bir NESNE değil, bir YOKLUKTUR: dalganın yokluğu.
+   IŞIK: 52° kuzey · geç ağustos (δ +10°) · gündüz 13 sa 44 dk · doğuş 05:08 · batış 18:52
+      ışık günü 06:00 → 18:10 = 12 sa 10 dk (6 × B + 1 × A · tavan 14,00 · pay 52 + 42 dk)
+      iç yüz normali 130° · katsayı 0,686 → 0,834 → 0,740 → 0,430 → 0,000 → 0,000 → 0,000
+      ⭐ IŞIK FİLMİN İKİNCİ YARISINDA YÜZÜ TERK EDER VE BU KURGUDUR: son üç karede beton SİLUET,
+      arkasındaki deniz GÜMÜŞ PARILTI. Film bir İNŞAAT fotoğrafı olarak başlar, bir DENİZ fotoğrafı
+      olarak biter. Güneş hiçbir karede kadrajda değil (pay 5,29°).
+   SİLUET: YATAY (ikinci · TIDE GATE'ten sonra) — 748 piksellik tek alçak bant, üstünde 185 px açık deniz.
+      ⭐ BEŞ FİLMDİR AÇ KALAN YATAY YUVASI DOLDU. Izgara DİKEY 8 · ZEMİN 5 · KÜTLE 5 · YATAY 2.
+      ⚠️ THE TIDE GATE ile araya EN AZ İKİ film girmeli (aynı aile, aynı saha tipi, aynı görsel cümle).
+   DOSYALAR: THE_LAST_HARBOR_DIKEY_TIMELAPSE.md (1008 satır) · THE_LAST_HARBOR_QA_SPEC.md (240) ·
+      THE_LAST_HARBOR_KAPAK.md (134)
+   ⛔ KAPI: prompt_kontrol.py → FIX ×2 (ARAÇ KUTU SETİ ölçülmedi · yedi sahne de 8,0 → ⑥ METRONOM),
+      ikisi de BEYANLI · BLOCK 0 · MOTION FOCUS FIX 0 · prompt uzunlukları 5 504 – 5 902
+   AÇIK: platform başlığı · ses üretim yolu · ⛔ ARAÇ KUTU SETİ ölçülmedi (üretimi BLOKE ediyor) ·
+      kapak varyantı (⭐ ⓑ başlıksız ciddi aday, iki filmdir üst üste) · TIDE GATE ile yayın aralığı
+   EN BÜYÜK RİSK: ⭐ filmin bilim-kurguya kaçması. Kaynak metin anlatılı bilim-kurgudur ve "liman"
+      kelimesi modelde kule, dev vinç, gökdelen gemi ve şehir çağırır. Kadrajda ALTI nesne vardır ve
+      altısı da QA_SPEC §7'de sayılıdır; her kare o listeye karşı okunur.
+   PİLOT: G6 → G7 → S1 (batma · modelin "gövde büyür" alışkanlığına ters tek sahne) → S3 (ışığın yüzü
+      terk ettiği ve aynı anda yeni malzeme eklenen tek klip) → G0 → G2 → kalanlar
+   ⭐ REJİM: 6 × B + 1 × A. ⛔ REJİM G KULLANILMADI — P16-g'nin kendi kaydına uyuldu. Deponun İLK
+      rejim-A finali ve ÖLÇÜLMEDİ: 100×'te teknenin çizgisi ve fenerin tek boncuğa dönüşmesi modelde
+      sınanmadı; ilk üretimden sonra SANTIYE_HAREKETI §1'e tek satır iner [P17-g · QA_SPEC §8].
+
+THE MOUNTAIN CROWN — OTUZ BİRİNCİ FİLM · İLK KAYA OYMA CEPHE · ⭐ AYNI MADDEYİ İKİ DEFTERDE SAYAN İLK FİLM · ⭐ FİKİR SAHİPTEN · ⭐ ÜRETİLDİ VE ÖLÇÜLDÜ (12/12 QA) — 28.09.2026
+   ⭐ 12 MERCEK TAMAMLANDI · DİFÜZYON MODELİNİN EKSİLTMELİ OYMA SINIRLARI · GENEL ORTALAMA 6,15 / 10 · ASGARİ SET DÜŞTÜ (② 7,3 · ⑤ 5,6) · ⛔ BİTİŞ KARTI İHLALİ · RAPOR: QA/RAPORLAR/THE_MOUNTAIN_CROWN.md
+   dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
+   YAPI: adı verilmeyen bir bazalt kayalığında (vadi tabanından +118,00 m) 42,00 × 30,00 m'lik KAYA OYMA SU SARAYI.
+         cepheden 6,00 m içeri · 6 tek parça sütun (Ø 3,00 × 22,00 m · eksenler x = ±10,50 · ±15,00 · ±19,50) ·
+         ortada tek kemer (12,00 m açıklık · 30,00 m boy) · arkada üç teras (+40,00 · +47,50 · +55,00) ·
+         arşitrav +62,00→+68,00 · ⭐ TAÇ: 14 dişli parapet +68,00→+72,00 · iki köşede 3,00 m öne taşan konsol
+         oluk ağzı · eşikten (+112,00) inen iki kesme oluk
+   KAYNAK: sahibin yapıştırdığı 50 sn / 7 satır fikri ("THE MOUNTAIN CROWN") → ajan DÖRT BULGU bildirdi
+         (① fikir THE STONE DRAGON'ın hem ödül mekanizmasını hem BEDEL nesnesini tekrarlıyordu [P16-a]
+          ② 40 katta moloz defteri kapanmıyordu: 600 000 m³ gevşek, 35° şevde 53 m yüksek · 76 m ileri, ya da
+             21 000 kamyon seferi [P16-b]  ③ 40 kat işçiyi 15 piksele indiriyordu  ④ konu YATAY yuvasını dolduramaz)
+         → ÜÇ TERSİNE ÇEVİRME önerdi (su ödül değil DİRENÇ · 40 kat → 8 kat · defter kapalı) → sahip "onay" dedi.
+   KAMERA: karşı yamaçtaki kaya sekisi · h +52,00 m · d 78,00 m · bearing 15° · ⭐ TİLT 0 · roll 0 · 24 mm
+         kadraj 78,00 m en × 138,67 m boy · 13,846 px/m · cephe normali 195° · 44°K · δ +8°
+         ⭐ İSTASYON SEÇİLMEDİ, İKİ SINIRIN KESİŞİMİNDEN ÇIKTI: şelalelerin %x 25/75'e oturması ENİ,
+            vadi tabanı + eşik + kaya tepesinin aynı kadraja girmesi BOYU belirledi; 9:16'nın 1,778 oranı
+            ikisini tek bir d = 78,00 m'de buluşturdu.
+   BEDEL: ⭐ ISLAK KARA YÜZ — G0'da kayalık siyah, ıslak ve parlaktır; iki doğal şelale x = ±19,50'den
+         (%x 25/75) 118,00 m (1634 px) düşer; ortasında 4,00 m'lik (55 px) yeşil yosun bandı; dibinde iki dip
+         havuzu. S0'da iki akış eşikteki çelik oluğa alınır ve %93,59'a atılır; S1'de yüz SİYAHTAN SOLUK GRİYE
+         döner ve yosun kesilip atılır — yerinde yalnız açık renk bir SIYRIK kalır. Geri dönmez.
+   ⭐ İKİ DEFTER, AYNI KAYA (deponun ilki):
+         ① toplayan — APRON ÜST KENARI, monoton artan: 240 · 240 · 286 · 330 · 376 · 420 · 420 · 420 px
+         ② eksilen  — DÜŞEN SU İPLİĞİ: G0 2 (%x 25/75) → G1–G6 1 (%x 93,59, kahverengi) → G7 2 (%x 21,33/78,67)
+         hacim: çıkan 10 228 m³ katı × 1,25 = 12 785 m³ gevşek · apron net 12 783 m³ · ⭐ FARK −2 m³ (%0,02)
+         ⛔ Hiçbir kamyon kadrajdan taş çıkarmaz, hiçbir kamyon kadraja taş getirmez. ⛔ VİNÇ YOK: taş DÜŞER.
+   TANIK: ① x −26,00 · d 70,00 · %x 12,86'da iki kaya bloğu (93 px · 77 px) — G0'da yeşil suyun içinde,
+             G7'de AYNI PİKSELDE kuru, apron saçağıyla yarı gömülü
+          ② kesilen yosun bandının yatay SIYRIĞI (G2 → G7, cephe dışında da sürer)
+          ③ iki doğal kaya payandası %x 7,69 / 92,31, tepeden dibe
+   ÖDÜL: dağın suyu geri gelir — ama artık kayaya değil, KESME TAŞA iner. Ödül YENİ değil, GERİ VERİLEN şeydir.
+         final rejim G: kapak düşer · su iki oluğu doldurur · 61,00 m serbest düşüş = √(2·61/9,81) = 3,53 sn
+         (⭐ uydurulmuş değil HESAPLANMIŞ süre · çarpma 34,60 m/s · 878 px) · iki şelale kurulur
+   IŞIK: 6 × rejim B + 1 × rejim G = 12,00 sa (tavan 14,00) · 06:00 → 18:00 · gündüz 13 sa 02 dk · pay 31+31 dk
+         cephe aydınlık katsayısı: 0,000 → 0,014 → 0,351 → 0,568 → 0,607 ⭐ → 0,457 → 0,160
+         ⭐ IŞIK EĞRİSİ İLE KURUMA EĞRİSİ AYNI EĞRİ: ışık yüze tam olarak su kesildiği saatte ulaşır [P16-f]
+   SİLUET: KÜTLE (beşinci) · GLASS CROSSING DİKEY → MOUNTAIN CROWN KÜTLE ardışık yayınlanabilir
+         ⚠️ STONE DRAGON ile aile farklı ama İŞ aynı (oyma): araya en az iki film
+         ⚠️ IZGARA: DİKEY 8 · ZEMİN 5 · KÜTLE 5 · YATAY 1 — YATAY dördüncü kez aç kaldı, sahip bilerek onayladı
+   DOSYALAR: THE_MOUNTAIN_CROWN_DIKEY_TIMELAPSE.md (958 satır) · _QA_SPEC.md (255) · _KAPAK.md (133)
+   ⛔ KAPI: ⚠️ FIX × 2 (ikisi de BEYANLI: ARAÇ KUTU SETİ ölçülmedi · yedi sahne de 8,0 sn = ⑥ METRONOM) ·
+         ⛔ BLOCK 0 · MOTION FOCUS FIX 0 · prompt uzunlukları 5 790 – 5 996 (band 2 000–6 000) · "crane" YOK
+   AÇIK: platform başlığı · SES üretim yolu · ⛔ ARAÇ KUTU SETİ ölçülmedi (üretimi BLOKE eder) ·
+         kapak varyantı (ⓑ başlıksız ciddi aday) · yayın aralığı (STONE DRAGON ile araya iki film)
+   EN BÜYÜK RİSK: ⭐ "KEŞİF FİLMİ"NE DÖNME — model kaya oyma bir cepheyi ANTİK HARABE olarak boyamaya
+         çok yatkındır (Petra/Ellora refleksi) ve o anda film YAPIM filmi olmaktan çıkar. Savunma:
+         taze kesik ≥ 1,8 × yıllanmış kaya renk oranı (QA_SPEC §2 ①) + cephe ile apronun AYNI RENK olması.
+         PİLOT: S4 (G4 → G5) · ikinci pilot S2 (G2 → G3, modelin "yapı büyür" alışkanlığına ters tek sahne).
+   ⚠️ REJİM G BEŞİNCİ KEZ FİNAL — bir sonraki filmin finali G olmamalı [P16-g, sahip onayı 25.09.2026].
+
+THE GLASS CROSSING — OTUZUNCU FİLM · İLK CAM DÖŞEME · ⭐ ŞEFFAFLIĞI ÖLÇÜLEBİLİR YAPAN İLK FİLM · ⭐ FİKİR SAHİPTEN · YAZILDI 24.09.2026 · ÜRETİLDİ VE 12 MERCEKLE ÖLÇÜLDÜ ⭐
+   ⭐ 12/12 MERCEK TAMAMLANDI · DÖRT TANE 10/10 TAM PUAN (③ 10,0 · ⑥ 10,0 · ⑨ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 8,9 · ② 8,1 · ⑤ 8,7) · FINAL BEAT PASS (9/10) · ORTALAMA: 9,04/10 · ⛔ KANYON ÜSTÜ VİNÇ İHLALİ (⑪ 6,5 · ② 8,1)
    dikey_shorts · ızgara 7 × 8,0 = 56,0 sn · ⛔ KAPAK KARTI YOK · ⛔ MÜZİK YOK · ⛔ öncesi/sonrası YOK · zincirli · 8 kare + 7 I2V
    YAPI: adı verilmeyen bir kaya boğazında 27,00 m'lik çürümüş kalas köprünün CAM ZEMİNLİ GEÇİDE dönüşmesi.
          eski hâl: iki paslı çelik kiriş + çürük meşe kaplama + halat korkuluk →

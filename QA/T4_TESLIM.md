@@ -25,6 +25,13 @@
 | **THE DEEP END** | D | **9,9**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · Loop 9/10, kurgu sonuna 4 sn statik başlık kartı eklenmiş | 2 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE STONE DRAGON** | D | **5,7**/10 Ⓥ | ⚠️ ENDS · FINAL BEAT FAIL (4/10 Ⓥ) · ONE THING BULUNDU · 00:54 su akışı tam · ⛔ kart DIFFERENT teslim vaadini kırdı | 6 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
 | **THE VANISHING ROOM** | D | **9,5**/10 Ⓥ | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · 00:48–00:55 gizli kapak açılışı tam · kart SAME | 1 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | V | **8,5**/10 Ⓥ | ✅ ENDS · ⭐ FINAL BEAT PASS (9/10) · ONE THING BULUNDU · 00:23.8–00:27.8 cam taban açılışı tam · kart SAME | 4 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | D | **9,6**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (9/10) · ONE THING BULUNDU · 00:25.5–00:28.0 koyu bant ve turuncu kama tam · kart SAME | 0 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | D | **9,5**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · fener yanar, tekne yanaşır, iç havuz 0 köpük · kart SAME | 1 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 6,9 Ⓥ) | ✅ ENDS · ⭐ FINAL BEAT PASS (8/10) · ONE THING BULUNDU · 0:24–0:28 ikiz şelaleler konsollardan dökülür · ⛔ kart DIFFERENT (3/10) | 2 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | V | **9,6**/10 Ⓥ | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · alacakaranlıkta parlayan projektörler ve çim saha · kart SAME | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | D | **8,0**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (8/10) · ONE THING BULUNDU · ateş ağzı ve 127 px delikten sızan akkor kor göğü geçti · kart SAME | 1 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | D | **6,1**/10 | ⛔ STOPS · ⛔ FINAL BEAT FAIL (4/10) · ONE THING BULUNDU (tuğla kule hidrolik doğrultma ve kama) · ⛔ §5 elastik geri oturma görünür değil · ⛔ §3 çatlak sıvanması · kart SAME | 3 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17]:** plan da kapak da verilmedi. FINAL BEAT beyan edilmiş vuruşa karşı denetlenmedi — mod V'de kategori "bir sonu var mı"ya dönüştü ve PASS verdi. ⛔ NONE FOUND **dördüncü kez** — bu filmde BEDEL plana İKİ kez yazılıydı [DERS 26]. Ham ortalama 4,0.

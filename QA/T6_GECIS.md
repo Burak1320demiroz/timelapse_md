@@ -24,6 +24,13 @@
 | **THE DEEP END** | D | **9,4**/10 | ✅ TIME · ⚠️ METRONOME · THE CUT THAT CARRIES: Cut 6 (00:48.0 Rejim B→G doruk geçişi) · 7 sert kesme · nirengi 10/10 · müzik yok (diegetik ses) | 5 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE STONE DRAGON** | D | **9,4**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: 00:46.0 (Rejim B→G canlı su doruğu) · 7 sert kesme · nirengi 10/10 · diegetik taş/su sesi | 4 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
 | **THE VANISHING ROOM** | D | **9,6**/10 Ⓥ | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 5 (00:48.0 Rejim B→G doruk geçişi) · 6 sert kesme · nirengi 10/10 · müzik yok | 2 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | V | **10,0**/10 Ⓥ | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Cut 8 (00:23.8 Rejim B→G doruk geçişi) · 8 sert kesme · nirengi 10/10 · diegetik foley sesi | 0 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | D | **10,0**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: Kesme 7 (00:24.0 kapı açılışı) · 7 sert kesme · nirengi 10/10 · diegetik foley sesi | 0 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | V | **9,4**/10 Ⓥ | ✅ TIME · ⚠️ METRONOME · THE CUT THAT CARRIES: Cut 6 (00:24.0 Rejim B→A doruk yanaşma) · 7 sert kesme · nirengi 10/10 · müzik yok (diegetik su sesi) | 1 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | V | **6,4**/10 Ⓥ | ⚠️ TIME · METRONOME · 7 sert kesme · 00:24.3 kesmesinde zaman oku tersine döndü · 2,3–4,0 sn eşit pencereler · ⛔ kart DIFFERENT | 4 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | D | **10,0**/10 | ✅ TIME · ⭐ RHYTHM · 8/8 kategori 10/10 · 120 BPM tam senkron · THE CUT THAT CARRIES: Cut 6 (0:23.0 strand jack lift) | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | D | **9,7**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: 00:24.0 (Rejim B→A gece pişirme/boşaltma) · 7 sert kesme · nirengi 10/10 · diegetik ses yatağı | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | D | **9,6**/10 | ✅ TIME · ⭐ RHYTHM · THE CUT THAT CARRIES: 00:16.0 (Kule temeline kama girişi) · 7 sert kesme (4,0s muntazam) · çapa 10/10 · kart geçişi 9/10 | 0 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 
 ⛔ **THE NARROW LOT belgesiz koşuldu [DERS 17]:** plan ve SES verilmedi. MUSIC ALIGNMENT ve END-CARD HAND-OVER hiç ölçülemedi. Ölçülen ham ortalama 8,2 — deponun en yüksek mercek skoru, ama üç kategorisi hiç sorulmadı.

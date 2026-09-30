@@ -25,6 +25,13 @@
 | **THE DEEP END** | D | **10,0**/10 | ✅ SAME · BUILT · kart SAME · 6 nirengide ölçek sapması %0,0 · su tahliyesinden amfi ve perde montajına sıfır hata ("No defects found") | 0 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE STONE DRAGON** | D | **9,2**/10 | ✅ SAME · BUILT · 11 nirengide ölçek sapması %0,0 · tek bloktan eksiltme kusursuz · ⛔ kart DIFFERENT | 4 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
 | **THE VANISHING ROOM** | D | **10,0**/10 | ✅ SAME · BUILT · kart SAME · 7 nirengide ölçek sapması %0,0 · kazıdan kayar çim kapağa sıfır hata ("No defects found") | 0 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | D | **8,1**/10 | ✅ SAME · BUILT · kart SAME · 6 nirengide ölçek sapması %0,0 · Yük Yolu 4/10 (kanyon üstü kule vinç ve ekskavatör ihlali) · köprü montajı tam | 4 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | D | **9,3**/10 | ✅ SAME · BUILT · kart SAME · 4 nirengide ölçek sapması %0,0 · kazıdan sinter tabana ve kemer montajına tam sıra | 0 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | D | **10,0**/10 | ✅ SAME · BUILT · 5 nirengide ölçek sapması %0,0 (Ufuk, Su Hattı, Kret, Parapet, Genişlik) · kayson hidroliği tam · kart SAME | 0 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | D | **7,3**/10 | ✅ SAME · BUILT · 6 nirengide ölçek kilidi 9/10 · Monotonic growth 5/10 · Yük yolu 6/10 · ⛔ kart DIFFERENT (0:28 çok katlı tapınak) | 3 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | D | **9,9**/10 | ✅ SAME · BUILT · 32 bay çanak ve 260m uzay kafes çatı kusursuz · 4 nirengide ölçek sapması %0,0 · yük yolu 10/10 · kart SAME | 1 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | D | **10,0**/10 | ✅ SAME · BUILT · kart SAME · 5 nirengide ölçek sapması %0,0 (Ufuk, G3 0px, G4 +31px, Taban 797px, Önlük 831px) · yük yolu ve taş kubbe montajı tam · sıfır kusur | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | D | **8,4**/10 | ✅ SAME · BUILT · kart SAME · 4 nirengide ölçek kilidi (G0 64px, G2 45px, G4 28px, G7 0px — fark ≤ 1px) · yük yolu 9 · ⛔ §3 çatlak sıvanması ihlali · ⛔ §10 müzik ihlali · kama dairesel duvara dönüştü | 3 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17] — İKİNCİ KEZ:** QA_SPEC bu filmde ÜRETİMDEN ÖNCE yazılmıştı ve merceğe yine verilmedi. Skoru tabloya yazılmaz. Ölçülen ham ortalama 1,5. ⛔ DIFFERENT · APPEARING hükmü **dördüncü kez** geldi.

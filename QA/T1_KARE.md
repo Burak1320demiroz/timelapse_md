@@ -25,6 +25,13 @@
 | **THE DEEP END** | V (21 kare) | **9,6**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor 10/10 · kart SAME · Safe Area 9 (y %17-22 alt bant) · People/Vehicles 7 (S6 net figür) | 3 | [kayıt](RAPORLAR/THE_DEEP_END.md) |
 | **THE STONE DRAGON** | V | **6,0**/10 Ⓥ | ⛔ ALTI AYRI ÇEKİM (SIX SEPARATE SHOTS) · kamera 7 · ankor 4 (servi ağacı form kayması) · vinç 3 · ⛔ kart DIFFERENT | 12 | [kayıt](RAPORLAR/THE_STONE_DRAGON.md) |
 | **THE VANISHING ROOM** | V | **8,9**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor 10/10 · kart SAME · Safe Area 8 (alt bant kumanda) · Text 7 · %0,0 yayılma | 4 | [kayıt](RAPORLAR/THE_VANISHING_ROOM.md) |
+| **THE GLASS CROSSING** | V | **8,9**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve 10/10 · yüzey gerçeği 10/10 · kart SAME · People/Vehicles 5 (1x net figür) | 4 | [kayıt](RAPORLAR/THE_GLASS_CROSSING.md) |
+| **THE FIRST GUEST** | V | **9,3**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve, metin 10/10 · %0,0 yayılma · kart SAME · taş sütun kilitli | 4 | [kayıt](RAPORLAR/THE_FIRST_GUEST.md) |
+| **THE LAST HARBOR** | V | **9,8**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve, metin 10/10 · %0,1 yayılma · kart SAME · Safe Area 8 (sağ mahmuz vinci) | 2 | [kayıt](RAPORLAR/THE_LAST_HARBOR.md) |
+| **THE MOUNTAIN CROWN** | V | **8,1**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor 10/10 · Safe Area 6/10 (apron araçları ve sprey) · People/Vehicles 6/10 · Surface Truth 3/10 · ⛔ kart DIFFERENT | 4 | [kayıt](RAPORLAR/THE_MOUNTAIN_CROWN.md) |
+| **THE LAST LIFT** | V | **9,7**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve 10/10 · Ufuk %81,1 (%0,0 yayılma) · kar/gece 10/10 · kart SAME | 2 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
+| **THE LAST FIRING** | V (33 kare) | **9,4**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve 10/10 · Ufuk %57,0 (< 0,5% yayılma) · gece 10/10 · kart SAME · Safe Area 9 · Surface Truth 9 | 1 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
+| **BACK TO PLUMB** | V (32 kare) | **6,8**/10 Ⓥ | ✅ TIME-LAPSE · kamera kilidi 10 · istasyon 10 · çerçeve 9 · ankor 7 · safe area 8 · surface truth 5 · people/vehicles 3 · text 2 · kart SAME · ⛔ 00:18 çatlak sıvanması ankor ihlali · donmuş işçiler · sunburst | 4 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
 
 
 ⚠️ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi (`kare_al.sh` yine koşulmadı — üçüncü film). ⛔ CAMERA LOCK **0/10**: beş klibin BEŞİNDE de yavaş push-in. Ölçülebilir çapa cümlesi beş I2V'nin beşinde de YAZILIYDI ve tutmadı — NARROW LOT'ta aynı cümle 10/10 almıştı [DERS 23].
