@@ -3675,6 +3675,99 @@ onun borcudur.
 
 ---
 
+## 🛸 P22 — THE STAR DOCK (kırk ikinci film · 01.10.2026)
+
+> Havasız bir ayda, Ø 24 km'lik kraterin ortasındaki tepenin kaya tacı kesilir, tepeye altı kule ve 280 m'lik bir
+> halka kurulur; son on altı saniyede halkaya bizim yapmadığımız 240 m'lik bir gövde oturur. Konu sahipten
+> (yapıştırılan 50 sn'lik fikir). ⛔ Hiçbiri ölçülmedi.
+
+**P22-a · Fikrin "sabit" dediği şey bir fizik sonucu olabilir — önce onu ara.**
+Fikir "arka planda halkalı bir gezegen sabit duruyor" diyordu. Bu bir sanat izni değil, GELGİT KİLİDİDİR: ay
+hep aynı yüzü döner ve gezegen gökte kımıldamaz. Bedeli de aynı fizikten gelir: gün = yörünge, yani güneş
+ilerledikçe gezegenin aydınlık oranı değişir (%55 → %94). ⭐ Kural: fikrin bir cümlesi fiziği zorluyor gibi
+görünüyorsa önce onu TAŞIYAN fiziği ara; bulunursa cümle bir kısıt olmaktan çıkar, ikinci bir saate döner.
+Bulunamayan kısmı (halka açıklığının sabitliği) BİLİNÇLİ KABUL olarak beyan et.
+
+**P22-b · Sıkıştırma oranı film İÇİNDE değişebilir — gerekçesi hesaplanabilen bir olaysa.**
+Deponun her filmi tek rejim ya da karışık ama yönsüz rejim kullandı. Bu film saati iki kademede yavaşlatır:
+C × 3 → B → A × 3 (4050× → 75×). Gerekçe hesaplandı: alçak güneşte krater sırtının gölge cephesi dakikada ~33 m
+yürür ve kadrajdaki 990 m'yi ancak rejim A okunur hızda geçirir; gövdenin son 30 metresi de dakikalarla ölçülür.
+⭐ Kural: rejim sahne başına olayın süresine göre seçilir [P16-g]; ardışık sahnelerin süreleri tek yönde
+kısalıyorsa saat de tek yönde yavaşlar ve bu, sahip kuralının dondurduğu SÜRE sütununun yerine RİTMİ taşır.
+⚠️ ⑥ merceğinin bunu ritim mi kopukluk mu okuyacağı bilinmiyor.
+
+**P22-c · Havasız sahada rejim C gölgeyi silmez [DERS 40'ın saha okuması].**
+Dünya'da 9 saat gölgeyi 116–191° süpürüp eritir. Gün uzunluğu 192 saat olan bir ayda güneş saatte 1,875° gider;
+9 saat yalnız 16,9° eder — Dünya'nın rejim B'si kadar. ⭐ Kural: rejim tablosunun gölge sütunu Dünya'ya aittir;
+başka bir gök cisminde rejim seçilmeden önce o sahanın derece/saat oranı hesaplanır.
+
+**P22-d · Işık "sırayla" yanıyorsa sırayı bir FİZİK OLAYI vermeli.**
+Fikirdeki "ışıklar sırayla yanıyor" vuruşu, sırası keyfî olursa bir efekt olurdu. Burada sırayı gece cephesi
+verir: cephe hangi gruba ulaşırsa o grup yanar (hangarlar 5,9 sn → kule ayakları → galeriler kat kat → son lamba
+S6'nın 6,86. saniyesi). ⭐ Kural: ardışık bir ışık olayı plana yazılırken her grubun yanma anı bir saatten
+(gölge cephesi · gelgit · kuyruk) türetilir; türetilemiyorsa sıra kadrajda okunmaz.
+
+**P22-e · Devralınan yasak-kelime deseni yeni filmin sözlüğünde tekrar yanlış alarm verdi [P18-g'nin ikinci koşusu].**
+THE FIRST GUEST'ten devralınan su/çamur taraması (`\bmud|puddle|rain|…`) bu filmin korpus cümlesindeki "grain"
+kelimesini yakaladı (9 yanlış pozitif); kapsamsız awk taraması da Türkçe uyarı bloklarını okuyup 2 yanlış pozitif
+verdi. İkisi de QA_SPEC'e yazılmadan ÖNCE ölçüldü ve daraltıldı. ⭐ Kayıt: P18-g'nin kuralı ("kapı, filmin kendi
+sözlüğüne karşı test edilmeden yazılmaz") ikinci filmde de gerekliydi — desen kopyalanır, sözlük kopyalanmaz.
+NEREYE: THE_STAR_DOCK_QA_SPEC §2 · §7 (düzeltilmiş desenler). ⚠️ Eski desen THE FIRST GUEST SPEC'inde duruyor;
+o filmin sözlüğünde "grain" yok, değiştirilmedi.
+
+---
+
+## 🌊 P23 — THE SEA MILL (kırk üçüncü film · 03.10.2026)
+
+> Baltık'ta açık denizdeki çıplak bir kayanın tepesindeki eski deniz işareti sökülür; yerine granit kaideli, katranlı
+> ahşap gövdeli bir smock mill kurulur ve son klipte yelkenleri ilk kez gerçek hızda döner. Konu sahipten (yapıştırılan
+> 6 × 8 sn'lik fikir). ⛔ Hiçbiri ölçülmedi.
+
+**P23-a · "Sırayla takılan parçalar" vuruşu, parçalar tek tek havada taşınmadan da korunabilir.**
+Fikir "dört yelken sırayla merkezdeki mile bağlanıyor" diyordu: DERS 57'ye göre dört ayrı uzun rijit kaldırma, aynı
+arızayı dört kez çağırmaktır. Başlık, mil ve dört ÇIPLAK direk mavnanın güvertesinde tek birim olarak kuruldu ve TEK
+kaldırmayla taşındı (haç havada döndürülmez, yalnız ötelenir); "sırayla" duygusu, haç oturduktan sonra her direğe
+yelken ızgarasının YERİNDE örülmesine taşındı (1 → 2 → 3 → 4). ⭐ Kural: bir fikrin ardışık montaj vuruşu kaldırma
+gerektiriyorsa önce kaldırmaların TEK birime toplanıp toplanamayacağına bakılır; ardışıklık, havada değil yerinde
+yapılan işe aktarılır. Kalan tek kaldırmanın kaynağı kadrajın içinde kalırsa (sehpa) DERS 57'nin ilk bilinçli sınavı
+olur — ikinci pilot.
+
+**P23-b · Korpus çakışması iki kelimenin BİRLİKTE çağırdığı şeydir; tek tek tarandığında görünmez [DERS 42 · 55].**
+"windmill" tek başına Kinderdijk sırasını, "sea" tek başına boş ufku çağırır; ikisi BİRLİKTE açık deniz rüzgâr
+çiftliğini çağırır. "sails" + "sea" de yelkenli tekneyi. Promptlarda "windmill" yok: yapı "smock mill" ve biçimiyle,
+yelkenler yalnız "mill sails / sail bars / sail spars" ile yazıldı; deniz POZİTİF boş ("Apart from the work at the rock,
+the sea is empty out to the horizon"). ⭐ Kural: korpus taraması yapı adının kendisine değil, yapı adı × saha adı
+ÇİFTLERİNE yapılır. ⚠️ Başlıkta "Windmill" serbesttir — yasak yalnız üretim promptlarındadır.
+
+**P23-c · Dönen bir yapının finalde kanıtı AÇISALDIR: simetri açısının yarısı en ayırt edilebilir farktır [P5-d'nin cevabı].**
+ONE MORE TURN'ün açık sorusu: bir tam turun ilk ve son karesi aynıdır, zincir "döndü" ile "dönmedi"yi ayıramaz. Dört
+kollu bir haç 90°'de kendine döner; G5 ile G6 arasına 45° konuldu (X → dik haç) ve iki kare birbirinden en farklı hâlde
+kilitlendi. Defterin son 46 pikseli de buradan gelir: X'in sol üst ucu dik haçın üst ucu olur. ⭐ Kural: rejim G'de
+dönen bir nesnenin klibi n kollu ise G(n) ile G(n+1) arasındaki açı 180°/n seçilir; açı planda ve QA_SPEC'te sayıyla
+yazılır, "a few turns" yazılmaz.
+
+**P23-d · Işık kanıtı, hareketli parçanın süpürme alanının DIŞINA konur — paralaks hesabıyla.**
+Yelken düzlemi gövdenin 5 m önündeydi ve kamera yelken ekseninden yalnız 25° sapıktı: güney yüzüne konan pencereler dik
+haçın alt yelkeninin tam arkasında kalıyordu (x 550 vs alt yelken x 470–520). Pencereler batı-güneybatı yüzüne (x 390–404)
+alındı; yine de X duruşundaki sol alt yelkenle üst pencere arasında 10 px kaldı ve beyan edildi. ⭐ Kural: final ışığı
+(pencere, lamba) kanıt nesnesiyse önce iki uç karedeki (G(n) · G(n+1)) hareketli parçaların kadrajdaki izdüşümü
+hesaplanır; ışık bu izdüşümün dışına konur.
+
+**P23-e · Yerleşim üç kısıtın KESİŞİMİDİR ve kamera ondan sonra kurulur.**
+(a) güneş hiçbir karede kadrajda değil, (b) yelkenlerin yüzü kameraya dönük (rüzgâr yönü), (c) tekne ve iskele güvenli
+alanda. İlk deneme (rüzgâr güneybatıdan, iskele doğuda) tekneyi sağ beşte bire (x 757–951) düşürdü; rüzgâr güneye, iskele
+batıya, bakış 26°'den 29°'ye alındı ve tekne x 153–334'e oturdu. ⭐ Kural: kamera istasyonu bir yön ve mesafe SEÇİMİ değil,
+saha unsurlarının (güneş · rüzgâr · yanaşma yeri) kesişiminin SONUCUDUR; yerleşim önce betikle taranır, sonra yazılır.
+
+**P23-f · Devralınan kelime-sınırı taraması BSD awk'ta sessizce 0 döndü [P18-g'nin üçüncü koşusu].**
+"boat yalnız 4 blokta" taraması `awk '... /\bboat\b/'` ile yazıldı ve 0 döndürdü: macOS awk "\b"yi tanımaz, hata da
+vermez. Korpus taraması da bölüm sınırı olmadan planın Türkçe uyarılarını okuyup 8 yanlış pozitif verdi. İkisi de
+QA_SPEC'e yazılmadan önce ölçüldü; kelime sınırı karakter sınıfıyla yazıldı (`(^|[^a-z])boats?([^a-z]|$)`) ve 4 blok
+buldu. ⭐ Kayıt: yanlış POZİTİF gürültüdür, yanlış NEGATİF tehlikedir — "0 bulundu" sonucu, desenin bilinen bir pozitifi
+yakaladığı gösterilmeden kabul edilmez. NEREYE: THE_SEA_MILL_QA_SPEC §3.
+
+---
+
 ## 🔎 C1 — ÇAPRAZ ANALİZ · 15 film · 12 mercek · 18.09.2026 · dış değerlendirmeyle düzeltildi
 
 > Kaynak: `QA/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/HAM_RAPORLAR/` altındaki 15 dikey

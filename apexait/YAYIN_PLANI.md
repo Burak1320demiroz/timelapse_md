@@ -257,6 +257,35 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
    ⭐ IZGARA DENGESİ: DİKEY 11 · ZEMİN 7 · KÜTLE 7 · YATAY 2. ZEMİN ailesi DİKEY peş peşe yayın baskısına
       mükemmel bir nefes aralığı sunar. Sahip 30.09.2026'da 2. öneriyi (THE DEEP STEP) onayladı.
 
+⭐ 01.10.2026: THE STAR DOCK DİKEY ailesine yazıldı (havasız ay, Ø 24 km kraterin ortasındaki tepe · h +120,00 m ·
+   D_eksen 650,00 m · tilt 0 · ufuk %50 · halkalı gezegen gelgit kilidiyle gökte SABİT · 6 kule + 280 m'lik halka;
+   DİKEY'in ON İKİNCİ filmi). Aile KAPAKTAN (G7) okundu: siyah gökte gezegen, ortada halkaya oturmuş 473 px'lik
+   dikey gövde, altta gecede iki ışıklı hangar — ayrışma SİLUET ve YÜKSEKLİK ile.
+   THE DEEP STEP ZEMİN → THE STAR DOCK DİKEY ardışık yayınlanabilir ✅.
+   ⛔ THE STONE TOWER · BACK TO PLUMB · THE LONG SHADOW v2 ile ARDIŞIK YAYINLANAMAZ (aynı aile).
+   ⭐ BEDEL: tepenin kara kaya tacı (G0'da 138 × 47 px, S0'da kesilir ve rampaya döner; G7'de aynı yerde gövde).
+   ⭐ DEFTER: halkanın ön üst kenarı (G2 üstten 1146 px → G3 799 px, sonra donar) · ikinci saat GECE ÇİZGİSİ
+      (ışık grubu 0 → 3 → 7 → 22). ⭐ İlk YAVAŞLAYAN SAAT: C × 3 → B → A × 3 (4050× → 75×).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan 50 sn'lik fikir); ajan sahne sahne öneri sundu, zaman ölçeği için iki
+      seçenek yazdı ((a) tek ay öğleden sonrası · (b) yörünge-strobosu), (a)'yı önerdi; sahip "hazırla" dedi.
+   ⭐ IZGARA DENGESİ: DİKEY 12 · ZEMİN 7 · KÜTLE 7 · YATAY 2. Sıradaki konu DİKEY OLMAMALI.
+
+⭐ 03.10.2026: THE SEA MILL DİKEY ailesine yazıldı (Baltık dış takımadaları, açık denizde 26 m'lik çıplak granit kaya ·
+   h +16,00 m · D_eksen 66,00 m · tilt 0 · ufuk %50 · Ø 13 m granit kaide + sekizgen katranlı ahşap gövde + sivri başlık +
+   uçtan uca 25 m'lik dört kafes yelken; DİKEY'in ON ÜÇÜNCÜ filmi). Aile KAPAKTAN (G6) okundu: mavi saatte kadrajı ikiye
+   bölen deniz ufku, ortada tek kayada dik haçlı değirmen, solda iskelede tekne — ayrışma SİLUET (artı işareti) ile.
+   ⛔ THE STAR DOCK (önceki yazılan film) · THE STONE TOWER (deniz ufku + kayalık + taş — görsel olarak EN YAKIN) ·
+      BACK TO PLUMB · THE LONG SHADOW v2 ile ARDIŞIK YAYINLANAMAZ (aynı aile).
+   ⭐ BEDEL: eski deniz işareti — G0'da kayanın tepesinde 4 m'lik kireç badanalı taş kümesi (53 × 78 px); S0'da sökülür,
+      mavnada beyaz yığın olur, S4'te mavnayla kadrajdan ÇIKAR. G6'da denizdeki ışığı değirmenin pencereleri verir.
+   ⭐ DEFTER: yapının en yüksek bağlı noktası (üstten 1193 → 1077 → 785 → 527 → 481 px; son 46 px'i DÖNÜŞ ekler) ·
+      DEFTER-2 mavna yükü (granit 4 → 0 · kereste 3 → 0). ⭐ Final rejim G: yelkenler 45° döner (X → dik haç).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan 6 × 8 sn'lik fikir); ajan dört düzeltmeyle sahne sahne öneri sundu (yelkenler
+      tek tek kaldırılmaz · fren · Baltık · tekne S4'te), sahip "hazırla" dedi.
+   ⚠️ 01.10.2026 notu "sıradaki konu DİKEY olmamalı" diyordu; bu konu DİKEY'dir. Yayın sırasında STAR DOCK ile arasına
+      en az bir başka aile girer.
+   ⭐ IZGARA DENGESİ: DİKEY 13 · ZEMİN 7 · KÜTLE 7 · YATAY 2. Sıradaki konu DİKEY OLMAMALI (ikinci kez).
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
@@ -342,6 +371,8 @@ AÇILIŞTAN SONRA
 | 34 | THE STONE TOWER | kuru taş gözetleme kulesi / Ege kıyısı kayalık tepe · tilt 0, ufuk %50 | DİKEY | kayalıktaki boş ufuk çizgisi — G0'da kesintisiz deniz ufku (%50), G7'de 8,0 m'lik taş silindir ufku ve göğün yarısını kapatır · tanık: batıdaki iki küçük ada silueti + kırmızı-kahve zemin kayası → plan: `dikey_shorts/THE_STONE_TOWER/` (30.09.2026) |
 | 35 | THE DEEP STEP | yeraltı basamaklı su kuyusu (stepwell / baori) / Thar Çölü kenarı plato · 42° aşağı bakış, gök yok | ⭐ ZEMİN | ⭐ ÇÖL PLATO YÜZEYİ VE AKASYA — G0'da kadrajın tamamı düz çatlak sarı toprak ve kuyu ağzında tek cılız akasya; S0'da akasya sökülür, G7'de akasya yok, aynı yerde 36 × 24 m'lik geometrik ters piramit, 7 teras, 28 basamak katı ve dipte zümrüt yeşili su aynası (−19,80 m kotu) · ⭐ TEK DEFTER: basamak kademesi (0 → 4 → 8 → 12 → 16 → 20 → 24 → 28 kat) ve negatif kot (0,00 → −21,60 m) · tanık: kuzeydeki 0,80 m kesme kumtaşı parapet (1080 px kilitli cetvel) · ⭐ konu ajandan (üç öneriden sahip seçti) · final rejim G: su tabanı kırılır, seviye +1,80 m yükselir, su zümrüt yeşili ayna olur → plan: `dikey_shorts/THE_DEEP_STEP/` (30.09.2026) |
 | 36 | THE IRON BRIDGE ⭐ yatay | tek açıklıklı çelik kemer yaya köprüsü / ormanlık dağ vadisi | YATAY | vadinin boş hava boşluğu ve nehir aynası — G0'da iki yaka arasında boşluk, G12'de 48 m çelik kemer iki yakayı kilitler → plan: `yatay_2_dk_filmler/THE_IRON_BRIDGE/` (30.09.2026) |
+| 37 | THE STAR DOCK | havasız ayda yanaşma beşiği (taç kesilir · halka zeminde kapanır · kuleler alttan eklenip halkayı 150 m'ye taşır · hangarlar · gece yürür · iğ biçimli gövde iner ve kenetlenir) / Ø 24 km krater, halkalı gaz devi gökte sabit · tilt 0, ufuk %50 | DİKEY | ⭐ TEPENİN KARA KAYA TACI — G0'da kraterin ortasındaki tepenin üstünde 24 m'lik tek kaya kümesi; S0'da kesilir, kırığı limanın rampası olur; G7'de aynı yerde 280 m'lik halkaya oturmuş 240 m'lik bir gövde · defter: halka ön üst kenarı (1146 → 799 px) + gece çizgisi (ışık grubu 0 → 22) · tanık: sağ öndeki ikiz kaya · ⭐ konu sahipten · yavaşlayan saat C → B → A → plan: `dikey_shorts/THE_STAR_DOCK/` (01.10.2026) |
+| 38 | THE SEA MILL | açık denizde smock mill (işaret sökülür · halka temel · granit kaide · sekizgen ahşap gövde · başlık ve çıplak yelken haçı TEK PARÇA kaldırılır · ızgaralar yerinde örülür · bezler · ilk dönüş) / Baltık dış takımadaları, çıplak granit kaya · tilt 0, ufuk %50 | DİKEY | ⭐ ESKİ DENİZ İŞARETİ — G0'da kayanın tepesinde kireç badanalı 4 m'lik taş kümesi; S0'da sökülür, mavnada beyaz yığın olur ve S4'te mavnayla gider; G6'da aynı yerde pencereleri yanan, yelkenleri dönen 39 m'lik değirmen · defter: yapının en yüksek bağlı noktası (1193 → 481 px) + mavna yükü · tanık: kamera adacığının kıyısı + iki uzak adacık · ⭐ konu sahipten · final rejim G → plan: `dikey_shorts/THE_SEA_MILL/` (03.10.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA

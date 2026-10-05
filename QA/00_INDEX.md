@@ -9,14 +9,14 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       41
-ÖLÇÜLEN FİLM      27
+TOPLAM FİLM       43
+ÖLÇÜLEN FİLM      32
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
-SEKİZ MERCEKLE    22    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB)
-ON İKİ MERCEKLE   18    (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE STONE DRAGON · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB — ⑨ ⑩ ⑪ ⑫ dâhil)
-ALTI MERCEKLE TAM 8     (⑦ ⑧ öncesi / alternatif tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK · THE STONE DRAGON · THE VANISHING ROOM · THE LAST FIRING)
-ÜRETİLEN FİLM     26
-YAZILDI, ÜRETİLMEDİ 15  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE LONG SHADOW v2 · THE GLASS WALL · THE STONE TOWER · THE IRON BRIDGE · THE DEEP STEP)
+SEKİZ MERCEKLE    27    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB · THE GLASS WALL · THE IRON BRIDGE · THE STONE TOWER · THE DEEP STEP · THE STAR DOCK)
+ON İKİ MERCEKLE   23    (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE STONE DRAGON · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB · THE GLASS WALL · THE IRON BRIDGE · THE STONE TOWER · THE DEEP STEP · THE STAR DOCK — ⑨ ⑩ ⑪ ⑫ dâhil)
+ALTI MERCEKLE TAM 9     (⑦ ⑧ öncesi / alternatif tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK · THE STONE DRAGON · THE VANISHING ROOM · THE LAST FIRING · THE GLASS WALL)
+ÜRETİLEN FİLM     31
+YAZILDI, ÜRETİLMEDİ 12  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE LONG SHADOW v2 · THE SEA MILL)
 ```
 
 ```
@@ -68,10 +68,12 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | **THE LAST LIFT** | Ⓥ 9,7 | **9,9** | Ⓥ 9,8 | Ⓥ 9,6 | Ⓥ 10,0 | **10,0** | Ⓥ 9,6 | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM (① 9,7 · ② 9,9 · ⑤ 10,0) · 🏆 REKOR ORTALAMA 9,83 |
 | THE LONG SHADOW v2 | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 28.09.2026 · 7 × 8,0 · ⭐ ilk GÖLGE filmi · ⭐ ilk BİRİMSİZ defter (ORAN · beşinci tür) · ⭐ tarihi hesaptan çıkan ilk film (ekinoks sabiti 4,1413 m) · ⭐ son yükseklik türetilmiş (11,34 m) · konu ajandan, üç öneriden ajanın önerisi seçildi · dokuzuncu DİKEY · ⭐ v1'in YENİDEN PLANI: v1 üretildi, 4/4 mercek düştü, yayınlanmadı) |
 | **BACK TO PLUMB** | Ⓥ 6,8 (32 kare) | **8,4** | Ⓥ 9,1 | **6,1** | Ⓥ 8,3 karesiz | **9,6** | Ⓥ 8,2 | **9,3** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 6,8 · ② 8,4 · ⑤ 8,3) · ORTALAMA 8,80 (8 mercek: 8,23) · ⛔ FINAL BEAT FAIL · ⛔ §3 ÇATLAK SIVANMASI |
-| THE GLASS WALL ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 28.09.2026 · 12 × 10,0 · YATAY ailesi) |
-| THE STONE TOWER | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 30.09.2026 · 7 × 8,0 · DİKEY ailesi · kuru taş gözetleme kulesi) |
-| THE IRON BRIDGE ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 30.09.2026 · 12 × 10,0 · YATAY ailesi · tek açıklıklı çelik kemer yaya köprüsü) |
-| THE DEEP STEP | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 30.09.2026 · 7 × 8,0 · ZEMİN ailesi · yeraltı basamaklı su kuyusu / stepwell) |
+| **THE GLASS WALL** ⭐ yatay | Ⓥ 9,9 | **10,0** | Ⓥ 9,9 | **7,4** | Ⓥ 10,0 karesiz | **9,1** | Ⓥ 6,0 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · BEŞ TANE 10/10 (② 10,0 · ⑤ 10,0 · ⑧ 10,0 · ⑨ 10,0 · ⑫ 10,0) · ASGARİ SET TAM (① 9,9 · ② 10,0 · ⑤ 10,0) · ORTALAMA 8,94 (8 mercek: 9,04) |
+| **THE STONE TOWER** | Ⓥ 8,2 | **8,4** | Ⓥ 7,8 | Ⓥ 7,5 | Ⓥ 7,9 | Ⓥ 8,4 | Ⓥ 8,7 | **8,9** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 8,2 · ② 8,4 · ⑤ 7,9) · ORTALAMA 8,38 (8 mercek: 8,23) · 6 milat 0 px sapma · ⛔ 00:12 vinç kancası · ⛔ G7 teslimi kalas molozuyla red · 2x video hızı |
+| **THE IRON BRIDGE** ⭐ yatay | Ⓥ 7,1 | **6,0** | Ⓥ 7,9 | **5,7** | Ⓥ 6,9 | Ⓥ 7,3 | Ⓥ 7,0 | **9,6** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ⛔ 00:51 KEMER KAYBOLMASI · ORTALAMA 7,65 (8 mercek: 7,19) · ⑧ 9,6 (MADE) · ⑪ 10,0 (INVITED) · ⑫ 8,8 (SOLID) |
+| **THE DEEP STEP** | Ⓥ 8,5 | **9,8** | Ⓥ 9,2 | Ⓥ 7,5 | Ⓥ 9,8 | **9,4** | Ⓥ 6,3 | ⛔ 5,1 | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 8,5 · ② 9,8 · ⑤ 9,8) · ORTALAMA 7,73 (8 mercek: 8,20) · 0/8 dikiş kusursuz · ⛔ 00:17.5 kubbe büyümesi · ⛔ modern araç sızıntısı · 2x video hızı |
+| **THE STAR DOCK** | Ⓥ 7,6 | **7,3** | Ⓥ 7,0 | Ⓥ 5,5 | Ⓥ 9,0 | **8,5** | Ⓥ 8,4 | ⛔ belgesiz 7,9 | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 7,6 · ② 7,3 · ⑤ 9,0 = 7,97) · ORTALAMA 7,43 (8 mercek: 7,65) · ⛔ FINAL BEAT FAIL · ⛔ 00:13 silindirik duvar · ⛔ havasızlıkta alev/duman · 2x video süresi |
+| THE SEA MILL | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 03.10.2026 · 6 × 8,0 · DİKEY ailesi · Baltık'ta açık denizde çıplak kayaya smock mill · ⭐ tek kaldırma · final rejim G: yelkenler X → dik haç) |
 | **THE DEEP END** | Ⓥ 9,6 (21 kare) | **10,0** | Ⓥ 10,0 | **9,9** | Ⓥ 10,0 | **9,4** | Ⓥ 9,3 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM |
 | **THE STONE DRAGON** | Ⓥ 6,0 | **9,2** | Ⓥ 9,1 | Ⓥ 5,7 | Ⓥ 3,9 | **9,4** | *V2 Ⓥ 6,5* | 🔴 RED (audit) | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM (⑦/⑧ denetim formatında) · ASGARİ SET DÜŞTÜ (⑤ 3,9) · ⛔ BİTİŞ KARTI İHLALİ |
 | **THE VANISHING ROOM** | Ⓥ 8,9 | **10,0** | Ⓥ 10,0 | Ⓥ 9,5 | **9,9** | Ⓥ 9,6 | Ⓥ 8,4 | **9,9** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · BEŞ TANE 10/10 · ASGARİ SET TAM (① 8,9 · ② 10,0 · ⑤ 9,9) |

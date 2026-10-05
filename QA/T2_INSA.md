@@ -32,6 +32,11 @@
 | **THE LAST LIFT** | D | **9,9**/10 | ✅ SAME · BUILT · 32 bay çanak ve 260m uzay kafes çatı kusursuz · 4 nirengide ölçek sapması %0,0 · yük yolu 10/10 · kart SAME | 1 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | D | **10,0**/10 | ✅ SAME · BUILT · kart SAME · 5 nirengide ölçek sapması %0,0 (Ufuk, G3 0px, G4 +31px, Taban 797px, Önlük 831px) · yük yolu ve taş kubbe montajı tam · sıfır kusur | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | D | **8,4**/10 | ✅ SAME · BUILT · kart SAME · 4 nirengide ölçek kilidi (G0 64px, G2 45px, G4 28px, G7 0px — fark ≤ 1px) · yük yolu 9 · ⛔ §3 çatlak sıvanması ihlali · ⛔ §10 müzik ihlali · kama dairesel duvara dönüştü | 3 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | D | **10,0**/10 | ✅ SAME · BUILT · 8/8 kategori 10/10 tam puan · kart SAME · 4 nirengide ölçek sapması %0,0 (Ufuk %50,0, Taban %44,7, Taç %59,2, Zeytin ~%56,2) · kazıdan teras duvarına, çelik kemerden cam montajı ve peyzaja sıfır hata ("No defects found") | 0 | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | D | **6,0**/10 | ✅ SAME · BUILT · 00:51 kemer yok olması ve 00:55 tekrar montaj (Monotonik 2/10) · servis köprüsü ani kaybolma · kart SAME | 4 | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | D | **8,4**/10 | ✅ SAME · BUILT · 6 nirengide ölçek sapması 0 px (±1 px) · Yapı/Büyüme/İnşaat/Yük 10/10 · ⛔ rampa sökülmedi · 00:12 vinç kancası · kart AYNI | 3 | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | D | **9,8**/10 | ✅ SAME · BUILT · 3 nirengide 0 px sapma · Yapı/Büyüme/İnşaat/Yük/İksa/Geometri 10/10 · kazıdan 28 basamak ve pavyona sıfır hata · kart SAME | 0 | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | D | **7,3**/10 | ✅ SAME · BUILT · 4 milatta 0 px sapma · ölçek/geometri 9/10 · ⛔ 00:13–00:14 silindirik duvar sıçraması (monotonik büyüme ihlali) · kart SAME | 3 | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17] — İKİNCİ KEZ:** QA_SPEC bu filmde ÜRETİMDEN ÖNCE yazılmıştı ve merceğe yine verilmedi. Skoru tabloya yazılmaz. Ölçülen ham ortalama 1,5. ⛔ DIFFERENT · APPEARING hükmü **dördüncü kez** geldi.

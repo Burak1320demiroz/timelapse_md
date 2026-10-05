@@ -32,6 +32,11 @@
 | **THE LAST LIFT** | V | **9,7**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve 10/10 · Ufuk %81,1 (%0,0 yayılma) · kar/gece 10/10 · kart SAME | 2 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | V (33 kare) | **9,4**/10 Ⓥ | ✅ TIME-LAPSE · kamera, istasyon, ankor, çerçeve 10/10 · Ufuk %57,0 (< 0,5% yayılma) · gece 10/10 · kart SAME · Safe Area 9 · Surface Truth 9 | 1 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | V (32 kare) | **6,8**/10 Ⓥ | ✅ TIME-LAPSE · kamera kilidi 10 · istasyon 10 · çerçeve 9 · ankor 7 · safe area 8 · surface truth 5 · people/vehicles 3 · text 2 · kart SAME · ⛔ 00:18 çatlak sıvanması ankor ihlali · donmuş işçiler · sunburst | 4 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | V | **9,9**/10 Ⓥ | ✅ TIME-LAPSE · kamera kilidi, istasyon, ankor, çerçeve, güvenli alan 10/10 · Ufuk %50,0 (< %0,2 yayılma) · C1 lift 10/10 · gece/alacakaranlık 10/10 · kart SAME · metin 9 (ekskavatör/lift siluet marka izi) | 3 | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | V | **7,1**/10 Ⓥ | ⛔ ALTI AYRI ÇEKİM (SIX SEPARATE SHOTS) · 00:51'de kemer yok olması · 00:41 meşe yaprak morphing · Safe area 9 · kart SAME | 7 | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | V | **8,2**/10 Ⓥ | ✅ TIME-LAPSE · istasyon 10 · kamera kilidi, kadraj, çapa 9 · Ufuk %50,0 (< 1 px sapma) · ⛔ C1 vinç 4 (00:12 vinç kancası) · kart AYNI | 3 | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | V | **8,5**/10 Ⓥ | ✅ TIME-LAPSE · istasyon, güvenli alan, metin 10/10 · kadraj, çapa 9/10 · üst parapet yayılımı %0,0–%0,5 · donuk figürler · kart SAME | 7 | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | V | **7,6**/10 Ⓥ | ✅ TIME-LAPSE · kamera kilidi 10/10 · istasyon 9/10 · Ufuk %50,0 (< %1 yayılma) · ⛔ 00:13 silindirik duvar sıçraması · ⛔ alev ve duman · kart SAME | 5 | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 
 ⚠️ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi (`kare_al.sh` yine koşulmadı — üçüncü film). ⛔ CAMERA LOCK **0/10**: beş klibin BEŞİNDE de yavaş push-in. Ölçülebilir çapa cümlesi beş I2V'nin beşinde de YAZILIYDI ve tutmadı — NARROW LOT'ta aynı cümle 10/10 almıştı [DERS 23].

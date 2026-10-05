@@ -32,6 +32,11 @@
 | **THE LAST LIFT** | V | **9,8**/10 Ⓥ | ✅ PASSES · tahmin "about 2 years (24 months)" TAM TUTTU · tam 4 mevsim döngüsü (`yaz → sonbahar → kış → ilkbahar → yaz`) · gölge 10/10 | 1 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | V | **8,9**/10 Ⓥ | ✅ PASSES · tahmin "yaklaşık 2 - 3 gün" · gölge süpürmesi 1:1.5 → 1:1.0 → 1:4.0 (14° gün batımı) · kart SAME | 3 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | V | **9,1**/10 Ⓥ | ✅ PASSES · tahmin "1 Çalışma Günü (07:00 – 15:30/17:00)" TAM TUTTU · mevsim sırası 10/10 · kesme 10/10 · gölge 1:1.5 → 1:0.8 → 1:2.1 uyumlu · kart SAME | 0 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | V | **9,9**/10 Ⓥ | ✅ PASSES · tahmin "Yaklaşık 8 ay (Mart / İlkbahar başından Ekim / Sonbahar sonuna kadar)" (plan 8 ay) DÖRT DÖRTLÜK TAM TUTTU · mevsim sırası ve taşıyıcıları 10/10 · gölge süpürmesi 1:1,5 (33°) → 1:0,6 (59°) → 1:3,7 (15°) tam uyumlu · yağmur/fırtına geçişi 10/10 · kart SAME | 4 | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | V | **7,9**/10 Ⓥ | ✅ PASSES · tahmin "1,25–1,5 yıl (15–18 ay)" (plan ~15 ay) TAM TUTTU · mevsim sırası 9 · kış/kar 8 · kemer sıfırlanması · kart SAME | 3 | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | V | **7,8**/10 Ⓥ | ✅ PASSES · tahmin "1–2 ay" · bulut/gök 9 · kesme 9 · pozlama 9 · gölge 8 · ⛔ mor kekik sabit kaldı · kart AYNI | 2 | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | V | **9,2**/10 Ⓥ | ✅ PASSES · tahmin "6 ay - 1 yıl" TAM TUTTU · gölge tablosu 3/3 tam uyumlu (~40° → ~33° → ~22°) · gece/alacakaranlık ve kandiller 10/10 · vejetasyon (akasya sökümü) 10/10 · kart SAME | 0 | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | V | **7,0**/10 Ⓥ | ✅ PASSES · tahmin "1,5–2 Ay Günü (30–40 saat)" · gölge tablosu 7/7 tam uyumlu (~63° → ~48° → ~32° → ~15° → Gece) · ⛔ havasızlıkta asılı kalan duman/hale · kart SAME | 3 | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 
 ⭐ **THE MOUNTAIN DOOR — ALTI MERCEĞİN TAM KOŞAN TEK'İ.** Girdisi yalnız tam kurgudur ve eksiksiz verildi; skoru **bağlayıcıdır** (Ⓥ yok). Zaman tahmini "about 9 to 12 months", plan 12 ay — **ikinci kez TUTTU**. ⛔ Buna karşılık SEASON ORDER 0/10: plandaki sonbahar hiç görünmedi ve kış ② (erime) YAZ olarak üretildi.

@@ -32,6 +32,11 @@
 | **THE LAST LIFT** | V | **9,6**/10 Ⓥ | ✅ ENDS · ⭐ FINAL BEAT PASS (10/10) · ONE THING BULUNDU · alacakaranlıkta parlayan projektörler ve çim saha · kart SAME | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | D | **8,0**/10 | ✅ ENDS · ⭐ FINAL BEAT PASS (8/10) · ONE THING BULUNDU · ateş ağzı ve 127 px delikten sızan akkor kor göğü geçti · kart SAME | 1 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | D | **6,1**/10 | ⛔ STOPS · ⛔ FINAL BEAT FAIL (4/10) · ONE THING BULUNDU (tuğla kule hidrolik doğrultma ve kama) · ⛔ §5 elastik geri oturma görünür değil · ⛔ §3 çatlak sıvanması · kart SAME | 3 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | D | **7,4**/10 | ✅ ENDS · ⚠️ FINAL BEAT FAIL (4/10 — süre sıkışması: video 109s / plan 125s, 01:40'ta unsurlar tam) · ⭐ ONE THING BULUNDU · kart SAME | 3 | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | D | **5,7**/10 | ✅ ENDS · ⛔ FINAL BEAT FAIL (4/10) · ONE THING BULUNDU · 00:51 kemer sıfırlanması kurgu bütünlüğünü bozdu · kart SAME · süre 100 sn | 3 | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 7,5 Ⓥ) | ✅ ENDS · COST/FINAL BEAT PASS (8/10 Ⓥ) · ⭐ ONE THING BULUNDU · 00:26 altın saat teslimi · ⛔ 00:12 vinç kancası · 2x video süresi | 3 | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | ⛔ V | *kapaksız koşuldu — TEKRARLANACAK* (ham 7,5 Ⓥ) | ✅ ENDS · COST/FINAL BEAT PASS (8/10 Ⓥ) · ⭐ ONE THING BULUNDU · 00:24–00:28 su aynası ve 8 kandil · kart SAME · 2x video süresi | 2 | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 5,5 Ⓥ) | ⛔ STOPS · ⛔ FINAL BEAT FAIL (0/10 Ⓥ — 55,5 sn karesi yok, video 28 sn) · ⭐ ONE THING BULUNDU · dikey uzay gemisi yanaşması · ⛔ alev/duman ihlali · kart SAME · 2x video süresi | 5 | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR belgesiz koşuldu [DERS 17]:** plan da kapak da verilmedi. FINAL BEAT beyan edilmiş vuruşa karşı denetlenmedi — mod V'de kategori "bir sonu var mı"ya dönüştü ve PASS verdi. ⛔ NONE FOUND **dördüncü kez** — bu filmde BEDEL plana İKİ kez yazılıydı [DERS 26]. Ham ortalama 4,0.

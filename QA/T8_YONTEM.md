@@ -28,6 +28,11 @@
 | **THE LAST LIFT** | D | **10,0**/10 | ✅ MADE · 10/10 MADE · depoda dokuzuncu belgeli 10/10'u | NONE | 260m Çelik Çatı Halkası (00:20–00:28) | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | D | **10,0**/10 | ✅ MADE · 7/7 MADE · depoda onuncu belgeli 10/10'u | NONE | Corbelled Stone Dome (00:03.0–00:09.0) | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | D | **9,3**/10 | ✅ MADE · 5/5 MADE | NONE | Tuğla Kama (Brick Wedge, 00:08.0–00:18.0) | 0 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | D | **10,0**/10 | ✅ MADE · 8/8 MADE · depoda on birinci belgeli 10/10'u | NONE | Cam Panel Vakumlu Montaj (1:00.0) | 0 | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | D | **9,6**/10 | ✅ MADE · 9/9 MADE · şantiye yöntemleri tam · vinç yerleştirme 10/10 | NONE | Sağ Beton Kenar Ayak (00:08–00:15) | 0 | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | D | **8,9**/10 | ✅ MADE · 7/7 MADE · defter eksiksiz 10/10 · adım sıralaması 10/10 · ⛔ G7 teslimi kalas molozuyla red | NONE | Kapı Lentosu (00:05.5–00:10.0) | 4 | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 5,1 Ⓥ) | ⛔ APPEARED · 6/9 MADE · SPEC verilmedi (yanlış şartname) | Taşıyıcı Sütunlar · 00:06.0 | Basamaklı Piramit Ağı (00:04.0–00:13.0) | 5 | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | ⛔ V | *belgesiz koşuldu — TEKRARLANACAK* (ham 7,9 Ⓥ) | ⛔ APPEARED · 8/9 MADE · SPEC uyuşmazlığı (Deep Step verildi) | Silindirik Muhafaza Duvarı · 00:13.0 | Dikey Kafes Kuleler ve Üst Halka (00:08–00:10) | 3 | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 **VERDICT değerleri:** MADE / APPEARED
 

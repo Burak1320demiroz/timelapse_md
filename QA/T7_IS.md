@@ -28,6 +28,11 @@
 | **THE LAST LIFT** | ⚠️ V karesiz | **9,6**/10 Ⓥ | ✅ WORKING · 10 büyüme adımının tamamı çalışan makinelerle gerçekleşti | 0:00.0–0:00.5 · klip 1 · 0.5 sn · %12.5 | NONE | 0 | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | ⚠️ V karesiz | **8,8**/10 Ⓥ | ✅ WORKING · 5 büyüme adımının tamamı çalışan insan gücü ve el arabasıyla gerçekleşti | 0:03.5–0:04.0 · klip 1 · 0.5 sn · %6.25 | NONE | 0 | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | ⚠️ V karesiz | **8,2**/10 Ⓥ | ✅ WORKING · çalışma cephesi 9/10 · sebep-sonuç 7/10 · büyüme adımları işçi emeğiyle açıklandı | 00:26.0–00:27.5 · klip 7 · 1.5 sn · %37.5 (teslimat temizliği) | NONE | 1 | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | ⚠️ V karesiz | **6,0**/10 Ⓥ | ✅ WORKING · 12 büyüme adımından 10'u insan ve makine emeğiyle sürüldü · Klip 11 tarımsal bitki olgunlaşması | 1:40.0–1:50.0 · klip 11 · 10.0 sn · %100 (teslimat/olgunlaşma) | 1:40.0–1:50.0 tarhlarda tarımsal ekin büyümesi (biyolojik) | 9 | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | ⚠️ V karesiz | **7,0**/10 Ⓥ | ✅ WORKING · makine döngüsü 8 · malzeme akışı 8 · ⛔ sebep-sonuç 3/10 (00:50 kemer sökümsüz kaybolma) · C2 teslim 9/10 | 01:19.0–01:35.0 · klip 11 · 16.0 sn · %100 (C2 teslim) | 00:50.0 kemer sökümsüz yok olup 00:55'te yeniden üretilmesi | 3 | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | ⚠️ V karesiz | **8,7**/10 Ⓥ | ✅ WORKING · 7 büyüme adımının tamamı çalışan işçilerle açıklandı · lento kızak hareketi tam | 00:26.5–00:28.0 · klip 7 · 1.5 sn · %37.5 (saha teslimi) | NONE | 5 | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | ⚠️ V karesiz | **6,3**/10 Ⓥ | ✅ WORKING · çalışma cephesi 7/10 · sebep-sonuç 4/10 · büyüme adımları işçi/vinçle açıklandı | 00:24.0–00:28.0 · klip 17 · 4.0 sn · %100 (teslimat) | 00:17.5 çatıdaki 3 kubbe (chhatri) | 5 | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | ⚠️ V karesiz | **8,4**/10 Ⓥ | ✅ WORKING · çalışma cephesi 9/10 · makine döngüsü 8/10 · aynı makineler 9/10 · C1/C2 9/10 | 00:18.5–00:19.5 · klip 6 · 1.0 sn · %25.0 (gece intikali/ışık kontrolü) | NONE | 2 | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 **VERDICT değerleri:** WORKING / PARKED
 

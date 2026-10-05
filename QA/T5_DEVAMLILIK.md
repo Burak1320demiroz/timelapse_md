@@ -31,6 +31,11 @@
 | **THE LAST LIFT** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: İki şeritli asfalt karayolu (00:01 ve 00:39) · 0/9 dikiş kusursuz (9 INTENDED) · kart SAME | 0/9 dikiş | [kayıt](RAPORLAR/THE_LAST_LIFT.md) |
 | **THE LAST FIRING** | V | **10,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Yaşlı İncir Ağacı (00:00 ve 00:28) · 0/6 dikiş kusursuz (6 INTENDED) · kart SAME | 0/6 dikiş | [kayıt](RAPORLAR/THE_LAST_FIRING.md) |
 | **BACK TO PLUMB** | V | **8,3**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Ahşap direk ve taş ahır (00:00 ve 00:27.5) · 2/6 dikiş kusurlu (00:08 beliren ve 00:12 yok olan tripod) · kart SAME | 2/6 dikiş | [kayıt](RAPORLAR/BACK_TO_PLUMB.md) |
+| **THE GLASS WALL** | ⚠️ V karesiz | *karesiz koşuldu — TEKRARLANACAK* (ham 10,0) | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Zeytin Ağacı (00:00 ve 02:04) · 0/11 dikiş kusursuz (11 INTENDED) · kart SAME | 0/11 dikiş | [kayıt](RAPORLAR/THE_GLASS_WALL.md) |
+| **THE IRON BRIDGE** | V | **6,9**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Büyük meşe ağacı (00:02 ve 01:30) · 2/11 dikiş kusurlu (Dikiş 2 köprü ani kayboluş, Dikiş 6 kemer sıfırlanması) · kart SAME | 2/11 dikiş | [kayıt](RAPORLAR/THE_IRON_BRIDGE.md) |
+| **THE STONE TOWER** | V (karesiz) | **7,9**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Asırlık zeytin ağacı (00:00 ve 00:27) · 2/6 dikiş kusurlu (Dikiş 3 vinç/rampa, Dikiş 6 kalas molozu) · kart SAME | 2/6 dikiş | [kayıt](RAPORLAR/THE_STONE_TOWER.md) |
+| **THE DEEP STEP** | V (karesiz) | **9,8**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Kuzey Sınır Parapeti ve Arka Taş Sınır Duvarı (00:00 ve 00:27) · 0/8 dikiş kusursuz (8 INTENDED) · kart SAME | 0/8 dikiş | [kayıt](RAPORLAR/THE_DEEP_STEP.md) |
+| **THE STAR DOCK** | V (karesiz) | **9,0**/10 Ⓥ | ✅ SAME WORLD · ⭐ kanıt BULUNDU: Sağ alt İkiz Kaya ve sol üst halkalı gezegen (00:00 ve 00:28) · 0/7 dikiş kusursuz (7 INTENDED) · 00:13–00:14 duvar sıçraması · kart SAME | 0/7 dikiş | [kayıt](RAPORLAR/THE_STAR_DOCK.md) |
 
 
 ⛔ **THE MOUNTAIN DOOR · RUN INCOMPLETE:** kare grabı verilmedi. Dört dikişin DÖRDÜ de kusur taşıyor. ⭐ En ağır satır: plana KASTEN yerleştirilen kanıt nesnesi (2,4 m üstü düz granit kaya) 0:05,9 → 0:06,0'da **kayboldu** ve mercek NONE FOUND yazdı. Kanıt nesnesi yazmak yetmiyor [DERS 25].
