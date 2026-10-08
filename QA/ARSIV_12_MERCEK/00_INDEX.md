@@ -9,14 +9,14 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM       43
+TOPLAM FİLM       45
 ÖLÇÜLEN FİLM      32
 TAM ÖLÇÜLEN       0     (8 merceğin 8'i de koşulmuş — ⑦ ⑧ 07.09.2026'da açıldı)
 SEKİZ MERCEKLE    27    (THE LONG DAY · THE DUST YEAR · BUILT FROM DUST · POLAR HABITAT · THE CROSSING · OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB · THE GLASS WALL · THE IRON BRIDGE · THE STONE TOWER · THE DEEP STEP · THE STAR DOCK)
 ON İKİ MERCEKLE   23    (OVER THE WALL · THE EMPTY RIDGE · THE DARK ROCK · BACK TO WATER · THE QUIET FIELD · THE EMPTY LOCK · THE BROKEN CLIMB · THE BLUE DOOR · THE DEEP END · THE STONE DRAGON · THE VANISHING ROOM · THE GLASS CROSSING · THE FIRST GUEST · THE LAST HARBOR · THE MOUNTAIN CROWN · THE LAST LIFT · THE LAST FIRING · BACK TO PLUMB · THE GLASS WALL · THE IRON BRIDGE · THE STONE TOWER · THE DEEP STEP · THE STAR DOCK — ⑨ ⑩ ⑪ ⑫ dâhil)
 ALTI MERCEKLE TAM 9     (⑦ ⑧ öncesi / alternatif tamlık · THE MOUNTAIN DOOR · THE NARROW LOT · THE CLOSING SPAN · THE QUIET FIELD · THE EMPTY LOCK · THE STONE DRAGON · THE VANISHING ROOM · THE LAST FIRING · THE GLASS WALL)
 ÜRETİLEN FİLM     31
-YAZILDI, ÜRETİLMEDİ 12  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE LONG SHADOW v2 · THE SEA MILL)
+YAZILDI, ÜRETİLMEDİ 14  (BEFORE NIGHTFALL · THE OLD ROAD · THE HIDDEN OASIS · THE NARROW GORGE · THE LAST CIRCLE · THE BORROWED HILL · ONE MORE TURN · THE SWALLOWED BUS · ORBITAL_SCAFFOLD · THE TIDE GATE · THE LONG SHADOW v2 · THE SEA MILL · THE BLUE SILO · THE EDEN ARK)
 ```
 
 ```
@@ -74,6 +74,8 @@ Bir film "tam ölçüldü" sayılmak için sekiz merceğin sekizini de görmelid
 | **THE DEEP STEP** | Ⓥ 8,5 | **9,8** | Ⓥ 9,2 | Ⓥ 7,5 | Ⓥ 9,8 | **9,4** | Ⓥ 6,3 | ⛔ 5,1 | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 8,5 · ② 9,8 · ⑤ 9,8) · ORTALAMA 7,73 (8 mercek: 8,20) · 0/8 dikiş kusursuz · ⛔ 00:17.5 kubbe büyümesi · ⛔ modern araç sızıntısı · 2x video hızı |
 | **THE STAR DOCK** | Ⓥ 7,6 | **7,3** | Ⓥ 7,0 | Ⓥ 5,5 | Ⓥ 9,0 | **8,5** | Ⓥ 8,4 | ⛔ belgesiz 7,9 | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · ASGARİ SET TAM (① 7,6 · ② 7,3 · ⑤ 9,0 = 7,97) · ORTALAMA 7,43 (8 mercek: 7,65) · ⛔ FINAL BEAT FAIL · ⛔ 00:13 silindirik duvar · ⛔ havasızlıkta alev/duman · 2x video süresi |
 | THE SEA MILL | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 03.10.2026 · 6 × 8,0 · DİKEY ailesi · Baltık'ta açık denizde çıplak kayaya smock mill · ⭐ tek kaldırma · final rejim G: yelkenler X → dik haç) |
+| THE BLUE SILO | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 05.10.2026 · 6 × 8,0 · KÜTLE ailesi · Karadeniz limanında paslı tahıl silosu → deniz suyu tankı · ⭐ vinçsiz, tek halka platform · paslı taç kalır · final rejim G: ilk sürü dipteki ağızdan girer) |
+| THE EDEN ARK ⭐ yatay | — | — | — | — | — | — | — | — | **0/8** · ⛔ ÜRETİLMEDİ (plan 05.10.2026 · 18 × 8,0 + 5,0 kart · ⚠️ bant dışı, sahip izni · Adriyatik tersanesinde kuru havuz: paslı yük gemisi → cam kubbe altında bahçe → yüzer · ⭐ tek kaldırma (incir) · final römorkörle mavi saatte çıkış) |
 | **THE DEEP END** | Ⓥ 9,6 (21 kare) | **10,0** | Ⓥ 10,0 | **9,9** | Ⓥ 10,0 | **9,4** | Ⓥ 9,3 karesiz | **10,0** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · YEDİ TANE 10/10 · ASGARİ SET TAM |
 | **THE STONE DRAGON** | Ⓥ 6,0 | **9,2** | Ⓥ 9,1 | Ⓥ 5,7 | Ⓥ 3,9 | **9,4** | *V2 Ⓥ 6,5* | 🔴 RED (audit) | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM (⑦/⑧ denetim formatında) · ASGARİ SET DÜŞTÜ (⑤ 3,9) · ⛔ BİTİŞ KARTI İHLALİ |
 | **THE VANISHING ROOM** | Ⓥ 8,9 | **10,0** | Ⓥ 10,0 | Ⓥ 9,5 | **9,9** | Ⓥ 9,6 | Ⓥ 8,4 | **9,9** | **8/8** + ⑨⑩⑪⑫ · ⭐ 12 MERCEK TAM · BEŞ TANE 10/10 · ASGARİ SET TAM (① 8,9 · ② 10,0 · ⑤ 9,9) |

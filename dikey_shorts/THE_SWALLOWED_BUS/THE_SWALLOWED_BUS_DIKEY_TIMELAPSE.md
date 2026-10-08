@@ -80,7 +80,7 @@ BEDEL    ⭐ Otobüsün kendisi: S0'da ezik çıkar, lowbed'e biner, S1'de solda
    çukur ve iki kırık boru ucu AÇIKÇA görünür; otobüs G0'da TAHLİYE EDİLMİŞTİR (üç kapı
    açık, koltuklar boş) — izleyici içerideki insanda takılmaz. "İlk saniyede durdurur ·
    sona kadar tutar" iddiaları plana YAZILMADI: yaratıcı varsayımdır, 06 deney planında
-   ölçülür (QA/QA_CAPRAZ_ANALIZ/06 · YAYIN_PLANI §6).
+   ölçülür (QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/06 · YAYIN_PLANI §6).
 ②  TEK ALTYAPI ARIZASI — "patlamış su hattı" ÇIKTI. Arıza: çökmüş eski kanal hattı + boşalma.
    Pompa kazı suyunu alır (G1–G2); yeni boru eski hattın İKİ UCUNA bilezikle bağlanır
    (G2'de bilezikler, G3'te sürekli boru); bağlantı bitince pompa ve hortum GİDER (G3).

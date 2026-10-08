@@ -44,7 +44,7 @@ TOPLAM                              56,0 sn
 ⛔ SAHNE SÜRESİ 8,0 sn — proje sahibinin kesin kuralı. Süreler eşittir ve bu BEYANLI bir karardır: prompt kapısının
    "⑥ METRONOM" FIX'i beklenen uyarıdır, düzeltilecek hata değildir [KILAVUZ_REHBERI §2.2 karşı kayıt · C1-e].
    Ritim yükü klip İÇİNE taşındı → §RİTİM. 48,0 kesmesi (B → G · deniz ipekten dalgaya) filmin dikişidir.
-⚠️ BROKEN CLIMB ÖLÇÜMÜNDEN (QA/RAPORLAR/THE_BROKEN_CLIMB.md · ④ 5,1 · ① 4,1): teslim 56,0 yerine 32,0 sn'ye kesildi,
+⚠️ BROKEN CLIMB ÖLÇÜMÜNDEN (QA/ARSIV_12_MERCEK/RAPORLAR/THE_BROKEN_CLIMB.md · ④ 5,1 · ① 4,1): teslim 56,0 yerine 32,0 sn'ye kesildi,
    master'a "IT CLIMBED AGAIN" kartı basıldı, kamera 4 istasyon grubuna bölündü. ⇒ Bu filmde kurgu 7 × 8,0'dan SAPMAZ,
    hiçbir metin/kart master'a BASILMAZ, her halkada zincir_kontrol.sh koşulur; final vuruşu (patlama) 53,5'te gelir.
 ⛔ ARAÇ KUTU SETİ: ⛔ ÖLÇÜLMEDİ — araç kapısı koşulmadı [ARAC_KARTLARI §4].

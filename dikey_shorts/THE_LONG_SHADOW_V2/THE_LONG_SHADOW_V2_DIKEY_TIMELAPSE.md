@@ -26,7 +26,7 @@ TARİH      öneri 27.09.2026 · YAZILDI 28.09.2026 · OTUZ ALTINCI FİLM · aja
            sahne sahne öneri sunuldu, sahip 'hazırla' dedi
 ⭐ v2        Bu film deponun İLK FİLMİNİN (THE LONG SHADOW v1) yeniden planıdır. v1 üretildi,
            dört merceğin dördü de düştü ve karar şuydu: ⛔ YAYINLANMAZ, yeniden planlanıp yeniden
-           üretilir [QA/RAPORLAR/THE_LONG_SHADOW.md]. Havuz satırı 1'in bedeli aynen korundu:
+           üretilir [QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md]. Havuz satırı 1'in bedeli aynen korundu:
            'karşı bloğun ikindi güneşi'. Konu aynı, saha ve ölçü yeni (§v1'İN CEVABI).
 DURUM      ⛔ ÜRETİLMEDİ — araç kapısı koşulmadı · ön görselleştirme çizilmedi · tek kare üretilmedi
 ```

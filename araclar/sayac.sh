@@ -52,10 +52,17 @@ printf "   ölçülmüş ders         %s\n" "${DERS:-0}"
 printf "   devralınan varsayım   %s   ⚠️ film_md'den · bu depoda ÖLÇÜLMEDİ\n" "${VARSAYIM:-0}"
 printf "   dış okuma varsayımı   %s   ⚠️ araştırma + uzman okuması · bu depoda ÖLÇÜLMEDİ\n" "${ARASTIRMA:-0}"
 printf "   işlenmiş ham rapor    %s   (arastirma/SONUCLAR)\n" "${HAM_ARASTIRMA:-0}"
-PROMPT_SAYI=$(ls -1 arastirma/A[0-9]_*.md 2>/dev/null | wc -l | tr -d ' ')
-KOSULAN=$(ls -1 arastirma/SONUCLAR/A[0-9]_*_HAM.md 2>/dev/null | sed 's/.*\/\(A[0-9]\)_.*/\1/' | sort -u | wc -l | tr -d ' ')
-printf "   araştırma promptu     %s   (koşulan %s · ⛔ koşulmayan %s)\n" \
-       "${PROMPT_SAYI:-0}" "${KOSULAN:-0}" "$(( ${PROMPT_SAYI:-0} - ${KOSULAN:-0} ))"
+PROMPT_SAYI=$(ls -1 arastirma/A[0-9]*_*.md 2>/dev/null | wc -l | tr -d ' ')
+# koşulan = promptu olan ve ham raporu gelen kod · promptsuz gelen (A13–A19) ayrı sayılır
+KOSULAN=0; KOSULMAYAN=""
+for pf in arastirma/A[0-9]*_*.md; do
+    [ -f "$pf" ] || continue; k=$(basename "$pf" | sed 's/_.*//')
+    if ls arastirma/SONUCLAR/${k}_*HAM.md >/dev/null 2>&1; then KOSULAN=$((KOSULAN + 1)); else KOSULMAYAN="$KOSULMAYAN $k"; fi
+done
+PROMPTSUZ=$(ls -1 arastirma/SONUCLAR/A[0-9]*_*_HAM.md 2>/dev/null | sed 's/.*\/\(A[0-9]*\)_.*/\1/' | sort -u \
+            | while read -r k; do ls arastirma/${k}_*.md >/dev/null 2>&1 || echo "$k"; done | grep -c .)
+printf "   araştırma promptu     %s   (koşulan %s · ⛔ koşulmayan %s%s · promptsuz gelen rapor %s)\n" \
+       "${PROMPT_SAYI:-0}" "$KOSULAN" "$(( ${PROMPT_SAYI:-0} - KOSULAN ))" "${KOSULMAYAN:+ ·$KOSULMAYAN}" "$PROMPTSUZ"
 [ "${ARASTIRMA:-0}" -gt 0 ] && [ "${HAM_ARASTIRMA:-0}" -eq 0 ] && \
   echo "   ⛔ kodlu varsayım var ama ham rapor YOK — kaynak kaybolmuş"
 echo
@@ -107,39 +114,33 @@ tablo_satir() {
 }
 tablo_say() { tablo_satir "$1" | grep -c . ; }
 
-T1=$(tablo_say QA/T1_KARE.md);  T2=$(tablo_say QA/T2_INSA.md)
-T3=$(tablo_say QA/T3_ZAMAN.md); T4=$(tablo_say QA/T4_TESLIM.md)
-T5=$(tablo_say QA/T5_DEVAMLILIK.md); T6=$(tablo_say QA/T6_GECIS.md)
-T7=$(tablo_say QA/T7_IS.md); T8=$(tablo_say QA/T8_YONTEM.md)
+# ⭐ 06.10.2026: beş mercek · QA/TABLO.md tek sayaç · eski 12 mercek ARSIV_12_MERCEK/ (dondurulmuş)
+echo "🔍 QA — BEŞ MERCEK"
+for q in Q1_GORUNTU Q2_ZAMAN_KESME Q3_SANTIYE Q4_INSA Q5_TESLIM; do
+    [ -f "QA/$q.md" ] && printf "   ✅ %-16s rubrik\n" "$q" || printf "   ⛔ %-16s rubrik YOK\n" "$q"
+done
+TSATIR=$(awk '/^## FİLM × MERCEK/{p=1} p' QA/TABLO.md 2>/dev/null | tablo_satir /dev/stdin | grep -c .)
+HAMYENI=$(find QA/HAM -name "*_HAM*.md" 2>/dev/null | wc -l | tr -d ' ')
+HAMFILM=$(find QA/HAM -name "*_HAM*.md" 2>/dev/null | awk -F/ '{print $3}' | sort -u | grep -c .)
+printf "   ham rapor (yeni)  %s · %s film · TABLO satırı %s\n" "$HAMYENI" "$HAMFILM" "$TSATIR"
+# U1 kanıt var, kayıt yok · U2 kayıt var, kanıt yok [QA_KAYIT §5]
+for d in QA/HAM/*/; do
+    [ -d "$d" ] || continue; f=$(basename "$d")
+    grep -qE "^\| $(echo "$f" | tr '_' ' ') \|" QA/TABLO.md 2>/dev/null || printf "   ❌ U1 %s — ham rapor var, TABLO'da satır yok\n" "$f"
+done
+awk '/^## FİLM × MERCEK/{p=1} p' QA/TABLO.md 2>/dev/null | tablo_satir /dev/stdin | awk -F'|' '{c=$2; gsub(/^[ \t]+|[ \t]+$/,"",c); gsub(/ /,"_",c); print c}' \
+  | while read -r f; do [ -z "$f" ] || [ -d "QA/HAM/$f" ] || printf "   ❌ U2 %s — TABLO'da satır var, ham klasörü yok\n" "$f"; done
+HAMARSIV=$(find QA/ARSIV_12_MERCEK/HAM_RAPORLAR -name "*_HAM.md" 2>/dev/null | wc -l | tr -d ' ')
+ESLEME=$(($(wc -l < QA/ARSIV_12_MERCEK/00_ESLEME.tsv 2>/dev/null || echo 1) - 1))
+printf "   arşiv (12 mercek) %s ham · eşleme %s satır" "$HAMARSIV" "$ESLEME"
+[ "$HAMARSIV" = "$ESLEME" ] && printf " ✅\n" || printf " ❌ eşleme tablosu ham sayısını tutmuyor\n"
 
-echo "🔍 QA — SEKİZ MERCEK"
-printf "   ① KARE        %s satır\n" "$T1"
-printf "   ② İNŞA        %s satır\n" "$T2"
-printf "   ③ ZAMAN       %s satır\n" "$T3"
-printf "   ④ TESLİM      %s satır\n" "$T4"
-printf "   ⑤ DEVAMLILIK  %s satır\n" "$T5"
-printf "   ⑥ GEÇİŞ       %s satır\n" "$T6"
-printf "   ⑦ İŞ          %s satır\n" "$T7"
-printf "   ⑧ YÖNTEM      %s satır\n" "$T8"
-
-# ölçülen film = dört tablonun herhangi birinde adı geçen benzersiz film
-OLCULEN=$(for t in T1_KARE T2_INSA T3_ZAMAN T4_TESLIM T5_DEVAMLILIK T6_GECIS T7_IS T8_YONTEM; do
-              tablo_satir "QA/$t.md"
-          done | awk -F'|' '{c=$2; gsub(/\*\*|~~/,"",c); gsub(/^[ \t]+|[ \t]+$/,"",c); sub(/ B[12]$/,"",c); if(c!="")print c}' \
-          | sort -u | grep -c .)   # " B1" / " B2" eki atılır: 6/8 dk bölüm satırları TEK film [§2.8]
-printf "   ⭐ ÖLÇÜLEN FİLM   %s / %s\n" "$OLCULEN" "$TOPLAM"
-[ "$OLCULEN" -lt "$TOPLAM" ] && printf "   ⛔ ÖLÇÜLMEMİŞ      %s / %s\n" "$((TOPLAM - OLCULEN))" "$TOPLAM"
-
-# ölçüldü ama tabloya işlenmedi: ham raporu var, T tablosunda satırı yok
-HAM=$(find QA/HAM_RAPORLAR -name "*_HAM.md" 2>/dev/null | wc -l | tr -d ' ')
-printf "   ham rapor         %s\n" "$HAM"
-
-# 00_INDEX karşılaştırması — kural ①: sayı tek yerde durur, ama DOĞRULANIR
-IDX=$(grep -oE "TOPLAM FİLM +[0-9]+" QA/00_INDEX.md 2>/dev/null | grep -oE "[0-9]+" | head -1)
+# TABLO karşılaştırması — sayı tek yerde durur, ama DOĞRULANIR
+IDX=$(grep -oE "TOPLAM FİLM +[0-9]+" QA/TABLO.md 2>/dev/null | grep -oE "[0-9]+" | head -1)
 if [ "${IDX:-x}" = "$TOPLAM" ]; then
-    printf "   ✅ 00_INDEX tutarlı (INDEX de %s diyor)\n" "$IDX"
+    printf "   ✅ TABLO tutarlı (TABLO da %s diyor)\n" "$IDX"
 else
-    printf "   ❌ 00_INDEX TUTMUYOR — INDEX %s diyor, dosya sistemi %s sayıyor\n" "${IDX:-?}" "$TOPLAM"
+    printf "   ❌ TABLO TUTMUYOR — TABLO %s diyor, dosya sistemi %s sayıyor\n" "${IDX:-?}" "$TOPLAM"
 fi
 echo
 

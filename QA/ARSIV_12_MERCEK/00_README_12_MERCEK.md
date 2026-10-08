@@ -246,3 +246,25 @@ OLAY TABLOSU  — RAPORLAR/<FILM>.md'ye, kart R adım 7 (mercekler koşulduktan 
 | E01 | 0:03.0–0:04.0 | ana kiriş boyu değişiyor, destekler sabit | ② ⑤ ⑫ | S1_son.jpg | S1 yeniden — MOTION FOCUS tek nesne |
 | E02 | 0:41.5 | kanca yükü bıraktı, yük havada kaldı | ⑧ ⑩ | S6_orta.jpg | S6 yeniden — PHYSICS taşıyıcı |
 ```
+
+## 9. ⭐ QA KILAVUZLARI — 06.10.2026 · A20–A24  [QA onarımı]
+
+> 06.10.2026 QA denetimi: 2x kopya ≥ 6 filmde "kesik" okundu · kör merceklerde plan
+> sızıntısı · belgesiz ve yanlış belgeli koşular · %31 kanıtsız 10,0 · INDEX'te 5 film
+> "üretilmedi" ama ham raporlu. Beş kılavuz bu README'nin ÜSTÜNE kurulur; çelişirse
+> kılavuz geçer ve bu README ona göre güncellenir.
+
+| soru | kılavuz |
+|---|---|
+| kör mercek nerede koşar · ne yüklenir · geri okuma · bozuk koşuda tek eylem | `kilavuzlar/QA_KOSU_KILAVUZU.md` |
+| süre · hız · kesme · kart modele nasıl verilir · rapor nasıl doğrulanır | `kilavuzlar/QA_OLCUM_ZEMINI_KILAVUZU.md` |
+| rubrik nasıl yazılır · puan nasıl birleşir · kusur hangi merceğin | `kilavuzlar/RUBRIK_YAZIM_KILAVUZU.md` |
+| hakem tutarlı mı · kusuru buluyor mu · QA izleyiciyle tutuyor mu | `kilavuzlar/QA_KALIBRASYON_KILAVUZU.md` |
+| koşu nasıl kaydedilir · durum · ad şeması · INDEX nasıl türetilir | `kilavuzlar/QA_KAYIT_KILAVUZU.md` |
+
+```
+⚠️ Bu README'de güncellenmesi bekleyen: başlık ve §1–§4 hâlâ SEKİZ mercek anlatıyor
+   (⑨–⑫ yalnız §8 örneğinde) · §4 "hüküm kazanır" → RUBRIK_YAZIM §4.3 "KÖTÜ OLAN KAZANIR" ·
+   §2 koşu adımları → QA_KOSU §1 yalıtım kuralı.
+```
+

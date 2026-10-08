@@ -20,7 +20,7 @@
 |---|---|---|---|
 | ⬜ |  |  |  |
 
-## 2. 🚨 QA KAYITLARINDAN GELEN ARIZALAR — `QA/RAPORLAR/` + `QA/00_INDEX.md`
+## 2. 🚨 QA KAYITLARINDAN GELEN ARIZALAR — `QA/FILMLER/` (beş mercek) + arşiv `QA/ARSIV_12_MERCEK/RAPORLAR/` · `00_ARSIV.md`
 
 > Aynı yapı tipinin ve aynı sahanın kayıtları ÖNCE (INDEX film blokları). ⛔ "skor düşüktü"
 > yazılmaz; **hangi saniye, hangi mercek, hangi mekanizma** yazılır.

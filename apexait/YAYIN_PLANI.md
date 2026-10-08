@@ -27,15 +27,22 @@ BAŞLANGIÇ KADANSI
    konuşulur. Öncesinde konuşulmaz.
 ⚠️ Kadansı DÜŞÜRMEK bir hata değildir. YouTube'un cezalandırdığı şey
    (POLITIKA_VE_RISK §1) az yükleme değil, ŞABLON yüklemedir.
+
+⭐ 07.10.2026 DIŞ KANIT [A34-b · vidIQ, 10,2 M kanal, 04/2025–03/2026 · korelasyon]:
+   ayda 4–7 yükleme (bizim plan) medyan görüntüleme büyümesi %1,32/ay · 12+ yükleme %2,18/ay.
+   Bir yılda 52+ net video ekleyen kanalların %30,8'i 1.000 aboneye ulaştı (32,9 M kanal).
+   ⛔ Bu nedensellik DEĞİLDİR (vidIQ kendisi söylüyor): çok yükleyen kanal zaten büyüyen kanaldır.
+      Kadans kuralı değişmez — artırma kararı yine bir metrikten doğar.
 ```
 
 ---
 
 # 2. 🦵 İKİ AYAK — neden zorunlu
 
-`POLITIKA_VE_RISK` §5.1'in doğrudan sonucu: **60 saniyelik dikey videolar
+`POLITIKA_VE_RISK` §5.1'in doğrudan sonucu: **dikey videolar (2x ≈ 32 sn)
 Shorts akışında sayılır ve izlenme saatine yazılmaz.** Yani yalnız Shorts
-üreten bir kanal, 10 milyon izlenme / 90 gün eşiğine mahkûmdur.
+üreten bir kanal, 10 milyon izlenme / 90 gün eşiğine mahkûmdur — 01.02.2027'den
+sonra başvuruda 20 milyon / 90 gün; uzun form yolu 8.000 saat / 365 gün [A34-a].
 
 ```
 AYAK 1 — DİKEY FİLM (Shorts)          ⭐ kanalın ürünü
@@ -58,6 +65,20 @@ AYAK 2 — YAPIM GÜNLÜĞÜ (uzun form)    ⭐ kanalın kanıtı
    kareler, zaten yazılmış plan. Ek üretim maliyeti neredeyse sıfırdır;
    maliyeti kurgudadır. Bu yüzden ikinci ayak "ekstra iş" değil, ilk ayağın
    çöpünün geri kazanımıdır.
+
+AYAK 2b — YATAY FİLM (uzun form)       ⭐ 07.10.2026 · ikinci tür uzun form
+   16:9 · 2–8 dk · 1x · müzikli · yatay_2/4/6/8_dk_filmler/ altından
+   QA'lı: THE GLASS WALL · THE IRON BRIDGE (IZLEYICI_DEFTERI §2b) · ⬜ THE SLOW TAKEOFF
+   (yatay_4_dk_filmler/, 4:00, üretilmedi)
+   Kural kaynağı: kilavuzlar/UZUN_FORM_ANLATI_KILAVUZU · ölçüm: IZLEYICI_DEFTERI §2b
+   Görevi: izlenme saati — yapım günlüğüyle birlikte. 2027 eşiği (8.000 saat) bu ayağın
+   yükünü iki katına çıkarır; yatay kadans ⬜ sahip kararıdır [A30-A34_DENETIM §8 K1].
+
+⭐ İKİ FORMAT, İKİ ÖNERİ SİSTEMİ [A34-d · YouTube 05.2025, resmî]:
+   "separate recommendation systems … understand cross-format viewing" — Shorts'un uzun
+   formu düşürdüğüne dair kanıt yok. ⛔ Shorts abonesinin uzun formu KENDİLİĞİNDEN izleyeceği
+   varsayılmaz; köprü Shorts → ilgili video bağlantısıdır (§7) ve ölçülür.
+   ⚠️ "format-aware discovery" ve "50–500 kişilik tohum kitle" bloglardan; resmî değil.
 ```
 
 ---
@@ -195,7 +216,7 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       satır 7 (WHERE THE WATER WAS) hazır bekliyor (sahip kararı).
    ⚠️ ⭐ HAVUZ SATIRI 1 ARTIK HARCANDI ve bu, deponun İLK FİLMİNİN İKİNCİ DENEMESİDİR: THE LONG SHADOW v1
       üretilmiş, dört merceğin dördü de düşmüş ve karar 'yeniden planlanıp yeniden üretilir' olmuştu
-      [QA/RAPORLAR/THE_LONG_SHADOW.md]. v2 aynı bedeli taşır ('karşı bloğun ikindi güneşi') ama sahayı
+      [QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md]. v2 aynı bedeli taşır ('karşı bloğun ikindi güneşi') ama sahayı
       değiştirir: kule bir şehir parselinde gölgesini ölçülebilir bir yüzeye düşüremiyordu; 3,60 m'lik
       aralık sokak hem sabiti (4,1413 m) hem paydayı (7,20 m) kadrajın içine sokuyor [P20-g].
 
@@ -234,7 +255,7 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       ① THE LAST LIFT (35. film, KÜTLE, 26.09.2026) §3 ve §4'te hâlâ kayıtlı DEĞİL.
       ② THE GLASS WALL (yatay_2_dk_filmler/THE_GLASS_WALL/, 16:9, 12 × 10,0, 28.09.2026) bu planda
          hiç geçmiyor; kendi planı 'Havuz kaydı: §5 #5 THE GLASS WALL' diyor ama §5 satır 5
-         THE EMPTY RIDGE'dir. QA/00_INDEX.md'ye yalnız SAYIM olarak eklendi, içeriği yazılmadı.
+         THE EMPTY RIDGE'dir. QA/ARSIV_12_MERCEK/00_INDEX.md'ye yalnız SAYIM olarak eklendi, içeriği yazılmadı.
    ⚠️ KONU AJANDAN GELDİ VE AJANIN ÖNERİSİ SEÇİLDİ: sahip "yeni 3 öneride bulun" dedi; ajan üç DİKEY
       konu sundu (LONG SHADOW ORAN · GAP CLOSES UZUNLUK · LAST MAST AÇI), her birinin defter cinsini,
       saatini, aile okunuşunu ve ÖLÇÜLMÜŞ kapı riskini yazdı, ⭐ üçüncüsünü "ana yapı dönüyor, açı→px
@@ -286,6 +307,43 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       en az bir başka aile girer.
    ⭐ IZGARA DENGESİ: DİKEY 13 · ZEMİN 7 · KÜTLE 7 · YATAY 2. Sıradaki konu DİKEY OLMAMALI (ikinci kez).
 
+⭐ 05.10.2026: THE BLUE SILO KÜTLE ailesine yazıldı (adı verilmeyen eski bir Karadeniz tahıl limanı, 41,3° K · rıhtım
+   havuzunun karşı yakasındaki liman ofisinin çatısı · h +12,00 m · D_eksen 36,00 m · bearing 15° · tilt 0 · ufuk %50 ·
+   Ø 14 × 24 m oluklu çelik silo kadrajın %47 × %57'si (508 × 1100 px); KÜTLE'nin SEKİZİNCİ filmi). Aile KAPAKTAN (G6)
+   okundu: lacivert karenin ortasında içeriden turkuaz ışıyan tek bir silindir — ayrışma RENK ve KÜTLE ile; silonun dış
+   çizgisi yedi karede aynıdır, değişen KABUKTUR.
+   ⛔ ONE MORE TURN · BACK TO WATER · THE BLUE DOOR · THE MOUNTAIN CROWN · THE LAST FIRING · THE NARROW GORGE · THE LAST LIFT
+      ile ARDIŞIK YAYINLANAMAZ (aynı aile). ⚠️ BACK TO WATER (rıhtım havuzu · su dolar) ve THE BLUE DOOR (başlıkta "BLUE")
+      en yakın iki akrabadır.
+   ⚠️ THE SEA MILL (önceki yazılan film, DİKEY) ile aile FARKLI — kural izin verir — ama final dili yakındır (mavi saat ·
+      rejim G · su · liman): araya en az bir film girmesi ÖNERİLİR.
+   ⭐ BEDEL: paslı kabuk — S0'da halka halka sökülür, solda yığın olur, S2'de kamyonla kadrajdan ÇIKAR; yerine şeffaf
+      akrilik gelir. ⭐ PASLI TAÇ: koni makasları sökülmez, boyanmaz — finaldeki tek pas.
+   ⭐ DEFTER: ÇALIŞAN KENAR — her klipte yakın yüzde tek bir kenar gider gelir (pas 342 → 1402 ⬇ · boya ⬆ · çember ⬇ · cam ⬆ ·
+      su 1380 → 364 ⬆) ve finalde bir şey DÖNER (sürü). ⭐ Final rejim G: ilk sürü tankerden hortumla, dipteki ağızdan girer.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan 6 × 8 sn'lik fikir); ajan dört düzeltmeyle öneri sundu (KÜTLE · tek kaldırma ·
+      müzik yok · İngilizce başlık), sahip "onaylıyorum" dedi. ⚠️ Onaydan sonra hesapla iki sapma: kapak vinçle İNDİRİLMEZ
+      (Ø 14 m'lik kapak kadraja sığmıyor; makaslar taç olarak kalır) ve kaya çemberlerden ÖNCE girer (dipte 1 m'lik
+      çember aralığı blokları geçirmez). Sahip görmeden üretim açılmamalı.
+   ⭐ IZGARA DENGESİ: DİKEY 13 · ZEMİN 7 · KÜTLE 8 · YATAY 2. ⛔ SIRADAKİ KONU YATAY OLMALI — YATAY dokuz filmdir 2'de;
+      havuzda satır 3 (THE LAST CROSSING) ve satır 7 (WHERE THE WATER WAS) hazır bekliyor.
+
+⭐ 05.10.2026: THE EDEN ARK YATAY (16:9) hattına yazıldı — `yatay_2_dk_filmler/THE_EDEN_ARK/` · ⚠️ BANDIN DIŞI: 18 × 8,0 =
+   144,0 + 5,0 kart (format 12 × 10,0; sahibin kendi önerisi, THE OLD ROAD 15 × 8,0 emsali). Adı verilmeyen eski bir
+   Adriyatik tersanesi, 45,3° K, 21 haziran · kuru havuzun yanındaki ofis çatısından çapraz bakış, h +24,00 m · d_orta
+   135,0 m · bearing 10° · tilt 0 · bütün gemi ufkun ALTINDA (%26–49), üst yarı gök.
+   ⭐ BEDEL: paslı, karanlık, boş üç ambar (G1) → G8'de yeşil taçlar → G18'de cam altında orman; pas S3'te lacivertin altında.
+   ⭐ DEFTER: bölüm 1 yeşil ambar 0 → 3 + fidanlık sırası 5 → 0 · bölüm 2 seranın baş kenarı x 1067 → 416, sonra gemi
+      baş x 172 → 1328 (havuzdan çıkış). Kanıt nesnesi: tuğla baca (x 100 · 253 px).
+   ⭐ TEK KALDIRMA: 13 m'lik incir — kaldırma G6'da biter (asılı), S6 yalnız indirir [DERS 57]. Kemerler havada taşınmaz:
+      yürüyen montaj portalı, sonra kalıcı cam temizleme portalı. Kapaklar vinçsiz, zincirle yana yuvarlanır.
+   ⚠️ KONU SAHİPTEN GELDİ; ajan beş düzeltmeyle öneri sundu (bant dışı süre + kart · 14 saatlik ışık günü · tek istasyon ·
+      tek yüklü kanca · ince toprak), sahip "onaylıyorum" dedi. Müzik: yatay formatın müziği (sahip seçimi) — dikey
+      shorts'taki "müzik yok" kuralı bu hatta uygulanmadı.
+   ⚠️ IZGARA: bu tablo (DİKEY · ZEMİN · KÜTLE · YATAY) dikey shorts sayımıdır; 16:9 filmler havuzda "YATAY" etiketli olsa
+      da sayıma girmiyor (05.10.2026 notu: DİKEY 13 · ZEMİN 7 · KÜTLE 8 · YATAY 2 — DEĞİŞMEDİ). Dikey hattın YATAY açığı
+      sürüyor. Bu kayıt belirsizliği sahibe sorulacak.
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
@@ -315,12 +373,38 @@ AÇILIŞTAN ÖNCE HAZIR OLACAKLAR
    □ banner — güvenli alan içinde, ufuk %50  (KANAL_KIMLIGI §5.3)
    □ kanal "Hakkında" metni                  (KANAL_KIMLIGI §7.1)
    □ müzik aracı lisans satırı doldurulmuş   (POLITIKA_VE_RISK §4)
+     ⚠️ 07.10.2026: dikeyde müzik yok (sahip 21.09.2026) — satır yalnız müzikli yatay film ve
+        yapım günlüğü için gerekir; daraltılması ⬜ sahip kararı [A30-A34_DENETIM §8 K5]
    □ 3 filmin de FİNAL KARE KANITI koşulmuş  (KILAVUZ_REHBERI §8 adım 9)
    □ 3 videoda da "Altered content" beyanı   (POLITIKA_VE_RISK §2)
+   □ ⭐ YouTube "advanced features" açık (telefon / kimlik doğrulaması) — Shorts → ilgili video
+     bağlantısı ve uzun formda A/B testi bunu ister (CAPRAZ_YAYIN §4.1) [A31-f]
 
 AÇILIŞTAN SONRA
    hafta 1 → 4    haftada bir dikey film, §3 sırasına uyarak
    ay 1 sonu      ilk yapım günlüğü (açılış bloğunun üçünü birden anlatır)
+```
+
+### 4.1 ⬜ İLK 90 GÜN — ÖNERİ (sahip onaylamadı) [A34 · 07.10.2026]
+
+> A34'ün takvimi kullanılmadı: "haftada bir dikey" öncülünü iki haftada atladı ve açılış bloğunu
+> "48 saatte bir yükleme" (blog) kuralıyla bozdu [denetim §5]. Bu öneri yalnız BU dosyanın
+> kurallarından kurulur; stok sırası ve kadans SAHİP KARARIDIR.
+
+| hafta | dikey (3 platform) | uzun form (YouTube) | okunan | karar noktası |
+|:-:|---|---|---|---|
+| 0 | açılış bloğu: 3 film, üç aile, aynı gün (§4) | — | — | — |
+| 1 | 1 film · §3 sırası | — | blok 7. gün (3 satır) | yok — tek okuma kural vermez |
+| 2–3 | 1 film / hafta | ⬜ yatay #1 (K1) | haftalık 7. gün | yok |
+| 4 | 1 film | ilk yapım günlüğü (bloğu anlatır) | 7 dikey | S1–S4 ilk kez üç filmle okunabilir |
+| 5–8 | 1 film / hafta | ⬜ yatay #2 (K1) | yatay 7 + 28. gün | §1 kadans konuşması AÇILABİLİR (dört hafta tuttuysa + iki filmde kapı ihlali yoksa) |
+| 9–12 | 1 film / hafta | ikinci yapım günlüğü | 15 dikey | ilk "kural olur / düşer" satırları (§6.2) |
+
+```
+STOK   90 günde 3 + 12 = 15 dikey harcanır · 37 filmlik stok karşılar · ⛔ stok bitmeden üretim
+       durmaz — haftada bir yeni film kapı kuralı (§1) stoktan bağımsız sürer
+⛔ Hiçbir hafta iki dikey yok (açılış bloğu hariç) · hiçbir film silinip yeniden yüklenmez
+   (POLITIKA_VE_RISK §6 · CAPRAZ_YAYIN §1.1)
 ```
 
 ---
@@ -373,6 +457,8 @@ AÇILIŞTAN SONRA
 | 36 | THE IRON BRIDGE ⭐ yatay | tek açıklıklı çelik kemer yaya köprüsü / ormanlık dağ vadisi | YATAY | vadinin boş hava boşluğu ve nehir aynası — G0'da iki yaka arasında boşluk, G12'de 48 m çelik kemer iki yakayı kilitler → plan: `yatay_2_dk_filmler/THE_IRON_BRIDGE/` (30.09.2026) |
 | 37 | THE STAR DOCK | havasız ayda yanaşma beşiği (taç kesilir · halka zeminde kapanır · kuleler alttan eklenip halkayı 150 m'ye taşır · hangarlar · gece yürür · iğ biçimli gövde iner ve kenetlenir) / Ø 24 km krater, halkalı gaz devi gökte sabit · tilt 0, ufuk %50 | DİKEY | ⭐ TEPENİN KARA KAYA TACI — G0'da kraterin ortasındaki tepenin üstünde 24 m'lik tek kaya kümesi; S0'da kesilir, kırığı limanın rampası olur; G7'de aynı yerde 280 m'lik halkaya oturmuş 240 m'lik bir gövde · defter: halka ön üst kenarı (1146 → 799 px) + gece çizgisi (ışık grubu 0 → 22) · tanık: sağ öndeki ikiz kaya · ⭐ konu sahipten · yavaşlayan saat C → B → A → plan: `dikey_shorts/THE_STAR_DOCK/` (01.10.2026) |
 | 38 | THE SEA MILL | açık denizde smock mill (işaret sökülür · halka temel · granit kaide · sekizgen ahşap gövde · başlık ve çıplak yelken haçı TEK PARÇA kaldırılır · ızgaralar yerinde örülür · bezler · ilk dönüş) / Baltık dış takımadaları, çıplak granit kaya · tilt 0, ufuk %50 | DİKEY | ⭐ ESKİ DENİZ İŞARETİ — G0'da kayanın tepesinde kireç badanalı 4 m'lik taş kümesi; S0'da sökülür, mavnada beyaz yığın olur ve S4'te mavnayla gider; G6'da aynı yerde pencereleri yanan, yelkenleri dönen 39 m'lik değirmen · defter: yapının en yüksek bağlı noktası (1193 → 481 px) + mavna yükü · tanık: kamera adacığının kıyısı + iki uzak adacık · ⭐ konu sahipten · final rejim G → plan: `dikey_shorts/THE_SEA_MILL/` (03.10.2026) |
+| 39 | THE BLUE SILO | paslı tahıl silosunun DENİZ SUYU TANKINA dönüşmesi (kabuk soyulur · resif + kum + boru · iskelet boyanır · dipte sıklaşan çemberler · yosun · 8 sıra akrilik · liman suyu filtreyle dolar · ilk sürü) / adı verilmeyen Karadeniz tahıl limanı, dar rıhtım havuzu · tilt 0, ufuk %50 | KÜTLE | ⭐ PASLI KABUK — G0'da silonun yüzü kenardan kenara oluklu pas; S0'da halka halka sökülür, solda yığın olur, S2'de kamyonla gider; G6'da aynı yüzde turkuaz ışıyan su · ⭐ paslı taç (koni makasları) yedi karede aynı · defter: çalışan kenar (pas ⬇ · boya ⬆ · çember ⬇ · cam ⬆ · su 1380 → 364 ⬆) + çember sıklığı (dipte 44 px · tepede 132 px) · tanık: rıhtım kenarı + tuğla ambar + ufuk ve liman feneri · ⭐ konu sahipten · ⛔ vinçsiz · final rejim G: ilk sürü → plan: `dikey_shorts/THE_BLUE_SILO/` (05.10.2026) |
+| 40 | THE EDEN ARK ⭐ yatay | terk edilmiş yük gemisinin kuru havuzda CAM KUBBE ALTINDA BAHÇEYE dönüşmesi (kapaklar yuvarlanır · hurda · yama · raspa ve boya · basamaklı çerçeve · toprak · tek incir · fidanlık · ilk sulama · yürüyen portal ve 20 kemer · teras ve lamba · iskele söküm · havuz dolar · kapılar · römorkör) / adı verilmeyen Adriyatik tersanesi · tilt 0, ufuk %50, gemi ufkun altında | YATAY | ⭐ PASLI, BOŞ, KARANLIK ÜÇ AMBAR — G1'de üç kara açıklık (≈ 150 px); G8'de yeşil taçlar; G18'de cam altında orman ve gemi havuz kapısının dışında · defter: yeşil ambar 0 → 3 + seranın baş kenarı (x 1067 → 416) + geminin çıkışı (baş x 172 → 1328) · tanık: tuğla baca (253 px) + yakın havuz kenarı + mendirek feneri · ⭐ konu sahipten · ⚠️ 18 × 8,0 bant dışı · tek kaldırma → plan: `yatay_2_dk_filmler/THE_EDEN_ARK/` (05.10.2026) |
 
 ```
 ⭐ HAVUZUN KURALI: her satırda kaybolan şey KADRAJDA VE SABİT KAMERADA
@@ -392,6 +478,10 @@ bir kanal, film üreten bir hobi olur.
 
 ## 6.1 Her videodan sonra kaydedilecek
 
+> ⭐ 05.10.2026: kayıt yeri **`apexait/IZLEYICI_DEFTERI.md`** — 7. gün dört sayı (kaydırmadı % ·
+> ortalama izlenme % · engaged views · abone), QA sütunları yanında. 31 film üretildi, defter
+> açılana kadar hiçbir sayı kaydedilmemişti.
+
 ```
 □ ilk 3 saniye tutma oranı        → KANCA (S0) çalışıyor mu
 □ ortalama izlenme yüzdesi        → merdiven ortada mı kırılıyor
@@ -401,7 +491,7 @@ bir kanal, film üreten bir hobi olur.
      Düzelttiyse o yorum doğrudan kilavuzlar/DERSLER.md'ye ders adayıdır.
      Bu, kanalın en ucuz ve en değerli çıktısıdır.
 □ ⭐ 18.09.2026: ilk 6 film TEK DEĞİŞKENLİ deney dizisidir — hangi filmin hangi
-     tercihi taşıdığı ve 7. gün karşılaştırması QA/QA_CAPRAZ_ANALIZ/06'da.
+     tercihi taşıdığı ve 7. gün karşılaştırması QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/06'da.
      Engaged views kullanılır; görüntüleme sayısı tek başına karar verdirmez.
 ```
 
@@ -420,6 +510,21 @@ Kural olduğunda:
    3. ilgili kılavuza tek satır iner
 ```
 
+## 6.3 Karar pencereleri — ne zaman, kaç filmle [A34-e · 07.10.2026]
+
+```
+OKUMA      dikey 7. gün (IZLEYICI_DEFTERI §1) · yatay 7. ve 28. gün (§2b)
+           ⚠️ raporun "Shorts 72 sa · TikTok 14 gün · uzun form 30 gün" pencereleri kaynaksız
+KIYAS      yalnız kanal içi: son 5 dikeyin medyanı (kayan pencere) · aynı trafik kaynağı
+           ⛔ sektör ortalaması ve "viral eşik" kullanılmaz (§6.1)
+GÜRÜLTÜ    [VARSAYIM] 7. günde engaged views < 100 olan dikey, S-sorularına GİRMEZ — eşik kaynaksız;
+           ilk 10 filmden sonra sahip ayarlar
+DEĞİŞKEN   aynı anda TEK değişken · format bir S-sorusu üç filmde ters çıkmadan sorgulanmaz
+           ⛔ raporun "5 videoda kaydırmadı < %40 + ort. izlenme < %70 → formatı sorgula" eşiği kaynaksız
+SİLME      yok — "very, very good reason … keep your videos public or unlist them" (Beaupré,
+           23.03.2024) · düşük sayı bir silme sebebi değildir; film defterde kalır, ölçüdür
+```
+
 ---
 
 # 7. 🗂️ OYNATMA LİSTELERİ
@@ -430,6 +535,12 @@ YAPI TİPİNE GÖRE (arama için — insanlar "bridge timelapse" arar, "bedel" d
 
 SÜREÇ (uzun form)
    How These Are Built — yapım günlükleri
+   ⭐ 07.10.2026 yatay filmler (2–8 dk) kendi yapı tipi listesine girer; yapım günlüğü listesine değil
+
+KÖPRÜ (Shorts → uzun form)  [A31-f · A34-d]
+   Shorts yüklemesinde "ilgili video" = o filmin yatay sürümü ya da onu anlatan yapım günlüğü ·
+   advanced features ister · bağlantı yeter; sabit yorum mühendislik paragrafı olarak kalır
+   (POLITIKA_VE_RISK §1.3 ②)
 
 ⛔ "Bedel"e göre oynatma listesi AÇILMAZ. Tez kanalın iç pusulasıdır,
    izleyicinin arama kelimesi değil. İçeriyi dışarıya çevirmek, iyi bir

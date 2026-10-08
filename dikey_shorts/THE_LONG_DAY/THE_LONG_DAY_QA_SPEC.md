@@ -296,14 +296,14 @@ SIRA        ① · ③ · ⑤ · ⑦ ÖNCE (mod V · doküman verilmez)
             sonra ② (bu SPEC) · ④ (plan + kapak) · ⑥ (plan + SESLİ kurgu) · ⑧ (bu SPEC)
 
 GİRDİ TABLOSU — koşuyu yapan kişi satırı kopyalar, başka hiçbir şey vermez:
-  ①  verilen girdiler: teslim.mp4 · kareler/ (30 kare) · QA/1_KARE_QA.md
-  ③  verilen girdiler: teslim.mp4 (TAM KURGU) · QA/3_ZAMAN_QA.md
-  ⑤  verilen girdiler: teslim.mp4 · kareler/ (30 kare) · QA/5_DEVAMLILIK_QA.md
-  ②  verilen girdiler: teslim.mp4 · THE_LONG_DAY_QA_SPEC.md · QA/2_INSA_QA.md
-  ④  verilen girdiler: teslim.mp4 · THE_LONG_DAY_DIKEY_TIMELAPSE.md · kapak.png · QA/4_TESLIM_QA.md
-  ⑥  verilen girdiler: teslim.mp4 (SESLİ) · THE_LONG_DAY_DIKEY_TIMELAPSE.md · QA/6_GECIS_QA.md
-  ⑦  verilen girdiler: teslim.mp4 · kareler/ (30 kare) · QA/7_IS_QA.md
-  ⑧  verilen girdiler: teslim.mp4 · THE_LONG_DAY_QA_SPEC.md · QA/8_YONTEM_QA.md
+  ①  verilen girdiler: teslim.mp4 · kareler/ (30 kare) · QA/ARSIV_12_MERCEK/1_KARE_QA.md
+  ③  verilen girdiler: teslim.mp4 (TAM KURGU) · QA/ARSIV_12_MERCEK/3_ZAMAN_QA.md
+  ⑤  verilen girdiler: teslim.mp4 · kareler/ (30 kare) · QA/ARSIV_12_MERCEK/5_DEVAMLILIK_QA.md
+  ②  verilen girdiler: teslim.mp4 · THE_LONG_DAY_QA_SPEC.md · QA/ARSIV_12_MERCEK/2_INSA_QA.md
+  ④  verilen girdiler: teslim.mp4 · THE_LONG_DAY_DIKEY_TIMELAPSE.md · kapak.png · QA/ARSIV_12_MERCEK/4_TESLIM_QA.md
+  ⑥  verilen girdiler: teslim.mp4 (SESLİ) · THE_LONG_DAY_DIKEY_TIMELAPSE.md · QA/ARSIV_12_MERCEK/6_GECIS_QA.md
+  ⑦  verilen girdiler: teslim.mp4 · kareler/ (30 kare) · QA/ARSIV_12_MERCEK/7_IS_QA.md
+  ⑧  verilen girdiler: teslim.mp4 · THE_LONG_DAY_QA_SPEC.md · QA/ARSIV_12_MERCEK/8_YONTEM_QA.md
 
 ⭐ ⑧ İÇİN ELEMAN LİSTESİ bu SPEC'in §6'sıdır: pad · direk ① · direk ② ·
    yığın · modül A · torba duvar · tümsek A · iletişim direği · modül B ·

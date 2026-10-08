@@ -4,7 +4,7 @@
 > beş sorunun cevabı yazılır. Cevabı olmayan sahnenin promptu yazılmaz — çünkü
 > cevabı olmayan sahne modelde de yoktur; model boşluğu "sihirle" doldurur.
 >
-> Kaynak: 15 filmin 132 raporunun çapraz analizi (`QA/QA_CAPRAZ_ANALIZ/`,
+> Kaynak: 15 filmin 132 raporunun çapraz analizi (`QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/`,
 > 18.09.2026) ve dış değerlendirme. Depoda ÖLÇÜLMEDİ; `DERSLER.md` ÇAPRAZ ANALİZ
 > bölümünde **VARSAYIM** olarak durur [C1-a]. İlk pilot üretimden sonra ya
 > derse döner ya düşer.

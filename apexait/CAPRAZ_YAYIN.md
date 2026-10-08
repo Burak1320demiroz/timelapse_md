@@ -35,6 +35,15 @@ dosyadan, NATIVE (uygulamanın kendi yükleyicisiyle) yapılır.
 ⭐ Bu bir "algoritma söylentisi" değil, tek yönlü bir bahis: filigranı
    kaldırmanın maliyeti sıfır, filigranlı yüklemenin maliyeti belirsiz
    ama tek yönlü. Bedava olan tarafta dur.
+
+⭐ 07.10.2026 — artık resmî dayanağı var [A31-d]:
+   Instagram 31.05.2023: "low-resolution or watermarked reels … or reels that have
+   already been posted on Instagram" daha az görünür · 30.04.2024: özgün içerik
+   önerilerde yeniden paylaşımın yerini alır, toplayıcı hesaplar öneriden çıkar ·
+   30.04.2026: filigran eklemek ya da HIZ değiştirmek özgünlük sayılmaz.
+   TikTok: "We also don't recommend duplicated content" · yeniden kullanılmış içerik
+   For You'ya girmez. ⇒ Tek master + native yükleme doğru; aynı filmi bir platformda
+   İKİ KEZ yükleme (silip yeniden yüklemek dahil) yasağın parçasıdır.
 ```
 
 ---
@@ -54,6 +63,16 @@ TikTok ve Meta bu imzayı OKUR ve içeriği kendiliğinden "AI" etiketler.
 ⭐ DOĞRU HAMLE: her platformda ÖNCE KENDİN beyan et.
    Kendi beyanın senin cümlendir; otomatik etiket platformun cümlesidir.
    İkisi de olacaksa, önce seninki olsun.
+
+⭐ 07.10.2026 — üç platformda da otomatik etiket RESMÎ [A31 · A32]:
+   TikTok   09.05.2024'ten beri Content Credentials okur · "you won't be able to remove the label"
+   YouTube  C2PA'lı içeriğe etiketi kendisi koyar, "can not be adjusted" · 27.05.2026'dan beri
+            Shorts'ta overlay · etiket öneriyi ve parayı etkilemez (POLITIKA_VE_RISK §2)
+   Meta     "AI info" (01.07.2024'ten beri bu ad) · C2PA/IPTC okur
+   ⚠️ C2PA ile görünmez filigranı birlikte doğrulayan yaygın bir iş akışı henüz yok (arXiv 2603.02378) —
+      etiketin her yüzeyde gelmesi garanti değil; kendi beyanın bu yüzden de gerekir.
+   ⚠️ TikTok 11/2025'ten beri izleyiciye yapay zekâ içeriğini AZALTMA kaydırıcısı veriyor: ceza değil,
+      izleyici tercihi. Bizim filmin o izleyiciye gitmemesi beklenir ve ölçülemez.
    → youtube/POLITIKA_VE_RISK.md §2 · instagram/HESAP_KIMLIGI.md §4
      · tiktok/HESAP_KIMLIGI.md §4
 ```
@@ -147,6 +166,24 @@ SIRA (aralarında birkaç saat):
    Handle zaten üçünde de aynı (@apexait) — arayan bulur.
 ⚠️ Bu sıra bir varsayımdır, ölçülmedi. Üç film sonra YAYIN_PLANI §6.2'ye
    göre sınanır: aynı film üç platformda hangi sırayla daha iyi açıldı?
+⚠️ Aynı gün üç yüklemenin "özgün olmayan" sinyali verdiğine dair resmî bir cümle YOK; resmî
+   kurallar FİLİGRAN, YENİDEN PAYLAŞIM ve KOPYA üzerinedir (§1.1) [A31 denetimi].
+```
+
+## 4.1 ⭐ Platform araçları — 0 aboneli hesapta ne var, ne yok (okundu 07.10.2026)
+
+| araç | şart | bizde açılışta | kaynak |
+|---|---|---|---|
+| YouTube Shorts → ilgili video | advanced feature access · bağlanan video kendi kanalımız | ⬜ kanal doğrulaması gerekir (YAYIN_PLANI §4) | 14075157 ✅ |
+| YouTube A/B testi (başlık + küçük resim) | yalnız UZUN FORM · masaüstü · advanced features · "not available for Shorts" | yatay filmde ✅ · dikeyde YOK | 16391400 ✅ |
+| Instagram Trial Reels | herkese açık hesap · profesyonelde ≥ 200 takipçi · "Share to everyone automatically" ayarı | ⛔ 200 takipçiye kadar yok | Instagram Help ✅ |
+| TikTok bio linki | ≥ 1.000 takipçi ya da doğrulanmış işletme hesabı | ⛔ — zaten §4 platformlar arası link yok | TikTok Support ✅ |
+| TikTok A/B testi (organik) | resmî araç bulunmadı | YOK | BİLİNMİYOR |
+| Instagram hashtag | gönderi başına ≤ 5 (18.12.2025) | şablon 3–5 ✅ | Social Media Today ✅ |
+
+```
+⛔ Dikey filmde hiçbir platformda yerleşik A/B testi YOK [A17-c doğrulandı]. Kapak ve başlık
+   kararları dikeyde ölçülerek değil, KURAL ile verilir (MUZIK_VE_KAPAK §4 · sahip 19.09.2026).
 ```
 
 ---
@@ -187,4 +224,8 @@ SIRA (aralarında birkaç saat):
 □ 6  Aynı gün mü yayınlandı
 □ 7  Üçünde de caption/açıklama o platformun şablonundan mı yazıldı
 □ 8  Platformlar arası link/CTA yok mu
+□ 9  ⛔ Metinde etkileşim çağrısı yok mu — "send this to…", "tag a friend", "comment …",
+     "find the mistake" (Meta 2017 engagement bait · TikTok FYF "Tricking others into
+     increasing engagement") [A33-b]
+□ 10 Bu film bu platformda daha önce yüklenmedi mi (silip yeniden yükleme dahil — §1.1)
 ```

@@ -3,7 +3,7 @@
 > `① 1,0` · `② 0,0Ⓥ` · `③ 1,3` · `④ 5,4Ⓥ` · `⑤ 0,0Ⓥ` · `⑥ 1,6Ⓥ`
 > Beş hüküm düştü: AYRI AYRI GÖRÜNTÜLER · FARKLI·APPEARING ·
 > YANLIŞ YÖNDE GEÇİYOR · HER ÇEKİMDE YENİDEN KURULMUŞ · SIRADAKİ·METRONOM
-> Kayıt: `QA/RAPORLAR/THE_CLOSING_SPAN.md`
+> Kayıt: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_CLOSING_SPAN.md`
 >
 > ⭐ **TEK KAZANIM:** ① CAMERA LOCK **10/10** (kule v1'de 4/10). DERS 6'nın
 > pozitif ölçülebilir kamera kilidi TUTTU — deponun ilk doğrulanmış düzelmesi.
@@ -17,7 +17,7 @@
 >
 > ⛔ Prompt kapısı bu dosyada artık BLOCK veriyor (TIME RATE + MEVSİM
 > TAŞIYICISI yok) — bu doğrudur ve düzeltilmez; dosya arşivdir.
-> v2 için zorunlu değişiklikler: `QA/RAPORLAR/THE_CLOSING_SPAN.md` §8
+> v2 için zorunlu değişiklikler: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_CLOSING_SPAN.md` §8
 
 ---
 

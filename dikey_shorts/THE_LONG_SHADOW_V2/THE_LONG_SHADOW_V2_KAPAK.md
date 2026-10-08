@@ -8,7 +8,7 @@ KAYNAK     ⭐ YALNIZ G7 — S6'nın hedef karesi, filmin SON karesi [DERS 30 ·
            ⛔ G0 kapağa GİRMEZ. Öncesi/sonrası bölme YOK — sahip kararı 19.09.2026.
 KANIT      bash araclar/zincir_kontrol.sh g7_kaynak.jpg kapak.png  → çıkış 2 = TESLİM YOK
 ⭐ v1 NOTU  THE LONG SHADOW v1'in dört merceğinden üçü, teslim dosyasının sonundaki 5,4 saniyelik
-           KAPAK KARTINI 7. sahne saydı ve ① ile ④ bu yüzden de düştü [QA/RAPORLAR/THE_LONG_SHADOW.md].
+           KAPAK KARTINI 7. sahne saydı ve ① ile ④ bu yüzden de düştü [QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md].
            Bu teslimde video içinde kart YOKTUR; kapak yalnız bu dosyadır ve yalnız G7'dir.
 BAŞLIK     They Built a House and the Street Lost the Sun | AI Timelapse
            (⛔ İNGİLİZCE, PAKETLEME §10 · sahip onayı bekliyor)

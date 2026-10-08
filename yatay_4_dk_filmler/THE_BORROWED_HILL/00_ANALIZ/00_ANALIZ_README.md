@@ -16,7 +16,7 @@ tutulmadı; şablon DOSYA olunca kapı ona bağlanabildi. Ayrı dosya, görünü
 | # | dosya | ne yapar | bitmeden geçilmez |
 |:--:|---|---|---|
 | 0 | `00_HIKAYE_ONAYI.md` | ⭐ hikâye (VAAT · DİRENÇ · BEDEL · 24 sahne satırı) düz Türkçe, **sahip onaylar**, onaylı metin buraya işlenir — `onay-once-uretim` kuralının dosyası | `ONAY:` tarihli değilse hiçbir dosya yazılmaz |
-| 1 | `00_OKUMA_CIZELGESI.md` | betikten: kılavuzlar · DERSLER (ölçülmüş + devralınan) · QA/RAPORLAR · rubrikler · apexait çekirdeği — okundu ⬜ → ✅, bu filme düşen kilit sütunu | ⬜ kalan satır varken 2'ye geçilmez; "hepsi —" sahtedir |
+| 1 | `00_OKUMA_CIZELGESI.md` | betikten: kılavuzlar · DERSLER (ölçülmüş + devralınan) · QA/ARSIV_12_MERCEK/RAPORLAR · rubrikler · apexait çekirdeği — okundu ⬜ → ✅, bu filme düşen kilit sütunu | ⬜ kalan satır varken 2'ye geçilmez; "hepsi —" sahtedir |
 | 2 | `01_QA_DERS_HASADI.md` | okunanlardan BU filme düşen DERS kilitleri + QA arızaları + devralınan varsayımlar | sıfır satırla 3'e geçilmez (57 ölçülmüş ders var) |
 | 3 | `02_KONSEPT_VE_RISK.md` | konsept kapısı (VAAT/DİRENÇ/BEDEL + dört test) · yapı + saha kartı · kamera hesabı · vinç · ışık günü · yapı kartının RİSK satırları | konsept kapısı üçü ✅ olmadan 4'e geçilmez |
 | 4 | `03_SAHNE_SIRALAMASI.md` | inşa sırası → 24 satır: eleman · ara hâl · rejim · saat · süre; monoton büyüme · kış iki sahne · Σ rejim ≤ 14 h · bölüm sınırı; onaydan sapıyorsa `SAPMA:` | 5'in girdisidir |

@@ -76,6 +76,28 @@ timelapse_md/
 │   ├── KAMERA_DILI_KILAVUZU.md      ⭐ istasyondan ÖNCE: karar cümlesi · DEĞİŞİM BOYUTU →
 │   │                                   BAKIŞ AİLESİ · ⭐ TİLTLİ KADRAJ FORMÜLÜ (aşağı bakış
 │   │                                   ailesi · KAMERA_ISTASYONU §3 yalnız tilt 0) · katsayı
+│   │  ── yedinci kuşak · 06.10.2026 · A20–A24 araştırmasından doğdu · QA ONARIMI ──
+│   ├── QA_KOSU_KILAVUZU.md          ⭐ kör mercek GEÇİCİ SOHBETTE, proje/Gem DIŞINDA (Gem dosyaları
+│   │                                   her sohbete girer) · geri okuma · sızıntı · fail closed
+│   ├── QA_OLCUM_ZEMINI_KILAVUZU.md  ⭐ model SAYMAZ: süre · hız · kesme · kart ÖLÇÜLMÜŞ OLGULAR
+│   │                                   bloğuyla rubriğin İÇİNDE · top-N kalır · D1–D5
+│   ├── RUBRIK_YAZIM_KILAVUZU.md     format değişkenleri · kanıtsız en fazla 7 · ortalama kodda ·
+│   │                                   KÖTÜ OLAN KAZANIR · kusur sahipliği · temizlik listesi
+│   ├── QA_KALIBRASYON_KILAVUZU.md   test-tekrar pilotu 3×4×3 · tohumlanmış kusur seti (sınandı) ·
+│   │                                   çapa film · QA ↔ izleyici (ρ 0,5 için 29–30 film)
+│   ├── QA_KAYIT_KILAVUZU.md         durum modeli · künye · eşleme tablosu (ham dokunulmaz) ·
+│   │                                   tek ad şeması · uzlaştırma U1–U10
+│   │  ── sekizinci kuşak · 07.10.2026 · A25–A29 araştırmasından doğdu · THE SLOW TAKEOFF yazımı ──
+│   ├── UZUN_FORM_ANLATI_KILAVUZU.md ⭐ yatay 2–8 dk: MERAK ZİNCİRİ · ilk büyük sonuç ≈ 30 sn ·
+│   │                                   en büyük soru en son · son ekran 5–20 sn · eğri → sahne
+│   ├── ISTASYON_VE_IC_MEKAN_KILAVUZU.md ikinci sabit kamera: dört şart · dikey EK / yatay KLİP ·
+│   │                                   paralel zaman zinciri · mekân kesmesi bölütlemez · iç mekân dili
+│   ├── SU_VE_YANSIMA_KILAVUZU.md    ⭐ yansıma x = D·h/(h+y) · Fresnel · Beaufort · SU KOTU DEFTERİ ·
+│   │                                   tanık çizgi · taşıt yolu ≤ 13 m / 8 sn
+│   ├── ISIK_FINALI_KILAVUZU.md      mavi saat dakika tablosu · A/B'de ışık TEK KAREDE yanar ·
+│   │                                   IŞIK DEFTERİ · olumsuzlama çağırır (NegT2IBench)
+│   ├── ONARIM_VE_YENIDEN_URETIM_KILAVUZU.md ⭐ hüküm → kök neden → tek eylem · kare değişirse iki
+│   │                                   klip · iki dikiş sınanır · zincirde inpainting YOK · 3/6
 │   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
 │   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
 │   └── DERSLER.md                   ölçülmüş dersler + devralınan varsayımlar
@@ -108,23 +130,19 @@ timelapse_md/
 │   ⛔ Klasör ELLE açılmaz: bash araclar/film_klasoru_ac.sh <FMT> <FILM>
 │   ⛔ Kapı KLASÖR MODUNDA: python3 araclar/prompt_kontrol.py <FMT>/<FILM>
 │
-├── QA/                              🔍 SEKİZ MERCEK · ÜRETİMDEN SONRA
-│   ├── 00_README.md                 ⭐ klasör rehberi: mod sistemi · çalıştırma
-│   ├── 00_INDEX.md                  ⭐ PROJEDEKİ TEK SAYAÇ + tamlık matrisi
-│   ├── 1_KARE_QA.md                 ① sabitlik + temizlik · mod V (doküman YOK)
-│   ├── 2_INSA_QA.md                 ② aynı bina + inşa mantığı · mod D
-│   ├── 3_ZAMAN_QA.md                ③ güneş saati + akış · mod V · TAM KURGU
-│   ├── 4_TESLIM_QA.md               ④ vaat/bedel/kurgu · mod D
-│   ├── 5_DEVAMLILIK_QA.md           ⑤ dikiş denetimi · dünya · mod V
-│   ├── 6_GECIS_QA.md                ⑥ kesmenin kendisi · ritim · mod D
-│   ├── 7_IS_QA.md                   ⑦ şantiye hiç duruyor mu · büyümenin sebebi · mod V
-│   ├── 8_YONTEM_QA.md               ⑧ her parça sıfırdan, yapımı görünerek · mod D
-│   ├── T1..T8                       skor tabloları
-│   ├── RAPORLAR/                    film başına kalıcı kayıt (ajanın özeti) + OLAY TABLOSU
-│   ├── HAM_RAPORLAR/                modelin ham çıktısı ⛔ DOKUNULMAZ
-│   └── QA_CAPRAZ_ANALIZ/            ⭐ 18.09.2026 · 15 filmin çapraz okuması: skor matrisi ·
-│                                       arıza kalıpları · önlem tablosu · izleyici deney planı
-│                                       ⛔ sayılar elle değil: araclar/capraz_sayim.py
+├── QA/                              🔍 BEŞ MERCEK · ÜRETİMDEN SONRA · ⭐ 06.10.2026 yeniden kuruldu
+│   ├── 00_README.md                 ⭐ beş mercek · çalıştırma · rapor geldiğinde · klasör
+│   ├── Q1_GORUNTU.md                ❶ tek kamera, tek timelapse · görüntü katı mı · mod V
+│   ├── Q2_ZAMAN_KESME.md            ❷ zaman tek yönde · kesme "zaman" mı · mod V (+ ölçülmüş olgular)
+│   ├── Q3_SANTIYE.md                ❸ her kesmede aynı dünya · şantiye çalışıyor mu · mod V
+│   ├── Q4_INSA.md                   ❹ SPEC'teki yapı · parça parça · davetli kadro · mod D
+│   ├── Q5_TESLIM.md                 ❺ vaat · final vuruşu · kanca · döngü · kapak · mod D
+│   ├── TABLO.md                     ⭐ TEK SAYAÇ + film × mercek (her hücre bir hama bağlı)
+│   ├── HAM/<FILM>/                  modelin ham çıktısı + künye ⛔ DOKUNULMAZ
+│   ├── FILMLER/<FILM>.md            film başına kayıt · olay tablosu · karar · ders
+│   └── ARSIV_12_MERCEK/             ⛔ DONDURULDU · 12 mercek · 393 ham · 31 rapor · INDEX ·
+│                                       çapraz analiz · 00_ARSIV.md (temizlenmiş puanlar) ·
+│                                       00_ESLEME.tsv (her ham → durum)
 │
 ├── apexait/                         📺 KANAL — QA'dan sonrası · ÜÇ HESAP
 │   ├── README.md                    yapı · okuma sırası · açık işler
@@ -135,6 +153,9 @@ timelapse_md/
 │   │                                   siluet sırası · film havuzu · ölçüm
 │   ├── CAPRAZ_YAYIN.md              ⭐ üçünde de aynı: tek master · filigran
 │   │                                   yasağı · C2PA · güvenli alan zarfı
+│   ├── IZLEYICI_DEFTERI.md          7. gün sayıları · paylaşım ve yorum türü
+│   ├── TUR_HARITASI.md              2025–2026 dış vaka havuzu · harita ÇIKMADI
+│   │                                   kaydı · vaka defteri [A30 · 07.10.2026]
 │   ├── youtube/                     POLITIKA_VE_RISK · PAKETLEME_SABLONU
 │   ├── instagram/                   HESAP_KIMLIGI  · PAKETLEME_SABLONU
 │   └── tiktok/                      HESAP_KIMLIGI  · PAKETLEME_SABLONU
@@ -179,8 +200,9 @@ timelapse_md/
     │                                   referans (GN) · px kayma eşiğini basar (KAMERA_ISTASYONU §7)
     ├── capraz_sayim.py              QA_CAPRAZ_ANALIZ skor matrisini yeniden hesaplar
     ├── kare_al.sh                   ① ve ⑤ için kare grabları
-    ├── qa_paket.sh                  ⭐ QA KOŞU PAKETİ · sekiz mercek · günlük kapısı [DERS 28-29]
-    ├── kesme_kontrol.sh             ⛔ YAYIN ÖNCESİ · kurgu SÜRE sütununa uydu mu [DERS 31]
+    ├── qa_paket.sh                  ⭐ QA KOŞU PAKETİ · beş mercek · ölçülmüş olgular rubriğin İÇİNDE · --master · günlük kapısı [DERS 28-29 · 63]
+    ├── kesme_kontrol.sh             ⛔ YAYIN ÖNCESİ · kurgu SÜRE sütununa uydu mu · --hiz 2 [DERS 31 · 63]
+    ├── ihrac_kontrol.sh             ⛔ PAYLAŞIMDAN ÖNCE · süre/hız · kart · final tutuşu · müzik/yazı listesi [DERS 63]
     └── film_klasoru_ac.sh           ⭐ yatay film klasörünü şablondan açar, sahne satırlarını
                                         damgalar, okuma çizelgesini üretir (kart Y2)
 ```
@@ -195,7 +217,10 @@ ve komşularında. Burada tekrarlanmaz.**
 ## 🏗️ A — YENİ FİLM YAZACAĞIM
 
 ```
-0. IZGARA             kart G — 10 sahne (varsayılan) mı, 5 sahne mi.
+0. IZGARA             ⛔ DİKEY = KESİN 7 SAHNE × 8,0 sn = 56,0 sn (sahip kuralı 05.10.2026 · DERS 58).
+                      Üretilir 1x, PAYLAŞILIR 2x (~28 sn + kart planda varsa). Brief 6 ya da 8
+                      sahne verirse plan yine 7 ile yazılır ve bu sahibe söylenir. Kapı BLOCK'lar.
+                      (yatay: kart G · Y2)
 1. KONSEPT KAPISI     KILAVUZ_REHBERI §6 — VAAT / DİRENÇ / BEDEL + üç test.
                       ⛔ Üçü de ✅ değilse klasör AÇILMAZ.
 2. KART SEÇİMİ        YAPI_TIPI_KARTLARI (inşa sırası) + SAHA_VE_IKLIM_KARTLARI
@@ -208,8 +233,22 @@ ve komşularında. Burada tekrarlanmaz.**
                       zorunlu satır (KANIT · LOOP · SÖKÜM) · kış İKİ sahne
 5. GÜNEŞ SAATİ        ZAMAN_VE_ISIK — mevsim yayı ve temsil süreleri
                       ⛔ Açı ve yükseklik I2V'ye de yazılır [DERS 18].
-6. TESLİM YAPISI      ⛔ sahne bloğu + KAPAK KARTI 5,0 sn AYRI beyan edilir.
-                      Beyansız kart QA'yı çökertir [DERS 4].
+6. TESLİM YAPISI      ⛔ sahne bloğu + KAPAK KARTI (⛔ YOK ya da süresi) + MÜZİK (dikey: ⛔ YOK)
+                      AYRI satırlarla beyan edilir. Beyansız kart QA'yı çökertir [DERS 4];
+                      beyan ihracta ihrac_kontrol.sh ile ölçülür [DERS 63].
+6a. İZLEYİCİ KAPISI  ⛔ künyeye İŞLEV ANI · AÇILIŞ NESNESİ · DÖNGÜ KAFİYESİ · MERAK SORUSU satırları
+                      · S0 = AÇILIŞ DÜZENİ (nesne · dokunuş · ipucu · ölçek; eylem "from the first
+                      frame") · her klipte İŞ YOĞUNLUĞU (≥3 el · malzeme akışı · arka plan hazırlığı)
+                      [KILAVUZ_REHBERI §6 · SANTIYE_HAREKETI §4.8 · C2]
+                      ⭐ SEÇENEK: S0 GERİ ÇEKİLME AÇILIŞI (yakın ayrıntı → HOME, kurgu kırpması) —
+                      plana 'AÇILIŞ GERİ ÇEKİLMESİ ✅/⛔' + tavan satırları [KAMERA_HAREKETI §4.2 · C2-i]
+                      [KILAVUZ_REHBERI §6 · C2] · final klibi 4 sn olay + 4 sn tutuş [§8 adım 9]
+6b. YASAK KELİME      ⛔ künyeye 'YASAK KELİME  a · b · c' satırı [DERS 59]: filmin istemediği her
+                      nesne (vinçsiz: crane · hoist · jib · derrick · tarihi: truck · machinery ·
+                      Ay: flame · smoke · thrust · plume). HİÇBİR promptta, NEGATİFTE BİLE geçmez —
+                      kelimeyi anmak nesneyi çağırır. Yasak yoksa: 'YASAK KELİME  — (yok)'.
+6c. ÜRETİM GÜNLÜĞÜ    ⛔ plan yazılırken açılır: cp dikey_shorts/URETIM_GUNLUGU_SABLONU.md
+                      dikey_shorts/<PROJE>/<PROJE>_URETIM_GUNLUGU.md — yoksa kapı BLOCK [DERS 62]
 7. KLİP SÜRESİ        ⛔ ÖLÇ: ffprobe ile test klibi. Izgarayı ondan yaz.
                       ⭐ Süreler KUTULUDUR [A7-a]. Plana ARAÇ KUTU SETİ satırı
                         yazılır ve sahne tavanı = (en büyük kutu − 1,00 sn)
@@ -227,6 +266,14 @@ ve komşularında. Burada tekrarlanmaz.**
                       ⭐ ACTIVITY'ye iki hareket eden + bir yüzey kanıtı [A6-d]
                         — sayı değil ANA İŞE hizmet [C1-d]
                       ⭐ I2V'ye MOTION FOCUS paragrafı (kartın ①②③④'ü) [C1-c]
+                      ⛔ FARK = HAREKET [DERS 61]: G(n+1)'de olup G(n)'de olmayan HER büyük eleman
+                        o klibin MOTION FOCUS'unda adıyla, kaynak → taşıyıcı → hedef. Anamıyorsan
+                        eleman o klibe ait değildir — merdiven bölünür.
+                      ⛔ 'vanish · disappear' inşaat nesnesine yazılmaz; TAŞIYAN yazılır [DERS 61]
+                      ⛔ metin yasağı yalnız SAHADA OLAN yüzeyi sayar ya da 'on any surface' der [DERS 59]
+                      ⛔ havasız sahada flame · smoke · exhaust · thrust · jet · plume YOK [DERS 60]
+                      ⛔ PİLOT ÜÇLÜ bölümü final klibi S6'yı ve en büyük değişikliğin klibini adıyla
+                        anar [DERS 62]
 8b. KAMERA HAREKETİ?  "hareket" isteniyorsa ÖNCE KAMERA_HAREKETI_KILAVUZU §0:
                       istek kadraj içi mi, kurgu yakınlaşması mı. Yakınlaşma
                       varsa plana KURGU bölümü + araç kapısına çözünürlük ölçümü.
@@ -241,7 +288,14 @@ DOSYA:  dikey_shorts/<PROJE>/<PROJE>_DIKEY_TIMELAPSE.md
           plan <FMT>/<FILM>/<FILM>_PLAN.md, promptlar _BOLUM_1/_BOLUM_2 [KILAVUZ_REHBERI §2.8]
 ```
 
-## 🤝 G — IZGARA SEÇİMİ (10 sahne mi, 5 sahne mi — dikey; yatayda modül)
+## 🤝 G — IZGARA SEÇİMİ (dikey: SEÇİLMEZ — 7 × 8,0 · yatayda modül)
+
+```
+⛔ 05.10.2026 · SAHİP KURALI [DERS 58]: DİKEY SHORTS KESİN 7 SAHNE × 8,0 sn = 56,0 sn.
+   Üretilir 1x, paylaşılır 2x. Aşağıdaki 10 × 6,0 / 5 × 6,0 kaydı TARİHÇEDİR — yeni dikey
+   planda kullanılmaz. prompt_kontrol.py dikeyde 7 dışını, 8,0 dışını ve künyede
+   'IZGARA     7 sahne × 8,0 sn = 56,0 sn' satırı olmayanı BLOCK'lar.
+```
 
 ```
 ⭐ YATAY MERDİVEN (14.09.2026): ızgara formattan gelir, seçilmez — sahne sayısı ve klip süresi
@@ -290,7 +344,7 @@ VARYANT         5 × 6,0 = 30,0 sn + kapak 5,0        KILAVUZ_REHBERI §2.6
 9. ÜRETİM          kart B aynen (ters zincir GN → G0 · günlük klip başına) — bölüm dosyası
                    üretim sırası DEĞİLDİR
 10. QA             kart Q aynen; 6/8 dk'da iki yarım master (qa_paket.sh --bolum 1|2), ham rapor
-                   <FILM>_B1_<n>_<MERCEK>_HAM.md, T tablosu ve INDEX iki satır, RAPORLAR tek dosya
+                   <FILM>_B1_Q<n>_<AD>_HAM.md, TABLO iki satır (B1 · B2), FILMLER tek dosya
 
 DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVUZ_REHBERI §2.8)
 ```
@@ -376,6 +430,11 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
       ⭐ 08.09.2026: betik EŞİKTEN TOP-N'e geçti [A8-a]. Ölçüldü — eski eşik
         (0,30) ve A8'in önerdiği (0,40) bizim formatta SIFIR kesme buluyordu;
         kapı açık sanılıyordu, KAPALIYDI.
+2e. ⛔ İHRAÇ KANITI [DERS 63]  PAYLAŞILACAK dosyaya (dikey: 2x):
+      bash araclar/ihrac_kontrol.sh <film_klasoru> paylas_2x.mp4 --hiz 2
+      Makine: süre = 28,0 (+kart yalnız planda varsa) · 1080×1920 · final tutuşu (SSIM).
+      Elle ✓: müzik YOK · okunur yazı/logo/promo/"AI TIMELAPSE" YOK · kart = GN dünyası.
+      Çıkış 2 ya da işaretsiz madde = PAYLAŞILMAZ. Sonuç günlük §4 ⑧'e.
 2d. ⛔ YEDİ ÖLÇÜM  KURGU_VE_TESLIM_KILAVUZU §6 — biçim · süre · kesme · LUFS ·
       açılış penceresi · flicker · final kare + kapak. Yedisinin çıktısı
       üretim günlüğü §4'e YAZILIR; yazılmamışsa yayın yok.
@@ -389,7 +448,9 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
                 Instagram gelişmiş ayarlar → AI/dijital içerik
                 Açıklamadaki gerçeklik beyanı bunun YERİNE GEÇMEZ; ayrı yüzey.
                 apexait/youtube/POLITIKA_VE_RISK.md §2 · CAPRAZ_YAYIN §2
-7. ⛔ QA        → kart Q. Dört mercek YÜKLEMEDEN ÖNCE koşulur.
+7. ⛔ QA        → kart Q. Beş mercek YÜKLEMEDEN ÖNCE koşulur; öldürücü hüküm (❶ ❸ ❹) varsa yüklenmez.
+7b. ⭐ 7. GÜN    apexait/IZLEYICI_DEFTERI.md — sahip dört sayıyı yazar (kaydırmadı % · ort. izlenme % ·
+                engaged · abone); ajan sayı UYDURMAZ, yalnız QA sütunlarını ve analizi yapar [C2].
 8. ÇAPRAZ       apexait/CAPRAZ_YAYIN.md §6 — tek master · filigran · C2PA
 9. YÜKLEME      ÜÇ HESAP, aynı gün, native (CAPRAZ_YAYIN §4 sırası):
                 apexait/youtube/PAKETLEME_SABLONU.md   §5
@@ -400,75 +461,49 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
 ## 🔍 Q — FİLM ÜRETİLDİ, QA KOŞULACAK
 
 ```
-⛔ ÖN KOŞUL: film ÜRETİLMİŞ olmalı. Rubrik promptu değil VİDEOYU eleştirir;
-   plana koşulan bir rubrik, prompt kapısının işini tekrar eder.
+⛔ ÖN KOŞUL: film ÜRETİLMİŞ olmalı. Rubrik promptu değil VİDEOYU eleştirir.
 
-1. MAKİNE       ⭐ bash araclar/qa_paket.sh <film_klasoru> <teslim.mp4> [kapak]
-                → kare_al.sh'ı koşar + QA/KOSU/<FILM>/ altına sekiz paket:
-                  girdi satırı + eklenecek dosyalar + rubrik [DERS 29].
+1. MAKİNE       ⭐ bash araclar/qa_paket.sh [--hiz 2] [--master <1x.mp4>] <film_klasoru> <yayin.mp4> [kapak]
+                → kare_al.sh + kesme_kontrol.sh (top-N) + ffprobe + SSIM → ÖLÇÜLMÜŞ OLGULAR
+                → QA/KOSU/<FILM>/Q<n>_<AD>_paket.md × 5 · blok rubriğin İÇİNDE · künye taslağı üstte
+                ⭐ dikeyde hız 2: yayın kopyası verilir; master varsa ❸ ❹ onunla koşar
                 ⛔ Üretim günlüğü yoksa DURUR [DERS 28].
-                (kare_al.sh tek başına: bash araclar/kare_al.sh <teslim.mp4> 10)
-2. ① KARE       rubrik + tam kurgu + kareler     ⛔ DOKÜMAN VERME (mod V)
-3. ③ ZAMAN      rubrik + TAM KURGU               ⛔ DOKÜMAN VERME · tek klip GEÇERSİZ
-4. ⑤ DEVAMLILIK rubrik + tam kurgu + kareler     ⛔ DOKÜMAN VERME (mod V)
-4b. ⑦ İŞ       rubrik + tam kurgu + kareler     ⛔ DOKÜMAN VERME (mod V)
-5. ② İNŞA       rubrik + tam kurgu + QA_SPEC     (mod D)
-6. ④ TESLİM     rubrik + tam kurgu + plan + kapak (mod D)
-7. ⑥ GEÇİŞ      rubrik + tam kurgu SESLİ + plan  (mod D)
-8. ⑧ YÖNTEM     rubrik + tam kurgu + QA_SPEC     (mod D)
+2. ❶ GÖRÜNTÜ        paket + video + kareler            ⛔ BELGE YOK
+3. ❷ ZAMAN VE KESME paket + video                      ⛔ BELGE YOK
+4. ❸ ŞANTİYE        paket + video + kareler            ⛔ BELGE YOK
+5. ❹ İNŞA           paket + video + QA_SPEC + plan     (mod D)
+6. ❺ TESLİM         paket + yayın dosyası + plan + kapak (mod D)
 
-⛔ 0. GİRDİ SATIRI — HER KOŞUDAN ÖNCE, TEK SATIR [DERS 27]
-      Koşuya başlamadan yaz ve raporun başına yapıştır:
-         "verilen girdiler: <dosya adları>"
-      ⛔ bash araclar/kare_al.sh <teslim.mp4> <n> ① ve ⑤'ten ÖNCE koşulur.
-         DÖRT filmde de koşulmadı.
-      ⭐ Ölçüldü [DERS 27]: MOUNTAIN DOOR'da QA_SPEC üretimden ÖNCE hazırdı
-         ve mercekler yine belgesiz koştu. Eksik olan BELGE değil, YORDAM.
-
-⭐ SIRA ÖNEMLİDİR: doküman körlüğü isteyen dördü (① · ③ · ⑤ · ⑦) ÖNCE koşulur.
-   Önce SPEC'i okuyup sonra "mod V" koşmak, körlüğü zaten kaybetmiş olmaktır.
-⛔ ASGARİ SET: ① + ② + ⑤. Bu üçü koşulmadan film YAYINLANMAZ.
-Her koşuda BAŞKA HİÇBİR ŞEY verilmez: medya + rubrik + (mod D ise) tek belge.
+⛔ YALITIM [QA_KOSU §1]: her mercek AYRI, GEÇİCİ sohbette, Gemini projesi/Gem DIŞINDA.
+   Gem/proje dosyaları o Gem'in bütün sohbetlerine girer — plan oradaysa kör mercek görür.
+⭐ SIRA: kör üçlü (❶ ❷ ❸) ÖNCE. Önce belge görüp sonra "kör" koşmak körlüğü kaybetmektir.
+⛔ ÖLDÜRÜCÜ: ❶ SEPARATE IMAGES · ❸ REBUILT · ❹ DIFFERENT → film YAYINLANMAZ.
+⭐ Seçilen arşiv filmleri yeniden koşulur: ARSIV_12_MERCEK/00_ARSIV.md §6.
 ```
 
 ## 📥 R — QA RAPORU GELDİ
 
 ```
-1. HAM ÇIKTI     QA/HAM_RAPORLAR/<FILM>_<MERCEK>_HAM.md olarak KAYDET
-                 ⛔ düzenleme, kısaltma, özetleme YOK — bu kanıttır
-2. UNVERIFIABLE  rapor künyeyi dolduramadıysa PUANLAMA. Eksiği tamamla, TEKRARLA.
-3. VERDICT ÖNCE  skorlardan ÖNCE hüküm satırını oku. Hüküm ile ortalama
-                 çelişiyorsa HÜKÜM KAZANIR ve kararı o belirler.
-4. SKOR SATIRI   QA/T<n>_*.md tablosuna satır ekle (mod V ise Ⓥ işaretle)
-5. DOKÜMAN       ① ve ③'ün "QUESTIONS FOR THE DOCUMENT" listesini plandan
-                 CEVAPLA. ⭐ Rubriğin ikinci yarısı budur.
-6. ZAMAN TAHMİNİ ③'ün "TIME READ FROM THE FILM ALONE" satırını planın zaman
-                 yayıyla karşılaştır. Uzaksa film kendi süresini anlatamıyor —
-                 hiçbir kategori bunu yakalamaz.
-6a. ⭐ ZİNCİR ÖNCE [P2-k]: ⑤ SAME WORLD ve ⑧ MADE hükmü tutmadıysa diğer
-                 merceklerin skoru YORUMLANMAZ; film "zincir koşulmadı" diye
-                 kapanır. Kamera çözüldü (DERS 11); sıradaki tek soru dünya
-                 ve yapı kalıtımıdır.
-6b. KANIT NESNESİ ⑤'in "THE OBJECT THAT PROVES IT IS THE SAME PLACE" satırını
-                 oku. NONE FOUND ise film aynı yerde geçmiyor demektir ve bu,
-                 skor ortalaması ne olursa olsun yeniden üretim sebebidir.
-6c. RİTİM        ⑥'nın METRONOM hükmü geldiyse çözüm PROMPTTA değil PLANDA:
-                 aşama merdiveninin SÜRE sütunu eşitlenmiş demektir [DERS 13].
-6d. MOD DENETİMİ ② ④ ⑥ ⑧ raporunun ilk satırı "RUN INCOMPLETE" diyorsa skoru
-                 tabloya YAZMA — satırı "belgesiz koşuldu — TEKRARLANACAK"
-                 diye aç ve koşuyu belgeyle TEKRARLA [DERS 17].
-6e. İŞ VE YÖNTEM  ⑦'nin "THE GROWTH NOBODY MADE" ve ⑧'in "THE FIRST PIECE THAT
-                 APPEARED" satırlarını oku. NONE değilse: ⑦ için o zaman damgasının
-                 sahnesi, ⑧ için o parçanın yapıldığı sahne yeniden üretilir —
-                 ortalama ne olursa olsun. Parça adı T8 tablosuna yazılır.
-7. KALICI KAYIT  QA/RAPORLAR/<FILM>.md (skor · hüküm · en ağır üç bulgu ·
-                 karar: hangi sahne yeniden üretilecek, hangi kusur kabul edildi)
-                 ⭐ + OLAY TABLOSU [C1]: aynı olay farklı mercekleri etkiliyorsa TEK
-                 kimlik (E01…) · zaman kodu · kanıt karesi · karar — format
-                 QA/00_README §8. Mercekler koşulduktan SONRA ajan doldurur.
-                 Dosyası açılamayan koşu INC yazılır, 0 değil.
-8. TAMLIK        QA/00_INDEX.md matrisini ve sayımı güncelle
+1. HAM ÇIKTI     QA/HAM/<FILM>/<FILM>_Q<n>_<AD>_HAM.md — paketteki künye üstte, model çıktısı
+                 altta · ⛔ düzenleme, kısaltma, özetleme YOK [QA/HAM/00_README]
+2. GERİ OKUMA    ilk üç satır: dosya adı · belgeler · görülen klip [QA_KOSU §2.2]
+                 dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş (geçici sohbet)
+3. DOĞRULAMA     D1–D5 [QA_OLCUM_ZEMINI §5] · kör raporda sızıntı taraması [QA_KOSU §3]
+                 · mod D ilk satırı RUN INCOMPLETE → durum EKSİK, puan YOK
+4. DURUM         TAM · EKSİK · YANLIŞ GİRDİ · SIZINTI · TUTARSIZ [QA_KAYIT §1.2] — künyeye
+5. PUAN          mercek puanı = tetiklenen kategorilerin ortalaması — AJAN hesaplar
+                 hüküm ↔ kategori: KÖTÜ OLAN KAZANIR · iyi hüküm + sahip kategori ≤ 3 → TUTARSIZ
+                 [RUBRIK_YAZIM §4]
+6. HÜKÜM SATIRLARI ❶ THE BODY THAT MELTED WORST · ❸ THE OBJECT THAT PROVES IT IS THE SAME PLACE
+                 · THE GROWTH NOBODY MADE · ❹ THE FIRST PIECE THAT APPEARED · THE MOST DAMAGING
+                 INTRUDER · ❺ WHAT THE PLAN PROMISED THAT NEVER REACHED THE SCREEN —
+                 NONE değilse o sahne yeniden üretim adayıdır, ortalama ne olursa olsun.
+7. DOKÜMAN       kör üçlünün QUESTIONS FOR THE DOCUMENT listesini plandan CEVAPLA.
+8. KAYIT         QA/FILMLER/<FILM>.md (şablon FILMLER/00_README) · OLAY TABLOSU (E01…) ·
+                 KARAR · DERS → QA/TABLO.md satırı · bash araclar/sayac.sh (U1 · U2)
 9. YENİ DERS     yeni bir bozulma çıktıysa kart D
+10. ONARIM       hüküm satırı NONE değilse ya da puan düştüyse: kök neden → tek eylem → iki dikiş
+                 sınaması → günlük §5 satırı (G<n>_K<k>) [ONARIM_VE_YENIDEN_URETIM_KILAVUZU]
 ```
 
 ## 🔬 S — ARAŞTIRMA SONUCU GELDİ
@@ -565,6 +600,12 @@ commit'i sahibine bırakır.
 
 # 6. BİLİNEN AÇIKLAR — bunlara güvenme
 
+> ⛔ **05.10.2026 · KAPI SIKILAŞTI (§10f · DERS 58-63).** Bu tarihten önce yazılmış bütün planlar
+> `prompt_kontrol.py`'de BLOCK verir (YASAK KELİME satırı · sahada olmayan nesneyi sayan metin
+> yasağı · dikey günlük/PİLOT · 6-8 sahnelik dikey). Üretilmiş filmler için bu ARŞİVDİR; ÜRETİLMEMİŞ
+> bir plan üretime alınacaksa önce bu kapıdan geçirilir. Dikeyde 6 sahnelik THE BLUE SILO ve
+> THE SEA MILL 7. sahne için sahip onayı bekler (onay önce, üretim sonra).
+
 ```
 · DERSLER.md'deki maddelerin TAMAMI devralınmış varsayımdır; bu depoda
   hiçbiri ölçülmedi. İlk üretimden sonra ya derse dönüşürler ya düşerler.
@@ -572,7 +613,7 @@ commit'i sahibine bırakır.
   bir prompt iyi bir prompt değildir, yalnız biçimsel olarak eksiksizdir.
   ⭐ 18.09.2026 ölçüldü: 15 filmin planı kapıdan geçti, ② İNŞA'da çoğu düştü.
   Kapıyı geçmek görüntüde doğru eylemi garanti etmez — ikinci aşama (klip
-  baş/orta/son + zincir_kontrol) ayrı koşulur [QA/00_README §7].
+  baş/orta/son + zincir_kontrol) ayrı koşulur [QA/00_README §6].
 · Kadraj hesabı (KAMERA_ISTASYONU §3) tam kare dikey (36 mm kare yüksekliği)
   varsayar. Başka sensör/araç kullanılırsa formülün 36 sabiti değişir.
 · Ters inşa (image-to-image ile geriye) bu depoda BEŞ filmde de koşulmadı
@@ -593,7 +634,7 @@ commit'i sahibine bırakır.
 
 ```bash
 bash araclar/sayac.sh
-python3 araclar/capraz_sayim.py     # QA_CAPRAZ_ANALIZ sayıları matrisle uyuşuyor mu
+python3 araclar/capraz_sayim.py     # (arşiv) QA_CAPRAZ_ANALIZ sayıları matrisle uyuşuyor mu
 
 # başlıksız / SPEC'siz film klasörü var mı — çıktı boş olmalı (beş format klasörü)
 for d in dikey_shorts/*/ yatay_*_dk_filmler/*/; do
@@ -606,6 +647,6 @@ done
 for f in dikey_shorts/*/*_DIKEY_TIMELAPSE.md; do python3 araclar/prompt_kontrol.py "$f"; done
 for d in yatay_*_dk_filmler/*/; do [ -d "$d" ] && python3 araclar/prompt_kontrol.py "$d"; done
 
-# ham raporu olup skor tablosunda satırı olmayan film (işlenmemiş rapor)
-ls QA/HAM_RAPORLAR/*_HAM.md 2>/dev/null | sed 's|.*/||; s|_[A-Z]*_HAM\.md||' | sort -u
+# ham raporu olup TABLO'da satırı olmayan film → sayac.sh "U1" satırları (çıktı boş olmalı)
+bash araclar/sayac.sh | grep -E "U1|U2" 
 ```

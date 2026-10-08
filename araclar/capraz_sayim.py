@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-capraz_sayim.py — QA/QA_CAPRAZ_ANALIZ/01_SKOR_MATRISI.md tablosunu okur ve
+capraz_sayim.py — QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/01_SKOR_MATRISI.md tablosunu okur ve
 raporlarda anılan sayıları YENİDEN HESAPLAR. Raporlara sayı elle yazılmaz;
 yazılan her sayı bu çıktıyla karşılaştırılır (AGENTS §3 ①: sayı tek yerde durur).
 
@@ -12,7 +12,7 @@ Neden var: 18.09.2026 çapraz analizinde toplam 138 yazıldı, matris 132 veriyo
 """
 import re, sys, os
 
-YOL = "QA/QA_CAPRAZ_ANALIZ/01_SKOR_MATRISI.md"
+YOL = "QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/01_SKOR_MATRISI.md"
 ESIK = 4.0
 
 def main():

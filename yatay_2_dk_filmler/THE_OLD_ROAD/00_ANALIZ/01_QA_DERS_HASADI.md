@@ -47,7 +47,7 @@
 
 ---
 
-## 2. 🚨 QA KAYITLARINDAN GELEN ARIZALAR — `QA/RAPORLAR/` + `QA/00_INDEX.md`
+## 2. 🚨 QA KAYITLARINDAN GELEN ARIZALAR — `QA/ARSIV_12_MERCEK/RAPORLAR/` + `QA/ARSIV_12_MERCEK/00_INDEX.md`
 
 | kayıt | hüküm | bu filmde önlem |
 |---|---|---|

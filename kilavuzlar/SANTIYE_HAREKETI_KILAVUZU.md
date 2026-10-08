@@ -181,14 +181,14 @@ AY / VAKUM    ⭐ rüzgâr yok: palet izi bozulmadan GÜNLERCE kalır ·
 > ama ölçüsü değişti: sayılan şey hareketin ANA İŞE HİZMETİDİR, hareket eden
 > adedi değil. OVER_THE_WALL ölçtü: ⑪ ENVANTER 9,3 (ekipman sahada, hareketli),
 > ⑧ YÖNTEM 0,0 (yapıyı o ekipman yapmadı) — "daha fazla araç ekle" yaklaşımının
-> neden yetmediğinin en net verisi (QA/QA_CAPRAZ_ANALIZ/02).
+> neden yetmediğinin en net verisi (QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/02).
 > · Ana işi yapan araç DERS 43'ün geçişli fiil + NESNESİNİ alır (§4.5) ve
 >   MOTION FOCUS'un taşıyıcısıdır (SAHNE_PLAN_KARTI ②).
 > · Yükü tutan vincin BEKLEMESİ doğrudur — yük havadayken vinç PARKED değildir;
 >   ⑦ merceği "kancada yük var mı"ya bakar, kola değil.
 > · İnsan: az sayıda, ana işi destekleyen görevli. Kalabalık okunurluğu düşürür
->   (PROMPT_SABLONU §5 "kalabalık şantiye"). Kapı: ACTIVITY'de 4'ten fazla farklı
->   hareket eden → INFO "hepsi ana işe bağlı mı?"
+>   (PROMPT_SABLONU §5 "kalabalık şantiye"). Kapı: ACTIVITY'de 6'dan fazla farklı
+>   hareket eden → INFO "hepsi ana işe bağlı mı?" ⭐ 05.10.2026: 4 → 6, bkz. §4.8 İŞ YOĞUNLUĞU
 > · Finalde şantiye hareketi ARANMAZ → §4.7.
 
 ```
@@ -298,6 +298,39 @@ KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of 
       sıçradı (② 4 · ⑦ · ⑨ · ⑩). Parçaya yazılan hareket fiili, bağlı olduğu yapının korpus
       hareketini çağırır. Montajda: "the hub stays locked and does not turn while any blade
       flange is bare"; dönme · açılma · sarkma · akma yalnız FİNAL sahnesinde.
+```
+
+## ⭐ 4.8 İŞ YOĞUNLUĞU — iş SAYISI değil, tek işin etrafındaki EL  [C2-g · 05.10.2026]
+
+> Sahip isteği (05.10.2026): "videolarda yapılan iş artmalı". ⑦ İŞ'te üst filmler 9,3-10
+> (LAST LIFT · LAST HARBOR · FIRST GUEST · BLUE DOOR · BROKEN CLIMB), erken filmler 1,3-3,8
+> (PARKED · donmuş işçi). Üst filmlerde de klip başına TEK ana iş vardı — ama etrafında çok el.
+> ⛔ Artan şey klip başına İŞ SAYISI olamaz: ikinci yapısal değişiklik eriyerek gelir
+> (DERS 61 · F05) ve 2x paylaşımda klip 4 sn'dir.
+> ⚠️ C1-d'nin "kalabalık okunurluğu düşürür" notu ölçülmemiş bir varsayımdı; sınır 4 → 6.
+
+```
+① ANA İŞE ÇOK EL      tek ana iş · üzerinde ≥3 el: taşıyıcı (vinç · telehandler · konveyör) +
+                      bir EKİP ("a crew of workers", "masons", "riggers" — mertebe, adet değil
+                      [§4]) her biri o işin bir parçasını yapar: çeker · yönlendirir · sabitler ·
+                      taşır. Hepsi AYNI elemana dokunur ya da ona malzeme götürür.
+② MALZEME AKIŞI       klip başına bir görünür zincir: KAYNAK (istif · kamyon · sandık · palet) →
+                      TAŞIYAN → HEDEF; istif klipten klibe AZALIR [DERS 48 sayım]. Akış işi
+                      süreç gibi gösterir ve parçanın yoktan belirmesini önler.
+③ ARKA PLAN HAZIRLIĞI klip n çalışırken arka planda klip n+1'in malzemesi istiflenir / iskelesi
+                      kurulur. Saha hiç boş görünmez VE sonraki klipte beliren parçanın kaynağı
+                      önceden kadrajdadır (DERS 61'in ikinci yarısı).
+④ REJİM               hareketli iş A ve B'de görünür; C'de yalnız İZ kalır (insan silinir).
+                      İş yoğunluğu isteniyorsa C en aza iner. ⚠️ "en az üç rejim A" denendi ve
+                      DÜŞTÜ: DEEP END (9,83) ve VANISHING ROOM (9,65) hiç rejim A kullanmadı —
+                      B'de iş yeterince canlı okundu. Kural yazılmadı.
+⑤ SINIR               ACTIVITY'de > 6 farklı hareket eden → INFO; hepsi ana işe bağlı değilse
+                      kalabalıktır. Hızlı rejimde insan SIRTI kameraya, iz bırakarak [§9.4].
+
+KAPI (FIX — pilot ölçülene kadar; sahip kararı 19.09.2026 kalıbı):
+   · ACTIVITY'de el < 3 (farklı makine + ekip kelimesi ×2) → FIX
+   · I2V'de kaynak → taşıyan akışı yok (pile · stack · truck · crate · pallet … + taşıma fiili) → FIX
+KALDIRDIĞI  "az sayıda görevli" ölçüsü (C1-d) — artık ana işe hizmet eden ekip istenir.
 ```
 
 ## ⭐ 4.7 FİNAL SAHNESİ İSTİSNASI — ödül yapının çalışmasıdır  [C1-d]

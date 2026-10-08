@@ -218,7 +218,7 @@ progress falls into the right eighth of the frame."
 # 7. ⭐ SABİTLİK DOĞRULAMASI — ÜÇ NİRENGİ VE ORANSAL EŞİK  [C1-f · 18.09.2026]
 
 > Kaynak: 15 filmin çapraz analizi (F04 "çapa/istasyon bozulması" 10/15 filmde,
-> `QA/QA_CAPRAZ_ANALIZ/03`) + dış değerlendirme. Depoda ÖLÇÜLMEDİ — VARSAYIM
+> `QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/03`) + dış değerlendirme. Depoda ÖLÇÜLMEDİ — VARSAYIM
 > (`DERSLER.md` ÇAPRAZ ANALİZ). Eskiden "> 2 px" tek sayı olarak dört yerde
 > duruyordu; sayı artık **tek yerde** — `araclar/zincir_kontrol.sh`
 > `ESIK_KAYMA_ORAN` — ve buradan yalnız FORMÜLÜ okunur.

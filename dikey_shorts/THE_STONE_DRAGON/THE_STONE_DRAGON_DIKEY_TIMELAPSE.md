@@ -50,7 +50,7 @@ TOPLAM                              56,0 sn
    "⑥ METRONOM" FIX'i beklenen uyarıdır, düzeltilecek hata değildir [KILAVUZ_REHBERI §2.2 karşı kayıt · C1-e].
 ⛔ ARAÇ KUTU SETİ: ⛔ ÖLÇÜLMEDİ — araç kapısı koşulmadı [ARAC_KARTLARI §4].
    Sahne tavanı = (en büyük kutu − 1,00 sn) ≥ 8,0 olmalı; değilse üretim açılmaz.
-⚠️ BROKEN CLIMB ÖLÇÜMÜNDEN (QA/RAPORLAR/THE_BROKEN_CLIMB.md · ④ 5,1 · ① 4,1) ve BLUE DOOR QA'sından (00:56–01:00
+⚠️ BROKEN CLIMB ÖLÇÜMÜNDEN (QA/ARSIV_12_MERCEK/RAPORLAR/THE_BROKEN_CLIMB.md · ④ 5,1 · ① 4,1) ve BLUE DOOR QA'sından (00:56–01:00
    son kart + müzik sızıntısı): kurgu 7 × 8,0'dan SAPMAZ, hiçbir metin master'a BASILMAZ, ses yatağına müzik
    KARIŞMAZ, her halkada zincir_kontrol.sh. Final vuruşu (su ağızdan çıkar) 50,0–51,0'de gelir; son 5 saniye
    izleyicinin heykeli incelemesine kalır — fikrin "sonucu inceleme zamanı" maddesi.

@@ -1,7 +1,7 @@
 > # ⛔ BU DOSYA **v1**'DİR — ÜRETİLDİ, ALTI MERCEKLE ÖLÇÜLDÜ, KISMEN DÜŞTÜ.
 >
 > `① 6,0Ⓥ` · `② 2,6Ⓥ` · `③ 4,2Ⓥ` · `④ 4,4Ⓥ` · `⑤ 5,6Ⓥ` · `⑥ 8,2Ⓥ`
-> Kayıt: `QA/RAPORLAR/THE_NARROW_LOT.md`
+> Kayıt: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_NARROW_LOT.md`
 >
 > ⭐ **DEPONUN İLK GEÇEN HÜKÜMLERİ BURADA ÇIKTI:**
 > `① TIMELAPSE` · `⑤ SAME WORLD` + kanıt nesnesi bulundu · `⑥ TIME` ·
@@ -17,7 +17,7 @@
 > çünkü bot `siparisler/MOTOR_5_SAHNE.md §C`'nin başlık sözleşmesini
 > uygulamadı. Bkz. DERS 21.
 >
-> Zorunlu değişiklikler: `QA/RAPORLAR/THE_NARROW_LOT.md` §8 · `DERSLER 18-21`
+> Zorunlu değişiklikler: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_NARROW_LOT.md` §8 · `DERSLER 18-21`
 
 ---
 
@@ -257,7 +257,7 @@ NEGATIVE: No dialogue, no narration, no text, no captions, no logos, no watermar
 
 ## 🔍 v2 İÇİN — bu dosya yeniden üretilmez, YENİDEN YAZILIR
 
-Zorunlu değişikliklerin tam listesi `QA/RAPORLAR/THE_NARROW_LOT.md` §8'dedir.
+Zorunlu değişikliklerin tam listesi `QA/ARSIV_12_MERCEK/RAPORLAR/THE_NARROW_LOT.md` §8'dedir.
 Özet: hareket kuralları I2V'ye taşınır [DERS 18] · YAPI BIBLE sayılanır
 [DERS 19] · gölge ve gökyüzü I2V'nin İLK cümlesi olur [DERS 20] · başlık
 sözleşmesi uygulanır [DERS 21] · zincir kapısı KOŞULUR [DERS 12].

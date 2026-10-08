@@ -60,6 +60,13 @@
 | 55 | ⭐ Korpusu ÇOĞUL olan yapı tek yazılsa da çoğalır — türbin çiftlik doğurur | THE EMPTY RIDGE · 0:39 · ② 3 · ⑤ · ⑧ · ⑪ INTRUDERS | ✅ ölçüldü |
 | 56 | ⭐ Montajda "göbeği döndür" yazmak rotoru döndürür — hareket fiili parçadan yapıya sıçrar | THE EMPTY RIDGE · 0:33–0:42 · ② 4 · ⑦ · ⑨ · ⑩ | ✅ ölçüldü |
 | 57 | Uzun rijit yük havada taşınmaz — model hedefte kopyalar, oturtma anı kancasız (DERS 22 mekanizması düştü) | THE EMPTY RIDGE · 0:21 · ⑩ MAGIC ×3 · ① C1 2 | ✅ ölçüldü |
+| 58 | ⭐ Dikey KESİN 7 × 8,0 — 56 sn üretilir, 2x paylaşılır (sahip kuralı 05.10.2026) | STAR DOCK ④ yanlış FAIL · 6/8 sahnelik dikey planlar | ✅ kural |
+| 59 | ⭐ Yasak nesne hiçbir satırda adıyla geçmez — negatifte bile · YASAK KELİME satırı | DEEP STEP kamyon · STONE TOWER kanca · BACK TO PLUMB sıva | ✅ ölçüldü |
+| 60 | Havasız sahada yanma/itki kelimesi yok — "görünmez alev" alev üretir | STAR DOCK 0:21 · ⑫ · Direnç 5 | ✅ ölçüldü |
+| 61 | ⭐ FARK = HAREKET — eklenen eleman MOTION FOCUS'ta adıyla · 'vanish' yazılmaz | DEEP STEP kubbe · STAR DOCK duvar · STONE TOWER moloz | ✅ ölçüldü |
+| 62 | ⭐ Pilot ve günlük yazılıydı, koşmadı — dikey planda kapı ister | 6 dikey film günlüksüz · IRON BRIDGE G6 kemersiz | ✅ ölçüldü |
+| 63 | ⭐ Plan beyanı ile paylaşılan dosya arasında adım yoktu → ihrac_kontrol.sh · qa_paket --hiz | kart/müzik/yazı ihlalleri · STAR DOCK 2x · DEEP STEP yanlış SPEC | ✅ ölçüldü |
+| 64 | ⭐ Mercek çoğaldıkça yordam çöktü: belgeli koşuların yarısı belgesiz → 12 mercek arşiv, BEŞ mercek | 393 ham sınıflandı: BELGESİZ 98/196 · ④ 9/36 kullanılır · ⑦⑧⑨⑩ çift sayım | ✅ ölçüldü |
 
 ---
 
@@ -264,7 +271,7 @@ KİLİT       ③'ün hükmü üçe çıkarıldı:
             Orta seçenek, üç yön kategorisinden (1, 3, 7) ikisi 4'ün
             altındaysa ZORUNLUDUR.
 KALDIRDIĞI  Hiçbir şey — hüküm çözünürlüğü arttı.
-NEREYE      QA/3_ZAMAN_QA.md VERDICT bölümü
+NEREYE      QA/ARSIV_12_MERCEK/3_ZAMAN_QA.md VERDICT bölümü
 ```
 
 ---
@@ -1495,7 +1502,7 @@ NEREYE      KURGU_VE_TESLIM_KILAVUZU §2 · QA/00_README (mercek okuma sırası)
    Okuma kuralı değişmez (⑤ REBUILT iken ⑥ METRONOM ızgaraya yazılmaz);
    ama ⑥ RHYTHM dediğinde bunun ızgaradan geldiği artık iki kez ölçülü.
    ⚠️ 14.09.2026'da 8 × 8,0 DÜZ ızgaraya kilitlenen OVER THE WALL planı için
-      bu ölçüm KARŞI KANITTIR; karar proje sahibinin [QA/RAPORLAR/OVER_THE_WALL.md §7].
+      bu ölçüm KARŞI KANITTIR; karar proje sahibinin [QA/ARSIV_12_MERCEK/RAPORLAR/OVER_THE_WALL.md §7].
 ```
 
 
@@ -2340,6 +2347,260 @@ A19-n TEST MATRİSİ ALTIDAN BİRE İNER                                    [VAR
       A2/B2/C2 katman 2 (NARROW GORGE ölçümü) · C1 alçak yok · B1 tepeden yalnız kare.
       Test edilebilen: aile İÇİNDE tilt bandı ve h/D, aynı yapı tipinde iki film, tek
       değişken [06_IZLEYICI_DENEY_PLANI]. Kayıt satırına AÇI etiketi (aile · tilt · h/D).
+```
+
+---
+
+## 🔬 A20–A24 — QA ONARIMI · 06.10.2026 · beş rapor, prompt bu depoda yazıldı
+
+> Kaynak: `arastirma/SONUCLAR/A20…A24_GEMINI_HAM.md` · Denetim: `arastirma/SONUCLAR/A20-A24_DENETIM.md` ·
+> Kılavuzlar: `QA_KOSU` · `QA_OLCUM_ZEMINI` · `RUBRIK_YAZIM` · `QA_KALIBRASYON` · `QA_KAYIT`.
+>
+> Tetikleyen: 06.10.2026 QA denetimi (393 ham · 37 film) — 2x kopya ≥ 6 filmde "kesik" okundu ·
+> kör merceklerde plan sızıntısı · belgesiz / yanlış belgeli koşular · %31 kanıtsız 10,0 ·
+> INDEX'te 5 "üretilmedi" film. 61 atıf çekildi: 32 ✅ · 24 ⚠️ (çoğu gerçek makale, başka konu) ·
+> 2 ❌ · 3 ❓. Rapordan doğrudan inen sayı yalnız Gemini API dokümanının üç değeri.
+> Her madde VARSAYIMDIR; ilk sınavı kalibrasyon pilotu ve kör merceklerin geçici sohbette yeniden koşusu.
+
+```
+A20-a ⭐ GEM / PROJE DOSYALARI HER SOHBETE GİRER                      [araç dokümanı ✅ · çekildi]
+      Gem bilgi dosyaları o Gem'in bütün sohbetlerine, proje dosyaları projedeki sohbetlere
+      girer; kişisel bağlam varsayılan açık; geçici sohbet kapatır. Kör sızıntının en olası
+      sebebi bugünkü "proje içinde koşu" düzenidir (kanıtı: projenin içeriği — sahip bilir).
+      ⇒ QA_KOSU §1 · KALDIRDIĞI: "yeni sohbet = temiz oturum" varsayımı.
+A20-b GERİ OKUMA YALNIZ OKUNABİLENE — dosya adı + belgenin ilk satırı    [VARSAYIM · Ç2]
+      Süre geri okuması kapı değildir (model süre ölçmüyor). ⇒ QA_KOSU §2.2
+A20-c SIZINTI METİNDEN ÖLÇÜLÜR — liste + kanarya terimi                [VARSAYIM]
+      Kör merceğe "plan gördün mü" sorulmaz; plandaki sayı ve adlar raporda aranır.
+      "belge yok" cümlesi sızıntı DEĞİLDİR. ⇒ QA_KOSU §3.1
+A20-d FAIL CLOSED — eksik/yanlış/sızdırmış koşunun puanı yok, doldurulmaz [VARSAYIM · klinik eksik veri ilkesi]
+      ⇒ QA_KOSU §4 · RUBRIK_YAZIM §4.2 (N=…)
+A21-a ⭐ MODEL SAYMAZ — 1 fps örnekleme, 2x'te klip başına ~4 kare       [araç dokümanı ✅ + ÖLÇTÜM]
+      Gemini API varsayılan 1 kare/sn (fps ayarlanabilir · ~70 token/kare); sohbet arayüzünün
+      örneklemesi belgesiz. Bizim ölçüm: aynı dosyada 1…23 klip. ⇒ QA_OLCUM_ZEMINI §1
+A21-b ÖLÇÜLMÜŞ OLGULAR BLOĞU RUBRİĞİN İÇİNDE                          [VARSAYIM · hibrit düzen]
+      2x beyanı yapıştırma çizgisinin ÜSTÜNDE kaldı [DERS 63 açığı]. ⇒ QA_OLCUM_ZEMINI §2
+A21-c ⛔ KESME EŞİKLE BULUNMAZ — top-N KALIR                           [ÖLÇTÜM · bu makinede]
+      PySceneDetect -t 27 düşük kontrastlı sentetik kesmenin 6'sından 3'ünü buldu;
+      kesme_kontrol top-N 6/6. "%99" kaynaksız (aracın kendi ölçümü %63–85).
+      tblend+blackframe yavaş timelapse'i baştan sona "statik" sayıyor. ⇒ QA_OLCUM_ZEMINI §2
+A21-d DOĞRULAMA KATMANI D1–D5 — dosya dışı damga raporu düşürür          [VARSAYIM · tolerans ±0,5 sn]
+A21-e ⚠️ HANGİ DOSYA — süreç mercekleri 1x master, izleyici mercekleri 2x  [sahip kararı]
+A22-a FORMAT DEĞİŞKENLERİ BLOĞU — kart · müzik · hız · klip rubrikte varsayılmaz [VARSAYIM]
+      ⇒ RUBRIK_YAZIM §1 · temizlik listesi §6
+A22-b KANITSIZ 10 YOK — 7'nin üstü zaman damgası ister                   [VARSAYIM · rapor da öyle etiketledi]
+      Sınavı: ilk üç filmde 10,0 oranı ve kanıtlı-10 oranı. ⇒ RUBRIK_YAZIM §2.2
+A22-c ORTALAMA KODDA · önce gerekçe sonra puan                           [akademik ✅ · 2606.09410 · CheckEval]
+      Biçim zorlaması akıl yürütmeyi düşürüyor, gecikmeli yapı kurtarıyor. ⇒ RUBRIK_YAZIM §4.1 · §7
+A22-d ⭐ KÖTÜ OLAN KAZANIR — "hüküm kazanır" yarıya indi                  [ÇELİŞKİ Ç3 · karar]
+      Kötü hüküm iyi kategoriyi ezer; iyi hüküm sahip kategori ≤ 3'ü ezemez → rapor tutarsız.
+A22-e ⭐ KUSUR SAHİPLİĞİ — bir kusur tek mercekte puan kırar              [VARSAYIM · ayırt edici geçerlilik]
+      ⑨ ⑩'un çoğu ⑦ ⑧'in sorusu → ⚠️ sahip kararı (emekli · daralt · bugünkü). ⇒ RUBRIK_YAZIM §5
+A23-a TEST-TEKRAR PİLOTU 3 × 4 × 3 · medyan · aralık eşiği              [VARSAYIM · eşikler bizim]
+      Determinizm varsayılmaz (Ç1 — iki rapor da kaynağa uymuyor). ⇒ QA_KALIBRASYON §1
+A23-b TOHUMLANMIŞ KUSUR SETİ — 10'un 5'i düzeltildi                     [ÖLÇTÜM · bu makinede]
+      drawtext yok · scale zaman çizelgesi yok · loop süre ekliyor · crop boyut değiştiriyor ·
+      drawbox kaybettirmiyor. Set KABA kusur ölçer; gerçek arızalar geçmiş kesitlerden.
+A23-c ÇAPA FİLM — puan > 1,0 oynarsa hakem değişti                        [VARSAYIM] ⇒ QA_KALIBRASYON §4
+A23-d DIŞ GEÇERLİLİK: ρ 0,50 için 29–30 film (rapor 28)                  [ÖLÇTÜM · yeniden hesaplandı]
+      Defter ~23 filmle yalnız yön gösterir. 06_IZLEYICI_DENEY_PLANI arşiv, defter bağlayıcı.
+A24-a ⭐ KANITTAN TÜRET — elle özet uzlaştırmasız durmaz                  [düzenleyici belge ✅ · FDA Q12 (rapor Q15 dedi)]
+      ⇒ QA_KAYIT §0 · §5 (U1–U10)
+A24-b DURUM MODELİ — ham rapor varsa film en az ÜRETİLDİ                  [VARSAYIM] ⇒ QA_KAYIT §1
+A24-c HAM DOKUNULMAZ → ESKİ ARŞİV EŞLEME TABLOSUYLA                     [ÇELİŞKİ Ç5 · karar]
+      Raporun YAML enjeksiyonu inmedi; yeni hamlarda künye kaydederken yazılır. ⇒ QA_KAYIT §2
+A24-d TEK AD ŞEMASI <FILM>_<n>_<MERCEK>_HAM.md · n = MERCEK numarası     [karar · Ç6] ⇒ QA_KAYIT §3
+```
+
+---
+
+## 🔬 A25–A29 — FİLM YAZIMINDAN DOĞAN BEŞ KILAVUZ · 07.10.2026 · beş rapor, prompt bu depoda yazıldı
+
+> Kaynak: `arastirma/SONUCLAR/A25…A29_GEMINI_HAM.md` · Denetim: `arastirma/SONUCLAR/A25-A29_DENETIM.md` ·
+> Kılavuzlar: `UZUN_FORM_ANLATI` · `ISTASYON_VE_IC_MEKAN` · `SU_VE_YANSIMA` · `ISIK_FINALI` · `ONARIM_VE_YENIDEN_URETIM`.
+>
+> Tetikleyen: 07.10.2026 THE SLOW TAKEOFF yazımı (yatay 4:00 · 30 × 8 sn · iki kokpit klibi · bahar seli ·
+> mavi saat · kano finali) — shorts kurallarının yatay karşılığı yok · ikinci istasyon kuralları çelişiyor ·
+> su ve ışık kılavuzsuz · QA hükmünden onarıma giden yol yazılı değil. 33 atıf çekildi: 20 ✅ · 8 ⚠️ · 5 ❌.
+> Hesaplar bu makinede koştu (alacakaranlık 9/9 · yansıma 12/12 · kano · kare süresi); BİZİM yansıma
+> bandı hesabımız düzeldi (794–891 → 786–883 px). Raporların kendi "ÖLÇÜLDÜ" yüzdelerinin çoğu inmedi.
+> Her madde VARSAYIMDIR; ilk sınavı THE SLOW TAKEOFF üretimi, QA'sı ve yayını.
+
+```
+A25-a ⭐ MERAK ZİNCİRİ — her soru bir klipte açılır, ileride bir klipte cevaplanır  [akademik ✅ · Loewenstein 1994]
+      İlk büyük sonuç 30. saniye civarında ("Intro" ölçüsü — platform ✅); en büyük soru EN SON
+      cevaplanır; ortada art arda dört klipte yeni bir şey yoksa sahne eklenir/taşınır.
+      ⇒ UZUN_FORM §0 · §3 · §4 · KALDIRDIĞI: "yatayda shorts kuralları aynen geçer" varsayımı.
+A25-b AÇILIŞ–FİNAL KAFİYESİ — dikeyin DÖNGÜ'sü yatayda döngü değildir      [VARSAYIM]
+      Aynı yer, karşıt hâl (çamurdaki gövde ↔ ışıklı ev). ⇒ UZUN_FORM §1
+A25-c SON EKRAN son 5–20 sn · video ≥ 25 sn · kartsız filmde tutuş o süre kadar  [platform ✅ · YouTube Help]
+      Bölümler (chapters): ≥ 3 damga, ilki 0:00, her biri ≥ 10 sn ✅ — tutmaya etkisi BİLİNMİYOR.
+      ⇒ UZUN_FORM §6 · ⚠️ Ç6: raporun "olay bitimden 15–20 sn önce" önerisi kartsız 4 sn tutuşla çelişir.
+A25-d EĞRİ → SAHNE: S = ⌊t / klip⌋ · 7. ve 28. gün · typical = son 10 benzer video  [platform ✅ + aritmetik]
+      Key moments ≥ 60 sn video ve ≥ 100 izlenme ister ✅. Test & compare İZLENME SÜRESİ payını ölçer,
+      tutma eğrisini değil ✅. Tek videodaki gözlem kural değildir — ÜÇ FİLM KURALI. ⇒ UZUN_FORM §7
+A25-e ⚠️ Ç1 — THE SLOW TAKEOFF kalkışı 0:40 bir ÖLÇÜM SORUSUDUR             [sahip kararı korunur]
+      Bilgi boşluğu "erken doruk merakı bitirir" der; sahip YouTube'un "güçlü anı öne al" önerisini
+      seçti. Sınav: 0:56 sonrası eğride düşüş var mı (S7–S8). ⇒ UZUN_FORM §2
+A26-a ⭐ MEKÂN KESİNTİSİ BÖLÜTLEMEZ, EYLEM KESİNTİSİ BÖLÜTLER              [akademik ✅ · Magliano & Zacks 2011 · Ç3]
+      Raporun EST yorumu ("yer değişimi olay sınırıdır") ölçümle ters — ölçüm kazandı. İkinci kamera
+      AYNI işin ikinci bakışıdır; o kesmede iş sürer. ⇒ ISTASYON §0 · §1
+A26-b DİKEY EK · YATAY KLİP — "≤ 2 sn ek" ile "iki detay sahnesi" çelişkisi kapandı  [karar · Ç2]
+      Dikeyde ikinci istasyon EK'tir (merdiven satırı almaz); yatayda tam KLİP'tir (8 sn, satır alır).
+      Doruk, bölüm sınırı ve final ikinci kamerada OLMAZ (THE SLOW TAKEOFF S14 → S13 · SAPMA ⑧).
+      ⇒ ISTASYON §1 karar tablosu
+A26-c KOMPOZİT YALNIZ İKİ KAMERA AYNI YÖNE BAKIYORSA                      [VARSAYIM · bizim geometri]
+      Raporun prompt şablonu bizim tilt 0 · tek SITE düzenine uymadı, inmedi. Paralel zaman: S12 → G14 ← S14;
+      ana dış kare iki yakada aynı kalır, iç klibin kendi iki karesi (Gn′). "Aynı yer" doğrulaması elle:
+      ortak çapa + ufuk %50; LightGlue gerçek ✅ ama kurulu değil, eşiği kaynaksız. ⇒ ISTASYON §2 · §3
+A26-d İÇ MEKÂN DİLİ — pencere ışık lekesi kayar · mobilya akar · yüz okunmaz  [VARSAYIM · pratik]
+      Ana kameradan iç iş OKUNMAZ (kabin penceresi ≈ 8 px) — içeriyi ya ikinci kamera ya taşınan
+      parçalar anlatır. ⇒ ISTASYON §4 · §5 bloklar (kapı BLOCK 0)
+A26-e ⬜ QA ❶ BEYAN SATIRI — kör merceğe ikinci kamera söylenir mi        [sahip kararı · açık]
+      Beyan körlüğü bozar, beyansızlık "SEPARATE IMAGES" riskidir; ölçülmedi. ⇒ ISTASYON §6
+A27-a ⭐ YANSIMA x = D·h/(h+y) · kadrajda ufkun 118,5·(h+y)/D altında     [ÖLÇTÜM · bu makinede 12/12]
+      Rapor bizim formülü bağımsız verdi ✅ ve bizim kare tablosundaki hatayı buldu: THE SLOW TAKEOFF
+      yansıma bandı 786–883 px (eski 794–891). ⇒ SU §1 · KALDIRDIĞI: "yansıma her suda görünür".
+A27-b FRESNEL SIYIRMADA GÜÇLENİR · AYNA BEAUFORT 0–1'DE KALIR             [akademik ✅ · Cox–Munk · NOAA · Ç4]
+      Raporun "2–3 m/s" dalgacık eşiği ❌; Beaufort 1 = 0,3–1,5 m/s. Durgun ayna promptta sakin hava ister.
+      ⇒ SU §2
+A27-c BULANIK TAŞKIN SUYU KAHVE-OPAK · ISLAK BETON + DURGUN SU = "HAVUZ"   [VARSAYIM · DERS 54 ile]
+      ⇒ SU §3 · su gelmeden önceki karede durgun su YOK.
+A27-d SU KOTU DEFTERİ — kot sabit nesneye göre kesirle · tanık çizgi kalıcı  [VARSAYIM · TIDE GATE ✅ okundu]
+      Yükselme ve çekilme AYRI kliplerdir; su bir yönden gelir, o yöne gider. ⇒ SU §8 · PLAN'a zorunlu
+A27-e SU ÜSTÜNDE TAŞIT ≤ 13 m / 8 sn (G rejimi) — rota HESAPLANIR          [ÖLÇTÜM · aritmetik · kano 4–6 km/sa]
+      4 / 6 km/sa → 8 sn'de 8,9 / 13,3 m. BACK TO WATER teknesi kadrajdan çıktı; THE SLOW TAKEOFF
+      kano rotası kısaltıldı. ⇒ SU §7
+A27-f REJİM DİLİ — A/B'de su "kademeli yükselir", dalgacık YAZILMAZ; G'de titreşir  [VARSAYIM · raporun 1/3'ü inmedi]
+      VideoPhy-2 "%47,7" hiçbir kaynakta yok ❌ · Physics-IQ sıralaması düzeltildi ⚠️. ⇒ SU §5 · §6
+A28-a ⭐ ALACAKARANLIK TABLOSU — −0,833°'den dakika · pencere −2…−6°        [ÖLÇTÜM · bu makinede 9/9]
+      cos(HA) = [sin(alt) − sinφ·sinδ] / (cosφ·cosδ) · 4 dk/derece. Raporun tablosu doğru ama
+      referansı yanlış etiketli. THE SLOW TAKEOFF 47° K · δ +12° · −4,4° = 19:20. ⇒ IŞIK §1
+A28-b ⭐ A VE B REJİMİNDE IŞIK TEK KAREDE YANAR                           [ÖLÇTÜM · aritmetik · P12-d]
+      A: kare başına 2,5 sn · B: 30 sn — bir anahtarın açılışı bir kareden kısadır. Sıra = grupların
+      farklı anlarda yanması ("first … then … last …"), fade değil. ⚠️ Ç5. ⇒ IŞIK §2
+A28-c OLUMSUZLAMA ÇAĞIRIR — "no flare" yazılmaz, pozitif tarif edilir      [akademik ⚠️ · NegT2IBench 2610.03084]
+      11 modelin 9'u olumsuzlamada kötüleşiyor; başarısız çıktıların %41,5'i olumsuzlanan nesneyi çiziyor.
+      DERS 33 · 35 · 59'u ilk kez dış ölçüm destekliyor (sayı raporda karışık verildi, makaleden düzeltildi).
+      ⇒ IŞIK §5
+A28-d IŞIK DEFTERİ — armatür · takıldığı klip · sönük kareler · grup · sıra · K · yansıma  [VARSAYIM · P11-d]
+      Final ışıklıysa PLAN'a zorunlu; armatür birkaç klip önce SÖNÜK takılı görünür. ⇒ IŞIK §4
+A28-e ÖNCE IŞIKLI USTA KARE — ışıksız kareler ondan geriye türetilir        [VARSAYIM · DERS 5 ile]
+      Kapak bu kareden (GN) — öncesi/sonrası bölünmüş kapak YOK. Küçük resimde kontrast WCAG ✅ ölçüsüyle.
+      ⇒ IŞIK §6
+A29-a ⭐ ZİNCİRDE BÖLGE DÜZELTME YOK — video inpainting / v2v dikiş karesini bozar  [VARSAYIM · format gereği]
+      Raporun "postta düzelt" yolunun çoğu iki-kare kilidiyle çelişir; çapraz geçiş zaten yasak.
+      ⇒ ONARIM §0 · §1.2
+A29-b KLİBİ BÖL — araya yeni bir kare (Gn½) koymak iki zincirli klip üretir  [VARSAYIM · pratik]
+      Yöntemsiz belirme ve tek klipte iki büyük iş için ilk eylem. ⇒ ONARIM §1.2 · §2
+A29-c DURMA KURALI 3 / 6 — aynı eylem 3 kez · toplam 6 deneme → sahneyi yeniden tasarla  [VARSAYIM · eşik bizim]
+      Raporun matris yüzdeleri uydurmaydı, inmedi. ⇒ ONARIM §5
+A29-d ⭐ KARE DEĞİŞİRSE İKİ KLİP · İKİ DİKİŞ SINANIR                      [aritmetik · zincir gereği]
+      Gn hem S(n−1)'in sonu hem S(n)'in başı; onarımdan sonra iki dikişte zincir_kontrol + kanıt nesnesi
+      elle. LPIPS / RAFT ölçüsü ⬜ açık. ⇒ ONARIM §3 · §4
+A29-e BEŞ KÖK NEDEN → TEK EYLEM — ARAÇ · PROMPT · KARE · KURGU · PLAN        [VARSAYIM · arşiv örnekleri]
+      MOUNTAIN DOOR (araç) · DEEP STEP (prompt) · STONE DRAGON (kare) · GLASS WALL (kurgu). Sürüm adı
+      G<n>_K<k> / S<n>_K<k>; günlük §5'e her deneme bir satır. ⇒ ONARIM §1 · §6 · AGENTS kart R adım 10
+```
+
+---
+
+## 🔬 A30–A34 — VİRAL 2026 · KANAL YAYINA ÇIKMADAN · 07.10.2026 · beş rapor, prompt bu depoda yazıldı
+
+> Kaynak: `arastirma/SONUCLAR/A30…A34_GEMINI_HAM.md` · Denetim: `arastirma/SONUCLAR/A30-A34_DENETIM.md` ·
+> İndiği yer: `apexait/TUR_HARITASI` (yeni) · `youtube/POLITIKA_VE_RISK` · `CAPRAZ_YAYIN` · `IZLEYICI_DEFTERI` ·
+> `YAYIN_PLANI` · `tiktok/` · `instagram/HESAP_KIMLIGI` · `KILAVUZ_REHBERI §6`.
+>
+> Tetikleyen: 37 film üretildi, 0 yayın — tür, platform, politika, paylaşım ve büyüme hakkında tek ölçüm yok.
+> 84 atıf satırı çekildi: 32 ✅ · 32 ⚠️ · 18 ❌ · 2 ⬜. Platform kuralları resmî sayfalardan birebir çekildi ve
+> kuşağın en sağlamı çıktı; akademik ve pazarlama yüzdeleri en zayıfı. A30'un tablosu bu makinede yeniden sayıldı
+> (iki grup ters yazılmıştı). Bir kanal dosyası bayat çıktı (tiktok §5 · Ç10). Raporların sahip kurallarını bozan
+> önerileri ve iki ⛔ önerisi (kasıtlı hata · gönderme çağrısı) inmedi. Her madde VARSAYIMDIR; ilk sınavı açılış
+> bloğu ve 7. gün defteri.
+
+```
+A30-a ⛔ DIŞ HAVUZ İKİ GRUBU AYIRMIYOR, YAPIŞTIRIYOR                     [ÖLÇTÜM · tablodan yeniden sayım]
+      ≥ 1 M = 11 (8 gerçek, 2 yapay zekâ — ikisi YATAY) · < 1 M = 15 (15'i yapay zekâ, 12'si Shorts) ·
+      ≥ 1 M yapay zekâ DİKEY Shorts = 0. Kamera, süre, ses, etiket aynı çizgide ayrılıyor; hiçbiri tek
+      başına okunamaz. Konu (onarım) iki grupta da çoğunluk — C2-e'yi ne doğruladı ne düşürdü.
+      ⇒ TUR_HARITASI §1 · KILAVUZ_REHBERI §6 notu · KALDIRDIĞI: — (raporun "üst çeyrek" yüzdeleri inmedi)
+A30-b ⚠️ A18-a AÇIK KALDI — üçüncü rapor da ölçümsüz                       [karar · Ç3]
+      A30 "dikeyde kusur" (yapışık veri) ↔ A32 "halüsinasyonu azaltır" ↔ A33 "huşuyu büyütür" — üçü VARSAYIM.
+      Kapanış tek okumayla: yapay zekâ DİKEY Shorts içinde sabit ↔ hareketli. Gerçek ↔ yapay zekâ kıyası
+      bu soruyu CEVAPLAMAZ. ⛔ Format kimliği değişmez. ⇒ TUR_HARITASI §4 · §5
+A30-c DOĞRULANAN VAKALAR — iki yapay zekâ timelapse'i YATAY şehir evrimi (2,44 M · 20 K); dört gerçek
+      video elle inşa/onarım (22,9 M · 42,5 M · 4,0 M · 1,23 M)            [web ✅ · n = 6 · okuma 07.10.2026]
+      ⇒ TUR_HARITASI §2 — yön, kural değil · vaka defteri §5 açıldı (hedef 30)
+A31-a ⭐ GÖRÜNTÜLEME = ERİŞİM · ENGAGED VIEWS = FİLM                      [platform ✅ · Ç8]
+      Shorts 31.03.2025, bütün formatlar 24.08.2026: oynatma başlar başlamaz sayılır. Kazanç engaged
+      views'tan; YPP uygunluğu "qualified views". ⇒ IZLEYICI_DEFTERI §1b · POLITIKA §5
+A31-b "KAYDIRMADI %" = "How many chose to view" (Studio → Analiz → İçerik → Shorts)  [platform ✅ · eşik ❌]
+      "%40–50 kaydırırsa dağıtım durur" anonim, düşük kaliteli işaretli forum yanıtı — eşik kullanılmaz.
+      Ort. izlenme engaged views üzerinden ve döngüsüz hesaplanır; ">%100" yalnız kullanıcı raporu ⚠️.
+      ⇒ IZLEYICI_DEFTERI §1b · KALDIRDIĞI: — (evrensel eşik zaten yasaktı)
+A31-c ⭐ SHORTS'TA A/B TESTİ YOK — "A/B testing is not available for Shorts"   [platform ✅ · A17-c doğrulandı]
+      Uzun formda başlık + küçük resim, masaüstü, advanced features. Dikeyde kapak/başlık KURALLA verilir.
+      ⇒ CAPRAZ_YAYIN §4.1 · POLITIKA §5
+A31-d ORİJİNAL > YENİDEN PAYLAŞIM — filigran, başka yerde yayımlanmış ya da HIZI değiştirilmiş içerik
+      Instagram'da geri planda (2023 · 2024 · 30.04.2026); TikTok kopyayı önermez  [platform ✅]
+      ⇒ CAPRAZ_YAYIN §1.1 resmî dayanak · aynı filmi aynı platformda iki kez yükleme yasağın parçası
+A31-e INSTAGRAM SİNYALLERİ — watch time · likes · sends (erişim başına); bağlantısız erişimde gönderme ağır
+      [platform temsilcisi ✅ · Mosseri 22.01.2025] ⇒ IZLEYICI_DEFTERI §1b · §4 paylaşım sütunu
+A31-f ARAÇ ŞARTLARI — Shorts → ilgili video ve uzun form A/B: advanced features · Trial Reels: profesyonel
+      hesapta ≥ 200 takipçi                                                [platform ✅]
+      ⇒ YAYIN_PLANI §4 açılış kutusu · CAPRAZ_YAYIN §4.1
+A32-a ⭐ YOUTUBE 2026 METNİ FORMAT KARTINI TARİF EDİYOR                    [platform ✅ · 1311392 · spam 2801973]
+      "content that looks like it's made with a template" · "templated storylines … with minimal or no
+      narrative, commentary, or educational value" · "Automated or synthetic mass-production". 16.07.2026
+      üç gruba ayrıldı (PARA kuralı). İlaç değişmez (POLITIKA §1.3), ama ② katman (sabit yorum = anlatı ve
+      öğretici değer) artık para kazanmanın ŞARTI. ⛔ Anlatıcı eklenmez, klip süresi oynatılmaz.
+      ⇒ POLITIKA §1.1b · KALDIRDIĞI: "② bir paketleme kalemidir" okuması
+A32-b YAPAY ZEKÂ ETİKETİ OTOMATİK VE DEĞİŞTİRİLEMEZ — C2PA'lı dosyada YouTube kendisi koyar ("can not be
+      adjusted"), TikTok 09.05.2024'ten beri ("you won't be able to remove"); fotogerçekçide oynatıcıda,
+      27.05.2026'dan beri Shorts'ta overlay; tek başına öneriyi ve parayı etkilemez  [platform ✅]
+      ⇒ POLITIKA §2 · CAPRAZ_YAYIN §2 · beyan kutusu yine işaretlenir (yaptırım beyansızlıkta)
+A32-c İTİRAZ VİDEOSU — 21 gün (ön uyarıda 7) · < 5 dk · liste dışı · yeni yükleme · ilk 30 sn kanal URL'si ·
+      14 günde yanıt · ret → 90 gün                                        [platform ✅ · 9564590]
+      Kanıtı zaten depoda: plan · promptlar · reddedilen kareler (G<n>_K<k>) · onarım günlüğü · QA · kurgu.
+      ⇒ POLITIKA §6 kriz kartı
+A32-d ETİKETİN BEDELİ İZLEYİCİDE — "AI-generated" etiketi duygusal içerikte etkileşimi düşürür, geç beyan
+      yapay zekâ ÜRETİMİNDE işe yaramaz (Seeger ve ark. 2026 · iki çalışma n≈696); beyan güveni azaltır
+      (Schilke & Reimann 2025 · 13 deney > 5.000)                          [akademik ✅ · rapor N'leri ve atfı ❌]
+      Beyan zorunlu kalır (platform + KILAVUZ_REHBERI §9.8) ve AÇILIŞTA kalır. ⇒ POLITIKA §2
+A32-e INSTAGRAM 31.08.2026 ERİŞİM SINIRI YALNIZ YAPAY ZEKÂ KİŞİSİ OLAN PROFİLLER  [platform ✅ · Ç2]
+      "Creators who simply use AI tools … don't need to add the label". Kanal adındaki "AI" bu kurala ne
+      gerekir ne çarpar. ⇒ instagram/HESAP_KIMLIGI §6 · KANAL_KIMLIGI §1 değişmez
+A33-a ⚠️ HUŞU → PAYLAŞIM ZAYIFLADI                                       [akademik ✅ — yön zayıf]
+      Berger & Milkman 2012: 6.956 makale, e-posta paylaşımı, huşu +%30 / SS — mekanizma iki ön kayıtlı
+      tekrarda tutmadı (Prowten 2024) · WeChat 387 K makalede (Yu 2025) sevinç ve öfke ↓ · Piff 2015 etkileri
+      2026 tekrar dizisinde büyük ölçüde tutmadı · "oddly satisfying" üzerine nicel çalışma YOK.
+      ⇒ konsept kapısına FİKİR PUANLAMA kartı İNMEDİ · İŞLEV ANI kuralı (C2-a) dış kanıt beklemez
+A33-b ⛔ YORUM TUZAĞI YOK — kasıtlı hata · "find the mistake" · "send this to…" · "tag a friend"
+      [platform ✅ · Meta 18.12.2017 engagement bait · TikTok FYF "Tricking others into increasing engagement"]
+      Raporun "sessiz uzman tuzağı / Cunningham Yasası" ve A31'in "DM tetikleyici ibare" önerileri bu kuralla
+      kapandı. ⇒ KILAVUZ_REHBERI §6 İZLEYİCİ KAPISI · CAPRAZ_YAYIN §6 □9 · IZLEYICI_DEFTERI §4
+A33-c ASMR ETKİSİ YALNIZ DUYARLI İZLEYİCİDE — Poerio 2018: kalp −3,41 vuruş/dk (d = 0,39), yalnız ASMR
+      yanıtlayanlarda · Barratt & Davis 2015 öz-seçilmiş N = 475         [akademik ✅]
+      Müziksiz kural bir sahip kuralıdır, dış kanıtla "kanıtlanmadı" — A30'un "bilimsel olarak ispat" cümlesi
+      turizm reels'i makalesine dayanıyordu ❌. ⇒ —
+A33-d YORUM TÜRÜ SAYIMI — beş tür (övgü · şüphe · teknik düzeltme · mizah · soru), 7. gün, ilk 50 yorum,
+      iki türe uyan TEKNİK DÜZELTME sayılır                               [VARSAYIM · yöntem bizim]
+      "Gerçek mi" yorumu cevapsız bırakılmaz (POLITIKA §3 sabit cevap · Ç5). ⇒ IZLEYICI_DEFTERI §4
+A34-a ⭐ YPP 01.02.2027 — yeni başvuran: 1.000 abone + 8.000 saat / 365 gün ya da 20 M Shorts / 90 gün;
+      Shorts akışı saati sayılmaz                    [platform ✅ değişiklik · sayı basın + blog · Studio'dan doğrula]
+      0 aboneli kanal eski eşiğe yetişemez → hesap yeni eşikle. Karar yönü aynı; yatay ayağın yükü iki kat.
+      ⇒ POLITIKA §5 · §5.1 · ⬜ yatay kadans sahip kararı (denetim §8 K1)
+A34-b KADANS — ayda 4–7 yükleme medyan görüntüleme büyümesi %1,32/ay, 12+ %2,18/ay (vidIQ, 10,2 M kanal)
+      [bağımsız analiz ✅ · korelasyon, nedensellik değil] ⇒ YAYIN_PLANI §1 · kadans kuralı değişmez
+A34-c SİLME YOK — "very, very good reason … keep your videos public or unlist them" (Beaupré 23.03.2024)
+      [platform temsilcisi ✅] ⇒ POLITIKA §6 doğrulandı · YAYIN_PLANI §6.3
+A34-d İKİ FORMAT, İKİ ÖNERİ SİSTEMİ — "separate recommendation systems … understand cross-format viewing";
+      Shorts'un uzun formu düşürdüğüne kanıt yok · "format-aware discovery" ve "50–500 tohum kitle" blog
+      [platform ✅ · iddia ❌] ⇒ YAYIN_PLANI §2 · köprü = ilgili video bağlantısı (§7)
+A34-e KARAR PENCERESİ — dikey 7. gün · yatay 7 + 28 · kanal içi son 5 medyanı · tek değişken ·
+      engaged views < 100 kıyasa girmez                                    [VARSAYIM · eşikler bizim]
+      Raporun 72 sa / 14 gün / 30 gün pencereleri ve "5 videoda < %40 → formatı sorgula" eşiği kaynaksız.
+      ⇒ YAYIN_PLANI §6.3 · §4.1 ⬜ 90 gün önerisi (sahip onayı bekler)
 ```
 
 ---
@@ -3652,7 +3913,7 @@ gizlenen zayıflık bir sonraki filmde aynı yerde tekrarlanır.
 
 ### P21-g — Depo kendi kaydını iki kez üst üste kaybetti; sayaç bunu buldu, plan bulmadı
 
-BACK TO PLUMB yazılırken `araclar/sayac.sh` 38 film saydı, `QA/00_INDEX.md` 37 diyordu. Fark
+BACK TO PLUMB yazılırken `araclar/sayac.sh` 38 film saydı, `QA/ARSIV_12_MERCEK/00_INDEX.md` 37 diyordu. Fark
 benim eklediğim filmden değil, THE GLASS WALL'dan (yatay_2_dk_filmler, 16:9, 12 × 10,0,
 28.09.2026) geliyordu: tam bir film klasörü — plan, iki bölüm, QA spec, kapak, müzik, yayın
 paketi, üretim günlüğü — ve hiçbir INDEX'te kayıtlı değil. Kendi planı "Havuz kaydı: §5 #5
@@ -3768,9 +4029,101 @@ yakaladığı gösterilmeden kabul edilmez. NEREYE: THE_SEA_MILL_QA_SPEC §3.
 
 ---
 
+## 🐠 P24 — THE BLUE SILO (kırk dördüncü film · 05.10.2026)
+
+> Adı verilmeyen bir Karadeniz limanında paslı bir tahıl silosunun kabuğu soyulur, içine kaya resifi ve kum döşenir,
+> dipte sıklaşan çemberlerle kuşatılır, akrilikle kapatılır ve liman suyuyla doldurulur; son klipte ilk balık sürüsü
+> gerçek hızda içeri girer. Konu sahipten (yapıştırılan 6 × 8 sn'lik fikir). ⛔ Hiçbiri ölçülmedi.
+
+**P24-a · Onaylı bir öneri, kadraj hesabından ÖNCE verilmiş bir sözdür; hesap onu bozarsa sapma beyan edilir.**
+Öneri "vinç açılışta paslı konik kapağı kadrajın alt yarısında rıhtıma indirir" dedi ve onaylandı. Hesap: kapak Ø 14 m —
+silonun kendisi kadar (508 px); silonun solunda 212, sağında 360 px boşluk var. Kapak hiçbir yana inemez; kadrajda
+kalmasının tek yolu silonun üstünde (göğe karşı halat — DERS 22) ya da önünde (tabanı ve kalabalığı örter) asılı
+durmaktır. Çözüm kapağı KALDIRMAMAK oldu: sacı sökülür, makasları "paslı taç" olarak kalır. ⭐ Kural: öneri aşamasında
+kadraja girecek her büyük geçici nesnenin px boyu kabaca hesaplanır; hesaplanmadan söz verilmişse ve hesap sözü bozarsa
+sapma planın başlığına, AÇIK KALANLAR'a ve sahibe verilen rapora yazılır — sessizce düzeltilmez.
+
+**P24-b · İş sırasını bitmiş yapının GEOMETRİSİ belirler: önce giren, sonra kapanan aralıktan geçer.**
+Fikrin sırası "çember → kaya" idi. Dipteki çemberler 1 m arayla bağlanınca 2,75 m'lik bölmeler 1 m'lik yarıklara döner;
+1–1,5 m'lik bloklar giremez. Kaya, bölmeler açıkken girdi (S1), çember sonra geldi (S2). ⭐ Kural: her merdiven satırı
+için "bu malzeme hangi açıklıktan giriyor ve o açıklık hangi satırda daralıyor" sorusu sorulur [DERS 48'in giriş hâli].
+
+**P24-c · Direnç bir SAYI değil bir BİÇİM olarak çizilebilir: çember aralığı basınç eğrisidir.**
+Suyun basıncı derinlikle doğrusal artar; tahılınki çeper sürtünmesiyle (Janssen) bir yerden sonra artmaz. Bu fark filmin
+direncidir ve ekranda tek bir şeyle görünür: yeni çemberler dipte 1 m (44 px), tepede 3 m (132 px) arayla. ⭐ Kural: bir
+filmin direnci fiziksel bir eğriyse o eğri yapının KENDİ elemanlarının aralığına ya da kalınlığına yazılır ve QA_SPEC'te
+ölçülür; modelin "eşit aralık" ortalaması bu kanıtı siler (en olası arıza).
+
+**P24-d · KÜTLE ailesinde çalışan şey dış çizgi değil YÜZDÜR; defter yüzde gider gelen bir kenar olabilir.**
+DİKEY'de defter yükseklikti; burada silonun dış çizgisi yedi karede aynıdır. Defter, yakın yüzde ilerleyen TEK bir kenar
+oldu: pas ⬇ · boya ⬆ · çember ⬇ · cam ⬆ · su ⬆ — her klipte bir kenar, bir yön, bir katman. ⭐ Kayıt: bu, P17-d'nin
+listesine YEDİNCİ defter cinsi olarak eklenir — YÖN DEĞİŞTİREN KENAR (önceki altı: kenar · sayı · alan · işaretli mesafe ·
+oran · sapma). Taşıyıcısı tek bir makinedir (halka platform) ve makinenin konumu da aynı saati okur.
+
+**P24-e · Canlı bir ödülün kaynağı, bitmiş yapının bir parçası gibi KADRAJA ÖNCEDEN girer.**
+Sürü G5'te yoktur; S5'te gerçek hızda girer. Kaynak (tanker) S4'te gelir ve hortumu G5'te dipteki ağza bağlıdır; böylece
+balık ışınlanmaz (P3-c) ve yoktan var olmaz (DERS 48). ⭐ Kural: rejim G finalinde bir şey "ilk kez" geliyorsa, onu taşıyan
+araç bir önceki klipte gelir ve G(n)'de bağlı durur; G(n+1)'de değişen tek şey gelen şeyin kendisidir. "fish" kelimesi bu
+yüzden yalnız iki blokta geçer (S5 I2V · G6) ve tarama bilinen bir pozitifle ("silo" · 13 blok) doğrulandı [P23-f].
+
+**P24-f · Kapakta başlık yeri, KÜTLE ailesinde kadrajın kendisi tarafından kapatılabilir.**
+Koni tepesi üstten 302 px'te; üst arayüz bandına 48 px kalır. Silonun yanlarındaki gök şeritleri dar, alt bant kalabalık.
+Ana kapak varyantı ilk kez BAŞLIKSIZ yazıldı. ⭐ Kayıt: SEA MILL'de başlıksız varyant "ciddi aday"dı; burada zorunlu oldu.
+KÜTLE ailesinde başlık kararı kadraj hesabından SONRA verilir; MUZIK_VE_KAPAK §2.3'ün %8 eşiği bu ailede çoğu kez
+karşılanamaz — sahip kararı bekler.
+
+---
+
+## 🚢 P25 — THE EDEN ARK (kırk beşinci film · yatay 16:9 · 05.10.2026)
+
+> Adı verilmeyen bir Adriyatik tersanesinde kuru havuzdaki paslı bir yük gemisinin ambarları açılır, gövdesi onarılıp
+> boyanır, ambarlar basamaklı bahçeyle dolar, üstü yürüyen bir portalın diktiği cam kubbeyle örtülür, havuz dolar ve
+> gemi mavi saatte römorkörle denize çıkar. 18 × 8,0 — yatay hatta bant dışı, sahip izniyle. ⛔ Hiçbiri ölçülmedi.
+
+**P25-a · Tilt 0'da kamera yapının ÜSTÜNDEYSE taç kuralı değil "çalışma seviyesi ≥ %25" bağlar.**
+Gemi en yüksek noktasıyla (+21,5) bile kameranın (+24) altında; bütün yapı ufkun altına düşer ve "taç %82" formülü
+(D = (H − h)/0,27) anlamsızlaşır. Bağlayıcı olan çalışma seviyesidir: (h − güverte)/d ≤ 0,211 → baş bodoslamada d ≥ 87 m.
+⭐ Kural: yatay formülde önce h ile yapının en yüksek noktası karşılaştırılır; h büyükse D taçtan değil çalışma
+seviyesinden çözülür ve kadrajın üst yarısı gökte kalır — o yarı kapak başlığının yeridir.
+
+**P25-b · Yüksek ve yatık bakış, çukurun içini GÖRMEZ: kanıt yüzeye çıkarılır.**
+10–12°'lik bakışta 14 m'lik ambar açıklığı ≈ 2,4 m'lik bir şeride, kuru havuzun içi yakın duvarın arkasına düşer.
+Ambar içindeki iş (çerçeve, toprak) görünmez; havuzun dolduğu su görünmez. Çözüm tasarımla: bahçe basamaklı
+çerçeveyle mezarna seviyesine kaldırıldı (yeşillik taç olarak görünür), havuz kenarı alçak (+1,5) seçildi ve suyun
+üç vekili yazıldı (uzak duvarın ıslak bandı · kıç–kapı boşluğu · borda bandının 38 → 48 px'e çıkışı). ⭐ Kural: kanıt
+nesnesi bir çukurun içindeyse önce bakış açısıyla görünür derinlik hesaplanır (genişlik × tan(açı)); yetmiyorsa iş
+yüzeye taşınır ya da vekil yazılır — "içi dolar" cümlesi kanıt değildir.
+
+**P25-c · Kapak şartı kamera hesabına GİRDİDİR: hareket eden yapı son karede kadrajda kalmalıdır.**
+Brief'in finali "römorkör gemiyi dışarı çeker"di; yan bakışta gemi kadrajdan çıkar ve GN (kapak) gemisiz kalırdı.
+Kamera, havuz eksenine 48° çapraz yerleştirildi ve +150 m'lik çekişte geminin kadrajda kalması betikle tarandı
+(baş x 172 → 1328, römorkör x 1728). Bedeli: final gemi 329 px; kapakta yükü ışık taşır. ⭐ Kural: final klipte yapı
+YER DEĞİŞTİRİYORSA istasyon, G(N)'deki konumu da kapsayacak şekilde seçilir; kapak bedeli KAPAK dosyasına ölçülerek yazılır.
+
+**P25-d · Yapıyı tarif eden sıfat, finalin fiilini erken çağırır: "floating garden" BIBLE'da 19 blok demekti.**
+Kelime kapsamı taraması "floats/floating" fiilinin yalnız S14 sonrasında geçtiğini doğrulamak için koşuldu ve 19
+blokta buldu: kaynak BIBLE'ın "rebuilt as a floating garden" sıfatıydı. DERS 56'nın ad-sıfat hâli: montajda "döndür"
+yazmak rotoru döndürür; inşaatta "yüzen" yazmak gemiyi takozlardan kaldırır. "rebuilt to carry a garden under glass"
+yazıldı. ⭐ Kural: BIBLE (19 blokta tekrar eden tek cümle) finalin fiilini sıfat olarak bile taşımaz; kapsam taraması
+BIBLE'ı da tarar.
+
+**P25-e · Ortak blokları tek kaynaktan türetmek, 37 promptta kapı tekrarını ölçülebilir kıldı.**
+19 görsel + 18 I2V betikle tek kaynaktan yazıldı; kapı ilk koşuda 2 BLOCK + 35 FIX verdi (tam-hâl > ara hâl · doku
+sözlüğü · halat çoğulu "ropes" · "crane" kelimesi G8'de). Her düzeltme kaynakta bir kez yapıldı ve 19 bloğa birden
+indi; dördüncü koşu yalnız beklenen 2 FIX'e indi. ⚠️ P23'teki "\brope\b → ropes yakalanmaz" tuzağı burada da çıktı
+(G15). ⭐ Kayıt: 18+ sahnelik filmde ortak bloklar elle kopyalanmaz.
+
+**P25-f · Işık günü bütçesi tam dolarsa (14,0 h) rejim dağılımı hikâyeden önce gelir.**
+18 klip ancak 6 × B + 12 × A ile tek güne sığdı. B'ler uzun iş için ayrıldı (hurda · raspa · toprak · bahçe · cam ·
+su), A'lar tek olay için (kapak · yama · kaldırma · sulama · son cam · kapı · çekiş). Montaj portalının sökülmesi
+için A'da yer yoktu: portal kalıcı cam temizleme portalı yapıldı. ⭐ Kural: Σ rejim sınırdaysa her A satırı "10 dakikada
+gerçekten olur mu" sorusuyla okunur; olmayan iş ya B'ye taşınır ya da kalıcı hâle getirilip sahneden çıkarılır.
+
+---
+
 ## 🔎 C1 — ÇAPRAZ ANALİZ · 15 film · 12 mercek · 18.09.2026 · dış değerlendirmeyle düzeltildi
 
-> Kaynak: `QA/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/HAM_RAPORLAR/` altındaki 15 dikey
+> Kaynak: `QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/` (01-06) — `QA/ARSIV_12_MERCEK/HAM_RAPORLAR/` altındaki 15 dikey
 > filmin ham raporlarının çapraz okuması + aynı gün gelen dış değerlendirme.
 > Sayılar: `python3 araclar/capraz_sayim.py` (elle yazılan ilk sürüm 138 dedi,
 > matris 132 veriyordu; ② İNŞA 11/15 dedi, 9/15'ti — sayı tek yerde durur).
@@ -4217,7 +4570,7 @@ NEREYE      ZAMAN_VE_ISIK_KILAVUZU.md ve TIMELAPSE_SISTEM_PROMPTU.md
    ONE DIRECTION · ④ ENDS (FINAL BEAT PASS) · ⑤ REBUILT · ⑥ TIME · RHYTHM ⭐ ·
    ⑦ PARKED · ⑧ APPEARED · ⑨ PRODUCTIVE WORK · ⑩ MAGICAL APPEARANCE ·
    ⑪ INTRUDERS · ⑫ MELTING. 12/12 END CARD SAME (DERS 30 tuttu).
-   Rapor: QA/RAPORLAR/OVER_THE_WALL.md · ham: QA/HAM_RAPORLAR/OVER_THE_WALL/
+   Rapor: QA/ARSIV_12_MERCEK/RAPORLAR/OVER_THE_WALL.md · ham: QA/ARSIV_12_MERCEK/HAM_RAPORLAR/OVER_THE_WALL/
 ```
 
 ## DERS 51 — ⭐ İki "deck" varsa makine HAZIR olana gider: iş yüzeyi eleman adı + yüzdeyle kilitlenir
@@ -4376,7 +4729,7 @@ NEREYE      YAPI_TIPI_KARTLARI §4 BARAJ (RİSK satırı) · MALZEME_VE_DOKU §3
       hayalet kule kopyaları) · ⑩ MAGICAL APPEARANCE (kaldırma anı kancasız) · ⑪ INTRUDERS ·
       ④ NONE FOUND · RESISTANCE 2.
    Aşağıdaki üç ders "ekranda bu oldu; elimizdeki plan cümlesi şu" diye yazıldı [DERS 28].
-   Rapor: QA/RAPORLAR/THE_EMPTY_RIDGE.md · ham: QA/HAM_RAPORLAR/THE_EMPTY_RIDGE/
+   Rapor: QA/ARSIV_12_MERCEK/RAPORLAR/THE_EMPTY_RIDGE.md · ham: QA/ARSIV_12_MERCEK/HAM_RAPORLAR/THE_EMPTY_RIDGE/
 ```
 
 ## DERS 55 — ⭐ Korpusu ÇOĞUL olan yapı tek yazılsa da çoğalır: türbin çiftlik doğurur
@@ -4453,4 +4806,210 @@ KİLİT       KALDIRMA YOLU KAREDE BİTER, KLİPTE DEĞİL: G(n) yükü hedefin 
 KALDIRDIĞI  Kaldırmanın kendisi — yükün yerden havalanıp yükselmesi, bu türün en sinematik anı. DERS 22
             bunu tower crane için almıştı; şimdi paletli vinç için de alınıyor. [D-f]
 NEREYE      FIZIK_VE_AGIRLIK_KILAVUZU §4 (gövdesiz kanca satırı) · YAPI_TIPI_KARTLARI §8 · DERS 22 notu
+```
+
+---
+
+> ⭐ **05.10.2026 · TEKRAR EDEN ARIZALAR TOPLU OKUMASI.** Son yedi üretilmiş film (THE STAR DOCK ·
+> THE DEEP STEP · THE STONE TOWER · THE IRON BRIDGE · THE GLASS CROSSING · THE MOUNTAIN CROWN ·
+> BACK TO PLUMB) ortalamayı 9,8'den 7,4'e indirdi. Her arıza plan ve prompt satırına kadar geri
+> izlendi: çoğu modelin keyfi değil, PROMPTUN KENDİSİYDİ; geri kalanı atlanan SÜREÇ. Zirvedeki üç
+> film (LAST LIFT · LAST HARBOR · DEEP END) aynı soruya karşılık oldu: en büyük değişiklik MOTION
+> FOCUS'ta kaynak→hedef yazılı, yasak nesne hiçbir satırda adıyla yok. Altı ders, altı kapı.
+> ⛔ Hepsi BLOCK (DERS 61'in sezgisel yarısı hariç — FIX, sahip kararı 19.09.2026 gereği).
+
+## DERS 58 — ⭐ Dikey shorts KESİN 7 sahne × 8,0 sn: 56 sn üretilir, 2x paylaşılır
+
+```
+NEREDE      Sahip kuralı 05.10.2026. Kayıt: dört rapor 32 sn'lik paylaşım kopyasını üç ayrı biçimde
+            açıkladı — "2x inceleme ihracı" (DEEP STEP · STONE TOWER) · "dağıtım sıkılaştırması"
+            (BACK TO PLUMB) · "video 28 sn'de kesildi" (STAR DOCK → ④ FINAL BEAT FAIL 0/10, yanlış).
+            Plan havuzunda 6 sahnelik (THE BLUE SILO · THE SEA MILL) ve 8 sahnelik (BEFORE
+            NIGHTFALL) dikey planlar vardı.
+NE OLDU     Izgara sahibin kafasında sabitti, depoda değildi: KILAVUZ_REHBERI §2.1 hâlâ 10 × 6,0
+            diyordu, kart G "10 mu 5 mi" diye soruyordu, kapı sahne sayısını planın kendi
+            beyanından okuyordu. 2x paylaşım hiçbir belgede yoktu.
+KİLİT       Dikey = 7 sahne × 8,0 = 56,0 sn · usta kare G7 · 7 I2V. Künyede kelimesi kelimesine
+            "IZGARA     7 sahne × 8,0 sn = 56,0 sn". Paylaşım 2x (~28 sn + kart planda varsa).
+            prompt_kontrol.py §10f: 7 dışı · 8,0 dışı · künye satırı yok → BLOCK. Eşit süre
+            dikeyde FIX değil INFO'dur (beyanlı düz ızgara — "beklenen FIX" gürültüsü kalktı).
+KALDIRDIĞI  Dikeyde sahne sayısı seçimi (5 · 6 · 8 · 10). Hikâye 7'ye sığmıyorsa hikâye daralır.
+NEREYE      KILAVUZ_REHBERI §2.1 · AGENTS kart A adım 0 · kart G · URETIM_GUNLUGU_SABLONU
+```
+
+## DERS 59 — ⭐ Filmin yasakladığı nesne HİÇBİR satırda adıyla geçmez — negatifte bile
+
+```
+NEREDE      THE DEEP STEP 0:04 · 0:16 (2x) — antik kuyuya modern damperli kamyon ve kamyonetler;
+            "truck · machinery · container" yalnız metin yasağının yüzey listesinde geçiyordu.
+            THE STONE TOWER 0:12 — vinçsiz filmde çelik kablolu kanca; S3 "Masons hoist…".
+            BACK TO PLUMB S4 — korunacak çatlak sıvandı; NEGATIVE "on any surface: brick, stone, render".
+            THE GLASS CROSSING — "VİNÇ YOK" planında kanca kadraj üstünden sarktı (askı direkleri
+            kadraj dışında, konumsuz).
+NE OLDU     DERS 35 aynı mekanizmayı 'module' için ölçmüştü; kapı yalnız "not on the X" kalıbını
+            arıyordu. Üstüne §9 D-b "en az 8 yüzey say" kuralı SAHADA OLMAYAN nesneyi saymayı
+            ÖDÜLLENDİRDİ — kamyonu antik sahneye kapının kendisi soktu.
+KİLİT       ① Künyede 'YASAK KELİME  a · b · c' satırı; listedeki kelime hiçbir promptta (negatif
+              dâhil) geçerse BLOCK. Vinçsiz beyanda crane + hoist listede olmak zorunda.
+            ② Metin yasağı yalnız o karede GERÇEKTEN olan yüzeyi sayar ya da yalnız 'on any surface'
+              der; sahada olmayan nesne adı → BLOCK. D-b sayımı bu iki yoldan biriyle sağlanır.
+            ③ Taşıyıcının dayanağı (direk · tel ucu · rampa) kadraj içinde ve px konumuyla yazılır;
+              yazılmazsa model taşıyıcıyı vinç kancası olarak tamamlar.
+KALDIRDIĞI  "Ne olmaz ne olmaz" diye geniş negatif liste yazma alışkanlığı.
+NEREYE      prompt_kontrol.py §9 · §10f · PROMPT_SABLONU §NEGATIVE · AGENTS kart A 6b
+```
+
+## DERS 60 — Havasız sahada yanma ve itki kelimesi yazılmaz: "görünmez alev" alev üretir
+
+```
+NEREDE      THE STAR DOCK 0:21–0:23 (2x) — Ay'da iniş: turuncu alev, jet parıltısı, asılı duman.
+            S5 "its downward thrust blows a wide ring of dust" · G6 "lower jets, whose plumes are
+            invisible in vacuum".
+NE OLDU     Su/çamur için havasız saha kapısı vardı (A9-g); yanma için yoktu. "invisible" bir
+            sıfat, "plume" bir nesne — nesne geldi (DERS 39'un güneş diski mekanizması).
+KİLİT       HAVASIZ beyanlı karede flame · fire · smoke · exhaust · plume · thrust · jet · burn → BLOCK.
+            İniş yalnız ETKİSİYLE yazılır: "dust sprays outward in straight ballistic lines and
+            falls at once; nothing hangs in the air".
+NEREYE      prompt_kontrol.py §10f · MALZEME_VE_DOKU §5 · HAVA_VE_ATMOSFER §5
+```
+
+## DERS 61 — ⭐ FARK = HAREKET: G(n+1)'e eklenen eleman o klibin MOTION FOCUS'unda adıyla geçer
+
+```
+NEREDE      THE DEEP STEP S4 (0:17,5 @2x) — üç çatri kubbesi tek karede bitmiş belirdi. Kubbe ve
+            üçüncü kat yalnız G5'te vardı; S4 MOTION FOCUS taban kayasını anlatıyordu.
+            THE STAR DOCK S3 (0:13 → 0:14) — "panel after panel… and the open steel disappears row
+            by row": öznesi bağsız kaplama kafes kulelere giydirildi, G4 onu geri sildi.
+            THE STONE TOWER S6 — "poles, planks, ropes, wheelbarrows and stone tools VANISH";
+            moloz finalde kaldı (G7 teslimi red). BACK TO PLUMB S6 — final klibine üç iş.
+NE OLDU     MOTION FOCUS (C1-c) yazılıydı ama klibin EN BÜYÜK değişikliği değil, başka bir iş
+            anlatılıyordu. Model iki kare arasındaki farkı tek yolla kapattı: soldurarak.
+            Zirve filmlerde bu fark yoktu (LAST LIFT: her MF "X, kadraj içindeki <tır> kaynağından
+            <hedefe>"; LAST HARBOR: ana gövde G0'da zaten tam).
+KİLİT       ① G(n+1)'in ara hâlinde olup G(n)'inkinde olmayan büyük eleman (kubbe · kemer · kat ·
+              kule · tank · direk …) MOTION FOCUS'ta adıyla — kapı FIX (sezgisel; sahip kararı
+              19.09.2026: MOTION FOCUS kuralları pilot ölçümüne kadar FIX). Anılamıyorsa eleman bu
+              klibe ait değildir; merdiven bölünür.
+            ② 'vanish · disappear' İNŞAAT NESNESİNE yazılmaz (örtme "behind/under" ve gölge serbest)
+              → BLOCK. Yerine TAŞIYAN: "workers carry the planks down the ramp onto the cart".
+            ③ Söküm ve toparlama aşamalara bölünür; final klibine TEK iş.
+NEREYE      prompt_kontrol.py §10f · PROMPT_SABLONU §MOTION FOCUS · AGENTS kart A adım 8
+```
+
+## DERS 62 — ⭐ Pilot ve günlük YAZILIYDI, koşmadı: altı dikey film günlüksüz üretildi
+
+```
+NEREDE      STAR DOCK · DEEP STEP · STONE TOWER · GLASS CROSSING · MOUNTAIN CROWN · BACK TO PLUMB:
+            <FILM>_URETIM_GUNLUGU.md YOK. IRON BRIDGE: günlük "⛔ BOŞ", PİLOT ÜÇLÜ tablosu boş, plan
+            bugün kapıda BLOCK 25 veriyor — BLOCK'lu planla üretildi. DEEP STEP ve STONE TOWER
+            planlarında PİLOT ÜÇLÜ bölümü HİÇ yoktu. IRON BRIDGE G6 (bölüm sınırı karesi) kemersiz
+            üretildi; zincir_kontrol koşulsaydı ilk karede yakalanırdı.
+NE OLDU     DERS 12 beşinci kez: yazılı kural kapı değildir. KILAVUZ_REHBERI §8 adım 2b/3b
+            pilotu ve zinciri zorunlu kılıyordu; hiçbir araç bunu PLAN aşamasında istemiyordu.
+KİLİT       Dikey planda kapı BLOCK'lar: ① klasörde <FILM>_URETIM_GUNLUGU.md yok (şablondan kopyala)
+            ② '## 🧪 PİLOT ÜÇLÜ' bölümü yok ③ bölüm final klibi S6'yı adıyla anmıyor.
+            Final klibi HER filmde pilottur; en büyük değişikliğin klibi ikinci pilottur.
+KALDIRDIĞI  Plan yazıp günlüğü "üretimde açarız" diye erteleme.
+NEREYE      prompt_kontrol.py §10f · AGENTS kart A 6c · URETIM_GUNLUGU_SABLONU §1b
+```
+
+## DERS 63 — ⭐ Plan beyanı ile paylaşılan dosya arasında adım yoktu: İHRAÇ KONTROLÜ
+
+```
+NEREDE      Kart: GLASS CROSSING · SWALLOWED BUS · TIDE GATE planı "⛔ KAPAK KARTI YOK", dosyada
+            4 sn kart. Yazı: BACK TO PLUMB kartında promo/marka (① Metin 2/10), SWALLOWED BUS
+            kartında "AI TIMELAPSE". Müzik: BACK TO PLUMB (dikey) — §10 SES KAPISI ihlali.
+            Kart ≠ GN: MOUNTAIN CROWN bitiş kartı başka yapı. QA: STAR DOCK ④ 2x dosyayı "kesik"
+            okudu; DEEP STEP ⑧'e STONE TOWER SPEC'i verildi; SWALLOWED BUS · TIDE GATE ölçüm
+            satırları SPEC sayılarının birebir tekrarı (fark 0,0). ⑨–⑫ hiç paketlenmedi.
+NE OLDU     Kılavuzlar hâlâ "kart 5,0 sn + müzik zorunlu" diyordu (§2.1 · §8 adım 8); sahip
+            kuralları yalnız planda ve hafızada yaşıyordu. Hiçbir araç oynatma hızını bilmiyordu.
+KİLİT       ① bash araclar/ihrac_kontrol.sh <film> paylas_2x.mp4 --hiz 2 — süre = 56/hız (+kart
+              YALNIZ planda varsa) · çözünürlük · final tutuşu (2,0/hız sn, SSIM ≥ 0,90) BLOCK;
+              müzik · okunur yazı · kart=GN elle ✓. Çıkış 2 ya da işaretsiz madde = paylaşılmaz.
+            ② qa_paket.sh --hiz 2 (dikey varsayılan): her pakete "2x kopyası, KESİK DEĞİL, zaman × 2"
+              beyanı · film adı ↔ SPEC başlığı uyarısı · D merceklerinde "(measured)/(spec)" ayrımı ·
+              on iki mercek. kesme_kontrol.sh ve kare_al.sh hız/blok süresini alır.
+NEREYE      araclar/ihrac_kontrol.sh · qa_paket.sh · kesme_kontrol.sh · kare_al.sh ·
+            AGENTS kart Y 2e · kart Q · URETIM_GUNLUGU_SABLONU §4 ⑧ · KILAVUZ_REHBERI §8 adım 9d
+```
+
+---
+
+## DERS 64 — ⭐ Mercek çoğaldıkça yordam çöktü: 12 mercek arşivlendi, BEŞ mercek kuruldu
+
+```
+NEREDE      QA/ARSIV_12_MERCEK/ — 37 film · 393 ham rapor · 06.10.2026'da tek tek sınıflandı
+            (00_ESLEME.tsv): TAM 189 · BELGESİZ 98 · KARESİZ 71 · SIZINTI 18 · 2x OKUMA 7 · diğer 10.
+NE OLDU     Belge isteyen (mod D) koşuların YARISI belgesiz yapıldı (196'nın 98'i). ④ TESLİM'in
+            36 koşusundan yalnız 9'u plan görerek koşuldu; ⑥ 14/35 · ⑪ 10/26 · ⑧ 15/32. Film başına
+            12 koşu × elle yükleme = her koşu bir yordam hatası fırsatı; DERS 17 · 27 · 29 yazılıydı,
+            yine olmadı. Üstüne ⑦ ⑧ ⑨ ⑩ aynı kusuru dört kez puanladı (boşta ekskavatör), mercekler
+            4–8 kategoriyle ortalamaya eşit girdi, INDEX elle tutuldu (5 film "üretilmedi" ama
+            ham raporlu · STONE DRAGON "12 mercek" = 9 · CROSSING 3 puan hamsız).
+            ⚠️ Yan sonuç: C2 içerik maddeleri ④'ten çıktı → ZAYIF KANIT (aşağıda C2 başlığı).
+KİLİT       ① BEŞ MERCEK — ❶ GÖRÜNTÜ (①+⑫) · ❷ ZAMAN VE KESME (③+⑥) · ❸ ŞANTİYE (⑤+⑦+⑨) ·
+              ❹ İNŞA (②+⑧+⑩+⑪) · ❺ TESLİM (④). Üç kör + iki belgeli; her biri ≤ 8 kategori; öldürücü
+              ❶ SEPARATE IMAGES · ❸ REBUILT · ❹ DIFFERENT. Koşu 12 → 5 (öldürücüler ×3 → 11).
+            ② qa_paket.sh ölçülmüş olguları (süre · hız · klip · kesme · kart · müzik · final tutuşu)
+              rubriğin İÇİNE basar; künye taslağı üstte; ❸ ❹ --master ile 1x'ten.
+            ③ Kayıt: QA/HAM (künyeli) → QA/FILMLER → QA/TABLO.md (tek sayaç) · sayac.sh U1 U2.
+            ④ Eski sistem DONDURULDU (git mv) — eski puanlar yeni merceklerle karşılaştırılmaz;
+              seçilen filmler yeniden koşulur (sahip kararı 06.10.2026).
+NEREYE      QA/00_README · Q1–Q5 · TABLO.md · HAM/ · FILMLER/ · ARSIV_12_MERCEK/00_ARSIV.md ·
+            araclar/qa_paket.sh · sayac.sh · film_klasoru_ac.sh · AGENTS kart Q · R ·
+            kilavuzlar/QA_KOSU · QA_OLCUM_ZEMINI · RUBRIK_YAZIM · QA_KALIBRASYON · QA_KAYIT
+```
+
+---
+
+## 🎯 C2 — İÇERİK OKUMASI · 31 film · ④ TESLİM · 05.10.2026 · ⚠️ değerlendirici yargısı, izleyici verisi değil
+
+> ⛔ **06.10.2026 · ZAYIF KANIT [DERS 64]:** ④'ün 36 koşusundan yalnız 9'u plan görerek koşuldu.
+> C2 maddeleri YÖN gösterir, kural değildir; ilk sınavı beş mercekli ❺ TESLİM koşularıdır.
+
+> 31 üretilmiş filmin ④ TESLİM (vaat · kanca · döngü · direnç · final) ve ⑥ GEÇİŞ alt puanları yan
+> yana okundu. ⛔ Karıştırıcı: en üst filmlerin hepsi 21.09 sonrası olgun süreçle üretildi; konu ve
+> süreç etkisi kısmen iç içe. Her madde `apexait/IZLEYICI_DEFTERI.md` ile doğrulanana kadar VARSAYIM.
+
+```
+C2-a  ⭐ FİNALDE BİR ŞEY ÇALIŞIR — en güçlü ayırıcı. ④ 9+ altı filmin altısı işlev anıyla biter
+      (ışık yanar · kapı açılır · su durulur); durağan bitmiş yapı ④ 4,4-7,5 (STONE TOWER · GLASS
+      WALL · IRON BRIDGE · NARROW LOT). → KILAVUZ_REHBERI §6 İŞLEV ANI satırı · kapı BLOCK (satır varlığı)
+C2-b  FİNAL 4 + 4 — 2x paylaşımda 8 sn'lik final 4 sn kalır; olay 0-4, tutuş 4-8 (ekranda 2 sn).
+      BACK TO PLUMB bırakma anı 2x'te 1,25 sn kaldı, ④ final 4/10. → §8 adım 9 · kapı BLOCK
+C2-c  KANCA = TANIDIK NESNE + ONA NE OLUYOR. Kanca 9-10: çim sökülür · taşkın tehdidi · terk edilmiş
+      havuz · mavi kapı. 4-6: boş tarlada hafriyat (EMPTY RIDGE "without clear intent"). Kanca tek
+      başına yetmez (STAR DOCK · DARK ROCK kanca 9, ④ 5,5-6,1). → AÇILIŞ NESNESİ satırı
+C2-d  DÖNGÜ en zayıf alt puan; kıran üç şey: ödül kadrajdan çıkar (BACK TO WATER 3) · son kare başka
+      ışık/mevsim (IRON BRIDGE 5) · araya kart girer. → DÖNGÜ KAFİYESİ satırı
+C2-e  KONU: var olanı dönüştürmek/onarmak (④ ≈7,8) > durağan finalli sıfırdan inşa (≈6,2). Uzay yalnız
+      tanıdık/gizemli nesneyle tuttu (FIRST GUEST). Oyma iki kez bitiş kartında kimlik kaybetti.
+C2-f  ⑥ RİTİM İLGİYİ AÇIKLAMIYOR: BROKEN CLIMB ⑥ 9,9 / ④ 5,1 · DEEP END METRONOM / ④ 9,9. Filmi taşıyan
+      kesme ANLAMIN değiştiği kesmedir (rejim G'ye geçiş · çatı kalkar · ışık döner).
+NEREYE KILAVUZ_REHBERI §6 İZLEYİCİ KAPISI · §8 adım 9 · prompt_kontrol.py §10f · PROMPT_SABLONU FİNAL KLİBİ ·
+       apexait/IZLEYICI_DEFTERI.md (doğrulama) · AGENTS kart A 6a · kart Y 7b
+```
+
+```
+C2-g  ⭐ İŞ YOĞUNLUĞU — artan şey tek işin etrafındaki EL, klip başına iş SAYISI değil (sahip isteği
+      05.10.2026). ⑦ İŞ üst filmler 9,3-10, erken filmler 1,3-3,8 (PARKED). Üç katman: ana işe ≥3 el ·
+      klip başına görünür malzeme akışı · arka planda sonraki klibin hazırlığı. C1-d'nin kalabalık
+      sınırı 4 → 6. ⛔ "en az üç rejim A" önerisi kalibrasyonda düştü (DEEP END · VANISHING ROOM rejim
+      A'sız 9,6+). → SANTIYE_HAREKETI §4.8 · kapı FIX (pilot ölçülene kadar)
+C2-h  ⭐ AÇILIŞ DÜZENİ — S0 2x'te ekranda 4 sn; dört vuruş: ① NESNE (tanıdık, ≥1/3 kadraj, "yanlış"
+      hâlde) ② DOKUNUŞ (eylem ilk karede başlamış, nesneye dokunur) ③ İPUCU (geleceğin parçası,
+      amacı okunmaz) ④ ÖLÇEK (iş büyür, ilk kesmede S1 gözle ileride). MERAK SORUSU künyede ≤6
+      kelime; final onu cevaplar. → KILAVUZ_REHBERI §6 AÇILIŞ DÜZENİ · kapı BLOCK (soru satırı ·
+      "from the first frame") · FIX (S0 rejim C/G). ⚠️ ④ raporlarından türedi, izleyiciyle ölçülmedi.
+```
+
+```
+C2-i  ⭐ S0 GERİ ÇEKİLME AÇILIŞI — sahip önerisi (05.10.2026): açılış nesnesinin ayrıntısında yakın
+      başla, geri çekil, yapım başlasın. KATMAN 2 (kurgu kırpması) olarak alındı, KATMAN 1 değil: I2V
+      HOME'da üretilir, model geri çekilseydi klip G1'e oturmazdı. §3.1 "HOME'da başlar"ın tek istisnası
+      S0'ın ilk karesi (filmin başı dikiş değildir); S0 HOME'da BİTER. Büyütme ≤ ölçülen tavan (kaynak
+      genişliği / 1080) — araç 1080 veriyorsa YAPILAMAZ. Ease-out, 1x'te ≤ 2,5 sn. SEÇENEK, zorunlu
+      değil (her filmde aynı açılış şablona döner). → KAMERA_HAREKETI §4.2 · KILAVUZ_REHBERI §6 AÇILIŞ
+      DÜZENİ · kapı (yalnız ✅ VAR planda) · ihrac_kontrol ⑧ · IZLEYICI_DEFTERI S6. ⚠️ ÖLÇÜLMEDİ.
 ```

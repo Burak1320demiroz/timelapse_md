@@ -1,6 +1,6 @@
 # 📚 THE BORROWED HILL — QA VE DERS HASADI
 
-> Bu filme DÜŞEN kilitler. Kaynak: `QA/00_INDEX.md` · `QA/RAPORLAR/` · `kilavuzlar/DERSLER.md`
+> Bu filme DÜŞEN kilitler. Kaynak: `QA/ARSIV_12_MERCEK/00_INDEX.md` · `QA/ARSIV_12_MERCEK/RAPORLAR/` · `kilavuzlar/DERSLER.md`
 
 ## 1. ⛔ BU DEPONUN İKİ MARS ÖLÇÜMÜ — ikisi de en kötüler
 

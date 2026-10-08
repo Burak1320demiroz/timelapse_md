@@ -26,7 +26,7 @@
 | **Kamera** | MAIN STATION — tek istasyon, tilt 0, 36 sahne + usta kare. Yatay formül: **yüzde(y) = 50 + 118,5·(y − h)/D** (alt kenardan) · taç %82 için **D = (H − h)/0,27** (dikeyde 0,48 — 1,8 kat uzak) · x(m) → **%50 + 66,7·x/D** (soldan). Detay istasyonu ≤ 2 klip, üç koşul [KAMERA_ISTASYONU §1] |
 | **Işık günü** | ⛔ Kesmede ışık atlamaz [§2.7 ①] → Σ rejim penceresi (A 10 dk · B 2 h) ≤ **14 saat**, tek gün 06:00 → 20:00; gece yalnız sahibin kararıyla [ZAMAN_VE_ISIK §5]. 36 sahnede: rejim A: 36 × A = 6 h; en çok 3 × B (doruk · kış ① · kış ②) → 11,5 h. Takvim (haftalar/aylar) SAHADAN okunur, ışıktan değil [P1-c] |
 | **Aşama merdiveni** | 36 satır — inşa sırası uydurulmaz (`YAPI_TIPI_KARTLARI`); sahne arttıkça aşama İNCELİR (ara hâl %25 / %50 / %75 satır olur — `INSAAT_YONTEMI` §2), yapı büyümez · kış İKİ sahne [DERS 7] · üç zorunlu satır KANIT · LOOP · SÖKÜM |
-| **QA birimi** | ⭐ BÖLÜM — iki yarım master (B1 = S0–S17 · 0–180 s · B2 = S18–S35 + kart · 180–365 s), on iki mercek her yarıya AYRI → 24 rapor (aşağıda) |
+| **QA birimi** | ⭐ BÖLÜM — iki yarım master (B1 = S0–S17 · 0–180 s · B2 = S18–S35 + kart · 180–365 s), beş mercek (❶–❺) her yarıya AYRI → 24 rapor (aşağıda) |
 | **Müzik** | 120 BPM · ölçü 2,0 s · 5 ölçü/sahne · kesmeler 10,0 · 20,0 · … · 350,0 · müziksiz pencere S0'da · süre 365,0 s [MUZIK_VE_KAPAK §1] |
 
 ```bash
@@ -49,7 +49,7 @@ Klasör ELLE açılmaz, betikle açılır (bölüm sayısı formattan gelir = 2)
 yatay_6_dk_filmler/<FILM_ADI>/
 ├── 00_ANALIZ/                     yazımdan ÖNCEKİ iş — altı adım, bitmeden PLAN yazılmaz
 │   ├── 00_HIKAYE_ONAYI.md         ⭐ sahip okur: VAAT · DİRENÇ · BEDEL · 36 sahne satırı · ONAY tarihli
-│   ├── 00_OKUMA_CIZELGESI.md      betikten: kılavuzlar · DERSLER · QA/RAPORLAR · rubrikler
+│   ├── 00_OKUMA_CIZELGESI.md      betikten: kılavuzlar · DERSLER · QA/ARSIV_12_MERCEK/RAPORLAR · rubrikler
 │   ├── 01_QA_DERS_HASADI.md       bu filme düşen DERS kilitleri + QA arızaları
 │   ├── 02_KONSEPT_VE_RISK.md      konsept kapısı (VAAT/DİRENÇ/BEDEL) · yapı + saha kartı · kamera hesabı · vinç · ışık günü
 │   ├── 03_SAHNE_SIRALAMASI.md     inşa sırası → 36 satır · monoton büyüme · rejim toplamı · bölüm sınırı
@@ -99,21 +99,23 @@ YAZIM birimidir.
 ## ⭐ TEK FARK — QA BİRİMİ BÖLÜMDÜR (2 ve 4 dk'da FİLM)
 
 > Film TEK master olarak kurgulanır ve yayınlanır; QA için **iki yarım master** ihraç edilir ve
-> **on iki mercek her yarıya AYRI koşulur** → 24 ham rapor. Yarım master 4 dk hattının bir filmi
+> **beş mercek (❶–❺) her yarıya AYRI koşulur** → 10 ham rapor. Yarım master 4 dk hattının bir filmi
 > ölçeğindedir (mercekler 60–240 s teslimde kalibre). Kurgu kapısı ve FİNAL KARE KANITI TAM
 > master'a koşulur; yarım master QA aracıdır, teslim değil.
 
 ```
 KOŞU
-  B1 masterı  S0–S17  · 0–180 s · kart YOK       → ①-⑫ on iki mercek, her biri temiz oturumda
-  B2 masterı  S18–S35 · 180–365 s · kart VAR     → ①-⑫ on iki mercek, her biri temiz oturumda
-  Mod D merceklerine (② ④ ⑥ ⑧ ⑩ ⑪) SPEC + TEK SATIR BEYAN verilir; belgesiz mercekler (① ③ ⑤ ⑦ ⑨ ⑫)
+  B1 masterı  S0–S17  · 0–180 s · kart YOK       → ❶–❺ beş mercek, her biri ayrı geçici sohbette
+  B2 masterı  S18–S35 · 180–365 s · kart VAR     → ❶–❺ beş mercek, her biri ayrı geçici sohbette
+  Belgeli merceklere (❹ ❺) SPEC + TEK SATIR BEYAN verilir; kör mercekler (❶ ❷ ❸)
   yalnız yarım masterı ve kendi kare grablarını alır:
      "THIS FILE IS PART 1 OF 2 — scenes S0–S17 — the film's ending and the end card are NOT in this file."
      "THIS FILE IS PART 2 OF 2 — scenes S18–S35 + end card — the film's opening is NOT in this file."
   ⛔ Beyansız koşuda rubrik yarım makarayı EKSİK TESLİM sanır (④ FİNAL VURUŞ FAIL · ① kart sahne sayılır [DERS 4]).
 
 SAYI TAŞIMAYAN KATEGORİLER — hücre "—" kalır, ortalamaya girmez
+  ⚠️ 07.10.2026: aşağıdaki adlar 12 mercekli ARŞİV kategorileridir; ilk 6/8 dk filmde beş mercekli
+     karşılıklarına (QA/Q1–Q5) çevrilir — mantık aynı: yarım dosyada olmayanı puanlama.
   B1'de (son dosyada yok):   ④ FİNAL VURUŞ · ④ BEDEL ÖDENDİ Mİ · ⑤ LOOP (G0↔G36) · ⑧ SÖKÜM
   B2'de (baş dosyada yok):   ④ KANCA · ③ AÇILIŞ SAATİ · ⑤ LOOP · ⑧ İLK ELEMAN KAYNAĞI
   Hiçbirinde (bütün filmi ister): ③ TOPLAM ZAMAN TAHMİNİ (iki yarının tahmini TOPLANIR, tek satır) ·
@@ -129,10 +131,9 @@ BÖLÜM SINIRI KÖR NOKTASI
   SPEC §7'ye BÖLÜM SINIRI satırı yazılır.
 
 KAYIT — üç yerde de bölüm etiketi taşınır
-  ham:     QA/HAM_RAPORLAR/<FILM>/<FILM>_B1_<n>_<MERCEK>_HAM.md  ·  <FILM>_B2_<n>_<MERCEK>_HAM.md
-  kayıt:   QA/RAPORLAR/<FILM>.md — TEK dosya, "## BÖLÜM 1" / "## BÖLÜM 2" + "## BÜTÜN FİLM" başlıkları
-  tablo:   QA/T1…T8 satırı  **<FILM>** B1  ·  **<FILM>** B2   (iki satır; sayaç " B1/ B2" ekini atar)
-  matris:  QA/00_INDEX  **<FILM>** (B1)  ·  **<FILM>** (B2)   (iki satır · TOPLAM FİLM'de BİR film)
+  ham:     QA/HAM/<FILM>/<FILM>_B1_Q<n>_<AD>_HAM.md  ·  <FILM>_B2_Q<n>_<AD>_HAM.md  (qa_paket.sh --bolum 1|2)
+  kayıt:   QA/FILMLER/<FILM>.md — TEK dosya, "## BÖLÜM 1" / "## BÖLÜM 2" + "## BÜTÜN FİLM" başlıkları
+  tablo:   QA/TABLO.md iki satır  **<FILM>** B1  ·  **<FILM>** B2  (TOPLAM FİLM'de BİR film)
   ⛔ Kesme listesi / REMOVE reçetesi bölüm raporundan UYGULANMAZ — kesme filmin kurgusudur.
   ⛔ Kurgu kapısı (KURGU_VE_TESLIM §6 yedi ölçüm) TAM master'a: klip 36 · süre 365,0 ±0,25 s ·
      kesme_kontrol.sh PLAN'ın SÜRE sütunuyla (35 kesme, top-N).
@@ -159,6 +160,6 @@ film oraya kırpılmaz — kadraj hesabı, güvenli alan ve ızgara farklıdır 
 
 ## 🎞️ FİLMLER
 
-Film listesi burada tutulmaz — `QA/00_INDEX.md` tek sayaçtır (`bash araclar/sayac.sh`).
+Film listesi burada tutulmaz — `QA/TABLO.md` tek sayaçtır (`bash araclar/sayac.sh`); 12 mercekli eski ölçümler `QA/ARSIV_12_MERCEK/00_ARSIV.md`.
 Bu klasörde henüz film yok; ilk film kart A ile (`00_ANALIZ/00_HIKAYE_ONAYI.md` onaylanmadan
 dosya yazılmaz) açılır.

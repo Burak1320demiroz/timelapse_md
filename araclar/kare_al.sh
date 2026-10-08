@@ -9,7 +9,9 @@
 #  Her klibin İLK · ORTA · SON karesi çıkarılır.
 #
 #  KULLANIM
-#     bash araclar/kare_al.sh <teslim.mp4> [klip_sayisi]     tek dosya (varsayılan 10)
+#     bash araclar/kare_al.sh <teslim.mp4> [klip_sayisi] [sahne_blogu_sn]   tek dosya (varsayılan 10)
+#        ⭐ 05.10.2026: sahne_blogu_sn verilirse klipler YALNIZ o süreye bölünür — kart
+#           klip sayılmaz (dikey 2x paylaşım: 7 klip · 28 sn) [DERS 63]
 #     bash araclar/kare_al.sh <klipler_klasoru/>             klip klasörü
 #
 #  ÇIKTI:  <girdi_dizini>/QA_KARELER/  · S<n>_{ilk,orta,son}.jpg
@@ -19,9 +21,10 @@ set -u
 command -v ffmpeg  >/dev/null || { echo "⛔ ffmpeg yok"; exit 2; }
 command -v ffprobe >/dev/null || { echo "⛔ ffprobe yok"; exit 2; }
 
-[ $# -ge 1 ] || { sed -n '4,14p' "$0" | sed 's/^#//'; exit 2; }
+[ $# -ge 1 ] || { sed -n '4,16p' "$0" | sed 's/^#//'; exit 2; }
 GIRDI="$1"
 KLIP_SAYISI="${2:-10}"
+BLOK_SN="${3:-}"
 
 sure() { ffprobe -v error -show_entries format=duration -of csv=p=0 "$1"; }
 
@@ -48,6 +51,7 @@ else
     [ -f "$GIRDI" ] || { echo "⛔ dosya yok: $GIRDI"; exit 2; }
     HEDEF="$(dirname "$GIRDI")/QA_KARELER"; mkdir -p "$HEDEF"
     TOPLAM=$(sure "$GIRDI")
+    [ -n "$BLOK_SN" ] && TOPLAM="$BLOK_SN"
     KLIP=$(awk -v t="$TOPLAM" -v n="$KLIP_SAYISI" 'BEGIN{printf "%.4f", t/n}')
     echo "🎬 tek dosya modu · toplam ${TOPLAM}s · $KLIP_SAYISI klip · klip ${KLIP}s"
     echo "   ⚠️ klipler EŞİT varsayıldı. Değillerse klip klasörü moduyla koş."
@@ -76,6 +80,6 @@ cat <<'NOT'
         DEFECT    zamanın üretmeyeceği değişim (makine tip değiştirdi,
                   konteyner yer değiştirdi, çamur sıfırlandı)
 
-  Kareleri rubriklerle birlikte ver: QA/1_KARE_QA.md · QA/5_DEVAMLILIK_QA.md
+  Kareleri rubriklerle birlikte ver: QA/Q1_GORUNTU.md · QA/Q3_SANTIYE.md
   ⛔ İkisine de PLAN VERİLMEZ — mod V.
 NOT

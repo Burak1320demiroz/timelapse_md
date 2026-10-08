@@ -334,7 +334,7 @@ göre seçer, tıklama oranına göre DEĞİL) [A15 · A17 · araç dokümanı s
 # 5. ⭐ ÜÇ NOKTA KONTROLÜ — açılış · kapak · final BİRLİKTE  [C1-h · 18.09.2026]
 
 > Kaynak: çapraz analiz F09 "kapak vaadi ile final kare uyuşmazlığı" 6/14 filmde
-> (QA/QA_CAPRAZ_ANALIZ/03) + dış değerlendirme. Üç yüzey ayrı ayrı zaten
+> (QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/03) + dış değerlendirme. Üç yüzey ayrı ayrı zaten
 > denetleniyordu (§2.2 kapak GN'den · DERS 30 kapak kanıtı · §3.3 spoiler
 > bütçesi); eksik olan üçünün YAN YANA okunmasıydı. ÖLÇÜLMEDİ — VARSAYIM.
 
@@ -353,5 +353,5 @@ BİRLİKTE OKUMA   üç görüntü yan yana konur (açılış karesi · final ka
 
 ⚠️ AÇILIŞ TERCİHİ KESİN KURAL DEĞİL, TEST EDİLECEK KURGU SEÇİMİDİR:
    (A) eksik parça açıkça görünür  vs  (B) yerleşmek üzere olan parçayla yakın sonuç
-   → QA/QA_CAPRAZ_ANALIZ/06_IZLEYICI_DENEY_PLANI adım 1-2 bunu ölçer.
+   → QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/06_IZLEYICI_DENEY_PLANI adım 1-2 bunu ölçer.
 ```

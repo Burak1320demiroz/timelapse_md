@@ -2,7 +2,7 @@
 >
 > Dört merceğin dördü de hüküm düşürdü:
 > `① ALTI AYRI GÖRÜNTÜ` · `② FARKLI · APPEARING` · `③ GEÇİYOR (yön kırık)` · `④ DURUYOR · NONE FOUND`
-> Skorlar 3,3 / 0,4 / 4,3 / 2,7 · kayıt: `QA/RAPORLAR/THE_LONG_SHADOW.md`
+> Skorlar 3,3 / 0,4 / 4,3 / 2,7 · kayıt: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md`
 >
 > **Kök sebep:** ters inşa üretim sırası koşulmadı → altı kare bağımsız
 > üretildi → üç farklı bina [DERS 5]. Yeniden kurgu, renk ya da müzik bunu
@@ -11,7 +11,7 @@
 > **Bu dosya kanıt olarak duruyor.** v2 yeni ızgarayla yazılacak:
 > 10 sahne × 6 sn + 5 sn kapak kartı = 65 sn · ters açılış YOK · kış İKİ
 > sahne · zincirli üretim KAPI · başlıklı İngilizce kapak.
-> Zorunlu değişiklikler: `QA/RAPORLAR/THE_LONG_SHADOW.md` §7 · `DERSLER 3-9`
+> Zorunlu değişiklikler: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md` §7 · `DERSLER 3-9`
 >
 > ⛔ Prompt kapısı bu dosyada artık BLOCK veriyor (TESLİM YAPISI beyanı yok) —
 > bu doğrudur ve düzeltilmez; dosya arşivdir.

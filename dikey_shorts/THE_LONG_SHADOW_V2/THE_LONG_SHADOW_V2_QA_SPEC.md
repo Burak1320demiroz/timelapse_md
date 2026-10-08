@@ -9,7 +9,7 @@ DURUM      ⛔ ÜRETİLMEDİ — bu şartname ÖLÇÜM BEKLİYOR. Aşağıdaki h
 TARİH      28.09.2026
 ⭐ v2       Bu film THE LONG SHADOW v1'in yeniden planıdır. v1 üretildi ve dört merceğin
            dördü de düştü (① 3,3 ② 0,4 ③ 4,3 ④ 2,7 · ⛔ YAYINLANMAZ). v1'in yedi arızasının
-           her birine bu planda bir cevap vardır [plan §v1'İN CEVABI · QA/RAPORLAR/THE_LONG_SHADOW.md].
+           her birine bu planda bir cevap vardır [plan §v1'İN CEVABI · QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md].
            ⛔ v1'in QA kaydı AYRIDIR ve bu şartnameyle karışmaz; klasör adı bu yüzden _V2'dir.
 ```
 

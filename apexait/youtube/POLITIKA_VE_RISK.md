@@ -34,6 +34,28 @@ Para kazanamayan içerik:
     ÖZÜNÜN esaslı biçimde farklı olması ve bir değer taşıması.
 ```
 
+### 1.1b ⭐ Bugünkü metin — birebir (okundu 07.10.2026 · A32 · A34 · denetim `A30-A34_DENETIM.md §3`)
+
+```
+support.google.com/youtube/answer/1311392 — "Generic or Repetitive Content" başlığı:
+  "Not be mass-produced, generic, repetitive, or manipulative."
+  "content that looks like it's made with a template"
+  "Image slideshows, templated storylines, or scrolling text with minimal or no
+   narrative, commentary, or educational value"
+  "AI-generated content made with generic or unoriginal templates"
+16.07.2026 (Creator Insider · Matt Halprin): politika üç gruba ayrıldı — jenerik/tekrarlı/
+  şablon · tatmin etmeyen · sağlık/finansta yapay zekâ kişileri. Bu bir PARA kuralıdır,
+  erişim kuralı değil.
+Spam politikası (answer/2801973): "Automated or synthetic mass-production: Using automated
+  tools or AI to churn out high volumes of similar content with minimal changes."
+01.10.2026 Shorts özgünlük güncellemesi: BAŞKALARININ videosunu toplayan/yeniden yükleyen
+  kanallar hedef — özgün filmler bu güncellemenin konusu değil.
+
+⛔ "minimal or no narrative" bizim anlatıcısız formatın tam adıdır. Anlatıcı EKLENMEZ;
+   anlatı ve öğretici değer §1.3 ② katmanından (sabit yorum) ve ③'ten (yapım günlüğü) gelir.
+   Bu yüzden ② artık bir paketleme kalemi değil, para kazanmanın ŞARTIDIR.
+```
+
 ## 1.2 ⛔ Neden bu tam olarak bizim üzerimize yazılmış
 
 Dürüst ol: `KILAVUZ_REHBERI` §2'deki format kartı **bir şablondur.**
@@ -102,6 +124,20 @@ NE ZAMAN: HER videoda. İstisna yok.
 uygunluğunu ve önerileri etkilemediğini açıkladı. Beyandan kaçınmanın
 hiçbir kazancı yok, tespit edilmenin bedeli büyük — YouTube bazı etiketleri
 üreticiden bağımsız olarak kendisi de uygulamaya başladı.
+
+```
+⭐ 07.10.2026 doğrulaması (answer/14328491 — sayfanın adı artık "Disclosing use of GenAI content"):
+   · "Disclosing AI content won't limit a video's audience or impact its eligibility to earn money."
+   · fotogerçekçi içerik: "a label in the video player may also appear" — 27.05.2026'dan beri
+     Shorts'ta OVERLAY · fotogerçekçi olmayan/animasyon: genişletilmiş açıklamada
+   · ⭐ C2PA verisi taşıyan içeriğe YouTube etiketi KENDİSİ koyar ve üretici "can not be adjusted"
+     → bizim dosyalar C2PA'yı koruyor (CAPRAZ_YAYIN §2): etiket her durumda gelir; beyan kutusu
+       yine işaretlenir, çünkü yaptırım beyansızlıktadır (zorunlu etiket · içerik kaldırma · YPP askısı)
+   · zorunluluk 18.03.2024'ten beri var; "Mayıs 2026 zorunlu oldu" bloglarda yanlış [A34 denetimi]
+⚠️ Etiketin bedeli platformda değil İZLEYİCİDEDİR: "AI-generated" etiketi duygusal içerikte etkileşimi
+   düşürür (Seeger ve ark. 2026 · iki çalışma n≈696) ve beyan güveni azaltır (Schilke & Reimann 2025 ·
+   13 deney > 5.000). Geç beyan yapay zekâ ÜRETİMİNDE işe yaramıyor → beyan açılışta kalır [A32-d].
+```
 
 ## 2.2 Bizim durumumuz
 
@@ -172,6 +208,15 @@ kanalın ilk şikâyette kaybedeceği şeydir.
 | Erken erişim kademesi | 500 abone + son 90 günde 3 yükleme + (3.000 saat VEYA 3M Shorts) | 30.08.2026 | ⚠️ ikincil kaynak — Studio'dan doğrula |
 | "Inauthentic content" | Temmuz 2025'te "repetitious content"tan yeniden adlandırıldı | 30.08.2026 | YouTube Yardım / topluluk yanıtı |
 | AI beyanı | Studio → Ayrıntılar → Altered content; para kazanmayı etkilemez | 30.08.2026 | YouTube Blog / Yardım |
+| ⭐ YPP — 01.02.2027 | yeni başvuran: 1.000 abone + 8.000 saat / 365 gün **ya da** 20 M Shorts / 90 gün · programdakiler etkilenmez | 07.10.2026 | ⚠️ resmi sayfa (72851) değişikliği duyuruyor, SAYI YAZMIYOR · sayı: YouTube blog 10.08.2026 + Business Standard 11.08.2026 — başvurudan önce Studio'dan doğrula |
+| Shorts akışı izlenme saati | 4.000 saate SAYILMAZ: "won't count towards the 4,000 qualified public watch hours" · 2027 eşiğinde de aynı varsayılır ⚠️ | 07.10.2026 | ⭐ resmî YPP sayfası (72851) |
+| Görüntüleme tanımı | oynatma başlar başlamaz · Shorts 31.03.2025 · bütün formatlar 24.08.2026 · kazanç = engaged views · uygunluk = "qualified views" | 07.10.2026 | YouTube Yardım 2991785 · blog |
+| "Inauthentic content" metni | "looks like it's made with a template" · "templated storylines … minimal or no narrative" (§1.1b) · 16.07.2026 üç gruba ayrıldı | 07.10.2026 | ⭐ resmî 1311392 · Creator Insider |
+| AI etiketi yeri | fotogerçekçide oynatıcıda / Shorts'ta overlay (27.05.2026) · C2PA'lı içerikte otomatik, değiştirilemez | 07.10.2026 | ⭐ resmî 14328491 · blog 27.05.2026 |
+| A/B testi | başlık + küçük resim, yalnız uzun form, masaüstü, advanced features · "A/B testing is not available for Shorts" | 07.10.2026 | ⭐ resmî 16391400 |
+| Shorts → ilgili video | advanced feature access · bağlanan video kendi kanalımızdan, herkese açık ya da liste dışı | 07.10.2026 | ⭐ resmî 14075157 |
+| İtiraz videosu | §6 kartı | 07.10.2026 | ⭐ resmî 9564590 |
+| EU AI Act Md. 50 | 02.08.2026'dan beri · sağlayıcı işaretler (50(2)), deepfake'i yayan beyan eder (50(4)) — sanatsal eserde izlemeyi bozmayan beyan · ⛔ hukuki tavsiye değil | 07.10.2026 | Tüzük 2024/1689 + Omnibus 2026/1744 |
 
 ## 5.1 ⭐ Hangi YPP yolu — karar
 
@@ -186,6 +231,12 @@ Uzun form yolu:   4.000 saat / 12 ay.
 → KARAR: abone Shorts'tan gelir, İZLENME SAATİ uzun formdan gelir.
    İki ayaklı yayın planı (YAYIN_PLANI §2) bir tercih değil, bu tablonun
    zorunlu sonucudur.
+
+⭐ 07.10.2026 [A34-a]: 01.02.2027'den sonra başvuran kanal için uzun form yolu
+   8.000 saat / 365 gündür (günde ~22 saat), Shorts yolu 20 M / 90 gün (günde
+   ~222.000). 0 aboneli bir kanal eski eşiğe 31.01.2027'ye kadar (≈ 4 ay) yetişemez
+   → hesap YENİ eşikle yapılır. Karar aynı yönde kalır; yatay ayağın yükü İKİ
+   KATINA çıkar. ⬜ Yatay kadans sahip kararıdır (denetim §8 K1).
 ```
 
 ---
@@ -201,6 +252,17 @@ Para kazanma reddi: "inauthentic content"
      son 10 videoda kaç farklı yapı tipi var? sabit yorumlar birbirinin
      kopyası mı? uzun form var mı? Eksik katman neyse o kapatılır,
      30 gün üretim yapılır, sonra yeniden başvurulur.
+   ⭐ İTİRAZ VİDEOSU — kurallar (answer/9564590 · okundu 07.10.2026) [A32-c]:
+     · askıdan sonra 21 gün içinde (ön uyarı geldiyse 7 gün)
+     · 5 dakikadan KISA · LİSTE DIŞI · o kanala YENİ yükleme
+     · ilk 30 saniyede kanalın URL'si · yanıt 14 gün içinde · ret → 90 gün sonra yeniden başvuru
+     ⛔ kanaldaki yapım günlüğüne bağlantı itiraz değildir; itiraz kendi videosudur.
+   ⭐ İTİRAZDA GÖSTERİLECEK — her film için ZATEN depoda duruyor:
+     PLAN.md (konsept kapısı: VAAT · DİRENÇ · BEDEL) · prompt dosyaları ve prompt_kontrol çıktısı ·
+     reddedilen kareler ve klipler (sürüm adı G<n>_K<k>) · ONARIM günlüğü · QA raporları ·
+     kurgu projesi · final kare kanıtı. ⛔ Ham dosyalar silinmez — itirazın kanıtı bunlardır.
+   ⚠️ Emeğin büyüklüğü tek başına yetmeyebilir (forumda "%100 insan iş akışı kanıtı" başlıklı
+     reddedilmiş itirazlar var; içerikleri doğrulanamadı) — itiraz FİLMLERİN FARKINI gösterir.
 
 Content ID iddiası
    → §4'teki üç boşluğa bak. Boşsa sorun müzikte değil, süreçtedir.

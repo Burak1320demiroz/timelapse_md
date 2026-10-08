@@ -286,13 +286,23 @@ YUZEY = ["hoarding", "signage", "machinery", "container", "vest", "helmet",
          # ── uzay · robotik saha ──
          "rover", "lander", "module", "habitat", "panel", "mast", "radiator",
          "antenna", "dish", "airlock", "spool", "cradle", "manipulator"]
+# ⛔ 05.10.2026 [DERS 59]: "en az 8 yüzey say" kuralı SAHADA OLMAYAN nesneyi
+# saymayı ödüllendirdi — DEEP STEP'in antik kuyusuna 'truck' buradan girdi.
+# Artık kapsam iki yoldan biriyle sağlanır: genel 'on any surface' ifadesi ya da
+# sahada GERÇEKTEN olan ≥8 yüzey. Olmayan nesnenin adı §10f'de BLOCK'tur.
+YUZEY_METIN = YUZEY
 for s, k in kareler:
-    m = re.search(r"No readable text.*?annotated by anyone", k, re.S)
+    m = re.search(r"No readable text.*?(?:annotated by anyone|included\.)", k, re.S)
     if not m:
         continue
-    sayi = sum(1 for y in YUZEY if y in m.group(0).lower())
+    if re.search(r"on any surface", m.group(0), re.I):
+        continue
+    govde = k.replace(m.group(0), " ")
+    sayi = sum(1 for y in YUZEY if re.search(rf"\b{re.escape(y)}s?\b", govde, re.I)
+               and y in m.group(0).lower())
     if sayi < 8:
-        FIX.append(f"[{s}] metin yasağı KAPSAMSIZ — yalnız {sayi} yüzey sayılmış (en az 8) [D-b]")
+        FIX.append(f"[{s}] metin yasağı KAPSAMSIZ — ne 'on any surface' ne de sahada olan ≥8 yüzey "
+                   f"({sayi}) [D-b · DERS 59]")
 
 # ── 10. render çukuru + insan kuralı + ZAMAN HIZI ──────────────────────────
 for s, k in kareler:
@@ -397,9 +407,16 @@ for _j, (s, k) in enumerate(gorsel):
     mt = re.search(r"SITE TEXTURE:(.*?)(?:\n[A-Z][A-Z /]+:|\Z)", k, re.S)
     yuzey_govde = g + (mt.group(1) if mt else "")
     neden = len(set(x.lower() for x in re.findall(EDEN, g, re.I)))
-    if neden > 4:   # ⭐ C1-d: hareket sayısı değil, ana işe hizmet — kalabalık okunurluğu düşürür
+    # ⭐ C2-g (05.10.2026): EKİP kelimesi iki el sayılır — adet yazılmaz, mertebe yazılır [§4]
+    _ekip = 2 if re.search(r"\b(crew|team|gang|workers|labou?rers|masons|riggers|welders|carpenters|"
+                           r"fitters|glaziers|divers)\b", g, re.I) else 0
+    _el = len(set(x.lower() for x in re.findall(EDEN, g, re.I) if x.lower() not in ("worker", "crew"))) + _ekip
+    if not _son and _el < 3:
+        FIX.append(f"[{s}] ACTIVITY'de ana işe {_el} el (en az 3: taşıyıcı + ekip) [C2-g · SANTIYE_HAREKETI §4.8 ①] — "
+                   f"iş SAYISI değil, tek işin etrafındaki EL artar")
+    if neden > 6:   # ⭐ C1-d → C2-g: sınır 4'ten 6'ya (kalabalık notu ölçülmemiş varsayımdı)
         INFO.append(f"[{s}] ACTIVITY'de {neden} farklı hareket eden — hepsi ANA İŞE bağlı mı? "
-                    f"[SANTIYE_HAREKETI §4 İŞE BAĞLI HAREKET · C1-d]")
+                    f"[SANTIYE_HAREKETI §4.8 ⑤ · C2-g]")
     var_eylem = bool(re.search(EYLEM, g, re.I))
     yuzey_var = bool(re.search(YUZEY, yuzey_govde, re.I))
     if neden < 2 or not var_eylem or not yuzey_var:
@@ -579,6 +596,7 @@ if "MEVSİM TAŞIYICISI" not in metin:
                  "taşıyıcısı olmayan sahne zamanı durdurur ve film süresini "
                  "olduğundan kısa okutur.")
 
+_DIKEY_ON = ("dikey_shorts" in yol or yol.endswith("_DIKEY_TIMELAPSE.md"))
 # Süre sütunu: on sahnenin süresi EŞİTSE ⑥ merceği METRONOM hükmü verir.
 # ⚠️ 08.09.2026: desen ondalık İSTER. Eskisi "| 0 | 20 | ilkbahar |" gibi
 # her tabloyu SÜRE sütunu sanıyordu ve Mars filminin güneş saati tablosunu
@@ -587,7 +605,12 @@ if "MEVSİM TAŞIYICISI" not in metin:
 sureler = re.findall(r"^\|\s*\d\s*\|\s*([0-9]+[.,][0-9]+)\s*\|", metin, re.M)
 if len(sureler) >= 6:
     benzersiz = {x.replace(",", ".") for x in sureler}
-    if len(benzersiz) == 1:
+    if len(benzersiz) == 1 and _DIKEY_ON and benzersiz == {"8.0"}:
+        # ⭐ 05.10.2026: dikey 7 × 8,0 sahip kuralıdır [DERS 58]. "Beklenen" FIX her planda
+        # tekrarlandı ve gerçek uyarıları gürültüde boğdu — beyanlı ızgara bilgi satırıdır.
+        INFO.append("süreler eşit (8,0) — sahip kuralı, beyanlı DÜZ IZGARA [DERS 58 · C1-e]; "
+                    "ritim klip İÇİNDE taşınır (KURGU_VE_TESLIM §2.4)")
+    elif len(benzersiz) == 1:
         FIX.append(f"AŞAMA MERDİVENİNDE bütün sahne süreleri aynı ({sureler[0]}) "
                      f"[DERS 13] — eşit aralıklı kesme dizisi tempo değil NABIZ "
                      f"üretir ve ⑥ merceği METRONOM hükmü verir. En az iki sahne "
@@ -736,7 +759,7 @@ for s, k in i2v:
                    f"bulut/gök bir fiil alır: drift · streak · sweep · roll · hold")
 
 # ── 10e. ⭐ MOTION FOCUS — 18.09.2026 · SAHNE_PLAN_KARTI · C1-a/c ──────────
-# Çapraz analiz (QA/QA_CAPRAZ_ANALIZ): ② İNŞA 9/15, ⑩ SEBEP 4/5 filmde 4,0 altı.
+# Çapraz analiz (QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ): ② İNŞA 9/15, ⑩ SEBEP 4/5 filmde 4,0 altı.
 # F01 · F05 · F08 aynı şeyin üç yüzü — malzemenin NEREDEN gelip HANGİ taşıyıcıyla
 # NEREYE oturduğu I2V'de yazılı değildi. I2V'ye kendi paragrafında MOTION FOCUS
 # girer (PROMPT_SABLONU §2). ⚠️ ÖLÇÜLMEDİ — bu yüzden FIX, BLOCK değil.
@@ -762,6 +785,246 @@ for s, k in i2v:
     if len(eleman) >= 3:
         FIX.append(f"[{s}] MOTION FOCUS'ta {len(eleman)} yapı elemanı ({' · '.join(sorted(eleman))}) — "
                    f"tek klipte TEK ana iş [C1-c]; ikincisi sıvı büyümeye döner (F05), sahne bölünür")
+
+# ── 10f. ⭐ TEKRAR EDEN ARIZALARIN KAPISI — 05.10.2026 · DERS 58-63 ──────────
+# Yedi üretilmiş filmin (STAR DOCK · DEEP STEP · STONE TOWER · IRON BRIDGE ·
+# GLASS CROSSING · MOUNTAIN CROWN · BACK TO PLUMB) kök neden analizi: arıza
+# modelin keyfi değil, PROMPTUN KENDİSİYDİ. Aşağıdaki her kapı ölçülmüş bir
+# arızaya bağlıdır. ⛔ Hepsi BLOCK: FIX'ler her planda "beklenen" iki uyarının
+# yanında gürültüye döndü ve okunmadı.
+_DIKEY = ("dikey_shorts" in yol or yol.endswith("_DIKEY_TIMELAPSE.md"))
+
+# [DERS 58] DİKEY = 7 SAHNE × 8,0 SN — sahip kuralı, kesin (05.10.2026).
+# 56,0 sn üretilir, 2x hızda (~28 sn sahne bloğu) paylaşılır. 6 ya da 8 sahne
+# önerilmez; brief başka sayı verirse plan yine 7 ile yazılır ve bu söylenir.
+DIKEY_SAHNE, DIKEY_SURE = 7, 8.0
+if _DIKEY:
+    if BEKLENEN != DIKEY_SAHNE or len(gorsel) != DIKEY_SAHNE:
+        BLOCK.append(f"DİKEY SAHNE SAYISI {len(gorsel)} (Scene N of {BEKLENEN}) — dikey shorts KESİN "
+                     f"{DIKEY_SAHNE} sahnedir [DERS 58 · sahip kuralı 05.10.2026]: {DIKEY_SAHNE} sahne "
+                     f"görseli + usta kare G{DIKEY_SAHNE} + {DIKEY_SAHNE} I2V")
+    if len(i2v) != DIKEY_SAHNE:
+        BLOCK.append(f"DİKEY I2V SAYISI {len(i2v)} — {DIKEY_SAHNE} olmalı [DERS 58]")
+    _iz = re.search(r"^IZGARA\s+(.*)$", metin, re.M)
+    if not _iz or not re.search(rf"\b{DIKEY_SAHNE} sahne × 8,0 sn = 56,0 sn", _iz.group(1)):
+        BLOCK.append(f"DİKEY künyede 'IZGARA     {DIKEY_SAHNE} sahne × 8,0 sn = 56,0 sn' satırı yok "
+                     f"[DERS 58] — ızgara künyenin ilk satırlarında, kelimesi kelimesine")
+    _dur = {x.replace(",", ".") for x in sureler}
+    if _dur and _dur != {"8.0"}:
+        BLOCK.append(f"DİKEY merdivende 8,0 dışı sahne süresi: {' · '.join(sorted(_dur))} [DERS 58]")
+    _kl = _os.path.dirname(_os.path.abspath(yol))
+    _gl = _os.path.join(_kl, f"{_os.path.basename(_kl)}_URETIM_GUNLUGU.md")
+    if not _os.path.exists(_gl):
+        BLOCK.append(f"DİKEY film klasöründe üretim günlüğü yok: {_os.path.basename(_gl)} [DERS 62 · 28] — "
+                     f"yedi üretilmiş filmin altısı günlüksüz üretildi; pilot, zincir_kontrol ve final "
+                     f"kanıtı için tek kayıt yok. Plan yazılırken açılır: "
+                     f"cp dikey_shorts/URETIM_GUNLUGU_SABLONU.md {_os.path.relpath(_gl)}")
+    if not re.search(r"PİLOT ÜÇLÜ", metin):
+        BLOCK.append("DİKEY planda '## 🧪 PİLOT ÜÇLÜ' bölümü yok [DERS 62 · KILAVUZ_REHBERI §8 adım 2b] — "
+                     "DEEP STEP ve STONE TOWER pilotsuz üretildi, ikisinde de en büyük parça "
+                     "yöntemsiz belirdi. Bölüm: (a) referans GN · (b) ilk halka · (c) FİNAL klip "
+                     f"S{DIKEY_SAHNE - 1} · + en büyük değişikliğin klibi")
+    elif not re.search(rf"PİLOT ÜÇLÜ[\s\S]{{0,1500}}\bS{DIKEY_SAHNE - 1}\b", metin):
+        BLOCK.append(f"PİLOT ÜÇLÜ final klibini (S{DIKEY_SAHNE - 1}) adıyla anmıyor [DERS 62] — "
+                     f"final klibi her filmde pilottur (BACK TO PLUMB finali 4/10)")
+
+# [C2-a…d] İZLEYİCİ KAPISI — 31 filmin ④ TESLİM okuması (05.10.2026). Satırın VARLIĞI
+# denetlenir, içeriği değil: içerik konsept kapısında sahiple konuşulur.
+if _DIKEY:
+    for _satir, _neden in [("İŞLEV ANI", "son klipte ne ÇALIŞIYOR (yanar · açılır · akar) — ④ 9+ altı filmin altısı"),
+                           ("AÇILIŞ NESNESİ", "G0'da 1 sn'de tanınan nesne + ona ne oluyor — kanca 9-10 kalıbı"),
+                           ("DÖNGÜ KAFİYESİ", "G7 ↔ G0 aynı yer aynı biçim · işlev anı kadrajda kalır")]:
+        if not re.search(rf"^\s*│?\s*{_satir}\b", metin, re.M):
+            BLOCK.append(f"künyede '{_satir}:' satırı yok [C2 · KILAVUZ_REHBERI §6 İZLEYİCİ KAPISI] — {_neden}")
+    # [C2-h] AÇILIŞ DÜZENİ — merak sorusu · eylem ilk karede · S0 rejimi
+    if not re.search(r"^\s*│?\s*MERAK SORUSU\b", metin, re.M):
+        BLOCK.append("künyede 'MERAK SORUSU:' satırı yok [C2-h · KILAVUZ_REHBERI §6 AÇILIŞ DÜZENİ] — izleyicinin "
+                     "1. saniyede sorduğu ≤6 kelimelik soru ('Çimin altında ne var?'); final onu cevaplar")
+    if i2v and not re.search(r"from the (very )?first frame", i2v[0][1], re.I):
+        BLOCK.append(f"[{i2v[0][0]}] S0 I2V'si eylemi İLK KAREDE başlatmıyor [C2-h] — 2x'te S0 ekranda 4 sn; "
+                     f"'From the first frame to about one second the crew …' ile nesneye dokunan eylem "
+                     f"0. saniyede başlar, ısınma yok")
+    if i2v and re.search(r"rejim\s+[CG]\b", i2v[0][0] or ""):
+        FIX.append(f"[{i2v[0][0]}] S0 rejim C/G [C2-h] — açılışta hareket ilk saniyede görünmeli: A ya da B")
+    # [C2-i] S0 GERİ ÇEKİLME AÇILIŞI — yalnız plan ✅ VAR diyorsa [KAMERA_HAREKETI §4.2]
+    if re.search(r"^\s*│?\s*AÇILIŞ GERİ ÇEKİLMESİ\s+✅", metin, re.M):
+        for _et in ("KAYNAK ÇÖZÜNÜRLÜĞÜ", "BÜYÜTME", "HEDEF AYRINTI"):
+            if not re.search(rf"^\s*│?\s*{_et}\b", metin, re.M):
+                BLOCK.append(f"AÇILIŞ GERİ ÇEKİLMESİ ✅ ama '{_et}' satırı yok [C2-i · KAMERA_HAREKETI §4.2]")
+        _kc = re.search(r"^\s*│?\s*KAYNAK ÇÖZÜNÜRLÜĞÜ\s+(.*)$", metin, re.M)
+        _bu = re.search(r"^\s*│?\s*BÜYÜTME\s+([0-9]+[.,][0-9]+)\s*×", metin, re.M)
+        _tavan = None
+        if _kc:
+            _wh = re.search(r"([0-9]{3,5})\s*[×x]\s*([0-9]{3,5})", _kc.group(1))
+            if _wh:
+                _tavan = int(_wh.group(1)) / 1080
+            else:
+                FIX.append("KAYNAK ÇÖZÜNÜRLÜĞÜ ÖLÇÜLMEDİ [C2-i · araç kapısı ⑨] — plan yazılabilir, ÜRETİM "
+                           "AÇILAMAZ: geri çekilmenin tavanı aracın gerçek piksel sayısından okunur")
+        if _bu:
+            _n = float(_bu.group(1).replace(",", "."))
+            if _tavan is not None and _n > _tavan + 1e-9:
+                BLOCK.append(f"BÜYÜTME {_n:g}× > YAKINLAŞMA TAVANI {_tavan:.2f}× [C2-i · KAMERA_HAREKETI §3.3] — "
+                             f"kırpılan kare bulanıklaşır; upscale tavanı sağlamaz")
+            if _n > 2.0:
+                FIX.append(f"BÜYÜTME {_n:g}× > 2,0× [C2-i] — ayrıntı bağlamından kopar; 1,5–1,8× önerilir")
+        if i2v and re.search(r"rejim\s+C\b", i2v[0][0] or ""):
+            BLOCK.append("S0 rejim C'de geri çekilme açılışı [C2-i] — iş günü 8 sn'ye sıkışır, ışık hareketin "
+                         "içinde döner (§3.2 ⑤)")
+    # [C2-b] final klibi 4 sn olay + 4 sn tutuş — 2x'te tutuş ekranda 2 sn
+    if i2v and not re.search(r"from (about )?four (seconds )?to (the )?eight(h)? seconds?|last four seconds|"
+                             r"final four seconds", i2v[-1][1], re.I):
+        BLOCK.append(f"[{i2v[-1][0]}] final I2V'si son dört saniyeyi TUTUŞ olarak yazmıyor [C2-b · §8 adım 9] — "
+                     f"2x paylaşımda 8 sn'lik final 4 sn kalır; işlev anı 0-4 sn'de biter, 'from about four "
+                     f"to eight seconds the lights stay on and nothing else changes' gibi bir cümle 4-8'i tutar")
+
+# [DERS 59] YASAK KELİME — filmin kendi yasak listesi, NEGATİFTE BİLE geçmez.
+# Ölçüldü: DEEP STEP'te "truck" yalnız metin yasağında geçti → modern kamyon;
+# STAR DOCK'ta "plumes are invisible in vacuum" → alev; STONE TOWER'da "hoist"
+# → vinç kancası; BACK TO PLUMB'da "render" → çatlak sıvandı. Kelimeyi anmak,
+# "no"/"never"/"invisible" ile bile, nesneyi ÇAĞIRIR [DERS 33 · 35'in genel hâli].
+_yk = re.search(r"^\s*│?\s*YASAK KELİME[^\n]*?[\s:]{2,}(.+)$", metin, re.M)
+YASAK_LISTE = []
+if not _yk:
+    BLOCK.append("künyede 'YASAK KELİME' satırı yok [DERS 59] — filmin istemediği her nesne "
+                 "(vinçsiz: crane · hoist · jib · derrick · tarihi: truck · machinery · Ay: flame · "
+                 "smoke · thrust · plume) burada sayılır ve HİÇBİR promptta, negatifte bile geçmez. "
+                 "Yasak yoksa: 'YASAK KELİME  — (yok)'")
+else:
+    YASAK_LISTE = [w.strip().lower() for w in re.split(r"[·,;/]", _yk.group(1))
+                   if w.strip() and not w.strip().startswith(("—", "(", "⛔", "yok"))]
+    if re.search(r"⛔ VİNÇ YOK|VİNÇSİZ", metin) and not {"crane", "hoist"} <= set(YASAK_LISTE):
+        BLOCK.append("plan VİNÇSİZ beyan ediyor ama YASAK KELİME'de crane + hoist yok [DERS 59] — "
+                     "STONE TOWER 'hoist' kelimesinden vinç kancası üretti")
+for s, k in kareler + i2v:
+    for w in YASAK_LISTE:
+        m = re.search(rf"\b{re.escape(w)}(s|es)?\b", k, re.I)
+        if m:
+            bag = k[max(0, m.start() - 50):m.end() + 30].replace("\n", " ")
+            BLOCK.append(f"[{s}] YASAK KELİME geçiyor: '{m.group(0)}' [DERS 59] — …{bag}…")
+
+# [DERS 60] HAVASIZ SAHADA YANMA KELİMESİ YOK — su kapısının (A9-g) eşi.
+YANMA = r"\b(flames?|fire|fiery|smoke|smoking|exhaust|plumes?|thrust|jets?|burn(s|ing)?|afterglow)\b"
+for s, k in kareler + i2v:
+    if not re.search(HAVASIZ, k, re.I):
+        continue
+    m = re.search(YANMA, k, re.I)
+    if m:
+        BLOCK.append(f"[{s}] HAVASIZ saha ama YANMA/İTKİ kelimesi var: '{m.group(0)}' [DERS 60] — "
+                     f"STAR DOCK 'plumes are invisible in vacuum' yazdı, ekranda turuncu alev ve asılı "
+                     f"duman çıktı. İniş yalnız etkisiyle yazılır: 'dust sprays outward in straight "
+                     f"ballistic lines and falls at once'")
+
+# [DERS 59] metin yasağı SAHADA OLMAYAN nesneyi adlandıramaz (§9 D-b'nin düzeltmesi).
+for s, k in kareler:
+    m = re.search(r"No readable text.*?(?:annotated by anyone|included\.)", k, re.S)
+    if not m:
+        continue
+    yasak_cumle = m.group(0)
+    govde = k.replace(yasak_cumle, " ")
+    yok = sorted({y for y in YUZEY_METIN if re.search(rf"\b{re.escape(y)}s?\b", yasak_cumle, re.I)
+                  and not re.search(rf"\b{re.escape(y)}s?\b", govde, re.I)})
+    if yok:
+        BLOCK.append(f"[{s}] metin yasağı SAHADA OLMAYAN nesneyi adlandırıyor: {', '.join(yok)} "
+                     f"[DERS 59 · 35] — DEEP STEP'in antik kuyusuna 'truck' buradan girdi. Yasak "
+                     f"yalnız bu karede GERÇEKTEN olan yüzeyleri sayar ya da yalnız 'on any surface' der")
+
+# [DERS 61] FARK = HAREKET — G(n) ile G(n+1) arasında eklenen yapı elemanı,
+# o klibin MOTION FOCUS'unda ADIYLA geçer. Ölçüldü: DEEP STEP'te kubbeler yalnız
+# G5'te vardı, MOTION FOCUS taban kayasını anlatıyordu → kubbe tek karede bitmiş
+# belirdi. STAR DOCK · STONE TOWER · BACK TO PLUMB aynı kök. Eleman adı ARA HÂL
+# bloğundan (AT THIS STAGE / STAGE) okunur; STRUCTURE tam hâli karşılaştırılmaz.
+# ⚠️ Liste BÜYÜK ve AYRIK elemanlardır. "wall · ring · tier · course · panel · tree"
+# ilk koşuda deponun en iyi filmlerinde (LAST HARBOR · DEEP END) tarif kelimesi
+# olarak geçti ve yanlış alarm verdi [DERS 10]; arıza büyük parçanın belirmesiydi.
+YAPI_ADI = (r"\b(domes?|cupolas?|chhatris?|arch(es)?|vaults?|storeys?|stor(y|ies)|towers?|spires?|"
+            r"roofs?|girders?|piers?|slabs?|cladding|cylinders?|truss(es)?|canop(y|ies)|staircases?|"
+            r"terraces?|parapets?|lintels?|gates?|tanks?|chimneys?|masts?|sails?|hulls?|funnels?|"
+            r"pylons?|kiosks?|pavilions?|balcon(y|ies)|bridges?|columns?|gantr(y|ies)|turrets?)\b")
+GECICI_ADI = r"\b(scaffold(ing)?|ramps?|formwork|props?|shoring|falsework|planks?|cradles?)\b"
+
+TASIYAN_FIIL = (r"\b(sets?|carr(y|ies)|lifts?|lowers?|places?|delivers?|brings?|rolls?|raises?|hoists?|"
+                r"swings?|seats?|stacks?|bolts?|fits?|assembles?|pulls?|tows?|draws?|unloads?|erects?|"
+                r"builds?|lays?|mortars?|beds?|winch(es)?)\b")
+
+def _asama(k):
+    m = re.search(r"AT THIS STAGE:?(.*?)(?:\n[A-Z][A-Z /]+:|\Z)", k, re.S) or \
+        re.search(r"(?:^|\n)STAGE:(.*?)(?:\n[A-Z][A-Z /]+:|\Z)", k, re.S)
+    return m.group(1) if m else ""
+
+def _kok(w):
+    w = w.lower()
+    if w.endswith("ss"):
+        return w
+    for a, b in (("ies", "y"), ("ches", "ch"), ("sses", "ss"), ("es", "e"), ("s", "")):
+        if w.endswith(a) and len(w) > len(a) + 1:
+            return w[: -len(a)] + b
+    return w
+
+def _adlar(t, desen=YAPI_ADI):
+    return {_kok(m.group(0)) for m in re.finditer(desen, t, re.I)}
+
+if usta and len(i2v) == len(gorsel):
+    for n, (s, k) in enumerate(i2v):
+        a, b = _asama(kareler[n][1]), _asama(kareler[n + 1][1])
+        if not a or not b:
+            continue
+        # G(n)'de GÖRÜNEN her şey: STRUCTURE tam hâli ve NEGATIVE hariç bütün prompt
+        # (funnel · bridge · hull ilk karede COMPOSITION/SITE'ta zaten duruyor — yeni değil).
+        _gn = re.sub(r"STRUCTURE:.*?(?=AT THIS STAGE)", " ", kareler[n][1], flags=re.S)
+        _gn = re.sub(r"NEGATIVE:.*", " ", _gn, flags=re.S)
+        mmf = re.search(r"(?:^|\n)MOTION FOCUS:(.*?)(?:\n\s*\n|\Z)", k, re.S)
+        if not mmf:
+            continue   # paragraf yokluğu §10e'de
+        # MF + I2V'de TAŞIYICI FİİLLİ cümle (son-kare kilidi cümlesi hariç): "Late in the shot a
+        # truck sets stacked arch segments on the quay" bir yöntemdir; "by the last frame the
+        # cupolas stand" değildir (DEEP STEP — kubbe yalnız LAST KEYFRAME satırındaydı).
+        _tasi = " ".join(c for c in re.split(r"(?<=[.;])\s+", k)
+                         if re.search(TASIYAN_FIIL, c, re.I)
+                         and not re.search(r"ends exactly on|last frame|by the end|LAST KEYFRAME", c, re.I))
+        mf = (_adlar(mmf.group(1)) | _adlar(mmf.group(1), GECICI_ADI) | _adlar(_tasi) | _adlar(_tasi, GECICI_ADI))
+        yeni = _adlar(b) - _adlar(_gn) - mf
+        giden = (_adlar(a, GECICI_ADI) - _adlar(b, GECICI_ADI)) - mf
+        if yeni:   # ⚠️ FIX: sezgisel — deponun en iyi filmlerinde de kelime farkıyla tetiklendi
+            FIX.append(f"[{s}] G{n + 1}'de YENİ eleman var, MOTION FOCUS'ta YOK: {', '.join(sorted(yeni))} "
+                         f"[DERS 61] — yöntemi yazılmayan eleman tek karede bitmiş belirir (DEEP STEP "
+                         f"kubbeleri). MOTION FOCUS onu kaynak → taşıyıcı → hedef diye anar; anamıyorsan "
+                         f"eleman bu klibe ait değildir, merdiven bölünür")
+        if giden:   # ⚠️ INFO: LAST HARBOR · DEEP END sökümü MF'siz yazdı ve tuttu — kapı silme FİİLİNDE
+            INFO.append(f"[{s}] G{n}'deki geçici ekipman G{n + 1}'de yok, sökümü MOTION FOCUS'ta adsız: "
+                        f"{', '.join(sorted(giden))} — taşıyan yazılı mı? [DERS 61]")
+
+# [DERS 61] silme FİİLİ yazılmaz — model 'vanish'i solarak yok etme diye okur.
+# Yalnız İNŞAAT NESNESİ öznesiyle ve örtme olmadan: "the grey disappearing behind
+# them" (VANISHING ROOM) · "its shadow vanishing" · "the bicycle frame vanishing"
+# (su altına) meşrudur ve geçer.
+SILME = r"\b(vanish(es|ed|ing)?|disappear(s|ed|ing)?)\b"
+SILME_OZNE = (YAPI_ADI[:-3] + r"|scaffold(ing)?|planks?|poles?|props?|ramps?|formwork|steel|tools?|"
+              r"debris|rubble|blocks?|stones?|bricks?|panels?|walls?|bundles?|pallets?|wheelbarrows?)\b")
+ORTME = r"^\W{0,3}\w*\W{0,3}(behind|under|beneath|below|into|inside)\b"
+for s, k in kareler + i2v:
+    for m in re.finditer(SILME, k, re.I):
+        onceki = k[max(0, m.start() - 80):m.start()]
+        if re.search(r"\b(no|never|nothing|without|not)\b[^.]*$", onceki, re.I):
+            continue
+        if re.search(ORTME, k[m.end():m.end() + 30], re.I):
+            continue
+        if not re.search(SILME_OZNE, onceki.split(".")[-1], re.I):
+            continue
+        BLOCK.append(f"[{s}] SİLME FİİLİ inşaat nesnesine: '{m.group(0)}' [DERS 61] — STONE TOWER 'poles, "
+                     f"planks… vanish' yazdı, STAR DOCK 'the open steel disappears'; ikisinde de nesne solarak "
+                     f"belirdi/kayboldu. Yerine taşıyan yazılır: 'workers carry the planks down the ramp and "
+                     f"stack them on the cart'")
+
+# [C2-g] MALZEME AKIŞI — I2V'de kaynak → taşıyan (usta kare klibi hariç: final ödülü işlevdir)
+KAYNAK = r"\b(pile|stack|stockpile|heap|truck|lorry|crates?|pallets?|bundles?|barge|trailer|cart|skip|rolls?)\b"
+for _j, (s, k) in enumerate(i2v):
+    if _j == len(i2v) - 1:
+        continue
+    if not any(re.search(KAYNAK, c, re.I) and re.search(TASIYAN_FIIL, c, re.I)
+               for c in re.split(r"(?<=[.;])\s+", k)):
+        FIX.append(f"[{s}] I2V'de görünür MALZEME AKIŞI yok [C2-g · SANTIYE_HAREKETI §4.8 ②] — kaynak (istif · "
+                   f"kamyon · sandık) → taşıyan → hedef; istif klipten klibe azalır")
 
 # ── 13. uzunluk ────────────────────────────────────────────────────────────
 for s, k in kareler:

@@ -12,7 +12,7 @@
 Sıra sabittir. Bir bloğu atlamak, modelin o bloğu kendi uydurması demektir.
 
 ```
-Photorealistic documentary construction photograph — Scene [N] of 10. Vertical
+Photorealistic documentary construction photograph — Scene [N] of 7. Vertical
 time-lapse of [yapı tipi] on [saha].
 Lens: [f]mm spherical, f/[X], ISO [X].
 Camera: [İSTASYON ADI] — fixed tripod bolted to [neye], lens [h] metres above
@@ -290,6 +290,44 @@ KAPI      prompt_kontrol.py §10e: paragraf yok → FIX · "from … onto" yok �
           ≥3 yapı elemanı adı → FIX ("birden fazla ana iş"). BLOCK değil — pilot
           filmde ölçülmedi. ⭐ Sahip kararı 19.09.2026: FIX KALIR; BLOCK'a
           çevirmek ancak pilot ölçümünden sonra yeniden sorulur.
+```
+
+### ⛔ FARK = HAREKET · YASAK KELİME · SİLME FİİLİ  [DERS 59-61 · 05.10.2026]
+
+```
+FARK = HAREKET   G(n+1)'in ara hâlinde olup G(n)'inkinde olmayan HER büyük eleman, o klibin
+                 MOTION FOCUS'unda ADIYLA geçer (kaynak → taşıyıcı → hedef). DEEP STEP'te
+                 kubbe yalnız G5'te vardı, MF taban kayasını anlatıyordu → kubbe tek karede
+                 bitmiş belirdi. Anamıyorsan eleman bu klibe ait değildir; merdiven bölünür.
+                 Kapı: §10f FIX (sezgisel — sahip kararı 19.09.2026 gereği MF kuralları FIX).
+
+YASAK KELİME     Künyede 'YASAK KELİME  a · b · c'. Listedeki kelime HİÇBİR promptta geçmez —
+                 NEGATIVE dâhil: "no crane", "invisible plumes", "not a truck" nesneyi çağırır
+                 [DERS 33 · 35 · 39'un genel hâli]. Vinçsiz film: crane · hoist · jib · derrick.
+                 Tarihi saha: truck · machinery · container. Havasız saha: flame · smoke ·
+                 exhaust · thrust · jet · plume (bunlar listede olmasa da kapı BLOCK'lar).
+                 Kapı: §10f BLOCK.
+
+METİN YASAĞI     "No readable text … anywhere in the frame, on any surface." YETER. Yüzey sayılacaksa
+                 yalnız O KAREDE GERÇEKTEN OLAN yüzeyler sayılır — sahada olmayan nesnenin adı
+                 BLOCK (DEEP STEP'in antik kuyusuna 'truck' buradan girdi).
+
+SİLME FİİLİ      'vanish · disappear' bir inşaat nesnesine (iskele · kalas · panel · çelik · moloz ·
+                 kubbe …) yazılmaz — model solarak yok eder ya da solarak getirir (STONE TOWER ·
+                 STAR DOCK). Yerine TAŞIYAN yazılır: "two workers carry the planks down the ramp
+                 and stack them on the cart". Örtme ("disappearing behind the boards") ve gölge
+                 serbesttir. Kapı: §10f BLOCK.
+
+TAŞIYICI DAYANAK Askı, tel, direk, rampa varsa DAYANAĞI kadraj içinde ve px konumuyla yazılır;
+                 yazılmazsa model taşıyıcıyı kadraj üstünden sarkan vinç kancası olarak tamamlar
+                 (GLASS CROSSING).
+
+FİNAL KLİBİ      ⭐ 4 sn OLAY + 4 sn TUTUŞ [C2-b]: işlev anı 1x'in 0-4 sn'sinde biter; I2V
+                 "from about four to eight seconds … stay … nothing else changes" ile tutuşu yazar
+                 (kapı arar). Model: THE DEEP END S6.
+                 TEK iş. Söküm ve toparlama önceki klip(ler)e bölünür; final klibi vaat edilen
+                 son hareketi ve ≥2,0 sn tutuşu taşır (2x paylaşımda ekranda 1,0 sn) — BACK TO
+                 PLUMB finaline üç iş yüklendi, bırakma anı 2x'te 1,25 sn kaldı.
 ```
 
 ---

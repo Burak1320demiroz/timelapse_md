@@ -126,6 +126,12 @@ YouTube için ne yapıyorsa, bu tablo Instagram için onu yapar.
 | Profil fotoğrafı | kare yüklenir, daire gösterilir | ✅ |
 | Reels azami süre | 3 dakika | ⚠️ ikincil kaynak (teslim süremiz için sorun değil) |
 | AI etiketi | Gelişmiş ayarlar → AI/dijital içerik | ⚠️ menü adı sık değişiyor · yüklerken bak |
+| "AI info" adı | 01.07.2024'ten beri ("Made with AI" yerine) · C2PA/IPTC okunur | ✅ 07.10.2026 Meta Newsroom |
+| Yapay zekâ profil etiketi | 31.08.2026: etiketsiz profillerin erişimi sınırlanır — **yalnız yapay zekâ ile üretilmiş KİŞİ içeren profiller** · "Creators who simply use AI tools … don't need to add the label" | ✅ 07.10.2026 creators.instagram.com · ⭐ bizim hesap KAPSAM DIŞI [A32-e] |
+| Trial Reels | herkese açık · profesyonel hesapta ≥ 200 takipçi · "Share to everyone automatically" | ✅ 07.10.2026 Instagram Help · açılışta YOK |
+| Özgünlük | filigranlı / başka yerde yayımlanmış / hızı değiştirilmiş içerik geri planda (2023 · 2024 · 30.04.2026) | ✅ 07.10.2026 about.instagram + TechCrunch |
+| Hashtag | gönderi başına ≤ 5 (18.12.2025) | ✅ Social Media Today · şablon 3–5 |
+| Sıralama sinyalleri | watch time · likes · sends (erişim başına) — bağlantısız erişimde gönderme ağır | ✅ Mosseri 22.01.2025 |
 
 ```
 ⛔ Bir sayı burada ⚠️ ise ona dayanarak KARAR VERİLMEZ, uygulamada

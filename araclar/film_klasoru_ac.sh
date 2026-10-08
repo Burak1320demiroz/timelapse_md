@@ -79,7 +79,7 @@ H=os.environ["HEDEF"]; S=os.environ["SAB"]; FMT=os.environ["FMT"]; FILM=os.envir
 N=int(os.environ["N"]); KLIP=int(os.environ["KLIP"]); CIZ=os.environ["CIZELGE"]=="1"
 K=(N+1)//2; SURE=N*KLIP; TOPLAM=SURE+5; B1=K*KLIP
 DK=FMT.split("_")[1]
-QA="BÖLÜM (iki yarım master × 12 mercek)" if DK in ("6","8") else "FİLM (tek master × 12 mercek)"
+QA="BÖLÜM (iki yarım master × 5 mercek)" if DK in ("6","8") else "FİLM (tek master × 5 mercek)"
 PART=(f"B1 = S0–S{K-1} · {K} klip · 0–{B1} s · kart YOK  ·  B2 = S{K}–S{N-1} + kart · {K} klip · {B1}–{TOPLAM} s — "
       f"QA her yarıya AYRI koşar; mod D merceklerine SPEC + \"THIS FILE IS PART n OF 2 — …\" beyanı; sınır G{K} elle kareyle (§7)"
       if DK in ("6","8") else "— (yalnız 6/8 dk hattı; bu formatta QA birimi FİLM)")
@@ -121,9 +121,9 @@ def cizelge():
     try: ders=sum(1 for l in open("kilavuzlar/DERSLER.md",encoding="utf-8") if re.match(r"^## DERS \d+",l))
     except Exception: pass
     rows.append(f"\n⭐ DERSLER.md: **{ders} ölçülmüş ders** — her biri 01_QA_DERS_HASADI §1'de ya kilit ya \"—\" alır.")
-    add("B · FORMAT KARTI VE DEPO KONTRATI", ["AGENTS.md", f"{FMT}/README.md", "QA/00_README.md", "QA/00_INDEX.md"])
-    add("C · QA RUBRİKLERİ — mercekler ne ölçer", sorted(glob.glob("QA/*_QA.md")))
-    add("D · ÖLÇÜLMÜŞ FİLM KAYITLARI (aynı yapı/saha ÖNCE)", sorted(glob.glob("QA/RAPORLAR/*.md")))
+    add("B · FORMAT KARTI VE DEPO KONTRATI", ["AGENTS.md", f"{FMT}/README.md", "QA/00_README.md", "QA/TABLO.md", "QA/ARSIV_12_MERCEK/00_ARSIV.md"])
+    add("C · QA RUBRİKLERİ — mercekler ne ölçer", sorted(glob.glob("QA/Q[1-5]_*.md")))
+    add("D · ÖLÇÜLMÜŞ FİLM KAYITLARI (aynı yapı/saha ÖNCE)", sorted(glob.glob("QA/FILMLER/[A-Z]*.md"))+sorted(glob.glob("QA/ARSIV_12_MERCEK/RAPORLAR/*.md")))
     planlar=sorted(glob.glob("dikey_shorts/*/*_DIKEY_TIMELAPSE.md"))+[p for p in sorted(glob.glob("yatay_*_dk_filmler/*/*_PLAN.md")) if not p.startswith(H+"/")]
     add("E · ÖNCEKİ PLANLAR — DEĞİŞMEZLER ve AŞAMA MERDİVENİ nasıl yazılmış", planlar)
     add("F · KANAL — film bittikten sonrası (paketleme yazılırken)", [p for p in ["apexait/KANAL_KIMLIGI.md","apexait/YAYIN_PLANI.md","apexait/CAPRAZ_YAYIN.md","apexait/youtube/PAKETLEME_SABLONU.md","apexait/youtube/POLITIKA_VE_RISK.md"] if os.path.exists(p)])

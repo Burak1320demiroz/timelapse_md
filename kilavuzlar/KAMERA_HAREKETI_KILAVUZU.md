@@ -211,6 +211,51 @@ BİZDE bunun karşılığı ŞUDUR:
    ölçüm sırası geldiğinde bu fark okunur.
 ```
 
+## 4.2 ⭐ S0 GERİ ÇEKİLME AÇILIŞI — yakın ayrıntıdan HOME'a  [C2-i · sahip isteği 05.10.2026]
+
+> Sahip önerisi: "başlarken kamera objenin yakınında olsun, sonra geriye çıksın ve yapım başlasın."
+> Kalıp: AYRINTI → ÖLÇEK. Yakın kadraj "bu ne?" sorusunu doğurur, geri çekilme cevabın bir kısmını
+> verip yeni merak açar; feed'de görünen ilk kare yakın olduğu için 120 px'te okunur.
+> ⛔ KATMAN 2'dir (kurgu kırpması), KATMAN 1 DEĞİL: I2V sabit kamerayla HOME'da üretilir, hareket
+> kurguda anahtar karelerle yapılır. Model geri çekilseydi klibin sonu G1'e oturmazdı (§1.1).
+> ⚠️ SEÇENEKTİR, zorunlu değil — her filmde aynı açılış şablona döner (§3.2 ③'ün filmler arası hâli).
+
+```
+İSTİSNA       §3.1 "her sahne HOME'da BAŞLAR" kuralının TEK istisnası S0'ın ilk karesidir:
+              filmin başı bir kesme değildir, dikiş yoktur [DERS 52 burada tetiklenmez].
+              ⛔ S0 yine HOME'da BİTER — S1'e yakın kadrajla girilmez.
+BÜYÜTME       başlangıç n× ≤ ölçülen TAVAN (§3.3). Tavan 1,00 ise bu açılış YAPILAMAZ — upscale
+              tavanı sağlamaz. Önerilen 1,5–1,8×; 2,0× üstü ayrıntıyı bağlamından koparır.
+HEDEF         AÇILIŞ NESNESİ'nin EN ANLATAN AYRINTISI (pas taçlı silo tepesi · paslı kapak
+              menteşesi · çimin kenarı) ve AÇILIŞ DÜZENİ ② DOKUNUŞ'un olduğu yer: eylem yakın
+              kadrajda BAŞLAR (0,3–0,8 sn · §4), ilk ses o ayrıntının sesidir.
+              ⛔ Kırpma dikdörtgeni kaynağın dışına taşamaz — hedef kenara yakınsa kompozisyon
+              (G0) düzeltilir.
+EĞRİ          ease-out: hızlı başlar, yavaş oturur — ilk kare DURAĞAN değildir.
+              1x: 0,0 → 2,5 sn içinde n× → 1,00× (2x paylaşımda ekranda ≈ 1,25 sn).
+              1,00×'a oturduktan sonra AÇILIŞ DÜZENİ ③ İPUCU ve ④ ÖLÇEK HOME'da oynar.
+IŞIK          §3.2 ⑤ (ışık değişen sahnede yakınlaşma yok) S0 geri çekilmesinde ASKIDADIR:
+              hareket 1x'in ilk ≤ 3,0 sn'sinde biter; rejim B'de bu ~15 dk'dır, gölge kaymaz.
+              ⛔ S0 rejim C ise (iş günü / 8 sn) geri çekilme YAPILMAZ.
+SES           §3.2 ⑥: geçiş sesi (whoosh) YOK — yalnız ayrıntının kendi sesi, sonra saha yatağı.
+KAPAK         değişmez — kapak yalnız GN'den (sahip 19.09.2026); geri çekilme kapağa taşınmaz.
+
+PLANA YAZILACAK (TESLİM YAPISI'nın altına, kelimesi kelimesine etiketlerle — kapı arar):
+   AÇILIŞ GERİ ÇEKİLMESİ   ✅ VAR  ya da  ⛔ YOK
+   KAYNAK ÇÖZÜNÜRLÜĞÜ      ____ × ____ (ffprobe · araç kapısı ⑨)  ya da  ⛔ ÖLÇÜLMEDİ
+   YAKINLAŞMA TAVANI       kaynak genişliği / 1080 = ____×
+   BÜYÜTME                 n,n× → 1,00×  ·  1x 0,0–n,n sn
+   HEDEF AYRINTI           <nesne + ayrıntı>  ·  ⛔ x/y pikseli G0 üretilmeden yazılmaz (§3.4)
+
+KAPI (prompt_kontrol.py §10f · yalnız 'AÇILIŞ GERİ ÇEKİLMESİ ✅ VAR' ise):
+   · BÜYÜTME · HEDEF AYRINTI · KAYNAK ÇÖZÜNÜRLÜĞÜ satırı yok → BLOCK
+   · KAYNAK ÇÖZÜNÜRLÜĞÜ ölçülmedi → FIX ("plan yazılabilir, ÜRETİM AÇILAMAZ" — kutu seti kalıbı)
+   · BÜYÜTME > TAVAN → BLOCK · BÜYÜTME > 2,0× → FIX · S0 rejim C → BLOCK
+İHRAÇ            ihrac_kontrol.sh elle maddesi: S0 HOME'da bitiyor mu (S1'in ilk karesi geniş)
+DENEY            IZLEYICI_DEFTERI AÇILIŞ sütununa "GÇ" (geri çekilme) / "SG" (sabit geniş) —
+                 KAYDIRMADI % karşılaştırması; üç filmde aynı yön → kural ya da düşer [S6].
+```
+
 ## 4.1 ⚠️ TERS AÇILIŞ — üçüncü kez önerildi, üçüncü kez alınmadı
 
 ```
@@ -318,6 +363,7 @@ KAPAK VE PAKETLEME    `MUZIK_VE_KAPAK §2 · §3` ve §4 (dördüncü kuşak eki
 
 ```
 ARAÇ KAPISI      ⑨ ÇÖZÜNÜRLÜK: ffprobe ile kaynak genişliği · tavan §3.3'ten
+                 (⭐ §4.2 S0 geri çekilme açılışının da ön koşulu)
                  hesaplanır ve üretim günlüğüne YAZILIR [`ARAC_KARTLARI §4`]
 ÜRETİM GÜNLÜĞÜ   her yakınlaşan klip için: büyütme · anahtar kare saniyeleri ·
                  HOME dönüşünde çapa kayması (px) · son kare ↔ G(n+1) zincir

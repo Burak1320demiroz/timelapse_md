@@ -24,6 +24,8 @@ apexait/
 │                            siluet sırası · açılış · film havuzu · ölçüm
 ├── CAPRAZ_YAYIN.md       ⭐ ÜÇÜNDE DE AYNI — tek master · filigran yasağı ·
 │                            metadata · güvenli alan zarfı · yükleme sırası
+├── IZLEYICI_DEFTERI.md   7. gün sayıları · QA ↔ izleyici · paylaşım ve yorum türü
+├── TUR_HARITASI.md       dış vaka havuzu 2025–2026 · vaka defteri [A30 · 07.10.2026]
 │
 ├── youtube/              POLITIKA_VE_RISK.md · PAKETLEME_SABLONU.md
 ├── instagram/            HESAP_KIMLIGI.md   · PAKETLEME_SABLONU.md

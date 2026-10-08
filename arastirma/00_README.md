@@ -19,7 +19,7 @@
 
 # 1. 🎯 PROMPTLAR NEDEN BUNLAR
 
-Konular hevesten değil, **QA/RAPORLAR'daki ölçülmüş arızalardan** doğdu.
+Konular hevesten değil, **QA/ARSIV_12_MERCEK/RAPORLAR'daki ölçülmüş arızalardan** doğdu.
 Her prompt bir hükmün karşısına konmuştur:
 
 | # | Dosya | Karşıladığı ölçülmüş arıza | Kaynak |
@@ -76,6 +76,21 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | P6 | `SONUCLAR/P6_THE_LAST_CIRCLE_OKUMA_HAM.md` | insan · uzman okuması | 17.09.2026 · YAZILMAMIŞ planı okudu | evet (P3-a…P3-i) — ⛔ bir kılavuz maddesini DÜZELTTİ |
 | P7 | `SONUCLAR/P7_THE_BORROWED_HILL_OKUMA_HAM.md` | insan · uzman okuması | 17.09.2026 · YAZILMAMIŞ planı okudu | evet (P4-a…P4-i) — ⭐ bir HESAP HATASI yakaladı |
 | A19 | ⚠️ İSTENMEDİ · `SONUCLAR/A19_KAMERA_DILI_HAM.md` (kökten taşındı) | ⛔ beyan edilmedi | 20.09.2026 · ⭐ kaynakça ÇEKİLDİ: 11'in 10'u iddiaya ait · 8 sayının 8'i tuttu · yarısı fiziksel kamera | ✅ → KAMERA_DILI_KILAVUZU · denetim `A19_DENETIM.md` (yeni sayı yok, iki formül) |
+| A20 | ✅ koşuldu · `SONUCLAR/A20_GEMINI_HAM.md` | Gemini DR (tahmin) | 06.10.2026 · ⭐ Gem/proje dosyaları her sohbete girer ✅ · "sıcaklık 0 deterministik" ⚠️ | ✅ → QA_KOSU_KILAVUZU · denetim `A20-A24_DENETIM.md` |
+| A21 | ✅ koşuldu · `SONUCLAR/A21_GEMINI_HAM.md` | Gemini DR (tahmin) | 06.10.2026 · 1 fps dokümanı ✅ · benchmark tablosunun yarısı yanlış makale · `-t 27` düşük kontrastta 3/6 | ✅ → QA_OLCUM_ZEMINI_KILAVUZU |
+| A22 | ✅ koşuldu · `SONUCLAR/A22_GEMINI_HAM.md` | Gemini DR (tahmin) | 06.10.2026 · en temiz: 8 atfın 6'sı ✅ · mikro-ortalama ve iskelet inmedi | ✅ → RUBRIK_YAZIM_KILAVUZU |
+| A23 | ✅ koşuldu · `SONUCLAR/A23_GEMINI_HAM.md` | Gemini DR (tahmin) | 06.10.2026 · 10 tohumlama komutunun 5'i düzeltildi · güç 28 → 29–30 | ✅ → QA_KALIBRASYON_KILAVUZU |
+| A24 | ✅ koşuldu · `SONUCLAR/A24_GEMINI_HAM.md` | Gemini DR (tahmin) | 06.10.2026 · en zayıf kaynakça (8'in 2'si ✅) · FDA Q15 → Q12 · YAML enjeksiyonu inmedi | ✅ → QA_KAYIT_KILAVUZU |
+| A25 | ✅ koşuldu · `SONUCLAR/A25_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · ⭐ en sağlamı: 7 YouTube kuralı ✅ · tutma yüzdeleri pazarlama · yapı çizelgesi kuramdan | ✅ → UZUN_FORM_ANLATI_KILAVUZU · denetim `A25-A29_DENETIM.md` |
+| A26 | ✅ koşuldu · `SONUCLAR/A26_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · EST yorumu ölçümle ters (Magliano & Zacks) · prompt şablonu bizim geometriye uymadı · ConsiStory numarası ❌ | ✅ → ISTASYON_VE_IC_MEKAN_KILAVUZU |
+| A27 | ✅ koşuldu · `SONUCLAR/A27_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · yansıma tablosu 12/12 ✅ · ⭐ BİZİM bant hesabımızı düzeltti · VideoPhy-2 %47,7 ❌ · Beaufort eşiği ❌ | ✅ → SU_VE_YANSIMA_KILAVUZU |
+| A28 | ✅ koşuldu · `SONUCLAR/A28_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · alacakaranlık 9/9 ✅ (referans yanlış etiketli) · NegT2IBench gerçek, sayısı karışık ⚠️ | ✅ → ISIK_FINALI_KILAVUZU |
+| A29 | ✅ koşuldu · `SONUCLAR/A29_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · yol iyi · matris yüzdeleri kaynaksız · iki atıf başlığı uydurma · LPIPS eşiği sınanmadı | ✅ → ONARIM_VE_YENIDEN_URETIM_KILAVUZU |
+| A30 | ✅ koşuldu · `SONUCLAR/A30_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · ⛔ havuz kurulamadı: 26 vaka, ≥1 M yapay zekâ dikey 0 · tablo metinle ters · 3 makale atfı başka konu · 6/11 vaka ✅ | ✅ → apexait/TUR_HARITASI (harita ÇIKMADI kaydı) · denetim `A30-A34_DENETIM.md` |
+| A31 | ✅ koşuldu · `SONUCLAR/A31_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · tanımlar çoğunlukla ✅ · "%40–50 kaydırma" eşiği anonim forum ❌ · Shorts'ta A/B yok ✅ · Trial Reels 200 takipçi | ✅ → IZLEYICI_DEFTERI §1b · CAPRAZ_YAYIN §1.1 · §2 · §4.1 |
+| A32 | ✅ koşuldu · `SONUCLAR/A32_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · ⭐ politika alıntıları birebir · "şablon görünümü" metni · C2PA etiketi değiştirilemez · iki akademik atıf yanlış yazar/N | ✅ → POLITIKA_VE_RISK §1.1b · §2 · §5 · §6 |
+| A33 | ✅ koşuldu · `SONUCLAR/A33_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · en zayıf kaynakça (16'nın 3'ü ✅) · Berger & Milkman mekanizması tekrarda tutmadı · ⛔ kasıtlı hata önerdi | ⚠️ kısmen → KILAVUZ_REHBERI §6 ⛔ yorum tuzağı · IZLEYICI_DEFTERI §4 · puanlama kartı İNMEDİ |
+| A34 | ✅ koşuldu · `SONUCLAR/A34_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · vidIQ iki çalışma ✅ (korelasyon) · ⭐ YPP 01.02.2027 değişikliği · "format-aware" ve sinyal ağırlıkları blog ❌ · takvim öncülünü bozdu | ✅ → YAYIN_PLANI §1 · §2 · §4.1 ⬜ · §6.3 · POLITIKA §5.1 |
 
 ```
 ⭐ DÖRDÜNCÜ KUŞAK BAŞKA TÜRLÜ GELDİ — 17.09.2026
@@ -122,7 +137,7 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 3. BEKLE      bot raporu üretsin (10-40 dk sürebilir)
 4. KAYDET     gelen HAM çıktı → arastirma/SONUCLAR/A<n>_<BOT>_HAM.md
               ⛔ düzenleme · kısaltma · özetleme YOK — bu kanıttır
-              (QA/HAM_RAPORLAR ile aynı disiplin)
+              (QA/ARSIV_12_MERCEK/HAM_RAPORLAR ile aynı disiplin)
 5. AJANA VER  "arastirma/SONUCLAR/ okundu, kılavuzlara indir" de
 ```
 
@@ -190,5 +205,29 @@ arastirma/
 ├── SONUCLAR/A19_KAMERA_DILI_HAM.md  viral timelapse kamera/çekim rehberi (19 bölüm · 8 prompt)
 ├── SONUCLAR/A19_DENETIM.md       ⭐ 11 kaynağın 10'u açıldı · 8 sayı tuttu · katsayı formülü
 │                                   rejim tablosunu bağımsız üretti · tiltli kadraj açığı
+│
+│   ── beşinci kuşak · 06.10.2026 yazıldı ve koşuldu · QA denetiminden doğdu · altı cümle ──
+├── A20_DEGERLENDIRICI_GIRDISI.md  kör koşu · girdi manifestosu · yanlış belge · eksik koşu
+├── A21_OLCUM_ZEMINI.md           ⭐ süre · hız · kesme makinede ölçülür, modele olgu verilir
+├── A22_RUBRIK_TASARIMI.md        çapa · 10'un kanıtı · birleştirme · çift sayım · koşullu kategori
+├── A23_HAKEM_GUVENILIRLIGI.md    test-tekrar · tohumlanmış kusur seti · QA ↔ izleyici
+├── A24_KAYIT_VE_IZLENEBILIRLIK.md tek kaynak · durum modeli · ad şeması · uzlaştırma
+├── SONUCLAR/A20-A24_DENETIM.md   ⭐ 61 atıf çekildi · 14 komut koştu · 8 çelişki · beş kılavuz
+│
+│   ── altıncı kuşak · 07.10.2026 yazıldı ve koşuldu · THE SLOW TAKEOFF yazımından doğdu · altı cümle ──
+├── A25_UZUN_FORM_ANLATI.md       yatay 2–8 dk · ilk sonuç · merak zinciri · yeniden kanca · tutma eğrisi
+├── A26_ISTASYON_VE_IC_MEKAN.md   ikinci sabit kamera · ortak çapa · paralel zaman · iç mekân dili
+├── A27_SU_VE_YANSIMA.md          su kotu kilidi · tanık çizgi · yansıma geometrisi · su üstünde taşıt
+├── A28_ISIK_FINALI.md            mavi saat zamanı · ışık defteri · yanma sırası · hale/bloom
+├── A29_ONARIM_VE_YENIDEN_URETIM.md ⭐ QA hükmü → onarım eylemi · dikiş güvenliği · sürüm kaydı
+├── SONUCLAR/A25-A29_DENETIM.md   ⭐ 33 atıf çekildi (20 ✅ · 8 ⚠️ · 5 ❌) · 4 hesap bu makinede · bizim yansıma hatamız düzeldi
+│
+│   ── yedinci kuşak · 07.10.2026 yazıldı ve koşuldu · VİRAL 2026 — kanal yayına çıkmadan · altı cümle ──
+├── A30_TUR_HARITASI_2026.md      ⭐ 2025–2026 YZ timelapse vaka havuzu · alt tür doygunluğu · üst çeyrek ↔ medyan
+├── A31_PLATFORM_SINYALLERI_2026.md metrik sözlüğü · resmi öneri sinyalleri · çapraz yayın · test araçları
+├── A32_YZ_POLITIKA_VE_GUVEN_2026.md inauthentic content uygulaması · beyan kartları · "AI slop" · itiraz kanıtı
+├── A33_PAYLASILABILIRLIK.md      huşu · tatmin · şüphe → konu, açılış, bedel, işlev anı · yorum taksonomisi
+├── A34_KANAL_BUYUMESI_2026.md    ⭐ soğuk başlangıç · 37 filmlik stokun sırası · 90 gün takvimi · karar eşikleri
+├── SONUCLAR/A30-A34_DENETIM.md   ⭐ 84 atıf çekildi (32 ✅ · 32 ⚠️ · 18 ❌ · 2 ⬜) · A30 tablosu yeniden sayıldı · tiktok §5 bayattı
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```

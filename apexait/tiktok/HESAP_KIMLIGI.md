@@ -103,22 +103,29 @@ NE ZAMAN: her videoda
 
 ---
 
-# 5. 💰 PARA — ⭐ teslim yapısı eşiği ZATEN geçiyor
+# 5. 💰 PARA — ⛔ 2x teslim eşiğin ALTINDA (düzeltildi 07.10.2026)
 
 ```
 Creator Rewards Program koşulları (⚠️ hepsi §6'da doğrulanacak):
    · 10.000 takipçi
    · son 30 günde 100.000 izlenme
    · 18 yaş+
-   · ⛔ VİDEO EN AZ 1 DAKİKA — altındakiler ödeme almaz
+   · ⛔ VİDEO 1 DAKİKADAN UZUN — yasal metin "at least 1 minute" (20.07.2026),
+     Creator Academy "over 1 minute" ✅ 07.10.2026
+   · ⛔ dışlananlar (resmî): "minimal original input or edits" · "slide videos"
+     · ⚠️ yapay zekâ içeriği resmî metinde DIŞLANMIYOR ("tamamen yapay zekâ ödeme
+       almaz" iddiası blogdan, yanlış — A30-A34_DENETIM §3)
    · ⚠️ yalnız belirli ülkeler (listede Türkiye GÖRÜNMÜYOR — doğrula)
 
-⭐ SÜRE ŞARTI GEÇİLİYOR — ve tesadüfen değil:
-   KILAVUZ_REHBERI §2.1 teslim yapısı = sahne bloğu + kapak kartı.
-   Toplam, 1 dakikanın RAHATÇA üstünde. Kapak kartı (DERS 4) bir paketleme
-   kalemi olarak eklenmişti; TikTok'un süre eşiğini de o taşıyor.
-   Bir kararın iki ayrı yerde işe yaraması, o kararın doğru olduğunun
-   ucuz ama gerçek bir işaretidir.
+⛔ SÜRE ŞARTI ARTIK GEÇİLMİYOR [Ç10 · A30-A34_DENETIM §7]:
+   Bu bölümün eski hâli "sahne bloğu + kapak kartı 1 dakikanın rahatça üstünde"
+   diyordu — o hesap 60 saniyelik dikey yapıya aitti. 05.10.2026'dan beri dikey
+   film 7 × 8,0 = 56 sn üretilir ve 2x'te ≈ 32 sn paylaşılır (sahip kuralı).
+   ≈ 32 sn < 60 sn → dikey film TikTok'ta Creator Rewards'a GİREMEZ.
+   Aşağıdaki "filmi eşiğe uydurma" kuralı tam bu durum için yazılmıştı:
+   ⇒ TikTok bu kanal için ERİŞİM ayağıdır; para ayağı YouTube'dadır.
+   ⬜ Seçenek (sahip kararı · denetim §8 K2): TikTok'a 1x master (56 sn + kart) —
+      eşik "over 1 minute" olduğu için o da SINIRDA; ffprobe ölçmeden karar yok.
 
 ⛔ AMA ÖLÇMEDEN GÜVENME. KILAVUZ_REHBERI §2.3 zaten şart koşuyor:
    klip süresi varsayılmaz, ffprobe ile ölçülür. Sahne başına 6,0 yerine
@@ -145,15 +152,19 @@ KALAN İKİ ŞART
 | Video çözünürlüğü | 1080 × 1920 (9:16) | ✅ 30.08.2026 |
 | Biyografi uzunluğu | ~80 karakter | ⚠️ doğrula — uygulamada say |
 | AIGC etiketi | paylaşım ekranında anahtar | ⚠️ menü adı değişiyor · yüklerken bak |
-| Otomatik AI etiketi | C2PA ile uygulanır, kaldırılamaz | ⚠️ ikincil kaynak |
+| Otomatik AI etiketi | C2PA ile uygulanır · "you won't be able to remove the label" · 09.05.2024'ten beri | ✅ 07.10.2026 TikTok Support + Newsroom |
+| AI etiketi ↔ etkileşim | Creator Academy: etiket etkileşimi etkilemez · ⚠️ izleyici 11/2025'ten beri yapay zekâ içeriğini AZALTABİLİR (Manage Topics) | ✅ 07.10.2026 |
+| For You uygunluğu | kopya / yeniden kullanılmış içerik ve "Tricking others into increasing engagement" FYF'ye girmez | ✅ 07.10.2026 Community Guidelines |
+| Bio linki | ≥ 1.000 takipçi ya da doğrulanmış işletme hesabı | ✅ 07.10.2026 TikTok Support |
 | Creator Rewards | 10.000 takipçi + 100.000 izlenme/30 gün | ⚠️ ikincil kaynak |
-| Creator Rewards — süre | video ≥ 1 dakika | ⚠️ ikincil kaynak · teslim yapımız üstünde (§5) |
+| Creator Rewards — süre | video 1 dakikadan uzun | ✅ 07.10.2026 resmî · ⛔ 2x teslimimiz (≈ 32 sn) ALTINDA (§5) |
 | Creator Rewards — ülke | sınırlı liste · TR görünmüyor | ⚠️ ikincil kaynak · uygulamadan bak |
 
 ```
-⛔ §5'teki KARAR, bu tablodaki iki ⚠️ satıra dayanıyor (süre ve ülke).
-   İkisi de uygulamadan doğrulanana kadar karar GEÇİCİDİR.
-   Yanlış çıkarsa değişen tek şey para ayağıdır; film değişmez.
+⛔ §5'teki KARAR, bu tablodaki iki satıra dayanıyor (süre ve ülke).
+   ⭐ 07.10.2026: süre satırı resmî kaynaktan doğrulandı ve kararı ERİŞİM ayağına çevirdi.
+   Ülke satırı hâlâ ⚠️ — ama süre şartı tutmadığı için artık kararı değiştirmez.
+   Değişen tek şey para ayağıdır; film değişmez.
 ```
 
 ---
@@ -213,9 +224,9 @@ KULLANIM
 ```
 □ @apexait TikTok'ta alındı mı  (üçünde aynı handle şart)
 □ Biyografi karakter sınırı uygulamada sayıldı mı (§6)
-□ ⛔ Creator Rewards süre ve ülke şartı doğrulandı mı (§6) — §5 kararı buna bağlı
+□ ✅ Creator Rewards süre şartı doğrulandı (07.10.2026) — 2x teslim ALTINDA · ülke şartı ⚠️ (§6)
 □ İlk yüklemede AIGC anahtarının menüdeki adı bu dosyaya yazıldı mı (§4)
 □ Kapak = başlıklı kart / ilk kare = S0 kazısı — loop menteşesi
   varsayımı üç filmde ölçüldü mü (§3.1)
-□ ⛔ TESLİM süresi ffprobe ile ölçüldü mü — 1 dakikanın üstünde mi (§5)
+□ ⛔ TESLİM süresi ffprobe ile ölçüldü mü — 1x master seçeneği (§5 ⬜) yalnız ölçümle konuşulur
 ```

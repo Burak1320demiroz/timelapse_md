@@ -26,7 +26,7 @@
 | **Kamera** | MAIN STATION — tek istasyon, tilt 0, 24 sahne + usta kare. Yatay formül: **yüzde(y) = 50 + 118,5·(y − h)/D** (alt kenardan) · taç %82 için **D = (H − h)/0,27** (dikeyde 0,48 — 1,8 kat uzak) · x(m) → **%50 + 66,7·x/D** (soldan). Detay istasyonu ≤ 2 klip, üç koşul [KAMERA_ISTASYONU §1] |
 | **Işık günü** | ⛔ Kesmede ışık atlamaz [§2.7 ①] → Σ rejim penceresi (A 10 dk · B 2 h) ≤ **14 saat**, tek gün 06:00 → 20:00; gece yalnız sahibin kararıyla [ZAMAN_VE_ISIK §5]. 24 sahnede: rejim A ağırlıklı: ≤ 5 × B (10 h) + 19 × A (3,2 h) = 13,2 h — B klipleri doruk ve kış sahnelerine. Takvim (haftalar/aylar) SAHADAN okunur, ışıktan değil [P1-c] |
 | **Aşama merdiveni** | 24 satır — inşa sırası uydurulmaz (`YAPI_TIPI_KARTLARI`); sahne arttıkça aşama İNCELİR (ara hâl %25 / %50 / %75 satır olur — `INSAAT_YONTEMI` §2), yapı büyümez · kış İKİ sahne [DERS 7] · üç zorunlu satır KANIT · LOOP · SÖKÜM |
-| **QA birimi** | FİLM — on iki mercek TEK master'a bir kez · ham `QA/HAM_RAPORLAR/<FILM>/<FILM>_<n>_<MERCEK>_HAM.md` |
+| **QA birimi** | FİLM — beş mercek (❶–❺) TEK master'a, her biri ayrı geçici sohbette (`bash araclar/qa_paket.sh`) · ham `QA/HAM/<FILM>/<FILM>_Q<n>_<AD>_HAM.md` · kayıt `QA/FILMLER/<FILM>.md` · tablo `QA/TABLO.md` |
 | **Müzik** | 120 BPM · ölçü 2,0 s · 5 ölçü/sahne · kesmeler 10,0 · 20,0 · … · 230,0 · müziksiz pencere S0'da · süre 245,0 s [MUZIK_VE_KAPAK §1] |
 
 ```bash
@@ -49,7 +49,7 @@ Klasör ELLE açılmaz, betikle açılır (bölüm sayısı formattan gelir = 2)
 yatay_4_dk_filmler/<FILM_ADI>/
 ├── 00_ANALIZ/                     yazımdan ÖNCEKİ iş — altı adım, bitmeden PLAN yazılmaz
 │   ├── 00_HIKAYE_ONAYI.md         ⭐ sahip okur: VAAT · DİRENÇ · BEDEL · 24 sahne satırı · ONAY tarihli
-│   ├── 00_OKUMA_CIZELGESI.md      betikten: kılavuzlar · DERSLER · QA/RAPORLAR · rubrikler
+│   ├── 00_OKUMA_CIZELGESI.md      betikten: kılavuzlar · DERSLER · QA/ARSIV_12_MERCEK/RAPORLAR · rubrikler
 │   ├── 01_QA_DERS_HASADI.md       bu filme düşen DERS kilitleri + QA arızaları
 │   ├── 02_KONSEPT_VE_RISK.md      konsept kapısı (VAAT/DİRENÇ/BEDEL) · yapı + saha kartı · kamera hesabı · vinç · ışık günü
 │   ├── 03_SAHNE_SIRALAMASI.md     inşa sırası → 24 satır · monoton büyüme · rejim toplamı · bölüm sınırı
@@ -115,6 +115,5 @@ film oraya kırpılmaz — kadraj hesabı, güvenli alan ve ızgara farklıdır 
 
 ## 🎞️ FİLMLER
 
-Film listesi burada tutulmaz — `QA/00_INDEX.md` tek sayaçtır (`bash araclar/sayac.sh`).
-Bu klasörde henüz film yok; ilk film kart A ile (`00_ANALIZ/00_HIKAYE_ONAYI.md` onaylanmadan
-dosya yazılmaz) açılır.
+Film listesi burada tutulmaz — `QA/TABLO.md` tek sayaçtır (`bash araclar/sayac.sh`); 12 mercekli eski ölçümler `QA/ARSIV_12_MERCEK/00_ARSIV.md`.
+Yeni film kart Y2 ile açılır (`00_ANALIZ/00_HIKAYE_ONAYI.md` onaylanmadan dosya yazılmaz).

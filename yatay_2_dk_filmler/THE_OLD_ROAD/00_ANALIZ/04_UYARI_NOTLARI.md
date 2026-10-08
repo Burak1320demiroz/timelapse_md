@@ -50,7 +50,7 @@
 ## 4. 📋 BU DEPONUN TEKRAR EDEN ARIZALARI — her filmde tek tek cevaplanır
 
 > ⛔ **"Bu filmde yok" cevabı GEREKÇE ister.** Boş bırakılan satır "bakılmadı" demektir.
-> Kaynak: `DERSLER.md` + `QA/00_INDEX.md` film blokları. Tablo BÜYÜR — yeni koşu yeni tekrar
+> Kaynak: `DERSLER.md` + `QA/ARSIV_12_MERCEK/00_INDEX.md` film blokları. Tablo BÜYÜR — yeni koşu yeni tekrar
 > eden arıza bulursa satır ŞABLONA eklenir, tek filme değil.
 
 | # | tekrar eden arıza | kaynak | bu filmde durumu | önlem |

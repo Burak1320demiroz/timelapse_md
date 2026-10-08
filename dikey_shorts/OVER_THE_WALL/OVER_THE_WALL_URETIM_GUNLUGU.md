@@ -5,7 +5,7 @@ DURUM   ⛔ BOŞ — araç kapısı KOŞULMADI · bu günlüğe tek satır yazı
         ⛔ 14.09.2026: FİLM BU GÜNLÜK TUTULMADAN ÜRETİLDİ ve 12 mercekle ölçüldü [DERS 28 · üçüncü kez].
            Kurgu 7 klip (7,8·8,0·10,7·10,0·8,0·13,0·6,0), hiçbir plan sürümüne oturmuyor; hangi araç, hangi
            prompt, zincir koşuldu mu — BİLİNMİYOR. Aşağıdaki tablolar o üretim için DOLDURULAMAZ (sonradan
-           hatırlanarak yazılmaz). Sonuç: QA/RAPORLAR/OVER_THE_WALL.md · ham: QA/HAM_RAPORLAR/OVER_THE_WALL/
+           hatırlanarak yazılmaz). Sonuç: QA/ARSIV_12_MERCEK/RAPORLAR/OVER_THE_WALL.md · ham: QA/ARSIV_12_MERCEK/HAM_RAPORLAR/OVER_THE_WALL/
 KURAL   her satır ÜRETİRKEN yazılır, sonradan hatırlanarak değil [DERS 28]
         bu dosya yoksa ya da §0 boşsa araclar/qa_paket.sh durur
 ```

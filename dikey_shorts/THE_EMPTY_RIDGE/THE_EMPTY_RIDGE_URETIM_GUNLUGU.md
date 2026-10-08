@@ -5,7 +5,7 @@ DURUM   ⛔ BOŞ — araç kapısı KOŞULMADI · ön görselleştirme ÇİZİLM
         ⛔ 14.09.2026: FİLM BU GÜNLÜK TUTULMADAN ÜRETİLDİ ve 12 mercekle ölçüldü [DERS 28 · dördüncü kez].
            Kurgu 8 klip varyanslı (4,9·3,6·6,3·7,0·10,0·8,1·7,9·8,0), plana oturmuyor; ① dört istasyon grubu +
            push-in. Hangi araç, hangi prompt, zincir koşuldu mu — BİLİNMİYOR. Tablolar o üretim için
-           DOLDURULAMAZ. Sonuç: QA/RAPORLAR/THE_EMPTY_RIDGE.md · ham: QA/HAM_RAPORLAR/THE_EMPTY_RIDGE/
+           DOLDURULAMAZ. Sonuç: QA/ARSIV_12_MERCEK/RAPORLAR/THE_EMPTY_RIDGE.md · ham: QA/ARSIV_12_MERCEK/HAM_RAPORLAR/THE_EMPTY_RIDGE/
            Yeniden üretimden ÖNCE plana üç düzeltme girer (DERS 55 · 56 · 57 — RAPORLAR §9).
 KURAL   her satır ÜRETİRKEN yazılır, sonradan hatırlanarak değil [DERS 28 — üç filmde ölçüldü]
         bu dosya yoksa ya da §0 boşsa araclar/qa_paket.sh durur

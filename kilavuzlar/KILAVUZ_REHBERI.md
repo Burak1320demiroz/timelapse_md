@@ -70,7 +70,7 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
                                   taşıyıcı · ③ nereye oturuyor · ④ klip sonunda ne değişti
                                   · ⑤ sabit kalanlar → I2V MOTION FOCUS paragrafı
    ⛔ Beş sorusu cevaplı olmayan sahnenin promptu yazılmaz (kart A adım 7b · Y2 adım 3).
-   ⚠️ Kaynak QA/QA_CAPRAZ_ANALIZ/ (sayılar: araclar/capraz_sayim.py) — ölçülmedi,
+   ⚠️ Kaynak QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/ (sayılar: araclar/capraz_sayim.py) — ölçülmedi,
       DERSLER.md ÇAPRAZ ANALİZ bölümünde VARSAYIM (C1-a…h); kapı FIX, BLOCK değil.
 
 ── ⭐ 20.09.2026 · A19 DIŞ RAPORUNDAN DOĞAN TEK KILAVUZ — istasyondan ÖNCE ──
@@ -81,6 +81,16 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
    ⛔ tilt ≠ 0 olan her planda (aşağı bakış ailesi) §3 formülü zorunlu; tilt 0'da §3 gereksiz.
    ⚠️ Kaynak A19 — prompt YOK ama kaynakça ÇEKİLDİ (11'in 10'u iddiaya ait);
       denetim arastirma/SONUCLAR/A19_DENETIM.md · yeni SAYI inmedi, iki formül indi.
+
+── ⭐ 07.10.2026 · A25–A29 ARAŞTIRMASINDAN DOĞAN BEŞ KILAVUZ — koşullu okunur ──
+□ UZUN_FORM_ANLATI_KILAVUZU.md     ⭐ her YATAY filmde: merak zinciri (§3) · yeniden kanca (§4) · final
+                                  ve son ekran (§6) · yayından sonra eğri → sahne (§7)
+□ ISTASYON_VE_IC_MEKAN_KILAVUZU.md ikinci sabit kamera ya da iç mekân istendiğinde — dört şart (§0)
+□ SU_VE_YANSIMA_KILAVUZU.md        suyun kotu değişen ya da yansıma yazılan her filmde — SU KOTU DEFTERİ
+□ ISIK_FINALI_KILAVUZU.md          final mavi saatte ya da yapının ışıklarıyla bitiyorsa — IŞIK DEFTERİ
+□ ONARIM_VE_YENIDEN_URETIM_KILAVUZU.md QA raporu geldikten sonra (AGENTS kart R adım 10)
+   ⚠️ Kaynak A25–A29 — kaynakça ÇEKİLDİ (33 satır: 20 ✅ · 8 ⚠️ · 5 ❌); denetim
+      arastirma/SONUCLAR/A25-A29_DENETIM.md · inen sayılar bu makinede yeniden hesaplandı.
 ```
 
 ```
@@ -129,6 +139,21 @@ burada kadrajın boş olduğu yer (üst) tam da yapının büyüdüğü yerdir.
 > 12 · 24 · 36 · 48 sahne × 10,0 s; iskelet `FILM_KLASOR_SABLONU/`, betik `araclar/film_klasoru_ac.sh`.
 
 ## 2.1 ⛔ TESLİM YAPISI — her planda beyan edilir
+
+> ⛔ **05.10.2026 · SAHİP KURALI — DİKEY SHORTS KESİN 7 SAHNE [DERS 58].** Aşağıdaki
+> 10 × 6,0 kutusu ve §2.3–§2.6 TARİHÇEDİR; yeni dikey plan şu yapıyla yazılır:
+>
+> ```
+> IZGARA         7 sahne × 8,0 sn = 56,0 sn          ← künyede kelimesi kelimesine (kapı arar)
+> SAHNE BLOĞU    7 sahne × 8,0 sn = 56,0 sn          ← QA merceklerinin konusu · usta kare G7 · 7 I2V
+> KAPAK KARTI    ⛔ YOK  ya da  1 kart × N,N sn       ← plan ne derse ihraç onu ölçer [DERS 63]
+> MÜZİK          ⛔ YOK — diegetik ses yatağı         ← sahip kuralı 21.09.2026
+> YASAK KELİME   crane · hoist · …  ya da  — (yok)   ← hiçbir promptta, negatifte bile [DERS 59]
+> PAYLAŞIM       2x — ~28,0 sn sahne bloğu (+kart)   ← üretim 1x; QA ve ihraç --hiz 2 ile koşar
+> ```
+> Brief 6 ya da 8 sahne verirse plan yine 7 ile yazılır ve bu sahibe söylenir.
+> `prompt_kontrol.py` §10f dikeyde 7 dışını, 8,0 dışını, künye satırı eksikliğini,
+> günlüksüz klasörü ve PİLOT ÜÇLÜ'süz planı BLOCK'lar.
 
 ```
 SAHNE BLOĞU    10 sahne × 6,0 sn = 60,0 sn    ← QA merceklerinin konusu
@@ -199,7 +224,7 @@ KURAL   en az İKİ sahne KISA · en az BİR sahne UZUN
 > `prompt_kontrol.py`'nin "süreler eşit" FIX'i sahip beyanlı düz ızgarada
 > BEKLENENDİR: düzeltilmez, plana kabul edilmiş risk olarak yazılır.
 > ⚠️ Bu okuma dış değerlendirmeden geldi ve ÖLÇÜLMEDİ — izleyici deney planının
-> 3-4. adımı (QA/QA_CAPRAZ_ANALIZ/06) tam bunu ölçer.
+> 3-4. adımı (QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/06) tam bunu ölçer.
 
 ## 2.3 NEDEN 10 SAHNE — iki ayrı kazanç
 
@@ -334,7 +359,7 @@ sebeptir) plana yalnız (a) gerekçe ve (b) **kabul edilen risk** yazılır.
 
 ### ⭐ 5 SAHNENİN ÖLÇÜLMÜŞ TEK KOŞUSU — birebir taşınan tuttu, çevrilen düştü
 
-`THE NARROW LOT` (harici GPT → OpenArt · `QA/RAPORLAR/THE_NARROW_LOT.md`):
+`THE NARROW LOT` (harici GPT → OpenArt · `QA/ARSIV_12_MERCEK/RAPORLAR/THE_NARROW_LOT.md`):
 
 | Brief'in dayattığı şey | Ne oldu | Ölçüm |
 |---|---|---|
@@ -566,8 +591,8 @@ BÖLÜM     iki dosya YAZIM birimidir, üretim sırası değil; sınır bir KARE
           BOLUM_1'in son I2V'si G_k'de biter, G_k BOLUM_2'nin ilk görselidir [DERS 52]
 KAPI      python3 araclar/prompt_kontrol.py <FMT>/<FILM>     ⭐ KLASÖR MODU (PLAN + BOLUM_1 + BOLUM_2)
           bash araclar/kesme_kontrol.sh <teslim> <FILM>_PLAN.md · bash araclar/qa_paket.sh <FMT>/<FILM> …
-          6/8 dk yarım master: qa_paket.sh --bolum 1|2 · ham <FILM>_B1_<n>_<MERCEK>_HAM.md ·
-          T tablosu ve INDEX iki satır (sayaç " B1/ B2" ekini atar) · RAPORLAR tek dosya
+          6/8 dk yarım master: qa_paket.sh --bolum 1|2 · ham QA/HAM/<FILM>/<FILM>_B1_Q<n>_<AD>_HAM.md ·
+          QA/TABLO.md iki satır (B1 · B2) · QA/FILMLER tek dosya
 ONAY      00_ANALIZ/00_HIKAYE_ONAYI.md — sahne sahne öneri, açık onay, sonra dosya (onay-once-uretim)
 DİKEY     ayrı hat: oradaki film buraya taşınmaz, buradaki film oraya kırpılmaz (kadraj hesabı,
           güvenli alan, ızgara farklı — CAPRAZ_YAYIN tek master)
@@ -804,6 +829,82 @@ Ve üç kabul testi (`film_md` novum kapısının timelapse hâli):
 Dördü de ✅ değilse KONSEPT REDDEDİLİR, klasör açılmaz.
 ```
 
+### ⭐ İZLEYİCİ KAPISI — dört zorunlu satır [C2-a…d · 05.10.2026]
+
+> 31 filmin ④ TESLİM raporundan çıktı (C2): ④ 9+ alan altı filmin altısı da bir
+> **İŞLEV ANIYLA** biter; kancası 9-10 olanlar **tanıdık bir nesneyle** açılır;
+> döngü 9-10 yalnız en üst grupta. ⚠️ Kaynak değerlendirici yargısıdır, izleyici
+> verisi değil — `apexait/IZLEYICI_DEFTERI.md` doğrular ya da düşürür.
+
+```
+İŞLEV ANI:        son klipte ne ÇALIŞIYOR — yanar · açılır · akar · döner · kalkar · durulur.
+                  "Bitmiş yapı durur" İŞLEV ANI DEĞİLDİR (STONE TOWER · GLASS WALL ·
+                  IRON BRIDGE ④ 5,7-7,5). Olay finalin İLK yarısında, ikinci yarı TUTUŞ (adım 9).
+AÇILIŞ NESNESİ:   G0'da izleyicinin 1 sn'de tanıdığı nesne + ona ne oluyor (tehdit · tuhaflık ·
+                  terk). Çimin sökülmesi · taşkın tehdidi · paslı gemi · mavi kapı = kanca 9-10;
+                  boş tarlada hafriyat = 4-6 (EMPTY RIDGE · MOUNTAIN DOOR · NARROW LOT).
+DİRENÇ EKRANDA:   yukarıdaki P1-b satırı — kadrajda GÖRÜNEN düşman (deniz · fırtına · ışık yarışı
+                  · eğim). "Rüzgâr beklenir" ekranda yoktur (EMPTY RIDGE direnç 2).
+DÖNGÜ KAFİYESİ:   G7 ile G0 aynı yerde aynı biçimi taşır (G0'da 47 px kaya tacı → G7'de aynı yerde
+                  gövde) · İŞLEV ANI kadrajda KALIR (BACK TO WATER döngü 3: tekne kadrajdan çıktı) ·
+                  G7 ışığı G0'a geri bağlanır.
+
+⛔ KAPI: dikey planın künyesinde İŞLEV ANI · AÇILIŞ NESNESİ · DÖNGÜ KAFİYESİ satırları yoksa
+   prompt_kontrol.py BLOCK verir [§10f · C2]. DİRENÇ zaten §6'nın kendi satırıdır.
+⭐ KONU SEÇİMİ [C2-e]: VAR OLANI DÖNÜŞTÜRMEK (havuz→sinema · çim→oda · gemi→bahçe) sıfırdan
+   inşadan daha iyi okundu (④ ≈7,8 · ≈6,2). Uzay ancak tanıdık/gizemli bir nesneyle tuttu
+   (FIRST GUEST'in kapısı). Sıfırdan inşa seçilirse İŞLEV ANI iki kat önemlidir.
+⚠️ 07.10.2026 [A30-a]: dış havuz (26 vaka) bu ayrımı NE doğruladı NE düşürdü — onarım iki grupta da
+   çoğunluk. C2-e değerlendirici okuması olarak kalır; izleyici sınavı IZLEYICI_DEFTERI S1–S2.
+⛔ YORUM TUZAĞI YOK [A33-b · 07.10.2026]: filme kasıtlı hata konmaz ("uzman düzeltsin"), metne
+   "find the mistake · send this to · tag a friend" yazılmaz — Meta 2017 engagement bait · TikTok FYF
+   "Tricking others into increasing engagement". Düzeltme yorumu, doğru yapılmış filmin kendiliğinden
+   ürünüdür (KANAL_KIMLIGI §4 birinci halka).
+```
+
+### ⭐ AÇILIŞ DÜZENİ — S0 ekranda 4 saniyedir, ilk saniye karar saniyesidir [C2-h · 05.10.2026]
+
+> Shorts akışında izleyici 1-3 sn'de kaydırır ya da kalır (A1 · `IZLEYICI_DEFTERI` KAYDIRMADI %).
+> 2x paylaşımda S0'ın 8 saniyesi ekranda 4 sn'dir: **her 1x saniye ekranda yarım saniye.**
+> Kanca 9-10 alan filmler (DEEP END · VANISHING ROOM · BLUE DOOR · LAST HARBOR · FIRST GUEST ·
+> TIDE GATE) aynı dört vuruşu taşıyor; 4-6 alanlar (EMPTY RIDGE · MOUNTAIN DOOR · NARROW LOT)
+> hiçbirini. ⛔ Sınırlar değişmez: ters açılış YOK [DERS 3] · öncesi/sonrası bölme YOK (sahip
+> 19.09.2026) · ekranda YAZI YOK · müzik YOK. Merak bunlarsız kurulur.
+
+```
+EKRAN (2x)  1x        VURUŞ          NE OLUR                                        ÖRNEK
+──────────  ────────  ─────────────  ─────────────────────────────────────────────  ──────────────────────────────
+0,0         G0        ① NESNE        AÇILIŞ NESNESİ kadrajın ≥ 1/3'ü, ortada, 120 px  paslı gemi · yapraklı boş havuz
+                                     testinde tanınır · "yanlış" hâlde (terk · çürük  · kusursuz çim · paslı silo
+                                     · tehdit altında). Boş arazi AÇILIŞ DEĞİLDİR.
+0,0-1,0     0-2 sn    ② DOKUNUŞ      eylem İLK KAREDE BAŞLAMIŞTIR ve NESNEYE dokunur:   kapaklar yuvarlanır · çim
+                                     açar · söker · keser · boşaltır. Isınma yok,      sökülür · su tahliye olur
+                                     "bekleyen saha" yok. İlk ses nesnenin sesi.
+1,0-2,0     2-4 sn    ③ İPUCU        GELECEĞİN bir parçası kadraja girer ama AMACI     fidan kasaları rıhtıma iner ·
+                                     okunmaz — merak boşluğu. Sonucu göstermez         kırmızı perde topu · cam sandık
+                                     (spoiler bütçesi MUZIK_VE_KAPAK §3.3).
+2,0-4,0     4-8 sn    ④ ÖLÇEK        iş büyür: ekip ve makine çoğalır (İŞ YOĞUNLUĞU),  ikinci vinç gelir · ekip
+                                     ilk kesmede (4,0) S1'in ilk karesi GÖZLE açık     ikiye bölünür · havuz boş
+                                     biçimde ileridedir — "ilk kesme ödülü".
+
+MERAK SORUSU   künyede tek satır, ≤ 6 kelime, izleyicinin 1. saniyede sorduğu soru:
+               "Bu gemiye ne yapıyorlar?" · "Çimin altında ne var?" — FİNAL onu cevaplar
+               (İŞLEV ANI), KAPAK cevabı ima eder, BAŞLIK soruyu söyler.
+REJİM S0       A ya da B — hareket ilk saniyede görünür. C (insan silinir) ve G (gerçek zaman,
+               çok yavaş) S0'da KULLANILMAZ.
+KADRAJ         açılış nesnesi ile işlev anının yeri AYNI (DÖNGÜ KAFİYESİ): izleyici ilk saniyede
+               baktığı yerde sonucu görür.
+⭐ SEÇENEK     S0 GERİ ÇEKİLME AÇILIŞI [C2-i]: ① NESNE ve ② DOKUNUŞ yakın kadrajda (n× kırpma),
+               1x'in ilk 2,5 sn'sinde HOME'a geri çekilir, ③ ④ HOME'da oynar. KURGU kırpmasıdır,
+               kamera hareketi değil · tavan ölçülmeden yapılmaz · S0 HOME'da biter →
+               KAMERA_HAREKETI_KILAVUZU §4.2
+
+⛔ KAPI (dikey): künyede 'MERAK SORUSU:' yok → BLOCK · S0 I2V'si "from the first frame" ile eylemi
+   ilk karede başlatmıyor → BLOCK · S0 rejim C ya da G → FIX.
+⚠️ ÖLÇÜLMEDİ — dört vuruş ④ raporlarından türedi. IZLEYICI_DEFTERI'nde 'AÇILIŞ' sütunu
+   (nesne · dokunuş · ipucu) KAYDIRMADI % ile karşılaştırılır; üç filmde aynı yön → kural.
+```
+
 ---
 
 # 7. 🚫 NEGATİF ÇEKİRDEK (tam metin — her prompta yapıştır)
@@ -818,7 +919,7 @@ referanstır, filme inerken bu sırayla KIRPILIR.
 
 ⭐ **SAHNEYE ÖZGÜ DIŞLAMA [C1-g · 18.09.2026]:** evrensel uzun blok tek başına
 hiçbir arızayı engellemez — 15 filmde çekirdek her prompta yapıştırıldı ve F01 ·
-F04 · F05 yine geldi (QA/QA_CAPRAZ_ANALIZ/03). Negatif prompt, doğru eylemin
+F04 · F05 yine geldi (QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/03). Negatif prompt, doğru eylemin
 (MOTION FOCUS) ve sağlam referansın (zincir + 3 nirengi) YERİNİ TUTMAZ; onların
 yanına, modelin desteklediği biçimde **kısa ve o sahneye özgü 1-3 dışlama**
 eklenir ("no second crane", "no snow on the deck"). DERS 35 kalır: metin yasağı
@@ -1133,8 +1234,13 @@ a slow pendulum, and it always carries a visible load.
 
 5. PROMPT KAPISI    python3 araclar/prompt_kontrol.py <dosya>
                     uzunluk · yasak kelime · negatif çekirdek imzası ·
-                    "Scene N of 6" tutarlılığı · güneş azimut satırı ·
+                    "Scene N of 7" tutarlılığı · güneş azimut satırı ·
                     değişmezler bloğunun birebir tekrarı.
+                    ⭐ 05.10.2026 §10f (DERS 58-62): dikey 7 × 8,0 · YASAK KELİME satırı ve
+                    taraması · sahada olmayan nesneyi adlandıran metin yasağı · havasız
+                    sahada yanma kelimesi · inşaat nesnesine 'vanish/disappear' · günlük
+                    ve PİLOT ÜÇLÜ (S6 adıyla) → BLOCK · MOTION FOCUS'ta adı geçmeyen yeni
+                    eleman → FIX.
                     Çıkış kodu 2 = BLOCK → üretme.
 
 6. VİDEO            ⭐ Her I2V İKİ ONAYLI KARE ARASINDA üretilir: klip n'e
@@ -1153,6 +1259,8 @@ a slow pendulum, and it always carries a visible load.
 
 8. MÜZİK + KAPAK    MUZIK_VE_KAPAK.md — müzik tek parça, BPM ızgaraya oturur;
                     kapak metinsiz + 120 px posta pulu testi.
+                    ⛔ DİKEYDE MÜZİK YOK (sahip kuralı 21.09.2026) ve kart yalnız PLAN
+                       "var" diyorsa eklenir — ihraçta ölçülür (adım 9d).
 
 9b. ⛔ KAPAK KANITI [DERS 30]  kapak, teslim mp4'ünün S9 karesinden türemiş mi:
                        ffmpeg -ss <kaynak sn> -i teslim.mp4 -frames:v 1 s9_kaynak.jpg
@@ -1160,7 +1268,13 @@ a slow pendulum, and it always carries a visible load.
                     Çıkış 2 = kapak başka bir dünya → TESLİM EDİLMEZ.
 9c. ⛔ KESME KANITI [DERS 31]  bash araclar/kesme_kontrol.sh teslim.mp4 <plan>
                     Kurgu planın SÜRE sütununa oturmuyorsa yeniden kesilir.
-9. ⛔ FİNAL KARE KANITI   ⭐ Usta kare klibinin son ≥2,0 sn TUTUŞTUR [P2-i]:
+9. ⛔ FİNAL KARE KANITI   ⭐ 05.10.2026 [C2-b]: DİKEY FİNAL KLİBİ = 4 sn OLAY + 4 sn TUTUŞ.
+                    2x paylaşımda 8 sn'lik final 4 sn kalır; İŞLEV ANI 1x'in 0-4 sn'sinde
+                    biter, 4-8 sn sonucu gösterir (2x'te ekranda 2 sn). Final I2V'si
+                    "from about four to eight seconds …" cümlesiyle tutuşu yazar — kapı arar.
+                    Örnek: THE DEEP END — ışıklar 1-2,5 · projektör 2,5-4,5 · sonra figür
+                    yürür ve oturur, ışık sabit.
+                    ⭐ Usta kare klibinin son ≥2,0 sn TUTUŞTUR [P2-i]:
                     yapı ve ışık sabit, yalnız leke akar; kanıt karesi
                     bu tutuşun içinden alınır. Teslimden önce tek komut:
                        ffmpeg -ss <saniye> -i teslim.mp4 -frames:v 1 kanit.jpg
@@ -1170,6 +1284,13 @@ a slow pendulum, and it always carries a visible load.
                     (film_md D141: kapı klip sayar, vuruş saymaz. Üretilmiş iki
                      dikey filmin ikisinde de kaybolan şey FİNALDİ.)
 
+9d. ⛔ İHRAÇ KANITI [DERS 63]  PAYLAŞILACAK dosyaya (dikey 2x):
+                       bash araclar/ihrac_kontrol.sh <film_klasoru> paylas_2x.mp4 --hiz 2
+                    Makine: süre (56/hız + kart yalnız planda varsa) · çözünürlük ·
+                    final tutuşu 2,0/hız sn (SSIM). Elle ✓: müzik yok · okunur
+                    yazı/logo/promo/"AI TIMELAPSE" yok · kart = GN dünyası.
+                    Çıkış 2 ya da işaretsiz madde = PAYLAŞILMAZ. QA aynı dosyayla:
+                       bash araclar/qa_paket.sh --hiz 2 <film_klasoru> paylas_2x.mp4
 10. PAKETLEME       başlık ≤40 karakter · açıklama · hashtag · sabit yorum
                     + ⛔ GERÇEKLİK BEYANI (§9.6)
 ```

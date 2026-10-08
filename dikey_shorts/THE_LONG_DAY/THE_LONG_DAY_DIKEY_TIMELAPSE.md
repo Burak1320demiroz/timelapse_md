@@ -3,7 +3,7 @@
 > # ⛔ BU DOSYA **v0**'DIR — ÜRETİLDİ, SEKİZ MERCEKLE ÖLÇÜLDÜ, DÜŞTÜ.
 >
 > `① 6,4Ⓥ karesiz` · `② belgesiz` · `③ 7,0` · `④ belgesiz` · `⑤ 5,8Ⓥ karesiz` ·
-> `⑥ belgesiz` · `⑦ 4,4Ⓥ karesiz` · `⑧ belgesiz` — kayıt: `QA/RAPORLAR/THE_LONG_DAY.md`
+> `⑥ belgesiz` · `⑦ 4,4Ⓥ karesiz` · `⑧ belgesiz` — kayıt: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_DAY.md`
 >
 > ⭐ GEÇEN: `① TIME-LAPSE` (kamera·kadraj·çapa·istasyon 10/10) · `⑤ SAME WORLD` +
 > kanıt nesnesi BULUNDU (kaya + krater) · `④ ONE THING` ilk kez bulundu · `⑥ TIME`

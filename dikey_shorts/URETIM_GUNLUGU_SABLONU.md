@@ -30,6 +30,8 @@ ARAÇ            [ad + sürüm/mod]
    SON KARE     klibin son karesi ↔ hedef görsel · zincir_kontrol çıkışı: ____
                 (almıyorsa ya da çıkış 2 ise BU FORMAT BU ARAÇTA ÜRETİLMEZ
                  — plan düşürülmez, araç değişir [KILAVUZ_REHBERI §2.7 ④])
+⑨ ÇÖZÜNÜRLÜK   ffprobe kaynak: ____ × ____ · YAKINLAŞMA TAVANI (genişlik / 1080) = ____×
+                ⭐ S0 geri çekilme açılışı planlandıysa BÜYÜTME ≤ tavan [KAMERA_HAREKETI §4.2]
 KARAR           bu araçla üretilir / üretilmez — sebep
 ```
 
@@ -64,11 +66,11 @@ DOSYA   [kare dosya adı]
 > ⭐ Zincirli formatta N sahne = N+1 kare [KILAVUZ_REHBERI §2.7]. Usta kare
 > (GN) §1'de kayıtlıdır; bu tablo ondan GERİYE inen kareleri tutar.
 
+> ⭐ 05.10.2026 · DİKEY = 7 SAHNE [DERS 58]: G7 usta kare (§1), zincir G6 → G0.
+
 | G | araç + ayar | kaynak kare (dosya) | master'dan ne KALDIRILDI / EKLENDİ [P2-a] | prompt birebir mi (değilse ne) | zincir_kontrol | kanıt nesnesi elle | ⭐ ara hâl elle [A5-a] | dosya |
 |:-:|---|---|---|---|:---:|:---:|:---:|---|
-| 8 | | | | | geçti/düştü | ✓/✗ | ✓/✗ | |
-| 7 | | | | | | | | |
-| 6 | | | | | | | | |
+| 6 | | | | | geçti/düştü | ✓/✗ | ✓/✗ | |
 | 5 | | | | | | | | |
 | 4 | | | | | | | | |
 | 3 | | | | | | | | |
@@ -103,10 +105,7 @@ DOSYA   [kare dosya adı]
 | 3 | | | | | | | | | | | | | |
 | 4 | | | | | | | | | | | | | |
 | 5 | | | | | | | | | | | | | |
-| 6 | | | | | | | | | | | | | |
-| 7 | | | | | | | | | | | | | |
-| 8 | | | | | | | | | | | | | |
-| 9 | | | G9 | G10 (usta kare) | | | | | | | | | |
+| 6 | | | G6 | G7 (usta kare) | | | | | | | | | |
 
 ## 4. KURGU VE TESLİM — YEDİ ÖLÇÜM [KURGU_VE_TESLIM_KILAVUZU §6]
 
@@ -115,13 +114,13 @@ DOSYA   [kare dosya adı]
 ```
 ① BİÇİM         ffprobe stream=width,height,r_frame_rate,codec_name → ____
                 beklenen 1080,1920,30/1,h264 · tolerans SIFIR
-② SÜRE          ffprobe format=duration → ____ sn   (sahne bloğu + kart 5,0)
+② SÜRE          ffprobe format=duration → ____ sn   (1x master: 7 × 8,0 = 56,0 + kart PLANDA VARSA)
 ③ KESME KANITI  bash araclar/kesme_kontrol.sh teslim.mp4 <plan>   → çıkış: __
                 ⭐ betik top-N ile çalışır; AYIRIM marjı ____ kat çıktı
 ④ SES           ffmpeg -af ebur128=peak=true ... | grep -A8 Summary
                 I: ____ LUFS (hedef −14 ±0,5) · Peak: ____ dBFS (≤ −1,0)
                 müzik BPM ____
-⑤ AÇILIŞ        müziksiz pencere 0,0-1,5 plana uygun mu: evet/hayır
+⑤ AÇILIŞ        ⛔ dikeyde MÜZİK YOK (sahip kuralı 21.09.2026) — yalnız saha sesi: evet/hayır
 ⑥ FLICKER       signalstats,metadata=print:key=lavfi.signalstats.YDIF
                 kesme dışında sıçrama var mı: evet/hayır
                 ⛔ yalnız "-vf signalstats" HİÇBİR ŞEY BASMAZ [A8-b]
@@ -131,6 +130,11 @@ DOSYA   [kare dosya adı]
                 ⭐ kaynak TESLİM dosyasından alınır, üretilen klipten DEĞİL
                    (kırpma kareleri kaydırır) [KURGU_VE_TESLIM §2]
                 KAPAK KANITI zincir_kontrol.sh s9_kaynak.jpg kapak.png → __
+⑧ İHRAÇ         ⭐ 05.10.2026 [DERS 63] — PAYLAŞILACAK 2x dosyaya:
+                bash araclar/ihrac_kontrol.sh <film_klasoru> paylas_2x.mp4 --hiz 2   → çıkış: __
+                ① süre (28,0 + kart planda varsa) __ · ② 1080×1920 __ · ③ final tutuşu SSIM __
+                ④ müzik yok ✓/✗ · ⑤ okunur yazı/logo/"AI TIMELAPSE" yok ✓/✗ · ⑥ kart = GN dünyası ✓/✗/—
+                QA paketi aynı dosyayla: bash araclar/qa_paket.sh --hiz 2 <film_klasoru> paylas_2x.mp4
 ```
 
 ## 5. PLANDAN SAPMALAR — üretim sırasında değişen her şey

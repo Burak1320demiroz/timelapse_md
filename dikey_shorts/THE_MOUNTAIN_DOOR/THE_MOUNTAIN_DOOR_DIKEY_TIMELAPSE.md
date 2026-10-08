@@ -3,7 +3,7 @@
 > # ⛔ BU DOSYA **v1**'DİR — ÜRETİLDİ, ALTI MERCEKLE ÖLÇÜLDÜ, DÜŞTÜ.
 >
 > `① 1,1Ⓥ` · `② 1,5Ⓥ belgesiz` · `③ 3,6` · `④ 4,0Ⓥ belgesiz` ·
-> `⑤ 0,2Ⓥ` · `⑥ 3,5Ⓥ belgesiz` — kayıt: `QA/RAPORLAR/THE_MOUNTAIN_DOOR.md`
+> `⑤ 0,2Ⓥ` · `⑥ 3,5Ⓥ belgesiz` — kayıt: `QA/ARSIV_12_MERCEK/RAPORLAR/THE_MOUNTAIN_DOOR.md`
 >
 > ⭐ **PROMPT KAPISINDAN GO ALAN TEK FİLM, ALTI MERCEĞİN BEŞİNDE DÜŞTÜ.**
 > Kusur promptta değil, ÜRETİM AKIŞINDA: kamera beş klipte de push-in yaptı

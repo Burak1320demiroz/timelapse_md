@@ -2,7 +2,7 @@
 
 > Derin araştırma botundan gelen metin **olduğu gibi** buraya yazılır.
 > Düzenleme · kısaltma · özetleme · başlık değiştirme YOK. Bu klasör kanıttır;
-> `QA/HAM_RAPORLAR` ile aynı disiplinle işler.
+> `QA/ARSIV_12_MERCEK/HAM_RAPORLAR` ile aynı disiplinle işler.
 
 ```
 ADLANDIRMA   A<n>_<BOT>_HAM.md          araştırma promptu çıktısı

@@ -38,41 +38,41 @@
 | ⬜ | `AGENTS.md` | 577 | |
 | ⬜ | `yatay_4_dk_filmler/README.md` | 120 | |
 | ⬜ | `QA/00_README.md` | 204 | |
-| ⬜ | `QA/00_INDEX.md` | 362 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/00_INDEX.md` | 362 | |
 
 ### C · QA RUBRİKLERİ — mercekler ne ölçer
 
 | okundu | dosya | satır | bu filme düşen kilit (yoksa —) |
 |:--:|---|--:|---|
-| ⬜ | `QA/10_SEBEP_QA.md` | 124 | |
-| ⬜ | `QA/11_ENVANTER_QA.md` | 282 | |
-| ⬜ | `QA/12_KATILIK_QA.md` | 282 | |
-| ⬜ | `QA/1_KARE_QA.md` | 281 | |
-| ⬜ | `QA/2_INSA_QA.md` | 265 | |
-| ⬜ | `QA/3_ZAMAN_QA.md` | 290 | |
-| ⬜ | `QA/4_TESLIM_QA.md` | 258 | |
-| ⬜ | `QA/5_DEVAMLILIK_QA.md` | 278 | |
-| ⬜ | `QA/6_GECIS_QA.md` | 255 | |
-| ⬜ | `QA/7_IS_QA.md` | 267 | |
-| ⬜ | `QA/8_YONTEM_QA.md` | 275 | |
-| ⬜ | `QA/9_FAALIYET_QA.md` | 126 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/10_SEBEP_QA.md` | 124 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/11_ENVANTER_QA.md` | 282 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/12_KATILIK_QA.md` | 282 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/1_KARE_QA.md` | 281 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/2_INSA_QA.md` | 265 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/3_ZAMAN_QA.md` | 290 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/4_TESLIM_QA.md` | 258 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/5_DEVAMLILIK_QA.md` | 278 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/6_GECIS_QA.md` | 255 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/7_IS_QA.md` | 267 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/8_YONTEM_QA.md` | 275 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/9_FAALIYET_QA.md` | 126 | |
 
 ### D · ÖLÇÜLMÜŞ FİLM KAYITLARI (aynı yapı/saha ÖNCE)
 
 | okundu | dosya | satır | bu filme düşen kilit (yoksa —) |
 |:--:|---|--:|---|
-| ⬜ | `QA/RAPORLAR/00_README.md` | 15 | |
-| ⬜ | `QA/RAPORLAR/BUILT_FROM_DUST.md` | 154 | |
-| ⬜ | `QA/RAPORLAR/OVER_THE_WALL.md` | 169 | |
-| ⬜ | `QA/RAPORLAR/POLAR_HABITAT.md` | 60 | |
-| ⬜ | `QA/RAPORLAR/THE_CLOSING_SPAN.md` | 168 | |
-| ⬜ | `QA/RAPORLAR/THE_CROSSING.md` | 75 | |
-| ⬜ | `QA/RAPORLAR/THE_DARK_ROCK.md` | 128 | |
-| ⬜ | `QA/RAPORLAR/THE_EMPTY_RIDGE.md` | 162 | |
-| ⬜ | `QA/RAPORLAR/THE_LONG_DAY.md` | 156 | |
-| ⬜ | `QA/RAPORLAR/THE_LONG_SHADOW.md` | 138 | |
-| ⬜ | `QA/RAPORLAR/THE_MOUNTAIN_DOOR.md` | 269 | |
-| ⬜ | `QA/RAPORLAR/THE_NARROW_LOT.md` | 321 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/00_README.md` | 15 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/BUILT_FROM_DUST.md` | 154 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/OVER_THE_WALL.md` | 169 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/POLAR_HABITAT.md` | 60 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_CLOSING_SPAN.md` | 168 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_CROSSING.md` | 75 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_DARK_ROCK.md` | 128 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_EMPTY_RIDGE.md` | 162 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_DAY.md` | 156 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_LONG_SHADOW.md` | 138 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_MOUNTAIN_DOOR.md` | 269 | |
+| ⬜ | `QA/ARSIV_12_MERCEK/RAPORLAR/THE_NARROW_LOT.md` | 321 | |
 
 ### E · ÖNCEKİ PLANLAR — DEĞİŞMEZLER ve AŞAMA MERDİVENİ nasıl yazılmış
 

@@ -4,7 +4,7 @@
 DURUM  ⛔ FİLM ÜRETİLDİ, BU GÜNLÜK TUTULMADI.  ⭐ 08.09.2026
 
        Teslim: 11 klip · 1:07,2 · sekiz mercekle ölçüldü (ham raporlar
-       QA/HAM_RAPORLAR/THE_DUST_YEAR_*_HAM.md).
+       QA/ARSIV_12_MERCEK/HAM_RAPORLAR/THE_DUST_YEAR_*_HAM.md).
 
        Aşağıdaki §0-§4'ün hiçbiri doldurulmadı. Yani araç kutu seti
        ölçülmedi, geriye zincir kurulmadı, yedi teslim ölçümü koşmadı.

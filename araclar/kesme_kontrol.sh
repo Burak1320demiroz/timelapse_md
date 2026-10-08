@@ -18,8 +18,10 @@
 #  ölçeğinden BAĞIMSIZDIR.
 #
 #  KULLANIM
-#     bash araclar/kesme_kontrol.sh <teslim.mp4> <plan.md> [tolerans_sn]
+#     bash araclar/kesme_kontrol.sh <teslim.mp4> <plan.md> [tolerans_sn] [--hiz N]
 #     tolerans varsayılan 0.25 sn
+#     ⭐ 05.10.2026 --hiz N: dosya N kat hızlı PAYLAŞIM kopyası (dikey: 2x — sahip kuralı).
+#        Plan süreleri N'e bölünür; 7 × 8,0 dikey 2x'te 7 × 4,0 aranır [DERS 63].
 #
 #  ÇIKIŞ: 0 = ızgara tutuyor · 1 = sapma var · 2 = ölçülemedi
 #  ⭐ 14.09.2026: sahne no iki basamaklı olabilir (yatay 12-48 sahne) — <FILM>_PLAN.md'nin
@@ -30,7 +32,11 @@ command -v ffmpeg  >/dev/null || { echo "⛔ ffmpeg yok"; exit 2; }
 command -v ffprobe >/dev/null || { echo "⛔ ffprobe yok"; exit 2; }
 command -v python3 >/dev/null || { echo "⛔ python3 yok"; exit 2; }
 [ $# -ge 2 ] || { sed -n '/KULLANIM/,/tolerans varsayılan/p' "$0" | sed 's/^#//'; exit 2; }
-MP4="$1"; PLAN="$2"; TOL="${3:-0.25}"
+HIZ=1; ARGS=()
+while [ $# -gt 0 ]; do
+    case "$1" in --hiz) HIZ="${2:-1}"; shift 2 ;; *) ARGS+=("$1"); shift ;; esac
+done
+MP4="${ARGS[0]}"; PLAN="${ARGS[1]}"; TOL="${ARGS[2]:-0.25}"
 [ -f "$MP4" ]  || { echo "⛔ teslim yok: $MP4"; exit 2; }
 [ -f "$PLAN" ] || { echo "⛔ plan yok: $PLAN"; exit 2; }
 
@@ -43,10 +49,11 @@ SURE=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$MP4")
 TMP=$(mktemp -t kesme).txt
 ffmpeg -v error -i "$MP4" -vf "select='gte(scene,0)',metadata=print:file=$TMP" -f null - 2>/dev/null
 
-SURELER="$SURELER" N="$N" SURE="$SURE" TOL="$TOL" MP4="$MP4" TMP="$TMP" python3 <<'PY'
+SURELER="$SURELER" N="$N" SURE="$SURE" HIZ="$HIZ" TOL="$TOL" MP4="$MP4" TMP="$TMP" python3 <<'PY'
 import os, re, sys
 
-sureler = [float(x) for x in os.environ["SURELER"].split()]
+hiz     = float(os.environ.get("HIZ", "1"))
+sureler = [float(x) / hiz for x in os.environ["SURELER"].split()]
 N       = int(os.environ["N"])
 sure    = float(os.environ["SURE"])
 tol     = float(os.environ["TOL"])
@@ -64,6 +71,8 @@ kareler = [(float(a), float(b)) for a, b in
 print("═══════════════════════════════════════════════════════")
 print(f"  KESME KONTROL · {mp4} · top-N yordamı")
 print("═══════════════════════════════════════════════════════")
+if hiz != 1:
+    print(f"  ⭐ hız  : {hiz:g}x paylaşım kopyası — plan süreleri ÷ {hiz:g}")
 print(f"  plan   : {N} sahne · süreler {'·'.join(f'{s:g}' for s in sureler)} · sahne bloğu {toplam:.2f} sn")
 print(f"  teslim : {sure:.2f} sn · okunan kare {len(kareler)}\n")
 
@@ -115,7 +124,10 @@ else:
     print("  ✅ marj yeterli (≥2 kat) — seçilen kesmeler klip içi gürültüden ayrışıyor")
 
 if len(set(sureler)) == 1:
-    print(f"\n  ⛔ PLANIN KENDİSİ DÜZ: bütün süreler {sureler[0]:g} — ⑥ METRONOM [DERS 13]")
+    if N == 7 and abs(sureler[0] * hiz - 8.0) < 1e-6:
+        print(f"\n  ℹ️  düz ızgara 7 × 8,0 — sahip kuralı, beyanlı [DERS 58]")
+    else:
+        print(f"\n  ⛔ PLANIN KENDİSİ DÜZ: bütün süreler {sureler[0]:g} — ⑥ METRONOM [DERS 13]")
 
 print()
 if sapma == 0:
