@@ -41,7 +41,9 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
 □ §7  NEGATİF ÇEKİRDEK        (bu dosyada — tam metin, her prompta yapıştırılır)
 □ §9  BİLİNEN TUZAKLAR        (bu dosyada)
 □ PROMPT_SABLONU.md           (görsel + iki uçlu I2V iskeleti · T2V YOK)
-□ DERSLER.md                  (ölçülmüş hatalar)
+□ DERSLER.md                  (ölçülmüş hatalar — DERS 1–64)
+□ VARSAYIMLAR.md              (ölçülmemiş: D · A · F1 · C — DİZİN durum sütunu ⬜ ✅ ❌)
+□ PLAN_OKUMALARI.md           (P kodları — uzman okuması · plan kararları)
 
 ── ⭐ 08.09.2026 · A5–A8 ARAŞTIRMASINDAN DOĞAN DÖRT KILAVUZ ──
 □ ARAC_KARTLARI.md            ⛔ EN ÖNCE — kutu seti ölçülmeden ızgara yazılmaz
@@ -71,7 +73,7 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
                                   · ⑤ sabit kalanlar → I2V MOTION FOCUS paragrafı
    ⛔ Beş sorusu cevaplı olmayan sahnenin promptu yazılmaz (kart A adım 7b · Y2 adım 3).
    ⚠️ Kaynak QA/ARSIV_12_MERCEK/QA_CAPRAZ_ANALIZ/ (sayılar: araclar/capraz_sayim.py) — ölçülmedi,
-      DERSLER.md ÇAPRAZ ANALİZ bölümünde VARSAYIM (C1-a…h); kapı FIX, BLOCK değil.
+      VARSAYIMLAR.md C1 bölümünde VARSAYIM (C1-a…h); kapı FIX, BLOCK değil.
 
 ── ⭐ 20.09.2026 · A19 DIŞ RAPORUNDAN DOĞAN TEK KILAVUZ — istasyondan ÖNCE ──
 □ KAMERA_DILI_KILAVUZU.md        ⭐ KARAR CÜMLESİ (§0) · DEĞİŞİM BOYUTU → BAKIŞ AİLESİ (§2.3) ·

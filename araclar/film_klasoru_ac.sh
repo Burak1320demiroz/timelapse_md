@@ -121,6 +121,12 @@ def cizelge():
     try: ders=sum(1 for l in open("kilavuzlar/DERSLER.md",encoding="utf-8") if re.match(r"^## DERS \d+",l))
     except Exception: pass
     rows.append(f"\n⭐ DERSLER.md: **{ders} ölçülmüş ders** — her biri 01_QA_DERS_HASADI §1'de ya kilit ya \"—\" alır.")
+    vk=pk=0
+    try: vk=sum(1 for l in open("kilavuzlar/VARSAYIMLAR.md",encoding="utf-8") if re.match(r"^\| (D|F1|A\d+|C\d)-[a-z] \|",l))
+    except Exception: pass
+    try: pk=sum(1 for l in open("kilavuzlar/PLAN_OKUMALARI.md",encoding="utf-8") if re.match(r"^\| P\d+-[a-z] \|",l))
+    except Exception: pass
+    rows.append(f"⭐ VARSAYIMLAR.md **{vk} kod** · PLAN_OKUMALARI.md **{pk} kod** — ⬜ açık olanlar §3'e aday; kilit DEĞİL.")
     add("B · FORMAT KARTI VE DEPO KONTRATI", ["AGENTS.md", f"{FMT}/README.md", "QA/00_README.md", "QA/TABLO.md", "QA/ARSIV_12_MERCEK/00_ARSIV.md"])
     add("C · QA RUBRİKLERİ — mercekler ne ölçer", sorted(glob.glob("QA/Q[1-5]_*.md")))
     add("D · ÖLÇÜLMÜŞ FİLM KAYITLARI (aynı yapı/saha ÖNCE)", sorted(glob.glob("QA/FILMLER/[A-Z]*.md"))+sorted(glob.glob("QA/ARSIV_12_MERCEK/RAPORLAR/*.md")))

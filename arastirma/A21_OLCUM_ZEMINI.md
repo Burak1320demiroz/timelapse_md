@@ -51,7 +51,7 @@ Rapor Türkçe olsun, araç, parametre ve benchmark adları İngilizce kalsın, 
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A21_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A21-a, A21-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A21-a, A21-b…
 3. KILAVUZ     kilavuzlar/QA_OLCUM_ZEMINI_KILAVUZU.md bu rapordan yazılır
 4. KAPI        qa_paket.sh: MEASURED FACTS bloğu rubriğin İÇİNE, yapıştırma
                çizgisinin ALTINA yazılır · komutlar bu makinede koşmadan inmez

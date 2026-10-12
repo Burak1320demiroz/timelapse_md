@@ -50,7 +50,7 @@ Rapor Türkçe olsun, politika, özellik ve standart adları İngilizce kalsın,
 1. HAM KAYIT   arastirma/SONUCLAR/A32_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A30-A34_DENETIM.md — her politika alıntısı resmi sayfadan birebir çekilir;
                vaka haberleri en az iki bağımsız kaynakla · akademik etki büyüklükleri makaleden
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A32-a, A32-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A32-a, A32-b…
 4. KILAVUZ     POLITIKA_VE_RISK §1 (uygulama) · §2 (beyan kartları) · §5 DIŞ SAYILAR (tarihli) · §6 kriz
                kartları (itiraz kanıt listesi) · CAPRAZ_YAYIN §2
 5. KAPI        risk matrisinde "yüksek" çıkan satır sahibe karar olarak sunulur — ajan format değiştirmez

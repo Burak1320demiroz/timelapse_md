@@ -29,7 +29,7 @@
 |---|---|---|---|
 | ⬜ |  |  |  |
 
-## 3. 📎 DEVRALINAN / DIŞ OKUMA VARSAYIMLARI — `DERSLER.md` D-x · A/P-x
+## 3. 📎 DEVRALINAN / DIŞ OKUMA VARSAYIMLARI — `VARSAYIMLAR.md` D · A · C kodları · `PLAN_OKUMALARI.md` P kodları (DİZİN'de ⬜ açık olanlar)
 
 > Bu depoda ÖLÇÜLMEDİ; en fazla gerekçeli varsayım. Prompta girer ama kilit sayılmaz; ilk yatay
 > filmin koşusu bunları ölçer.

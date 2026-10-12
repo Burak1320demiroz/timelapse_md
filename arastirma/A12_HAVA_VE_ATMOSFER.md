@@ -54,7 +54,7 @@ Rapor Türkçe olsun, meteoroloji ve fizik terimleri İngilizce kalsın, tablo a
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A12_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A12-a, A12-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A12-a, A12-b…
 3. KILAVUZ     kilavuzlar/HAVA_VE_ATMOSFER_KILAVUZU.md bu rapordan yazılır
 4. KAPI        prompt_kontrol.py: I2V promptunda gök/atmosfer hareketi cümlesi zorunlu
 ```

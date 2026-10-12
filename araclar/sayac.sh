@@ -45,12 +45,20 @@ echo
 # ─── DERSLER ───────────────────────────────────────────────────────
 echo "📚 DERSLER"
 DERS=$(grep -cE "^## DERS [0-9]+" kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
-VARSAYIM=$(grep -cE "^D-[a-z]  " kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')
-ARASTIRMA=$(grep -cE "^[APC][0-9]+-[a-z] +" kilavuzlar/DERSLER.md 2>/dev/null | tr -d ' ')   # ⭐ C = çapraz analiz (18.09.2026) · A10+ iki haneli
+# ⭐ 08.10.2026: varsayımlar DERSLER.md'den ayrıldı. Sayım DİZİN satırlarından: | KOD | başlık | kaynak | durum |
+KOD_SATIRI='^\| (D|F1|A[0-9]+|C[0-9]|P[0-9]+)-[a-z] \|'
+VARSAYIM=$(grep -cE "^\| D-[a-z] \|" kilavuzlar/VARSAYIMLAR.md 2>/dev/null | tr -d ' ')
+ARASTIRMA=$(grep -cE "^\| (A[0-9]+|C[0-9]|F1)-[a-z] \|" kilavuzlar/VARSAYIMLAR.md 2>/dev/null | tr -d ' ')
+PLANOKUMA=$(grep -cE "^\| P[0-9]+-[a-z] \|" kilavuzlar/PLAN_OKUMALARI.md 2>/dev/null | tr -d ' ')
+D_ACIK=$(cat kilavuzlar/VARSAYIMLAR.md kilavuzlar/PLAN_OKUMALARI.md 2>/dev/null | grep -E "$KOD_SATIRI" | grep -c '| ⬜ açık')
+D_OLC=$(cat kilavuzlar/VARSAYIMLAR.md kilavuzlar/PLAN_OKUMALARI.md 2>/dev/null | grep -E "$KOD_SATIRI" | grep -c '| ✅ ölçüldü')
+D_DUS=$(cat kilavuzlar/VARSAYIMLAR.md kilavuzlar/PLAN_OKUMALARI.md 2>/dev/null | grep -E "$KOD_SATIRI" | grep -c '| ❌ düştü')
 HAM_ARASTIRMA=$(ls -1 arastirma/SONUCLAR/[AP]*_HAM.md 2>/dev/null | wc -l | tr -d ' ')
-printf "   ölçülmüş ders         %s\n" "${DERS:-0}"
-printf "   devralınan varsayım   %s   ⚠️ film_md'den · bu depoda ÖLÇÜLMEDİ\n" "${VARSAYIM:-0}"
-printf "   dış okuma varsayımı   %s   ⚠️ araştırma + uzman okuması · bu depoda ÖLÇÜLMEDİ\n" "${ARASTIRMA:-0}"
+printf "   ölçülmüş ders         %s   (DERSLER.md)\n" "${DERS:-0}"
+printf "   devralınan varsayım   %s   ⚠️ film_md'den · VARSAYIMLAR.md D\n" "${VARSAYIM:-0}"
+printf "   dış okuma varsayımı   %s   ⚠️ araştırma + sentez · VARSAYIMLAR.md A · C · F1\n" "${ARASTIRMA:-0}"
+printf "   plan okuması kodu     %s   ⚠️ uzman okuması + plan kararı · PLAN_OKUMALARI.md P\n" "${PLANOKUMA:-0}"
+printf "   kod durumu            ⬜ açık %s · ✅ ölçüldü %s · ❌ düştü %s   (DİZİN durum sütunu)\n" "${D_ACIK:-0}" "${D_OLC:-0}" "${D_DUS:-0}"
 printf "   işlenmiş ham rapor    %s   (arastirma/SONUCLAR)\n" "${HAM_ARASTIRMA:-0}"
 PROMPT_SAYI=$(ls -1 arastirma/A[0-9]*_*.md 2>/dev/null | wc -l | tr -d ' ')
 # koşulan = promptu olan ve ham raporu gelen kod · promptsuz gelen (A13–A19) ayrı sayılır

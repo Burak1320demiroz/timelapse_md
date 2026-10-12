@@ -41,7 +41,7 @@ Rapor Türkçe olsun, makine ve parametre adları İngilizce kalsın, tablo ağ�
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A6_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A6-a, A6-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A6-a, A6-b…
 3. KILAVUZ     kilavuzlar/SANTIYE_HAREKETI_KILAVUZU.md bu rapordan yazılır
 4. KAPI        prompt_kontrol.py: ACTIVITY bloğunda iki hareket kaynağı +
                bir yüzey nesnesi yoksa FIX; insansız beyanla çakışma BLOCK [DERS 33]

@@ -50,7 +50,7 @@ Rapor Türkçe olsun, malzeme ve parametre adları İngilizce kalsın, tablo ağ
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A9_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A9-a, A9-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A9-a, A9-b…
 3. KILAVUZ     kilavuzlar/MALZEME_VE_DOKU_KILAVUZU.md bu rapordan yazılır
 4. KAPI        prompt_kontrol.py: SITE TEXTURE bloğunda ≥5 somut nesne yoksa FIX ·
                saha kartıyla çelişen nesne (havasız sahada "puddles") BLOCK

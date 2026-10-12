@@ -50,7 +50,7 @@ Rapor Türkçe olsun, platform özellik ve metrik adları İngilizce kalsın, ta
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A25_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A25-A29_DENETIM.md — atıflar çekilir, sayılar yeniden hesaplanır
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A25-a, A25-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A25-a, A25-b…
 4. KILAVUZ     kilavuzlar/UZUN_FORM_ANLATI_KILAVUZU.md bu rapordan yazılır
 5. KAPI        KILAVUZ_REHBERI §2.8 yatay izleyici kapısı · IZLEYICI_DEFTERI yatay sütunları
                (⛔ izleyici verisi gelmeden hiçbir satır kural sayılmaz — üç film kuralı)

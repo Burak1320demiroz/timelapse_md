@@ -49,7 +49,7 @@ Rapor Türkçe olsun, araç, yöntem ve metrik adları İngilizce kalsın, tablo
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A29_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A25-A29_DENETIM.md — araç sürümleri ve metrik atıfları çekilir
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A29-a, A29-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A29-a, A29-b…
 4. KILAVUZ     kilavuzlar/ONARIM_VE_YENIDEN_URETIM_KILAVUZU.md bu rapordan yazılır
 5. KAPI        AGENTS kart R → "onarım" adımı · URETIM_GUNLUGU §5 sürüm satırı (_K2) ·
                onarılan klibin iki dikişinde zincir_kontrol zorunlu

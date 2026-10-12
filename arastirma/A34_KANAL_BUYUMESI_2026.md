@@ -50,7 +50,7 @@ Rapor Türkçe olsun, platform özellik ve metrik adları İngilizce kalsın, ta
 1. HAM KAYIT   arastirma/SONUCLAR/A34_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A30-A34_DENETIM.md — platform açıklamaları kaynağından çekilir · vaka sayıları
                kanalın kendi açıklamasıyla karşılaştırılır · takvim stok sayısıyla (37) aritmetik sınanır
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A34-a, A34-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A34-a, A34-b…
 4. KILAVUZ     YAYIN_PLANI §1 (kadans) · §2 (iki tür uzun form) · §4 (açılış bloğu + 90 gün takvimi) ·
                §6 (karar eşikleri) · §7 (seri ve oynatma listeleri)
 5. KAPI        kadans değişikliği ve stok sırası SAHİP KARARIDIR — ajan önerir, takvimi sahip onaylar

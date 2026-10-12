@@ -43,7 +43,7 @@ Rapor Türkçe olsun, araç ve parametre adları İngilizce ve SÜRÜM+TARİH il
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A7_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A7-a, A7-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A7-a, A7-b…
 3. KILAVUZ     kilavuzlar/ARAC_KARTLARI.md bu rapordan yazılır; her yeni film
                kartı GÜNCELLER (tarihli satır ekler), kart silinmez
 4. KAPI        üretim günlüğü §0 bu karttan doldurulur; kart yoksa qa_paket.sh

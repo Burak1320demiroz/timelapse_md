@@ -51,7 +51,7 @@ Rapor Türkçe olsun, geometri terimleri ve parametre adları İngilizce kalsın
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A11_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A11-a, A11-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A11-a, A11-b…
 3. KILAVUZ     kilavuzlar/PERSPEKTIF_VE_OLCEK_KILAVUZU.md bu rapordan yazılır
                (ya da proje sahibi kararıyla KAMERA_ISTASYONU §7–§9)
 4. KAPI        prompt_kontrol.py: COMPOSITION bloğunda ≥1 ölçek referansı + piksel

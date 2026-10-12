@@ -50,7 +50,7 @@ Rapor Türkçe olsun, platform, tür ve metrik adları İngilizce kalsın, tablo
 1. HAM KAYIT   arastirma/SONUCLAR/A30_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A30-A34_DENETIM.md — vaka bağlantılarının en az üçte biri açılır, sayı ve
                okuma tarihi karşılaştırılır · üst çeyrek/medyan sayımı tablodan yeniden yapılır
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A30-a, A30-b…  (A18-a çelişkisine hüküm satırı)
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A30-a, A30-b…  (A18-a çelişkisine hüküm satırı)
 4. KILAVUZ     apexait/TUR_HARITASI.md bu rapordan yazılır · YAYIN_PLANI §5 havuzu yeniden sıralanır
 5. KAPI        KILAVUZ_REHBERI §6 konsept kapısına "doygun alt tür mü" satırı (FIX, BLOCK değil)
                ⛔ izleyici verisi gelmeden hiçbir satır kural sayılmaz — üç film kuralı [YAYIN_PLANI §6.2]

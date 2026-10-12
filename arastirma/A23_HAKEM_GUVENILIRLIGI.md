@@ -48,7 +48,7 @@ Rapor Türkçe olsun, istatistik ve değerlendirme terimleri İngilizce kalsın,
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A23_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A23-a, A23-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A23-a, A23-b…
 3. KILAVUZ     kilavuzlar/QA_KALIBRASYON_KILAVUZU.md bu rapordan yazılır
 4. KAPI        tohumlanmış kusur seti bu makinede üretilir (komutlar koşmadan inmez) ·
                IZLEYICI_DEFTERI §3 ve QA_CAPRAZ_ANALIZ/06 tek plana birleşir

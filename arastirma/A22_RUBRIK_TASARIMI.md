@@ -45,7 +45,7 @@ Rapor Türkçe olsun, psikometri ve değerlendirme terimleri İngilizce kalsın,
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A22_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A22-a, A22-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A22-a, A22-b…
 3. KILAVUZ     kilavuzlar/RUBRIK_YAZIM_KILAVUZU.md bu rapordan yazılır
 4. KAPI        12 rubrik iskelete göre yeniden yazılır (README §5 korunur) ·
                ortalama KODDA hesaplanır · "kusur sahipliği" tablosu README §1'e

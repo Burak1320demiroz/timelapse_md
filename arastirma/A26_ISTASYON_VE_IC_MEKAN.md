@@ -52,7 +52,7 @@ Rapor Türkçe olsun, kurgu terimleri, araç ve yöntem adları İngilizce kals�
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A26_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A25-A29_DENETIM.md
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A26-a, A26-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A26-a, A26-b…
 4. KILAVUZ     kilavuzlar/ISTASYON_VE_IC_MEKAN_KILAVUZU.md · KAMERA_ISTASYONU §1 çelişkisi kapanır
 5. KAPI        prompt_kontrol.py: istasyon farkındalığı (DERS 61 eşleştirmesi kokpit karesini atlar) ·
                ikinci istasyon beyanı SPEC künyesinde zorunlu

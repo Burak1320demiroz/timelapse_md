@@ -100,9 +100,13 @@ timelapse_md/
 │   │                                   klip · iki dikiş sınanır · zincirde inpainting YOK · 3/6
 │   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
 │   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
-│   └── DERSLER.md                   ölçülmüş dersler + devralınan varsayımlar
-│                                     ⭐ DERS 35-44 · altıncı film (THE DUST YEAR)
-│                                       yedisinin kapısı prompt_kontrol.py §10c'de
+│   ├── DERSLER.md                   ⭐ yalnız ÖLÇÜLMÜŞ dersler (DERS 1–64) + film blokları
+│   │                                   ⭐ DERS 35-44 · altıncı film (THE DUST YEAR)
+│   │                                     yedisinin kapısı prompt_kontrol.py §10c'de
+│   ├── VARSAYIMLAR.md               🆕 08.10.2026 · D · A · F1 · C kodları — ölçülmemiş ·
+│   │                                   DİZİN'de DURUM sütunu: ⬜ açık · ✅ ölçüldü · ❌ düştü
+│   └── PLAN_OKUMALARI.md            🆕 08.10.2026 · P kodları — uzman okumaları (P1 · P2) ·
+│                                       plan kararları (P3…P25) · aynı DURUM sütunu
 │
 ├── dikey_shorts/                    9:16 · film klasörleri
 │   └── <PROJE>/
@@ -191,7 +195,7 @@ timelapse_md/
 │         üç sayı yeniden hesaplandı ve düştü · iki ffmpeg komudu koşmadı ·
 │         bir eşik kör çıktı. ⛔ Rapordan doğrudan inen SAYI yoktur.
 │   ⛔ Araştırma bulgusu DERS DEĞİLDİR. En fazla gerekçeli varsayımdır ve
-│      DERSLER.md'nin DEVRALINAN bölümüne A<n>-x koduyla girer.
+│      VARSAYIMLAR.md'ye A<n>-x koduyla girer (kuşak bölümü + DİZİN satırı ⬜ açık).
 │
 └── araclar/
     ├── sayac.sh                     sayıları dosya sisteminden hesaplar
@@ -524,8 +528,9 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
                 ⛔ Ortalama ALINMAZ: iki rapor aynı sayıyı farklı veriyorsa
                    o sayı ölçülmemiştir ve bu bilgi sayının kendisinden
                    değerlidir.
-5. VARSAYIM     kabul edilen bulgu kilavuzlar/DERSLER.md'nin DEVRALINAN
-                bölümüne A<n>-x koduyla girer — numaralı derse DEĞİL.
+5. VARSAYIM     kabul edilen bulgu kilavuzlar/VARSAYIMLAR.md'ye A<n>-x koduyla
+                girer: kuşak bölümüne madde + DİZİN'e satır (durum ⬜ açık) —
+                numaralı derse DEĞİL. Durum yalnız kanıtla değişir (DERS n · ÖLÇTÜM · denetim).
                 ⛔ Araştırma bulgusu ders değildir; ders bu depoda ölçülmüş
                    bozulmadır. İlk üretimden sonra ya derse döner ya düşer.
 6. KİLİT        prompta inecek her cümle İngilizce ve POZİTİF hâlde yazılır —
@@ -541,6 +546,8 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
    Yazılmayan yasak kabul edilmez [D-f].
 3. Kilit hangi kılavuza iniyorsa oraya tek satır ekle
 4. DERSLER.md dizin tablosuna satır
+5. Ders bir varsayımdan doğduysa ya da birini düşürdüyse: VARSAYIMLAR.md / PLAN_OKUMALARI.md
+   DİZİN satırının durumu → "✅ ölçüldü → DERS n" ya da "❌ düştü · DERS n". Madde silinmez.
 ```
 
 ## 🧱 H — YENİ KART EKLENDİ (yapı tipi / saha)
@@ -607,8 +614,9 @@ commit'i sahibine bırakır.
 > THE SEA MILL 7. sahne için sahip onayı bekler (onay önce, üretim sonra).
 
 ```
-· DERSLER.md'deki maddelerin TAMAMI devralınmış varsayımdır; bu depoda
-  hiçbiri ölçülmedi. İlk üretimden sonra ya derse dönüşürler ya düşerler.
+· VARSAYIMLAR.md ve PLAN_OKUMALARI.md'deki kodların büyük çoğunluğu ⬜ AÇIKTIR —
+  bu depoda ölçülmedi (sayı: bash araclar/sayac.sh "kod durumu"). İlk üretimden ya da
+  izleyici verisinden sonra ya DERSLER.md'ye derse dönüşürler ya düşerler.
 · prompt_kontrol.py yalnız METİN denetler; anlam denetlemez. Kapıdan geçen
   bir prompt iyi bir prompt değildir, yalnız biçimsel olarak eksiksizdir.
   ⭐ 18.09.2026 ölçüldü: 15 filmin planı kapıdan geçti, ② İNŞA'da çoğu düştü.

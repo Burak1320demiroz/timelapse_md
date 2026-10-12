@@ -11,7 +11,7 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM          46     (dikey_shorts + yatay_*_dk_filmler klasörleri)
+TOPLAM FİLM          52     (dikey_shorts + yatay_*_dk_filmler klasörleri)
 BEŞ MERCEKLE ÖLÇÜLEN 0
 ARŞİVDE ÖLÇÜLEN      37     (ARSIV_12_MERCEK/HAM_RAPORLAR klasörleri · 12 mercek)
 ```

@@ -51,7 +51,7 @@ Rapor Türkçe olsun, araç, parametre ve ölçüt adları İngilizce kalsın, t
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A20_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A20-a, A20-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A20-a, A20-b…
 3. KILAVUZ     kilavuzlar/QA_KOSU_KILAVUZU.md bu rapordan yazılır
 4. KAPI        qa_paket.sh: paket başına KOŞU MANİFESTOSU · ham rapor manifestosuz
                ya da sızıntı kelimesi taşıyorsa puan tabloya GİRMEZ

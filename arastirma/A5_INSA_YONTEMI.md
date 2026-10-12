@@ -41,7 +41,7 @@ Rapor Türkçe olsun, eleman ve parametre adları İngilizce kalsın, tablo ağ�
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A5_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         kabul edilen bulgu DERSLER.md · DEVRALINAN bölümüne  A5-a, A5-b…
+2. KOD         kabul edilen bulgu VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A5-a, A5-b…
 3. KILAVUZ     kilavuzlar/INSAAT_YONTEMI_KILAVUZU.md bu rapordan yazılır
 4. KAPI        prompt_kontrol.py: AT THIS STAGE bloğunda yapım fiili yoksa BLOCK
 ```

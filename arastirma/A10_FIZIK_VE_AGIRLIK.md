@@ -52,7 +52,7 @@ Rapor Türkçe olsun, eleman ve parametre adları İngilizce kalsın, tablo ağ�
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A10_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A10-a, A10-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A10-a, A10-b…
 3. KILAVUZ     kilavuzlar/FIZIK_VE_AGIRLIK_KILAVUZU.md bu rapordan yazılır
 4. KAPI        prompt_kontrol.py: PHYSICS bloğunda ≥3 temas cümlesi + yük yolu beyanı ·
                taşıyıcısız "hangs / floats / suspended" → FIX

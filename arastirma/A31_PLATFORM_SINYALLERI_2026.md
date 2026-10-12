@@ -51,7 +51,7 @@ Rapor Türkçe olsun, platform özellik ve metrik adları İngilizce kalsın, ta
 1. HAM KAYIT   arastirma/SONUCLAR/A31_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A30-A34_DENETIM.md — her metrik tanımı ve sınır resmi sayfadan çekilir
                (YouTube Yardım · TikTok Support/Newsroom · Instagram Help Center); tarihsiz satır inmez
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A31-a, A31-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A31-a, A31-b…
 4. KILAVUZ     IZLEYICI_DEFTERI §1 metrik sözlüğü · CAPRAZ_YAYIN §4–§5 · POLITIKA_VE_RISK §5 DIŞ SAYILAR
                satırları (doğrulama tarihiyle) · üç PAKETLEME_SABLONU sınırları
 5. KAPI        yükleme öncesi kontrol listesi CAPRAZ_YAYIN §6'ya iner · müzik önerisi çıkarsa sahibe sorulur

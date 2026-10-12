@@ -44,7 +44,7 @@ Rapor Türkçe olsun, araç ve parametre adları İngilizce kalsın, tablo ağı
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A8_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A8-a, A8-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A8-a, A8-b…
 3. KILAVUZ     kilavuzlar/KURGU_VE_TESLIM_KILAVUZU.md bu rapordan yazılır
 4. KAPI        kesme_kontrol.sh eşiği bu raporla KALİBRE edilir (şu an 0.30,
                ölçülmedi) · dört kanıt satırı günlük §4'e yazılmadan kart Y açılmaz

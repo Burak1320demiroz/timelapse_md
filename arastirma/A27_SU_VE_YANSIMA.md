@@ -52,7 +52,7 @@ Rapor Türkçe olsun, fizik, fotoğraf ve araç terimleri İngilizce kalsın, ta
 1. HAM KAYIT   arastirma/SONUCLAR/A27_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A25-A29_DENETIM.md — yansıma formülü bu makinede yeniden hesaplanır
                (THE SLOW TAKEOFF: h 3 · D 50 → 8–17 m bandı) · hız sayıları kaynağından çekilir
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A27-a, A27-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A27-a, A27-b…
 4. KILAVUZ     kilavuzlar/SU_VE_YANSIMA_KILAVUZU.md bu rapordan yazılır
 5. KAPI        PLAN'da SU KOTU satırı (su varsa zorunlu) · prompt kapısında su kelimesi + kot cümlesi
 ```

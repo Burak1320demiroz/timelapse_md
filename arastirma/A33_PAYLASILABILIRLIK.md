@@ -48,7 +48,7 @@ Rapor Türkçe olsun, psikoloji terimleri, metrik ve platform adları İngilizce
 1. HAM KAYIT   arastirma/SONUCLAR/A33_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A30-A34_DENETIM.md — her makale DOI'den açılır, etki büyüklüğü ve örneklem
                makaleden okunur · tekrarlama durumu ayrıca aranır (Berger & Milkman dahil)
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A33-a, A33-b…  (C2-a · C2-e ile aynı yön mü, ters mi)
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A33-a, A33-b…  (C2-a · C2-e ile aynı yön mü, ters mi)
 4. KILAVUZ     KILAVUZ_REHBERI §6 konsept kapısına FİKİR PUANLAMA satırı · KANAL_KIMLIGI §4 halkalar ·
                IZLEYICI_DEFTERI: PAYLAŞIM/GÖNDERME ve YORUM TÜRÜ sütunları + sayım şablonu
 5. KAPI        ⛔ izleyici verisi gelmeden hiçbir satır kural sayılmaz — üç film kuralı [YAYIN_PLANI §6.2]

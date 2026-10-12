@@ -168,7 +168,7 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 
 ⛔ **Araştırma bulgusu ders DEĞİLDİR.** Bu depoda ders, bu depoda ölçülmüş
 bozulmadır. Araştırmadan çıkan her şey en fazla **gerekçeli varsayımdır** ve
-`DERSLER.md`'nin "DEVRALINAN DERSLER" bölümüne, `A<n>-x` koduyla girer.
+`VARSAYIMLAR.md`'ye `A<n>-x` koduyla girer: kuşak bölümüne madde + DİZİN'e satır (durum ⬜ açık).
 İlk üretimden sonra ya numaralı bir derse dönüşür ya düşer.
 
 ---

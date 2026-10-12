@@ -49,7 +49,7 @@ Rapor Türkçe olsun, araç ve kavram adları İngilizce kalsın, tablo ağırl�
 
 ```
 1. HAM KAYIT   arastirma/SONUCLAR/A24_<BOT>_HAM.md — dokunulmadan [kart S]
-2. KOD         DERSLER.md · DEVRALINAN bölümüne  A24-a, A24-b…
+2. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A24-a, A24-b…
 3. KILAVUZ     kilavuzlar/QA_KAYIT_KILAVUZU.md bu rapordan yazılır
 4. KAPI        sayac.sh uzlaştırma kontrolleriyle genişler · 00_INDEX matrisi
                betikten üretilir · ham dosyalara DOKUNULMAZ (eşleme tablosu)

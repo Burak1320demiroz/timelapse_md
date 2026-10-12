@@ -51,7 +51,7 @@ Rapor Türkçe olsun, fotoğraf, astronomi ve araç terimleri İngilizce kalsın
 1. HAM KAYIT   arastirma/SONUCLAR/A28_<BOT>_HAM.md — dokunulmadan [kart S]
 2. DENETİM     SONUCLAR/A25-A29_DENETIM.md — alacakaranlık tablosu bu makinede güneş formülüyle
                yeniden hesaplanır (THE SLOW TAKEOFF 47° K · δ +12° · −4,4° = 19:20)
-3. KOD         DERSLER.md · DEVRALINAN bölümüne  A28-a, A28-b…
+3. KOD         VARSAYIMLAR.md · kuşak bölümüne (+ DİZİN satırı)  A28-a, A28-b…
 4. KILAVUZ     kilavuzlar/ISIK_FINALI_KILAVUZU.md bu rapordan yazılır
 5. KAPI        PLAN'da IŞIK DEFTERİ (final ışıklıysa zorunlu) · lamba "sönük takılı" satırı yoksa FIX
 ```
