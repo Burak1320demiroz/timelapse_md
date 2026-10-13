@@ -131,6 +131,8 @@ flowchart LR
 timelapse_md/
 ├── AGENTS.md                 ⭐ agent contract: task cards, "which event changes which files"
 ├── CLAUDE.md                 pointer to AGENTS.md + "only the owner commits"
+├── LICENSE · .gitignore       MIT · local junk, Python cache and video files stay out
+├── images/                   README images (prompts at the end of this file)
 ├── kilavuzlar/               ⭐ THE BRAIN — 32 guides
 │   ├── KILAVUZ_REHBERI.md    ⭐ start here: decision tree · format card · invariants · stage ladder
 │   │                            · sun clock · concept gate · negative core · production flow
@@ -395,6 +397,8 @@ flowchart LR
 timelapse_md/
 ├── AGENTS.md                 ⭐ ajan kontratı: görev kartları, "hangi olay hangi dosyayı değiştirir"
 ├── CLAUDE.md                 AGENTS.md'ye işaret + "commit'i yalnız sahip atar"
+├── LICENSE · .gitignore       MIT · yerel çöp, Python önbelleği ve video dosyaları dışarıda
+├── images/                   README görselleri (promptlar bu dosyanın sonunda)
 ├── kilavuzlar/               ⭐ SİSTEMİN BEYNİ: 32 kılavuz
 │   ├── KILAVUZ_REHBERI.md    ⭐ buradan başla: karar ağacı · format kartı · değişmezler · aşama merdiveni
 │   │                            · güneş saati · konsept kapısı · negatif çekirdek · üretim akışı
