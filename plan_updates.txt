@@ -1,8 +1,0 @@
-1. Update Izgara to 8 sahne × 8,0 sn = 64,0 sn.
-2. Update Format to 9 görsel · 8 klip.
-3. Update Sahne Bloğu to 8 sahne × 8,0 sn = 64,0 sn -> Toplam 69,0 sn.
-4. Update Kare Tablosu: add G7, G8.
-5. Update Aşama Merdiveni: add S6, S7.
-6. Update Isik ve Zaman: add S6, S7.
-7. Change G6 heading from USTA KARE to SAHNE 6 (but keep G6 visual prompt text untouched).
-8. Append Klip 6, G7, Klip 7, G8 at the end.
