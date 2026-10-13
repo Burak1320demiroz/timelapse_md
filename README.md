@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="docs/images/hero.png" alt="Fixed-camera construction timelapse concept frame" width="100%">
+<img src="images/hero.jpg" alt="Locked-off construction frame with technical overlay: grid, pixel rulers, anchor crosshairs" width="100%">
+
+<img src="images/logo.png" alt="timelapse_md logo" width="120">
 
 # 🏗️ timelapse_md
 
@@ -60,7 +62,7 @@ a scene and a second where something broke. Unmeasured ideas are kept apart as *
 
 ## 3. The core idea — the two-keyframe chain
 
-<img src="docs/images/keyframe_chain.png" alt="Five stages of the same site seen from the same camera" width="100%">
+<img src="images/keyframe_chain.jpg" alt="Keyframe chain: photos G0…G4 with I2V clips locked between them" width="100%">
 
 ```
 photo G0 ─ clip 0 ─ photo G1 ─ clip 1 ─ photo G2 ─ … ─ clip N−1 ─ photo GN (master frame)
@@ -72,12 +74,18 @@ N scenes  →  N+1 images  ·  N image-to-video clips  ·  0 text-to-video  =  2
   frame. The seam between two clips is *the same image*, so light, shadow, dust and structure cannot jump at a cut.
 - **Production runs backwards.** The finished master frame (GN) is generated first; then image-to-image walks back to
   G0 (GN → GN−1 → … → G0). A finished building is easier to keep identical than an empty site.
-- **Every step has a gate.** `zincir_kontrol.sh` measures camera drift between frames (threshold: 2 px); a frame that
-  fails is thrown away and re-derived from the last approved one.
+- **Every step has a gate.** `zincir_kontrol.sh` compares each new frame with the last approved one and with the master
+  frame: SSIM on the left/right edge strips and the bottom band (where the fixed anchors live), and the pixel drift limit
+  for three landmarks checked by hand (2 px per 1080 px). A frame that fails is thrown away and re-derived from the last
+  approved one.
 - **No text-to-video fallback.** A clip from text cannot be locked to two frames. If a clip fails, it is re-run from the
   same two frames.
 
 Why: in the measured archive, continuity failed in five films out of five, and every time the cause was the seam.
+
+<img src="images/reverse_chain.jpg" alt="Reverse production order from the master frame back to G0" width="100%">
+
+<img src="images/drift_check.jpg" alt="Chain check: edge strips, bottom band and three landmarks" width="100%">
 
 ## 4. Formats
 
@@ -91,6 +99,11 @@ Why: in the measured archive, continuity failed in five films out of five, and e
 
 The 6- and 8-minute ladders are open but have no films yet. Horizontal films are 1920×1080 at 30 fps and are split into
 two part files with the part boundary on a shared frame, never on a cut.
+
+The camera is not chosen by eye: position, lens, tilt and the pixel position of every anchor are calculated in the plan
+(`KAMERA_ISTASYONU_KILAVUZU` · `KAMERA_DILI_KILAVUZU`).
+
+<img src="images/camera_geometry.jpg" alt="Camera station geometry: side and top views with field of view" width="100%">
 
 ## 5. Pipeline
 
@@ -177,7 +190,7 @@ and a production log.
 | `sayac.sh` | any time | computes every count in the repo from the file system and runs the prompt gate on all plans |
 | `film_klasoru_ac.sh` | new horizontal film | copies the folder skeleton, stamps scene rows, builds the reading checklist |
 | `prompt_kontrol.py` | **before production** | text gate: block labels, both I2V end sentences, banned words, temporary gear in invariants, hands at work, prompt length, scene grid… exit `0` GO · `1` FIX · `2` BLOCK |
-| `zincir_kontrol.sh` | **between frames** | camera drift between two frames vs. the 2 px threshold; exit `2` = chain broken |
+| `zincir_kontrol.sh` | **between frames** | edge-strip and bottom-band SSIM vs. the last approved frame and the master frame + px drift limit for three hand-checked landmarks; exit `2` = chain broken |
 | `kare_al.sh` | QA | first / middle / last frame grabs per clip + seam pairs |
 | `kesme_kontrol.sh` | before release | top-N cut detection: does the edit follow the plan's duration column? |
 | `ihrac_kontrol.sh` | before sharing | runtime / speed, end card, final hold (SSIM), music and text checklist |
@@ -185,6 +198,13 @@ and a production log.
 | `capraz_sayim.py` | archive | recomputes the cross-analysis score matrix |
 
 Requirements: `bash`, `python3` (standard library only), `ffmpeg` / `ffprobe` for the video tools. Developed on macOS.
+
+<table>
+<tr>
+<td width="50%"><img src="images/screenshot_gate.jpg" alt="prompt_kontrol.py output"></td>
+<td width="50%"><img src="images/screenshot_sayac.jpg" alt="sayac.sh output"></td>
+</tr>
+</table>
 
 ## 9. Quality assurance — five lenses
 
@@ -202,7 +222,7 @@ Requirements: `bash`, `python3` (standard library only), `ffmpeg` / `ffprobe` fo
 - The previous 12-lens system was audited and frozen on 06.10.2026: of 393 raw reports, 189 were complete, and half of
   the runs that needed documents were run without them. That audit is why the system was rebuilt.
 
-<img src="docs/images/qa_lenses.png" alt="Five lenses over a film strip" width="100%">
+<img src="images/qa_lenses.jpg" alt="Five QA lenses, each with its own machine-measured overlay" width="100%">
 
 ## 10. Lessons, assumptions and research
 
@@ -260,7 +280,8 @@ lesson. See `AGENTS.md` for the full task cards.
 
 ## 15. License
 
-⬜ **Not chosen yet — owner decision.** Until a `LICENSE` file is added, all rights are reserved by the owner.
+**MIT** — see [`LICENSE`](LICENSE). It covers the whole repository: tools, guides, film plans, prompts and images.
+The films and structures are fictional; the reality statement in §13 still applies to anything you publish with them.
 
 Sister repository: `film_md` (vertical space/sci-fi shorts). This repo inherited its skeleton and deliberately reversed some
 of its rules (`KILAVUZ_REHBERI §1.2`).
@@ -307,6 +328,8 @@ kırıldığı saniyeye işaret eder. Ölçülmemiş fikirler ayrı tutulur: *va
 
 ## 3. Ana fikir: iki keyframe zinciri
 
+<img src="images/keyframe_chain.jpg" alt="Keyframe zinciri: G0…G4 fotoları ve aralarına kilitli I2V klipleri" width="100%">
+
 ```
 foto G0 ─ klip 0 ─ foto G1 ─ klip 1 ─ foto G2 ─ … ─ klip N−1 ─ foto GN (usta kare)
 
@@ -317,11 +340,16 @@ N sahne  →  N+1 görsel  ·  N image-to-video klibi  ·  0 text-to-video  =  2
   *aynı görseldir*; kesmede ışık, gölge, toz ve yapı atlayamaz.
 - **Üretim tersten yürür.** Önce bitmiş usta kare (GN) üretilir, sonra image-to-image ile G0'a doğru geri gidilir
   (GN → GN−1 → … → G0). Bitmiş bir yapıyı aynı tutmak boş bir şantiyeyi aynı tutmaktan kolaydır.
-- **Her adımın kapısı var.** `zincir_kontrol.sh` iki kare arasındaki kamera kaymasını ölçer (eşik 2 px). Geçemeyen kare
-  atılır, son onaylı kareden yeniden türetilir.
+- **Her adımın kapısı var.** `zincir_kontrol.sh` her yeni kareyi son onaylı kareyle ve usta kareyle karşılaştırır: sabit
+  çapaların durduğu sol/sağ kenar şeritlerinde ve alt bantta SSIM ölçer, elle bakılacak üç nirengi için piksel kayma
+  sınırını basar (1080 px'te 2 px). Geçemeyen kare atılır, son onaylı kareden yeniden türetilir.
 - **Text-to-video yedeği yok.** Metinden üretilen klip iki kareye kilitlenemez. Klip tutmazsa aynı iki kareden yeniden koşulur.
 
 Neden: ölçülmüş arşivde devamlılık beş filmin beşinde de düştü ve her seferinde sebep dikişti.
+
+<img src="images/reverse_chain.jpg" alt="Usta kareden G0'a ters üretim sırası" width="100%">
+
+<img src="images/drift_check.jpg" alt="Zincir kontrolü: kenar şeritleri, alt bant ve üç nirengi" width="100%">
 
 ## 4. Formatlar
 
@@ -335,6 +363,11 @@ Neden: ölçülmüş arşivde devamlılık beş filmin beşinde de düştü ve h
 
 6 ve 8 dakikalık klasörler açık ama henüz filmleri yok. Yatay filmler 1920×1080 · 30 fps'dir ve iki bölüm dosyasına
 ayrılır; bölüm sınırı bir kesme değil, ortak bir karedir.
+
+Kamera gözle seçilmez: konum, lens, tilt ve her çapanın piksel konumu planda hesaplanır
+(`KAMERA_ISTASYONU_KILAVUZU` · `KAMERA_DILI_KILAVUZU`).
+
+<img src="images/camera_geometry.jpg" alt="Kamera istasyonu geometrisi: yandan ve üstten görüş açısı" width="100%">
 
 ## 5. Akış
 
@@ -421,7 +454,7 @@ Dikey film daha hafiftir: `<FILM>_DIKEY_TIMELAPSE.md` (plan + promptlar + müzik
 | `sayac.sh` | her zaman | depodaki bütün sayıları dosya sisteminden hesaplar, bütün planlarda prompt kapısını koşar |
 | `film_klasoru_ac.sh` | yeni yatay film | klasör iskeletini kopyalar, sahne satırlarını damgalar, okuma çizelgesini üretir |
 | `prompt_kontrol.py` | **üretimden önce** | metin kapısı: blok etiketleri, I2V'nin iki uç cümlesi, yasak kelimeler, değişmezlerde geçici ekipman, iş başındaki eller, prompt uzunluğu, sahne ızgarası… çıkış `0` GO · `1` FIX · `2` BLOCK |
-| `zincir_kontrol.sh` | **kareler arasında** | iki kare arası kamera kayması, 2 px eşiğine karşı; çıkış `2` = zincir kırıldı |
+| `zincir_kontrol.sh` | **kareler arasında** | son onaylı kareye ve usta kareye karşı kenar şeridi ve alt bant SSIM'i + elle bakılan üç nirengi için px kayma sınırı; çıkış `2` = zincir kırıldı |
 | `kare_al.sh` | QA | klip başına ilk / orta / son kare + dikiş çiftleri |
 | `kesme_kontrol.sh` | yayından önce | top-N kesme tespiti: kurgu planın süre sütununa uydu mu? |
 | `ihrac_kontrol.sh` | paylaşımdan önce | süre / hız, son kart, final tutuşu (SSIM), müzik ve yazı listesi |
@@ -429,6 +462,13 @@ Dikey film daha hafiftir: `<FILM>_DIKEY_TIMELAPSE.md` (plan + promptlar + müzik
 | `capraz_sayim.py` | arşiv | çapraz analiz skor matrisini yeniden hesaplar |
 
 Gereksinimler: `bash`, `python3` (yalnız standart kütüphane), video araçları için `ffmpeg` / `ffprobe`. macOS'ta geliştirildi.
+
+<table>
+<tr>
+<td width="50%"><img src="images/screenshot_gate.jpg" alt="prompt_kontrol.py output"></td>
+<td width="50%"><img src="images/screenshot_sayac.jpg" alt="sayac.sh output"></td>
+</tr>
+</table>
 
 ## 9. Kalite denetimi: beş mercek
 
@@ -445,6 +485,8 @@ Gereksinimler: `bash`, `python3` (yalnız standart kütüphane), video araçlar�
 - Ham raporlar `QA/HAM/` altında dokunulmadan saklanır; `QA/TABLO.md`'deki her sayı bir ham dosyaya bağlıdır.
 - Önceki 12 mercekli sistem 06.10.2026'da denetlenip donduruldu: 393 ham raporun 189'u tamdı; belge isteyen koşuların
   yarısı belgesiz yapılmıştı. Sistem bu denetim yüzünden yeniden kuruldu.
+
+<img src="images/qa_lenses.jpg" alt="Beş QA merceği, her biri kendi makine ölçümüyle" width="100%">
 
 ## 10. Dersler, varsayımlar ve araştırma
 
@@ -501,7 +543,8 @@ açılır. Görev kartlarının tamamı `AGENTS.md`'de.
 
 ## 15. Lisans
 
-⬜ **Henüz seçilmedi, sahip kararı.** Bir `LICENSE` dosyası eklenene kadar bütün haklar sahibine aittir.
+**MIT** — bkz. [`LICENSE`](LICENSE). Bütün depoyu kapsar: araçlar, kılavuzlar, film planları, promptlar ve görseller.
+Filmler ve yapılar kurgusaldır; bunlarla yayınladığınız her şeyde §13'teki gerçeklik beyanı yine geçerlidir.
 
 Kardeş depo: `film_md` (uzay/bilimkurgu dikey shorts). Bu depo onun iskeletini devraldı ve bazı kurallarını bilerek tersine
 çevirdi (`KILAVUZ_REHBERI §1.2`).
@@ -510,16 +553,7 @@ Kardeş depo: `film_md` (uzay/bilimkurgu dikey shorts). Bu depo onun iskeletini 
 
 # 🎬 Film catalog / Film kataloğu
 
-<table>
-<tr>
-<td width="50%"><img src="docs/images/showcase_last_carriage.png" alt="THE LAST CARRIAGE concept frame"></td>
-<td width="50%"><img src="docs/images/showcase_sky_canal.png" alt="THE SKY CANAL concept frame"></td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/images/showcase_empty_ridge.png" alt="THE EMPTY RIDGE concept frame"></td>
-<td width="50%"><img src="docs/images/showcase_first_light.png" alt="THE FIRST LIGHT concept frame"></td>
-</tr>
-</table>
+<img src="images/film_board_last_carriage.jpg" alt="THE LAST CARRIAGE storyboard: ten keyframes from the same camera, G0 to G20" width="100%">
 
 All structures and places are fictional. **Archive QA** = the film has raw reports in the frozen 12-lens archive.
 Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 mercekli arşivde ham raporları var.
@@ -590,127 +624,246 @@ Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 
 
 # 🎨 README image prompts / README görsel promptları
 
-The images above live in `docs/images/` and are **not generated yet**. Generate each one with the prompt below, save it under
-the given name, and the README picks it up. Until then the image slots show as empty.
-Yukarıdaki görseller `docs/images/` altında durur ve **henüz üretilmedi.** Her birini aşağıdaki promptla üretip verilen adla
-kaydedin; README onları otomatik gösterir. O zamana kadar görsel yerleri boş görünür.
+Images live in the **`images/` folder** and were generated from the prompts below (13.10.2026). To replace one, save the new file under the same name. Images 6 and 7 show real tool output and can also be taken as real screenshots.
+Görseller **`images/` klasöründe** durur ve aşağıdaki promptlarla üretildi (13.10.2026). Birini değiştirmek için yeni
+dosyayı aynı adla kaydedin. 6 ve 7 gerçek araç çıktısını gösterir; istenirse gerçek ekran görüntüsü olarak da alınabilir.
 
-**Rules for every image / Her görsel için kurallar** (same as the channel's own rules / kanalın kendi kurallarıyla aynı):
-- No text, letters, logos or watermarks inside the image; titles, if wanted, are added later in an editor.
-  Görselin içinde yazı, harf, logo ya da filigran yok; başlık gerekiyorsa sonra editörde eklenir.
-- No real place, company, landmark or brand. Bütün yapılar ve yerler kurgusal.
-- Photographic, not a 3D architectural render. Fotoğrafik görünüm; 3B mimari render değil.
-- Mark them in the README or alt text as AI-generated concept frames. README'de ya da alt metinde AI üretimi konsept kare olarak belirtin.
+**Shared visual language / Ortak görsel dil**
+- Technical documentation look: dark navy background `#0E1A2B`, thin white and cyan `#5FD3F3` lines, amber `#F2A03D` for
+  the one thing that matters in each image. Works on both GitHub light and dark themes.
+  Teknik dokümantasyon görünümü: koyu lacivert zemin, ince beyaz ve camgöbeği çizgiler, her görselde tek önemli şey için amber.
+- Labels are short, UPPERCASE, clean sans-serif, written **exactly** as given in quotes. If a model garbles the text,
+  regenerate with "no text" and add the labels in Figma / Keynote.
+  Etiketler kısa, BÜYÜK HARF, sade sans-serif ve tırnaktaki gibi **birebir**. Model yazıyı bozarsa "no text" ile yeniden
+  üretip etiketleri Figma / Keynote'ta ekleyin.
+- Photographic parts look like real construction photography, not 3D renders. No logos, no watermark, no real place.
+  Fotoğraf kısımları gerçek şantiye fotoğrafı gibi; 3B render değil. Logo, filigran, gerçek yer yok.
 
-| # | file / dosya | size / boyut | where / nerede |
-|:-:|---|---|---|
-| 1 | `docs/images/hero.png` | 1280 × 640 (2:1) · also the GitHub social preview / GitHub sosyal önizleme | top banner / üst bant |
-| 2 | `docs/images/keyframe_chain.png` | 2400 × 600 (4:1) | §3 the keyframe chain / keyframe zinciri |
-| 3 | `docs/images/qa_lenses.png` | 1600 × 600 | §9 QA |
-| 4 | `docs/images/showcase_last_carriage.png` | 1920 × 1080 (16:9) | catalog / katalog |
-| 5 | `docs/images/showcase_sky_canal.png` | 1920 × 1080 (16:9) | catalog / katalog |
-| 6 | `docs/images/showcase_empty_ridge.png` | 1080 × 1080 crop of a 9:16 frame / 9:16 karenin kare kırpımı | catalog / katalog |
-| 7 | `docs/images/showcase_first_light.png` | 1920 × 1080 (16:9) | catalog / katalog |
+| # | file / dosya | size / boyut | type / tür | where / nerede |
+|:-:|---|---|---|---|
+| 1 | `hero.jpg` | 1280 × 640 (2:1) | generated / üretilir | top banner + GitHub social preview |
+| 2 | `keyframe_chain.jpg` | 2400 × 600 (4:1) | generated / üretilir | §3 |
+| 3 | `reverse_chain.jpg` | 2400 × 600 (4:1) | generated / üretilir | §3 |
+| 4 | `drift_check.jpg` | 1920 × 960 (2:1) | generated / üretilir | §3 |
+| 5 | `camera_geometry.jpg` | 1920 × 1080 (16:9) | generated / üretilir | §4 |
+| 6 | `screenshot_gate.jpg` | 1600 × 1000 (16:10) | generated terminal image (or real screenshot) / üretilen terminal görseli (ya da gerçek ekran görüntüsü) | §8 |
+| 7 | `screenshot_sayac.jpg` | 1600 × 1000 (16:10) | generated terminal image (or real screenshot) / üretilen terminal görseli (ya da gerçek ekran görüntüsü) | §8 |
+| 8 | `qa_lenses.jpg` | 2400 × 800 (3:1) | generated / üretilir | §9 |
+| 9 | `film_board_last_carriage.jpg` | 2400 × 1000 (12:5) | generated / üretilir | catalog / katalog |
+| 10 | `logo.png` | 800 × 800 (PNG) | generated / üretilir | under the banner / bandın altında · channel profile spec `apexait/KANAL_KIMLIGI.md` §5.2 |
 
-> ⭐ For images 4–7, the best source is the film's own master frame prompt (`## 🌟 USTA KARE` in `BOLUM_2`, or the last
-> scene block in a vertical film). The prompts below are shorter stand-ins for the README only.
-> 4–7 için en iyi kaynak filmin kendi usta kare promptudur (`BOLUM_2` içinde `## 🌟 USTA KARE`, dikey filmde son blok).
-> Aşağıdakiler yalnız README için kısaltılmış yedeklerdir.
-
-### 1 · `hero.png`
-
-```
-A wide photograph from a single locked-off camera on a tripod at the edge of a fictional rocky valley, late golden hour.
-In the middle of the frame a half-finished steel and stone structure stands on its foundations: the left half is complete,
-clad and lit from inside with warm small lights, the right half is still a bare steel frame with a yellow mobile crane
-holding one steel beam just above its final position. A small crew in orange high-visibility vests and white helmets works
-on the frame, a flatbed truck with stacked steel beams waits on a gravel yard, long shadows run across the ground toward
-the camera. Far ridges stay sharp and blue in the background, the sky is clear with a few high thin clouds. Real
-construction-site photography, natural colours, fine detail on steel, gravel, rope and timber, 28 mm lens, deep focus,
-horizon one quarter from the top, plenty of calm sky above for a title to be added later.
-No text, no letters, no logos, no watermark anywhere in the image.
-```
-
-### 2 · `keyframe_chain.png`
+### 1 · `hero.jpg` (2:1)
 
 ```
-A horizontal contact sheet of five photographs laid side by side with thin white gaps between them, all five taken from
-exactly the same fixed camera position with the same framing, the same lens and the same far mountain ridge in the same
-place. They show one fictional stone watchtower on a grassy hill at five stages of being built: first an empty hill with
-surveyors' stakes and a pile of cut stone; then a low circular stone base with a small crew and a wheelbarrow; then the
-walls at half height with timber scaffolding and a small crane; then the full tower with scaffolding being taken down;
-last the finished tower in warm evening light with the site cleared. The single lone tree at the left of every photograph
-stays the same size and in the same spot in all five frames. Documentary construction photography, natural light that
-moves from morning to evening across the five frames, consistent colour grade.
-No text, no numbers, no labels, no arrows, no logos, no watermark.
+Wide 2:1 technical banner. The left two thirds are a real photograph from a single locked-off camera on a tripod at the
+edge of a fictional rocky valley in late golden light: a half-finished steel and stone building on its foundations, the
+left half clad and complete, the right half a bare steel frame with a yellow mobile crane holding one steel beam just above
+its final position, a small crew in orange high-visibility vests and white helmets, a flatbed truck with stacked beams on
+a gravel yard, far blue ridges behind. Over the photograph sits a precise technical overlay in thin cyan lines: a
+rule-of-thirds grid, pixel rulers with fine tick marks along the top and left edges, a dashed horizontal line on the far
+ridge labelled "HORIZON", and three small circular crosshair markers on fixed landmarks — a forked pine tree at the left
+edge labelled "ANCHOR A", a tall split rock at the right edge labelled "ANCHOR B", a notch in the far ridge labelled
+"ANCHOR C". The right third fades smoothly into a dark navy blueprint background where the same building continues as a
+clean white line drawing with dimension lines, and the steel beam on the crane hook is highlighted in amber.
+Clean, precise, documentary. No logos, no watermark, no other text than the labels in quotes.
 ```
 
-### 3 · `qa_lenses.png`
+### 2 · `keyframe_chain.jpg` (4:1)
 
 ```
-A top-down photograph of a dark wooden editing desk. Across the desk lies a long strip of printed film frames showing the
-same fictional construction site from the same camera at different stages. Five round glass magnifying lenses of slightly
-different sizes rest on the strip in a row, each one enlarging a different detail underneath: a crane hook, a seam
-between two frames, a crew of workers, a steel beam, and the finished building at dusk. Soft daylight from a window at the
-left, gentle shadows, shallow depth of field at the edges, a calm and precise editorial mood, natural colours.
-No text, no letters, no logos, no screens with readable writing, no watermark.
+Wide 4:1 technical diagram on a dark navy background. A single horizontal row: five photographs of equal size alternating
+with four short strips of motion film between them. All five photographs are taken from exactly the same fixed camera with
+the same framing, the same lens, the same lone tree at the left and the same mountain ridge behind: they show one
+fictional stone watchtower on a grassy hill at five stages — an empty hill with surveyors' stakes and a pile of cut stone;
+a low round stone base with a crew and a wheelbarrow; walls at half height with timber scaffolding and a small crane;
+the full tower with scaffolding coming down; the finished tower in warm evening light. Under each photograph a small label:
+"G0", "G1", "G2", "G3", "G4". Each motion strip shows four tiny blurred frames of the work in between and is labelled
+"I2V CLIP". Thin cyan arrows run from each photograph into the start of the next strip and from the end of each strip
+into the next photograph, showing that every clip starts on one photograph and ends exactly on the next. Below the row,
+a thin timeline with tick marks labelled "0 s", "8 s", "16 s", "24 s", "32 s". The last photograph "G4" has an amber
+frame. Clean flat technical style, generous spacing. No logos, no watermark, no other text.
 ```
 
-### 4 · `showcase_last_carriage.png`
+### 3 · `reverse_chain.jpg` (4:1)
 
 ```
-Blue hour above a narrow, deep fictional rocky canyon, seen from one fixed camera on a ledge, slightly looking down.
-Exactly one restored old passenger carriage rests level on a steel deck that spans the canyon between two rock ledges:
-deep emerald green body with a cream band under eight large lit windows, a copper roof, a short covered gangway at each
-end linking it to the rock. In front of it a timber terrace with steel guardrails and four small tables with warm table
-lamps; the middle of the terrace is three clear glass floor panels in steel frames, the canyon visible far below through
-them. A few adult guests sit at the tables, seen from behind and from the side, and one couple stands near the middle of
-the glass. A pine tree with a forked trunk stands on the left ledge, a tall split rock on the right. The canyon walls drop
-away into deep shadow, far ridges are dark blue against a clear deep-blue sky with the last pale light low on the horizon.
-Small warm lights with crisp edges, clear air, real night photography, natural colours, 28 mm lens.
-No text, no logos, no watermark.
+Wide 4:1 technical diagram on a dark navy background showing the production order of the same five photographs of a
+fictional stone watchtower on a grassy hill, all from the same fixed camera (empty hill → round base → half-height walls
+with scaffolding → full tower → finished tower at evening). The finished tower sits at the far right inside a thick amber
+frame with the label "MASTER FRAME · GENERATED FIRST". Bold amber arrows run from right to left between the photographs,
+each arrow labelled "IMAGE-TO-IMAGE". Each photograph carries a large step number in a small circle in its top corner,
+counting from right to left: "1" on the finished tower, then "2", "3", "4", "5" on the empty hill. Each approved
+photograph has a small green check badge. Under the middle photograph hangs one extra rejected photograph in which the
+tower is slightly wider and the far ridge is shifted, marked with a red cross and the label "REJECTED · RE-DERIVE".
+Clean flat technical style. No logos, no watermark, no other text.
 ```
 
-### 5 · `showcase_sky_canal.png`
+### 4 · `drift_check.jpg` (2:1)
 
 ```
-Late afternoon golden light over a deep wooded fictional river valley, one fixed camera on the valley side.
-A 100-metre steel canal bridge with three spans crosses the valley on two concrete piers: an open steel trough filled with
-calm water runs along its top, with a narrow maintenance walkway and a guardrail on the near side. A small red boat floats
-in the trough near the right end of the bridge. Below, a river runs between the trees, catching the light. Long soft
-shadows of the piers fall across the slope. A few workers in high-visibility vests walk the maintenance path; a crane is
-folded and parked on a gravel pad at the left. Clear sky with a few high clouds, real landscape photography, natural
-colours, fine detail on steel plates, rivets, water and foliage, 28 mm lens, deep focus.
-No text, no logos, no watermark.
+Wide 2:1 technical illustration. One real photograph from a locked-off camera fills the frame: a fictional rocky canyon
+edge with a forked pine tree at the far left, a tall split rock at the far right, a far mountain ridge across the upper
+part and a half-finished steel structure with a crane in the middle. Over it, a precise measurement overlay: the left and
+right vertical edge strips, each about one eighth of the frame width, are tinted translucent cyan and labelled
+"EDGE STRIP · SSIM ≥ 0.80"; a horizontal band along the bottom is tinted translucent amber and labelled
+"BOTTOM BAND · SSIM ≥ 0.70"; the central area with the structure is outlined with a dashed white line and labelled
+"CHANGE ALLOWED". Three small crosshair markers sit on the pine tree, the split rock and a notch in the ridge; each one is
+connected by a thin line to a round magnified inset at the frame edge that shows two thin outlines of the landmark almost
+perfectly on top of each other, labelled "≤ 2 PX @ 1080". Clean, exact, scientific look. No logos, no watermark, no other
+text.
 ```
 
-### 6 · `showcase_empty_ridge.png` (vertical 9:16, then cropped square / dikey 9:16, sonra kare kırpım)
+### 5 · `camera_geometry.jpg` (16:9)
 
 ```
-Vertical photograph from one fixed camera at the foot of a long grassy ridge in late summer. On the ridge stands one tall
-white onshore wind turbine with a tubular steel tower and three long blades turning slowly. Beside its base a single old
-oak tree stands alone on the ridge line, small against the tower. A fresh gravel road climbs through a wheat field to a
-gravel pad at the turbine's foot, where a white service van is parked. Warm low evening sun from the side, long shadow of
-the tower crossing the field, wide valley falling away behind, clear sky with a few thin clouds. Real landscape
-photography, natural colours, fine detail on grass, gravel and steel, deep focus.
-No text, no logos, no watermark.
+16:9 technical blueprint drawing, white and cyan lines on a dark navy background, two views side by side.
+Left half titled "SIDE VIEW": a camera on a tripod standing on a rock ledge, tilted slightly downward; an amber angle arc
+between the level line and the camera axis labelled "TILT 14°"; the upper and lower edges of the field of view drawn as
+two thin lines spreading toward a building on the far side of a canyon; a dashed level line labelled "HORIZON"; a long
+dimension line between camera and building labelled "D".
+Right half titled "TOP VIEW": the same camera seen from above as a small symbol, a wedge-shaped field of view labelled
+"28 MM · 65° H", the building as a long rectangle across the wedge, and three small circles at the wedge edges labelled
+"A", "B", "C" for fixed landmarks.
+In the bottom-right corner, a small inset of the resulting 16:9 camera frame with the building in the middle, the
+landmarks A, B, C marked with crosshairs near the frame edges and a thin pixel ruler along the bottom.
+Precise engineering drawing style, thin consistent line weights. No logos, no watermark, no other text.
 ```
 
-### 7 · `showcase_first_light.png`
+### 6 · `screenshot_gate.jpg` (16:10 · 1600 × 1000)
+
+Generated terminal image. The text is the **real output** of
+`python3 araclar/prompt_kontrol.py yatay_2_dk_filmler/THE_LAST_CARRIAGE` (13.10.2026), shortened. A real screenshot of the
+same command is still the more honest option.
+Üretilen terminal görseli; metin aynı komutun **gerçek çıktısından** kısaltıldı. Komutun gerçek ekran görüntüsü yine daha
+dürüst seçenektir.
 
 ```
-Clear dawn on a fictional rocky mountain summit, one fixed camera on a slightly lower shoulder of the mountain.
-A restored round observatory stands on the summit: a low circular granite drum about four metres high and a large copper
-dome on top, its observing slit open toward the sky, the copper still bright and freshly fitted. A stone path with a
-steel handrail climbs to its door. Two workers in high-visibility vests coil ropes beside a small parked tracked carrier;
-a stack of leftover granite blocks sits on a pallet. Far below, layers of blue mountain ridges fade into the distance.
-The first warm sunlight touches the dome while the rocks are still in cool shadow. Real mountain photography, natural
-colours, fine detail on granite, copper seams and gravel, 28 mm lens, deep focus.
-No text, no logos, no watermark.
+A clean, sharp screenshot-style image of a single macOS terminal window, 16:10, centred on a dark navy background #0E1A2B
+with a soft shadow. The window has a thin title bar with three small round buttons at the top left and the title
+"timelapse_md — zsh". Terminal background near-black #101315, monospaced font, light grey text, generous line spacing,
+perfectly legible. The window shows exactly these lines, top to bottom, left-aligned:
+"$ python3 araclar/prompt_kontrol.py yatay_2_dk_filmler/THE_LAST_CARRIAGE"
+"FILM KLASORU · 3 dosya birlesik (PLAN + BOLUM_1 + BOLUM_2)"
+"PROMPT KONTROL · THE_LAST_CARRIAGE"
+"sahne gorseli 20 · usta kare 1 · I2V 20 · T2V 0"
+"FIX — 2"
+"   ARAC KUTU SETI olculmedi — uretim acilamaz"
+"   butun sahne sureleri ayni (8,0) — beyanli duz izgara"
+"[SAHNE 0 — INDIRIR]    5878 karakter"
+"[SAHNE 1 — COZER]      5633 karakter"
+"[SAHNE 2 — SOKER]      5593 karakter"
+"[USTA KARE — G20]      5987 karakter"
+"SONUC: FIX — duzelt, sonra uret"
+The first line is white with a cyan "$". The two lines starting with "FIX" and "SONUC" are amber #F2A03D. The bracketed
+scene names are cyan, the numbers light grey. Nothing else in the window. No logos, no watermark.
 ```
 
-**Generation tips / Üretim notları**
-- Generate at the listed aspect ratio, then resize; do not stretch. / Listelenen en-boy oranında üretip sonra boyutlayın; germeyin.
-- Keep files under ~1 MB (PNG or high-quality JPG) so the README loads fast. / Dosyaları ~1 MB altında tutun.
-- For the GitHub social preview: *Settings → General → Social preview*, upload `hero.png`. / GitHub sosyal önizleme:
-  *Settings → General → Social preview*, `hero.png` yükleyin.
+### 7 · `screenshot_sayac.jpg` (16:10 · 1600 × 1000)
+
+Generated terminal image. The text is the **real output** of `bash araclar/sayac.sh` (12.10.2026), shortened.
+Üretilen terminal görseli; metin `bash araclar/sayac.sh` komutunun **gerçek çıktısından** kısaltıldı.
+
+```
+A clean, sharp screenshot-style image of a single macOS terminal window, 16:10, centred on a dark navy background #0E1A2B
+with a soft shadow. The window has a thin title bar with three small round buttons at the top left and the title
+"timelapse_md — zsh". Terminal background near-black #101315, monospaced font, light grey text, generous line spacing,
+perfectly legible. The window shows exactly these lines, top to bottom, left-aligned, with the numbers aligned in one
+column:
+"$ bash araclar/sayac.sh"
+"SAYAC · 12.10.2026"
+"FILMLER"
+"   film klasoru            52   (dikey 40 · yatay 12)"
+"   plani olan              52 / 52"
+"   SPEC'i olan             52 / 52"
+"   uretim gunlugu olan     22 / 52"
+"DERSLER"
+"   olculmus ders           64"
+"   kod durumu              acik 372 · olculdu 33 · dustu 7"
+"BELGE HACMI"
+"   kilavuz dosyasi         32"
+"   toplam satir            14658"
+The first line is white with a cyan "$". The section headers "SAYAC", "FILMLER", "DERSLER", "BELGE HACMI" are cyan and
+bold. The number "64" is amber #F2A03D; all other numbers are white. A thin horizontal rule of box-drawing characters
+sits above and below "SAYAC · 12.10.2026". Nothing else in the window. No logos, no watermark.
+```
+
+### 8 · `qa_lenses.jpg` (3:1)
+
+```
+Wide 3:1 technical board on a dark navy background with five equal panels side by side. Every panel shows the same real
+photograph of a finished fictional building on a canyon edge at blue hour, taken from the same fixed camera, each with a
+different thin measurement overlay. Above each panel a header label:
+panel 1 "1 · IMAGE" — a cyan grid and crosshairs on the fixed landmarks at the frame edges;
+panel 2 "2 · TIME & CUT" — a horizontal timeline strip under the image with evenly spaced cut markers and a small clock arc;
+panel 3 "3 · SITE" — the panel is split vertically into two halves, the last frame of one clip and the first frame of the
+next, with thin cyan lines showing that the edges match exactly;
+panel 4 "4 · BUILD" — the building outlined in amber and compared with a small white line drawing of the same building in
+the panel corner;
+panel 5 "5 · DELIVERY" — the final frame with a progress bar along the bottom whose last section is highlighted amber and
+labelled "FINAL HOLD".
+Panels 1 to 3 carry a small closed-eye icon in the corner (blind review), panels 4 and 5 a small document icon.
+Clean flat technical style, consistent spacing. No logos, no watermark, no other text.
+```
+
+### 9 · `film_board_last_carriage.jpg` (12:5)
+
+```
+Technical storyboard contact sheet on a dark navy background: ten photographs in two rows of five, thin white borders,
+small labels under each. All ten are taken from exactly the same locked-off camera on a rock ledge, 28 mm, tilted slightly
+down, with the same forked pine at the left edge, the same tall split rock at the right edge and the same far ridges, over
+a narrow, deep fictional rocky canyon with a steel deck spanning it. The light moves from morning to blue hour across the
+ten frames.
+"G0" a rusty brown old passenger carriage hanging from a yellow crane just above the steel deck, slings taut;
+"G3" the carriage seated on the deck, window openings empty, old glass in crates on the gravel yard;
+"G4" the carriage body blasted to bare dull grey steel, a compressor and a crew on low scaffolds;
+"G6" the body painted deep emerald green with a cream band, a new copper roof;
+"G8" eight new glass windows, a short covered gangway linking the left end to the rock;
+"G10" a second gangway on the right, three open steel terrace frames in front of the carriage over the drop;
+"G12" timber decking on the terrace sides, three clear glass floor panels closing the open middle, the canyon visible
+through them;
+"G15" guardrails and four small tables on the terrace, the crane lowering its boom to pick up the last crates;
+"G17" blue hour, the site cleared, warm lights on inside the carriage, on the gangways and along the rails;
+"G20" adult guests at the tables seen from behind and from the side, one couple standing on the glass.
+The "G20" frame has an amber border. Real construction photography, consistent colour grade. No logos, no watermark, no
+other text than the frame labels.
+```
+
+### 10 · `logo.png` (1:1 · 800 × 800)
+
+Follows the channel's logo spec (`apexait/KANAL_KIMLIGI.md` §5.2): no text, one silhouette on one background, content
+inside a circle 5% from the edge, palette `#101315` · `#E8E4DC` · one `#F2A03D` accent. Test it at 32 px:
+`sips -Z 32 logo.png --out test_logo_32.png` — it must still read as one shape.
+Kanalın logo şartnamesine uyar: yazı yok, tek siluet + tek zemin, içerik kenardan %5 içerideki dairede, palet sabit, tek
+amber vurgu. 32 px testinde hâlâ tek ve tanınır bir şekil kalmalı.
+
+```
+Minimal flat vector logo mark, square 1:1, solid deep anthracite background #101315. Everything sits inside an invisible
+circle with a 5% margin from the edges. A single horizontal line crosses the exact vertical middle of the circle as a
+horizon. From the horizon rises one tall, simple vertical block, like a building under construction, in light concrete
+colour #E8E4DC, placed slightly left of centre. Beside it stands a minimal tower crane drawn in the same light concrete
+colour with thick clean strokes: a straight mast and one long boom angled gently upward across the top of the circle.
+The only accent is a small amber #F2A03D crane hook hanging from the tip of the boom. Bold geometric shapes, thick
+strokes that stay clear at very small sizes, no thin details, no gradients, no shadows, no texture.
+No text, no letters, no numbers, no border ring, no watermark.
+```
+
+Variant B · the keyframe chain as a mark / Varyant B · keyframe zinciri işareti:
+
+```
+Minimal flat vector logo mark, square 1:1, solid deep anthracite background #101315, all content inside an invisible
+circle with a 5% margin. Two rounded-corner rectangles in light concrete colour #E8E4DC, like two photo frames, sit side
+by side and slightly overlap; inside each frame the same tiny horizon line at the exact middle. In the left frame a short
+vertical block rises from the horizon; in the right frame the same block is twice as tall. One small amber #F2A03D square
+marks the overlap where the two frames share their edge. Bold geometric shapes, thick strokes readable at 32 pixels, no
+gradients, no shadows, no texture. No text, no letters, no numbers, no watermark.
+```
+
+**Tips / Notlar**
+- Generate at the listed aspect ratio, then resize; do not stretch. Stored as JPG (quality 85, 2000 px wide) except the
+  logo (PNG, 800 × 800); each file stays under ~1 MB.
+  Listelenen oranda üretip sonra boyutlayın; germeyin. Logo dışındakiler JPG (kalite 85, 2000 px genişlik), logo PNG
+  (800 × 800); her dosya ~1 MB altında.
+- Images 2, 3 and 9 need the same building in every frame. If the model drifts, generate the frames one by one and
+  assemble the board in an editor. / 2, 3 ve 9'da yapı her karede aynı olmalı; model kayarsa kareleri tek tek üretip
+  panoyu editörde birleştirin.
+- GitHub social preview: *Settings → General → Social preview* → `hero.jpg`.
