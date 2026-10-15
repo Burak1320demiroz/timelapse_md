@@ -326,6 +326,13 @@ KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of 
                       B'de iş yeterince canlı okundu. Kural yazılmadı.
 ⑤ SINIR               ACTIVITY'de > 6 farklı hareket eden → INFO; hepsi ana işe bağlı değilse
                       kalabalıktır. Hızlı rejimde insan SIRTI kameraya, iz bırakarak [§9.4].
+⑥ ÜÇ FAZLI KİNEMATİK  Her 8 saniyelik klip kendi içinde üç alt pencereye oturur [A41-c]:
+                      · 0.0–2.5 sn: Lojistik & Yaklaşma (malzeme taşınır, vinç yaklaşır · ΔV = 0)
+                      · 2.5–5.0 sn: Hazırlık & Konumlandırma (hizalama, iskelete oturtma · iş zirve)
+                      · 5.0–8.0 sn: Nihai Montaj & Sabitleme (vidalama, kenetleme · net ΔV ≥ %15-20)
+⑦ ÇOKLU ETKİ ELEMANI  Boş rölantiyi (stagnant clip) engellemek için sahnede aynı anda en az
+                      3 bağımsız hareket unsuru (işçi elleri/aletler + montaj parçası + vinç/toz/kıvılcım)
+                      yer alır [A41-d · MONOTONIK_ILERLEME_VE_FAZ_KAPISI_KILAVUZU §3.4].
 
 KAPI (FIX — pilot ölçülene kadar; sahip kararı 19.09.2026 kalıbı):
    · ACTIVITY'de el < 3 (farklı makine + ekip kelimesi ×2) → FIX

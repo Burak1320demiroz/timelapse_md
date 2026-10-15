@@ -19,16 +19,17 @@
 | ❶ | `Q1_GORUNTU.md` | Tek kameradan tek bir timelapse mi, görüntü katı mı? | **V** | video + kareler | TIMELAPSE / SEPARATE IMAGES ⛔ · SOLID / MELTING |
 | ❷ | `Q2_ZAMAN_KESME.md` | Zaman tek yönde, tek hızda geçiyor mu; kesme "zaman" mı demek? | **V** | video + ölçülmüş olgular | PASSING / WRONG DIRECTION / ONLY LIGHT · TIME / NEXT |
 | ❸ | `Q3_SANTIYE.md` | Her kesmede aynı dünya mı; şantiye hep çalışıyor, her değişimin sebebi görünüyor mu? | **V** | video + kareler (dikiş çiftleri) | SAME WORLD / REBUILT ⛔ · WORKING / PARKED |
-| ❹ | `Q4_INSA.md` | SPEC'teki yapı mı; parça parça, görünen bir eliyle, davetli kadroyla mı yapıldı? | **D** | video + QA_SPEC + plan | SAME / DIFFERENT ⛔ · BUILT / APPEARING · INVITED / INTRUDERS |
-| ❺ | `Q5_TESLIM.md` | Vaat ekrana çıktı mı; film BİTİYOR mu, DURUYOR mu? | **D** | yayın dosyası + plan + kapak | ENDS / STOPS |
+| ❹ | `Q4_INSA.md` | Tek ve tutarlı yapı mı; parça parça, görünen bir eliyle, davetli kadroyla mı yapıldı? | **D/V** | video (+ isteğe bağlı QA_SPEC + plan) | SAME / DIFFERENT ⛔ · BUILT / APPEARING · INVITED / INTRUDERS |
+| ❺ | `Q5_TESLIM.md` | Vaat ekrana çıktı mı; film BİTİYOR mu (oturuyor mu), DURUYOR mu? | **D/V** | yayın dosyası (+ isteğe bağlı plan + kapak) | ENDS / STOPS |
 
 ```
 ⛔ ÖLDÜRÜCÜ HÜKÜM — ❶ SEPARATE IMAGES · ❸ REBUILT · ❹ DIFFERENT
    üçünden biri → FİLM DÜŞTÜ, ortalama ne olursa olsun (eski asgari set ① ② ⑤'in karşılığı).
    ❺ STOPS → yeniden üretim sebebi (öldürücü listeye girmesi sahip kararıdır).
-⭐ KÖR (V) mercekler filmi planı hiç görmemiş izleyici gözüyle okur; sonunda QUESTIONS FOR THE
-   DOCUMENT listesi çıkarır, ajan plandan cevaplar. BELGELİ (D) mercekler sözleşme denetimidir;
-   belgesi yoksa ilk satır RUN INCOMPLETE — puan YOKTUR.
+⭐ KÖR (V) modda mercekler filmi planı hiç görmemiş izleyici gözüyle okur; sonunda QUESTIONS FOR THE
+   DOCUMENT listesi çıkarır, ajan plandan cevaplar. BELGELİ (D) modda sözleşme denetimidir.
+   Belge yoksa ❹ ve ❺ de mod V'de (iç tutarlılık, inşa mantığı ve ekrandaki vaat/sonuçla) tam koşar;
+   ASLA durmaz, RUN INCOMPLETE vermez.
 ⭐ Her kusurun TEK sahibi var; rubrikler sınır cümlesi taşır ("SEE LENS n") [RUBRIK_YAZIM §5].
 ```
 

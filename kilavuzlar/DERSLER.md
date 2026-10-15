@@ -73,6 +73,26 @@
 | 62 | ⭐ Pilot ve günlük yazılıydı, koşmadı — dikey planda kapı ister | 6 dikey film günlüksüz · IRON BRIDGE G6 kemersiz | ✅ ölçüldü |
 | 63 | ⭐ Plan beyanı ile paylaşılan dosya arasında adım yoktu → ihrac_kontrol.sh · qa_paket --hiz | kart/müzik/yazı ihlalleri · STAR DOCK 2x · DEEP STEP yanlış SPEC | ✅ ölçüldü |
 | 64 | ⭐ Mercek çoğaldıkça yordam çöktü: belgeli koşuların yarısı belgesiz → 12 mercek arşiv, BEŞ mercek | 393 ham sınıflandı: BELGESİZ 98/196 · ④ 9/36 kullanılır · ⑦⑧⑨⑩ çift sayım | ✅ ölçüldü |
+| 65 | ⭐ Eylem sıçraması ve semantik sızma: Çok yüzeyli sahnede metindeki eylem açık yüzeylere sıçrar | THE SKY STATION · Q1 Clip 35 (4:34.0) | ✅ ölçüldü |
+| 66 | ⭐ Derin arka plan inşaatı çapa yapısını bozar: Uzaktaki yapıya ayrı vinç verilmez | THE SKY STATION · Q1 Clip 6 (0:40.0) | ✅ ölçüldü |
+| 67 | ⭐ Timelapse'te sıvı jeti / basınçlı yıkama hayalet fıskiye üretir — sıvı jeti yasağı | THE SKY STATION · Q1 Clip 10–15 (1:12–1:57) | ✅ ölçüldü |
+| 68 | ⭐ Askıdaki simetrik büyük mekanizmalar perspektifi kaybedip erir — serbest çark yasağı | THE SKY STATION · Q1 Clip 19–25 (2:24–3:12) | ✅ ölçüldü |
+| 69 | ⭐ Sahada eşzamanlı çoklu araç hareketi kimlik hırsızlığı doğurur — araç tavanı = 1 | THE SKY STATION · Q1 Clip 1–35 (0:07–3:53) | ✅ ölçüldü |
+| 70 | ⭐ Kadraj dışı güneşin kadraj içine disk olarak sızması ve gölge açısıyla çelişmesi | THE SKY STATION · Q2 Clip 1 (0:02.0) | ✅ ölçüldü |
+| 71 | ⭐ Timelapse gökyüzünde radyal yakınlaştırma / patlama bulutu | THE SKY STATION · Q2 Clip 21 (2:43.0) | ✅ ölçüldü |
+| 72 | ⭐ 10 dakikalık sıkıştırma penceresinde bulut hızı ile gölge duruşunun saat boşanması | THE SKY STATION · Q2 Clip 1–35 (0:10–2:33) | ✅ ölçüldü |
+| 73 | ⭐ Ara sahne / bölüm masterı kesmesinde askıda yük ve hareketli makineyle bitiş | THE SKY STATION · Q2 Clip 35 (4:40.0) | ✅ ölçüldü |
+| 74 | ⭐ Dikişte yük ve makine takası — kamyon kasasındaki yük indirilmeden dikişte dönüşemez | THE SKY STATION · Q3 Clip 5/26/31 | ✅ ölçüldü |
+| 75 | ⭐ Amaçsız makine hareketleri ve sahte döngüler — iş üretmeyen vinç ve forklift gezinmesi | THE SKY STATION · Q3 Clip 19/30–35 | ✅ ölçüldü |
+| 76 | ⭐ Emeksiz büyüme (Growth Nobody Made) — aktörü bağlanmayan yapısal fark filizlenir | THE SKY STATION · Q3 Clip 10/29/35 | ✅ ölçüldü |
+| 77 | ⭐ Kadraj kenarındaki çıplak kaya sivrisinde dev insan figürü — peyzaj çapası koruması | THE SKY STATION · Q3 Clip 14 (1:49.0) | ✅ ölçüldü |
+| 78 | ⭐ Prematüre montaj ve yıkım gerilemesi — erken konan eleman modelce geriye sökülür | THE SKY STATION · Q4 Clip 3/5 (0:23–0:34) | ✅ ölçüldü |
+| 79 | ⭐ Gökten inen monolitik hazır yapı — yerinde döküm ile prefabrikasyon üst üste binemez | THE SKY STATION · Q4 Clip 22 (2:49.0) | ✅ ölçüldü |
+| 80 | ⭐ Çatı strüktür sistemi takası — 'truss'/'rafter' karmaşası ve tipoloji mutasyonu | THE SKY STATION · Q4 Clip 28–29 (3:38–3:51) | ✅ ölçüldü |
+| 81 | ⭐ Uçurum ve boşluktan yükselen hayalet makine — zemin temeli olmayan bomlar | THE SKY STATION · Q4 Clip 16 (2:01.0) | ✅ ölçüldü |
+| 82 | ⭐ Uzun form ara bölüm kapanışı (Mid-Section Pause) — ara master askıda şantiyeyle duramaz | THE SKY STATION · Q5 Clip 35 (4:39.0) | ✅ ölçüldü |
+| 83 | ⭐ Klip içi müzik sızıntısı ve kopuk parçacıklar — promptlara enstrüman yazılmaz | THE SKY STATION · Q5 Clip 3/13/27/32 | ✅ ölçüldü |
+| 84 | ⭐ Son klipte sahte kabin türemesi ve havada erimesi — halatsız istasyonda kabin yasağı | THE SKY STATION · Q5 Clip 35 (4:32–4:37) | ✅ ölçüldü |
 
 ---
 
@@ -2030,6 +2050,352 @@ KİLİT       ① BEŞ MERCEK — ❶ GÖRÜNTÜ (①+⑫) · ❷ ZAMAN VE KESME
 NEREYE      QA/00_README · Q1–Q5 · TABLO.md · HAM/ · FILMLER/ · ARSIV_12_MERCEK/00_ARSIV.md ·
             araclar/qa_paket.sh · sayac.sh · film_klasoru_ac.sh · AGENTS kart Q · R ·
             kilavuzlar/QA_KOSU · QA_OLCUM_ZEMINI · RUBRIK_YAZIM · QA_KALIBRASYON · QA_KAYIT
+```
+
+---
+
+## DERS 65 — ⭐ Eylem sıçraması ve semantik sızma: Çok yüzeyli sahnede metindeki eylem açık yüzeylere sıçrar
+
+```
+NEREDE      THE_SKY_STATION S35 (4:34.0 · Clip 35)
+NE OLDU     Karşı istasyonun çatısı için yazılan makas ve ahşap kaplama eylemi, model tarafından
+            ön plandaki açık konsol peronun üzerine sıçratıldı. Konsol güverte bir anda çatı makasları
+            çıkarttı, ahşap kırma çatıya dönüştü ve hedef anahtar kareye (G36) uymak için eriyerek
+            düz güverteye geri döndü (identity swap · Kategori 7: 0/10).
+NEDEN       Model metindeki "trusses", "timber boarding", "roofed" kelimelerini gördüğünde, kadrajda
+            bulunan ve açıkta duran başka bir yatay elemanı (sağ konsol peronunu) da bu eylemin hedefi
+            zannediyor. İki yakalı / çok mekanlı kompozisyonlarda semantik sızma (semantic bleed) oluşuyor.
+KİLİT       Açıkta kalan ve çatısız olan platformlar/güverteler için prompta koruyucu izolasyon cümlesi:
+            "The right cantilevered boarding deck remains a completely open-air flat concrete slab with only its edge barrier and headframe; no roof, trusses, rafters or overhead framing appear above it at any point."
+KALDIRDIĞI  Konsol peronun üstünün kapatılması veya çatılandırılması imkânı (peron açık kalmalıdır).
+NEREYE      INSAAT_YONTEMI_KILAVUZU §3 · PROMPT_SABLONU §MOTION FOCUS · SAHNE_PLAN_KARTI §4
+```
+
+## DERS 66 — ⭐ Derin arka plan inşaatı çapa yapısını bozar: Uzaktaki yapıya ayrı vinç verilmez
+
+```
+NEREDE      THE_SKY_STATION S5–S6 (0:40.0 · Clip 6)
+NE OLDU     140 metre ötedeki karşı yamaç istasyonunun çatısının sökümü için "Across the valley...
+            small mobile crane" yazıldı. Model arka plandaki harabeden ayrı bir vinç çizemedi;
+            doğrudan harabe yapının çatısından vinç patlattı (Anchor 1 distant ruin morphed to
+            sprout a crane boom). Kör QA bunu arka plan çapasının mutasyonu saydı (Kategori 2: 5/10).
+NEDEN       Kadrajın çok uzağında (%58 H, %88 W) birkaç piksel genişliğindeki bir yapıya ayrı bir mobil
+            vinç, ayak açma ve parça kaldırma yazmak difüzyonun çözünürlük limitini aşar; model makine
+            ile yapıyı tek bir hibrit nesneye kaynaştırır.
+KİLİT       Derin arka plandaki yapılar için ayrı mobil vinç/makine yazılmaz; değişim makro kütle
+            silueti olarak verilir: "The distant far station stands quietly across the valley; its roof silhouette thins and lowers in coarse stages without visible individual cranes or mechanical booms on its roof."
+KALDIRDIĞI  Derin arka plandaki minyatür vinç operasyonlarının detaylı anlatımı.
+NEREYE      PERSPEKTIF_VE_OLCEK_KILAVUZU §3 · KAMERA_ISTASYONU_KILAVUZU §7 · SANTIYE_HAREKETI §4
+```
+
+## DERS 67 — ⭐ Timelapse'te sıvı jeti / basınçlı yıkama hayalet fıskiye üretir — sıvı jeti yasağı
+
+```
+NEREDE      THE_SKY_STATION S10–S15 (1:12.0, 1:20.0, 1:57.0 · Clip 10, 11, 15)
+NE OLDU     Taş cephe yıkama için "pressure-washer lances" yazıldığında, vinç kancasından hortumsuz
+            tazyikli su fışkırdı (1:12.0), iskele borularından havaya üç su jeti fışkırdı (1:20.0),
+            platform kirişinden aşağıya hortumsuz şelale aktı (1:57.0 · Kategori C3: 0/10).
+NEDEN       Difüzyon modeli yüksek basınçlı su lansını (lance) insan eli, kompresör ve hortumla
+            bağlayamaz. "Water spray / wash" tetikleyicisi en yakın metal nesneye (kanca, iskele borusu,
+            çelik profil) bağlanıp hayalet su jeti (phantom jet) türetir.
+KİLİT       Yıkama eylemi sıvı püskürtme olarak değil, yüzey durumu değişimi olarak yazılır;
+            "spray", "water jet", "lances" yasaklanır: "The masonry surface is scrubbed damp with hand brushes and damp cloths; no high-pressure water jets, spray plumes, hoses or fountains appear."
+KALDIRDIĞI  Basınçlı su makineleri ve havada uçuşan su sisleri.
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §4 · MALZEME_VE_DOKU_KILAVUZU §BANT · ARAC_KARTLARI §2
+```
+
+## DERS 68 — ⭐ Askıdaki simetrik büyük mekanizmalar perspektifi kaybedip erir — serbest çark yasağı
+
+```
+NEREDE      THE_SKY_STATION S19–S25 (2:24.0–3:12.0 · Clip 19–25)
+NE OLDU     4 metrelik makara tekerleği (bullwheel / spoked wheel) havada asılı taşınırken geometrisi
+            yamuldu, kopyalandı, taş kemerin içinden geçti (2:35.0), üçüncü bir tekerlek havada belirip
+            kanyona uçtu (2:58.0 · Kategori 7 ve 8: 0/10).
+NEDEN       Kusursuz dairesel/parmaklıklı büyük mekanik nesneler (jant, çark, kasnak) vinç halatında
+            asılıyken difüzyon modeli dairesel perspektif simetrisini koruyamaz; nesne plastikleşir,
+            bölünür veya çoğalır.
+KİLİT       Büyük tekerlek/kasnak gibi parçalar havada serbest asılı veya döner vaziyette taşınmaz;
+            taşınırken yatarak kamyon kasasında gelir, yerleştirme anı ise montaj yuvasına oturmuş
+            olarak gösterilir: "The 4-metre bullwheel arrives resting flat on the lowboy trailer bed, fully lashed down; it is never suspended swinging in mid-air and never passes through solid walls."
+KALDIRDIĞI  Havada serbest sallanan ve dönen dev mekanik çark gösterimleri.
+NEREYE      FIZIK_VE_AGIRLIK_KILAVUZU §3 · INSAAT_YONTEMI_KILAVUZU §3
+```
+
+## DERS 69 — ⭐ Sahada eşzamanlı çoklu araç hareketi kimlik hırsızlığı doğurur — araç tavanı = 1
+
+```
+NEREDE      THE_SKY_STATION Klipler 1–35 genelinde (0:07, 0:34, 0:45, 1:36, 2:00, 2:27, 3:14, 3:53)
+NE OLDU     Kamyon bölünüp bir kopyası giderken diğeri kaldı (3:14.0), mikser kamyonu damperliye dönüştü
+            (1:36.0), pompa kamyonu miksere dönüştü (2:00.0), forklift kamyonun içine girdi (3:53.0),
+            damperli kamyonlar birbirinin içinden geçti (0:45.0 · Kategori 7 ve 8: 0/10).
+NEDEN       Aynı sahnede hem vinç, hem forklift, hem kamyon, hem ekskavatör aynı anda hareketli
+            yazıldığında difüzyon modeli taşıt rotalarını ve sınırlarını ayıramaz; araçlar birbirinin
+            dokusunu çalar (identity swap) ve birbirinin içinden geçer.
+KİLİT       Her sahnede hareketli taşıt sayısı KESİNLİKLE 1'dir. İkinci bir araç varsa "parked, stationary,
+            engine off" olarak kilitlenir: "Exactly one vehicle moves in the site yard at a time; any other vehicle remains parked and completely stationary with wheels locked, never moving, merging or intersecting."
+KALDIRDIĞI  Aynı sahnede iki veya daha fazla aracın eşzamanlı manevra yapması.
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §3 · ARAC_KARTLARI §2
+```
+
+---
+
+## DERS 70 — ⭐ Kadraj dışı güneşin kadraj içine disk olarak sızması ve gölge açısıyla çelişmesi
+
+```
+NEREDE      THE_SKY_STATION S0 (0:02.0 · Clip 1)
+NE OLDU     Promptta "The sun stays outside the frame" yazılı olmasına rağmen, model karşı dağ sırtının
+            hemen üstünde (~15° yükseklikte) kadraj içi bir güneş diski ve doğrudan kameraya vuran lens
+            flare üretti. Ancak yerdeki kamyon ve yapı gölgeleri sağdan (WSW, 34°) düşmeye devam etti;
+            böylece gökteki güneş ile yerdeki ışık yönü birbirini yalanladı (Kategori 1: 5/10).
+NEDEN       Model "morning sky, pale light, sun azimuth/elevation" tarifini gördüğünde, negatifte veya
+            ışıkta "outside the frame" yazsa bile gökyüzü boşluğuna dekoratif bir güneş diski yerleştirmeyi
+            sever (görsel klişe).
+KİLİT       Güneşin kadraj dışılığı sadece "The sun stays outside the frame" olarak değil, hem pozitif hem
+            negatifte güneş diski ve mercek parlaması yasağıyla kilitlenmeli:
+            "The sun disk is entirely outside and behind the camera frame; no visible sun sphere, no direct sunburst, no lens flare or solar disk appears in the sky."
+KALDIRDIĞI  Kadrajda görünen doğrudan güneş batımı/doğumu diskleri.
+NEREYE      ZAMAN_VE_ISIK_KILAVUZU §Güneş · HAVA_VE_ATMOSFER_KILAVUZU §Işık
+```
+
+## DERS 71 — ⭐ Timelapse gökyüzünde radyal yakınlaştırma / patlama bulutu
+
+```
+NEREDE      THE_SKY_STATION S21 (2:43.0 · Clip 21)
+NE OLDU     Kamera sabit olmasına ve yerdeki yapılar kımıldamamasına rağmen, gökyüzündeki bulutlar
+            kadraj merkezinden dışarıya doğru radyal bir yakınlaştırma/patlama (radial zoom-blur)
+            şeklinde çizgileşti (Kategori 3: 5/10).
+NEDEN       Difüzyon video modelleri "time-lapse clouds" veya "smooth flow" ifadesini yorumlarken,
+            rüzgârın doğrusal yön vektörünü kaybedip optik hız illüzyonu yaratmak için radyal hız çizgileri
+            (speed streaks / warp blur) üretir.
+KİLİT       Bulut akışının yönü kesinlikle tek bir doğrusal rüzgâr vektörüne kilitlenmeli, radyal/patlama
+            biçimleri yasaklanmalı:
+            "Clouds drift strictly in a horizontal linear path from left to right across the mountain crest; no radial zoom, no center-outward blur streaks, no rotational vortex, no optical warp."
+KALDIRDIĞI  Merkezden dışa patlayan dramatik fırtına/uzay efekti bulutları.
+NEREYE      HAVA_VE_ATMOSFER_KILAVUZU §Bulut · SANTIYE_HAREKETI_KILAVUZU §Gölge
+```
+
+## DERS 72 — ⭐ 10 dakikalık sıkıştırma penceresinde bulut hızı ile gölge duruşunun saat boşanması
+
+```
+NEREDE      THE_SKY_STATION Klipler 1–35 genelinde (0:10.0, 0:58.0, 2:24.0, 2:33.0)
+NE OLDU     10 dakikalık (Rejim A) sahnelerde yerdeki gölgeler sadece ~2,5° dönebileceği için neredeyse
+            sabit (held hour) dururken, model gökteki bulutları aşırı hızlı timelapse çizgilerine (linear
+            motion-blur) çevirdi; yer ile gök iki ayrı saate (boşanmış saat / divorced clock) bölündü
+            (Kategori 4: 3/10).
+NEDEN       10 dakikalık kısa pencere "timelapse" etiketiyle çağrıldığında, model gökyüzüne 1 saatlik
+            hızlı bulut çizerken yere 10 dakikalık neredeyse statik gölge çizer.
+KİLİT       10–15 dakikalık kısa zaman pencerelerinde bulutların aşırı hızlı çizgileşmesi engellenmeli,
+            bulut hareketi "gentle, slow linear drift" olarak derecelendirilmeli:
+            "Because this shot spans only ten minutes of real time, the clouds drift slowly and gently across the sky with soft, natural edges; they never stretch into high-speed linear motion-blur streaks or hyper-lapse vapour trails."
+KALDIRDIĞI  10 dakikalık sahnelerde gün boyu timelapse'i gibi uçuşan hiper bulut çizgileri.
+NEREYE      HAVA_VE_ATMOSFER_KILAVUZU §Zaman · ZAMAN_VE_ISIK_KILAVUZU §Rejimler
+```
+
+## DERS 73 — ⭐ Ara sahne / bölüm masterı kesmesinde askıda yük ve hareketli makineyle bitiş
+
+```
+NEREDE      THE_SKY_STATION S35 (4:40.0 · Clip 35)
+NE OLDU     Bölüm 1'in son karesinde vinç kancasında devasa bir cam oda modülü havada asılıyken, sağdaki
+            mobil vinç uzanmış durumdayken ve işçiler yolda yürürken video aniden kesildi (Kategori 8: 3/10).
+NEDEN       Uzun formlu yatay filmlerde bölümler bölünürken (B1, B2, B3), bölümün son sahnesi sıradan bir
+            ara sahne gibi bırakıldığında montaj veya QA birimi "film aniden durdu, bitmedi" kararı verir.
+KİLİT       Bölüm sonu (özellikle 30, 60, 90 gibi bölüm sınırı sahneleri) kesmeye bir anlık durulma / oturma
+            (settling) ile varmalıdır; vinç yükü yerine koymuş, kanca boşa çıkmış veya stabil bir dinlenme
+            anı oluşturulmalıdır:
+            "At the end of this boundary clip, the lifted module settles firmly onto its structural bearings, the crane cable slackens, and the work comes to a brief stationary rest before the cut."
+KALDIRDIĞI  Bölüm sınırında havada sallanan yük ve kontrolsüz kesme.
+NEREYE      UZUN_FORM_ANLATI_KILAVUZU §Bölüm Sınırı · KURGU_VE_TESLIM_KILAVUZU §QC
+```
+
+---
+
+## DERS 74 — ⭐ Dikişte yük ve makine takası — kamyon kasasındaki yük indirilmeden dikişte başka malzemeye dönüşemez
+
+```
+NEREDE      THE_SKY_STATION S25|S26 (3:28.0), S30|S31 (4:08.0), S4|S5 (0:40.0)
+NE OLDU     3:28.0 dikişinde 4 akslı kamyonun kasasındaki iki dev ahşap kablo makarası indirilmediği halde
+            dikişte aniden üçgen çelik çatı makaslarına dönüştü. 4:08.0 dikişinde çatı paneli istifleri
+            yeniden kereste ve yan kapaklara resetlendi. 0:40.0 dikişinde kereste kamyonu iki moloz
+            damperliye dönüştü (Kategori 1, 3, 8: 3/10).
+NEDEN       Model dikişler arasında kamyon gövdesini kabaca korusa bile kasadaki malzemeyi bir önceki
+            klibin I2V son karesinden taşımak yerine yeni klibin "truck" kelimesine göre bağımsız türetir.
+            Kamyon sahadan ayrılıp yenisi gelmedikçe kasadaki malzeme dikişte büyülenmiş gibi takas olur.
+KİLİT       Kamyon kasasındaki malzeme değişecekse önceki kamyon mutlaka yoldan çıkıp kadrajı terk etmeli,
+            yeni malzeme yeni bir kamyonla gelmelidir. Aynı kamyon kasasındaki yük indirilene kadar kilitlenir:
+            "The payload resting on the truck bed remains identical to the incoming keyframe until actively rigged and hoisted by the crane; cargo is never swapped, replaced, or morphed between cuts while resting on the same vehicle."
+KALDIRDIĞI  Aynı park edilmiş kamyona farklı sahnelerde farklı malzemeler bindirme kolaylığı.
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §3 · INSAAT_YONTEMI_KILAVUZU §3 · ARAC_KARTLARI §2
+```
+
+## DERS 75 — ⭐ Amaçsız makine hareketleri ve sahte döngüler — iş üretmeyen vinç ve forklift gezinmesi
+
+```
+NEREDE      THE_SKY_STATION S18 (2:24.0–2:32.0) ve S29–S34 (3:52.0–4:40.0)
+NE OLDU     2:24.0'de paletli vinç kancasındaki dev çarkı kemer 3'e kadar kaldırıp hiçbir montaj yapmadan
+            2:32.0'de başladığı römorkun üstüne geri indirdi (net değişim 0). 3:52.0'den 4:40.0'a kadar
+            turuncu forklift park halindeki kamyonun arkasında 1 dakikadan uzun süre hiçbir yük kaldırmadan
+            küçük dairesel turlar atıp durdu (Kategori 6: 3/10).
+NEDEN       I2V promptunda makineye somut bir alma-bırakma işi yazılmadığında veya sadece "works in the yard /
+            operates near the truck" gibi genel eylem fiilleri verildiğinde model döngüsel, anlamsız
+            ileri-geri gezinmeler üretir.
+KİLİT       Şantiye makinelerine genel çalışma fiili yazılmaz. Makine ya somut bir alma-bırakma rotası
+            tamamlar ya da tamamen park halinde sabit tutulur:
+            "Every mobile machine performs a complete, purposeful load-and-place cycle: the forklift picks a specific pallet from point A and deposits it at point B. If no active transport is scheduled for this interval, the machine remains fully parked with engine off and forks on the ground."
+KALDIRDIĞI  Sırf sahnede hareket olsun diye arka planda amaçsız gezinen iş makineleri.
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §4 · ARAC_KARTLARI §2
+```
+
+## DERS 76 — ⭐ Emeksiz büyüme (Growth Nobody Made) — aktörü bağlanmayan yapısal fark filizlenir
+
+```
+NEREDE      THE_SKY_STATION S9 (1:13.0), S11 (1:30.0), S28 (3:44.0), S34 (4:33.0)
+NE OLDU     1:13.0'de taş kemerlere sadece su püskürtülürken moloz taşlar düzgün kesme taşa dönüştü.
+            3:44.0'de vinç kancasında küçük bir blok tutarken çatıda kendiliğinden 4 piramit çatı filizlenip
+            beşik çatıya düzleşti. 4:33.0'de sağ konsol terasta hiçbir vinç veya usta yokken 3 saniyede
+            ahşap kırma çatı kendi kendine örüldü ve sonra korkuluğa geri eridi (Kategori 7: 3/10).
+NEDEN       G(n) ile G(n+1) arasındaki mimari ilerleme (fark), I2V'deki hareketli unsurlarla (MOTION FOCUS:
+            kim taşıdı, kim monte etti) örtüşmediğinde, difüzyon modeli bu farkı doğrudan nesnenin kendisini
+            filizlendirerek, büyüterek veya eriterek gerçekleştirir (organic blooming / self-assembly).
+KİLİT       Bir klibin başı ile sonu arasında ortaya çıkacak her yapısal eleman, o klibin MOTION FOCUS'unda
+            bizzat montaj fiili ve aktörüyle birebir bağlanmalıdır:
+            "No structural element ever grows, materializes, self-assembles, or changes masonry finish on its own; every installed beam, panel, or stone block is physically held, aligned, and secured into position by the crane hook or human hands."
+KALDIRDIĞI  Sahneye işçi veya vinç müdahalesi olmadan "zamanla oluşan" kendi kendine inşaat efektleri.
+NEREYE      INSAAT_YONTEMI_KILAVUZU §3 · FIZIK_VE_AGIRLIK_KILAVUZU §2 · SAHNE_PLAN_KARTI §Beş Soru
+```
+
+## DERS 77 — ⭐ Kadraj kenarındaki çıplak kaya sivrisinde dev insan figürü — peyzaj çapası koruması
+
+```
+NEREDE      THE_SKY_STATION S13 (1:49.0 · Clip 14)
+NE OLDU     Sağ alt ön planda kanyon kenarındaki sivri kaya tepeciğinin üzerinde devasa, ölçek dışı tek bir
+            işçi figürü belirdi ve 1:52.0 kesmesinde kayboldu (Kategori C1: 3/10).
+NEDEN       Model, kadraj köşesindeki çıplak kaya sivrisini (rock pinnacle / promontory) veya tümsekleri bir
+            "platform" veya "figür kaidesi" olarak algılayıp oraya nöbetçi gibi devasa tek bir insan figürü
+            yerleştirmeye meyleder.
+KİLİT       Kadraj sınırındaki kaya kuleleri, uçurum kenarları ve doğal sivrilikler promptta kesinlikle ıssız,
+            üzerinde insan bulunmayan alanlar olarak kilitlenmelidir:
+            "The isolated rocky pinnacle in the foreground promontory remains completely bare, unoccupied, and untouched by personnel or equipment; workers never stand on cliff edges or rock pinnacles."
+KALDIRDIĞI  Uçurum tepelerinde dramatik poz veren izole dev işçi silüetleri.
+NEREYE      PERSPEKTIF_VE_OLCEK_KILAVUZU §Ölçek · SAHA_VE_IKLIM_KARTLARI §Dağ
+```
+
+---
+
+## DERS 78 — ⭐ Prematüre montaj ve yıkım gerilemesi — erken konan eleman modelce geriye sökülür
+
+```
+NEREDE      THE_SKY_STATION S2–S5 (0:23.0–0:36.0 · Clip 3, 4, 5)
+NE OLDU     0:23.0'de eski paslı çatı makasları henüz sökülmemişken çatının sağ yarısında yeni ahşap mertekler
+            ve çatı kaplaması belirdi. 0:34.0'de (Clip 5) turuncu vinç bomu bu yeni ahşap kaplamayı söküp
+            yıkarak çatıyı çıplak duvarlara geri geriletti (Kategori 2, 5: 3/10).
+NEDEN       Aşama merdiveninde yıkım (demolition) tamamlanmadan sonraki aşamaların malzemesi veya elemanı
+            prompta sızdığında, difüzyon modeli bitmiş çatıyı erken üretir. Bir sonraki klipte eski makasların
+            sökümü istendiğinde ise model inşa ettiği taze malzemeyi yıkmaya ve geriye doğru çalışmaya mecbur kalır.
+KİLİT       Yıkım ve söküm evresi bitene kadar sahneye hiçbir yeni yapı elemanı veya döşeme çağrılmaz:
+            "Old roof structure and trusses are entirely stripped down to bare masonry before any replacement timber, framing, or sheathing appears; premature installation of finished roofing during demolition is strictly forbidden, and structural progress never regresses."
+KALDIRDIĞI  Yıkım sürerken bir köşeden aceleyle yeni inşaata başlama anlatısı.
+NEREYE      INSAAT_YONTEMI_KILAVUZU §3 · KILAVUZ_REHBERI §Aşama Merdiveni
+```
+
+## DERS 79 — ⭐ Gökten inen monolitik hazır yapı — yerinde döküm ile prefabrikasyon üst üste binemez
+
+```
+NEREDE      THE_SKY_STATION S22 (2:49.0–2:52.0 · Clip 22)
+NE OLDU     Sağ konsol peronda 2:00.0–2:20.0 arasında beton pompasıyla yerinde dökülen beton tabliyenin üstüne,
+            2:49.0'de gökyüzünden sarkan kancasız bir kabloyla sarı korkuluklu ve siyah portal kuleli bitmiş
+            monolitik beton blok tek parça halinde indi (Kategori 3, 4, 7, C4: 3/10).
+NEDEN       Planda hem yerinde döküm beton (in-situ concrete pour) hem de bitmiş konsol teras tanımı aynı anda
+            bulunduğunda ve montaj yöntemi net bir prefabrik parçaya bağlanmadığında, model dökülen betonun
+            üzerine gökyüzü kancasından (sky-hook) bütünleşik bitmiş bir ünite indirerek iki imalatı çakıştırır.
+KİLİT       Bir eleman ya yerinde dökülür ya da fabrikasyon modül olarak taşınır; ikisi aynı yüzeyde üst üste binmez.
+            Modüler eleman indiriliyorsa vinç bomu kadrajda tam görünür ve kanca yükü taşır:
+            "The cantilevered concrete deck is constructed strictly in-situ; no pre-assembled monolithic slab or portal unit ever descends from the sky onto existing concrete. All lifted components are connected to visible crane rigging."
+KALDIRDIĞI  Dökülen betonun üstüne gökten sihirli hazır platform kondurma hatası.
+NEREYE      INSAAT_YONTEMI_KILAVUZU §3 · FIZIK_VE_AGIRLIK_KILAVUZU §Yük Yolu
+```
+
+## DERS 80 — ⭐ Çatı strüktür sistemi takası — 'truss' ve 'rafter' karmaşası ardışık kesmelerde tipoloji mutasyonu doğurur
+
+```
+NEREDE      THE_SKY_STATION S27–S29 (3:38.0–3:51.0 · Clip 28, 29) ve S34–S35 (4:34.0–4:39.0)
+NE OLDU     3:38.0'de çatıda iki enine çelik makas otururken, 3:43.0 dikişinde aniden boyuna ahşap merteklere
+            dönüştü. 3:45.0'de çatıda 4 adet sivri piramit çatı filizlendi, 3:51.0'de tek bir boyuna beşik çatıya
+            düzleşti. Benzer şekilde 4:35.0'de peron portal kulesi makasa, kırma çatıya ve pergolaya mutasyon geçirdi
+            (Kategori 1, 2, 5: 3/10).
+NEDEN       Promptlarda strüktürel sistem "truss", "rafter", "timber frame", "roof framing" gibi eşanlamlı
+            fakat farklı geometriye sahip kelimelerle karışık tarif edildiğinde, difüzyon her klipte farklı bir
+            taşıyıcı geometri (makas, mertek, piramit köşk) sentezleyip ardışık kesmelerde yapısal kimliği bozar.
+KİLİT       Bir yapının taşıyıcı çatı sistemi tek bir terim ve geometriyle baştan sona kilitlenir; alternatif
+            geometrik terimler yasaklanır:
+            "The roof framing consists exclusively of uniform longitudinal timber rafters forming a single continuous longitudinal gabled pitch; transverse steel trusses, pyramidal truss peaks, and multi-gabled variations are strictly prohibited."
+KALDIRDIĞI  Aynı çatıda eşanlamlı yapı terimlerini gelişi güzel değiştirerek yazma serbestisi.
+NEREYE      INSAAT_YONTEMI_KILAVUZU §5 · PERSPEKTIF_VE_OLCEK_KILAVUZU §Geometri
+```
+
+## DERS 81 — ⭐ Uçurum ve boşluktan yükselen hayalet makine — zemin temeli olmayan araç uzantıları
+
+```
+NEREDE      THE_SKY_STATION S16 (2:01.0 · Clip 16)
+NE OLDU     Sağdaki dipsiz kanyon uçurumunun boşluğundan, tekerleği, gövdesi veya durabileceği hiçbir zemin
+            olmayan beyaz bir beton pompa bomu yukarı doğru yükselip platforma uzandı (Kategori 6, 8: 3/10).
+NEDEN       Model "concrete pump boom extends to the cantilever deck" talimatını aldığında, ön plandaki pompa
+            aracına ek olarak sağdaki boşluktan perona daha kolay erişen hayalet bir bom türetir. Uçurum boşluğu
+            fiziksel olarak "araç giremez" şeklinde sınırlandırılmadığında difüzyon yerçekimini ve zemin desteğini yok sayar.
+KİLİT       Uçurum boşlukları, kanyonlar ve su yüzeyleri araç konuşlanamaz boş alan olarak negatifte kilitlenir;
+            tüm iş makineleri görünür zemin tekerleklerine bağlanır:
+            "The open canyon gorge beneath and beside the cliff remains completely empty void space; no machine boom, outrigger, or crane arm ever rises out of the sheer drop or open canyon sky. Every operating boom is anchored to a visible chassis resting on solid ground."
+KALDIRDIĞI  Uçurum kenarındaki dar alanlarda havadan destek alan hayalet makineler.
+NEREYE      SAHA_VE_IKLIM_KARTLARI §Dağ · FIZIK_VE_AGIRLIK_KILAVUZU §Yük Yolu · ARAC_KARTLARI §2
+```
+
+---
+
+## DERS 82 — ⭐ Uzun form ara bölüm kapanışı (Mid-Section Pause) — ara master askıda şantiyeyle duramaz
+
+```
+NEREDE      THE_SKY_STATION S35 (4:32.0–4:39.0 · Clip 35)
+NE OLDU     Bölüm 1'in son karesinde vinç kancası havada asılıyken, kamyonlar ve malzemeler sahaya saçılmışken
+            ve inşaat henüz tamamlanmamışken video hiçbir durulma anı tutmadan pat diye durdu (Verdict: STOPS · Kategori 3, 5: 3/10).
+NEDEN       Uzun form yatay filmlerde bölümler (Bölüm 1, 2, 3...) bağımsız video dosyaları olarak üretildiğinde,
+            model bölümün son klibini "filmin sonu" gibi algılamaz ama "bir sonraki sahne gelecekmiş gibi"
+            hareketin ortasında bırakır. Promptta bölümün son karesine özel bir "öğle molası vardiya durulması"
+            (noon rest / settled station) yazılmadığında klip askıda kalır.
+KİLİT       Uzun form filmlerin ara bölüm son klibi (Bölüm 1 / S35 vb.), son 3 saniyesinde şantiyeyi tam bir durulma
+            ve mola anına oturtmalı, hareketli makineler park etmeli ve kancalar boşa çıkmalıdır:
+            "In the final 3 seconds of the section clip, all mobile operations settle into a calm shift pause: vehicles remain idling in park, workers pause at the landing, the crane boom rests stationary with hook unladen, and the architecture holds at quiet mid-day rest."
+KALDIRDIĞI  Bölüm sonunu hareketli çalışma anının ortasında rastgele kesme özensizliği.
+NEREYE      UZUN_FORM_ANLATI_KILAVUZU §Bölüm Sınırı · KURGU_VE_TESLIM_KILAVUZU §QC
+```
+
+## DERS 83 — ⭐ Klip içi müzik sızıntısı ve kopuk parçacıklar — promptlara enstrüman yazılmaz
+
+```
+NEREDE      THE_SKY_STATION S3 (0:16.0), S13 (1:36.0), S27 (3:28.0), S32 (4:08.0)
+NE OLDU     Film genel olarak diegetik ortam sesiyle ilerlerken, 4 ayrı klibin dikişinde aniden 8'er saniyelik
+            izole akustik gitar ve orkestral müzik patlamaları girdi ve klip biter bitmez aniden kesildi (Kategori 8, C1: 5/10).
+NEDEN       Sahne promptlarına "acoustic guitar starts" veya "orchestral strings rise" gibi müzikal enstrüman
+            ifadeleri yazıldığında, difüzyon video-audio modeli bu müziği video klibinin içine doğrudan gömer.
+            Bu durum, kesmeler arasında kontinü mikslenmeyen, 8 saniyelik kopuk ve cızırtılı müzik adacıkları yaratır.
+KİLİT       Görsel veya I2V video promptlarına hiçbir müzik aleti veya parça adı yazılmaz; müzik ve diegetik ses yatağı
+            kurguda harici ses kanalı olarak kontinü döşenir:
+            "No musical instrument, orchestral cue, or soundtrack beat is declared inside the visual or motion prompt; audio generation focuses strictly on authentic, continuous ambient construction site sounds (wind, stone clatter, diesel engine rumble)."
+KALDIRDIĞI  AI video modeline klip klip müzik ürettirme yanılsaması.
+NEREYE      MUZIK_VE_KAPAK §BPM Izgarası · KURGU_VE_TESLIM_KILAVUZU §Ses Yatağı
+```
+
+## DERS 84 — ⭐ Son klipte sahte kabin türemesi ve havada erimesi — halatsız istasyonda kabin kaldırma yasağı
+
+```
+NEREDE      THE_SKY_STATION S35 (4:32.0–4:37.0 · Clip 35)
+NE OLDU     4:32.0'de sol avluda vinç kancasında pencereli ahşap bir yolcu kabini belirdi, havada kaldırılırken
+            4:37.0'de küçük gri bir kütleye dönüştü ve 4:39.0'de tamamen yok oldu (Kategori 1, 3: 3/10).
+NEDEN       Model teleferik istasyonu anlatısının sonuna yaklaştığını sezdiğinde, henüz taşıyıcı halatlar çekilmemişken
+            (Bölüm 1'de halat yok) sol avludan bir "teleferik kabini" üretip kaldırmaya çalışır; ancak nereye koyacağını
+            bilemediği için kabin havada eriyip morphing arızasına dönüşür.
+KİLİT       Çelik taşıyıcı halatlar iki istasyon arasına gerilip kilitlenmeden hiçbir yeni teleferik kabini sahaya çağrılamaz:
+            "No passenger cabin, tram car, or aerial gondola is ever hoisted, staged, or generated on site until aerial haul ropes are fully tensioned across the gorge; the crane never lifts glazed cabin modules during structural masonry or roofing stages."
+KALDIRDIĞI  İstasyonun halatı ve mekaniği bitmeden aceleyle kabin gösterme hevesi.
+NEREYE      INSAAT_YONTEMI_KILAVUZU §3 · YAPI_TIPI_KARTLARI §Teleferik
 ```
 
 ---

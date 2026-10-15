@@ -1,10 +1,11 @@
 # LENS 5 — DELIVERY
 
-Did what the plan promised reach the screen, and does the film END (arrive at a final beat the
-viewer can see and hold) or simply STOP when the stages run out? A film can pass every other lens
-and fail here: count, duration and frame all right, and the thing it exists for never appears. You
-check the published file against the plan and the cover. You do not judge image quality, light and
-time, site continuity, or how the structure is built; those belong to Lenses 1 to 4.
+Did the film deliver on screen: does a first-time viewer know what is being built, see it meet visible
+resistance, and arrive at a held final beat / ending (something that works and settles) rather than simply
+stopping when the clips run out? A film can pass every other lens and fail here: count, duration and frame
+all right, and the thing it exists for never appears. You check the published file (and the plan and cover,
+if attached). You do not judge image quality, light and time, site continuity, or how the structure is
+built; those belong to Lenses 1 to 4.
 
 FORMAT AND MEASURED FACTS — supplied by the operator. Do not re-estimate these.
 PLAYBACK SPEED        {SPEED}x  (1 second on this file = {SPEED} seconds of the produced film)
@@ -20,18 +21,22 @@ If what you see contradicts a line above, report the contradiction with a timest
 Do not change the line and do not score from your own estimate of it.
 
 INPUTS FOR THIS LENS
-- The PUBLISHED video file, the one viewers see (for a vertical film, the copy at PLAYBACK SPEED).
-- The plan document: promise, resistance, cost, opening, final beat, loop, sound, delivery, packaging.
-- The cover image. Nothing else.
+- The video file (the published cut or full edit).
+- Optional: the plan document (promise, resistance, cost, opening, final beat, loop, sound, delivery,
+  packaging) and the cover image.
+If documents are attached: test the film against them (Mode D).
+If NO documents are attached: judge the film from the video alone as a viewer who never saw the plan,
+against the screen's own communicated promise, visual resistance, function ending, opening hook, loop,
+scene distinctness, and sound bed (Mode V). A missing document is NEVER a reason to stop; do not ask for
+one, and do not stop scoring.
 
-BEFORE YOU SCORE
-Check the inputs first. If the plan document is not attached, the first and only line of your
-report is `RUN INCOMPLETE — plan document not supplied` and you stop: no slate, no scores.
-Otherwise write these three lines first:
+BEFORE YOU SCORE — write these three lines first:
 FILE NAME AS SHOWN:     <the name of the video file you were given>
-DOCUMENTS ATTACHED:     <first line of each attached document; cover: file name or NOT SUPPLIED>
+DOCUMENTS ATTACHED:     <first line of each attached document, or NONE; cover: file name or NOT SUPPLIED>
 CLIPS YOU CAN SEE:      <your count — a check only; the measured count is above>
-If only the cover is missing, score every other category and mark Category 7 NOT VERIFIABLE.
+If DOCUMENTS ATTACHED is NONE, state MODE: V (SELF-CONTAINED / SCREEN DELIVERY), mark Category 7
+NOT VERIFIABLE (unless a cover frame is present), and proceed immediately to the slate, findings,
+scores, and verdicts. Never write RUN INCOMPLETE and never stop.
 
 RULES
 How to watch
@@ -53,7 +58,7 @@ Plan seconds and file seconds
   it as cut short or ending early. Duration is a measured fact: do not judge it.
 Evidence and numbers
 - Every finding carries a timestamp m:ss.s; a finding without one is deleted. Quote the plan line
-  you test, then state what the file shows at what timestamp.
+  you test, or describe what is on screen if no plan is attached.
 - "It is implied" is not delivery: if a thing is not on screen, write NOT ON SCREEN. The title, the
   description, the plan and the cover put nothing on screen. Do not praise; do not rewrite the film.
 - Every number you write about the film is tagged (measured) (facts block, or read on this file) or
@@ -80,77 +85,75 @@ Boundaries — one defect is scored in one lens
   write SEE LENS 4 with the timestamp and do not lower any score here.
 
 ## CATEGORY 1 — PROMISE
-Did the declared promise reach the screen, so a first-time viewer knows what is being built and sees
+Did what was promised reach the screen, so a first-time viewer knows what is being built and sees
 it arrive? "It grows / rises / is completed" is the format; a promise is the thing this site becomes.
-Look at: quote the promise. Name the timestamp at which a first-time viewer knows what is being built
-and the one at which it has become the promised thing; if either is missing, it was not delivered.
-Tells: a promise only in the title, description or cover · an end state that is a different thing ·
-a subject nameable only after reading the plan.
-- 10 — the subject is clear at m:ss.s and becomes the promised thing at m:ss.s, no title needed.
+Look at:
+- If a plan is attached: quote the declared promise.
+- If NO plan is attached: state what the early visual progression promises to a first-time viewer.
+Name the timestamp at which a first-time viewer knows what is being built and the one at which it has
+become the completed thing; if either is missing, it was not delivered.
+Tells: an end state that is a different thing · a subject nameable only after reading outside text.
+- 10 — the subject is clear at m:ss.s and becomes the completed thing at m:ss.s, no outside text needed.
 - 7 — delivered, but a viewer might need a second watch; or no timestamped evidence.
 - 5 — one moment is weak: the subject stays unclear until late, or the end state is only partly it.
-- 3 — traceable only with the plan in hand; on screen it is a generic structure growing.
+- 3 — traceable only with outside explanation; on screen it is a generic structure growing.
 - 0 — the promise is not on screen.
 
 ## CATEGORY 2 — RESISTANCE
-Is the declared resistance (what made this hard) visible in the frame, and does it visibly change
-how the work goes?
-Look at: quote the resistance and, if present, its "on screen how" line (which clip, which repeated
-motion, which accumulating object); convert its seconds. Find the adversary in frame (sea, storm,
-slope, a race against the light, a narrow lot, bad ground) and the timestamp of its consequence: work
-stops, a method changes, something is protected, repaired or redone. Decorative resistance is scenery:
-snow falling while the building rises at exactly the same rate is not resistance. A resistance only
-waited for ("waits for the wind") is not on screen.
+Is the resistance (what made this hard) visible in the frame, and does it visibly change how the work goes?
+Look at:
+- If a plan is attached: quote the declared resistance and its line.
+- If NO plan is attached: identify the visible physical/environmental adversary on screen (sea, mountain
+  slope, storm, rock, elevation, tight space, race against light).
+Find the adversary in frame and the timestamp of its consequence: work stops, a method changes, something
+is protected, repaired or redone. Decorative resistance is scenery: snow falling while the building rises
+at exactly the same rate is not resistance. A resistance only waited for is not on screen.
 - 10 — the adversary is in frame at m:ss.s and its consequence for the work is visible at m:ss.s.
 - 7 — visible with a consequence, but brief or easy to miss; or no timestamped evidence.
 - 5 — the adversary is in frame but has no visible consequence.
-- 3 — only implied: waited for, or named in the plan and barely traceable.
+- 3 — only implied: waited for, or barely traceable.
 - 0 — not on screen.
 
 ## CATEGORY 3 — COST: THE FINAL BEAT PROOF ⭐
-Does the film end on the beat the plan declares (something that works, visible and held at the end),
-and is the price paid for it on screen? This is the hardest gate of the review and it is pass or
-fail. A correct clip count, duration and locked frame do not constitute delivery: machines count
-clips, they cannot count beats. This category is the only place a missing beat is caught.
-1. Quote the declared final beat: clip, second, what must be visible. The plan may call it a
-   function moment: in the final clip something WORKS (lights up, opens, flows, turns, lifts,
-   settles), usually an event in the first half of the final clip and a hold in the second half.
-   If the plan names no final beat, write NOT DECLARED and test its description of the last clip.
-2. Convert the declared second (Rules), go there, describe exactly what is in the frame. Then go to
-   the last scene frame: is the result still in frame, unchanged? (FINAL HOLD: do not re-estimate it.)
-3. Quote the declared cost (what had to disappear for the promise to be won) and name the timestamp
-   at which the viewer can see it is gone or paid.
-PASS — the declared thing is visible at the converted second, unmistakably, and its result is still
-in frame at the last scene frame. FAIL — absent, partial, ambiguous, outside the window, or it leaves
-the frame or is undone before the end. A finished structure that simply stands is not a function
-moment: if that is all the plan declares, judge against it, but the score cannot exceed 7. On FAIL
-write in FINDINGS: FINAL BEAT FAIL — THE FILM IS NOT DELIVERED. It stands regardless of every score.
-- 10 — PASS: function visible at m:ss.s, result still in frame at m:ss.s, cost visible at m:ss.s.
+Does the film end on a visible final beat (something that works, visible and held at the end), and is the
+price paid for it visible on screen? This is the hardest gate of the review and it is pass or fail. A correct
+clip count, duration and locked frame do not constitute delivery: machines count clips, they cannot count beats.
+1. Final beat:
+   - If a plan is attached: quote the declared final beat (clip, second, what must be visible).
+   - If NO plan is attached: judge whether the final clip delivers an unmistakable function moment /
+     settled completion (something WORKS: lights up, opens, flows, turns, settles firm on its structural
+     bearings, crane cable slackens and releases, work comes to rest) in the first half of the final clip
+     and holds it through the end.
+2. Go to the final clip and describe exactly what is in the frame. Then go to the last scene frame:
+   is the result still in frame, unchanged? (FINAL HOLD: do not re-estimate it.)
+3. Cost: what had to disappear or be spent for the promise to be won, visible on screen.
+PASS — the function moment / held result is visible, unmistakable, and held at the last scene frame.
+FAIL — absent, partial, ambiguous, outside the window, cuts off abruptly during active motion/lift, or leaves frame.
+On FAIL write in FINDINGS: FINAL BEAT FAIL — THE FILM IS NOT DELIVERED. It stands regardless of every score.
+- 10 — PASS: function / settled result visible at m:ss.s, result still in frame at m:ss.s, cost visible at m:ss.s.
 - 7 — PASS, but no cost on screen, result barely held, or only a structure standing; or no evidence.
-- 5 — FAIL: the declared thing appears but partial, ambiguous, outside the window, or leaves frame.
-- 3 — FAIL: the final clip is only the next stage or a structure standing; nothing declared works.
-- 0 — FAIL: the declared thing is not on screen at all.
+- 5 — FAIL: the result appears but partial, ambiguous, or cuts off abruptly during active motion.
+- 3 — FAIL: the final clip is only the next stage or a structure standing; nothing works or settles.
+- 0 — FAIL: the declared thing or finished function is not on screen at all.
 
 ## CATEGORY 4 — HOOK
-Do the first seconds on this file give a viewer a reason not to scroll, with the opening the plan
-declares on screen from the first frame?
-- Watch only to 0:02.0 on this file, then stop. 0:02.0 is a file second, not a plan second: a viewer
-  decides in screen time. State what a viewer knows at 0:02.0.
+Do the first seconds on this file give a viewer a reason not to scroll, with an opening that hooks attention
+from the first frame?
+- Watch only to 0:02.0 on this file, then stop. State what a viewer knows at 0:02.0.
 - The first frame alone and still: does it carry a reason to keep watching? Reduce it to 120 pixels
   tall and describe the single shape that survives.
-- The plan's opening declarations, converted to file seconds and checked on screen:
-  opening object — recognisable within one second, in a "wrong" state (abandoned, decaying,
-  threatened); at 0:00.0 central, about a third of the frame or more, legible at 120 pixels.
-  opening action — the plan's action "from the first frame": already touching the object, or waiting?
-  clue (if declared) — a piece of the future enters but its purpose cannot be read yet.
-  curiosity question — quote it: would a viewer ask it from what is on screen in this window?
-Defects: nothing has happened · it needs the title · an unidentifiable subject · an empty site as the
-object · the result shown before the build (flash-forward, split before/after): it answers the question.
+- Opening declarations on screen:
+  opening object — recognisable within one second, in an initial / decayed / threatened / compelling state.
+  opening action — action from the first frame: touching the object, or waiting?
+  curiosity question — what does the opening make a first-time viewer ask? (Quote from plan if attached,
+  or state the question raised by the visual alone).
+Defects: nothing has happened · it needs external explanation · an unidentifiable subject · empty site ·
+result shown before the build.
 - 10 — object recognisable at 0:00.0, action touching it at m:ss.s, question raised by 0:02.0.
 - 7 — object and action present, but the object is small or the action starts late; or no evidence.
-- 5 — one declared opening item is missing or unreadable (object lost at 120 pixels, action waits).
-- 3 — a generic or empty site with no object and no question; or the result is shown first.
-- 0 — nothing in the first seconds gives a reason to stay; the opening needs the plan to make sense.
+- 5 — one opening item is missing or unreadable (object lost at 120 pixels, action waits).
+- 3 — generic site with no object and no question; or result shown first.
+- 0 — nothing in the first seconds gives a reason to stay.
 
 ## CATEGORY 5 — LOOP
 On replay, does the last scene frame lead back into the first (the declared loop rhyme), and are the
@@ -161,10 +164,11 @@ frames the plan pairs as evidence comparable? Quote each declared loop; set the 
 - Evidence pair: if the plan pairs two frames as proof of change, are they comparable (same framing,
   same time of day, same season light), so the only difference is what the film claims changed? A
   pair in different light proves nothing, and the film's central claim is unsupported.
-No loop declared: write LOOP: NOT DECLARED and score the framing loop alone on the same anchors.
-- 10 — the declared form in the same place at 0:00.0 and m:ss.s, result in frame, light ties back.
+No loop declared or plan not attached: score the framing loop and visual continuity between the last
+scene frame and the first frame on the same anchors.
+- 10 — the form/anchors in the same place at 0:00.0 and m:ss.s, result in frame, light ties back.
 - 7 — the rhyme holds but is loose (the form shifted or changed shape); or no timestamped evidence.
-- 5 — the rhyme is declared but not readable, or the function result has left the frame by the end.
+- 5 — the rhyme is not readable, or the function result has left the frame by the end.
 - 3 — the evidence pair is in different light, or the last frame has no relation to the first.
 - 0 — no loop and no comparable pair; a replay reads as a different film.
 
@@ -197,20 +201,17 @@ promising nothing the film does not deliver? If the cover is not supplied: NOT V
 - 0 — the cover belongs to a different film.
 
 ## CATEGORY 8 — EDIT, SOUND AND DISCLOSURE
-Did the plan's delivery declaration reach the file: the declared structure, the declared sound bed
-and an honest disclosure? Report each line PASS / FAIL / NOT VERIFIABLE with its value tagged.
-  delivery declaration   the plan's end card, music and speed match the facts block; do not re-measure.
-  sound bed              site sound audible through the whole file; if MUSIC = NO, no music, no
-                         voice-over, no added riser or stock effect (music heard is a contradiction).
-  sound signatures       each sound the plan's sound table gives a clip is heard in it (convert seconds).
+Did the delivery reach the file: clean edit and pacing, continuous sound bed and an honest disclosure?
+  delivery structure     clean pacing across cut timestamps; if plan is attached, declarations match facts block.
+  sound bed              site sound audible through the whole file; if MUSIC = NO, no music, no voice-over.
   sound level            not near-silent, not clipped, no drop-outs; by ear, no loudness number.
-  disclosure             the plan's description or packaging says the film is AI-generated; quote it.
-  no real claim          no real company, project, brand or location claimed as documented.
-- 10 — every line PASS, timestamps for the sound lines, the disclosure quoted.
-- 7 — all PASS, one sound line weak; or no timestamped evidence.
-- 5 — one FAIL in the declaration or sound lines (undeclared card, music where none, a silent clip).
-- 3 — the AI disclosure is missing, or a real company or project is claimed, or two or more FAIL.
-- 0 — structure and sound contradict the plan throughout, and there is no disclosure.
+  disclosure             if packaging/description is supplied, quote AI disclosure; if absent/silent, mark NOT VERIFIABLE.
+  no real claim          no real company, brand or location falsely claimed as documented.
+- 10 — clean edit, continuous sound bed, sound matches cuts, disclosure present if applicable.
+- 7 — sound and edit hold, one sound line weak; or no timestamped evidence.
+- 5 — sudden audio dropout, silent clip, or abrupt unmotivated sound cut.
+- 3 — real company/project claimed falsely, or severe sound/edit defects.
+- 0 — chaotic sound and edit throughout.
 
 ## CONDITIONAL CATEGORIES
 NOT TRIGGERED has no score and does not enter any average. A triggered conditional is scored.
@@ -234,26 +235,24 @@ building, in the same world, as the last scene, and claims nothing the film did 
 
 ## OUTPUT FORMAT
 ```
+<the three BEFORE YOU SCORE lines>
 SLATE
-PLAN  SUPPLIED — <first line>      COVER  SUPPLIED / NOT SUPPLIED
-One row each: PROMISE · RESISTANCE · COST · FINAL BEAT · OPENING OBJECT · CURIOSITY QUESTION ·
-LOOP RHYME
-<ITEM>  "<declared, quoted>" (spec) · <plan s -> m:ss.s> (spec) · m:ss.s <what is seen> (measured)
-        / NOT ON SCREEN          (a row the plan does not declare reads NOT DECLARED)
+PLAN                    SUPPLIED — <first line> / NOT SUPPLIED (MODE V)
+COVER                   SUPPLIED / NOT SUPPLIED
+One row each: PROMISE · RESISTANCE · COST · FINAL BEAT · OPENING OBJECT · CURIOSITY QUESTION · LOOP RHYME
+<ITEM>  "<declared, quoted or observed>" · m:ss.s <what is seen> (measured) / NOT ON SCREEN
 
 FINAL BEAT PROOF
-declared   <clip · plan second (spec) · what must be visible>
-converted  <file second (spec, converted)>
-observed   <m:ss.s (measured) — exactly what is in the frame>
-last frame <m:ss.s (measured) — is the result still in frame>
-cost       <m:ss.s (measured) — what is gone / NOT ON SCREEN>
-result     PASS / FAIL
+declared / expected     <what must be visible at the end>
+observed                <m:ss.s (measured) — exactly what is in the frame>
+last frame              <m:ss.s (measured) — is the result still in frame>
+cost                    <m:ss.s (measured) — what is gone / NOT ON SCREEN>
+result                  PASS / FAIL
 
 SCENE DIFFERENTIATION TABLE
-<clip> · <file interval (measured)> · <plan beat (spec)> · <the one thing only this clip does>
+<clip> · <file interval (measured)> · <plan beat or observed action> · <the one thing only this clip does>
 FINDINGS
-m:ss.s · what is visible · category number · plan line quoted where one is tested
-
+m:ss.s · what is visible · category number · plan line quoted or OBSERVED
 SCORES
 1 PROMISE                  x/10 · evidence m:ss.s
 2 RESISTANCE               x/10 · evidence m:ss.s
@@ -268,8 +267,15 @@ C2 END CARD                x/10 | NOT TRIGGERED · evidence m:ss.s
 
 VERDICT — independent of the scores
 DOES IT END, OR DOES IT STOP?  ENDS / STOPS
-WHAT THE PLAN PROMISED THAT NEVER REACHED THE SCREEN:  <item · plan line quoted> / NONE FOUND
+WHAT WAS PROMISED THAT NEVER REACHED THE SCREEN:  <item · plan line quoted or expected> / NONE FOUND
 <up to three sentences with timestamps>
+
+QUESTIONS FOR THE DOCUMENT          (if evaluated without attached plan)
+1. <question about promise or intended function>
+2. <question about final beat or ending moment>
+3. <question about opening hook or curiosity question>
+4. <question about sound bed or music intent>
+5. <question about delivery packaging or release plan>
 ```
 Verdict rules:
 - STOPS if the last scene is simply the next stage: the film ran out of stages instead of arriving

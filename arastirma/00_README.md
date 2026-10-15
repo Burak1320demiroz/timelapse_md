@@ -91,6 +91,14 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | A32 | ✅ koşuldu · `SONUCLAR/A32_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · ⭐ politika alıntıları birebir · "şablon görünümü" metni · C2PA etiketi değiştirilemez · iki akademik atıf yanlış yazar/N | ✅ → POLITIKA_VE_RISK §1.1b · §2 · §5 · §6 |
 | A33 | ✅ koşuldu · `SONUCLAR/A33_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · en zayıf kaynakça (16'nın 3'ü ✅) · Berger & Milkman mekanizması tekrarda tutmadı · ⛔ kasıtlı hata önerdi | ⚠️ kısmen → KILAVUZ_REHBERI §6 ⛔ yorum tuzağı · IZLEYICI_DEFTERI §4 · puanlama kartı İNMEDİ |
 | A34 | ✅ koşuldu · `SONUCLAR/A34_GEMINI_HAM.md` | Gemini DR (tahmin) | 07.10.2026 · vidIQ iki çalışma ✅ (korelasyon) · ⭐ YPP 01.02.2027 değişikliği · "format-aware" ve sinyal ağırlıkları blog ❌ · takvim öncülünü bozdu | ✅ → YAYIN_PLANI §1 · §2 · §4.1 ⬜ · §6.3 · POLITIKA §5.1 |
+| A35 | ✅ koşuldu · `SONUCLAR/A35_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · çok bölgeli dikkat sızması · RoPE derinlik körlüğü · max 3-4 odak · Bounding Box | ✅ → MEKANSAL_IZOLASYON_VE_BOLGE_KARANTINASI_KILAVUZU · denetim `A35-A38_DENETIM.md` |
+| A36 | ✅ koşuldu · `SONUCLAR/A36_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · CLIP <EOS> darboğazı · truss/deck sızması · mimari sözlük kalkanı · müzik token temizliği | ✅ → MEKANSAL_IZOLASYON_VE_BOLGE_KARANTINASI_KILAVUZU |
+| A37 | ✅ koşuldu · `SONUCLAR/A37_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · yük unbound attribute · tek kamyon ikiye bölünme · N_max = 1 · Exit Before Swap · iş döngüsü | ✅ → MEKANSAL_IZOLASYON_VE_BOLGE_KARANTINASI_KILAVUZU |
+| A38 | ✅ koşuldu · `SONUCLAR/A38_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · boşluktan hayalet bom · zemin şasi kökü · montaj DAG önceliği · geriye yıkım engeli · aşama kapılama | ✅ → MEKANSAL_IZOLASYON_VE_BOLGE_KARANTINASI_KILAVUZU |
+| A39 | ✅ koşuldu · `SONUCLAR/A39_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · erken tamamlama ve geri söküm (yo-yo) engeli · dC/dt >= 0 · BVP çıkmazı | ✅ → INSAAT_YONTEMI & MEKANSAL_IZOLASYON · denetim `A39-A42_DENETIM.md` |
+| A40 | ✅ koşuldu · `SONUCLAR/A40_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · donmuş baz eleman (%98.4 VBench) · aktif cephe · unbinding engeli | ✅ → INSAAT_YONTEMI & MEKANSAL_IZOLASYON |
+| A41 | ✅ koşuldu · `SONUCLAR/A41_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · söküm/montaj faz duvarı (Causal Temporal) · 8s WBS · 3 fazlı kurgu | ✅ → INSAAT_YONTEMI & SANTIYE_HAREKETI |
+| A42 | ✅ koşuldu · `SONUCLAR/A42_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · nöroestetik · Gestalt tamamlama · 5.5-7s mikro-doyum · 7-8s merak tohumu | ✅ → UZUN_FORM_ANLATI & MUZIK_VE_KAPAK |
 
 ```
 ⭐ DÖRDÜNCÜ KUŞAK BAŞKA TÜRLÜ GELDİ — 17.09.2026
@@ -229,5 +237,19 @@ arastirma/
 ├── A33_PAYLASILABILIRLIK.md      huşu · tatmin · şüphe → konu, açılış, bedel, işlev anı · yorum taksonomisi
 ├── A34_KANAL_BUYUMESI_2026.md    ⭐ soğuk başlangıç · 37 filmlik stokun sırası · 90 gün takvimi · karar eşikleri
 ├── SONUCLAR/A30-A34_DENETIM.md   ⭐ 84 atıf çekildi (32 ✅ · 32 ⚠️ · 18 ❌ · 2 ⬜) · A30 tablosu yeniden sayıldı · tiktok §5 bayattı
+│
+│   ── onuncu kuşak · 15.10.2026 yazıldı ve koşuldu · THE SKY STATION QA (DERS 65–84) enkazından doğdu ──
+├── A35_MEKANSAL_KARANTINA_VE_BOLGE_AYRIMI.md   çok odaklı sahne · RoPE derinlik körlüğü · max 3-4 odak · Bounding Box
+├── A36_SEMANTIK_SIZMA_VE_ATTENTION_BLEED.md    CLIP <EOS> darboğazı · truss/deck çakışması · sözlük kalkanı · müzik token temizliği
+├── A37_DIKISLERDE_YUK_VE_ARAC_KORUNUMU.md      yük unbound attribute · cisim ayrışması · N_max = 1 · Exit Before Swap
+├── A38_BOSLUK_VE_UCURUM_FIZIGI.md              boşluk latentleri · hayalet bom · zemin kökü · montaj DAG önceliği · geriye yıkım
+├── SONUCLAR/A35-A38_DENETIM.md   ⭐ 32 atıf incelendi (24 ✅ · 6 ⚠️ · 2 ❌) · DERS 65–84 ile birebir örtüşme · kılavuza iniş
+│
+│   ── on birinci kuşak · 15.10.2026 yazıldı ve koşuldu · iş artışı, devamlılık ve büyüleyicilik · altı cümle ──
+├── A39_MONOTONIK_ILERLEME_VE_ARA_HAL_ASIMI.md   erken tamamlama ve yo-yo söküm engeli · dC/dt >= 0 · ara hâl tavanı
+├── A40_KUMULATIF_DEVAMLILIK_VE_DURUM_KILITLEMESI.md donmuş baz elemanlar · aktif cephe · kümülatif durum hafızası
+├── A41_SOKUM_MONTAJ_KADEMELENDIRMESI_VE_IS_ARTISI.md söküm/montaj faz duvarı · gözle görülür iş artışı · iş yoğunluğu
+├── A42_IZLEYICI_BUYULEYICILIGI_VE_MIKRO_DOYUM.md nöroestetik · Gestalt tamamlama · 8 sn mikro-doyum zinciri
+├── SONUCLAR/A39-A42_DENETIM.md   ⭐ 28 atıf incelendi (23 ✅ · 4 ⚠️ · 1 ❌) · BVP, unbinding, YoCausal, fMRI ASMR · kılavuzlara iniş
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```

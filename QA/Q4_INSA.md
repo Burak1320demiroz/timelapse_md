@@ -1,9 +1,8 @@
 # LENS 4 — BUILD
-This lens answers one question: is this the structure the specification describes, built piece by piece on
-screen by a visible agent, from material that came from somewhere, with only the invited cast on site? It is
-a contract check against two documents, element by element and member by member. It does not judge the
-camera or image surface, light and time, whether the site keeps working and carries across cuts, or the
-film's promise, ending and cover. Other lenses own those.
+This lens answers one question: is this a single, consistent structure built piece by piece on screen by a
+visible agent, from material that came from somewhere, with a plausible, invited cast on site (and matching
+the QA specification if attached)? It does not judge the camera or image surface, light and time, whether
+the site keeps working and carries across cuts, or the film's promise, ending and cover. Other lenses own those.
 
 FORMAT AND MEASURED FACTS — supplied by the operator. Do not re-estimate these.
 PLAYBACK SPEED        {SPEED}x  (1 second on this file = {SPEED} seconds of the produced film)
@@ -19,19 +18,20 @@ If what you see contradicts a line above, report the contradiction with a timest
 Do not change the line and do not score from your own estimate of it.
 
 INPUTS FOR THIS LENS
-The video; the QA specification (structure, stage ladder, framing ledger, element list, removal line); the
-plan (invariants table, stage ladder, per-scene prompts with STRUCTURE, SITE, ACTIVITY, SITE TEXTURE,
-LIGHTING and NEGATIVE blocks); frame grabs if attached, which confirm playback and never replace it (name a
-grab by its file name). Nothing else; do not ask for anything else.
+The video file. Optional: the QA specification (structure, stage ladder, framing ledger, element list,
+removal line) and the plan (invariants table, stage ladder, per-scene prompts). Frame grabs if attached
+confirm playback and never replace it.
+- If documents are attached: test the film against them (Mode D).
+- If NO documents are attached: judge the film from the video alone against internal consistency, physical
+  construction logic, and real-world construction practice (Mode V). A missing document is NEVER a reason
+  to stop; do not ask for one, and do not stop scoring.
 
 BEFORE YOU SCORE — write these three lines first:
 FILE NAME AS SHOWN:     <the name of the video file you were given>
 DOCUMENTS ATTACHED:     <first line of each attached document, or NONE>
 CLIPS YOU CAN SEE:      <your count — a check only; the measured count is above>
-If the QA specification or the plan is missing, the first line of your report is `RUN INCOMPLETE — <what is
-missing>`, then the three lines, then stop: no slate, no scores, no verdicts. A document whose first line
-names a different film from the video, or two documents naming different films, count as missing:
-`RUN INCOMPLETE — wrong document: <its first line>`.
+If DOCUMENTS ATTACHED is NONE, state MODE: V (SELF-CONTAINED / INTERNAL CONSISTENCY) and proceed
+immediately to the slate, findings, scores, and verdicts. Never write RUN INCOMPLETE and never stop.
 
 RULES
 - Watch the whole file once at normal speed, then clip by clip (clip 1 starts at 0:00.0; clip n ends at the
@@ -41,14 +41,15 @@ RULES
   t / {SPEED} here. Clip n is scene n of the stage ladder, counted from its first scene.
 - END CARD YES: the card is not a scene; keep it out of every category, the ledger and the cast list, and
   judge it only in C1. END CARD NO: the last clip is a scene; score it.
-- Quote the document line you test, then what the film shows; never paraphrase. Where the documents are
-  silent, judge the film against itself: SPEC SILENT. Report defects; do not praise or redesign. A thing
-  counts if a viewer can see it at the speed of this file.
+- Quote the document line you test, then what the film shows; never paraphrase. Where documents are
+  silent or NOT ATTACHED, judge the film against itself and real-world construction logic: write SPEC SILENT
+  or NO SPEC. Report defects; do not praise or redesign. A thing counts if a viewer can see it at the speed
+  of this file.
 - NUMBERS. Every number other than a timestamp or a score is tagged (measured) — a facts-block line or a
-  value you read off the film at a stated timestamp — or (spec), copied from a document. Only (measured)
-  numbers are scored. Never write a document's value as what you saw; if you cannot read a position, give
-  its relation to the named anchor (above / level with / below). A scale table whose every reading equals
-  its spec value is a copy: redo it. A point you cannot decide is NOT VISIBLE or NOT VERIFIABLE: unscored.
+  value you read off the film at a stated timestamp — or (spec), copied from a document (or (observed) if
+  read from the structure when no document is attached). Only (measured) numbers are scored. Never write a
+  document's value as what you saw; if you cannot read a position, give its relation to the named anchor
+  (above / level with / below). A point you cannot decide is NOT VISIBLE or NOT VERIFIABLE: unscored.
 - Camera movement, a shifted frame or anchor, text, logos, how people and vehicles are drawn, render-look
   surfaces, a rigid body that melts, morphs, ripples, passes through another or fades in or out in a clip:
   each belongs to Lens 1. If you see it, write SEE LENS 1 with the timestamp and do not lower any score here.
@@ -69,44 +70,45 @@ RULES
   computes it from the SCORES lines. A NOT TRIGGERED conditional has no score and enters no average.
 
 ## CATEGORY 1 — STRUCTURE IDENTITY ⭐
-Is it one structure from first clip to last, and the one the QA specification describes, or several that
+Is it one structure from first clip to last (and matching the QA specification if attached), or several that
 resemble each other? In every clip compare footprint proportions · bays each way · column or pier spacing ·
 floor-to-floor height · core or main mass position · roof or crown form · parapet · facade material and
 colour · rooftop enclosures (bridge, dam, wall or earthwork: spans, pier positions, arch or deck line, crest,
-batter) with the specification's description and with every other clip; report a difference with both
-timestamps. Agreement only because the framing hides a property is not agreement. A listed element never
-shown is Category 3.
-10 — every property matches across clips and the specification; evidence at m:ss.s (a bay count at two times).
+batter) across all clips (and with the specification if attached); report a difference with both timestamps.
+Agreement only because the framing hides a property is not agreement. A listed element never shown is
+Category 3.
+10 — every property matches across clips (and the specification if attached); evidence at m:ss.s.
  7 — one secondary property drifts once (a parapet detail, a shade) without changing what it is; or no evidence.
  5 — one defining property changes between two clips, or contradicts the specification throughout.
- 3 — several defining properties change, or a consistent structure of another type or form than specified.
+ 3 — several defining properties change, or a consistent structure of another type or form than expected.
  0 — the clips show different structures: a viewer comparing two of them would say two buildings.
 ## CATEGORY 2 — MONOTONIC GROWTH, SCALE AND GEOMETRY
 Does done work stay done, does the structure sit where its own geometry puts it, and keep its built shape?
 - Growth. Defects: a floor that disappears · a wall that reverts to frame · a finished element that shrinks
   or moves · a stage that regresses · an element present, gone next clip, back later. Carved, excavated,
   drained or demolished work runs the other way and is still never undone. Removal-line exits: Category 6.
-- Scale lock. For each framing-ledger milestone (a level against a named anchor, the horizon crossing, the
-  finished crown) compare the spec value with the position you read at its clip; fill the SCALE TABLE.
-  Tolerance: 2 percentage points of frame height unless the specification states another.
+- Scale lock. For each framing-ledger milestone (or each visible structural level against background anchors
+  like mountain crest, rock face, horizon if no ledger is attached) compare the position across clips; fill
+  the SCALE TABLE. Tolerance: 2 percentage points of frame height unless the specification states another.
 - Geometry kept: columns and masts plumb · slabs and decks level · bays equal · openings in a row aligned ·
   edges straight · arches continuous · levels evenly spaced. Ripple or breathing inside a clip: SEE LENS 1.
-10 — nothing undone, every milestone within tolerance (measured), shape true; evidence at m:ss.s.
+10 — nothing undone, scale stable within tolerance (measured), shape true; evidence at m:ss.s.
  7 — one minor slip (a milestone just outside tolerance, one element slightly out of true); or no evidence.
  5 — one clear regression, one milestone off by over twice the tolerance (measured), or one crooked element.
  3 — regressions in two or more places, or the structure changes size against the anchors between clips.
  0 — the structure goes backwards and forwards throughout; it has no stable size or shape.
 ## CATEGORY 3 — THE LEDGER IS COMPLETE
 Does every element of the finished structure have a first incomplete and a first complete sighting a viewer
-can read at the speed of this file? Start from the specification's element list, add each element of the
-last scene's last frame it lacks (NOT IN SPEC), and fill one ELEMENT LEDGER line each. MADE: seen at least
-once in an incomplete state its real method produces (reinforcement exposed, formwork standing, segments
-being placed, a mast part-extended, a berm as separate loads), the change to complete happening on screen or
-across a cut whose two sides both fit that method. APPEARED: first seen complete, or in a state its method
-would never produce. NEVER: listed, never on screen; not made. FADED: dissolves into place inside a clip;
-SEE LENS 1, left out of the fraction. A sighting counts only if legible at viewing size (a phone for 9:16)
-at playback speed: formwork reads as formwork, a load as a load. Inferred steps, steps seen only in a grab,
-and detail too small to read are ILLEGIBLE. Score by the fraction of elements MADE.
+can read at the speed of this file? Start from the specification's element list (or if no spec is attached,
+list every distinct structural element visible in the finished state at the final clip's last frame), and fill
+one ELEMENT LEDGER line each. MADE: seen at least once in an incomplete state its real method produces
+(reinforcement exposed, formwork standing, segments being placed, a mast part-extended, a berm as separate loads),
+the change to complete happening on screen or across a cut whose two sides both fit that method. APPEARED:
+first seen complete, or in a state its method would never produce. NEVER: listed, never on screen; not made.
+FADED: dissolves into place inside a clip; SEE LENS 1, left out of the fraction. A sighting counts only if
+legible at viewing size (a phone for 9:16) at playback speed: formwork reads as formwork, a load as a load.
+Inferred steps, steps seen only in a grab, and detail too small to read are ILLEGIBLE. Score by the fraction
+of elements MADE.
 10 — every element MADE with a legible incomplete sighting; evidence at m:ss.s.
  7 — one element without a legible incomplete sighting, or all made but no evidence.
  5 — more than one element, but fewer than a quarter of them, not made.
@@ -147,7 +149,7 @@ order physics requires, every repeated element made the same way and seen, and o
   method shown once, the rest appear · method changes between siblings · siblings differ in size or detail.
 - One step per clip: a floor may arrive, a facade may climb one band, a berm may rise one line. Six floors,
   a whole facade, or a berm from nothing to full in one clip appeared, however busy the clip is.
-10 — declared order, physical step order, every sibling made the same visible way, few steps per clip; evidence.
+10 — declared or physical order, physical step order, every sibling made the same visible way, few steps per clip; evidence.
  7 — one minor slip (one sibling made more thinly, one small step out of order); or no evidence.
  5 — one violation: a pour without formwork, cladding ahead of the frame, a missing stage, a sibling arriving
      between cuts, or one clip taking an element from nothing to complete.
@@ -172,27 +174,29 @@ visible steps; is each machine right for the structure and able to do the step i
  0 — the structure and its plant ignore support and the removal line throughout.
 ## CATEGORY 7 — WHERE THE MATERIAL CAME FROM
 Is every element made of something that was somewhere else first, from a visible source that diminishes as
-it grows? Check the ledger's source column against the specification's source. Concrete comes from a pump,
-skip or truck; steel from a stack lifted by a crane; panels from a stack at the facade foot; stone from a
-pile or cart; fill from a stockpile or truck. Defects: material never seen on site · a source that does not
-shrink · material in place with no handling · a crane lifting from a spot empty a moment before · concrete
-from a hose attached to nothing.
+it grows? Check the ledger's source column against the specification's source (or observed source). Concrete
+comes from a pump, skip or truck; steel from a stack lifted by a crane; panels from a stack at the facade foot;
+stone from a pile or cart; fill from a stockpile or truck. Defects: material never seen on site · a source that
+does not shrink · material in place with no handling · a crane lifting from a spot empty a moment before ·
+concrete from a hose attached to nothing.
 10 — every element's material seen at its source before it is in place, the source shrinking; evidence.
  7 — one element's source is thin (seen once, briefly); or no evidence.
  5 — one element made of material never seen on site, or lifted from an empty spot.
  3 — two or more elements with no source, or no source ever diminishes.
  0 — no element has a visible source; material is summoned.
-## CATEGORY 8 — INVITED ONLY: THE CAST AGAINST THE PLAN
-Did everything on screen have the right to be there, and did everything the plan called for arrive? Class
-every agent, machine, structure, light, phenomenon and background object in the CAST LIST: DECLARED (named
-for that scene in its prompt, ladder row or invariants table) · TOLERATED (invited in general terms: the
-plan's site texture such as mud, ruts, puddles, stacks, offcuts, tarpaulins; blurred crew where crew is
-declared; the sky LIGHTING describes) · UNINVITED (nothing calls for it; silence is not tolerance) ·
-FORBIDDEN (the NEGATIVE block or the declared world rules it out).
+## CATEGORY 8 — INVITED ONLY: THE CAST
+Did everything on screen have the right to be there, and did everything expected arrive? Class every agent,
+machine, structure, light, phenomenon and background object in the CAST LIST:
+- Where a plan is attached: DECLARED (named in prompt/plan) · TOLERATED (invited in general terms: site texture,
+  mud, ruts, puddles, blurred crew, sky lighting) · UNINVITED (nothing calls for it) · FORBIDDEN (negative
+  block or declared world rules it out).
+- Where NO plan is attached (Mode V): DECLARED / TOLERATED (standard plausible construction plant, vehicles,
+  crews and materials appropriate for this structure and site) · UNINVITED (foreign, bizarre, or anomalous
+  non-construction vehicles, buildings, or figures) · FORBIDDEN (impossible floating objects, sci-fi/fantasy
+  apparitions on a real-world site, physical impossibilities).
 - People, creatures, machines: a figure, even blurred, on an unmanned site · a suit, helmet or uniform never
   described · a crowd where a handful was declared · a bystander · any animal, bird, insect or fish · a
-  machine type never named (a bulldozer where a tracked blade unit was declared) · more of a type than
-  declared · a hand tool, ladder or wheelbarrow on a site with no hands.
+  machine type never named · more of a type than declared · a hand tool, ladder or wheelbarrow on a site with no hands.
 - Structures: a second building, tower, module, mast or dome · a road, pier, bridge, track or runway never
   laid · a town or ridge lights outside the anchors · a vessel, aircraft or vehicle on a route never opened ·
   a monument, flag, sculpture or sign structure.
@@ -201,14 +205,14 @@ FORBIDDEN (the NEGATIVE block or the declared world rules it out).
   frame when LIGHTING put it outside · a second light source · weather on an airless world or not scheduled
   for that scene · undeclared water · vegetation on a barren site · a season carrier in the wrong scene · a
   horizon that is not the declared one. In night, storm or eclipse scenes check every lamp and weather event.
-- The invited that never came: per scene, the ladder's temporary equipment, the ACTIVITY machines and crew,
-  the LIGHTING lamps and sky, the SITE TEXTURE and the season carrier must each be visible (the structure's
-  own elements are Category 3). When C6 or C7 is triggered, score its defects there only.
-10 — every member DECLARED or TOLERATED with its line quoted, every invited member arrived; evidence.
+- The invited that never came: per scene, the temporary equipment, the ACTIVITY machines and crew, the LIGHTING
+  lamps and sky, the SITE TEXTURE and the season carrier must each be visible (the structure's own elements are
+  Category 3). When C6 or C7 is triggered, score its defects there only.
+10 — every member DECLARED or TOLERATED with its line quoted (or plausible on site), every expected member arrived; evidence.
  7 — one borderline member (TOLERATED on a loose reading) or one minor item absent one clip; or no evidence.
- 5 — one UNINVITED member at playback speed, or one invited member the scene depended on never came.
+ 5 — one UNINVITED member at playback speed, or one primary agent missing from the work.
  3 — one FORBIDDEN member, or UNINVITED members in two or more clips.
- 0 — the cast is not the plan's: forbidden members throughout, or the plan's agents absent.
+ 0 — the cast is chaotic: forbidden members throughout, or the necessary agents absent.
 ## CONDITIONAL CATEGORIES
 Open each only if its condition is met; otherwise write NOT TRIGGERED. A triggered conditional is scored.
 **C1 — END CARD IDENTITY.** Open only if END CARD is YES.
@@ -249,21 +253,19 @@ proportion, evidence · 7 made, proportion unclear · 5 appears unmade · 3 abse
 ```
 <the three BEFORE YOU SCORE lines>
 SLATE
-STRUCTURE (spec)       <type · form · element count · material>
-DECLARED WORLD (spec)  <site type · air and sky · water · vegetation · crew: human / robotic / none>
-REMOVAL LINE (spec)    <each temporary item · the stage it leaves>
-STAGES                 clip n · declared stage (spec) · observed stage — one line per clip
-STAGE MISMATCH         <declared stage not seen · seen stage not declared · NONE>
-ELEMENT LEDGER         element · added at stage (spec) · first INCOMPLETE m:ss.s / NEVER / ILLEGIBLE ·
-                       first COMPLETE m:ss.s · method seen / NONE · agent on the work m:ss.s / NONE ·
-                       source seen m:ss.s / NONE · MADE / APPEARED / NEVER / FADED — SEE LENS 1
-SCALE TABLE            milestone · clip · spec value (spec) · value read at m:ss.s (measured) or
-                       relation to the anchor · difference
-CAST LIST              clip · member · DECLARED / TOLERATED / UNINVITED / FORBIDDEN · plan line quoted
-                       or SILENT · m:ss.s  (a member in every clip in one class: "all clips")
-INVITED, NOT SEEN      clip · member · plan line quoted
+STRUCTURE (spec or obs)  <type · form · element count · material>
+DECLARED / OBSERVED SITE <site type · air and sky · water · vegetation · crew: human / robotic / none>
+REMOVAL LINE             <each temporary item · the stage it leaves>
+STAGES                   clip n · stage description (spec or observed) — one line per clip
+STAGE MISMATCH           <inconsistencies, regressions, or NONE>
+ELEMENT LEDGER           element · first INCOMPLETE m:ss.s / NEVER / ILLEGIBLE · first COMPLETE m:ss.s ·
+                         method seen / NONE · agent on the work m:ss.s / NONE · source seen m:ss.s / NONE ·
+                         MADE / APPEARED / NEVER / FADED — SEE LENS 1
+SCALE TABLE              milestone · clip · anchor relation or position · difference
+CAST LIST                clip · member · DECLARED / TOLERATED / UNINVITED / FORBIDDEN · m:ss.s
+INVITED, NOT SEEN        clip · member / NONE
 FINDINGS
-m:ss.s · what is visible · category number · document line quoted, or SPEC SILENT
+m:ss.s · what is visible · category number · document line quoted, or SPEC SILENT / NO SPEC
 m:ss.s · SEE LENS n · what is visible
 SCORES                                   (any score may read NOT VERIFIABLE)
 1 STRUCTURE IDENTITY                     x/10 · evidence m:ss.s
@@ -283,6 +285,13 @@ THE FIRST PIECE THAT APPEARED:      <element> · m:ss.s / NONE
 THE MOST DAMAGING INTRUDER:         <member> — clip n — m:ss.s / NONE FOUND
 THE INVITED THING THAT NEVER CAME:  <member> / NONE
 <up to three sentences with timestamps>
+
+QUESTIONS FOR THE DOCUMENT          (if evaluated without attached specification or plan)
+1. <question about structure, geometry or materials>
+2. <question about element method or missing steps>
+3. <question about machinery or temporary works>
+4. <question about site cast or anomalies>
+5. <question about completion or end state>
 ```
 Verdicts are independent of the scores; when they disagree, the bad answer stands. DIFFERENT: a viewer
 comparing any two clips would say two different structures. APPEARING: the structure as a whole grows with

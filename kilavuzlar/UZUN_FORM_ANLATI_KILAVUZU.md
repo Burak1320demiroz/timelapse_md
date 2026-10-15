@@ -148,6 +148,24 @@ DEĞİŞKEN KLİP            izinli süreler 4 · 6 · 8 · 10 · 12 sn (120 BPM
                          10–12 sn [VARSAYIM — "her filmde aynı sırada" kuralı değil, düz ızgaraya alternatif]
 ```
 
+## 5.1 ⭐ 8 SANİYELİK KLİP İÇİ NÖROESTETİK MİKRO-DOYUM ANATOMİSİ [A42]
+
+```
+Sabit tripod kadrajında (0 pan, 0 tilt, 0 zoom) izleyicinin ekranda büyülenerek kalması için
+her 8 saniyelik klip üç aşamalı bir bilişsel doyum eğrisi izler [A42-c · A42-d]:
+
+  0.0–5.0 sn  GERİLİM VE BİRİKİM: Eksik Gestalt formu bilişsel gerilim ve öngörü hatası üretir.
+              Malzeme taşınır, iş yoğunluğu ve kenar entropisi zirve yapar.
+  5.5–7.0 sn  MİKRO-DOYUM VURUŞU (MICRO-PAYOFF): Kilit taşı yerine oturur, çatı keneti parlayarak
+              kilitlenir, yüzey pürüzsüzleşir. Entropi hızla düşer; nucleus accumbens'te mikro-dopamin
+              salınımı tetiklenir ("başarıldı ve yerine oturdu" hissi).
+  7.0–8.0 sn  İLERİYE MERAK TOHUMU (VISUAL FORWARD HOOK): Klibin son saniyesinde kadraj kenarında
+              bir sonraki aşamaya ait çözülmemiş bir eleman belirir (açık filiz demirler, ıslak sıva sınırı,
+              kaplanmamış aşık boşluğu). Bilgi boşluğu (Information Gap) açılır; izleyici sonraki sahneye kilitlenir.
+
+Detay ve tam prompt kalıpları: MONOTONIK_ILERLEME_VE_FAZ_KAPISI_KILAVUZU §4.
+```
+
 ---
 
 # 6. 🎬 FİNAL, TUTUŞ VE SON EKRAN

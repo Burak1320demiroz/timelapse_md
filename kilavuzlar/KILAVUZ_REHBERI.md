@@ -93,6 +93,24 @@ Yeni bir filme başlarken **sırayla** cevapla. Her cevap bir sonrakini daraltı
 □ ONARIM_VE_YENIDEN_URETIM_KILAVUZU.md QA raporu geldikten sonra (AGENTS kart R adım 10)
    ⚠️ Kaynak A25–A29 — kaynakça ÇEKİLDİ (33 satır: 20 ✅ · 8 ⚠️ · 5 ❌); denetim
       arastirma/SONUCLAR/A25-A29_DENETIM.md · inen sayılar bu makinede yeniden hesaplandı.
+
+── ⭐ 15.10.2026 · A35–A38 ARAŞTIRMASINDAN VE THE SKY STATION QA (DERS 65–84) ENKAZINDAN DOĞAN KILAVUZ ──
+□ MEKANSAL_IZOLASYON_VE_BOLGE_KARANTINASI_KILAVUZU.md ⭐ çok odaklı sahneler, kanyon/uçurum ve şantiye araçları:
+                                  Bounding Box ve derinlik (z) karantinası (§1) · STRICT ZONE IMMUNITY (§1)
+                                  · kontrollü mimari sözlük: ⛔ truss yok · deck hijyeni (§2) · Exit Before Swap (§3)
+                                  · tek hareketli aktör N_max = 1 ve amaçlı iş döngüsü (§4) · Void Immunity ve zemin şasi kökü (§5)
+                                  · montaj öncelik grafiği (DAG) ve geriye yıkım kilidi (§6) · müzik token yasağı (§7)
+   ⛔ çok odaklı, açık teraslı, kanyonlu veya araçlı her filmde ZORUNLU.
+   ⚠️ Kaynak A35–A38 — kaynakça ÇEKİLDİ (32 satır: 24 ✅ · 6 ⚠️ · 2 ❌); denetim arastirma/SONUCLAR/A35-A38_DENETIM.md.
+
+── ⭐ 15.10.2026 · A39–A42 ARAŞTIRMASINDAN DOĞAN KILAVUZ — ara hâl aşımı, kümülatif devamlılık ve mikro-doyum ──
+□ MONOTONIK_ILERLEME_VE_FAZ_KAPISI_KILAVUZU.md ⭐ ara hâl aşımı (%25 tavanı) ve yo-yo söküm engeli (§1) ·
+                                  dondurulmuş baz elemanlar (COMMITTED BASELINE) ve sıfır kaymalı demirleme (§2) ·
+                                  söküm ve montaj faz kapısı (IRREVERSIBLE PHASE GATE) ve 8s WBS (§3) ·
+                                  üç fazlı kinematik kurgu ve çoklu etki elemanı (≥3 el) (§3.4) ·
+                                  sabit kadrajda nöroestetik tutunma, 6. sn mikro-doyum ve 7. sn merak tohumu (§4)
+   ⛔ aşamalı inşaat, restorasyon, söküm veya sabit kadrajlı her filmde ZORUNLU.
+   ⚠️ Kaynak A39–A42 — kaynakça ÇEKİLDİ (28 satır: 23 ✅ · 4 ⚠️ · 1 ❌); denetim arastirma/SONUCLAR/A39-A42_DENETIM.md.
 ```
 
 ```

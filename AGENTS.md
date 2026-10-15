@@ -98,6 +98,13 @@ timelapse_md/
 │   │                                   IŞIK DEFTERİ · olumsuzlama çağırır (NegT2IBench)
 │   ├── ONARIM_VE_YENIDEN_URETIM_KILAVUZU.md ⭐ hüküm → kök neden → tek eylem · kare değişirse iki
 │   │                                   klip · iki dikiş sınanır · zincirde inpainting YOK · 3/6
+│   │  ── onuncu kuşak · 15.10.2026 · A35–A38 & THE SKY STATION QA (DERS 65–84) doğurdu ──
+│   ├── MEKANSAL_IZOLASYON_VE_BOLGE_KARANTINASI_KILAVUZU.md ⭐ Bounding Box · STRICT ZONE IMMUNITY ·
+│   │                                   ⛔ truss yok · Exit Before Swap · N_max = 1 · Void Immunity
+│   │  ── on birinci kuşak · 15.10.2026 · A39–A42 araştırmasından doğdu ──
+│   ├── MONOTONIK_ILERLEME_VE_FAZ_KAPISI_KILAVUZU.md ⭐ ara hâl aşımı (yo-yo) · dC/dt ≥ 0 · COMMITTED BASELINE
+│   │                                   · sıfır kaymalı demirleme · faz kapısı (IRREVERSIBLE GATE) · 8s WBS
+│   │                                   · 3 fazlı kurgu · çoklu etki (≥3 el) · nöroestetik mikro-doyum (5.5-7s)
 │   ├── FILM_KLASOR_SABLONU/         ⭐ yatay iskeletin kopyalanabilir hâli (§2.8) —
 │   │                                   film_klasoru_ac.sh buradan kopyalar; kapı atlar
 │   ├── DERSLER.md                   ⭐ yalnız ÖLÇÜLMÜŞ dersler (DERS 1–64) + film blokları

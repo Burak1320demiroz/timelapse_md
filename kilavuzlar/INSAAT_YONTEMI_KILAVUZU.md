@@ -383,3 +383,22 @@ AY        ped %50   a robotic dozer blade pushes grey regolith and the thrown
 > sıçramaları kaldırır. Artık her sıçrama bir önkoşul zincirine borçlu. Bedeli:
 > merdiven yazmak zorlaşır, iki sahne arasına bazen üçüncü bir sahne girmek
 > ister. Karşılığı: yapı ekranda BÜYÜR, belirmez.
+
+---
+
+# 7. 🔗 MONOTONİK İLERLEME, TAVAN KİLİDİ VE FAZ KAPISI [A39–A41]
+
+> Ara hâller (%25 · %50 · %75) planda tanımlansa bile, difüzyon transformatörlerinin (vDiT)
+> Sınır Değer Problemi (BVP) çıkmazı ve Çapraz Dikkat Çözülmesi (Cross-Attention Unbinding)
+> nedeniyle iki ağır arıza doğabilir:
+> 1. **Ara Hâl Aşımı (Yo-Yo Sökümü):** Klip ortasında %100'e fırlayıp %25'e dönmek için yapılanı geri eritmek [A39].
+> 2. **Kümülatif Durum Kaybı:** Klip 1'de tamamlanan aşıkların Klip 2'de yeniden takılmaya çalışılıp erimesi [A40].
+> 3. **Faz Çakışması:** Söküm sürerken taze kaplama yapılması veya yeni yapılanın tersten yıkılması [A41 · DERS 78].
+>
+> ⛔ Bu arızaların çözümü, tam matematiksel formülasyonu, standart İngilizce sözdizimi ve
+> 12 maddelik kontrol listesi için doğrudan **`kilavuzlar/MONOTONIK_ILERLEME_VE_FAZ_KAPISI_KILAVUZU.md`**
+> kılavuzuna bakınız:
+> - **Tavan Kilidi:** `dC/dt ≥ 0` · `Strict maximum upper bound of exactly %X` · anti-overshoot negatif bloğu.
+> - **Donmuş Baz Elemanlar:** `COMMITTED BASELINE: STRICTLY UNTOUCHED` vs `ACTIVE INSTALLATION FRONT ONLY`.
+> - **Faz Kapısı:** Söküm ($\Delta V < 0$) ile yapım ($\Delta V > 0$) ASLA aynı klipte birleştirilmez.
+

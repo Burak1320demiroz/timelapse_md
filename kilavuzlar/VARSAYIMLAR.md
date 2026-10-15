@@ -270,6 +270,50 @@ DURUM SÜTUNU — üç değer, dördüncüsü yok
 | A34-d | İKİ FORMAT, İKİ ÖNERİ SİSTEMİ — "separate recommendation systems … understand cross-format v… | — | ⬜ açık |
 | A34-e | KARAR PENCERESİ — dikey 7. gün · yatay 7 + 28 · kanal içi son 5 medyanı · tek değişken | — | ⬜ açık |
 
+### A35–A38 · mekânsal karantina & fiziksel kısıtlar · THE SKY STATION enkazından
+
+| kod | başlık | kaynak | durum |
+|---|---|---|---|
+| A35-a | ÇAPRAZ DİKKAT HARİTASI SIZMASI — global Softmax eylemi tüm düzlem Query'lerine yayar | arXiv:2604.10030 · DERS 71 | ⬜ açık |
+| A35-b | RoPE DERİNLİK KÖRLÜĞÜ — 2D/3D RoPE derinlik ($z$) katmanını ayırt edemez | arXiv:2605.22344 · DERS 71 | ⬜ açık |
+| A35-c | EŞZAMANLI BAĞIMSIZ EYLEM ODAĞI TAVANI — tek difüzyon ağında $N_{\max} = 3-4$ | arXiv:2410.23775 · layout | ⬜ açık |
+| A35-d | STRICT ZONE IMMUNITY — dokunulmaz açık alanlar açık kalkanla beyan edilmelidir | DERS 71 · T5 kümeleme | ⬜ açık |
+| A36-a | CLIP <EOS> TOKEN DARBOĞAZI — metin sıkıştırması yakın mimari kavramları dolaştırır | arXiv:2412.04715 · ALE | ⬜ açık |
+| A36-b | ⛔ "TRUSS" SÖZLÜKTEN ÇIKARILIR — piramidal uzay kafes ve köşk tetikler | DERS 80 · analiz | ⬜ açık |
+| A36-c | "DECK" SÖZCÜĞÜ MALZEME VE İŞLEVLE KİLİTLENİR — sheathing (çatı) ↔ slab (zemin) | arXiv:2412.04715 · DERS 80 | ⬜ açık |
+| A36-d | ⛔ METİNDEN MÜZİKAL TOKEN'LARIN TEMİZLENMESİ — görsel paraziti %100 keser | arXiv:2609.03586 · MMDiT | ⬜ açık |
+| A37-a | KASADAKİ YÜK VE BOM UNBOUND ATTRIBUTE'DİR — araç şasisi tutarken yük dikişte takas olur | arXiv:2411.15236 · DERS 74 | ⬜ açık |
+| A37-b | EŞZAMANLI HAREKETLİ AKTÖR TAVANI $N_{\max} = 1$ — $N \ge 2$'de bağlanım %42 düşer | T2V-CompBench · VBench++ | ⬜ açık |
+| A37-c | ⭐ "EXIT BEFORE SWAP" PROTOKOLÜ — yükü değişecek araç sahada sabit kalamaz | latent çapa · DERS 74 | ⬜ açık |
+| A37-d | AMAÇLI İŞ DÖNGÜSÜ SÖZDİZİMİ — genel eylem fiilleri yerine deterministik vektör | arXiv:2407.14505 · sözdizim | ⬜ açık |
+| A38-a | BOŞLUK LATENTLERİ HAYALET MAKİNE ÜRETİR — kanyon boşluğu hayalet bom filizlendirir | arXiv:2609.23658 · DERS 81 | ⬜ açık |
+| A38-b | SERT ZEMİN ŞASİ KÖKÜ — her araç ve uzatılan bom sert zemin piksellerine basmalıdır | VideoPhy · DERS 81 | ⬜ açık |
+| A38-c | İNŞAAT MONTAJ ÖNCELİK GRAFİĞİ (DAG) — öncülü bitmeyen eleman metne giremez | PhysBench · DERS 79, 84 | ⬜ açık |
+| A38-d | AŞAMA KAPILAMA VE GERİYE YIKIM KİLİDİ — taze imalat yıkılarak geri sarılamaz | DERS 78 · simetri ihlali | ⬜ açık |
+
+### A39–A42 · monotonik ilerleme, kümülatif durum, söküm fazı ve mikro-doyum
+
+| kod | başlık | kaynak | durum |
+|---|---|---|---|
+| A39-a | MIDPOINT GUIDANCE DECAY — uç karelerin etkisi klip ortasında sıfırlanır, vakum oluşur | arXiv:2505.21205 · BVP | ⬜ açık |
+| A39-b | GENERATIVE PRIOR BASKISI — model boşlukta C=1.0 manifolduna uçar ve yo-yo söküm yapar | arXiv:2410.05651 · prior | ⬜ açık |
+| A39-c | ASSEMBLY VELOCITY CLAMPING — akış hızı v_max ile klamplanarak erken aşım engellenir | arXiv:2601.09881 · SOTA | ⬜ açık |
+| A39-d | STRICT UPPER BOUND CEILING — promptta %25 tavanı ve anti-overshoot negatifi zorunludur | AVE · DiT guide | ⬜ açık |
+| A40-a | VAE MARUZ KALMA SAPMASI — otoregresif I2V pikselleri sert sınır değil yumuşak alır | arXiv:2512.12080 · drift | ⬜ açık |
+| A40-b | CROSS-ATTENTION UNBINDING — eylem fiilleri bitmiş yapının niteliğini çözer ve söker | arXiv:2608.26239 · mutasyon | ⬜ açık |
+| A40-c | PART-LATENT FREEZING & KV-REINJECTION — donmuş alanda KV belleği korunur (%98.4 VBench) | arXiv:2605.19350 · anchor | ⬜ açık |
+| A40-d | DUAL-PROMPT SEMANTIC ISOLATION — COMMITTED BASELINE ile ACTIVE FRONT kesin ayrılır | arXiv:2604.10383 · %45 | ⬜ açık |
+| A41-a | ÇİFT YÖNLÜ DİKKAT ZAMANIN OKUNU YIKAR — söküm ve montaj süperpoze olur (DERS 78) | YoCausal · arXiv:2505.14357 | ⬜ açık |
+| A41-b | TERMODİNAMİK FAZ DUVARI — söküm bitmeden yapım fiili metne giremez (Irreversible Gate) | ImageTime · %60 nedensellik | ⬜ açık |
+| A41-c | 8 SANİYELİK WBS VE ÜÇ FAZLI KİNEMATİK — Lojistik (0-2.5s) → Hazırlık → Montaj (5-8s) | kurgu mühendisliği | ⬜ açık |
+| A41-d | MULTI-EFFECTOR KURALI — her sahnede en az 3 hareketli öğe boş rölantiyi engeller | SANTIYE §4.8 · C2-g | ⬜ açık |
+| A42-a | GESTALT TAMAMLAMA VE BİLİŞSEL GERİLİM — eksik yapı gerilim, yerine oturma ödül üretir | DOI:10.1017/S0140525X19001213 | ⬜ açık |
+| A42-b | ENTROPİ DÜŞÜŞÜ — kaostan dik açılı nizama geçiş beyinde görsel rahatlama yaratır | DOI:10.1371/journal.pone.0316555 | ⬜ açık |
+| A42-c | 8 SANİYELİK MİKRO-DOYUM ANATOMİSİ — 5.5-7.0s mekanik vuruş (keystone/lock) gerçekleşir | fMRI ASMR · DOI:10.3389 | ⬜ açık |
+| A42-d | 7-8s MERAK TOHUMU (FORWARD HOOK) — sahne bitmeden yeni tamamlanmamış uç belirmelidir | DOI:10.1098/rstb.2022.0411 | ⬜ açık |
+
+
+
 ### F1 — kardeş depo
 
 | kod | başlık | kaynak | durum |
@@ -1405,6 +1449,92 @@ A34-e KARAR PENCERESİ — dikey 7. gün · yatay 7 + 28 · kanal içi son 5 med
 ```
 
 ---
+
+## 🔬 A35–A38 — MEKÂNSAL İZOLASYON, SEMANTİK SIZMA, YÜK KORUNUMU VE BOŞLUK FİZİĞİ · 15.10.2026
+> Kaynak: `arastirma/SONUCLAR/A35…A38_GEMINI_HAM.md` · Denetim: `arastirma/SONUCLAR/A35-A38_DENETIM.md` ·
+> Tetikleyen: THE SKY STATION (DERS 65–84) filminde yaşanan ağır QA kusurları: teras üstüne pergola/çatı örülmesi (DERS 71),
+> makasın piramide bükülmesi (DERS 80), kamyonun bölünmesi ve yükün takas olması (DERS 74), boşluktan beton pompası filizlenmesi (DERS 81),
+> hazır blok süperpozisyonu (DERS 79), halatsız kabin kalkması (DERS 84), geriye yıkım (DERS 78).
+
+```
+A35-a ÇAPRAZ DİKKAT HARİTASI SIZMASI — global Softmax nedeniyle eylem Key'i kadrajdaki tüm yatay Query'lere
+      sızar. Model arka plan harabesindeki çatı eylemini ön plan beton terasına atar. [arXiv:2604.10030 · DERS 71]
+A35-b RoPE DERİNLİK KÖRLÜĞÜ — 2D/3D RoPE piksel gridini ve zamanı kodlar ancak metin ile 3D derinlik (z-depth)
+      arasında koordinat projeksiyonu kuramaz. z=2m ile z=140m çakışır. [arXiv:2605.22344 · DERS 71]
+A35-c EŞZAMANLI BAĞIMSIZ EYLEM ODAĞI TAVANI — tek difüzyon ağında harici masksiz eşzamanlı bağımsız eylem odağı
+      sayısı en fazla N_max = 3-4 bölgedir; 4'ün üstünde cross-talk katlanır. [arXiv:2410.23775 · layout]
+A35-d STRICT ZONE IMMUNITY — dokunulmaz açık alanlar pasif bırakılamaz; model eylem atar. "STRICT ZONE IMMUNITY /
+      ABSOLUTE UNTOUCHED REGION" ve Bounding Box ile kilitlenmelidir. [DERS 71 · T5 kümeleme]
+A36-a CLIP <EOS> TOKEN DARBOĞAZI — metin diziliminin tek sabit vektöre sıkıştırılması yakın mimari terimleri
+      (truss, deck, rafter) dolaşığa (entanglement) uğratır. [arXiv:2412.04715 · ALE ICCV 2025]
+A36-b ⛔ "TRUSS" SÖZLÜKTEN ÇIKARILIR — piramidal uzay kafes ve gazebo tetikler (DERS 80); yerine parallel
+      dual-chord steel I-beam rafters veya steel purlins yazılır. [DERS 80 · analiz]
+A36-c "DECK" SÖZCÜĞÜ MALZEME VE İŞLEVLE KİLİTLENİR — "roof decking" çatıya, "timber deck" terasa sızar. Çatı için
+      corrugated steel roof sheathing, zemin için concrete boarding slab kullanılır. [arXiv:2412.04715 · DERS 80]
+A36-d ⛔ METİNDEN MÜZİKAL VE AKUSTİK TOKEN'LARIN TEMİZLENMESİ — Attention Triangle üzerinden görsel Query'lerin
+      müzik Key'lerine bağlanmasını ve enstrüman/parazit türemesini %100 engeller. [arXiv:2609.03586 · MMDiT]
+A37-a KASADAKİ YÜK VE BOM UNBOUND ATTRIBUTE'DİR — araç şasisi düşük frekansta tutunurken yük dikişte takas olur;
+      dikkat bölünmesi tek kamyonu ikiye ayırır. [arXiv:2411.15236 · DERS 74]
+A37-b EŞZAMANLI HAREKETLİ AKTÖR TAVANI N_max = 1 — sahnede bağımsız hareketli aktör sayısı N >= 2 olduğunda
+      bağlanım skorları %42 düşer; vinç ile forklift birbirinin kimliğini çalar. [T2V-CompBench · VBench++]
+A37-c ⭐ "EXIT BEFORE SWAP" PROTOKOLÜ — yükü değişecek araç şantiyede sabit kalamaz; klip içinde kadrajdan çıkmalı,
+      yeni yük yeni araçla kadraja girmelidir. [latent çapa · DERS 74]
+A37-d AMAÇLI İŞ DÖNGÜSÜ SÖZDİZİMİ — genel eylem fiilleri yerine Active Subject + Initial Anchor + Deterministic
+      Kinematic Vector + Target Anchor + State Change Trigger sözdizimi rölanti döngüsünü keser. [arXiv:2407.14505]
+A38-a BOŞLUK LATENTLERİ HAYALET MAKİNE ÜRETİR — difüzyon modellerinde 3D kuvvet dinamiği yoktur; kanyon boşlukları
+      düşük enformasyonlu gürültü alanı olarak görülüp hayalet pompa bomu filizlendirir. [arXiv:2609.23658 · DERS 81]
+A38-b SERT ZEMİN ŞASİ KÖKÜ — sahnede duran her araç ve havada uzanan her bom tanımlanmış sert zemin piksellerine
+      (kaya, beton) basmak ve tek bir ana şasiye bağlı olmak zorundadır. [VideoPhy · DERS 81]
+A38-c İNŞAAT MONTAJ ÖNCELİK GRAFİĞİ (DAG) — eleman öncülü tamamlanmadan metne enjekte edilemez; gökten tek anlık
+      hazır blok inmesi (DERS 79) ve temassız kabin türemesi (DERS 84) engellenir. [PhysBench · DERS 79, 84]
+A38-d AŞAMA KAPILAMA VE GERİYE YIKIM KİLİDİ — difüzyonun zamansal simetrisi kırılmalıdır; taze imalat yıkılarak
+      geri sarılamaz (DERS 78); aşama kapılama (dt <= tau) ile alt aşama kilitlenir. [DERS 78 · simetri ihlali]
+```
+
+---
+
+## 🔬 A39–A42 — MONOTONİK İLERLEME, KÜMÜLATİF DURUM, FAZ DUVARI VE MİKRO-DOYUM · 15.10.2026
+> Kaynak: `arastirma/SONUCLAR/A39…A42_GEMINI_HAM.md` · Denetim: `arastirma/SONUCLAR/A39-A42_DENETIM.md` ·
+> Tetikleyen: Ara hâl aşımı (yo-yo sökümü), kümülatif devamlılık ve donmuş baz kaybı, söküm/montaj çakışması (DERS 78),
+> sabit kamerada izleyici büyüleyiciliği ve mikro-doyum ihtiyacı.
+
+```
+A39-a MIDPOINT GUIDANCE DECAY — uç karelerin (A ve B) dikkat etkisi klibin ortasında sıfıra yaklaşır, conditioning
+      void oluşur. Model uç sınırlardan kopar. [arXiv:2505.21205 · BVP]
+A39-b GENERATIVE PRIOR BASKISI — model boşlukta verisetindeki C=1.0 manifolduna uçar; 4. sn'de %100'e fırlayıp
+      8. sn'deki B hedefine oturmak için 4-8 sn'de dC/dt < 0 elastik söküm yapar. [arXiv:2410.05651]
+A39-c ASSEMBLY VELOCITY CLAMPING — akış hızı v_max = (z_B - z_A)/N * 1.1 ile klamplanarak ani aşırı üretim
+      mekanik olarak durdurulur; CFG 3.5-4.5 aralığına çekilir. [arXiv:2601.09881 · SOTA]
+A39-d STRICT UPPER BOUND CEILING — promptta "strict maximum upper bound of exactly 25%" tavanı ve anti-overshoot
+      negatifi ("yo-yo assembly, elastic rebound, dissolving materials") zorunludur. [AVE · DiT guide]
+A40-a VAE MARUZ KALMA SAPMASI — otoregresif I2V pikselleri sert sınır değil yumuşak koşul olarak işler;
+      exposure bias nedeniyle çelik strüktür doku ve renk değiştirir. [arXiv:2512.12080 · drift]
+A40-b CROSS-ATTENTION UNBINDING — eylem fiilleri tamamlanmış elemanların niteliklerini çözer ve re-assembly
+      çatışması üretir; model bitmiş aşıkları tekrar yapmaya kalkışır. [arXiv:2608.26239 · mutasyon]
+A40-c PART-LATENT FREEZING & KV-REINJECTION — donmuş alanda Key-Value belleği dondurulurken aktif cephede üretim
+      sürer (%98.4 VBench); Gaussian kenar yumuşatma VAE sınır yırtılmasını keser. [arXiv:2605.19350]
+A40-d DUAL-PROMPT SEMANTIC ISOLATION — COMMITTED BASELINE (STRICTLY UNTOUCHED) ile ACTIVE INSTALLATION FRONT ONLY
+      başlıkları kesin ayrılır; yanlış eylem atama hatasını %38-45 düşürür. [arXiv:2604.10383]
+A41-a ÇİFT YÖNLÜ DİKKAT ZAMANIN OKUNU YIKAR — çift yönlü temporal attention zamanın simetrisini korur; model söküm
+      ile yapımı tek pencerede süperpoze eder ve taze kaplamayı geriye yıkar. [YoCausal · arXiv:2505.14357]
+A41-b TERMODİNAMİK FAZ DUVARI — söküm bitmeden yapım fiili metne giremez; Causal Temporal Attention ve 2 anahtar
+      kare sınırı ile geri dönülmez faz kapısı kurulur (ImageTime %60 nedensellik artışı). [arXiv:2606.10620]
+A41-c 8 SANİYELİK WBS VE ÜÇ FAZLI KİNEMATİK — her klip net Delta V taşır; 0-2.5s Lojistik -> 2.5-5.0s Hazırlık ->
+      5.0-8.0s Montaj alt pencereleri rölanti klibi ve step-jump'ı engeller. [kurgu mühendisliği]
+A41-d MULTI-EFFECTOR KURALI — her sahnede aynı anda en az 3 hareketli unsur (işçi elleri + yükselen yapı elemanı +
+      vinç/toz) yer alır; boş rölantiyi sıfırlar. [SANTIYE §4.8 · C2-g]
+A42-a GESTALT TAMAMLAMA VE BİLİŞSEL GERİLİM — eksik yapı zihinde öngörü hatası ve bilişsel gerilim üretir; yerine
+      oturan kilit elemanı Gestalt tamamlama (closure) ile dopamin salgılar. [DOI:10.1017/S0140525X19001213]
+A42-b ENTROPİ DÜŞÜŞÜ — kaotik şantiyeden dik açılı ortogonal nizama geçiş beyinde bilgi işleme enerjisini azaltır ve
+      derin bir görsel rahatlama yaratır. [DOI:10.1371/journal.pone.0316555]
+A42-c 8 SANİYELİK MİKRO-DOYUM ANATOMİSİ — 0-5s Birikim -> 5.5-7.0s Mekanik vuruş (keystone/lock/snap) ->
+      nucleus accumbens aktivasyonu ve mikro-dopamin salınımı. [fMRI ASMR · DOI:10.3389/fnins.2023.1025745]
+A42-d 7-8s MERAK TOHUMU (FORWARD HOOK) — sahne bitmeden (7-8 sn) kadraj köşesinde henüz çözülmemiş yeni bir
+      yapım ucu (filiz demir, boş yuva) belirmelidir; izleyiciyi sonraki klibe bağlar. [DOI:10.1098/rstb.2022.0411]
+```
+
+---
+
 
 ## 🛰️ F1 — KARDEŞ DEPODAN DEVRALINAN · film_md · 17.09.2026
 
