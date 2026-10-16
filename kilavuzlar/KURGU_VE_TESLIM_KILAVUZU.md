@@ -247,6 +247,9 @@ KOŞ:  bash araclar/kesme_kontrol.sh teslim.mp4 <plan.md>
 # 7. KAPAK VE SON KART
 
 ```
+⭐ 16.10.2026 SAHİP KURALI: her filmin SONUNDA kapak kartı var [DERS 85 · KILAVUZ_REHBERI §2.1]. Kart GN'den,
+   finalin tutuşundan SONRA; erime ≤ 1 sn ve tutuşun dışında. Planın TESLİM YAPISI süresini yazar.
+
 ⭐ DEĞİŞMEYEN: kapak S9'un usta karesinden türer ve İngilizce başlık taşır
    [MUZIK_VE_KAPAK · DERS 30]. Kapak kartı SAHNE DEĞİLDİR, ayrı beyan edilir
    [DERS 4] ve teslim yapısı satırı KONUMUNU da yazar: SON 5,0 saniye [A1-b].

@@ -78,8 +78,8 @@
             [QA_KAYIT §2.1] · ikinci koşu _K2 · yarım master bölümü <FILM>_B<b>_Q<n>_…
 2. GERİ OKUMA  ilk üç satır: dosya adı · belgeler · görülen klip sayısı [QA_KOSU §2.2]
             dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş
-3. DOĞRULAMA   D1–D5 [QA_OLCUM_ZEMINI §5] — dosya dışı damga · klip sayısı · süre itirazı ·
-            kesme damgası · kart · kör raporda sızıntı [QA_KOSU §3]
+3. DOĞRULAMA   D1–D6 [QA_OLCUM_ZEMINI §5] — dosya dışı damga · klip sayısı · süre itirazı ·
+            kesme damgası · kart · kurgu tablosu (kare panosu) · kör raporda sızıntı [QA_KOSU §3]
 4. DURUM    TAM · EKSİK · YANLIŞ GİRDİ · SIZINTI · TUTARSIZ · YERİNE GEÇTİ · BAĞLAYICI DEĞİL
             [QA_KAYIT §1.2] — yalnız TAM puan taşır
 5. PUAN     mercek puanı = tetiklenen kategorilerin ortalaması — AJAN hesaplar (rubrik AVERAGE

@@ -167,6 +167,7 @@ ister) · "boiling water" (kaynama — DEEP STEP arızası) · "the water appear
 |---|---|---|---|
 | su belirir/kaybolur, kaynar | DEEP STEP · OVER THE WALL | fizik benchmark'larında akışkan/sıvı en zayıf alanlardan [VideoPhy-2: en iyi model %32,6 · zor alt kümede %22 ✅] | kot defteri · kaynak + yön · "never dropping" |
 | kot karede zıplar | OVER THE WALL (4 kez kar/su) | — | kesirli kot + tanık çizgi [A27-d] |
+| boşalan su SİLİNİR, tabanda gider deliği belirir | POOL ROOM S0 (2→3 sn) [DERS 93] | — | ara kot keyframe'i (G1'de sığ su) · rıht rıht inen su çizgisi · tabanın kesintisiz çini tarifi (pozitif) |
 | su gelince ışık değişir | MOUNTAIN CROWN | — | KARE TABLOSU saati birebir |
 | su gelince yapı silinir | IRON BRIDGE | — | yapı cümlesi birebir, "unchanged" |
 | taşıt eylemsizliksiz kaçar | BACK TO WATER | Physics-IQ: en iyi modeller ~%57–64 (2026 tablosu) · özgün 2025 makalesinde en iyi ~%29,5 ✅ | rota hesabı (§7) · "without ever leaving the frame" [VARSAYIM] |

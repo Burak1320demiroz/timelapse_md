@@ -189,6 +189,11 @@ Her 8 saniyelik klip kapalı bir mikro-tatmin ve bir sonraki klibe uzanan merak 
 │                                      │             │ · Harç düzleşir│ · Boşluk    │
 ```
 
+> ⚠️ **ÖLÇÜM (DERS 92 · THE POOL ROOM, 16.10.2026):** altı klipte ana dönüşüm 2–4 sn'de bitti; 5,5–7 sn'ye
+> yazılan doyum anları oraya düşmedi. Bu anatomi bir HEDEFTİR, model davranışı değil: doyum bir nesneye bağlanır
+> (son panelin oturması) ve pilotun 2x kopyasında ölçülür; geç bitiş vaadi yazılmaz. Klip sonu teslimatlar (7–8 sn
+> merak tohumu) TUTTU.
+
 - **5.5–7.0 sn — Mikro-Doyum Vuruşu (Micro-Payoff):** Kemerin kilit taşı yerine oturur; kenetli çatı sacı güneş parlamasıyla kilitlenir; pürüzlü sıva mala darbesiyle mat pürüzsüzlüğe kavuşur.
 - **7.0–8.0 sn — İleriye Merak Tohumu (Visual Forward Hook):** Kadrajın kenarında henüz tamamlanmamış bir sonraki aşama elemanı belirir (örneğin kolon tepesindeki filiz demirler, kaplama bekleyen açık aşık boşluğu, hizalanmamış oluk braketi) [DOI: 10.1098/rstb.2022.0411]. Beyinde bilgi boşluğu (Information Gap) açılır; izleyici videoyu kaydırmayıp sonraki sahneye kilitlenir.
 

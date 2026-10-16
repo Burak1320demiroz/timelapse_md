@@ -269,6 +269,14 @@ Robotic rover   The uncrewed rover is a sealed machined-aluminium body carrying 
 Robotic gantry  The gantry strut is a single titanium frame operated by its own control
                 unit; its anchor pads lock into the rock and give the payload lift a
                 rigid, unmoving base.
+Floor panels    Each floor panel is one solid dark grey board, closed on top, carried whole
+                by two workers; the panels go down one row at a time from the near end, and
+                the bare surface beyond the last row stays bare until the next row covers
+                it. [DERS 87 — "framed … with infill" iki nesne doğurdu]
+Glass panel     Each glass panel is exactly as wide as the opening it covers and one third
+                of its length; two workers carry it flat between them by two small hand-held
+                suction cups and lower it by hand onto its seat; the roof steel above holds
+                nothing. [DERS 88 — ölçüsüz "glass panel" tek dev levha oldu]
 ```
 
 ---

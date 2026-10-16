@@ -156,7 +156,8 @@ Ajan her ham raporu kayda geçirmeden önce:
 | D2 | klip sayısı | rapor CLIP COUNT'tan farklı sayı yazıyor (ör. "23 clips") | ilgili kategoriler NOT VERIFIABLE · rapor notu |
 | D3 | süre/hız itirazı | rapor "kesik · erken bitiyor · planlanan 56 sn" diyor | o bulgu ve ona bağlı puan DÜŞER (blok bunu baştan söylemişti) |
 | D4 | kesme damgası | rapor bir kesmeyi CUT TIMESTAMPS'ten > 0,5 sn uzağa koyuyor | o bulgu doğrulanmadı (kareye bakılır) |
-| D5 | kart | END CARD = NO iken rapor kartı puanlıyor | o kategori NOT TRIGGERED sayılır |
+| D5 | kart | END CARD = NO iken rapor kartı puanlıyor | ⭐ ÖNCE DOSYA: klip_eslestir kuyruğu / kare panosu — kart dosyada YOKSA kategori NOT TRIGGERED; VARSA hata dosyanındır, rapor haklıdır [DERS 90 · POOL ROOM] |
+| D6 | kurgu tablosu | raporun klip/kurgu tablosu ajanın 1 sn'lik kare panosuyla tutmuyor (kart görülmemiş, klip eksik) | o tabloya bağlı puanlar DÜŞER · kayıtta "ŞİŞİK" etiketi [DERS 90] |
 
 ```
 ⭐ Tolerans ±0,5 sn (2x dosyada = 1 sn film zamanı) — VARSAYIM; ilk üç filmde
@@ -174,7 +175,7 @@ Ajan her ham raporu kayda geçirmeden önce:
                  açığı). kesme_kontrol marjı darsa CUT TIMESTAMPS NOT MEASURED.
 2. rubrikler     "ends with a static end card" vb. RUBRIK_YAZIM §6 listesiyle temizlenir.
 2b. kare_al.sh   kare adına dosya saniyesi (§4).
-3. ham rapor     D1–D5 elle; sayaç/betik U-kontrolleriyle birlikte otomatikleşir [QA_KAYIT §5].
+3. ham rapor     D1–D6 elle; sayaç/betik U-kontrolleriyle birlikte otomatikleşir [QA_KAYIT §5].
 4. yeniden koşu  seçilen filmler beş mercekle, blokla koşulur [ARSIV_12_MERCEK/00_ARSIV.md §6].
 ⭐ 06.10.2026: 1 ve 2 YAPILDI — qa_paket.sh bloğu ölçüp rubriğin içine basıyor (--master ile
    ❸ ❹ 1x'ten); beş rubrik temiz yazıldı. 2b ve 3 açık.

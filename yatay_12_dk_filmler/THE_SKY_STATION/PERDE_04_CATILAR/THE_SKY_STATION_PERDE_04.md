@@ -490,6 +490,17 @@ Camera: fixed tripod, absolutely zero movement, no shake, no drift, no zoom, no 
 No dialogue. No narration. No text. No captions. No logos. No watermark. No cuts. Photorealistic documentary time-lapse cinematography.
 ```
 
+
+
+
+
+
+
+burada kaldırmmmmm  ilk 35 sahne eleştirisi yapıldı 
+
+
+
+
 ---
 
 ## 🎬 SAHNE 35 — İKİ ÇATI

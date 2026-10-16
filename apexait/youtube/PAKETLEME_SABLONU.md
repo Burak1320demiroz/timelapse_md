@@ -48,7 +48,7 @@
 <TEK SATIR: zaman yayı — "14 months in 60 seconds">
 
 ──────────────────────────────────
-Locked-off camera. No cuts inside a shot. No narration, no text on screen.
+Locked-off camera. No cuts inside a shot. No narration; the only text is the closing title card.
 Every frame is generated with AI. This is not a record of a real project:
 no real company, no real site, no real building is depicted.
 
@@ -179,7 +179,7 @@ afternoon light.
 14 months in 60 seconds.
 
 ──────────────────────────────────
-Locked-off camera. No cuts inside a shot. No narration, no text on screen.
+Locked-off camera. No cuts inside a shot. No narration; the only text is the closing title card.
 Every frame is generated with AI. This is not a record of a real project:
 no real company, no real site, no real building is depicted.
 

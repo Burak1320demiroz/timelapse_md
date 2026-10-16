@@ -45,6 +45,8 @@ timelapse_md/
 │   ├── PROMPT_SABLONU.md            görsel + İKİ UÇLU I2V iskeleti · ⛔ T2V YOK
 │   ├── MUZIK_VE_KAPAK.md            BPM ızgarası · katman=kat · 120 px testi ·
 │   │                                   paketleme · GERÇEKLİK BEYANI
+│   ├── DIKEY_TIMELAPSE_KAPAK_KILAVUZU.md ⭐ dikey kapak: çekirdek 780×840 · başlık kutusu ·
+│   │                                   3:4/4:5/1:1 provası · §0 depo uyarlaması (16.10.2026)
 │   │  ── ikinci kuşak · 08.09.2026 · A5–A8 araştırmasından doğdu ──
 │   ├── INSAAT_YONTEMI_KILAVUZU.md   ⭐ ara hâller (%25/%50/%75) · geçici ekipman
 │   │                                   · okunabilirlik eşiği 0,5 m · ⑧'in kapısı
@@ -244,7 +246,7 @@ ve komşularında. Burada tekrarlanmaz.**
                       zorunlu satır (KANIT · LOOP · SÖKÜM) · kış İKİ sahne
 5. GÜNEŞ SAATİ        ZAMAN_VE_ISIK — mevsim yayı ve temsil süreleri
                       ⛔ Açı ve yükseklik I2V'ye de yazılır [DERS 18].
-6. TESLİM YAPISI      ⛔ sahne bloğu + KAPAK KARTI (⛔ YOK ya da süresi) + MÜZİK (dikey: ⛔ YOK)
+6. TESLİM YAPISI      ⛔ sahne bloğu + KAPAK KARTI (⭐ 16.10.2026: HER filmde SONDA, GN'den, süresiyle) + MÜZİK (dikey: ⛔ YOK)
                       AYRI satırlarla beyan edilir. Beyansız kart QA'yı çökertir [DERS 4];
                       beyan ihracta ihrac_kontrol.sh ile ölçülür [DERS 63].
 6a. İZLEYİCİ KAPISI  ⛔ künyeye İŞLEV ANI · AÇILIŞ NESNESİ · DÖNGÜ KAFİYESİ · MERAK SORUSU satırları
@@ -290,6 +292,8 @@ ve komşularında. Burada tekrarlanmaz.**
                       varsa plana KURGU bölümü + araç kapısına çözünürlük ölçümü.
 9. MÜZİK + KAPAK      MUZIK_VE_KAPAK — 120 BPM (3 ölçü/sahne) · kapak SON
                       sahnenin usta karesinden türer ve ⭐ İNGİLİZCE BAŞLIK taşır
+                      ⭐ DİKEY: DIKEY_TIMELAPSE_KAPAK_KILAVUZU §0 · §3 — GN ana yapı y %29–58,
+                      başlık sakin alanı y %60–71 (plan kadraj tablosuna yazılır) · kapak = SON KART
 10. PAKETLEME         ⛔ başlık/açıklama/hashtag/yorum İNGİLİZCE
 11. QA_SPEC           kilit listesi + ⛔ FİNAL KARE KANITI satırı
 12. PROMPT KAPISI     python3 araclar/prompt_kontrol.py <dosya>
@@ -446,10 +450,16 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
       Makine: süre = 28,0 (+kart yalnız planda varsa) · 1080×1920 · final tutuşu (SSIM).
       Elle ✓: müzik YOK · okunur yazı/logo/promo/"AI TIMELAPSE" YOK · kart = GN dünyası.
       Çıkış 2 ya da işaretsiz madde = PAYLAŞILMAZ. Sonuç günlük §4 ⑧'e.
+2f. ⛔ KLİP KANITI [DERS 86 · 85]  ihraçtan ÖNCE:
+      python3 araclar/klip_eslestir.py yayin.mp4 S0.mp4 … SN.mp4 --hiz 2
+      Her üretilen klip yayında (⛔ yok · ⚠️ kırpılmış), sıra doğru, son klipten sonra kuyruk (kart) yok.
+      Arızalı klip kurgudan DÜŞÜRÜLMEZ, yeniden üretilir — atlanan halkada iş tek kesmede belirir.
 2d. ⛔ YEDİ ÖLÇÜM  KURGU_VE_TESLIM_KILAVUZU §6 — biçim · süre · kesme · LUFS ·
       açılış penceresi · flicker · final kare + kapak. Yedisinin çıktısı
       üretim günlüğü §4'e YAZILIR; yazılmamışsa yayın yok.
 3. 120 PX TESTİ hem kapağa hem S0'ın 0. karesine (sips -Z 120)
+3b. ⛔ KAPAK PROVASI (dikey)  python3 araclar/kapak_prova.py kapak.png — 3:4 · 4:5 · 1:1 merkez kırpma +
+      140 px; üç soru ✓ + gerçek platform önizlemesi [DIKEY_TIMELAPSE_KAPAK_KILAVUZU §9 · §11 · DERS 94]
 4. İHRAÇ        1440p+ · BT.709 · 48 kHz · −14 LUFS · −1,0 dBTP
 5. PAKETLEME    başlık/açıklama/hashtag/sabit yorum + ⛔ GERÇEKLİK BEYANI
                 → doldurulmuş kanal şablonu: apexait/youtube/PAKETLEME_SABLONU.md
@@ -499,7 +509,9 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
                  altta · ⛔ düzenleme, kısaltma, özetleme YOK [QA/HAM/00_README]
 2. GERİ OKUMA    ilk üç satır: dosya adı · belgeler · görülen klip [QA_KOSU §2.2]
                  dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş (geçici sohbet)
-3. DOĞRULAMA     D1–D5 [QA_OLCUM_ZEMINI §5] · kör raporda sızıntı taraması [QA_KOSU §3]
+3. DOĞRULAMA     D1–D6 [QA_OLCUM_ZEMINI §5] · kör raporda sızıntı taraması [QA_KOSU §3]
+                 ⭐ D6 [DERS 90]: puanı kayda geçirmeden önce yayının 1 sn'lik kare panosu + klip_eslestir —
+                 raporun kurgu tablosu dosyaya karşı doğrulanır · plan SAYISI (kadraj yüzdesi) kör raporda = SIZINTI
                  · mod D ilk satırı RUN INCOMPLETE → durum EKSİK, puan YOK
 4. DURUM         TAM · EKSİK · YANLIŞ GİRDİ · SIZINTI · TUTARSIZ [QA_KAYIT §1.2] — künyeye
 5. PUAN          mercek puanı = tetiklenen kategorilerin ortalaması — AJAN hesaplar

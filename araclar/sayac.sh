@@ -16,7 +16,7 @@ echo
 echo "🏗️  FİLMLER"
 # ⭐ 14.09.2026: beş format klasörü — dikey_shorts (plan = _DIKEY_TIMELAPSE.md) +
 #    yatay merdiven 2/4/6/8 dk (plan = _PLAN.md, KILAVUZ_REHBERI §2.8). Köke .md bırakılmaz.
-FORMATLAR="dikey_shorts yatay_2_dk_filmler yatay_4_dk_filmler yatay_6_dk_filmler yatay_8_dk_filmler"
+FORMATLAR="dikey_shorts yatay_2_dk_filmler yatay_4_dk_filmler yatay_6_dk_filmler yatay_8_dk_filmler yatay_12_dk_filmler"
 TOPLAM=0; PLANLI=0; SPECLI=0; GUNLUKLU=0; DIKEY=0; YATAY=0
 for fmt in $FORMATLAR; do
   for d in "$fmt"/*/; do

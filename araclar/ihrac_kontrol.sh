@@ -8,7 +8,8 @@
 #  "AI TIMELAPSE" metni (BACK TO PLUMB kartı) ve müzik (BACK TO PLUMB, dikey)
 #  vardı. Plan beyanı ile dışa aktarma arasında HİÇBİR adım yoktu.
 #  Ayrıca dikey shorts 7 × 8,0 = 56 sn üretilir ve 2x hızda paylaşılır
-#  (sahip kuralı 05.10.2026): 28 sn'lik sahne bloğu KESİK DEĞİLDİR. Bu betik
+#  (sahip kuralı 05.10.2026): 28 sn'lik sahne bloğu KESİK DEĞİLDİR. Sahip istisnası
+#  (THE POOL ROOM 8 × 8 = 64 sn) planın SAHNE BLOĞU satırından okunur. Bu betik
 #  hızı beyan eder; QA paketi aynı beyanı merceklere taşır (qa_paket --hiz).
 #
 #  KULLANIM
@@ -143,7 +144,7 @@ if e.get("GERI") == "1":
     print("  ☐ ⑧ S0 GERİ ÇEKİLME: yakın kadrajda başlıyor, ilk ≤ 3,0 sn (1x) içinde HOME'a oturuyor ve S1'e"
           " GENİŞ planda giriliyor; ayrıntı bulanık değil [KAMERA_HAREKETI §4.2]")
 print("  ☐ ⑦ kurgu planın klip ızgarasında: "
-      + (f"7 klip × {8/hiz:g} sn (dikey)" if dikey else "SÜRE sütunu")
+      + (f"{round(blok / 8)} klip × {8/hiz:g} sn (dikey)" if dikey else "SÜRE sütunu")
       + f" → bash araclar/kesme_kontrol.sh {os.path.basename(mp4)} <plan> --hiz {hiz:g}")
 print(f"\n  ⭐ QA'YA: bu dosya {hiz:g}x paylaşım kopyasıdır — zaman damgası × {hiz:g} = plan saniyesi;"
       f" {pblok:g} sn'lik sahne bloğu KESİK DEĞİLDİR → bash araclar/qa_paket.sh --hiz {hiz:g} …")

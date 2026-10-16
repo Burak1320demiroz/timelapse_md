@@ -170,6 +170,10 @@ GN usta karesi → aynı kadraj, aynı bina, aynı çapalar → üstüne başlı
 
 ## 2.3 BAŞLIK METNİ — sayılarla
 
+> ⭐ **DİKEY (16.10.2026):** yerleşim, başlık boyu ve kırpma provası `DIKEY_TIMELAPSE_KAPAK_KILAVUZU.md`
+> §3 · §5 · §9'dan okunur (çekirdek x 150–930 · y 540–1380 · başlık kutusu x 180–900 · y 560–770 · iki
+> satırda ~92–104 px). Aşağıdaki KONUM ve YÜKSEKLİK satırları dikeyde onun yerine geçmez; yatayda geçerli.
+
 ```
 DİL          İngilizce
 UZUNLUK      en fazla 3 kelime  (kart 5 saniye görünür, okunacak zaman kısa)

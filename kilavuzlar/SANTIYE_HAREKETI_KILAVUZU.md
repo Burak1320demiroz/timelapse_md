@@ -338,6 +338,9 @@ KAPI (FIX — pilot ölçülene kadar; sahip kararı 19.09.2026 kalıbı):
    · ACTIVITY'de el < 3 (farklı makine + ekip kelimesi ×2) → FIX
    · I2V'de kaynak → taşıyan akışı yok (pile · stack · truck · crate · pallet … + taşıma fiili) → FIX
 KALDIRDIĞI  "az sayıda görevli" ölçüsü (C1-d) — artık ana işe hizmet eden ekip istenir.
+⚠️ DERS 89 (POOL ROOM S5): el sayısı KADRO SAYISINI aşamaz. İki kişilik parça × birden çok parça yazılırsa
+   model ikinci ekibi çağırır (2 → 4 işçi). Eli alet, araba, vantuz artırır; işçi sayısı planla sabittir:
+   "Only two workers are in the hall for the whole shot; they carry one piece at a time between them."
 ```
 
 ## ⭐ 4.7 FİNAL SAHNESİ İSTİSNASI — ödül yapının çalışmasıdır  [C1-d]

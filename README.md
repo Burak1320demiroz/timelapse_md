@@ -15,7 +15,7 @@
 
 ---
 
-> 📸 **Snapshot / Anlık görüntü — 12.10.2026.** Every number in this README comes from `bash araclar/sayac.sh` on that date.
+> 📸 **Snapshot / Anlık görüntü — 16.10.2026.** Every number in this README comes from `bash araclar/sayac.sh` on that date.
 > The repo's own rule is *"a number lives in one place"* — for live numbers, run the counter.
 > Bu README'deki her sayı o tarihte `bash araclar/sayac.sh` çıktısından alındı. Depo kuralı *"sayı tek yerde durur"*:
 > güncel sayı için sayacı çalıştırın.
@@ -47,18 +47,18 @@ a scene and a second where something broke. Unmeasured ideas are kept apart as *
 
 | | count | source |
 |---|---:|---|
-| 🎬 Film folders | **52** (40 vertical · 12 horizontal) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
-| 📄 Films with plan + QA spec | 52 / 52 | `sayac.sh` |
-| 📓 Films with a production log | 22 / 52 | `sayac.sh` (QA cannot open without one) |
-| ⛓️ Plans on the two-keyframe chain | 46 / 52 | `KILAVUZ_REHBERI §2.7` |
-| 📚 Measured lessons | **64** | `kilavuzlar/DERSLER.md` |
-| 🧪 Coded assumptions & plan readings | 412 (⬜ open 372 · ✅ measured 33 · ❌ dropped 7) | `VARSAYIMLAR.md` · `PLAN_OKUMALARI.md` |
-| 🔬 Research prompts / processed raw reports | 27 / 41 | `arastirma/` |
-| 📘 Guide files | 32 (≈14,700 lines) | `kilavuzlar/` |
-| 🔍 QA lenses (current system) | 5 | `QA/Q1…Q5` |
+| 🎬 Film folders | **54** (41 vertical · 13 horizontal) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
+| 📄 Films with plan / QA spec | 54 / 54 · 53 / 54 | `sayac.sh` (THE SKY STATION spec not written yet) |
+| 📓 Films with a production log | 23 / 54 | `sayac.sh` (QA cannot open without one) |
+| ⛓️ Plans on the two-keyframe chain | 48 / 54 | `KILAVUZ_REHBERI §2.7` |
+| 📚 Measured lessons | **94** | `kilavuzlar/DERSLER.md` |
+| 🧪 Coded assumptions & plan readings | 444 (⬜ open 404 · ✅ measured 33 · ❌ dropped 7) | `VARSAYIMLAR.md` · `PLAN_OKUMALARI.md` |
+| 🔬 Research prompts / processed raw reports | 35 / 49 | `arastirma/` |
+| 📘 Guide files | 36 (≈17,400 lines) | `kilavuzlar/` |
+| 🔍 QA lenses (current system) | 5 · 2 films measured (10 raw reports) | `QA/Q1…Q5` · `QA/TABLO.md` |
 | 🗄️ Archived QA raw reports (12-lens system) | **393** raw reports · 37 films · 31 film reports | `QA/ARSIV_12_MERCEK/` |
-| 🛠️ Tools | 9 scripts (≈2,200 lines) | `araclar/` |
-| 📝 Markdown in the repo | ≈930 files · ≈156,000 lines | — |
+| 🛠️ Tools | 11 scripts (≈2,400 lines) | `araclar/` |
+| 📝 Markdown in the repo | ≈980 files · ≈171,000 lines | — |
 
 ## 3. The core idea — the two-keyframe chain
 
@@ -91,13 +91,16 @@ Why: in the measured archive, continuity failed in five films out of five, and e
 
 | line | folder | grid | runtime | prompts |
 |---|---|---|---|---|
-| 📱 Vertical 9:16 | `dikey_shorts/` | **exactly 7 scenes × 8.0 s** | 56.0 s, shared at 2× (≈28 s) | 8 images + 7 I2V = 15 |
+| 📱 Vertical 9:16 | `dikey_shorts/` | **exactly 7 scenes × 8.0 s** (owner exception: THE POOL ROOM 8) | 56.0 s, shared at 2× (≈28 s) **+ closing cover card** | 8 images + 7 I2V = 15 |
 | 🖥️ Horizontal 2 min | `yatay_2_dk_filmler/` | band 12 × 10.0 s · owner-approved 15 / 18 / 20 × 8.0 s | 2:00 – 2:40 | 2N+1 |
 | 🖥️ Horizontal 4 min | `yatay_4_dk_filmler/` | band 24 × 10.0 s · owner-approved 30 × 8.0 s | 4:00 | 2N+1 |
 | 🖥️ Horizontal 6 min | `yatay_6_dk_filmler/` | 36 × 10.0 s (two QA halves) | 6:00 | 73 |
 | 🖥️ Horizontal 8 min | `yatay_8_dk_filmler/` | 48 × 10.0 s (two QA halves) | 8:00 | 97 |
+| 🖥️ Horizontal 12 min | `yatay_12_dk_filmler/` | 90 × 8.0 s (three parts, QA per part) | 12:00 | 181 |
 
-The 6- and 8-minute ladders are open but have no films yet. Horizontal films are 1920×1080 at 30 fps and are split into
+The 6- and 8-minute ladders are open but have no films yet; the 12-minute ladder holds THE SKY STATION. Since 16.10.2026
+every film ends with its cover as a closing title card (owner rule), declared in the plan and laid out with
+`DIKEY_TIMELAPSE_KAPAK_KILAVUZU` for vertical films. Horizontal films are 1920×1080 at 30 fps and are split into
 two part files with the part boundary on a shared frame, never on a cut.
 
 The camera is not chosen by eye: position, lens, tilt and the pixel position of every anchor are calculated in the plan
@@ -133,10 +136,10 @@ timelapse_md/
 ├── CLAUDE.md                 pointer to AGENTS.md + "only the owner commits"
 ├── LICENSE · .gitignore       MIT · local junk, Python cache and video files stay out
 ├── images/                   README images (prompts at the end of this file)
-├── kilavuzlar/               ⭐ THE BRAIN — 32 guides
+├── kilavuzlar/               ⭐ THE BRAIN — 36 guides
 │   ├── KILAVUZ_REHBERI.md    ⭐ start here: decision tree · format card · invariants · stage ladder
 │   │                            · sun clock · concept gate · negative core · production flow
-│   ├── DERSLER.md            64 measured lessons (film · scene · second · what broke)
+│   ├── DERSLER.md            94 measured lessons (film · scene · second · what broke)
 │   ├── VARSAYIMLAR.md        unmeasured assumptions with status (open / measured / dropped)
 │   ├── PLAN_OKUMALARI.md     expert readings and plan decisions with status
 │   ├── PROMPT_SABLONU.md     image + two-ended I2V skeleton
@@ -147,17 +150,19 @@ timelapse_md/
 │   ├── UZUN_FORM_ANLATI      long-form story: curiosity chain for 2–8 minute films
 │   ├── QA_*.md · RUBRIK_YAZIM QA runs, measured facts, rubric writing, calibration, records
 │   ├── MUZIK_VE_KAPAK · KURGU_VE_TESLIM · ONARIM_VE_YENIDEN_URETIM
+│   ├── DIKEY_TIMELAPSE_KAPAK vertical cover: 780×840 core · title box · 3:4/4:5/1:1 crop proofs
 │   └── FILM_KLASOR_SABLONU/  copyable skeleton of a horizontal film folder
-├── dikey_shorts/             📱 40 vertical films (one folder each)
+├── dikey_shorts/             📱 41 vertical films (one folder each)
 ├── yatay_2_dk_filmler/       🖥️ 10 horizontal 2-minute films
 ├── yatay_4_dk_filmler/       🖥️ 2 horizontal 4-minute films
 ├── yatay_6_dk_filmler/       🖥️ open, empty
 ├── yatay_8_dk_filmler/       🖥️ open, empty
-├── QA/                       🔍 five lenses · TABLO.md (the only QA counter) · HAM/ (raw, untouchable)
+├── yatay_12_dk_filmler/      🖥️ 1 horizontal 12-minute film (three parts)
+├── QA/                       🔍 five lenses · TABLO.md (the only QA counter) · HAM/ (raw, untouchable) · FILMLER/
 │   └── ARSIV_12_MERCEK/      🗄️ frozen 12-lens archive: 393 raw reports, audit map, cross-analysis
-├── arastirma/                🔬 27 self-contained research prompts + SONUCLAR/ (raw reports and audits)
+├── arastirma/                🔬 35 self-contained research prompts + SONUCLAR/ (raw reports and audits)
 ├── apexait/                  📺 channel layer: identity, release plan, cross-posting, platform templates
-└── araclar/                  🛠️ gates and counters (Bash + Python, stdlib only)
+└── araclar/                  🛠️ gates and counters (Bash + Python)
 ```
 
 ## 7. Anatomy of a horizontal film folder
@@ -197,9 +202,11 @@ and a production log.
 | `kesme_kontrol.sh` | before release | top-N cut detection: does the edit follow the plan's duration column? |
 | `ihrac_kontrol.sh` | before sharing | runtime / speed, end card, final hold (SSIM), music and text checklist |
 | `qa_paket.sh` | QA | builds five lens packages with measured facts inside the rubric; stops if there is no production log |
+| `klip_eslestir.py` | before export | finds every produced clip inside the published file (full · trimmed · missing), checks order and the tail after the last clip against the declared cover card |
+| `kapak_prova.py` | before release | vertical cover proofs: canvas check, centred 3:4 / 4:5 / 1:1 crops, 140 px thumbnails, safe-area overlay, one proof board |
 | `capraz_sayim.py` | archive | recomputes the cross-analysis score matrix |
 
-Requirements: `bash`, `python3` (standard library only), `ffmpeg` / `ffprobe` for the video tools. Developed on macOS.
+Requirements: `bash`, `python3` (standard library; `klip_eslestir.py` needs numpy, `kapak_prova.py` needs Pillow), `ffmpeg` / `ffprobe` for the video tools. Developed on macOS.
 
 <table>
 <tr>
@@ -223,6 +230,10 @@ Requirements: `bash`, `python3` (standard library only), `ffmpeg` / `ffprobe` fo
 - Raw reports are stored untouched in `QA/HAM/`; every number in `QA/TABLO.md` links to a raw file.
 - The previous 12-lens system was audited and frozen on 06.10.2026: of 393 raw reports, 189 were complete, and half of
   the runs that needed documents were run without them. That audit is why the system was rebuilt.
+- First vertical film on the five lenses — THE POOL ROOM (16.10.2026): the lenses gave up to 10/10, three of five missed
+  the closing card and two quoted the spec's pixel numbers (leak). Agent measurement (ffprobe, clip matching, frame
+  boards) found the dropped clip, the off-plan end frame and the front-loaded clips. Since then the agent checks every
+  raw report against a 1-second frame board before it is recorded (check D6, lesson 90).
 
 <img src="images/qa_lenses.jpg" alt="Five QA lenses, each with its own machine-measured overlay" width="100%">
 
@@ -256,9 +267,13 @@ Writing a new film? Read in this order: `AGENTS.md` (card A or Y2) → `kilavuzl
 
 ## 12. Honest status
 
-- **No plan passes the current gate with GO.** 8 horizontal plans are at FIX (declared warnings); 44 are BLOCK, most of
-  them vertical films written before the gate was tightened on 05.10.2026 and kept as archive.
-- **The new five-lens QA has measured 0 films so far.** All measured results are in the frozen 12-lens archive.
+- **No plan passes the current gate with GO.** 9 plans are at FIX (8 horizontal + THE POOL ROOM, declared warnings); 44
+  are BLOCK, most of them vertical films written before the gate was tightened on 05.10.2026 and kept as archive.
+  THE SKY STATION (12 min) has its plan only; part files and spec are not written yet.
+- **The five-lens QA has measured 2 films** (THE SKY STATION part 1, THE POOL ROOM). Neither score is trustworthy on its
+  own: POOL ROOM's only complete run gave 10/10 while the machine found three plan mismatches.
+- **The model front-loads the work.** In 6 of 7 POOL ROOM clips the main change finished in the first 2–4 s of 8; the
+  per-second schedules in the prompts did not hold, the late deliveries did (lesson 92).
 - **The gate checks text, not meaning.** In a measured run, 15 plans passed the gate and most still failed the build lens.
 - **The reverse chain is the least tested step.** It has the highest leverage and the fewest runs with a production log.
 - Most assumptions are still open. They become lessons after production, or they are dropped.
@@ -315,18 +330,18 @@ kırıldığı saniyeye işaret eder. Ölçülmemiş fikirler ayrı tutulur: *va
 
 | | sayı | kaynak |
 |---|---:|---|
-| 🎬 Film klasörü | **52** (40 dikey · 12 yatay) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
-| 📄 Planı ve QA SPEC'i olan | 52 / 52 | `sayac.sh` |
-| 📓 Üretim günlüğü olan | 22 / 52 | `sayac.sh` (günlüksüz filme QA açılmaz) |
-| ⛓️ İki keyframe zincirindeki plan | 46 / 52 | `KILAVUZ_REHBERI §2.7` |
-| 📚 Ölçülmüş ders | **64** | `kilavuzlar/DERSLER.md` |
-| 🧪 Kodlu varsayım ve plan okuması | 412 (⬜ açık 372 · ✅ ölçüldü 33 · ❌ düştü 7) | `VARSAYIMLAR.md` · `PLAN_OKUMALARI.md` |
-| 🔬 Araştırma promptu / işlenmiş ham rapor | 27 / 41 | `arastirma/` |
-| 📘 Kılavuz dosyası | 32 (≈14.700 satır) | `kilavuzlar/` |
-| 🔍 QA merceği (güncel sistem) | 5 | `QA/Q1…Q5` |
+| 🎬 Film klasörü | **54** (41 dikey · 13 yatay) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
+| 📄 Planı / QA SPEC'i olan | 54 / 54 · 53 / 54 | `sayac.sh` (THE SKY STATION SPEC'i henüz yazılmadı) |
+| 📓 Üretim günlüğü olan | 23 / 54 | `sayac.sh` (günlüksüz filme QA açılmaz) |
+| ⛓️ İki keyframe zincirindeki plan | 48 / 54 | `KILAVUZ_REHBERI §2.7` |
+| 📚 Ölçülmüş ders | **94** | `kilavuzlar/DERSLER.md` |
+| 🧪 Kodlu varsayım ve plan okuması | 444 (⬜ açık 404 · ✅ ölçüldü 33 · ❌ düştü 7) | `VARSAYIMLAR.md` · `PLAN_OKUMALARI.md` |
+| 🔬 Araştırma promptu / işlenmiş ham rapor | 35 / 49 | `arastirma/` |
+| 📘 Kılavuz dosyası | 36 (≈17.400 satır) | `kilavuzlar/` |
+| 🔍 QA merceği (güncel sistem) | 5 · 2 film ölçüldü (10 ham rapor) | `QA/Q1…Q5` · `QA/TABLO.md` |
 | 🗄️ Arşivlenmiş QA ham raporu (12 mercek) | **393** ham rapor · 37 film · 31 film kaydı | `QA/ARSIV_12_MERCEK/` |
-| 🛠️ Araç | 9 betik (≈2.200 satır) | `araclar/` |
-| 📝 Depodaki Markdown | ≈930 dosya · ≈156.000 satır | — |
+| 🛠️ Araç | 11 betik (≈2.400 satır) | `araclar/` |
+| 📝 Depodaki Markdown | ≈980 dosya · ≈171.000 satır | — |
 
 ## 3. Ana fikir: iki keyframe zinciri
 
@@ -357,13 +372,16 @@ Neden: ölçülmüş arşivde devamlılık beş filmin beşinde de düştü ve h
 
 | hat | klasör | ızgara | süre | prompt |
 |---|---|---|---|---|
-| 📱 Dikey 9:16 | `dikey_shorts/` | **kesin 7 sahne × 8,0 sn** | 56,0 sn, 2x paylaşılır (≈28 sn) | 8 görsel + 7 I2V = 15 |
+| 📱 Dikey 9:16 | `dikey_shorts/` | **kesin 7 sahne × 8,0 sn** (sahip istisnası: THE POOL ROOM 8) | 56,0 sn, 2x paylaşılır (≈28 sn) **+ sonda kapak kartı** | 8 görsel + 7 I2V = 15 |
 | 🖥️ Yatay 2 dk | `yatay_2_dk_filmler/` | bant 12 × 10,0 sn · sahip izniyle 15 / 18 / 20 × 8,0 sn | 2:00 – 2:40 | 2N+1 |
 | 🖥️ Yatay 4 dk | `yatay_4_dk_filmler/` | bant 24 × 10,0 sn · sahip izniyle 30 × 8,0 sn | 4:00 | 2N+1 |
 | 🖥️ Yatay 6 dk | `yatay_6_dk_filmler/` | 36 × 10,0 sn (QA iki yarıda) | 6:00 | 73 |
 | 🖥️ Yatay 8 dk | `yatay_8_dk_filmler/` | 48 × 10,0 sn (QA iki yarıda) | 8:00 | 97 |
+| 🖥️ Yatay 12 dk | `yatay_12_dk_filmler/` | 90 × 8,0 sn (üç bölüm, QA bölüm başına) | 12:00 | 181 |
 
-6 ve 8 dakikalık klasörler açık ama henüz filmleri yok. Yatay filmler 1920×1080 · 30 fps'dir ve iki bölüm dosyasına
+6 ve 8 dakikalık klasörler açık ama henüz filmleri yok; 12 dakikalık basamakta THE SKY STATION var. 16.10.2026'dan beri
+her film kapağıyla, sonda başlıklı kart olarak biter (sahip kuralı); kart planda beyan edilir, dikeyde yerleşim
+`DIKEY_TIMELAPSE_KAPAK_KILAVUZU`'ndan okunur. Yatay filmler 1920×1080 · 30 fps'dir ve iki bölüm dosyasına
 ayrılır; bölüm sınırı bir kesme değil, ortak bir karedir.
 
 Kamera gözle seçilmez: konum, lens, tilt ve her çapanın piksel konumu planda hesaplanır
@@ -399,10 +417,10 @@ timelapse_md/
 ├── CLAUDE.md                 AGENTS.md'ye işaret + "commit'i yalnız sahip atar"
 ├── LICENSE · .gitignore       MIT · yerel çöp, Python önbelleği ve video dosyaları dışarıda
 ├── images/                   README görselleri (promptlar bu dosyanın sonunda)
-├── kilavuzlar/               ⭐ SİSTEMİN BEYNİ: 32 kılavuz
+├── kilavuzlar/               ⭐ SİSTEMİN BEYNİ: 36 kılavuz
 │   ├── KILAVUZ_REHBERI.md    ⭐ buradan başla: karar ağacı · format kartı · değişmezler · aşama merdiveni
 │   │                            · güneş saati · konsept kapısı · negatif çekirdek · üretim akışı
-│   ├── DERSLER.md            64 ölçülmüş ders (film · sahne · saniye · ne kırıldı)
+│   ├── DERSLER.md            94 ölçülmüş ders (film · sahne · saniye · ne kırıldı)
 │   ├── VARSAYIMLAR.md        ölçülmemiş varsayımlar, durum sütunuyla (açık / ölçüldü / düştü)
 │   ├── PLAN_OKUMALARI.md     uzman okumaları ve plan kararları, durum sütunuyla
 │   ├── PROMPT_SABLONU.md     görsel + iki uçlu I2V iskeleti
@@ -413,17 +431,19 @@ timelapse_md/
 │   ├── UZUN_FORM_ANLATI      uzun form anlatı: 2–8 dk filmler için merak zinciri
 │   ├── QA_*.md · RUBRIK_YAZIM QA koşusu, ölçülmüş olgular, rubrik yazımı, kalibrasyon, kayıt
 │   ├── MUZIK_VE_KAPAK · KURGU_VE_TESLIM · ONARIM_VE_YENIDEN_URETIM
+│   ├── DIKEY_TIMELAPSE_KAPAK dikey kapak: 780×840 çekirdek · başlık kutusu · 3:4/4:5/1:1 kırpma provası
 │   └── FILM_KLASOR_SABLONU/  yatay film klasörünün kopyalanabilir iskeleti
-├── dikey_shorts/             📱 40 dikey film (her biri bir klasör)
+├── dikey_shorts/             📱 41 dikey film (her biri bir klasör)
 ├── yatay_2_dk_filmler/       🖥️ 10 yatay 2 dakikalık film
 ├── yatay_4_dk_filmler/       🖥️ 2 yatay 4 dakikalık film
 ├── yatay_6_dk_filmler/       🖥️ açık, boş
 ├── yatay_8_dk_filmler/       🖥️ açık, boş
-├── QA/                       🔍 beş mercek · TABLO.md (QA'nın tek sayacı) · HAM/ (ham, dokunulmaz)
+├── yatay_12_dk_filmler/      🖥️ 1 yatay 12 dakikalık film (üç bölüm)
+├── QA/                       🔍 beş mercek · TABLO.md (QA'nın tek sayacı) · HAM/ (ham, dokunulmaz) · FILMLER/
 │   └── ARSIV_12_MERCEK/      🗄️ dondurulmuş 12 mercekli arşiv: 393 ham rapor, eşleme tablosu, çapraz analiz
-├── arastirma/                🔬 kendi kendine yeten 27 araştırma promptu + SONUCLAR/ (ham raporlar ve denetimler)
+├── arastirma/                🔬 kendi kendine yeten 35 araştırma promptu + SONUCLAR/ (ham raporlar ve denetimler)
 ├── apexait/                  📺 kanal katmanı: kimlik, yayın planı, çapraz yayın, platform şablonları
-└── araclar/                  🛠️ kapılar ve sayaçlar (Bash + Python, yalnız standart kütüphane)
+└── araclar/                  🛠️ kapılar ve sayaçlar (Bash + Python)
 ```
 
 ## 7. Bir yatay film klasörünün anatomisi
@@ -463,9 +483,11 @@ Dikey film daha hafiftir: `<FILM>_DIKEY_TIMELAPSE.md` (plan + promptlar + müzik
 | `kesme_kontrol.sh` | yayından önce | top-N kesme tespiti: kurgu planın süre sütununa uydu mu? |
 | `ihrac_kontrol.sh` | paylaşımdan önce | süre / hız, son kart, final tutuşu (SSIM), müzik ve yazı listesi |
 | `qa_paket.sh` | QA | beş mercek paketini, ölçülmüş olgular rubriğin içinde olacak şekilde kurar; üretim günlüğü yoksa durur |
+| `klip_eslestir.py` | ihraçtan önce | üretilen her klibi yayın dosyasında bulur (tam · kırpılmış · yok), sırayı ve son klipten sonraki kuyruğu beyan edilen kapak kartına karşı denetler |
+| `kapak_prova.py` | yayından önce | dikey kapak provası: tuval kontrolü, merkezden 3:4 / 4:5 / 1:1 kırpma, 140 px küçükler, güvenli alan bindirmesi, tek prova panosu |
 | `capraz_sayim.py` | arşiv | çapraz analiz skor matrisini yeniden hesaplar |
 
-Gereksinimler: `bash`, `python3` (yalnız standart kütüphane), video araçları için `ffmpeg` / `ffprobe`. macOS'ta geliştirildi.
+Gereksinimler: `bash`, `python3` (standart kütüphane; `klip_eslestir.py` numpy, `kapak_prova.py` Pillow ister), video araçları için `ffmpeg` / `ffprobe`. macOS'ta geliştirildi.
 
 <table>
 <tr>
@@ -489,6 +511,10 @@ Gereksinimler: `bash`, `python3` (yalnız standart kütüphane), video araçlar�
 - Ham raporlar `QA/HAM/` altında dokunulmadan saklanır; `QA/TABLO.md`'deki her sayı bir ham dosyaya bağlıdır.
 - Önceki 12 mercekli sistem 06.10.2026'da denetlenip donduruldu: 393 ham raporun 189'u tamdı; belge isteyen koşuların
   yarısı belgesiz yapılmıştı. Sistem bu denetim yüzünden yeniden kuruldu.
+- Beş mercekte ilk dikey film — THE POOL ROOM (16.10.2026): mercekler 10/10'a kadar verdi, beşin üçü sondaki kartı
+  görmedi, ikisi SPEC'in piksel sayılarını alıntıladı (sızıntı). Ajan ölçümü (ffprobe, klip eşleştirme, kare panosu)
+  düşen klibi, plan dışı bitiş karesini ve işin klip başına yığıldığını buldu. O günden beri ajan her ham raporu kayda
+  geçirmeden önce 1 saniyelik kare panosuna karşı denetler (D6 kontrolü, ders 90).
 
 <img src="images/qa_lenses.jpg" alt="Beş QA merceği, her biri kendi makine ölçümüyle" width="100%">
 
@@ -521,9 +547,13 @@ klasörünün `README.md`'si. Hikâye sahne sahne önerilir ve **hiçbir dosya y
 
 ## 12. Dürüst durum
 
-- **Hiçbir plan güncel kapıdan GO almıyor.** 8 yatay plan FIX'te (beyanlı uyarılar); 44 plan BLOCK. Bunların çoğu kapı
-  05.10.2026'da sıkılaşmadan önce yazılmış ve arşiv olarak tutulan dikey filmler.
-- **Yeni beş mercekli QA henüz 0 film ölçtü.** Ölçülmüş bütün sonuçlar dondurulmuş 12 mercekli arşivde.
+- **Hiçbir plan güncel kapıdan GO almıyor.** 9 plan FIX'te (8 yatay + THE POOL ROOM, beyanlı uyarılar); 44 plan BLOCK.
+  Bunların çoğu kapı 05.10.2026'da sıkılaşmadan önce yazılmış ve arşiv olarak tutulan dikey filmler. THE SKY STATION
+  (12 dk) yalnız planıyla duruyor; bölüm dosyaları ve SPEC henüz yazılmadı.
+- **Beş mercekli QA 2 film ölçtü** (THE SKY STATION bölüm 1, THE POOL ROOM). İki puan da tek başına güvenilir değil:
+  POOL ROOM'un tek tam koşusu 10/10 verirken makine üç plan uyuşmazlığı buldu.
+- **Model işi klibin başına yığıyor.** POOL ROOM'un 7 klibinin 6'sında ana değişim 8 sn'nin ilk 2–4 sn'sinde bitti;
+  promptlardaki saniye takvimi tutmadı, klip sonundaki teslimatlar tuttu (ders 92).
 - **Kapı metni denetler, anlamı denetlemez.** Ölçülmüş bir koşuda 15 plan kapıdan geçti ve çoğu yine de inşa merceğinde düştü.
 - **Ters zincir en az sınanmış adım.** Kaldıracı en yüksek olan ve üretim günlüğüyle en az koşulan adım bu.
 - Varsayımların çoğu hâlâ açık. Üretimden sonra ya derse dönüşürler ya düşerler.
@@ -562,7 +592,7 @@ Kardeş depo: `film_md` (uzay/bilimkurgu dikey shorts). Bu depo onun iskeletini 
 All structures and places are fictional. **Archive QA** = the film has raw reports in the frozen 12-lens archive.
 Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 mercekli arşivde ham raporları var.
 
-### 🖥️ Horizontal / Yatay (12)
+### 🖥️ Horizontal / Yatay (13)
 
 | film | folder | grid / ızgara | structure | yapı | archive QA |
 |---|---|---|---|---|:-:|
@@ -578,8 +608,9 @@ Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 
 | THE SUNKEN STAGE | 2 dk | 20 × 8,0 = 160 s | flooded open-air theatre in a forest pit | orman çukurunda su basmış açık hava tiyatrosu | — |
 | THE BORROWED HILL | 4 dk | 24 × 10,0 = 240 s | buried steel shelter on Mars | Mars'ta gömülü çelik kemer sığınak | — |
 | THE SLOW TAKEOFF | 4 dk | 30 × 8,0 = 240 s | retired jet lifted onto steel frames as a lake house | çelik çerçevelere oturtulan emekli jet, göl evi | — |
+| THE SKY STATION | 12 dk | 90 × 8,0 = 720 s | ruined cliff cable-car station restored and running | harabe uçurum teleferik istasyonu onarılıp çalışır | — |
 
-### 📱 Vertical / Dikey (40)
+### 📱 Vertical / Dikey (41)
 
 | film | grid / ızgara | structure | yapı | archive QA |
 |---|---|---|---|:-:|
@@ -615,6 +646,7 @@ Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 
 | THE MOUNTAIN DOOR | 5 × 6,0 | mountain tunnel portal (old format) | dağ tünel portalı (eski format) | ✅ |
 | THE NARROW GORGE | 7 × 8,0 | concrete arch dam in a narrow gorge | dar boğazda beton kemer baraj | — |
 | THE NARROW LOT | 5 × 6,0 | building on a narrow city lot (old format) | dar parselde yapı (eski format) | ✅ |
+| THE POOL ROOM | 8 × 8,0 | derelict indoor pool → sunken living room, old pool lamps lit again | terk edilmiş kapalı havuz → çanakta gömme salon, eski havuz lambaları yeniden yanar | — |
 | THE QUIET FIELD | 7 × 8,0 | radio telescope built from scratch | sıfırdan radyo teleskobu | ✅ |
 | THE SEA MILL | 6 × 8,0 | smock mill standing alone at sea | denizde tek başına duran ahşap değirmen | — |
 | THE STAR DOCK | 7 × 8,0 | docking cradle on an airless moon | havasız ayda yanaşma beşiği | ✅ |

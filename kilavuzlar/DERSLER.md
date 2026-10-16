@@ -93,6 +93,16 @@
 | 82 | ⭐ Uzun form ara bölüm kapanışı (Mid-Section Pause) — ara master askıda şantiyeyle duramaz | THE SKY STATION · Q5 Clip 35 (4:39.0) | ✅ ölçüldü |
 | 83 | ⭐ Klip içi müzik sızıntısı ve kopuk parçacıklar — promptlara enstrüman yazılmaz | THE SKY STATION · Q5 Clip 3/13/27/32 | ✅ ölçüldü |
 | 84 | ⭐ Son klipte sahte kabin türemesi ve havada erimesi — halatsız istasyonda kabin yasağı | THE SKY STATION · Q5 Clip 35 (4:32–4:37) | ✅ ölçüldü |
+| 85 | ⭐ Kapak sona kart olarak eklendi (sahip kararı) ama planda beyan yok, kart başka dünyadan, finalin kusurunu örttü | THE POOL ROOM · yayın 25,1–32,0 | ✅ ölçüldü |
+| 86 | ⭐ Arızalı klip kurgudan düşürüldü, zincirde iş belirdi → klip_eslestir.py | THE POOL ROOM · S4 · 14,97→15,00 | ✅ ölçüldü |
+| 87 | ⭐ "Çerçeve + dolgu" iki nesne oldu, ızgara tek desen olarak yayıldı | THE POOL ROOM · S2 · kaynak 2,0–3,5 | ✅ ölçüldü (1 klip) |
+| 88 | Cam panel: kanaldan geniş tek levha + tavandan sarkan kaldırıcı | THE POOL ROOM · S4 kaynak 1–5 sn | ✅ ölçüldü (1 klip) |
+| 89 | İki kişilik yük × çok parça: kadro ikiye katlandı, araba çukura indi | THE POOL ROOM · S5 · 15,0–16,5 | ✅ ölçüldü (1 klip) |
+| 90 | ⭐ Ölçülmüş olgular olmadan koşulan mercekler kartı kaçırdı, 10/10 verdi · kör merceklerde SIZINTI | THE POOL ROOM QA · ❶–❺ | ✅ ölçüldü |
+| 91 | ⭐ Usta kare plana uymadı (gece → gündüz); son klip farkı son 2 sn'ye yığdı | THE POOL ROOM · G8 · S7 6–8 sn | ✅ ölçüldü |
+| 92 | ⭐ Ana dönüşüm klibin ilk yarısında biter; saniye takvimi tutmaz, geç teslimat tutar | THE POOL ROOM · 6/7 klip | ✅ ölçüldü |
+| 93 | Su seviyesi inmedi, silindi; tabanda prompt dışı gider delikleri | THE POOL ROOM · S0 2→3 sn | ✅ ölçüldü (1 klip) |
+| 94 | Kapak başlığı üst bantta: profil kırpmasında film adı kesildi → DIKEY_TIMELAPSE_KAPAK §3 · kapak_prova.py | THE POOL ROOM kapağı | ✅ ölçüldü |
 
 ---
 
@@ -2396,6 +2406,245 @@ KİLİT       Çelik taşıyıcı halatlar iki istasyon arasına gerilip kilitle
             "No passenger cabin, tram car, or aerial gondola is ever hoisted, staged, or generated on site until aerial haul ropes are fully tensioned across the gorge; the crane never lifts glazed cabin modules during structural masonry or roofing stages."
 KALDIRDIĞI  İstasyonun halatı ve mekaniği bitmeden aceleyle kabin gösterme hevesi.
 NEREYE      INSAAT_YONTEMI_KILAVUZU §3 · YAPI_TIPI_KARTLARI §Teleferik
+```
+
+---
+
+## DERS 85 — ⭐ Kapak görseli sona kart olarak eklendi; plan "kart yok" diyordu ve kart başka dünyadan → SAHİP KURALI: her filmin sonunda kapak
+
+```
+NEREDE      THE POOL ROOM · yayın 2x · 25,1–27,2 erime · 27,2–32,02 sabit kart "THIS WAS A POOL" (16.10.2026)
+NE OLDU     Sahip videoyu 2x yaptı ve kapağı BİLEREK sona ekledi (sahip beyanı 16.10.2026). Plan "⛔ KAPAK
+            KARTI YOK" diyordu; kayıt planda değişmediği için araçlar ve mercekler çelişti: ❶ ❷ ❸ kartı hiç
+            görmedi (son 5 sn'yi "final night hold" okudu), ❹ ❺ gördü; ihrac_kontrol ① BLOCK verirdi.
+            Kart G8 değil, kapak görselinin kendisi: alçak kamera, gün ışığı, geniş merdiven, saksılar — başka
+            dünya [DERS 30 · MOUNTAIN CROWN]. Erime S7'nin son 2 sn'sini örttü; o 2 sn'de G8 gündüz olduğu için
+            gece → gündüz sıçraması vardı (DERS 91) — kart bir kusuru SAKLADI. Ek ölçüm: dosya 2160×3840
+            (teslim 1080×1920), kaynaklar 1080×1920 ile 720×1280 karışık.
+NEDEN       Teslim kararı kurguda verildi, plana dönmedi. Plan beyanı ile dosya ayrışınca her kapı yanlış
+            alarm ya da yanlış sessizlik üretir (D5 kartı "yok" sayardı).
+KİLİT       ① Kurgu kararı PLANA yazılır: TESLİM YAPISI "KAPAK KARTI n sn · erime m sn · kaynak <dosya>" —
+              sonra ihrac_kontrol / qa_paket o beyanla koşar. Beyansız kart = teslim değil.
+            ② Kart istenirse kaynağı GN'dir (zincir_kontrol GN ↔ kart) — kapak görseli ayrı üretildiyse önce
+              GN ile aynı dünya mı bakılır. Ekranda yazı kanal kuralına (no text on screen) aykırıdır → sahip
+              kararı olarak beyan edilir.
+            ③ Erime/kart finalin tutuşunu örtmez: kart, S(N−1)'in 4–8 sn tutuşu BİTTİKTEN sonra başlar.
+            ④ Tek çözünürlük: bütün klipler aynı model/çözünürlükte; teslim 1080×1920.
+⭐ SAHİP KURALI 16.10.2026: "her filmin sonunda kapak olacak" → kart artık ZORUNLU; ① ② ③ her filmde uygulanır.
+KALDIRDIĞI  Planda yazmayan kurgu kararı ve ayrı dünyadan kapak. Karşılığı: kart her filmde var, beyanla ve GN'den.
+NEREYE      AGENTS kart Y 2f · TESLİM YAPISI şablonu · araclar/klip_eslestir.py (kuyruk ölçümü) · ihrac_kontrol.sh
+```
+
+---
+
+## DERS 86 — ⭐ Arızalı klip kurgudan düşürüldü, zincirde iş "belirdi": klip ↔ yayın eşleşmesi
+
+```
+NEREDE      THE POOL ROOM · S4 CAMLAR (filmin özgün anı) · yayında 14,97 → 15,00
+NE OLDU     Sekiz klip üretildi, yedisi kurguya girdi. S4'ün kaynak klibi arızalıydı (DERS 88) ve yeniden
+            üretilmek yerine kurgudan çıkarıldı. Zincir kareleri birebir tuttuğu için kesme görünmedi: S3'ün son
+            karesi açık kanal, S5'in ilk karesi cam yerinde → cam TEK KESMEDE belirdi. ❶ "furniture/grid appear"
+            (cat 8), ❹ "glass insert · source seen NONE" — mercekler bunu ÜRETİM arızası sandı; sebep KURGUYDU.
+            Ayrıca S0'ın son ~2 sn'si kırpıldı. Sahip tanığı (16.10.2026): "S4 saçmaydı — işçiler kocaman camı
+            getirip yere bıraktı, sahne sonunda cam bir anda yok oldu ve ortaya cam geldi" → düşürme BİLİNÇLİ.
+NEDEN       Zincirli formatta bir klip atlamak, iki ucu arasındaki işi sıfır sürede yaptırmaktır. kesme_kontrol
+            zincir dikişini göremez (dikiş kareleri aynıdır); klip sayımı yapan adım yoktu.
+KİLİT       ① Arızalı klip KURGUDAN DÜŞÜRÜLMEZ — yeniden üretilir [ONARIM §0]. Düşürmek sahip kararıdır ve o an
+              plan merdiveni yeniden yazılır (işi komşu klip devralır, yeni MOTION FOCUS).
+            ② python3 araclar/klip_eslestir.py yayin.mp4 S0.mp4 … S7.mp4 --hiz 2 — her klibin %10/30/50/70/90
+              karesini yayında arar: ✅ tam · ⚠️ kırpılmış · ⛔ yok · sıra · son klipten sonraki kuyruk.
+              Eşik 6,0 (bulunan 1,5–5,7 · düşen 9,8–13,3) — VARSAYIM, tek filmde ölçüldü.
+KALDIRDIĞI  "Kötü klibi çıkar, film yine akar" kısayolu. Karşılığı: zincirde her halka ekrandadır.
+NEREYE      araclar/klip_eslestir.py · AGENTS kart Y 2f · ONARIM_VE_YENIDEN_URETIM_KILAVUZU §0
+```
+
+---
+
+## DERS 87 — ⭐ "Çerçeve + dolgu" iki nesne oldu, ızgara tek desen olarak yayıldı
+
+```
+NEREDE      THE POOL ROOM · S2 DİZER · kaynak 2,0–3,5 sn (yayında 7,5 → 8,0)
+NE OLDU     Prompt: "rigid dark-framed floor cassettes with pale insulation infill … in rows from the near end".
+            Model ÇERÇEVEYİ ayrı, DOLGUYU ayrı nesne çizdi: açık çelik ızgara 1,5 sn'de (kaynak) bütün çanağa
+            yayıldı, "yalıtım" ızgara gözlerine gevşek kutular olarak kondu ve klibin sonunda taşıyıcısız
+            kayboldu; G3 kanalı ve beyaz çini gözleri açık kaldı. 2x'te yayılma 0,75 sn → ❶ ❷ ❸ "grid appears
+            instantly" (cat 8). ❹ "section by section" dedi — ikisi de kısmen doğru: parça parça ama çok hızlı.
+NEDEN       ① "framed … with infill" iki isim taşır; model ikisine ayrı yaşam verir. ② "a regular grid" bir DESENDİR;
+            desen modelde bütün olarak vardır ve aktif cephe cümlesini yener. ③ Aktif cephe 0–5 sn yazılmıştı ama
+            G3 karesi "the whole basin bottom" diyordu: hedef kare hızı belirledi.
+KİLİT       "Each floor panel is one solid dark grey board, closed on top, carried whole by two workers; the panels
+            go down one row at a time from the near end, and the white tiles beyond the last row stay bare until
+            the next row covers them." · I2V'de cephe ≥ 4 sn kaynak (2x'te ≥ 2 sn ekran): "by about four seconds
+            half the bottom is covered".
+KALDIRDIĞI  Yalıtımlı kaset gibi iki katmanlı malzemeyi tek kelimeyle göstermek. Karşılığı: tek rijit nesne.
+NEREYE      FIZIK_VE_AGIRLIK_KILAVUZU §6 · MONOTONIK_ILERLEME §4 (aktif cephe süresi)
+```
+
+---
+
+## DERS 88 — Cam panel: kanaldan kat kat geniş tek levha ve tavandan sarkan kaldırıcı
+
+```
+NEREDE      THE POOL ROOM · S4 CAMLAR kaynak klibi · 1,0–5,0 sn (yayına girmedi)
+NE OLDU     "three clear glass panels, each a metre long … on two suction lifters, carry it flat down the steps"
+            → kanal açıklığının birkaç katı genişlikte TEK cam levha meşenin üstünde kaydı; cam çatının aşığından
+            zincirle sarkan bir kaldırma düzeneği ve sehpa belirdi (yazılmadı, YASAK KELİME listesindeydi); klip
+            başladığı hâle döndü; son saniyede yerdeki dev levha YOK OLDU ve kanalda cam BELİRDİ (bitiş karesi G5
+            camı istiyordu — DERS 91 mekanizması: uyuşmazlık klip sonuna yığıldı). Sahip tanığı aynı: "kocaman camı
+            yere bıraktılar, sahne sonunda cam bir anda yok oldu ve ortaya cam geldi". Klip kurgudan çıkarıldı.
+NEDEN       "glass panel" korpusta büyük vitrin camıdır; ölçü kanal açıklığına BAĞLANMADI ("a metre long" eni
+            söylemiyor). "suction lifters" cam montaj korpusunda tavan kaldırıcısıyla birlikte gelir.
+KİLİT       "Each glass panel is exactly as wide as the channel opening and one third of its length; two workers
+            carry it flat between them by two small hand-held suction cups and lower it by hand onto the oak lip;
+            the steel purlin above holds nothing." — panel sayısı ve ölçüsü kadraj kesriyle (123 px).
+KALDIRDIĞI  Büyük tek cam levha görüntüsü. Karşılığı: üç küçük, elle taşınan panel.
+NEREYE      FIZIK_VE_AGIRLIK_KILAVUZU §6 · plan §PİLOT (c′) bu klibi en zor diye ayırmıştı — öngörü tuttu
+```
+
+---
+
+## DERS 89 — İki kişilik yük × çok parça: kadro ikiye katlandı, araba çukura indi
+
+```
+NEREDE      THE POOL ROOM · S5 DÖŞENİR · yayında 15,0–16,5
+NE OLDU     MOTION FOCUS "Two workers lift the three cream sofa modules one by one…" → DÖRT işçi iki modülü aynı
+            anda taşıdı; bir modül kanalın SOL yanına kondu, sonra kalktı (yo-yo); mavi araba merdivenden çukura,
+            meşenin üstüne indi (plan: araba terrazzoda kalır). ❶ "furniture pieces pop" (cat 8).
+NEDEN       Her parça iki kişilik ve parça sayısı > 1: model işi paralelleştirir, ikinci ekibi çağırır. "One by one"
+            cümlesi, ACTIVITY'nin "el sayısı ≥ 3" baskısıyla (SANTIYE §4.8) yarıştı.
+KİLİT       "Only two workers are in the hall for the whole shot; they carry one module at a time between them
+            while the other modules wait on the cart beside the doorway, and the cart stays on the terrazzo
+            surround." · el sayısı aletle/arabayla artar, insanla değil.
+KALDIRDIĞI  Hızlı paralel döşeme. Karşılığı: sayılı kadro, tek taşıma hattı.
+NEREYE      SANTIYE_HAREKETI_KILAVUZU §4.8 (el ≠ yeni işçi)
+```
+
+---
+
+## DERS 90 — ⭐ Ölçülmüş olgular olmadan koşulan mercekler kartı kaçırdı ve 10/10 verdi
+
+```
+NEREDE      THE POOL ROOM QA · beş mercek · 16.10.2026 (qa_paket.sh koşulmadı, format bloğu boş)
+NE OLDU     ❶ ❷ ❸ 4,8 sn'lik yazılı kartı GÖRMEDİ (❶ C5 "no end card", ❷ "0:28–0:32 final night hold", ❸ C5
+            "closing clip settles into a finished furnished interior"). ❶ 8 sn'lik ızgara uydurdu (1:04 damgası,
+            dosya 32 sn — D1). ❹ ❺ kartı gördü ama saniyeleri klip saydı (27 klip — D2); ❹ dosya adını PNG yazdı.
+            ❶ ve ❸ planın kadraj kilidi yüzdelerini BİREBİR yazdı (kapı x 23,7–34,4 · y 58,7–72,1 …) → kör mercek
+            SPEC'i gördü: SIZINTI. Geçerli tek TAM koşu (❺) 10/10 verdi; ❸ (sızıntılı) 10/10. Ajan ölçümü
+            (ffprobe + klip_eslestir + kare panosu) kart, düşen klip, çözünürlük ve iki üretim arızasını buldu.
+            ⚠️ D5 kuralı ("END CARD = NO iken kartı puanlayan kategori NOT TRIGGERED") bu filmde YANLIŞ yöne
+            işlerdi: kart plana göre yoktu ama DOSYADA vardı.
+NEDEN       ① Format bloğu boşken model klip sayısını ve süresini varsayar; varsayım eşit bölmedir, son 5 sn'yi
+            "final hold" diye okur. ② Kör merceklerin plan sayılarını bilmesi aynı Gem/proje/sohbet kullanıldığını
+            gösterir [QA_KOSU §1]. ③ 10/10 bulgusuz bir hüküm değildir; ölçümsüz rapor iyimserdir.
+KİLİT       ① qa_paket.sh koşulmadan (ÖLÇÜLMÜŞ OLGULAR dolu değilken) yapılan koşu BAĞLAYICI DEĞİL.
+            ② D5'ten ÖNCE dosya: kuyruk/kart klip_eslestir ile ölçülür; kart dosyada varsa hata merceğin değil
+              dosyanındır (DERS 85).
+            ③ D6 — ajan rapor puanını kayda geçirmeden önce yayın dosyasından 1 sn'lik kare panosuna bakar ve
+              raporun kurgu tablosunu ona karşı doğrular.
+            ④ Sızıntı taraması plan SAYILARINA bakar: kadraj kilidi yüzdesi kör raporda geçerse SIZINTI.
+KALDIRDIĞI  Mercek puanını ölçümsüz kabul etmek. Karşılığı: sayıyı makine ve ajanın gözü verir, mercek yorumlar.
+NEREYE      QA_OLCUM_ZEMINI_KILAVUZU §5 (D5 düzeltme · D6) · AGENTS kart R adım 3 · QA_KOSU §1
+```
+
+---
+
+## DERS 91 — ⭐ Usta kare plana uymadı (gece → gündüz); son klip uyuşmazlığı son 2 saniyeye yığdı
+
+```
+NEREDE      THE POOL ROOM · G8 (g8_2K) · S7 KARARIR kaynak 6,0–8,0 sn (yayında ≈ 26,0–27,0, erimenin altında)
+NE OLDU     Plan G8: "early night, sun 8° below the horizon … dark ink blue … three aqua lamps … No people".
+            Üretilen G8: GÜNDÜZ — cam çatı beyaz, sağdan güneş lekesi, üç lamba SÖNÜK, kanal ışıksız, uzak çevrede
+            dört saksı (plan 1 bitki), kanepede battaniye (sayım kilidinde yok), yuvarlak sehpa (plan oval).
+            S7 gece başladı (G7 doğru) ve 0–6 sn gece kaldı; 6,0–8,0 sn arasında lambalar söndü, gök ağardı, saksılar
+            ve battaniye BELİRDİ — model iki ucu tutturmak için bütün farkı son iki saniyeye sıkıştırdı. Plan'ın
+            "gök laciverte koyulaşır, camlarda yansıma" vuruşu hiç oluşmadı. Sahibin eklediği erime bu sıçramayı
+            örttü; mercekler görmedi (DERS 85 · 90).
+NEDEN       Veo bitiş karesine kare kare uyar; iki uç arasında planlanmamış fark varsa onu bir yere koymak
+            zorundadır ve en ucuz yer klibin sonudur. G8 kontrol edilmeden Start/End'e verildi: DEĞİŞİM
+            tablosunun "⛔ Elle kontrol" satırı (gök zifiri değil · en parlak şey lambalar · su yok) işaretlenmedi.
+            Gece ışığının metinden üretimde gündüze dönmesinin sebebi ölçülmedi (kare G7'den düzenlenmedi mi,
+            başka prompt mu kullanıldı — günlük boş, bilinmiyor).
+KİLİT       ① Her G, Veo'ya girmeden önce planın KARE TABLOSU ve IŞIK DEFTERİ satırıyla karşılaştırılır: saat ·
+              ışık · sayım · "henüz olmaması gerekenler" — sonuç günlüğe [NANO_BANANA §16].
+            ② Gece/ışık karesi metinden değil, bir önceki onaylı kareden DÜZENLEMEYLE üretilir: G8 = G7 + "ten
+              minutes later … the sky turns dark ink blue … every lamp exactly as bright" (plan G8 ⏩ bloğu).
+            ③ Klibin son 2 sn'sinde yeni nesne/ışık değişimi görülürse sebep bitiş karesidir: klip değil KARE
+              yeniden üretilir [ONARIM §1].
+KALDIRDIĞI  Usta kareyi bağımsız metinden üretip kontrolsüz kullanmak. Karşılığı: zincirin uçları plana bağlı.
+NEREYE      NANO_BANANA_2_VEO_LITE_TIMELAPSE_KILAVUZU §16 · ONARIM §1 · AGENTS kart B
+```
+
+---
+
+## DERS 92 — ⭐ Ana dönüşüm klibin İLK yarısında biter; saniye takvimi tutmaz, geç teslimat tutar
+
+```
+NEREDE      THE POOL ROOM · yedi klibin altısı (kaynak 8 sn, 24 fps; ajan kare panosu)
+NE OLDU     plan (I2V saniyesi)                         ekran (kaynak)
+            S0 su 1–5 sn düzenli iner                    0–2 sabit, 2→3 sn arasında BİTTİ
+            S1 temiz bant 4–7 sn                         2→3 sn arasında tüm çanak temiz, 4–8 boş bekleme
+            S2 kaset sıraları 1–5 sn                     2,0–3,5 sn'de bütün ızgara
+            S3 meşe 1–6 sn, "6. sn'de biter"             ≈ 4 sn'de bitti
+            S5 modüller 0–4, eşya 4–6                    ≈ 4 sn'de oda tamam, 4–8 yalnız gün batımı
+            S6 TIK 2,0 sn                                ≈ 1 sn
+            ✅ TUTAN: klip sonundaki teslimatlar — palet (S0 5–7) · meşe bağı (S2 6) · sandık (S3 6) · modüller
+            (S5 0–1, G5 yoktu) — "late in the shot" cümleleri yerine geldi.
+            2x'te ana iş ekranda 0,5–1,5 sn kaldı → ❶ "appears instantly" (cat 8) · "rapid draining" (cat 6) · ❷
+            "instantaneous" (cat 8). Mercekler kusuru doğru yere koydu, sebebi bilemedi.
+NEDEN       Model iki keyframe arasındaki farkı mümkün olan en erken anda kapatıp bitiş karesine "yerleşmeyi"
+            tercih ediyor; metindeki saniye damgaları zayıf koşul. NANO_BANANA §11'in uyarısı ("tam 3,25. saniye
+            gibi talimatları garanti sayma") bu filmde ÖLÇÜLDÜ. MONOTONIK §4.4'ün 5,5–7 sn mikro doyumu tutmadı.
+KİLİT       ① Plan ana işi 0–4 sn'ye koyar; 4–8 sn ikinci, KÜÇÜK işe verilir (teslimat · söküm · temizlik ·
+              ışık) — "by about six seconds" gibi geç bitiş yazılmaz.
+            ② Ana işin ekranda ≥ 2 sn (2x) kalması gerekiyorsa iş hacmi bir klibe sığdırılmaz: G(n+1) ARA HÂLDİR
+              ("half the bottom covered"), iş iki klibe bölünür.
+            ③ Mikro doyum anı bir NESNEYE bağlanır (son panelin oturması), saniyeye değil; pilotta 2x'te ölçülür.
+KALDIRDIĞI  Saniye saniye koreografiye güvenmek ve "işin bittiği an klibin sonudur" varsayımı.
+NEREYE      MONOTONIK_ILERLEME §4.4 (ölçüm notu) · NANO_BANANA §11 (ölçüldü) · plan şablonu "saniye saniye" blokları
+```
+
+---
+
+## DERS 93 — Su seviyesi inmedi, SİLİNDİ; tabanda prompt dışı gider delikleri belirdi
+
+```
+NEREDE      THE POOL ROOM · S0 BOŞALTIR · kaynak 2,0 → 3,0 sn
+NE OLDU     Prompt: pompa ortada, yüzeyde halka, su "halfway up the second riser"dan basamak basamak iner, lambalar
+            birlikte sudan çıkar, −0,45'te tanık çizgi kalır. Ekran: pompa halkası görünmedi; su 0–2 sn sabit
+            kaldı, BİR saniyede yok oldu; tabanın ortasında iki siyah yuvarlak delik (gider) belirdi; tanık çizgi
+            ve lambaların sudan çıkışı görünmedi. ❶ cat 6 (5/10) "drained completely … without physical pumping
+            sequence visible" — doğru bulgu.
+NEDEN       Hedef kare G1 "drained, open, damp" diyordu; model boşalmanın sebebini kendi korpusundan çizdi (havuz =
+            dip gideri) ve DERS 92 gereği işi erken kapattı. Pompa uzak ve küçüktü (≈ 25 px), kanıt olamadı.
+            Su seviyesinin düşüşü kesirle (rıht sırası) I2V'de yazılıydı ama keyframe'lerde ara kot yoktu.
+KİLİT       ① Su kotu için ara keyframe: G1 "a shallow layer of water still covers the lowest third of the bottom"
+              — tam boşalma bir sonraki klibe [SU_VE_YANSIMA §8 · DERS 92 ②].
+            ② "The waterline moves down the far steps one riser at a time — second riser, third riser, fourth —
+              while the grey pump on its cable stays in the middle of the basin" · "the basin bottom is one
+              continuous run of white tiles with the dark blue lane stripe" (deliği adıyla yasaklamadan, pozitif).
+            ③ Pompa kanıt olacaksa kadrajda ≥ 50 px; değilse boşaltma borusu kadraj içinde kapıya giden kalın hat.
+KALDIRDIĞI  Boşaltmanın tamamını tek klibe sığdırmak.
+NEREYE      SU_VE_YANSIMA_KILAVUZU §6 (arıza tablosu)
+```
+
+---
+
+## DERS 94 — Kapak başlığı üst bantta: profil kırpmasında film adı kesildi
+
+```
+NEREDE      THE POOL ROOM kapağı ("Bu Havuz Ev Salonuna Dönüştü.png", 941×1672 → 1080×1920 ölçekli) · 16.10.2026
+NE OLDU     "THIS WAS / A POOL" başlığı y ≈ 150–460 px'te (üst %8–24). araclar/kapak_prova.py merkez provası:
+            3:4'te (y 240–1680) üst satır kısmen, 4:5'te (y 285–1635) "THIS WAS" yarıdan kesik, 1:1'de
+            (y 420–1500) yalnız "A POOL" kaldı. Ana yapı (çanak + cam koşu) y ≈ 900–1700 — alt kısmı da 1:1'de
+            kesildi. Dosya ayrıca 1080×1920 değildi (941×1672).
+NEDEN       Eski depo kuralı (MUZIK_VE_KAPAK §2.3) y 500–1400 bandını video içi kart için yazmıştı; kapak ayrıca
+            üretildi ve başlık "boş gök/duvar" olan en üste kondu. Profil önizlemesi merkezden kırpar.
+KİLİT       DIKEY_TIMELAPSE_KAPAK_KILAVUZU §3: başlık kutusu x 180–900 · y 560–770 · ana yapı x 150–930 ·
+            y 800–1360 · çekirdek 780×840 merkezde. GN bu bantlara göre PLANDA kurulur (alttan: yapı %29–58,
+            başlık sakin alanı %60–71). Yayından önce kapak_prova.py + gerçek platform önizlemesi.
+KALDIRDIĞI  Başlığı kadrajın en tepesine, gökyüzüne yazma alışkanlığı. Karşılığı: başlık her kırpmada okunur.
+NEREYE      DIKEY_TIMELAPSE_KAPAK_KILAVUZU §0 · MUZIK_VE_KAPAK §2.3 notu · AGENTS kart A 9 · kart Y 3b ·
+            araclar/kapak_prova.py · kilavuzlar/KAPAK_SAFE_AREA_1080x1920.png
 ```
 
 ---

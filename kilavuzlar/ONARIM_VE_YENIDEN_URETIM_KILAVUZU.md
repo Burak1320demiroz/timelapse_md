@@ -27,6 +27,8 @@ Onarım bir KÖK NEDENE yapılır, bir belirtiye değil.
   · her onarımdan sonra İKİ DİKİŞ sınanır (zincir_kontrol + kanıt nesnesi elle)
   · aynı klipte aynı eylem en çok 3 kez; toplam 6 deneme → SAHNEYİ YENİDEN TASARLA
   · her deneme günlüğe bir satır: klip · deneme no · eylem · sebep · sonuç
+  · ⛔ arızalı klip KURGUDAN DÜŞÜRÜLMEZ: zincirde iki ucun arasındaki iş tek kesmede belirir; yeniden
+    üretilir. Düşürmek sahip kararıdır ve merdiven o an yeniden yazılır [DERS 86 · POOL ROOM S4]
 ```
 
 ⛔ **Çapraz geçiş YOK.** Kusuru dissolve/fade ile örtmek bu formatta onarım değildir: her kesme bir

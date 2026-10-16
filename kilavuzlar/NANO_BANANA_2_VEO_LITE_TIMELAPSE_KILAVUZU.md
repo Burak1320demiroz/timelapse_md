@@ -313,7 +313,9 @@ Saniye saniye koreografi yerine üç aşama kullan:
 2. **İlerleme:** Tek fiziksel değişim belirgin biçimde büyür.
 3. **Son:** Sonuç G bitiş karesiyle uyumludur; başka bir iş başlamaz.
 
-“Tam 3,25. saniyede kilit kapanacak” gibi hassas talimatları güvenilir üretim garantisi sayma. Kilit kapanması hikâyenin kanıtıysa daha kolay görünen bir sonuç seç: yükün desteğe oturması, kapının kapalı konumu veya tamamlanan yüzey.
+“Tam 3,25. saniyede kilit kapanacak” gibi hassas talimatları güvenilir üretim garantisi sayma. ⭐ Ölçüldü
+(DERS 92 · THE POOL ROOM, 6/7 klip): ana dönüşüm 8 sn'lik klibin ilk 2–4 sn'sinde bitti; klip sonundaki teslimat
+cümleleri ise tuttu. Ana işi 0–4'e, küçük ikinci işi 4–8'e koy. Kilit kapanması hikâyenin kanıtıysa daha kolay görünen bir sonuç seç: yükün desteğe oturması, kapının kapalı konumu veya tamamlanan yüzey.
 
 İşçi hareketi hızlandırılmış olabilir; duvarların ve ağır parçaların biçimi kararlı kalmalıdır. Araçların duvardan geçmesi, dolabın zeminden büyümesi veya bütün malzemelerin tek anda belirmesi kabul edilebilir bir timelapse kısaltması değildir.
 
@@ -662,6 +664,11 @@ Akşam finali kullanılacaksa yapı ve mobilyalar karanlıkta kaybolmasın. İç
 | Malzeme | Gelen ve sökülen parçaların konumu açıklanabiliyor |
 | Işık | İki karede uyumlu veya bilinçli planlanmış |
 | Sonraki aşama | Mobilya, cam, ışık gibi öğeler erken gelmemiş |
+
+⭐ **DERS 91 (THE POOL ROOM, ölçüldü):** her G, Veo'ya girmeden önce planın KARE TABLOSU ve IŞIK DEFTERİ satırıyla
+karşılaştırılır (saat · ışık · sayım · "henüz olmaması gerekenler"). Gece istenen G8 gündüz üretildi ve kontrolsüz
+bitiş karesi oldu → S7 son 2 sn'de lambalar söndü, saksılar belirdi. Işık karesi metinden değil, önceki onaylı
+kareden düzenlemeyle üretilir.
 
 ### V klibini onaylama
 

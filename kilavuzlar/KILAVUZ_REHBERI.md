@@ -166,11 +166,20 @@ burada kadrajın boş olduğu yer (üst) tam da yapının büyüdüğü yerdir.
 > ```
 > IZGARA         7 sahne × 8,0 sn = 56,0 sn          ← künyede kelimesi kelimesine (kapı arar)
 > SAHNE BLOĞU    7 sahne × 8,0 sn = 56,0 sn          ← QA merceklerinin konusu · usta kare G7 · 7 I2V
-> KAPAK KARTI    ⛔ YOK  ya da  1 kart × N,N sn       ← plan ne derse ihraç onu ölçer [DERS 63]
+> KAPAK KARTI    1 kart × N,N sn · SONDA · kaynak GN   ← ⭐ sahip kuralı 16.10.2026: HER filmin sonunda kapak
+>                (paylaşım dosyasının saniyesiyle)      kartı; ihraç beyanı ölçer [DERS 63 · 85]
 > MÜZİK          ⛔ YOK — diegetik ses yatağı         ← sahip kuralı 21.09.2026
 > YASAK KELİME   crane · hoist · …  ya da  — (yok)   ← hiçbir promptta, negatifte bile [DERS 59]
 > PAYLAŞIM       2x — ~28,0 sn sahne bloğu (+kart)   ← üretim 1x; QA ve ihraç --hiz 2 ile koşar
 > ```
+> ⭐ **16.10.2026 · SAHİP KURALI — HER FİLMİN SONUNDA KAPAK [DERS 85].** Kart = platform kapağının kendisi
+> (başlık metniyle), sahne bloğundan SONRA. ① Kaynak GN: kapak usta kareden türer (sahip kuralı 19.09.2026) —
+> ayrı üretilmiş "güzel" kapak başka dünya olur (POOL ROOM: alçak kamera, gündüz, fazladan saksı). ② Kart,
+> son klibin 4–8 sn TUTUŞU bittikten sonra girer; erime kullanılacaksa ≤ 1 sn ve tutuşun DIŞINDA (POOL ROOM'da
+> 2,1 sn erime finalin son 2 sn'sini örttü). ③ Süre plana yazılır: `KAPAK KARTI 1 kart × 5,0 sn (sonda ·
+> erime 0,5 sn)` — ihrac_kontrol süre = blok/hız + kart. ④ Yazı yalnız kartta; sahnelerde yazı yasağı sürer.
+> ⑤ Yerleşim `DIKEY_TIMELAPSE_KAPAK_KILAVUZU.md` §0 · §3: GN'de ana yapı y %29–58, başlık sakin alanı y %60–71
+> (alttan) — plan KADRAJ KİLİTLERİ tablosuna "kapak çekirdeği" satırı · yayından önce `kapak_prova.py` [DERS 94].
 > Brief 6 ya da 8 sahne verirse plan yine 7 ile yazılır ve bu sahibe söylenir.
 > `prompt_kontrol.py` §10f dikeyde 7 dışını, 8,0 dışını, künye satırı eksikliğini,
 > günlüksüz klasörü ve PİLOT ÜÇLÜ'süz planı BLOCK'lar.

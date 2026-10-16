@@ -344,6 +344,23 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       da sayıma girmiyor (05.10.2026 notu: DİKEY 13 · ZEMİN 7 · KÜTLE 8 · YATAY 2 — DEĞİŞMEDİ). Dikey hattın YATAY açığı
       sürüyor. Bu kayıt belirsizliği sahibe sorulacak.
 
+⭐ 16.10.2026: THE POOL ROOM yazıldı — `dikey_shorts/THE_POOL_ROOM/` · ⚠️ AİLE BEKLİYOR: İÇ MEKÂN (kapalı yüzme salonu,
+   seyirci galerisinden çanağa bakış, h +3,0 m · D_eksen 7,5 m · tilt 20° · ufuk %74,3 tuğlanın içinde, gök yalnız cam çatı
+   şeridinde). §3'te iç mekân ailesi yok; ZEMİN değil (uzak duvar + üç kemer yükselir) → öneri KÜTLE, sahip kararı.
+   ⭐ BEDEL: havuzun işlevi (su bir daha gelmez) · tanıklar kadrajda: kobalt bant · üst iki çini basamak · üç eski su altı
+      lambası (G0 su altında → G1–G6 sönük → G7–G8 turkuaz) · kulvar şeridinin 3 m'si cam koşunun altında.
+   ⭐ DEFTER: su kotu −0,45 → 0 (G0–G1) · kot zinciri kaset −0,92 → meşe −0,90 = 3. basamak · işlev anı rejim G, tek düğme.
+   ⚠️ SAHİP İSTİSNASI (16.10.2026): 8 × 8 = 64 sn (2x 32 sn) — sona S7 GECE eklendi (rejim A, güneş −7,6°, kapak G8).
+      Final klip rejim A → P16-g "G finali" sayımına girmez.
+   ✅ ÜRETİLDİ 16.10.2026 — yayın 2x 32,02 sn · S4 CAMLAR kurgudan çıkarıldı (klip arızalı) · sona kapak kartı
+      (yeni sahip kuralı: her filmde) · QA → QA/FILMLER/THE_POOL_ROOM.md · yeniden üretim YOK (sahip kararı).
+   ⛔ THE DEEP END (aynı fikir: havuz → gömme oda; üretildi, 12 mercek 9,83) · THE HIDDEN OASIS · THE VANISHING ROOM ile
+      ARDIŞIK YAYINLANAMAZ — aynı konu ve aynı ödül ailesi [P15-a]. Ödül ayrıştırıldı: DEEP END'de figür iner ve oturur,
+      burada kimse inmez; havuzun KENDİ eski lambaları yanar.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 7 × 8 sn); ajan v1'de 9 çelişki + DEEP END örtüşmesini bildirdi, sahibin
+      yapıştırdığı GPT eleştirisiyle v2 kuruldu (cam koşu hesaplandı · cama ayrı klip · tek olaylı final · kotlar), sahip
+      "hazırla" dedi. Rejim G bu filmde işlev anıdır (S6), final değil (S7 rejim A) — P16-g kaydına "G finali" yazılmaz.
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.

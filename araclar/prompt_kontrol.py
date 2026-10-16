@@ -798,6 +798,19 @@ _DIKEY = ("dikey_shorts" in yol or yol.endswith("_DIKEY_TIMELAPSE.md"))
 # 56,0 sn üretilir, 2x hızda (~28 sn sahne bloğu) paylaşılır. 6 ya da 8 sahne
 # önerilmez; brief başka sayı verirse plan yine 7 ile yazılır ve bu söylenir.
 DIKEY_SAHNE, DIKEY_SURE = 7, 8.0
+# ⭐ SAHİP İSTİSNASI (THE POOL ROOM, 16.10.2026): sahip tek bir film için başka sahne
+# sayısı isteyebilir. İstisna IZGARA satırında beyan edilir ve sayı oradan okunur:
+#   IZGARA     8 sahne × 8,0 sn = 64,0 sn   ⚠️ SAHİP İSTİSNASI 16.10.2026 …
+# Süre 8,0'da kalır; toplam sahne × 8,0'a eşit olmalıdır. Beyansız sapma BLOCK'tur.
+_iz = re.search(r"^IZGARA\s+(.*)$", metin, re.M) if _DIKEY else None
+_ist = _iz and re.search(r"SAHİP İSTİSNASI\s+(\d{2}\.\d{2}\.\d{4})", _iz.group(1))
+_ist_n = _ist and re.search(r"\b(\d+) sahne × 8,0 sn = (\d+),0 sn", _iz.group(1))
+if _ist and _ist_n and int(_ist_n.group(1)) != 7 and int(_ist_n.group(2)) == int(_ist_n.group(1)) * 8:
+    DIKEY_SAHNE = int(_ist_n.group(1))
+    INFO.append(f"DİKEY SAHİP İSTİSNASI ({_ist.group(1)}): {DIKEY_SAHNE} sahne × 8,0 sn = "
+                f"{DIKEY_SAHNE * 8},0 sn — kural 7 × 8 [DERS 58]; yalnız bu film")
+elif _ist:
+    BLOCK.append("IZGARA satırında SAHİP İSTİSNASI var ama 'N sahne × 8,0 sn = N×8,0 sn' tutmuyor [DERS 58]")
 if _DIKEY:
     if BEKLENEN != DIKEY_SAHNE or len(gorsel) != DIKEY_SAHNE:
         BLOCK.append(f"DİKEY SAHNE SAYISI {len(gorsel)} (Scene N of {BEKLENEN}) — dikey shorts KESİN "
@@ -805,10 +818,9 @@ if _DIKEY:
                      f"görseli + usta kare G{DIKEY_SAHNE} + {DIKEY_SAHNE} I2V")
     if len(i2v) != DIKEY_SAHNE:
         BLOCK.append(f"DİKEY I2V SAYISI {len(i2v)} — {DIKEY_SAHNE} olmalı [DERS 58]")
-    _iz = re.search(r"^IZGARA\s+(.*)$", metin, re.M)
-    if not _iz or not re.search(rf"\b{DIKEY_SAHNE} sahne × 8,0 sn = 56,0 sn", _iz.group(1)):
-        BLOCK.append(f"DİKEY künyede 'IZGARA     {DIKEY_SAHNE} sahne × 8,0 sn = 56,0 sn' satırı yok "
-                     f"[DERS 58] — ızgara künyenin ilk satırlarında, kelimesi kelimesine")
+    if not _iz or not re.search(rf"\b{DIKEY_SAHNE} sahne × 8,0 sn = {DIKEY_SAHNE * 8},0 sn", _iz.group(1)):
+        BLOCK.append(f"DİKEY künyede 'IZGARA     {DIKEY_SAHNE} sahne × 8,0 sn = {DIKEY_SAHNE * 8},0 sn' "
+                     f"satırı yok [DERS 58] — ızgara künyenin ilk satırlarında, kelimesi kelimesine")
     _dur = {x.replace(",", ".") for x in sureler}
     if _dur and _dur != {"8.0"}:
         BLOCK.append(f"DİKEY merdivende 8,0 dışı sahne süresi: {' · '.join(sorted(_dur))} [DERS 58]")
