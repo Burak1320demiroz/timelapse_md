@@ -509,6 +509,8 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
                  altta · ⛔ düzenleme, kısaltma, özetleme YOK [QA/HAM/00_README]
 2. GERİ OKUMA    ilk üç satır: dosya adı · belgeler · görülen klip [QA_KOSU §2.2]
                  dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş (geçici sohbet)
+2b. AJAN ÖLÇÜMÜ yayın dosyası yereldeyse merceklerden ÖNCE: ffprobe · 1 sn kare panosu · klip başına 4 fps pano ·
+                 kapak_prova.py · kart ses kuyruğu · gök bandı rengi — plan ↔ ekran tablosu bunun üstüne kurulur [DERS 100]
 3. DOĞRULAMA     D1–D6 [QA_OLCUM_ZEMINI §5] · kör raporda sızıntı taraması [QA_KOSU §3]
                  ⭐ D6 [DERS 90]: puanı kayda geçirmeden önce yayının 1 sn'lik kare panosu + klip_eslestir —
                  raporun kurgu tablosu dosyaya karşı doğrulanır · plan SAYISI (kadraj yüzdesi) kör raporda = SIZINTI

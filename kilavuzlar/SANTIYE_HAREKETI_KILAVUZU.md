@@ -101,6 +101,10 @@ REJİM C   TIME RATE: a full working day passes across this shot; the tower
 ⛔ Gölge derecesini uydurma. §1 tablosundan, sahnenin MEVSİMİNE bakarak al.
 ⛔ Bir filmde üç rejim birden kullanılmaz. En fazla İKİ rejim, ve rejim
    değişimi merdivende gerekçelendirilir (örn. kış sahnesi B, yaz sahnesi C).
+⚠️ DERS 98 (RAIN TOWER S6): rejim B'de "same rate" cümlesi gölgeyi bağladı, göğü bağlamadı — mavi
+   öğleden sonra → altın akşam çiftinde gök klip ortasında turuncuya gidip geri döndü (gök bandı
+   mavi−kırmızı +120 → +7 → +90). Işık farkı büyük çiftte gök cümlesi yönlü yazılır ("warms slowly in one
+   direction … reaching that gold only in the final second") ya da renk iki klibe bölünür.
 ```
 
 ---
@@ -298,6 +302,12 @@ KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of 
       sıçradı (② 4 · ⑦ · ⑨ · ⑩). Parçaya yazılan hareket fiili, bağlı olduğu yapının korpus
       hareketini çağırır. Montajda: "the hub stays locked and does not turn while any blade
       flange is bare"; dönme · açılma · sarkma · akma yalnız FİNAL sahnesinde.
+   ⑤ İş yüzeyi İKİ UÇ KAREDE GÖRÜNÜR olmalı (≥ 40 px) [DERS 95 · RAIN TOWER S1–S2]: eşik arkasındaki çukura
+      yazılan rampa ve dolum, avluda açılıp kapanan bir çukur ve avluya fışkıran su oldu. Görünmeyen hedef
+      görünen taşıyıcıyla yazılır ("the dark band climbing the back-wall stones just above the sill").
+   ⑥ Bir makine bir klipte TEK iş noktası; uç kareler makineyi aynı yerde bırakır ya da yolu yazılır
+      [DERS 96 · RAIN TOWER S3: ikinci platform belirdi]. Sepet klibe EN ALT sırada başlar, bitiş kotu eleman
+      adıyla ("the underside of the top beam"), çatı adıyla değil — "to the top" çatıya insan çıkardı [DERS 97].
 ```
 
 ## ⭐ 4.8 İŞ YOĞUNLUĞU — iş SAYISI değil, tek işin etrafındaki EL  [C2-g · 05.10.2026]

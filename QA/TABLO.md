@@ -11,8 +11,8 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM          54     (dikey_shorts + yatay_*_dk_filmler klasörleri · 12 dk dahil)
-BEŞ MERCEKLE ÖLÇÜLEN 2 (SKY STATION B1 · POOL ROOM)
+TOPLAM FİLM          58     (dikey_shorts + yatay_*_dk_filmler klasörleri · 12 dk dahil)
+BEŞ MERCEKLE ÖLÇÜLEN 3 (SKY STATION B1 · POOL ROOM · RAIN TOWER)
 ARŞİVDE ÖLÇÜLEN      37     (ARSIV_12_MERCEK/HAM_RAPORLAR klasörleri · 12 mercek)
 ```
 
@@ -26,6 +26,7 @@ ortalaması · N.
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---|:-:|
 | THE SKY STATION | 16:9 | 1x | 2,8 (B1) | 5,2 (B1) | 3,6 (B1) | 3,2 (B1) | 6,0 (B1) | 4,2 (N=5) | MELTING · STOPS | 15.10.2026 |
 | THE POOL ROOM | 9:16 | 2x | YG · SZ | EKS | SZ | YG | 10,0 | 10,0 (N=1) ⚠️ şişik — ajan ölçümü: kart · düşen S4 · çözünürlük | MELTING (❶, bağlayıcı değil) | 16.10.2026 |
+| THE RAIN TOWER | 9:16 | 2x | YG · SZ | YG | EKS | 5,5 | 9,0 | 7,3 (N=2) ⚠️ bağlayıcı değil — kör üçlü geçersiz; ajan ölçümü: avlu çukuru (5/5 mercek) · ikiz platform · başlık · kart sesi | MELTING (❶) · INTRUDERS (❹) | 17.10.2026 |
 
 ```
 ⭐ "dosya" sütunu: 2x · 1x · 1x+2x (❸ ❹ master, ❶ ❷ ❺ yayın) [QA_OLCUM_ZEMINI §3]

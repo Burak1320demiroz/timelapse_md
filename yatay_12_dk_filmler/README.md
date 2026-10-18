@@ -65,3 +65,6 @@ Film listesi burada tutulmaz — `QA/TABLO.md` tek sayaçtır (`bash araclar/say
 İlk film: `THE_SKY_STATION/` — plan + **181 prompt perde perde klasörlerde** (`PERDE_01_…` … `PERDE_10_…`, sahip kararı
 13.10.2026: 10 perde × 9 sahne; her sahnenin başında Türkçe "önceki sahneye göre değişen" notu). Prompt dosyası PERDE'dir;
 QA ve montaj birimi yine 3 BÖLÜM'dür (G30 · G60). Kapı birleşik dosyayla koşar (PLAN'daki ÜRETİM ÖNCESİ DURUM).
+İkinci film: `THE_GRAND_REVIVAL/` — plan + **193 prompt oda oda klasörlerde** (`ODA_01_ON_CEPHE` … `ODA_10_AKSAM`,
+sahip istisnası 17.10.2026: paketteki **9 sabit kamera**, her oda kendi istasyonu ve zinciri; 103 görsel = 90 sahne görseli +
+12 ODA SON KARESİ + G90 · 90 I2V) · 90 × 8,0 + **5,0 sn kart** = 725,0 s. ⚠️ Araçlar ODA klasörlerini ve ′ kareleri de tanımıyor.

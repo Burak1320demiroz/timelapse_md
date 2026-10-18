@@ -27,6 +27,9 @@ ARAÇ         python3 araclar/kapak_prova.py kapak.png → 9:16 · 3:4 · 4:5 ·
              (§11'in tarifiyle ajan üretti; kılavuzla gelen dosya yoktu).
 ÖLÇÜLDÜ      POOL ROOM kapağı (16.10.2026): başlık y ≈ 150–460 px — çekirdeğin ÜSTÜNDE; 4:5'te "THIS WAS"
              kesildi, 1:1'de yalnız "A POOL" kaldı [DERS 94]. Bu kılavuzun §3 kutusu bunu önlerdi.
+             RAIN TOWER kapağı (17.10.2026): kutu PLANDA vardı, ama G8'de kule 1,5× uzun çıktı (tepe y ≈ 444, plan
+             800) → başlık y ≈ 290–465'e kaydı, 4:5'te yarım, 1:1'de yok [DERS 99]. kapak_prova G8 ONAYINDAN önce,
+             metinsiz G8'e koşulur.
 ```
 
 ## 1. Senin sorunun ve uygulanacak çözüm

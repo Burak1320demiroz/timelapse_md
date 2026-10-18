@@ -361,6 +361,64 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       yapıştırdığı GPT eleştirisiyle v2 kuruldu (cam koşu hesaplandı · cama ayrı klip · tek olaylı final · kotlar), sahip
       "hazırla" dedi. Rejim G bu filmde işlev anıdır (S6), final değil (S7 rejim A) — P16-g kaydına "G finali" yazılmaz.
 
+⭐ 16.10.2026: THE RAIN TOWER yazıldı — `dikey_shorts/THE_RAIN_TOWER/` · AİLE: KULE (tilt 0, ufuk %50, kule %27,2–58,3,
+   üstünde açık gök = kapak başlık alanı). Terk edilmiş yük asansörü kulesi → kuyuda cep cep yeşil kaya duvarı + şelale.
+   ⭐ BEDEL: kulenin işlevi (kuyu bir daha yük taşımaz) · tanıklar kadrajda: iki paslı kılavuz ray (dokuz karede, finalde
+      şelaleyi çerçeveler) · paslı kabin (G1→ takozlarda) · beton kolonlar ve bağ kirişleri.
+   ⭐ DEFTER: su kaynağı avlu vanası → çukur (S2, +0,40) · finalde seviye AYNI (devridaim) · işlev anı rejim G, tek düğme.
+   ⚠️ SAHİP İSTİSNASI (16.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahneydi; ajan 7'ye
+      indirdi, sahip düzeltti. Final klip REJİM G (suyun 10 m inişi 1×'te okunur) → P16-g "G finali" sayımına GİRER.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 8 × 8 sn); ajan v1'de 8 çelişki bildirdi (sıvı jeti · hortum · havada
+      taşınan kabin · kırpma · temizlik sahnesi …), sahibin yapıştırdığı GPT eleştirisiyle v2 kuruldu (su kaynağı · kabin–kule
+      ilişkisi · moloz/hazne ayrı), sahip "Onaylı, planı yaz" dedi. Yazarken onaydan tek sapma: vinç yalnız S0'da, kaya
+      sepetli platformla (DERS 57 · 69) — sahibe raporlandı.
+   ⛔ THE BLUE SILO ile ARDIŞIK YAYINLANAMAZ (paslı dikey sanayi kabuğu + su — aynı ödül ailesi) [P15-a].
+
+⭐ 16.10.2026: TOTAL RESET yazıldı — `dikey_shorts/TOTAL_RESET/` · ⚠️ AİLE BEKLİYOR: İÇ MEKÂN (THE POOL ROOM ile aynı bekleyen
+   aile · tilt 0, ufuk %50 arka duvarın içinde, kamera sağ yakın köşeden 20° çapraz, arka duvar %29,6–65,3, üstünde tavan =
+   kapak başlık alanı). Çöple tıkanmış oda → sıcak ışıklı yatak odası süiti; 18 kilitli yüzey değişimi + 2 deneme.
+   ⭐ BEDEL: odanın geçmişi (halı, kâğıt, perde, eski kubbe lamba) · tanıklar kadrajda: pencerenin beyaz kasası (dokuz
+      karede) · kapı + anahtar · ışık noktası (eski kubbe → yeni halka AYNI noktada) · karşı cephe.
+   ⭐ DEFTER: her klipte ana iş + ikinci yarıda görünür ilerleme (DERS 92 · eleştiri ①) · S5 üç taşıma, iki işçi (DERS 89) ·
+      üretim sırası G7 → G8 (yalnız ışık) → G6…G0 (DERS 91).
+   ⚠️ SAHİP İSTİSNASI (16.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn (sahip seçimi) — sahibin briefi 8 sahne.
+      Final klip REJİM G (anahtar → LED anında) → P16-g "G finali" sayımına GİRER; RAIN TOWER'dan sonra İKİNCİ ARDIŞIK G finali
+      (P16-g açık okumasıyla çelişir, beyanlı).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 8 × 8 sn, 20 değişim); ajan v1'de DERS 92 gereği klip içi düzeni değiştirdi,
+      sahibin yapıştırdığı GPT eleştirisiyle v2 kuruldu (S4–S5 yükü · ikinci yarıda ilerleme · 18 + 2 · koltuk kenarda · usta
+      kare sırası · pilot ölçütleri), sahip "Onaylı, planı yaz" dedi.
+   ⚠️ THE POOL ROOM ile arka arkaya ÖNERİLMEZ (aynı anahtar → ışık mekanizması) — kural DEĞİL: P15-a açık okuma, izleyici
+      verisi yok. THE RAIN TOWER ile de arası açılır (iki G finali).
+
+⭐ 17.10.2026: FIRST SLICE yazıldı — `dikey_shorts/FIRST_SLICE/` · ⚠️ AİLE BEKLİYOR: İÇ MEKÂN (POOL ROOM · TOTAL RESET ile aynı
+   bekleyen aile · tilt 0, ufuk %50, kamera açık garaj kapısının sağ iç köşesinden 16° çapraz, h 1,8, arka duvar %35,1–64,9,
+   üstünde koyu tavan = kapak başlık alanı). Yağlı tamirhane → çalışan retro pizzacı; ⭐ sahip isteği "20 sahne 8'e sıkışmış":
+   her sahnede ÜÇ VURUŞ (26 görünür iş) + S2 · S3'te ARA KARE (G2a · G3a, ikişer 4 sn alt klip).
+   ⭐ BEDEL: tamirhanenin işlevi (lastik, tezgâh, sac, yağ lekesi) · tanıklar kadrajda: servis kapısı (açıklığı aynı, rengi
+      değişir) · yüksek pencere sırası · arka köşeler · arka sol köşe (paslı tezgâh → yanan fırın).
+   ⭐ DEFTER: her şey arka servis kapısından (DERS 95) · bir makine tek iş noktası (DERS 96) · kubbe dört parça, iki elde ·
+      üretim sırası G8 → G0, kapak_prova METİNSİZ G8'e onaydan önce (DERS 99).
+   ⚠️ SAHİP İSTİSNASI (17.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM A (10 dk: hamurdan ilk dilime) → P16-g "G finali" sayımına GİRMEZ — iki ardışık G finalinden sonra
+      sahip A'yı seçti.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 8 × 8 sn, 22 iş); ajan önerisi (üç vuruş · ara kare · arka servis kapısı ·
+      tente içeride · kapakta ateş başlığın altında · final A) → sahip dört seçimle onayladı. Yazarken tek sapma: tente
+      tezgâhın tam üstüne değil, arkasındaki mutfak hattının üstüne (başlık kutusu) — sahibe raporlandı.
+   ⚠️ ÜÇÜNCÜ ARDIŞIK İÇ MEKÂN ve TOTAL RESET ile aynı başlık kalıbı ("This Filthy … Became a …") — POOL ROOM ve TOTAL RESET
+      ile arka arkaya ÖNERİLMEZ, araya dış mekân filmi (öneri, kural DEĞİL: P15-a açık okuma, izleyici verisi yok).
+
+⭐ 18.10.2026: THE GRAND REVIVAL yazıldı — `yatay_12_dk_filmler/THE_GRAND_REVIVAL/` · ⚠️ AİLE BEKLİYOR: İÇ MEKÂN (DÖRDÜNCÜ iç
+   mekân ağırlıklı film — POOL ROOM · TOTAL RESET · FIRST SLICE ile aynı bekleyen aile; dış kadraj yalnız S0–S9 · S80–S85 · S88).
+   Terk edilmiş ≈500 m² taş villa oda oda yenilenir, mavi saatte ilk akşam yemeği · YATAY 12:05 (90 × 8 + 5 sn kart).
+   ⭐ BEDEL: sarmaşığın yeşil alacakaranlığı (S1'de gider) · tanıklar: kuş banyosu (MAIN STATION) · her odada kapı çapası
+      (sonraki oda bitmiş komşuyu görür) · AÇILIŞ–FİNAL KAFİYESİ G0 ↔ S88 aynı kadraj.
+   ⚠️ SAHİP İSTİSNASI (17.10.2026): paketteki 9 sabit kamera (kural en çok 2 · ölçülmüş bedel "ALTI AYRI GÖRÜNTÜ") ·
+      6 G klibi (beş ağır yük + final) → final klip REJİM G, P16-g "G finali" sayımına GİRER.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 96 × 8 sn, 12:48); ajan 90 sahneye birleştirdi, sahip altı seçimle
+      onayladı (9 kamera · 90 × 8 + kart · ışıklar + ilk yemek · dağılım · aynasız · kadro 2 + ağır yükte 4).
+   ⚠️ FIRST SLICE ile arka arkaya ÖNERİLMEZ (dördüncü iç mekân); yatay 12 dk hattında THE SKY STATION ile sıra sahibin
+      (öneri, kural DEĞİL: P15-a açık okuma, izleyici verisi yok).
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.

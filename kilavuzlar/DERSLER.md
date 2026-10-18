@@ -103,6 +103,12 @@
 | 92 | ⭐ Ana dönüşüm klibin ilk yarısında biter; saniye takvimi tutmaz, geç teslimat tutar | THE POOL ROOM · 6/7 klip | ✅ ölçüldü |
 | 93 | Su seviyesi inmedi, silindi; tabanda prompt dışı gider delikleri | THE POOL ROOM · S0 2→3 sn | ✅ ölçüldü (1 klip) |
 | 94 | Kapak başlığı üst bantta: profil kırpmasında film adı kesildi → DIKEY_TIMELAPSE_KAPAK §3 · kapak_prova.py | THE POOL ROOM kapağı | ✅ ölçüldü |
+| 95 | ⭐ Görünmeyen hedefe yazılan eylem: avluda çukur açılıp kapandı, su avluya fışkırdı | THE RAIN TOWER · S1 · S2 | ✅ ölçüldü (2 klip · 5/5 mercek) |
+| 96 | ⭐ Uç karelerdeki konum klip içi yolla çelişince nesne ışınlandı / ikiye çıktı | THE RAIN TOWER · S0 · S3 · S5 | ✅ ölçüldü (3 klip) |
+| 97 | "Aşağıdan yukarı" yazıldı, montaj tepeden geldi; "to the top" çatıya insan çıkardı | THE RAIN TOWER · S3 · S4 · S5 | ✅ ölçüldü (3 klip) |
+| 98 | Gök ve renk sıcaklığı klip içinde ileri geri gitti (gök bandı ölçümü) | THE RAIN TOWER · S2 · S3 · S5 · S6 | ✅ ölçüldü |
+| 99 | Usta karede kule 1,5× uzun çıktı: başlık kutusu kayboldu, kapak kırpmada kesildi | THE RAIN TOWER · G8 · kapak | ✅ ölçüldü |
+| 100 | ⭐ POOL ROOM'un teslim dersleri ikinci filmde kurguya ve QA koşusuna inmedi | THE RAIN TOWER · yayın + QA | ✅ ölçüldü |
 
 ---
 
@@ -2601,6 +2607,9 @@ KİLİT       ① Plan ana işi 0–4 sn'ye koyar; 4–8 sn ikinci, KÜÇÜK iş
             ③ Mikro doyum anı bir NESNEYE bağlanır (son panelin oturması), saniyeye değil; pilotta 2x'te ölçülür.
 KALDIRDIĞI  Saniye saniye koreografiye güvenmek ve "işin bittiği an klibin sonudur" varsayımı.
 NEREYE      MONOTONIK_ILERLEME §4.4 (ölçüm notu) · NANO_BANANA §11 (ölçüldü) · plan şablonu "saniye saniye" blokları
+2. ÖLÇÜM    THE RAIN TOWER (17.10.2026, yayın 2x): geç teslimat 5/5 TUTTU — platform (S2 10,5) · kaya paleti (S3 15,0) ·
+            bitki paleti (S4 19,25) · sarkan bitki paleti (S5 ≈ 23,0) · park (S6 27,5). Ana iş yine erken: ızgara
+            ≈ 0,5 sn · kaya ≈ 0,75 sn · yeşil ≈ 0,5 sn (yayın). Rejim G finali (S7) planın saniyesine yakın tuttu.
 ```
 
 ---
@@ -2645,6 +2654,155 @@ KİLİT       DIKEY_TIMELAPSE_KAPAK_KILAVUZU §3: başlık kutusu x 180–900 ·
 KALDIRDIĞI  Başlığı kadrajın en tepesine, gökyüzüne yazma alışkanlığı. Karşılığı: başlık her kırpmada okunur.
 NEREYE      DIKEY_TIMELAPSE_KAPAK_KILAVUZU §0 · MUZIK_VE_KAPAK §2.3 notu · AGENTS kart A 9 · kart Y 3b ·
             araclar/kapak_prova.py · kilavuzlar/KAPAK_SAFE_AREA_1080x1920.png
+```
+
+---
+
+## DERS 95 — ⭐ Görünmeyen hedefe yazılan eylem: model hedefi görünür yere çizdi, son kare onu geri sildi
+
+```
+NEREDE      THE RAIN TOWER · S1 (yayın 5,75–6,75 · kaynak 3,5–5,5) · S2 (yayın 8,0–10,0 · kaynak 0–4) · 17.10.2026
+NE OLDU     Plan: hazne = kulenin İÇİNDEKİ eski asansör çukuru, 0,50 m beton eşiğin arkasında; kamera avlunun karşısındaki
+            çatıda, tilt 0 → çukur görünmez, su yüzü en iyi hâlde 60 px bant (plan TASARIM ⑧ bunu bedel diye yazdı).
+            Prompt S1 "lay the long plank ramp from the yard over the pit sill down to the pit floor"; S2 "water … into
+            the pit, welling up quietly from the turned-down pipe end … rises up the old stone courses".
+            Ekran: S1'de kulenin ÖNÜNDE, avlunun ortasında dikdörtgen bir çukur açıldı, rampa içine indi, 1 sn (yayın)
+            sonra kapandı, çatlak beton otlarıyla geri geldi. S2'de su boru ucundan yay çizerek AVLUYA fışkırdı, avluda
+            göllendi; göl iki klip sonra iz bırakmadan kurudu. Beş mercek de gördü: ❶ en kötü eriyen cisim · ❹ ilk
+            beliren parça · ❸ büyüme · ❷ "su çukur yerine avluya" · ❺ suyu "direnç" diye okudu.
+NEDEN       Uç kareler (G1 · G2 · G3) çukuru göstermiyordu; prompt fiili çukura DOKUNAN bir eylem istiyordu. Model eylemi
+            görünür kılmak için hedefi görünür bir yere (ön avlu) çizdi, çukursuz bitiş karesine uymak için geri kapattı.
+            Su için aynısı: "yüzeyin altından kabarır" yazıldı ama görünen bir yüzey yoktu → su görünen zemine aktı.
+            Buradaki fışkırmanın (DERS 67) tetikleyicisi bir kelime değil, görünmeyen hedef.
+KİLİT       ① Kadraj kapısı: MOTION FOCUS'taki her HEDEF yüzey (çukur, hazne, cep, iç duvar) iki uç karede de görünür
+              ve ≥ 40 px olmalı. Değilse eylem planda görünen bir yüzeye bağlanır ya da beat sahneden çıkar.
+            ② Görünmeyen hedefin kanıtı görünen bir TAŞIYICIYLA yazılır, pozitif: "the pit stays hidden behind the
+              sill; the only sign of the filling is the dark band climbing the back-wall stones just above the sill".
+            ③ Görünmeyen hedef için yol nesnesi (rampa, boru) da kadrajda biter: "the ramp's lower end disappears
+              behind the sill".
+KALDIRDIĞI  Kadraj dışındaki ya da eşik arkasındaki işi eylemle göstermek; görünmeyen hazneli su sahnesi.
+NEREYE      SU_VE_YANSIMA §6 (arıza tablosu) · SANTIYE_HAREKETI §4.6 (iş yüzeyi görünür olmalı)
+```
+
+---
+
+## DERS 96 — ⭐ Uç karelerdeki konum klip içi yolla çelişince nesne ışınlandı ya da ikiye çıktı
+
+```
+NEREDE      THE RAIN TOWER · S0 (yayın 3,0–3,75) · S3 (13,75–15,75) · S5 (bitki paleti 22,0–24,0) · 17.10.2026
+NE OLDU     S0: G0'da asılı kabin kilidin ≈ 100 px SOLUNDA (ekran ≈ 600–745 px; SPEC 728–831), G1'de kilitte. Kabin
+            takozlara oturdu; vinç SOLA, kulenin önünden geçerken (prompt: "drives out of the frame past the right
+            edge") kabin vincin hareket bulanıklığının arkasında sağa sıçradı. ❶ cat 7/8 · ❸ "teleports".
+            S3: prompt platforma iki iş noktası verdi (ızgara arka duvarda, boru sağ arka köşede); platform kule
+            tepesinin üstüne çıktı, 13,75'te İKİNCİ bir platform sağda belirdi, soldaki kayboldu, 15,75'te G4 gereği
+            yine solda. ❶ ❷ ❸ ❹ dördü de gördü. S5: bitki paleti sol → sağ → orta → sol (❶ ❸ ❹).
+NEDEN       İki uç kare bir nesneyi farklı yerde gösteriyorsa ya da promptun iş noktası uç karenin koyduğu yerden
+            uzaksa model aradaki yolu hareketle değil sıçramayla kapatıyor; sıçramayı büyük, hareketli bir nesnenin
+            (vinç) arkasına saklıyor ya da nesneyi kopyalıyor.
+KİLİT       ① zincir_kontrol'de nirengiye ek olarak DURAN nesneler (asılı/oturan yük, park yeri, palet) iki uç karede
+              ölçülür: ±20 px. G0'daki asılı yük G1'deki oturma yerinin TAM üstünde çizilir (planın sayısı).
+            ② Bir makine bir klipte TEK iş noktası. İkinci nokta gerekiyorsa erişim yazılır ve uç kare makineyi
+              orada bırakır: "the boom lift stays left of the tower and reaches the back-right corner by swinging its
+              boom across the shaft".
+            ③ Çıkış yönü kadrajda boş olan taraftan ve yazılı yoldan: "drives out past the right edge along the
+              factory wall, behind the car".
+KALDIRDIĞI  Bir klipte tek makineyle iki uzak iş noktası; G0'da sayısız (serbest) asılı yük yerleşimi.
+NEREYE      SANTIYE_HAREKETI §4.6 · plan kadraj kilitleri tablosunda "duran nesneler" satırı
+```
+
+---
+
+## DERS 97 — "Aşağıdan yukarı" yazıldı, montaj tepeden geldi; "to the top" çatıya insan çıkardı
+
+```
+NEREDE      THE RAIN TOWER · S4 (yayın 16,25–20,0) · S5 (21,0–22,5) · S3 (12,75) · 17.10.2026
+NE OLDU     Prompt S4 "bolt them onto the grid one by one, row by row from just above the water to the top".
+            Ekran: sepet önce tepeye çıktı; kaya yüzü üst gözde başladı (iki üst göz 17,0 · alt göz 17,5); 17,75–20,0
+            kule ÇATISINDA 2–3 figür, 16,25'te fabrika çatısında bir figür (❹ THE MOST DAMAGING INTRUDER). S5'te bitki
+            önce ÜST gözde (S6'nın işi, G6'da çıplak) belirdi, 22,0'de alt bantlarda patladı, üst göz geri gitti
+            (❹ regresyon). S3'te ızgara bir an kule çatısının ÜSTÜNDE küp olarak çizildi.
+NEDEN       Platformun klipteki ilk büyük hareketi yükselmek; model işi sepetin bulunduğu yerde başlattı. "To the top"
+            kulenin tepesi = çatı diye okundu: çatıya insan, çatının üstüne ızgara.
+KİLİT       ① Sepetin klip başındaki yeri uç karede (G(n)) en alt sırada çizilir ve promptta yazılır: "the basket
+              starts at the lowest row, just above the water".
+            ② Bitiş kotu eleman adıyla, çatı adıyla değil: "up to the underside of the top beam" · "the flat roof of
+              the tower stays empty; the only people above the yard are the two in the basket".
+            ③ Bir bant bir klip (POOL ROOM DERS 92 ②): sonraki bandın çıplak kaldığı cümle G(n+1) kilidinden I2V'ye de
+              taşınır — "the upper band stays bare grey rock for the whole shot".
+KALDIRDIĞI  Tepeden aşağı montajı göstermek (gerçekte mümkün — platformla üstten başlanabilir).
+NEREYE      SANTIYE_HAREKETI §4.6 · MONOTONIK_ILERLEME §4.4 notu
+```
+
+---
+
+## DERS 98 — Gök ve renk sıcaklığı klip içinde ileri geri gitti; "aynı hız" cümlesi gökte tutmadı
+
+```
+NEREDE      THE RAIN TOWER · S6 (yayın 24,0–28,0) · S5 (21,25–23,0) · S2 (8,5–10,25) · S3 (13,5–14,5) · 17.10.2026
+NE OLDU     Ölçüm: gök bandı (üst %15) mavi−kırmızı farkı, 0,25 sn adım:
+              S6  +120 → +7 (25,75 — turuncu "gün batımı") → +90 (28,0 — G7)   ← ileri, sonra GERİ
+              S5  +129 → +26 (23,25 — kapalı gri gök, bulutlar hızla) → +119
+              S2  +102 → +35 (9,25 — hızlı bulut) → +113, sonra bulutlar DONDU
+              S3  +117 → +80 (13,5–14,5 — sağ üstte güneş parlaması; plan güneşi 175°'de, kameranın arkasında)
+            Prompt (S6): "Two hours pass toward evening. Everything in this shot is time-lapsed at the same rate: the
+            light, the shadows…". ❷ 3 SKY 5 · 4 ONE CLOCK 5 · 5 EXPOSURE 5 · C3 7.
+NEDEN       Rejim B'de (2 sa → 8 sn) ışık eğrisi modele kalıyor. G6 mavi öğleden sonra, G7 altın akşam: model farkı
+            DERS 92 gibi ERKEN kapattı, hatta aştı (G7'den turuncu), sonra bitiş karesine geri çekti. Hız cümlesi gölge
+            ve makineyi bağladı, göğü bağlamadı.
+KİLİT       ① Işık farkı büyük çiftte (G(n) gündüz mavisi → G(n+1) altın) gök cümlesi YÖNLÜ yazılır: "the sky warms
+              slowly in one direction, from pale afternoon blue at the start to the gold of the last frame, reaching
+              that gold only in the final second".
+            ② Kare panosu ölçümü (bu kayıtta elle yapıldı): gök bandı renk farkı klip içinde TEK yönde değişir;
+              ±20'den büyük dönüş → klip ışık kusurlu (❷'den önce ajan görür).
+            ③ Altın ışık iki klibe bölünür (ara kare 16:50 sarımsı) ya da renk dönüşü rejim G finalinin hemen
+              öncesine yığılmaz.
+KALDIRDIĞI  Tek klipte "öğleden sonra mavisi → altın akşam" sıçraması.
+NEREYE      SANTIYE_HAREKETI §1 (rejim B cümlesinin altına not)
+```
+
+---
+
+## DERS 99 — Usta karede kule plandan 1,5× uzun çıktı: başlık kutusu yerini kaybetti, kapak kırpmada kesildi
+
+```
+NEREDE      THE RAIN TOWER · G8 / kapak kartı (yayın 32,0–37,0) · THE_RAIN_TOWER_Cover.jpg · 17.10.2026
+NE OLDU     Plan kule %27,2–58,3 (tepe y 800 px), başlık kutusu y 560–770 sakin gökte (DERS 94 kilidi plana inmişti).
+            Ekran: kule y ≈ 444–1360 (%29–77), genişlik ≈ 310 px (plan 324 ✓) — bölmeler uzun, kule 1,5× yüksek.
+            Kutu kulenin üst gözüne biniyordu; başlık y ≈ 290–465'e, üst banda kondu. kapak_prova: 3:4 sınırda,
+            4:5'te "THE RAIN" yarıdan kesik, 1:1'de başlık YOK. POOL ROOM'un (DERS 94) aynısı, plan kilidine rağmen.
+NEDEN       Usta kare kapısı (günlük §1 "taç %'si") koşulmadı — üretim günlüğü boş. Görsel model genişliği tuttu,
+            yüksekliği (en/boy oranı) tutmadı; yapı oranı yalnız piksel sayısıyla yazılmıştı.
+KİLİT       ① G8 onaylanmadan önce kapak_prova.py G8'in METİNSİZ hâline koşulur: başlık kutusu (560–770) boş gök mü,
+              yapı tepesi ≤ 800 mü. Değilse G8 yeniden — zincir G8'den başladığı için tek yer burası.
+            ② Yapı oranı promptta oranla da yazılır: "the tower is about one and a half times as tall as it is wide;
+              its flat top stands just above the factory roofline".
+KALDIRDIĞI  Kapak çekirdeğini sonradan, kurgu masasında kurtarmak.
+NEREYE      DIKEY_TIMELAPSE_KAPAK_KILAVUZU §0 (ÖLÇÜLDÜ satırı) · üretim günlüğü §1 USTA KARE KAPI
+```
+
+---
+
+## DERS 100 — POOL ROOM'un teslim dersleri ikinci filmde kurguya ve QA koşusuna inmedi
+
+```
+NEREDE      THE RAIN TOWER · yayın dosyası + beş mercek koşusu · 17.10.2026
+NE OLDU     Bir gün önce ölçülüp derse dönen kilitlerin durumu:
+              ✅ DERS 85 kart G8 dünyasından (kart = kapak görseli, son sahneyle aynı kadraj)
+              ✅ DERS 86 klip düşmedi (8 × 4,0 sn, kesmeler 4,0 · 8,0 … 28,0 · kart 32,00)
+              ❌ DERS 90 qa_paket koşulmadı: ❸ ❺ ölçülmüş olgular bloğunu yer tutucuyla aldı, ❸ 12 klip saydı ·
+                 ❶ ❷ KÖR merceklere QA_SPEC eklendi (❶ sorularında plan bilgisi: "eşik", "sağ kenardan çıkmak")
+              ❌ DERS 94 başlık yine üst bantta (DERS 99) · ❌ POOL ROOM E08 dosya yine 2160×3840 (plan 1080×1920)
+              ❌ DERS 28 üretim günlüğü boş · ❌ plan §SES "kartta şelale sesi sürer" → kartta 33–37 sn dijital
+                 sessizlik (−91 dB), ❺ yakaladı
+NEDEN       Kilitler plan, KAPAK ve günlük dosyalarında; kurgu ve QA koşusu bu dosyalar açılmadan yapıldı. qa_paket.sh
+            boş günlükte DURUR → araç yolu kapandı, koşu araçsız yapıldı. Bilgi vardı, iş akışına inmedi.
+KİLİT       ① Yayın dosyası çıkınca, merceklerden ÖNCE ajan ölçer: ffprobe · ihrac_kontrol.sh · kapak_prova.py ·
+              1 sn kare panosu · ses kuyruğu (kart). Sahibe "koşulabilir / önce şunu düzelt" listesi verilir.
+            ② Mercek paketi yalnız qa_paket.sh çıktısından kopyalanır (rubrik + doldurulmuş blok tek dosya); belge
+              yalnız ❹ ❺ sohbetine elle eklenir. Günlük boşsa paket yine basılmalı, künyeye "ÜRETİLDİ · GÜNLÜKSÜZ"
+              — ⚠️ qa_paket.sh bugün boş günlükte DURUYOR; bayrak eklemek sahip kararı (yapılmadı).
+KALDIRDIĞI  Rubriği doğrudan sohbete yapıştırıp koşmak; kurgudan sonra plan dosyasına bakmadan yayına çıkmak.
+NEREYE      QA_KOSU §4 notu · AGENTS kart R (adım 3 öncesi ölçüm)
 ```
 
 ---

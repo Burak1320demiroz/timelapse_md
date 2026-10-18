@@ -145,6 +145,9 @@ KANARYA (öneri · kapı adımı): her QA_SPEC'in künyesine bir uydurma terim
    paydasından çıkar ve film puanı "N=…" taşır [RUBRIK_YAZIM §4.2].
 ⭐ Yeniden koşu eskisini silmez: yeni dosya _K2 ekiyle kaydedilir, eskisi
    YERİNE GEÇTİ olur [QA_KAYIT §3].
+⚠️ DERS 100 (RAIN TOWER, 17.10.2026): paketsiz koşu ikinci filmde de oldu — ❸ ❺ boş yer tutucularla,
+   ❶ ❷ QA_SPEC ekli koşuldu. Paket yalnız qa_paket.sh çıktısından kopyalanır; koşu araçsız yapılmaz.
+   (qa_paket.sh boş günlükte duruyor — günlüksüz paket bayrağı sahip kararı bekliyor.)
 ```
 
 ---
