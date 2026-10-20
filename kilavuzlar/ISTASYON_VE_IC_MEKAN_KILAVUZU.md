@@ -127,6 +127,10 @@ Bugün denetim ELLE yapılır (②).
 
 ⛔ İç mekânda okunur ekran, gösterge, kadran YAZILMAZ — metin riskidir; yüzey "plain matte panels and
 timber" diye pozitif tarif edilir [P12-f · DERS 35].
+⚠️ Kapı arkası somut ve penceresiz yazılır ("a dim windowless stair landing: a plain grey plastered wall and the top
+of a dark wooden banister"); kapı bir klipte tek hâlde kalır — sahanlık açılışta balkona, göğe, çama döndü [DERS 101].
+⚠️ Tek pencere yayıcıyla (kâğıt, perde) örtülüyse ikinci görünen zaman taşıyıcısı gerekir (pencerenin üst ucu açık
+gök) ve örtü en fazla iki klip sürer — kâğıdın rengi kör ❷'de "yapay parıltı", film WRONG DIRECTION okundu [DERS 104].
 
 ---
 

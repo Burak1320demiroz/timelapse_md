@@ -419,6 +419,63 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
    ⚠️ FIRST SLICE ile arka arkaya ÖNERİLMEZ (dördüncü iç mekân); yatay 12 dk hattında THE SKY STATION ile sıra sahibin
       (öneri, kural DEĞİL: P15-a açık okuma, izleyici verisi yok).
 
+⭐ 18.10.2026: THE HIDDEN LOFT yazıldı — `dikey_shorts/THE_HIDDEN_LOFT/` · ⚠️ AİLE BEKLİYOR: İÇ MEKÂN (BEŞİNCİ ardışık iç
+   mekân — POOL ROOM · TOTAL RESET · FIRST SLICE · GRAND REVIVAL ile aynı bekleyen aile · tilt 0, ufuk %50, kamera oda
+   ekseninde, h 1,6, arka alın duvarı %39,0–70,6, üst alın üçgeni ve çatı eğimleri koyu ahşap = kapak başlık alanı).
+   Bakımsız çatı katı → ceviz kütüphaneli salon; cam S1'den S7'ye koruma kâğıdıyla kapalı, finalde kâğıt iner ve alçak akşam
+   güneşi üçgen pencereden içeri dolar — ANAHTARSIZ final (son dört iç mekânın üçü yapay ışıkla bitiyordu).
+   ⭐ BEDEL: çatı katının unutulmuşluğu (kirli halı, sandıklar, tozlu ışık) · tanıklar kadrajda: koyu ahşap çatı (dokuz karede
+      aynı) · pencere kasası · alın duvarındaki kapı · pencerenin önündeki zemin (G0 gri ışık → G8 altın üçgen).
+   ⭐ DEFTER: her şey alın duvarındaki tek kapıdan (öneriden sapma: kameraya yakın yan duvar 24 mm dikeyde kadraj dışı) · iki
+      işçi, parçalar TEK TEK, bekleyenler sahanlıkta (DERS 89) · çatı tek terim, "truss" yasak (DERS 80) · üretim sırası
+      G8 → G0, kapak_prova METİNSİZ G8'e onaydan önce (DERS 99).
+   ⚠️ SAHİP İSTİSNASI (18.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM G (kâğıdın inişi ve ışığın girişi 1×) → P16-g "G finali" sayımına GİRER (RAIN TOWER · TOTAL RESET ·
+      GRAND REVIVAL'den sonra; FIRST SLICE A idi).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 8 × 8 sn, tek kamera); ajan önerisi (işlev anı yok · dik diz duvarı · DERS 89
+      kilidi · taş tabla elle · kapak bandı · başlık 47 karakter · tekrar · pilot) → sahip "Kâğıt iner, güneş girer" · "Onaylı".
+   ⚠️ TOTAL RESET ile arka arkaya ÖNERİLMEZ (aynı iş sırası ve kadro); araya dış mekân filmi (öneri, kural DEĞİL: P15-a açık
+      okuma, izleyici verisi yok).
+
+⭐ 19.10.2026: THE LAST STOP ⭐ZEMİN ailesine yazıldı — `dikey_shorts/THE_LAST_STOP/` (kaya sırtından orman açıklığına bakış,
+   h +15,0 m · yatayda 8,6 m · bearing 335° · tilt 54° aşağı · ufuk %145 — ⛔ GÖK YOK, UFUK YOK; kareyi kapatan şey açıklığın ve
+   ormanın gölgeli zemini · otobüs %31,3–59,5 · başlık alanı otobüsün ötesindeki koyu orman zemini; HIDDEN OASIS · SWALLOWED BUS ·
+   EMPTY LOCK · DEEP END · VANISHING ROOM · FIRST GUEST'ten sonra). Otun sardığı paslı otobüs → bordo, cam tavanlı orman süiti;
+   sabah sökülen orta tavan panelinin açıklığına alacakaranlıkta cam oturur ve içerisi yanar.
+   ⭐ BEŞ ARDIŞIK İÇ MEKÂNDAN SONRA İLK DIŞ MEKÂN — HIDDEN LOFT'un "araya dış mekân filmi" önerisini karşılar; HIDDEN LOFT'un
+      arkasına önerilir (öneri, kural DEĞİL).
+   ⭐ BEDEL: otobüsün yolculuğu (koltuklar, paslı tavan) · tanıklar kadrajda: gövde biçimi, dört pencere, kapı, tekerlekler, ön cam,
+      tavan kapakları (dokuz karede aynı) · solda takozlarda sökülen paslı panel · tavan açıklığı (G0 boş → G8 cam, AYNI yer).
+   ⭐ DEFTER: kaldırma karede biter (DERS 57 · 96; sahip seçimi) · tek kaldırıcı "boom truck", 'crane' YASAK KELİME'de · iki işçi,
+      bom operatörü işçilerden biri (kumanda) · parke enine (DERS 102) · yarımlar yerinde (DERS 103) · üretim sırası G8 → G0,
+      kapak_prova METİNSİZ G8'e onaydan önce (DERS 99).
+   ⚠️ SAHİP İSTİSNASI (19.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM A (10 dk) → P16-g "G finali" sayımına GİRMEZ (RAIN TOWER · TOTAL RESET · GRAND REVIVAL · HIDDEN LOFT G idi).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi, 8 × 8 sn, tek kamera); ajan önerisi (kart · müzik · 4+4 final · pas adımı ·
+      ekranda direnç · yön kelimeleri · parke · kanepe · pilot · üç karar) → sahip "Cam oturur, ışık yanar" · "Kaldırma karede
+      biter" · "Kılavuz yerleşimi" · "Onaylı". Paketten tek geometrik sapma: kamera 5–6 m değil 15 m (tavandan iç mekân).
+   ⚠️ İşlev anı ışık: TOTAL RESET · POOL ROOM ile aynı mekanizma (sahip bilerek seçti). ⛔ ZEMİN ailesinden bir filmle ARDIŞIK
+      YAYINLANAMAZ; SWALLOWED BUS ile ayrıca "otobüs" tekrarı.
+
+⭐ 20.10.2026: THE SKY VAULT ⭐KÜTLE ailesine yazıldı — `dikey_shorts/THE_SKY_VAULT/` (şehir çatısında göz hizası, h +3,0 m ·
+   yatayda 10,5 m · bearing 10° · tilt 0 · ufuk %50 · depo %29,4–58,3 × x 299–796, TEK büyük gövde · üstünde açık gök, başlık
+   alanı deponun üstündeki gök; BLUE DOOR · BACK TO WATER · ONE MORE TURN · NARROW GORGE'dan sonra). Paslı sekizgen çatı deposu →
+   kömür renkli, cam cepheli seyir odası; camlar süt beyazı filmle takılır, alacakaranlıkta film soyulur, sıcak ışıklı oda çıkar.
+   ⭐ BEDEL: deponun işi (borular, paslı ön yüz) · tanıklar kadrajda: sekizgen gövde, dikmeler, halkalar, konik çatı, platform, üç
+      basamak (dokuz karede aynı) · solda rafta sökülen üç paslı panel · sağ geniş yüz (G0 delik → G8 cam, AYNI yer).
+   ⭐ DEFTER: kaldırma karede biter (DERS 57 · 96; sahip seçimi) · vinç yalnız G0–S0, sonra kadraj dışı · yan paneller ve camlar
+      iki işçiyle elde, cam yüz ölçüsünde (DERS 88 · 89) · berjerler yerinde, dışarı bakarak (DERS 103) · parke yönü ayrı cümle
+      (DERS 102) · kamera kuzeye bakar, güneş hiçbir karede kadrajda değil (DERS 39 · 70) · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (20.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM A (10 dk) → P16-g "G finali" sayımına GİRMEZ.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "BUILDWAKE — THE SKY VAULT", 8 × 8 sn, tek kamera); ajan önerisi (LAST STOP
+      benzerlik uyarısı · kanal adı · kart · müzik · 4+4 final · ışık eğrisi · pas adımı · taşıma yolu · parke · berjer · başlık ·
+      açıklama sorusu · dört karar) → sahip "Film soyulur" · "Kaldırma karede biter" · "Kılavuz yerleşimi" · "Onaylı". Paketin
+      3 m kamerası tutuldu; "sol giriş kapısı okunur" isteği geometrik olarak yok (kapı ≈ 5 px, beyanlı).
+   ⚠️ İŞLEV ANI ÖRTÜ SÖKÜMÜ: HIDDEN LOFT ile aynı mekanizma (sahip bilerek seçti). ⛔ İÇERİK AKRABASI: THE LAST STOP ile vuruş vuruş
+      aynı iş sırası (asılı panel → boşalt → zımpara/boya → meşe → krem mobilya → cam → akşam). Aile kuralı izin verse de (ZEMİN →
+      KÜTLE) ⛔ LAST STOP ve HIDDEN LOFT ile ARDIŞIK YAYINLANMAZ (§1 şablon yükleme riski); KÜTLE filmleriyle de ardışık olamaz.
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.

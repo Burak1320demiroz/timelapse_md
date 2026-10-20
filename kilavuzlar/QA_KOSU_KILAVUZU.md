@@ -148,6 +148,10 @@ KANARYA (öneri · kapı adımı): her QA_SPEC'in künyesine bir uydurma terim
 ⚠️ DERS 100 (RAIN TOWER, 17.10.2026): paketsiz koşu ikinci filmde de oldu — ❸ ❺ boş yer tutucularla,
    ❶ ❷ QA_SPEC ekli koşuldu. Paket yalnız qa_paket.sh çıktısından kopyalanır; koşu araçsız yapılmaz.
    (qa_paket.sh boş günlükte duruyor — günlüksüz paket bayrağı sahip kararı bekliyor.)
+⚠️ DERS 105 (HIDDEN LOFT, 19.10.2026 · üçüncü film): blok boş koşulan ❸ ❺ dosyayı 1 sn'lik 32 klip okudu, ekranda
+   olmayan olaylar yazdı, kategorilerin hemen hepsine 10 verdi; ❶ ❷ ❹ aynı yanlış kesme listesini verdi. Ajan bloğu
+   ffprobe + klip_eslestir ile ELLE doldurur · "CLIPS YOU CAN SEE" blokla tutmazsa rapor yeniden koşulur · kategorilerin
+   ≥ %80'i 10/10 ve sıfır kusur → ŞİŞİK, puan yok.
 ```
 
 ---

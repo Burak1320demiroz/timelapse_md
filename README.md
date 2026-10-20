@@ -47,10 +47,10 @@ a scene and a second where something broke. Unmeasured ideas are kept apart as *
 
 | | count | source |
 |---|---:|---|
-| 🎬 Film folders | **58** (44 vertical · 14 horizontal) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
-| 📄 Films with plan / QA spec | 58 / 58 · 57 / 58 | `sayac.sh` (THE SKY STATION spec not written yet) |
-| 📓 Films with a production log | 27 / 58 | `sayac.sh` (QA cannot open without one) |
-| ⛓️ Plans on the two-keyframe chain | 52 / 58 | `KILAVUZ_REHBERI §2.7` |
+| 🎬 Film folders | **61** (47 vertical · 14 horizontal) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
+| 📄 Films with plan / QA spec | 61 / 61 · 60 / 61 | `sayac.sh` (THE SKY STATION spec not written yet) |
+| 📓 Films with a production log | 30 / 61 | `sayac.sh` (QA cannot open without one) |
+| ⛓️ Plans on the two-keyframe chain | 55 / 61 | `KILAVUZ_REHBERI §2.7` |
 | 📚 Measured lessons | **100** | `kilavuzlar/DERSLER.md` |
 | 🧪 Coded assumptions & plan readings | 444 (⬜ open 404 · ✅ measured 33 · ❌ dropped 7) | `VARSAYIMLAR.md` · `PLAN_OKUMALARI.md` |
 | 🔬 Research prompts / processed raw reports | 35 / 49 | `arastirma/` |
@@ -91,7 +91,7 @@ Why: in the measured archive, continuity failed in five films out of five, and e
 
 | line | folder | grid | runtime | prompts |
 |---|---|---|---|---|
-| 📱 Vertical 9:16 | `dikey_shorts/` | **exactly 7 scenes × 8.0 s** (owner exceptions: THE POOL ROOM · THE RAIN TOWER · TOTAL RESET · FIRST SLICE 8) | 56.0 s, shared at 2× (≈28 s) **+ closing cover card** | 8 images + 7 I2V = 15 |
+| 📱 Vertical 9:16 | `dikey_shorts/` | **exactly 7 scenes × 8.0 s** (owner exceptions: THE POOL ROOM · THE RAIN TOWER · TOTAL RESET · FIRST SLICE · THE HIDDEN LOFT · THE LAST STOP · THE SKY VAULT 8) | 56.0 s, shared at 2× (≈28 s) **+ closing cover card** | 8 images + 7 I2V = 15 |
 | 🖥️ Horizontal 2 min | `yatay_2_dk_filmler/` | band 12 × 10.0 s · owner-approved 15 / 18 / 20 × 8.0 s | 2:00 – 2:40 | 2N+1 |
 | 🖥️ Horizontal 4 min | `yatay_4_dk_filmler/` | band 24 × 10.0 s · owner-approved 30 × 8.0 s | 4:00 | 2N+1 |
 | 🖥️ Horizontal 6 min | `yatay_6_dk_filmler/` | 36 × 10.0 s (two QA halves) | 6:00 | 73 |
@@ -267,14 +267,15 @@ Writing a new film? Read in this order: `AGENTS.md` (card A or Y2) → `kilavuzl
 
 ## 12. Honest status
 
-- **No plan passes the current gate with GO.** 12 plans are at FIX (8 horizontal + THE POOL ROOM + THE RAIN TOWER + TOTAL RESET + FIRST SLICE, declared warnings); 44
+- **No plan passes the current gate with GO.** 15 plans are at FIX (8 horizontal + THE POOL ROOM + THE RAIN TOWER + TOTAL RESET + FIRST SLICE + THE HIDDEN LOFT + THE LAST STOP + THE SKY VAULT, declared warnings); 44
   are BLOCK, most of them vertical films written before the gate was tightened on 05.10.2026 and kept as archive.
   THE SKY STATION (12 min) has its plan only; part files and spec are not written yet. THE GRAND REVIVAL (12 min, nine
   fixed cameras by owner exception) passes the gate on its combined file with 0 BLOCK · 4 declared FIX; the folder-mode
   gate does not know the 12-minute room files yet.
-- **The five-lens QA has measured 3 films** (THE SKY STATION part 1, THE POOL ROOM, THE RAIN TOWER). No score is trustworthy on
-  its own: POOL ROOM's only complete run gave 10/10 while the machine found three plan mismatches; RAIN TOWER's blind lenses
-  were run with the spec attached or without the measured facts block (lesson 100).
+- **The five-lens QA has measured 4 films** (THE SKY STATION part 1, THE POOL ROOM, THE RAIN TOWER, THE HIDDEN LOFT). No score is
+  trustworthy on its own: POOL ROOM's only complete run gave 10/10 while the machine found three plan mismatches; RAIN TOWER's blind
+  lenses were run with the spec attached or without the measured facts block (lesson 100); in HIDDEN LOFT two lenses run without the
+  block invented 32 one-second clips and scored almost every category 10/10 (lesson 105).
 - **Targets the frame cannot see get redrawn where it can.** RAIN TOWER's pit sat behind a sill, invisible at tilt 0; the
   model opened a pit in the yard and sprayed the water onto it, then erased both (lesson 95). The final waterfall held.
 - **The model front-loads the work.** In 6 of 7 POOL ROOM clips the main change finished in the first 2–4 s of 8; the
@@ -335,10 +336,10 @@ kırıldığı saniyeye işaret eder. Ölçülmemiş fikirler ayrı tutulur: *va
 
 | | sayı | kaynak |
 |---|---:|---|
-| 🎬 Film klasörü | **58** (44 dikey · 14 yatay) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
-| 📄 Planı / QA SPEC'i olan | 58 / 58 · 57 / 58 | `sayac.sh` (THE SKY STATION SPEC'i henüz yazılmadı) |
-| 📓 Üretim günlüğü olan | 27 / 58 | `sayac.sh` (günlüksüz filme QA açılmaz) |
-| ⛓️ İki keyframe zincirindeki plan | 52 / 58 | `KILAVUZ_REHBERI §2.7` |
+| 🎬 Film klasörü | **61** (47 dikey · 14 yatay) | `dikey_shorts/` · `yatay_*_dk_filmler/` |
+| 📄 Planı / QA SPEC'i olan | 61 / 61 · 60 / 61 | `sayac.sh` (THE SKY STATION SPEC'i henüz yazılmadı) |
+| 📓 Üretim günlüğü olan | 30 / 61 | `sayac.sh` (günlüksüz filme QA açılmaz) |
+| ⛓️ İki keyframe zincirindeki plan | 55 / 61 | `KILAVUZ_REHBERI §2.7` |
 | 📚 Ölçülmüş ders | **100** | `kilavuzlar/DERSLER.md` |
 | 🧪 Kodlu varsayım ve plan okuması | 444 (⬜ açık 404 · ✅ ölçüldü 33 · ❌ düştü 7) | `VARSAYIMLAR.md` · `PLAN_OKUMALARI.md` |
 | 🔬 Araştırma promptu / işlenmiş ham rapor | 35 / 49 | `arastirma/` |
@@ -377,7 +378,7 @@ Neden: ölçülmüş arşivde devamlılık beş filmin beşinde de düştü ve h
 
 | hat | klasör | ızgara | süre | prompt |
 |---|---|---|---|---|
-| 📱 Dikey 9:16 | `dikey_shorts/` | **kesin 7 sahne × 8,0 sn** (sahip istisnaları: THE POOL ROOM · THE RAIN TOWER · TOTAL RESET · FIRST SLICE 8) | 56,0 sn, 2x paylaşılır (≈28 sn) **+ sonda kapak kartı** | 8 görsel + 7 I2V = 15 |
+| 📱 Dikey 9:16 | `dikey_shorts/` | **kesin 7 sahne × 8,0 sn** (sahip istisnaları: THE POOL ROOM · THE RAIN TOWER · TOTAL RESET · FIRST SLICE · THE HIDDEN LOFT · THE LAST STOP · THE SKY VAULT 8) | 56,0 sn, 2x paylaşılır (≈28 sn) **+ sonda kapak kartı** | 8 görsel + 7 I2V = 15 |
 | 🖥️ Yatay 2 dk | `yatay_2_dk_filmler/` | bant 12 × 10,0 sn · sahip izniyle 15 / 18 / 20 × 8,0 sn | 2:00 – 2:40 | 2N+1 |
 | 🖥️ Yatay 4 dk | `yatay_4_dk_filmler/` | bant 24 × 10,0 sn · sahip izniyle 30 × 8,0 sn | 4:00 | 2N+1 |
 | 🖥️ Yatay 6 dk | `yatay_6_dk_filmler/` | 36 × 10,0 sn (QA iki yarıda) | 6:00 | 73 |
@@ -552,13 +553,14 @@ klasörünün `README.md`'si. Hikâye sahne sahne önerilir ve **hiçbir dosya y
 
 ## 12. Dürüst durum
 
-- **Hiçbir plan güncel kapıdan GO almıyor.** 12 plan FIX'te (8 yatay + THE POOL ROOM + THE RAIN TOWER + TOTAL RESET + FIRST SLICE, beyanlı uyarılar); 44 plan BLOCK.
+- **Hiçbir plan güncel kapıdan GO almıyor.** 15 plan FIX'te (8 yatay + THE POOL ROOM + THE RAIN TOWER + TOTAL RESET + FIRST SLICE + THE HIDDEN LOFT + THE LAST STOP + THE SKY VAULT, beyanlı uyarılar); 44 plan BLOCK.
   Bunların çoğu kapı 05.10.2026'da sıkılaşmadan önce yazılmış ve arşiv olarak tutulan dikey filmler. THE SKY STATION
   (12 dk) yalnız planıyla duruyor; bölüm dosyaları ve SPEC henüz yazılmadı. THE GRAND REVIVAL (12 dk, sahip istisnasıyla
   dokuz sabit kamera) birleşik dosyada kapıdan 0 BLOCK · 4 beyanlı FIX ile geçiyor; klasör modu 12 dk oda dosyalarını henüz tanımıyor.
-- **Beş mercekli QA 3 film ölçtü** (THE SKY STATION bölüm 1, THE POOL ROOM, THE RAIN TOWER). Hiçbir puan tek başına güvenilir
-  değil: POOL ROOM'un tek tam koşusu 10/10 verirken makine üç plan uyuşmazlığı buldu; RAIN TOWER'ın kör mercekleri SPEC ekli ya da
-  ölçülmüş olgular bloğu boş koşuldu (ders 100).
+- **Beş mercekli QA 4 film ölçtü** (THE SKY STATION bölüm 1, THE POOL ROOM, THE RAIN TOWER, THE HIDDEN LOFT). Hiçbir puan tek başına
+  güvenilir değil: POOL ROOM'un tek tam koşusu 10/10 verirken makine üç plan uyuşmazlığı buldu; RAIN TOWER'ın kör mercekleri SPEC ekli
+  ya da ölçülmüş olgular bloğu boş koşuldu (ders 100); HIDDEN LOFT'ta blok boş koşulan iki mercek 1 sn'lik 32 klip uydurdu, kategorilerin
+  hemen hepsine 10 verdi (ders 105).
 - **Kadrajın göremediği hedef, görebildiği yere yeniden çizilir.** RAIN TOWER'ın çukuru eşiğin arkasındaydı, tilt 0'da görünmüyordu;
   model avluda çukur açtı, suyu oraya fışkırttı, sonra ikisini de sildi (ders 95). Final şelalesi tuttu.
 - **Model işi klibin başına yığıyor.** POOL ROOM'un 7 klibinin 6'sında ana değişim 8 sn'nin ilk 2–4 sn'sinde bitti;
@@ -620,7 +622,7 @@ Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 
 | THE SKY STATION | 12 dk | 90 × 8,0 = 720 s | ruined cliff cable-car station restored and running | harabe uçurum teleferik istasyonu onarılıp çalışır | — |
 | THE GRAND REVIVAL | 12 dk | 90 × 8,0 = 720 s + 5 s card | abandoned 500 m² stone villa restored room by room, nine fixed cameras (owner exception), first dinner at blue hour | terk edilmiş 500 m² taş villa oda oda yenilenir, dokuz sabit kamera (sahip istisnası), mavi saatte ilk akşam yemeği | — |
 
-### 📱 Vertical / Dikey (41)
+### 📱 Vertical / Dikey (47)
 
 | film | grid / ızgara | structure | yapı | archive QA |
 |---|---|---|---|:-:|
@@ -668,6 +670,9 @@ Bütün yapılar ve yerler kurgusaldır. **Arşiv QA** = filmin dondurulmuş 12 
 | THE VANISHING ROOM | 7 × 8,0 | hidden room under a lawn | çimin altında gizli oda | ✅ |
 | TOTAL RESET | 8 × 8,0 | filthy, cluttered bedroom stripped and refitted as a warm suite, lit by one switch at dusk | çöple tıkanmış oda soyulup sıcak ışıklı süite döner, akşam tek anahtarla yanar | — |
 | FIRST SLICE | 8 × 8,0 | filthy repair garage turned into a working retro pizza shop; three jobs per scene, the first slice at dusk | yağlı tamirhane çalışan retro pizzacıya döner; her sahnede üç iş, akşam ilk dilim | — |
+| THE HIDDEN LOFT | 8 × 8,0 | neglected attic under a timber roof turned into a walnut-lined lounge; the papered triangular window is uncovered and the evening sun pours in | ahşap çatılı bakımsız çatı katı ceviz kütüphaneli salona döner; kâğıtla örtülü üçgen pencere açılır, akşam güneşi içeri dolar | — |
+| THE LAST STOP | 8 × 8,0 | rusty bus swallowed by a forest clearing turned into a burgundy forest retreat; the glass roof drops into the opening cut that morning and the inside lights up at dusk | ormanda otun sardığı paslı otobüs bordo orman süitine döner; sabah açılan tavana alacakaranlıkta cam oturur, içerisi yanar | — |
+| THE SKY VAULT | 8 × 8,0 | rusty octagonal tank on a city roof turned into a charcoal viewing room; the glass goes in hidden behind milky film, and at dusk the film is peeled to show the warm-lit room | şehir çatısında paslı sekizgen depo kömür renkli seyir odasına döner; cam süt beyazı filmle takılır, alacakaranlıkta film soyulur, sıcak ışıklı oda çıkar | — |
 
 ---
 

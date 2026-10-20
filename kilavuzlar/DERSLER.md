@@ -109,6 +109,11 @@
 | 98 | Gök ve renk sıcaklığı klip içinde ileri geri gitti (gök bandı ölçümü) | THE RAIN TOWER · S2 · S3 · S5 · S6 | ✅ ölçüldü |
 | 99 | Usta karede kule 1,5× uzun çıktı: başlık kutusu kayboldu, kapak kırpmada kesildi | THE RAIN TOWER · G8 · kapak | ✅ ölçüldü |
 | 100 | ⭐ POOL ROOM'un teslim dersleri ikinci filmde kurguya ve QA koşusuna inmedi | THE RAIN TOWER · yayın + QA | ✅ ölçüldü |
+| 101 | Kapının arkası (görünmeyen sahanlık) her açılışta yeniden çizildi: balkon, gök, çam | THE HIDDEN LOFT · S6 · S7 | ✅ ölçüldü (2 klip · ❶ ❹) |
+| 102 | "Across the width" ilerleme okundu: parke boyuna döşendi, klip sonunda enine yeniden çizildi | THE HIDDEN LOFT · S2 | ✅ ölçüldü (1 klip · ❶ ❷ ❹) |
+| 103 | Kanepe ortada, sırtı kameraya birleşti; 180° döndü ve arka duvara ışınlandı | THE HIDDEN LOFT · S4 | ✅ ölçüldü (1 klip · ❶ en kötü cisim) |
+| 104 | ⭐ Kâğıtla örtülü pencere zamanı taşımadı: kör ❷ WRONG DIRECTION | THE HIDDEN LOFT · S1–S6 | ✅ ölçüldü (❷) · leke mekanizması OKUMA |
+| 105 | ⭐ Boş blokla koşulan iki mercek 1 sn'lik 32 klip uydurdu, her kategoriye 10 verdi | THE HIDDEN LOFT QA · ❸ ❺ | ✅ ölçüldü |
 
 ---
 
@@ -2610,6 +2615,10 @@ NEREYE      MONOTONIK_ILERLEME §4.4 (ölçüm notu) · NANO_BANANA §11 (ölç�
 2. ÖLÇÜM    THE RAIN TOWER (17.10.2026, yayın 2x): geç teslimat 5/5 TUTTU — platform (S2 10,5) · kaya paleti (S3 15,0) ·
             bitki paleti (S4 19,25) · sarkan bitki paleti (S5 ≈ 23,0) · park (S6 27,5). Ana iş yine erken: ızgara
             ≈ 0,5 sn · kaya ≈ 0,75 sn · yeşil ≈ 0,5 sn (yayın). Rejim G finali (S7) planın saniyesine yakın tuttu.
+3. ÖLÇÜM    THE HIDDEN LOFT (19.10.2026, yayın 2x, ajan 4 fps panosu): geç teslimat 7/7 TUTTU — boya takımı + kâğıt rulosu
+            (S0 3,25) · meşe paketleri (S1 6,75–7,75) · el arabası (S2 10,75–11,5) · halı rulosu (S3 14,75–15,75) · sehpa
+            ayağı (S4 19,5) · kitap kolileri (S5 22,75–23,25) · iki işçi pencerede (S6 27,25). Ana iş yine erken (boya ≈ 1 sn
+            · parke ≈ 2 sn); S7 tutuşu ≈ 1 sn kaldı (plan 2 sn) — işçi kapıdan 30,75'te çıktı.
 ```
 
 ---
@@ -2778,6 +2787,9 @@ KİLİT       ① G8 onaylanmadan önce kapak_prova.py G8'in METİNSİZ hâline 
               its flat top stands just above the factory roofline".
 KALDIRDIĞI  Kapak çekirdeğini sonradan, kurgu masasında kurtarmak.
 NEREYE      DIKEY_TIMELAPSE_KAPAK_KILAVUZU §0 (ÖLÇÜLDÜ satırı) · üretim günlüğü §1 USTA KARE KAPI
+2. ÖLÇÜM    THE HIDDEN LOFT (19.10.2026): başlık yine plan kutusunun dışında — kart ve kapakta y ≈ 397–614 (plan 560–770,
+            ≈ 160 px yukarı). Kapak 941×1672 (1080×1920 değil) · kapak_prova koşulmadı · günlük boş → kilit ① uygulanmadı.
+            Usta karenin kendi oranı ölçülmedi.
 ```
 
 ---
@@ -2803,6 +2815,128 @@ KİLİT       ① Yayın dosyası çıkınca, merceklerden ÖNCE ajan ölçer: f
               — ⚠️ qa_paket.sh bugün boş günlükte DURUYOR; bayrak eklemek sahip kararı (yapılmadı).
 KALDIRDIĞI  Rubriği doğrudan sohbete yapıştırıp koşmak; kurgudan sonra plan dosyasına bakmadan yayına çıkmak.
 NEREYE      QA_KOSU §4 notu · AGENTS kart R (adım 3 öncesi ölçüm)
+2. ÖLÇÜM    THE HIDDEN LOFT (19.10.2026 · üçüncü film): ❌ dosya yine 2160×3840 · ❌ kartta 32,0–37,0 dijital sessizlik
+            (−107 → −120 dB; plan "oda tonu sürer, son saniyede söner") · ❌ üreteç sesi kurguya ham girdi: yayının sesi her
+            klibin kendi Veo sesi 2x (zarf korelasyonu 0,76–0,97); ❶ ❷ S2'de (8,0–12,0) akustik gitar duydu — plan §SES "Veo
+            müzik üretirse o klipte ses kurguda değiştirilir" uygulanmadı · ❌ günlük boş · ❌ qa_paket koşulmadı, beş merceğin
+            beşi boş blokla (→ DERS 105) · ✅ DERS 85 kart = G8 + başlık · ✅ DERS 86 sekiz klip yayında, sıra doğru (klip_eslestir).
+```
+
+---
+
+## DERS 101 — Kapının arkası (görünmeyen sahanlık) her açılışta yeniden çizildi: balkon, gök, çam
+
+```
+NEREDE      THE HIDDEN LOFT · S6 (yayın 24,75–26,25) · S7 (29,75–30,5) · 19.10.2026
+NE OLDU     Plan: arka alın duvarında açık kapı, arkasında LOŞ MERDİVEN SAHANLIĞI (dokuz karede; bütün söküm ve teslimat oradan).
+            Ekran: kapı açıldığında ardında parlak bir DIŞ BALKON — korkuluk, gök, çam tepeleri (S6 24,75–26,25; S7'de işçi
+            29,75–30,5'te bu balkona çıkıyor); arada kapı kapalı (26,25–29,0), finalde kapalı. ❶ cat 2 (5) "Anchor 3 balkona,
+            kapalı kapıya, karanlık oyuğa, merdivene döndü" · ❹ 0:25 "doorway morphs into an exterior balcony".
+NEDEN       Sahanlık hiçbir uç karede okunacak boyutta görünmüyor (kapı 101 px); promptta yalnız "the dim landing beyond it".
+            Model kapı açıldığı anda arkadaki boşluğu en olası şeyle doldurdu: çatı katında kapı → dışarı. DERS 95'in akrabası:
+            görünmeyen hedef yerine görünmeyen MEKÂN uyduruldu.
+KİLİT       ① Kapı arkası her karede somut, PENCERESİZ nesnelerle yazılır: "beyond the open door only a dim windowless stair
+              landing: a plain grey plastered wall and the top of a dark wooden banister".
+            ② Kapı bir klip boyunca TEK hâlde kalır — ya hep açık (aynı sahanlık) ya hep kapalı; işçi "onto the dim landing"
+              çıkar.
+            ③ Kapı arkası iki uç karede kapı yüksekliğinin en az yarısında görünür çizilir (G(n) ve G(n+1)); görünmüyorsa kapı
+              kapalı tutulur, teslimat kapı açılıp kapanmadan yazılmaz.
+KALDIRDIĞI  Kapıdan görünen ikinci dış manzara ve ikinci ışık kaynağı (balkon, teras) — tek pencereli iç mekânda.
+NEREYE      ISTASYON_VE_IC_MEKAN §4 (eşya akışı satırı) · plan kadraj kilitleri "kapı" satırı
+```
+
+---
+
+## DERS 102 — "Course by course across the width" ilerleme yönü okundu: parke boyuna döşendi, klip sonunda enine yeniden çizildi
+
+```
+NEREDE      THE HIDDEN LOFT · S2 DÖŞENİR · yayın 8,25–10,75 · 19.10.2026
+NE OLDU     Prompt (S2 MOTION FOCUS): "lay the light oak planks course by course across the width of the room onto the old
+            floorboards, starting at the bottom of the frame". G3: enine meşe (arka duvara paralel).
+            Ekran: tahtalar BOYUNA (kameradan arka duvara) döşendi ve döşeme sağdan sola bir kama gibi yayıldı (8,25–10,5);
+            10,5 → 10,75 arasında bütün zemin yerinde ENİNE, daha geniş ve farklı tonda tahtaya yeniden çizildi. ❶ ❷ ❹ üçü de
+            "0:10–0:11 kesmesinde tahtalar 90° döndü" dedi — kesme orada değil; dönüş S2'nin içinde (kesmeler 8,0 · 12,0).
+NEDEN       "Across the width" cümlede hem tahtanın YÖNÜNÜ hem sıranın İLERLEMESİNİ anlatabiliyor; model ilerleme diye okudu
+            (sıra soldan sağa → tahta boyuna). Son kare (G3) enine olduğu için uzlaşma klibin sonunda yerinde yeniden çizim
+            oldu — DERS 96'nın yüzey deseni hâli.
+KİLİT       ① Yön ve ilerleme AYRI cümle, kadraj diliyle: "Every plank lies left to right across the frame, parallel to the back
+              wall. The rows advance from the bottom of the frame toward the back wall, one row at a time."
+            ② İlk sıra G(n) karesinde çizilir: G2'de kadrajın altında enine iki sıra meşe — yön ilk karede kilitli.
+            ③ Desenli yüzeyde (parke, karo, kaplama) yön sözcüğü yalnız "left to right" / "front to back" — "across",
+              "along" yazılmaz.
+KALDIRDIĞI  Tek kelimeyle ("across") yön ve ilerlemeyi birlikte söylemek; ilk karede yeni yüzeyi hiç göstermemek.
+NEREYE      SANTIYE_HAREKETI §4.6 ⑦ · MALZEME_VE_DOKU (döşeme satırı — sonraki film)
+```
+
+---
+
+## DERS 103 — Kanepe odanın ortasında, sırtı kameraya birleşti; son kareye uymak için 180° döndü ve arka duvara ışınlandı
+
+```
+NEREDE      THE HIDDEN LOFT · S4 KANEPE (pilot c′ — planın "en zor klibi") · yayın 18,0–19,25 · 19.10.2026
+NE OLDU     Plan: kanepe yarısı ① kapıdan halının UZAK yarısına, sırtı pencereye; yarısı ② birinciye itilir — tek kanepe.
+            Ekran: 17,75'te arka duvarın önünde küçük bir kanepe zaten var; 18,0 bir yarı solda taşınıyor; 18,25–19,0 iki yarı
+            odanın ortasında, kameraya yakın birleşti (≈ kadraj genişliğinin %12–88'i), SIRTI KAMERAYA; 19,0 → 19,25 kanepe
+            küçüldü, 180° döndü ve halının uzak yarısına, yüzü kameraya (G5) sıçradı. ❶ THE BODY THAT MELTED WORST ("shrinks …
+            flips 180°") · ❷ · ❹ cat 4 · 6.
+NEDEN       Taşıma yönü (iki işçi kanepeyi kendilerine dönük tutar) son karedeki yönle çelişti; model birleştirmeyi işçilerin
+            durduğu yerde yaptı, son kareye yaklaşırken konum ve yönü tek adımda kapattı (DERS 96 + yön).
+KİLİT       ① Parça halıya DEĞDİĞİ an son yerindedir: "each half is set down directly on the far half of the rug, its back
+              already toward the window, and never moves toward the camera".
+            ② Taşıma yönü yazılır: "the workers carry each half backrest-first, walking toward the window".
+            ③ G(n) karesinde (G4) halının uzak yarısında boş yer kalır; işçiler ve yarılar d ≥ 7 m'de kalır — kameraya yakın
+              birleştirme yeri hiç açılmaz.
+KALDIRDIĞI  Mobilyayı odanın ortasında birleştirip sonra yerine itmek (gerçekte yaygın — burada tek adımda olmalı).
+NEREYE      SANTIYE_HAREKETI §4.6 ⑥ notu · DERS 89 (iki işçi, tek parça) yanına
+```
+
+---
+
+## DERS 104 — Kâğıtla örtülü pencere zamanı taşımadı: kör ❷ "WRONG DIRECTION" dedi, kâğıdın rengini yapay parıltı okudu
+
+```
+NEREDE      THE HIDDEN LOFT · S1–S6 (yayın 4,0–28,0) · S2 9,0–10,5 · 19.10.2026
+NE OLDU     Plan: tek pencere S1'de kâğıtla örtülür, S7'de açılır (sahip seçimi "Kâğıt iner, güneş girer"); ZAMAN TAŞIYICISI
+            kâğıdın rengi (beyaz → altın), "kâğıt güneşi yayar: ışık lekesi yok". Plan RİSK ⑫ bunu öngördü.
+            ❷: IS TIME PASSING? WRONG DIRECTION · 1 SUN 3 · 2 SEASON 3 · 4 ONE CLOCK 3 · 5 EXPOSURE 3 — "0:04–0:28 tek pencere
+            örtülü, 3–7. kliplerde mevsim taşıyıcısı yok", "turuncu renk düzeltmesiyle zaman iddiası", "turuncu kâğıt + kısa
+            dikey gölge çelişkisi", "örtülü pencereye rağmen 0:08–0:10 ve 0:17'de sert güneş lekesi".
+            Ajan: S2 9,0–10,5'te zeminde parlak çapraz leke var; plan güneşi 98°–132° (doğu, evin arkasında) — batı penceresinden
+            güneş giremez → ya yeni meşede kâğıdın yansıması ya imkânsız güneş; ekran ikisini ayırmıyor (mekanizma OKUMA).
+            Finalde ışık doğru: kâğıt inince uzun altın bantlar sola düştü (güneş 295°, pencere 275°) · ❷ C3 7 · 8 → 9.
+NEDEN       Yayıcı arkasında ışık YÖNSÜZ ve gölgesiz olur; kör okuyucu için ışığın tek kanıtı renk kalıyor, renk de "grade"
+            okunuyor. Dışarısı yirmi dört saniye görünmeyince zaman ancak işten okunuyor ("days").
+KİLİT       ① Örtülü pencerede ikinci, görünen zaman taşıyıcısı: kâğıdın üst ucu açık bırakılır — "the paper covers the glass
+              up to just below the apex; the small top corner of the triangle stays clear and shows the sky".
+            ② Örtü en fazla iki klip; daha uzun gerekiyorsa zamanı odadaki somut ışık taşır (kapıdan giren şerit, bir lamba).
+            ③ Kâğıt arkasındaki ışık pozitif yazılır: "soft even light in the room, no sunlit patches on the floor while the
+              paper is on" — her örtülü klipte.
+KALDIRDIĞI  Tek pencereyi filmin çoğunda gizleyip finalde açmak (bu filmin işlev anı). ① ile işlev anı korunur, sürpriz küçülür.
+NEREYE      ISTASYON_VE_IC_MEKAN §4 (ışık lekesi satırı) · ISIK_FINALI (anahtarsız final notu — sonraki film)
+```
+
+---
+
+## DERS 105 — Boş blokla koşulan iki mercek 1 sn'lik 32 "klip" uydurdu ve her kategoriye 10 verdi
+
+```
+NEREDE      THE HIDDEN LOFT · ❸ ŞANTİYE · ❺ TESLİM · 19.10.2026 (paketsiz koşunun üçüncü filmi: POOL ROOM · RAIN TOWER · HIDDEN LOFT)
+NE OLDU     Beş mercek de ölçülmüş olgular bloğu boş ({SPEED} {CUTS} …) koşuldu; qa_paket.sh koşulmadı (günlük boş → araç durur).
+            ❸ ve ❺ dosyayı 32 adet 1,0 sn'lik klip + kart diye okudu ("CLIPS YOU CAN SEE: 33"); ❸ 31 dikişin 31'ini INTENDED,
+            13 kategorinin 13'ünü 10/10 verdi; ❺ 10 kategorinin 9'unu 10/10, C1 MUSIC 10 (❶ ❷ 8–12 sn'de müzik duydu). İkisi
+            de ekranda OLMAYAN aynı olayları yazdı: 0:26–0:28 "tavan lambası ayarı", "ışıklar yandı".
+            ❶ ❷ ❹ aynı YANLIŞ kesme listesini verdi (0:03 · 0:06 · 0:11 · 0:15 · 0:18 · 0:21 · 0:26); dosyada 4,0 · 8,0 … 28,0
+            (klip_eslestir 8/8). Gerçek klip sınırlarını hiçbir mercek bulmadı.
+NEDEN       Zincirli filmde kesme görünmez (dikiş kareleri aynı); blok sayıyı vermeyince model kendi bölütlemesini kurar —
+            ya klip içi büyük olayları kesme sanar (❶ ❷ ❹) ya saniye örneklemesini klip sanar (❸ ❺). İkinci yol olay
+            uydurmaya ve tavan puana gidiyor: hata görmeyen rapor en tehlikelisi. ❸ ❺'in aynı uydurmaları paylaşması aynı
+            sohbet ya da aynı oturum şüphesi — kanıt yok.
+KİLİT       ① Ajan bloğu yayın dosyasından ELLE doldurur: ffprobe + klip_eslestir.py (kaynak klipler yereldeyse kesmeler kesin)
+              — qa_paket.sh günlük yüzünden durursa da beş paket dosyası blok dolu verilir.
+            ② "CLIPS YOU CAN SEE" blokta yazandan farklıysa rapor kaydedilmeden YENİDEN koşulur (D2 tek başına yeter).
+            ③ Kategorilerin ≥ %80'i 10/10 ve 0 kusur → ŞİŞİK etiketi otomatik; o mercek film puanına girmez, yeniden koşulur.
+KALDIRDIĞI  Rubriği blok boş hâlde sohbete yapıştırıp koşmak; tüm-10 raporu "temiz film" diye okumak.
+NEREYE      QA_KOSU §4 notu · QA_OLCUM_ZEMINI §5 (D2 · D6 satırı)
 ```
 
 ---

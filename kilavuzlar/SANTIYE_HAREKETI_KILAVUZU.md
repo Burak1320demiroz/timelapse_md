@@ -308,6 +308,11 @@ KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of 
    ⑥ Bir makine bir klipte TEK iş noktası; uç kareler makineyi aynı yerde bırakır ya da yolu yazılır
       [DERS 96 · RAIN TOWER S3: ikinci platform belirdi]. Sepet klibe EN ALT sırada başlar, bitiş kotu eleman
       adıyla ("the underside of the top beam"), çatı adıyla değil — "to the top" çatıya insan çıkardı [DERS 97].
+      Büyük parça halıya/zemine DEĞDİĞİ an son yerinde ve son yönündedir; taşıma yönü yazılır ("backrest-first,
+      walking toward the window") — kanepe ortada sırtı kameraya birleşti, 180° dönüp arka duvara sıçradı [DERS 103].
+   ⑦ Desenli yüzeyde YÖN ile İLERLEME ayrı cümledir [DERS 102 · HIDDEN LOFT S2]: "course by course across the width"
+      ilerleme okundu, parke boyuna döşendi, klip sonunda enine yeniden çizildi. "Every plank lies left to right across
+      the frame, parallel to the back wall. The rows advance from the bottom of the frame toward the back wall."
 ```
 
 ## ⭐ 4.8 İŞ YOĞUNLUĞU — iş SAYISI değil, tek işin etrafındaki EL  [C2-g · 05.10.2026]
