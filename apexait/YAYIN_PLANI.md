@@ -476,6 +476,83 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       aynı iş sırası (asılı panel → boşalt → zımpara/boya → meşe → krem mobilya → cam → akşam). Aile kuralı izin verse de (ZEMİN →
       KÜTLE) ⛔ LAST STOP ve HIDDEN LOFT ile ARDIŞIK YAYINLANMAZ (§1 şablon yükleme riski); KÜTLE filmleriyle de ardışık olamaz.
 
+⭐ 20.10.2026: GAME ON ⭐ZEMİN ailesine yazıldı — `dikey_shorts/GAME_ON/` (karşı binanın çatı kenarından sahanın orta ekseni boyunca
+   aşağı bakış, h +16,0 m · giriş çizgisinden 8,0 m geride · bearing 0° · tilt 31° · ufuk %90 arka binanın ardında; kareyi kapatan şey
+   saha zemini ve arka duvar · başlık alanı sıva bandının üstündeki koyu tuğla; HIDDEN OASIS · SWALLOWED BUS · EMPTY LOCK · DEEP END ·
+   VANISHING ROOM · FIRST GUEST · LAST STOP'tan sonra). Duvarlarla çevrili moloz arsası → tek potalı sokak basketbol sahası; duvarda
+   dev amber daire, kömür-amber-gri bölgeler, beyaz çizgiler, tribün; alacakaranlıkta pota oturur ve projektörler yanar.
+   ⭐ BEDEL: arsanın boşluğu (moloz, çatlak asfalt, gri sıva) · tanıklar kadrajda: arka duvarın koyu tuğlası ve çatı hattı, sıva bandının
+      sınırları, ön duvarlar, giriş (dokuz karede aynı) · solda molozla tepeleme konteyner · duvarın dibindeki pota yeri (G0 moloz →
+      G8 pota, AYNI yer).
+   ⭐ DEFTER: taşıma karede biter (DERS 57 · 96; sahip seçimi — G0 kova konteynerin tam üstünde, G7 pota yerinin 1 m önünde) · araçlar
+      TEK TEK (DERS 69) · operatör iki işçiden biri (DERS 89) · duvar fırçayla, basınçlı yıkama yok (DERS 67) · bölge ve çizgi yeri G8'den
+      · kamera kuzeye bakar, güneş hiçbir karede kadrajda değil · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (20.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM A (10 dk) → P16-g "G finali" sayımına GİRMEZ (LAST STOP · SKY VAULT da A).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "BUILDWAKE — GAME ON", 8 × 8 sn, tek kamera); ajan önerisi (kamera geometrisi ·
+      kanal adı · kart · müzik · 4+4 final · kadro · ışık eğrisi · duvar · konteyner · başlık · açıklama sorusu · dört karar) → sahip
+      "Pota oturur, ışıklar yanar" · "Taşıma karede biter" · "Kılavuz yerleşimi" · "Onaylı". Paketten geometrik sapma: kamera 5 m ön
+      köşe değil 16 m eksen (5 m'de pota altı 97 px, yay yassı şerit, tribün ve giriş kadraj dışı).
+   ⚠️ İşlev anı ışık: LAST STOP ile AYNI yapı (oturur → ışık yanar), TOTAL RESET · POOL ROOM da ışık (sahip bilerek seçti). Konu olarak
+      LAST STOP · SKY VAULT · HIDDEN LOFT'tan ayrı (dış saha, cam yok). ⛔ ZEMİN ailesinden bir filmle — özellikle LAST STOP ile —
+      ARDIŞIK YAYINLANAMAZ.
+
+⭐ 22.10.2026: UNDERWATER OBSERVATORY İÇ MEKÂN (bekleyen) ailesine yazıldı — `dikey_shorts/UNDERWATER_OBSERVATORY/` (alt katta göz hizası,
+   h +1,6 m · pencere duvarından 18,5 m · bearing 0° · tilt 24° YUKARI; kareyi pencere duvarı kapatır, gök yalnız pencerenin üst kısmında ·
+   başlık alanı pencerenin üstündeki düz kömür duvar). Kayaya oyulmuş ham beton salon → iki katlı sualtı gözlemevi; askıdaki yay halkayı
+   kapatır, kalın akrilik levha dışarıdan kayıp oturur, asma kat, kömür + ahşap, cam korkuluk, ekransız gözlem masası; gece uzak deniz
+   kapağı açılır, su camın dışında yükselip pencereyi kapatır, projektörler ve iç ışıklar birlikte yanar.
+   ⭐ BEDEL: kanyonun kuruluğu (açık delik, kuru kaya, pencereden gök) · tanıklar kadrajda: pencere duvarının biçimi, açıklığın yeri ve
+      boyu, servis kapısı, monoray (dokuz karede aynı) · uzak deniz kapağı (G0–G6) · açıklığın kendisi (G0 yarım halka → G8 su, AYNI yer).
+   ⭐ DEFTER: levha dış sahanlıktan (sahip seçimi; DERS 88 — 8 m levha kapıdan geçemez) · su kaynağı ilk karede (DERS 95) · içeride su yok ·
+      tek makine monoray, asma kat kısa konsollarla (DERS 57 · 69) · masa ekransız (ISTASYON §4) · tek rejim B · pencere kuzeye bakar,
+      içeride güneş lekesi yok · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (22.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM B (2 sa) → P16-g "G finali" sayımına GİRMEZ.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "Dev Su Gözlemevi", 8 × 8 sn, tek kamera, pilot V001 · V002 · V007); ajan önerisi
+      (kanal adı · kart · 2x · müzik · üretim sırası · cam yolu · su kaynağı · ekran · kıvılcım · dört karar) → sahip "Dış sahanlıktan" ·
+      "Su + projektör + balık + iç ışık" · "Ekransız konsol" · "Kılavuz yerleşimi". ⚠️ Onaydan sonra hesapla değişti: kamera 12° → 24°
+      tilt (kılavuzun başlık kutusu py 560–770 — soruda yanlış anlatılmıştı; plan AÇIK KALANLAR ①).
+   ⚠️ İşlev anı ışık: LAST STOP · GAME ON · TOTAL RESET · POOL ROOM'da da var (sahip bilerek seçti); asıl olay su. ⚠️ İÇERİK AKRABASI:
+      THE BLUE SILO (akrilik panel + su + ilk sürü) — araya en az iki film. ⛔ SKY VAULT · HIDDEN LOFT ile ARDIŞIK YAYINLANAMAZ (iç mekân).
+
+⭐ 22.10.2026: COLOSSUS ⭐ZEMİN ailesine yazıldı — `dikey_shorts/COLOSSUS/` (yakın ucun dışında geçici kamera kulesi, h +65 m · yakın kale
+   çizgisine 60 m · 20 mm · bearing 0° · tilt 27° AŞAĞI; kareyi saha kaplar, gök üst %22 · başlık alanı uzak alçak tribünün ardındaki
+   park + ağaç kuşağı). Çıplak beton çanaktaki çamurlu saha → açık hava futbol stadyumu; buldozer sıyırır, iki vinç üst katı oturtur,
+   koltuklar maviye, kum tabakası, çim ruloları uzaktan yakına, tek doğru çizgi düzeni, iki kale + dört bayrak; mavi saatte iki direk yanar.
+   ⭐ BEDEL: çamurun kendisi (koyu dağınık yüzey, çıplak gri çanak) · tanıklar kadrajda: saha dikdörtgeninin yeri ve oranı, tribün iskeleti,
+      tünel ağzı, iki direk, park + ağaç kuşağı (dokuz karede aynı).
+   ⭐ DEFTER: alt kat G0'dan hazır, S1 yalnız üst kat (sahip seçimi; DERS 57 · 79) · iki uç tek alçak kat (sahip: uzak uç — başlık zemini;
+      ajan: yakın uç, DERS 46) · araç tavanı 1, makineler sırayla (DERS 69) · vinç kancası her karede yüklü (DERS 8) · çim yönü ve
+      ilerlemesi ayrı cümle (DERS 102) · kadrajda iki direk (DERS 95) · saat tek yönde 05:55 → 20:05, haftalar kesmede · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (22.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi 8 sahne.
+      Final klip REJİM A (10 dk) → P16-g "G finali" sayımına GİRMEZ.
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "BUILDWAKE — COLOSSUS", 8 × 8 sn, tek kamera, pilot V2 · V6); ajan önerisi (kanal adı ·
+      kart · 2x · müzik · açılış yazısı · üretim sırası · 20 mm kamera hesabı · üç karar) → sahip "Alt kat hazır, S1 üst kat" · "Uzak uç
+      alçak, tek katlı" · "Evet, yaz". ⚠️ Onaydan sonra hesapla değişti: vinçler uzun yanların dış yolu yerine uzak köşelerde (dış yol kadraj
+      dışı) · yakın uç da tek kat · kadrajda iki direk (plan AÇIK KALANLAR ①).
+   ⚠️ İşlev anı ışık — ALTINCI (LAST STOP · GAME ON · TOTAL RESET · POOL ROOM · UNDERWATER OBSERVATORY; sahip bilerek onayladı).
+      ⚠️ İÇERİK AKRABASI: THE LAST LIFT (stadyum, KÜTLE) · GAME ON (spor sahası, çizgi, ışık, ZEMİN). ⛔ İkisiyle de ARDIŞIK YAYINLANAMAZ.
+
+⭐ 22.10.2026: THE TURNTABLE İÇ MEKÂN (bekleyen) ailesine yazıldı — `dikey_shorts/THE_TURNTABLE/` (tünelin yakın ucunda göz hizası,
+   h +2,0 m · platform merkezine 10 m · 24 mm · bearing 0° · tilt 0, ufuk %50; tek nokta perspektif · başlık alanı uzak kaya tonoz +
+   portalın üstündeki alın duvarı). Tepe altındaki ham kaya tüneli → yeraltı özel araç galerisi; mini vinç dişli halkayı çukura indirir,
+   yedi çelik kaburga + sağ duvarda balkon, kömür panel + meşe çıta, koyu epoksi + buzlu cam platform, altıgen ışık peteği + cam korkuluk +
+   sarılı kapı, loca + dört vitrin, parlatma; mavi saatte araç rampadan iner, platformda durur, galeri yanar.
+   ⭐ BEDEL: kayanın hamlığı (nemli, lekeli tünel) · tanıklar kadrajda: tünel kesiti ve tonozu (çıplak kaya kalır), platform çemberi, alın
+      duvarı, portal, rampa + gök lekesi (dokuz karede aynı).
+   ⭐ DEFTER: portal hep açık, kapı sarılı takılır (sahip seçimi; DERS 101 · 104) · zaman taşıyıcısı rampadaki gün ışığı (sol duvar → taban →
+      sağ duvar → mavi) · iç ışık sabit · araç girer, durur, platform dönmez (sahip seçimi; DERS 96 · 103) · araç tavanı 1 (DERS 69) · kanca
+      her karede yüklü (DERS 8) · mobilya yerinde iner (DERS 103) · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (22.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin notu G0 → G8.
+      Final klip REJİM G (gerçek zaman) → P16-g "G finali" sayımına GİRER (RAIN TOWER · TOTAL RESET · GRAND REVIVAL · HIDDEN LOFT ile beşinci).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan fikir notu "Yeraltı Kaya Mağarasından Lüks Süper Araç Galerisi ve VIP Lounge'a", G0 → G8); ajan
+      önerisi (kamera · sapmalar · üç soru) → sahip "Hep açık portal" · "Girer, durur, ışık yanar" · "Evet, yaz". ⚠️ Onaydan sonra hesapla
+      değişti: tavan köprü vinci yerine zeminde mini paletli vinç (plan AÇIK KALANLAR ①).
+   ⚠️ İşlev anı ışık — YEDİNCİ (LAST STOP · GAME ON · TOTAL RESET · POOL ROOM · UNDERWATER OBSERVATORY · COLOSSUS; sahip onayladı); fark aracın
+      gelişi. ⚠️ İÇERİK AKRABASI: THE SKY VAULT (kömür oda) · THE HIDDEN LOFT (lounge) · FIRST SLICE (garaj) · UNDERWATER OBSERVATORY (kayaya
+      oyulmuş salon). ⛔ Dördüyle de ARDIŞIK YAYINLANAMAZ.
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
