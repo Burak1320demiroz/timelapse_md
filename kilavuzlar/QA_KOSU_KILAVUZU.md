@@ -152,6 +152,9 @@ KANARYA (öneri · kapı adımı): her QA_SPEC'in künyesine bir uydurma terim
    olmayan olaylar yazdı, kategorilerin hemen hepsine 10 verdi; ❶ ❷ ❹ aynı yanlış kesme listesini verdi. Ajan bloğu
    ffprobe + klip_eslestir ile ELLE doldurur · "CLIPS YOU CAN SEE" blokla tutmazsa rapor yeniden koşulur · kategorilerin
    ≥ %80'i 10/10 ve sıfır kusur → ŞİŞİK, puan yok.
+⚠️ DERS 106 (SKY VAULT, 20.10.2026 · dördüncü film): blok boş koşulunca ızgara İKİ yöne bozuyor — ❷ 9,75 (tavan), ❸ 2,8 (taban);
+   ❶ ❷ 6 × 5 sn, ❸ ❹ 31 × 1 sn. İki etiket: ŞİŞİK (≥ %80'i ≥ 9) · ÇÖKÜK (≥ %80'i ≤ 3 ve CLIPS ≠ blok) — ikisinde de puan yok,
+   yeniden koşu. Yayın dosyası ajanın okuyabileceği yerde olmalı (~/Downloads izinle okunmadı); ❸ ❹ aynı oturumda koşulmaz.
 ```
 
 ---

@@ -11,8 +11,8 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM          61     (dikey_shorts + yatay_*_dk_filmler klasörleri · 12 dk dahil)
-BEŞ MERCEKLE ÖLÇÜLEN 4 (SKY STATION B1 · POOL ROOM · RAIN TOWER · HIDDEN LOFT)
+TOPLAM FİLM          66     (dikey_shorts + yatay_*_dk_filmler klasörleri · 12 dk dahil)
+BEŞ MERCEKLE ÖLÇÜLEN 15 (SKY STATION B1 · POOL ROOM · RAIN TOWER · HIDDEN LOFT · SKY VAULT · GAME ON · THE LAST STOP · THE SEA MILL · THE FIRST GUEST · TOTAL RESET · THE BURIED KHAN · THE EDEN ARK · THE HIDDEN FALLS · THE SLOW TAKEOFF · THE BORROWED HILL)
 ARŞİVDE ÖLÇÜLEN      37     (ARSIV_12_MERCEK/HAM_RAPORLAR klasörleri · 12 mercek)
 ```
 
@@ -28,6 +28,17 @@ ortalaması · N.
 | THE POOL ROOM | 9:16 | 2x | YG · SZ | EKS | SZ | YG | 10,0 | 10,0 (N=1) ⚠️ şişik — ajan ölçümü: kart · düşen S4 · çözünürlük | MELTING (❶, bağlayıcı değil) | 16.10.2026 |
 | THE RAIN TOWER | 9:16 | 2x | YG · SZ | YG | EKS | 5,5 | 9,0 | 7,3 (N=2) ⚠️ bağlayıcı değil — kör üçlü geçersiz; ajan ölçümü: avlu çukuru (5/5 mercek) · ikiz platform · başlık · kart sesi | MELTING (❶) · INTRUDERS (❹) | 17.10.2026 |
 | THE HIDDEN LOFT | 9:16 | 2x | 5,4 | EKS | EKS · ŞİŞİK | 5,4 | EKS · ŞİŞİK | 5,4 (N=2) ⚠️ bağlayıcı değil — beş mercek boş blokla; ❸ ❺ 32 klip uydurdu (DERS 105); ajan ölçümü: kanepe dönüşü · parke yönü · kapı balkonu · S2 müziği · kart sesi | MELTING (❶) · WRONG DIRECTION (❷, bağlayıcı değil) · APPEARING (❹) | 19.10.2026 |
+| THE SKY VAULT | 9:16 | 2x | EKS | EKS · ŞİŞİK | EKS · ÇÖKÜK | EKS | YG | — (N=0) ⚠️ bağlayıcı değil — beş mercek boş blokla (dördüncü film); ızgara ❶ ❷ 6×5 sn · ❸ ❹ 31×1 sn · yalnız ❺ 8 (DERS 106); rapor-içi: 6,3 · 9,75 · 2,8 · 4,0 · 8,6; ajan ölçümü YOK (dosya okunamadı); örtüşen olaylar: vinç/panel S0 (4 mercek) · yabancı segment S5 22–23 sn (5 mercek) · film→perde S7 (❶ ❸ ❹ ↔ ❺ PASS) | MELTING (❶) · INTRUDERS (❹) (bağlayıcı değil) | 20.10.2026 |
+| GAME ON | 9:16 | 2x | EKS | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | YG | — (N=0) ⚠️ bağlayıcı değil — beş mercek boş blokla (33×1 sn dilimleme); rapor-içi: 9,7 · 10,0 · 10,0 · 10,0 · 10,0 (ort 9,9); olumsuz hüküm YOK; 8 sahnenin tüm inşa aşamaları ekranda eksiksiz görüldü | — | 22.10.2026 |
+| THE LAST STOP | 9:16 | 2x | 7,5 | 10,0 | 8,9 | 9,4 | 9,3 | 9,0 (N=5) | MELTING (❶) | 22.10.2026 |
+| THE SEA MILL | 9:16 | 2x | EKS | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | YG | — (N=0) ⚠️ bağlayıcı değil — beş mercek boş blokla (28×1 sn dilimleme); rapor-içi: 7,9 · 10,0 · 10,0 · 10,0 · 9,6 (ort 9,5); duba ve ada lojistiği tam | MELTING (❶, bağlayıcı değil) | 22.10.2026 |
+| THE FIRST GUEST | 9:16 | 2x | 9,1 | 10,0 | 10,0 | 10,0 | 10,0 | 9,8 (N=5) | — | 22.10.2026 |
+| TOTAL RESET | 9:16 | 2x | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | YG | — (N=0) ⚠️ bağlayıcı değil — beş mercek boş blokla (31×1 sn dilimleme / mod V); rapor-içi: 10,0 · 10,0 · 10,0 · 10,0 · 10,0 (ort 10,0); olumsuz hüküm YOK; oda yenileme aşamaları tam | — | 22.10.2026 |
+| THE BURIED KHAN | 16:9 | 1x | 8,3 | 9,1 | 9,5 | 8,8 | 9,8 | 9,1 (N=5) | MELTING (❶) · APPEARING (❹) | 22.10.2026 |
+| THE EDEN ARK | 16:9 | 1x | 10,0 | 10,0 | 10,0 | 10,0 | 10,0 | 10,0 (N=5) | — | 22.10.2026 |
+| THE HIDDEN FALLS | 16:9 | 1x | 5,4 | 5,5 | 3,7 | 3,9 | 8,5 | 5,4 (N=5) ⛔ DÜŞTÜ | SEPARATE IMAGES (❶) · MELTING (❶) · REBUILT (❸) · PARKED (❸) · APPEARING (❹) | 22.10.2026 |
+| THE SLOW TAKEOFF | 16:9 | 1x | 9,3 | 9,8 | 10,0 | 10,0 | 10,0 | 9,8 (N=5) | — | 22.10.2026 |
+| THE BORROWED HILL | 16:9 | 1x | 7,2 | 8,4 | 8,0 | 9,2 | 8,6 | 8,3 (N=5) | MELTING (❶) | 22.10.2026 |
 
 ```
 ⭐ "dosya" sütunu: 2x · 1x · 1x+2x (❸ ❹ master, ❶ ❷ ❺ yayın) [QA_OLCUM_ZEMINI §3]

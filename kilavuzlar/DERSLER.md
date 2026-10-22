@@ -2820,6 +2820,12 @@ NEREYE      QA_KOSU §4 notu · AGENTS kart R (adım 3 öncesi ölçüm)
             klibin kendi Veo sesi 2x (zarf korelasyonu 0,76–0,97); ❶ ❷ S2'de (8,0–12,0) akustik gitar duydu — plan §SES "Veo
             müzik üretirse o klipte ses kurguda değiştirilir" uygulanmadı · ❌ günlük boş · ❌ qa_paket koşulmadı, beş merceğin
             beşi boş blokla (→ DERS 105) · ✅ DERS 85 kart = G8 + başlık · ✅ DERS 86 sekiz klip yayında, sıra doğru (klip_eslestir).
+3. ÖLÇÜM    THE SKY VAULT (20.10.2026 · dördüncü film): ❌ günlük boş ("DURUM ⛔ BOŞ") · ❌ qa_paket koşulmadı, beş merceğin beşi
+            boş blokla (→ DERS 105 · 106) · ❌ ❺ "end card is silent from 0:32.0 to 0:37.0" (plan: çatı rüzgârı sürer — rapor iddiası,
+            ölçülmedi) · ❌ başlık yeri ≈ 100–230 px yukarı gibi okundu (❶ ölçümü, ±6 puan sapmalı — kapak_prova koşulmadı) ·
+            ✅ DERS 85 kart = G8 ❶ ❹ ❺ üçünde SAME · ⛔ YENİ: ajan ölçümü (kilit ①) yapılamadı — yayın dosyası ~/Downloads'ta,
+            macOS "Operation not permitted"; kilit ancak dosya ajanın okuyabileceği yerdeyse çalışır → yayını workspace içine kopyala.
+            Günlüksüz paket bayrağı hâlâ sahip kararı bekliyor (dört film).
 ```
 
 ---
@@ -2937,6 +2943,39 @@ KİLİT       ① Ajan bloğu yayın dosyasından ELLE doldurur: ffprobe + klip_
             ③ Kategorilerin ≥ %80'i 10/10 ve 0 kusur → ŞİŞİK etiketi otomatik; o mercek film puanına girmez, yeniden koşulur.
 KALDIRDIĞI  Rubriği blok boş hâlde sohbete yapıştırıp koşmak; tüm-10 raporu "temiz film" diye okumak.
 NEREYE      QA_KOSU §4 notu · QA_OLCUM_ZEMINI §5 (D2 · D6 satırı)
+2. ÖLÇÜM    THE SKY VAULT (20.10.2026 · dördüncü film): beş merceğin beşi yine boş blokla ({SPEED} {CLIP_COUNT} … yer tutucu; raporlar
+            bunu kendileri yazdı). D2: ❶ ❷ 6 klip × 5,0 sn (kesme 5·10·15·20·25) · ❸ ❹ 31 klip × 1,0 sn · yalnız ❺ 8 + kart saydı → 4/5 ✗.
+            ❸ ❹ aynı 31 × 1 sn bölütleme ve aynı olay listesi (yalıtım şüphesi, kanıt yok). Kilit ①'in ajan adımı bu kez de
+            uygulanmadı (günlük boş → qa_paket durdu → blok elle de doldurulmadı). Yön TERSİNE döndü → DERS 106.
+```
+
+---
+
+## DERS 106 — Blok boş koşulunca yanlış bölütleme puanı İKİ yöne bozar: ❷ tavana (9,75), ❸ tabana (2,8); eşit uydurma ızgara METRONOM'a "RHYTHM" yazdırdı
+
+```
+NEREDE      THE SKY VAULT · ❶ ❷ ❸ ❹ ❺ · 20.10.2026 (paketsiz koşunun dördüncü filmi: POOL ROOM · RAIN TOWER · HIDDEN LOFT · SKY VAULT)
+NE OLDU     Dosya: plana göre 8 × 4,0 sn + kart 5,0 sn = 37,0 sn. Beş mercek beş farklı ızgara kurdu:
+              ❶ ❷  6 klip × 5,0 sn + 2,0 sn tutuş (kesme 5 · 10 · 15 · 20 · 25)
+              ❸ ❹  31 klip × 1,0 sn (30 "dikiş")
+              ❺     8 klip, sınırlar 23 · 27 · 31,5 (gerçek 24 · 28 · 32)
+            Aynı filme verilen rapor-içi ortalamalar: ❷ 9,75 (12 kategorinin 11'i 10/10) · ❺ 8,6 · ❶ 6,3 · ❹ 4,0 · ❸ 2,8 (11 kategorinin 9'u ≤ 3,
+            SEAM AUDIT 0/10 "18 / 30 dikiş kusurlu", "altı boş klip"). DERS 105'te hata tavan yönündeydi (32 klip, 13/13 → 10);
+            burada ❸ aynı bölütlemeyi KUSUR üretmeye çevirdi: 1 sn'lik pencerede iş görünmeyince "boş klip", her tam saniyeyi "dikiş" saydı.
+            ❷ eşit aralıklı (5,0 sn) uydurma kesmeye "RHYTHM" ve "kesmeler müzik barına denk" dedi; tam eşit aralık METRONOM'dur
+            (plan ⑥ metronomu beyanlı: 8 × 4,0) ve plan müziksiz (❶ "sound effects", ❺ "ambiance").
+NEDEN       Blok sayıyı, kesmeleri, müziği vermeyince model kendi ızgarasını kurar. Zincirli filmde dikiş görünmez; ızgara ya klip içi
+            büyük olaylardan (❶ ❷: 5 sn) ya saniye örneklemesinden (❸ ❹: 1 sn) çıkar. Izgara uydurma olduğu için ona bağlı HER kategori
+            (RHYTHM · SEAM AUDIT · WORKING FRONT · THE CUT MEANS TIME) uydurma bir zemine puan verir — yön yalnızca merceğin huyuna bağlı:
+            "iyi" arayan (❷) tavanı, "kusur" arayan (❸) tabanı üretir. Puanın ARALIĞI (2,8 ↔ 9,75) güvenin değil, ızgaranın ölçüsüdür.
+KİLİT       ① DERS 105 ①'in aynısı: ajan bloğu ELLE doldurur (ffprobe + klip_eslestir); qa_paket.sh günlük yüzünden durursa da beş paket dosyası
+              blok dolu verilir. ⚠️ Yayın dosyası ajanın OKUYABİLECEĞİ yerde olmalı (workspace içine kopya) — SKY VAULT'ta dosya izinle okunamadı.
+            ② D2 tek başına yeter: "CLIPS YOU CAN SEE" blokta yazandan farklıysa rapor kaydedilmeden YENİDEN koşulur.
+            ③ ÇİFT YÖNLÜ ETİKET: kategorilerin ≥ %80'i ≥ 9 ve sıfır kusur → ŞİŞİK [DERS 105]; kategorilerin ≥ %80'i ≤ 3 ve CLIPS ≠ blok → ÇÖKÜK.
+              İkisinde de puan yazılmaz, mercek film puanından çıkar, yeniden koşulur.
+            ④ Aynı iki mercek (❸ ❹) AYNI oturumda koşulmaz — iki raporun birebir aynı uydurma olay listesi yalıtım şüphesi yaratır.
+KALDIRDIĞI  Rubriği blok boş hâlde sohbete yapıştırıp koşmak; "puan ne kadar düşükse film o kadar kötü" okuması (düşük puan da ızgara ürünü olabilir).
+NEREYE      QA_KOSU §4 notu · QA_OLCUM_ZEMINI §5 (D2 satırı: ÇÖKÜK) · QA/TABLO.md hücre etiketi
 ```
 
 ---

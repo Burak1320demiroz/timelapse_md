@@ -1,7 +1,7 @@
 # 🗒️ THE_HIDDEN_FALLS — ÜRETİM GÜNLÜĞÜ
 
 ```
-DURUM   ⛔ BOŞ — araç kapısı KOŞULMADI · bu günlüğe tek satır yazılmadı · (08.10.2026 klasör açıldı)
+DURUM   ÖLÇÜLDÜ (5/5 mercek) · Puan 5,4 (N=5) ⛔ DÜŞTÜ · Hüküm: SEPARATE IMAGES (❶) · MELTING (❶) · REBUILT EVERY SHOT (❸) · APPEARING (❹) · Final Beat PASS · (22.10.2026 QA işlendi)
 KURAL   her satır ÜRETİRKEN yazılır, sonradan hatırlanarak değil [DERS 28 — dört filmde dört kez tutulmadı]
         bu dosya yoksa ya da §0 boşsa araclar/qa_paket.sh durur
 ```

@@ -153,11 +153,11 @@ Ajan her ham raporu kayda geçirmeden önce:
 | # | kontrol | KALDI demek | eylem |
 |:-:|---|---|---|
 | D1 | dosya dışı damga | raporda FILE DURATION'dan büyük bir m:ss.s var | rapor BAĞLAYICI DEĞİL · `QA_KAYIT` durum YANLIŞ GİRDİ ya da EKSİK |
-| D2 | klip sayısı | rapor CLIP COUNT'tan farklı sayı yazıyor (ör. "23 clips") | ilgili kategoriler NOT VERIFIABLE · rapor notu |
+| D2 | klip sayısı | rapor CLIP COUNT'tan farklı sayı yazıyor (ör. "23 clips") | ilgili kategoriler NOT VERIFIABLE · ≥ %80'i ≤ 3 ise "ÇÖKÜK", ≥ %80'i ≥ 9 ise "ŞİŞİK" [DERS 105 · 106] · rapor notu |
 | D3 | süre/hız itirazı | rapor "kesik · erken bitiyor · planlanan 56 sn" diyor | o bulgu ve ona bağlı puan DÜŞER (blok bunu baştan söylemişti) |
 | D4 | kesme damgası | rapor bir kesmeyi CUT TIMESTAMPS'ten > 0,5 sn uzağa koyuyor | o bulgu doğrulanmadı (kareye bakılır) |
 | D5 | kart | END CARD = NO iken rapor kartı puanlıyor | ⭐ ÖNCE DOSYA: klip_eslestir kuyruğu / kare panosu — kart dosyada YOKSA kategori NOT TRIGGERED; VARSA hata dosyanındır, rapor haklıdır [DERS 90 · POOL ROOM] |
-| D6 | kurgu tablosu | raporun klip/kurgu tablosu ajanın 1 sn'lik kare panosuyla tutmuyor (kart görülmemiş, klip eksik) | o tabloya bağlı puanlar DÜŞER · kayıtta "ŞİŞİK" etiketi [DERS 90] |
+| D6 | kurgu tablosu | raporun klip/kurgu tablosu ajanın 1 sn'lik kare panosuyla tutmuyor (kart görülmemiş, klip eksik) | o tabloya bağlı puanlar DÜŞER · kayıtta "ŞİŞİK" veya "ÇÖKÜK" etiketi [DERS 90 · 106] |
 
 ```
 ⭐ Tolerans ±0,5 sn (2x dosyada = 1 sn film zamanı) — VARSAYIM; ilk üç filmde
