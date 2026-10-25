@@ -11,8 +11,8 @@
 ## SAYIM
 
 ```
-TOPLAM FİLM          66     (dikey_shorts + yatay_*_dk_filmler klasörleri · 12 dk dahil)
-BEŞ MERCEKLE ÖLÇÜLEN 15 (SKY STATION B1 · POOL ROOM · RAIN TOWER · HIDDEN LOFT · SKY VAULT · GAME ON · THE LAST STOP · THE SEA MILL · THE FIRST GUEST · TOTAL RESET · THE BURIED KHAN · THE EDEN ARK · THE HIDDEN FALLS · THE SLOW TAKEOFF · THE BORROWED HILL)
+TOPLAM FİLM          70     (dikey_shorts + yatay_*_dk_filmler klasörleri · 12 dk dahil)
+BEŞ MERCEKLE ÖLÇÜLEN 16 (SKY STATION B1 · POOL ROOM · RAIN TOWER · HIDDEN LOFT · SKY VAULT · GAME ON · THE LAST STOP · THE SEA MILL · THE FIRST GUEST · TOTAL RESET · THE BURIED KHAN · THE EDEN ARK · THE HIDDEN FALLS · THE SLOW TAKEOFF · THE BORROWED HILL · LIT AGAIN)
 ARŞİVDE ÖLÇÜLEN      37     (ARSIV_12_MERCEK/HAM_RAPORLAR klasörleri · 12 mercek)
 ```
 
@@ -39,6 +39,7 @@ ortalaması · N.
 | THE HIDDEN FALLS | 16:9 | 1x | 5,4 | 5,5 | 3,7 | 3,9 | 8,5 | 5,4 (N=5) ⛔ DÜŞTÜ | SEPARATE IMAGES (❶) · MELTING (❶) · REBUILT (❸) · PARKED (❸) · APPEARING (❹) | 22.10.2026 |
 | THE SLOW TAKEOFF | 16:9 | 1x | 9,3 | 9,8 | 10,0 | 10,0 | 10,0 | 9,8 (N=5) | — | 22.10.2026 |
 | THE BORROWED HILL | 16:9 | 1x | 7,2 | 8,4 | 8,0 | 9,2 | 8,6 | 8,3 (N=5) | MELTING (❶) | 22.10.2026 |
+| LIT AGAIN | 9:16 | 2x | 6,8 | 7,4 | 4,3 | 5,5 | 9,0 | 6,6 (N=5) ⛔ DÜŞTÜ | REBUILT (❸) · MELTING (❶) · PARKED (❸) · APPEARING (❹) | 25.10.2026 |
 
 ```
 ⭐ "dosya" sütunu: 2x · 1x · 1x+2x (❸ ❹ master, ❶ ❷ ❺ yayın) [QA_OLCUM_ZEMINI §3]
