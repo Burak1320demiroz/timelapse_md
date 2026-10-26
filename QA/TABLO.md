@@ -40,7 +40,7 @@ ortalaması · N.
 | THE SLOW TAKEOFF | 16:9 | 1x | 9,3 | 9,8 | 10,0 | 10,0 | 10,0 | 9,8 (N=5) | — | 22.10.2026 |
 | THE BORROWED HILL | 16:9 | 1x | 7,2 | 8,4 | 8,0 | 9,2 | 8,6 | 8,3 (N=5) | MELTING (❶) | 22.10.2026 |
 | LIT AGAIN | 9:16 | 2x | 6,8 | 7,4 | 4,3 | 5,5 | 9,0 | 6,6 (N=5) ⛔ DÜŞTÜ | REBUILT (❸) · MELTING (❶) · PARKED (❸) · APPEARING (❹) | 25.10.2026 |
-| THE SUNKEN GARDEN | 9:16 | 2x | 5,3 | 6,3 | 5,1 | 5,6 | 8,4 | 6,1 (N=5) ⛔ DÜŞTÜ | REBUILT (❸) · MELTING (❶) · WRONG DIRECTION (❷) · APPEARING (❹) | 25.10.2026 |
+| THE SUNKEN GARDEN | 9:16 | 2x | 5,3 | 6,3 | 5,1 | 5,6 | 8,4 | 6,1 (N=5) ⛔ DÜŞTÜ | REBUILT (❸) · MELTING (❶) · WRONG DIRECTION (❷) · APPEARING (❹) | 25.10.2026 (K2: 27.10 37×1sn dilimleme 10,0 bağlayıcı değil) |
 | THE DRIVE IN | 9:16 | 2x | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | YG | — (N=0) ⚠️ bağlayıcı değil — beş mercek boş blokla (34×1 sn dilimleme / mod V); rapor-içi: 10,0 · 10,0 · 10,0 · 10,0 · 10,0 (ort 10,0); olumsuz hüküm YOK; istasyon→drive-in dönüşümü tam | — | 27.10.2026 |
 | THE READING CAR | 9:16 | 2x | EKS | EKS · ŞİŞİK | EKS · ŞİŞİK | EKS · ŞİŞİK | YG | — (N=0) ⚠️ bağlayıcı değil — beş mercek boş blokla (33×1 sn dilimleme / mod V); rapor-içi: 9,7 · 9,3 · 10,0 · 10,0 · 10,0 (ort 9,8); olumsuz hüküm YOK; vagon→kitapçı dönüşümü tam | — | 27.10.2026 |
 

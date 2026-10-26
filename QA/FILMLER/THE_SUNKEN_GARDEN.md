@@ -118,3 +118,87 @@ SONUÇ:          ⛔ DÜŞTÜ (FAIL — Şantiye süreksizliği ve zaman saatini
    - *Plandan Cevap*: Açılış: Yaprak dolu, ıslak ve çirkin bir terk edilmiş havuz ("Dead Pool"). Final: Mavi saatte ip ışıkların yandığı, ortasında taş ateş çukurunda alevlerin titreştiği lüks bir batık bahçe ("Sunken Garden"). Vaat tam yerine getirilmiştir.
 2. **Ses tasarımı nasıl planlandı?**
    - *Plandan Cevap*: Planda müzik yasaktır (`⛔ MÜZİK YOK`); sesin diegetik yaprak hışırtısı, basınçlı yıkama sesi, çekiç/vida sesleri ve finalde ateş çatırtısı olması hedeflenmiştir. Gerçek insan konuşması planlanmamıştır.
+
+---
+
+## 🔬 İKİNCİ KOŞU (K2 — 27.10.2026 · 37 Klip Serbest Dilimleme Testi)
+
+> **DİKKAT — PUAN BAĞLAYICI DEĞİLDİR:** Bu koşuda modele `qa_paket.sh` makine ölçüm bloğu verilmemiş (`{SPEED}`, `{CLIP_COUNT}`, `{CUTS}` yer tutucuları boş gitmiş); model 41 saniyelik videoyu 1'er saniyelik adımlarla (37 klip) örneklemiştir (`DERS 105 / 106`, `GAME ON` ve `TOTAL RESET` emsali).
+> 1 saniyelik adımlarda dikişler arası kesme farkları kaybolduğu için model tüm merceklerde 10/10 şişik puan vermiştir. **Resmî geçerli ölçüm K1 (7 sahne · 6,1 ⛔ DÜŞTÜ) koşusudur.**
+
+### K2 Mercek Puanları
+
+| mercek | durum | puan | hüküm | ham | en ağır bulgu (m:ss.s) · not |
+|---|---|:-:|---|---|---|
+| **❶ GÖRÜNTÜ** | EKSİK · ŞİŞİK (D2 ✗) | — (rapor: 10,0) | TIMELAPSE · SOLID | [THE_SUNKEN_GARDEN_Q1_GORUNTU_HAM_K2.md](file:///Users/dai/github/apex_md/timelapse_md/QA/HAM/THE_SUNKEN_GARDEN/THE_SUNKEN_GARDEN_Q1_GORUNTU_HAM_K2.md) | 100/10 · kadraj ve nirengi sabit · eriyen cisim YOK (`NONE FOUND`) · ⚠️ 37 klip 1 sn dilimlemesi |
+| **❷ ZAMAN VE KESME** | EKSİK · ŞİŞİK (D2 ✗) | — (rapor: 10,0) | PASSING · TIME | [THE_SUNKEN_GARDEN_Q2_ZAMAN_KESME_HAM_K2.md](file:///Users/dai/github/apex_md/timelapse_md/QA/HAM/THE_SUNKEN_GARDEN/THE_SUNKEN_GARDEN_Q2_ZAMAN_KESME_HAM_K2.md) | 90/9 · güneş açısı 53°→24° · The cut that carries: 0:24.0 · 33 kesmenin tümü TIME · ⚠️ 37 klip dilimlemesi |
+| **❸ ŞANTİYE** | EKSİK · ŞİŞİK (D2 ✗) | — (rapor: 10,0) | SAME WORLD · WORKING | [THE_SUNKEN_GARDEN_Q3_SANTIYE_HAM_K2.md](file:///Users/dai/github/apex_md/timelapse_md/QA/HAM/THE_SUNKEN_GARDEN/THE_SUNKEN_GARDEN_Q3_SANTIYE_HAM_K2.md) | 33 dikişin 33'ü hatasız (0 kusur) · tuğla duvar kanıt (0:00 ve 0:34) · rölanti yok · ⚠️ 37 klip dilimlemesi |
+| **❹ İNŞA** | EKSİK · ŞİŞİK (mod V · D2 ✗) | — (rapor: 10,0) | SAME · BUILT · INVITED | [THE_SUNKEN_GARDEN_Q4_INSA_HAM_K2.md](file:///Users/dai/github/apex_md/timelapse_md/QA/HAM/THE_SUNKEN_GARDEN/THE_SUNKEN_GARDEN_Q4_INSA_HAM_K2.md) | Temizlik → yıkama → çakıl → karkas → deck → ateş çukuru sırası tam · davetsiz nesne yok (`NONE FOUND`) |
+| **❺ TESLİM** | YANLIŞ GİRDİ (mod V · D2 ✗) | — (rapor: 10,0) | ENDS | [THE_SUNKEN_GARDEN_Q5_TESLIM_HAM_K2.md](file:///Users/dai/github/apex_md/timelapse_md/QA/HAM/THE_SUNKEN_GARDEN/THE_SUNKEN_GARDEN_Q5_TESLIM_HAM_K2.md) | Vaat tam çıktı · 0:25.0 yanan ateş çukuru ve ip ışıklar final beat (`PASS`) · 0:36.5 kart tam (Cat 7 NV) |
+
+```
+K2 FİLM PUANI:   — · N=0 (rapor-içi ortalama: 10,0)
+HÜKÜM:           ⚠️ BAĞLAYICI DEĞİL (Ölçülmüş olgular bloğu olmadan 1'er saniyelik dilimleme ile koşuldu)
+GEÇERLİ KAYIT:   K1 KOŞUSU (6,1 ⛔ DÜŞTÜ · REBUILT EVERY SHOT 0/10 · WRONG DIRECTION 2/10)
+```
+
+### K2 Soruları ve Plandan Cevaplar
+
+#### ❶ GÖRÜNTÜ (Lens 1)
+1. **Hardwood decking tahtaları için belirlenen malzeme şartnamesi nedir?**
+   - *Plandan Cevap*: 21×145 mm dış mekân dayanımlı sert ahşap (Garapa / Cumaru), gizli klipsli paslanmaz çelik vidalama sistemi ve UV koruyucu tik yağı cilası.
+2. **Havuz temizliğinden ahşap güverte montajına kadar olan inşaat sırası tek bir sürekli iş akışı olarak mı planlandı?**
+   - *Plandan Cevap*: Evet; tek bir sonbahar gününde 7 sahneli kronolojik akış (S0 yaprak süpürme $\rightarrow$ S1 basınçlı yıkama $\rightarrow$ S2 çakıl serme $\rightarrow$ S3 karkas kurma $\rightarrow$ S4 tahta vidalama $\rightarrow$ S5 taş ateş çukuru $\rightarrow$ S6 akşam kullanımı).
+3. **Çakıl tabakasının altındaki batık havuz tabanı için hangi drenaj gereksinimleri belirlendi?**
+   - *Plandan Cevap*: Havuzun orijinal dip tahliye sifonu açık tutulmuş; üzerine 15 cm'lik 10–20 mm kırmataş drenaj agregası serilerek suyun serbest tahliyesi sağlanmıştır.
+4. **Dış mekân ip ışıkları ve ateş çukuru peyzaj mimarisinin birincil aşamasına dahil miydi?**
+   - *Plandan Cevap*: Evet; S5'te ateş çukuru taşları örülmüş, S6'da ip ışıklar yakılarak alan oturma ve yaşam alanına dönüştürülmüştür.
+
+#### ❷ ZAMAN VE KESME (Lens 2)
+1. **İnşaat dizisi sırasında her klip için beyan edilen güneş yönü ve yükseklik takvimi nedir?**
+   - *Plandan Cevap*: Sabah 08:00'den (112°/18°) akşam 19:15 mavi saate (285°/0°) uzanan tek bir sonbahar günü yay çizgisi; kamera kuzeye bakar (−15° tilt), güneş doğrudan kadraja girmez.
+2. **Havuz temizliğinden akşam sosyal kullanımına geçiş için belirlenen mevsimsel takvim nedir?**
+   - *Plandan Cevap*: Tek bir sonbahar günü (Ekim sonu; dökülen sarı yapraklar, çalışanların montları ve erken gün batımı bu takvimi taşır).
+3. **Her kesme aralığında ve toplam film süresinde temsil edilen beyan edilmiş geçen süre nedir?**
+   - *Plandan Cevap*: S0–S5 arası sahne başına 2 saat (toplam ~10-11 saat gündüz inşası), S6 akşamında 10 dakikalık mavi saat (Rejim A); toplam ~11 saatlik bir gün.
+4. **Işık değişimlerini vurgulamak için herhangi bir klip held hour olarak planlandı mı?**
+   - *Plandan Cevap*: S6'nın son saniyeleri (2x'te 2 sn, master'da 4 sn) mavi saat ışık tutuşu olarak planlanmıştır.
+5. **Proje ilerleme aşamaları için hedeflenen tempo neydi?**
+   - *Plandan Cevap*: Başlangıçta kaba temizlik adımları, ortada yoğun marangozluk ve taşçılık, finalde sakinleşen ve işlevi sergileyen bir tempo eğrisi.
+
+#### ❸ ŞANTİYE (Lens 3)
+1. **Ağır havuz temizliğinden ince ahşap işçiliğine ve peyzaja geçiş takvimi neydi?**
+   - *Plandan Cevap*: S0–S1 sabah (temizlik ve yıkama), S2 öğle (çakıl yatağı), S3–S4 öğleden sonra (ahşap karkas ve zemin döşeme), S5 ikindi (taş örme), S6 akşam (peyzaj ve oturma).
+2. **Çakıl tabanı ve ahşap güverte için malzeme miktarları havuz boyutlarına göre tam hesaplandı mı?**
+   - *Plandan Cevap*: Evet; ~10×4,5 m taban alanı için ~7 m³ çakıl agrega, ~45 m² karkas ızgarası ve zemin tahtası planlanmıştır.
+3. **Perimetre ip ışıkları ve duvara monte armatürler için hangi aydınlatma entegrasyon planı belirlendi?**
+   - *Plandan Cevap*: Arka tuğla duvara pirinç aplikler ve üst parapet boyunca sıcak ışıklı edison ampullü ip aydınlatma hattı çekilmiştir.
+4. **Akşam ağırlama dizisi peyzaj uygulamasının ayrılmaz bir tamamlanma aşaması olarak mı planlandı?**
+   - *Plandan Cevap*: Evet; ancak diyalogsuz ve Rejim A timelapse hızında olması şarttı (1x gerçek zamana düşüş ve konuşmalar modelin kural ihlalidir).
+5. **Ahşap güvertenin altındaki batık bahçe yatağı için hangi drenaj hükümleri belirlendi?**
+   - *Plandan Cevap*: Çalışır durumdaki havuz dip sifonu üzerine jeotekstil keçe ve çakıl yatağı serilerek ahşap kirişlerin suya temas etmesi önlenmiştir.
+
+#### ❹ İNŞA (Lens 4)
+1. **Alt zemin karkası ve güverte tahtaları için hangi kereste türü ve işlem şartnameleri belirlendi?**
+   - *Plandan Cevap*: Taşıyıcı karkasta 50×100 mm basınçlı emprenye çam kalaslar; zemin kaplamasında 21×145 mm dış mekân yağlı Garapa sert ahşap.
+2. **Ahşap güvertenin altındaki çakıl alt taban için tam yük taşıma hesapları neydi?**
+   - *Plandan Cevap*: 15 cm sıkıştırılmış kırmataş dolgu, karkas takozlarının yükünü havuz tabanına eşit dağıtır.
+3. **Taş ateş çukuru duvar üniteleri yapı mühendisliği planında kuru yığma mı yoksa harçlı mı belirlendi?**
+   - *Plandan Cevap*: Ateşe dayanıklı refrakter harçlı iç çekirdek, dış yüzeyde kuru yığma görünümlü andezit bloklar.
+4. **Entegre ahşap saksı kasaları için hangi toprak ve drenaj gereksinimleri belirlendi?**
+   - *Plandan Cevap*: İç kısımlar EPDM yalıtımlı, tabanda çakıl drenaj filtresi ve bambular için hafifletilmiş torf-ponza karışımı.
+5. **Akşam ağırlama dizisi mimari peyzaj projesi için resmî tamamlanma kilometre taşı mıydı?**
+   - *Plandan Cevap*: Evet; mekanın başarıyla teslim edildiğini ve çalıştığını kanıtlayan Final Beat adımıdır.
+
+#### ❺ TESLİM (Lens 5)
+1. **Batık bahçe dönüşümü için hedeflenen duygusal ton veya yaşam tarzı anlatısı neydi?**
+   - *Plandan Cevap*: Terk edilmiş, çürümüş bir beton çukurun sıcak, davetkâr ve huzurlu bir akşam sığınağına dönüşümünün getirdiği estetik doyum ("Dead Pool to Sunken Garden Lounge").
+2. **Akşam toplanması ve kahve servisi videonun birincil anlatı getirisi olarak mı planlandı?**
+   - *Plandan Cevap*: Evet; yanan ateş, yanan ışıklar ve mekândan yararlanan insanlar vaadin gerçekleştiğinin kanıtıdır.
+3. **Gündüz ağır inşaatından akşam dinlencesine geçiş için hangi tempo tasarlandı?**
+   - *Plandan Cevap*: Hızlı tempolu inşaattan (Rejim B), dinginleşen ve süresi uzayan mavi saat işlev anına (Rejim A) geçiş.
+4. **Görsel ilerlemeye eşlik etmesi için hangi ortam ses tasarımı unsurları hedeflendi?**
+   - *Plandan Cevap*: Diegetik şantiye sesleri (yaprak tırmığı, basınçlı yıkama, çekiç, vidalama, ateş çıtırtısı); müzik ve konuşma yasaktır.
+5. **Bu video varlığı için hangi tanıtım veya platform yayın paketi planlandı?**
+   - *Plandan Cevap*: 9:16 Shorts/Reels/TikTok dikey video, "THE SUNKEN GARDEN" kapak kartı, organik diegetik ses miksi.
+
