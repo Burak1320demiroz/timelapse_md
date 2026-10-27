@@ -47,6 +47,8 @@ timelapse_md/
 │   │                                   paketleme · GERÇEKLİK BEYANI
 │   ├── DIKEY_TIMELAPSE_KAPAK_KILAVUZU.md ⭐ dikey kapak: çekirdek 780×840 · başlık kutusu ·
 │   │                                   3:4/4:5/1:1 provası · §0 depo uyarlaması (16.10.2026)
+│   ├── KAPAK_STIL_KILAVUZU.md       ⭐ dikey kapağın GÖRÜNÜŞÜ: üç orta başlık bandı (Ü·O·A) · ışık reçetesi R1–R3 ·
+│   │                                   ışık varyantı I0/I1/I2 (GN kadrajı sabit, ileri saat) · stil S1–S4 (25.10.2026)
 │   │  ── ikinci kuşak · 08.09.2026 · A5–A8 araştırmasından doğdu ──
 │   ├── INSAAT_YONTEMI_KILAVUZU.md   ⭐ ara hâller (%25/%50/%75) · geçici ekipman
 │   │                                   · okunabilirlik eşiği 0,5 m · ⑧'in kapısı
@@ -293,7 +295,8 @@ ve komşularında. Burada tekrarlanmaz.**
 9. MÜZİK + KAPAK      MUZIK_VE_KAPAK — 120 BPM (3 ölçü/sahne) · kapak SON
                       sahnenin usta karesinden türer ve ⭐ İNGİLİZCE BAŞLIK taşır
                       ⭐ DİKEY: DIKEY_TIMELAPSE_KAPAK_KILAVUZU §0 · §3 — GN ana yapı y %29–58,
-                      başlık sakin alanı y %60–71 (plan kadraj tablosuna yazılır) · kapak = SON KART
+                      başlık bandı Ü/O/A + ışık + stil → KAPAK_STIL_KILAVUZU §2 · §3 · §4 (plan kadraj tablosuna
+                      yazılır · ⛔ en üstte/en altta değil) · kapak = SON KART
 10. PAKETLEME         ⛔ başlık/açıklama/hashtag/yorum İNGİLİZCE
 11. QA_SPEC           kilit listesi + ⛔ FİNAL KARE KANITI satırı
 12. PROMPT KAPISI     python3 araclar/prompt_kontrol.py <dosya>
@@ -460,6 +463,7 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
 3. 120 PX TESTİ hem kapağa hem S0'ın 0. karesine (sips -Z 120)
 3b. ⛔ KAPAK PROVASI (dikey)  python3 araclar/kapak_prova.py kapak.png — 3:4 · 4:5 · 1:1 merkez kırpma +
       140 px; üç soru ✓ + gerçek platform önizlemesi [DIKEY_TIMELAPSE_KAPAK_KILAVUZU §9 · §11 · DERS 94]
+      + KAPAK_STIL_KILAVUZU §6: başlık bandda · kontrast ≥ 4,5:1 ölçüldü · ışık varyantı I2 ise §3.4 kapısı
 4. İHRAÇ        1440p+ · BT.709 · 48 kHz · −14 LUFS · −1,0 dBTP
 5. PAKETLEME    başlık/açıklama/hashtag/sabit yorum + ⛔ GERÇEKLİK BEYANI
                 → doldurulmuş kanal şablonu: apexait/youtube/PAKETLEME_SABLONU.md

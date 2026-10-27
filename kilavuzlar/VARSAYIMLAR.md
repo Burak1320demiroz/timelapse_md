@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 DİZİN — 221 kod · ⬜ açık 185 · ✅ ölçüldü 29 · ❌ düştü 7
+## 📋 DİZİN — 259 kod · ⬜ açık 223 · ✅ ölçüldü 29 · ❌ düştü 7
 
 ```
 DURUM SÜTUNU — üç değer, dördüncüsü yok
@@ -311,6 +311,12 @@ DURUM SÜTUNU — üç değer, dördüncüsü yok
 | A42-b | ENTROPİ DÜŞÜŞÜ — kaostan dik açılı nizama geçiş beyinde görsel rahatlama yaratır | DOI:10.1371/journal.pone.0316555 | ⬜ açık |
 | A42-c | 8 SANİYELİK MİKRO-DOYUM ANATOMİSİ — 5.5-7.0s mekanik vuruş (keystone/lock) gerçekleşir | fMRI ASMR · DOI:10.3389 | ⬜ açık |
 | A42-d | 7-8s MERAK TOHUMU (FORWARD HOOK) — sahne bitmeden yeni tamamlanmamış uç belirmelidir | DOI:10.1098/rstb.2022.0411 | ⬜ açık |
+| A43-a | META REELS REKLAM GÜVENLİ ALANI — üst %14 · alt %35 · yan %6 (≈ 269 · 672 · 65 px); organik için resmî sayı yok | Meta ads guide · platform ✅ (reklam) | ⬜ açık |
+| A43-b | SAĞ DÜĞME SÜTUNU — ≈ y 800–1500 · genişlik 120–230 px (x > ≈ 850); tek üçüncü taraf tahmini | houseofmarketers vb. · doğrulanmadı | ⬜ açık |
+| A43-c | SHORTS ÖZEL KAPAK YALNIZ YPP — 24.07.2026'dan beri; performans iddiası yok | YouTube Blog · platform ✅ | ⬜ açık |
+| A43-d | YENİDEN IŞIKLANDIRMA KALIBI — değişikliği söyle, korunanları say ('lighting' hariç); her deneme orijinalden | Google dev blog ✅ · Adobe | ⬜ açık |
+| A43-e | SICAK/SOĞUK TAMAMLAYICI KONTRAST küçük önizlemede yapıyı arka plandan ayırır | uygulayıcı · kapak ölçümü yok | ⬜ açık |
+| A43-f | KONTUR (puntonun %2–4'ü) / YUMUŞAK GÖLGE yoğun zeminde okunurluğu artırır | uygulayıcı kuralı · kanıt yok | ⬜ açık |
 
 
 
@@ -1531,6 +1537,31 @@ A42-c 8 SANİYELİK MİKRO-DOYUM ANATOMİSİ — 0-5s Birikim -> 5.5-7.0s Mekani
       nucleus accumbens aktivasyonu ve mikro-dopamin salınımı. [fMRI ASMR · DOI:10.3389/fnins.2023.1025745]
 A42-d 7-8s MERAK TOHUMU (FORWARD HOOK) — sahne bitmeden (7-8 sn) kadraj köşesinde henüz çözülmemiş yeni bir
       yapım ucu (filiz demir, boş yuva) belirmelidir; izleyiciyi sonraki klibe bağlar. [DOI:10.1098/rstb.2022.0411]
+```
+
+---
+
+## 🔬 A43 — DİKEY KAPAK STİLİ · 25.10.2026 · tek rapor, prompt bu depoda yazıldı, sahip istedi
+> Kaynak: `arastirma/SONUCLAR/A43_SONNET_HAM.md` (Claude Sonnet 5.5 alt ajan · effort medium) · Prompt:
+> `arastirma/A43_DIKEY_KAPAK_STILI.md` · Ayrı denetim YOK: sayfalar özetleyici okuyucuyla okundu, sayılar birebir alıntı
+> değil · Tetikleyen: sahip isteği "her film için viral kapak · safe area · başlık ortada · ışık ve başlık stilleri" ·
+> İndiği yer: `kilavuzlar/KAPAK_STIL_KILAVUZU.md`
+
+```
+A43-a META REELS REKLAM GÜVENLİ ALANI — anahtar öğeler üst %14, alt %35, yanlar %6 dışında (1080×1920: ≈ 269 · 672 ·
+      65 px). Resmî ama REKLAM için; organik Reels/Shorts için resmî sayı bulunamadı. → KAPAK_STIL §2.1 A bandının alt
+      sınırı 1240. [facebook.com/business/ads-guide · PRIMARY (ads)]
+A43-b SAĞ DÜĞME SÜTUNU — Reels'te ≈ y 800–1500 (tek kaynak), genişlik tahminleri 120–230 px (x > ≈ 850–960). Resmî
+      y aralığı yok. → KAPAK_STIL §2.1 O ve A bantları x 240–840. [üçüncü taraf · UNVERIFIED]
+A43-c SHORTS ÖZEL KAPAK — 24.07.2026'dan beri YPP kanallarına özel kapak yükleme; masaüstünde 3 önerilen kare,
+      mobilde her kare seçilebilir; performans verisi verilmedi. → KAPAK_STIL §6 adım 8. [blog.youtube · PRIMARY]
+A43-d YENİDEN IŞIKLANDIRMA KALIBI — "değişikliği söyle, sonra neyin aynı kaldığını say"; Google'ın korunanlar şablonu
+      "lighting" içerir (ışık değişecekse çıkarılır); Adobe: her yeni prompt orijinale uygulanır, öncekine değil.
+      Geometri kayma ORANI ölçülmedi. → KAPAK_STIL §3.3 · §3.4. [ai.google.dev · developers.googleblog · adobe.com]
+A43-e SICAK/SOĞUK KONTRAST — tamamlayıcı renkler özneyi ayırır; yalnız ton yetmez, değer/doygunluk da gerekir.
+      Kapak/timelapse'e özgü ölçüm YOK. → KAPAK_STIL §3.1. [uygulayıcı · SECONDARY/UNVERIFIED]
+A43-f KONTUR / GÖLGE — yoğun zeminde kontur (puntonun %2–4'ü) ya da hafif gölge önerilir; kanıt yok; iki renkli başlık
+      ve "tık tuzağı algısı" üzerine çalışma bulunamadı. → KAPAK_STIL §4.5 açık sahip kararı. [uygulayıcı · UNVERIFIED]
 ```
 
 ---

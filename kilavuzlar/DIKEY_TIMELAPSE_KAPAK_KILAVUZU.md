@@ -21,6 +21,8 @@ DEĞİŞMEYEN   ① kapak GN'den türer (sahip kuralı 19.09.2026 · DERS 30): V
 PLANA İNEN   GN kompozisyonu kapak çekirdeğine göre kurulur (kadraj tablosunda "% alttan"):
              ana yapı + dönüşüm izi y %29–58 · x %14–86  ← §3 ana yapı kutusu (y 800–1360 px)
              başlık için SAKİN alan y %60–71 · x %17–83  ← §3 başlık kutusu (y 560–770 px)
+             ⭐ 25.10.2026: bu kutu artık üç bandın biri (Ü). O (%45–55) ve A (%35–45) bantları, ışık varyantı ve
+             başlık stili → KAPAK_STIL_KILAVUZU.md · sahip kuralı: başlık en üstte/en altta OLMAZ.
              KILAVUZ_REHBERI §2.1 kapak kuralı · plan KADRAJ KİLİTLERİ'ne "kapak çekirdeği" satırı.
 ARAÇ         python3 araclar/kapak_prova.py kapak.png → 9:16 · 3:4 · 4:5 · 1:1 merkez kırpmaları + 140 px
              küçükler + şablonlu kopya + PROVA_PANOSU.png · şablon: kilavuzlar/KAPAK_SAFE_AREA_1080x1920.png

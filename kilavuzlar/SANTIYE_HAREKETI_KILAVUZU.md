@@ -350,7 +350,8 @@ KURAL  ① İş yüzeyi = ELEMAN ADI + KADRAJ YÜZDESİ: "on the top surface of 
                       yer alır [A41-d · MONOTONIK_ILERLEME_VE_FAZ_KAPISI_KILAVUZU §3.4].
 
 KAPI (FIX — pilot ölçülene kadar; sahip kararı 19.09.2026 kalıbı):
-   · ACTIVITY'de el < 3 (farklı makine + ekip kelimesi ×2) → FIX
+   · ACTIVITY'de el < 3 (farklı makine + el aleti + ekip kelimesi ×2) → FIX
+     ⭐ 27.10.2026 (sahip · THE DUGOUT, tek kişilik film): pickaxe · shovel · wheelbarrow · axe · saw · rope el sayılır (DERS 89)
    · I2V'de kaynak → taşıyan akışı yok (pile · stack · truck · crate · pallet … + taşıma fiili) → FIX
 KALDIRDIĞI  "az sayıda görevli" ölçüsü (C1-d) — artık ana işe hizmet eden ekip istenir.
 ⚠️ DERS 89 (POOL ROOM S5): el sayısı KADRO SAYISINI aşamaz. İki kişilik parça × birden çok parça yazılırsa

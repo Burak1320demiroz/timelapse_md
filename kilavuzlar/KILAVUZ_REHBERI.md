@@ -178,7 +178,7 @@ burada kadrajın boş olduğu yer (üst) tam da yapının büyüdüğü yerdir.
 > son klibin 4–8 sn TUTUŞU bittikten sonra girer; erime kullanılacaksa ≤ 1 sn ve tutuşun DIŞINDA (POOL ROOM'da
 > 2,1 sn erime finalin son 2 sn'sini örttü). ③ Süre plana yazılır: `KAPAK KARTI 1 kart × 5,0 sn (sonda ·
 > erime 0,5 sn)` — ihrac_kontrol süre = blok/hız + kart. ④ Yazı yalnız kartta; sahnelerde yazı yasağı sürer.
-> ⑤ Yerleşim `DIKEY_TIMELAPSE_KAPAK_KILAVUZU.md` §0 · §3: GN'de ana yapı y %29–58, başlık sakin alanı y %60–71
+> ⑤ Yerleşim `DIKEY_TIMELAPSE_KAPAK_KILAVUZU.md` §0 · §3 + başlık bandı Ü/O/A, ışık ve stil `KAPAK_STIL_KILAVUZU.md` (25.10.2026): GN'de ana yapı y %29–58, başlık sakin alanı (Ü bandı) y %60–71
 > (alttan) — plan KADRAJ KİLİTLERİ tablosuna "kapak çekirdeği" satırı · yayından önce `kapak_prova.py` [DERS 94].
 > Brief 6 ya da 8 sahne verirse plan yine 7 ile yazılır ve bu sahibe söylenir.
 > `prompt_kontrol.py` §10f dikeyde 7 dışını, 8,0 dışını, künye satırı eksikliğini,

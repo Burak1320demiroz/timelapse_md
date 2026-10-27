@@ -392,9 +392,11 @@ YUZEY = (r"\brut|\btrack|mud|dust|spoil|stockpile|pallet|\bpile|stack|cable|hose
          r"steam|puddle|crust|haze|clutter|offcut|tarpaulin|debris|scar")
 # ⭐ HAREKET SAYIMI: kaç FARKLI HAREKET EDEN varsa o kadar kaynak.
 # "stands · waits · queues" hareket DEĞİLDİR — ⑦ PARKED tam olarak odur.
+# ⭐ 27.10.2026 (sahip kararı · THE DUGOUT): el aleti de el sayılır [DERS 89 · §4.8 "eli alet, araba artırır"].
 EDEN = (r"excavator|loader|truck|crane|hoist|paver|roller|grader|pump|mixer|"
         r"telehandler|platform|climber|rover|drill|rig|dozer|worker|crew|"
-        r"vehicle|jib|boom|cart|arm")
+        r"vehicle|jib|boom|cart|arm|"
+        r"\bpickaxe|\bshovel|\bwheelbarrow|\baxe\b|\bsaw\b|\brope\b")
 EYLEM = (r"work|lift|clear|pour|place|hoist|swing|crawl|travel|haul|tip|roll|"
          r"spray|unroll|weld|drill|bore|discharge|sweep|cross|rotate|glide|"
          r"dart|drive|climb|\brun|pulse|push|carry|move|dig|cut|spread|rise")

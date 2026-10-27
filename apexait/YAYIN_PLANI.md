@@ -553,6 +553,75 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       gelişi. ⚠️ İÇERİK AKRABASI: THE SKY VAULT (kömür oda) · THE HIDDEN LOFT (lounge) · FIRST SLICE (garaj) · UNDERWATER OBSERVATORY (kayaya
       oyulmuş salon). ⛔ Dördüyle de ARDIŞIK YAYINLANAMAZ.
 
+⭐ 23.10.2026: LIT AGAIN KULE ailesine yazıldı — `dikey_shorts/LIT_AGAIN/` (burnun güneyindeki kıyı yarıncağının kenarı, kule tabanından
+   h +14,6 m · kuleye 47 m · 24 mm · bearing 0° (açık deniz) · tilt 0, ufuk %50; kule %29,3–57,7 · başlık alanı fener odasının üstündeki
+   açık gök). Çalılara gömülü, boyası dökülen, camları kırık fener → temizlik, 4 + 3 kat tüp iskele, kuru raspa, cam sökümü, beyaz + siyah
+   korkuluk, iki kırmızı bant + kapı + pencere + siyah fener çerçeveleri, yeni camlar, iskele tepeden iner; mavi saatte fener tek karede
+   yanar, lens gerçek zamanda döner.
+   ⭐ BEDEL: harabenin kendisi (pas izli, soluk pembe bantlı "hayalet" kule) · tanıklar kadrajda: kulenin biçimi ve boyu, YEŞİL BAKIR KUBBE
+      (hiç boyanmaz), eski lens, yosunlu kaya, beton şamandıra kaidesi, dalgakıran, ufuk (on üç karede aynı).
+   ⭐ DEFTER: vinç yok — ip makarası (YASAK KELİME crane · hoist) · basınçlı yıkama yok (DERS 67) · boya EN ALT kattan, raspa EN ÜST kattan
+      (DERS 97) · huzme yazılmaz (ISIK_FINALI · STAR DOCK) · lens dönerken kule/kubbe kilitli (DERS 56) · ara kare G2a · G5a · G6a (G7a = G8)
+      · konteyner römork, kamyonet çeker · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (23.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi "8 × 8 sn, 9 G".
+      Final yarım klip REJİM G (S7·b, gerçek zaman) → P16-g "G finali" sayımına GİRER (altıncı).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan paket "Sönmüş Fener Yeniden Yanıyor", 8 × 8 sn, kamera kartı A, pilot V2 · V3 · V7); ajan denetimi
+      (dokuz depo çelişkisi · iki soru) → sahip "Tek kare + gerçek zaman" · "Kapak çekirdeği". ⚠️ Onaydan sonra hesapla değişti: S7·a 75×
+      değil 900× (üç rejim yasağı) · dördüncü ara kare G6a · konteyner römork · lamba S7·a'nın son karesinde yanar, S7·b dönen ışıkla tutuş
+      (plan TASARIM ⑤–⑦ · AÇIK KALANLAR ①).
+   ⚠️ İşlev anı ışık — SEKİZİNCİ (LAST STOP · GAME ON · TOTAL RESET · POOL ROOM · UNDERWATER OBSERVATORY · COLOSSUS · THE TURNTABLE; onay
+      sorusunda yazıldı); fark: ışık yapının KENDİ işlevi ve DÖNER. ⚠️ İÇERİK AKRABASI: THE DARK ROCK (fener inşası) · THE BLUE DOOR
+      (restorasyon, ışıklı final) · THE LAST HARBOR (fener yanar) · THE RAIN TOWER (aynı KULE siluet: tilt 0, ufuk %50, üstte açık gök).
+      ⛔ Dördüyle de ARDIŞIK YAYINLANAMAZ.
+
+⭐ 25.10.2026: THE READING CAR İÇ MEKÂN (bekleyen) ailesine yazıldı — `dikey_shorts/THE_READING_CAR/` (vagonun yakın ucunda, iç duvardan
+   1 m içeride, eksende · h +1,7 m · kapıya 14 m · 24 mm · bearing 0° · tilt 0, ufuk %50; tek nokta koridor · alın duvarı + kapı py 878–1115 ·
+   başlık alanı yakın koyu ahşap tavan, py 560–770). Yırtık koltuklu, çürük tahtalı, kırık camlı terk edilmiş yolcu vagonu → koltuklar el
+   arabasıyla kapıdan, çürük tahta levyeyle, duvar el aletiyle temizlenir, kırık cam çıkar, meşe kapıdan kameraya, sekiz yeni cam, sekiz
+   boyalı yeşil kitaplık, pirinç ray + kayar merdiven, dört sarkıt + tezgâh, kitaplar iki klipte, okuma koltuğu; mavi saatte lambalar tek
+   karede yanar, ilk müşteri üç metre yürüyüp bir kitap çeker.
+   ⭐ BEDEL: vagonun yolcu hâli (sekiz koltuk, çürük döşeme) · tanıklar kadrajda: 4 + 4 pencere sırası, koyu ahşap tavan + beş kaburga, kırmızı
+      acil fren kutusu, alın duvarı ve açık kapı, kapı ardındaki tuğla duvar (dokuz karede aynı).
+   ⭐ DEFTER: basınçlı yıkama yok (DERS 67) · kitaplıklar boyalı gelir (sahip seçimi) · kapı dokuz karede açık, ardı somut (DERS 101) · iki
+      işçi, tek el arabası, makine yok (DERS 89) · parke yönü ve ilerleme ayrı cümle (DERS 102) · cam pencere ölçüsünde, elle (DERS 88) ·
+      koltuk yerinde iner (DERS 103) · sırt yazısı yok (DERS 59) · zaman pencere lekelerinde (doğu sabah → batı akşam) · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (25.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi "8 × 8 sn, 9 G".
+      Final klip REJİM G (S7, gerçek zaman) → P16-g "G finali" sayımına GİRER (yedinci).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "Terk Edilmiş Vagondan Butik Kitapçıya", 8 × 8 sn, tek zincir, pilot G0–G2 + V1 V2 + V7);
+      ajan önerisi (on altı madde · kamera hesabı · S5–S8 yeniden dağılım · benzerlik) → sahip "Işık + müşteri kitap alır" · "Boyalı gelir,
+      kitap 2 klipte" · "Abandoned Train Car Becomes a Bookshop" · "Evet, yaz". ⚠️ Onaydan sonra hesapla kesinleşen: sekiz koltuk (paket 12) ·
+      uzak dört kitaplık = %50 (öneride %40) · müşterinin hedefi sağ üçüncü kitaplık · kontrplak yok (plan TASARIM ⑰ · AÇIK KALANLAR ⑤).
+   ⚠️ İşlev anı ışık — DOKUZUNCU (LAST STOP · GAME ON · TOTAL RESET · POOL ROOM · UNDERWATER OBSERVATORY · COLOSSUS · THE TURNTABLE · LIT AGAIN;
+      onay sorusunda "sekizinci" yazıldı); fark: ilk müşteri bir kitap çeker. ⚠️ İÇERİK AKRABASI: THE LAST STOP (aracın içi yaşam alanına
+      döner) · THE TURNTABLE (aynı tek nokta koridor kadrajı) · THE HIDDEN LOFT (iç mekân, meşe, ışıklı final). ⛔ Üçüyle de ARDIŞIK
+      YAYINLANAMAZ.
+
+⭐ 26.10.2026: THE DRIVE-IN KÜTLE ailesine yazıldı — `dikey_shorts/THE_DRIVE_IN/` (yolun karşısındaki binanın çatı kenarı, h +12,0 m ·
+   kanopiye 40 m · 24 mm · bearing 0° · tilt 0, ufuk %50; kanopi x 324–756 · perde py 781–986 · iki araba sırası alt yarıda · başlık alanı
+   perdenin üstündeki açık gök, py 560–770). Pompaları paslı, kanopisi sarkık, asfaltı otlu benzin istasyonu → pompalar forkliftle kamyona,
+   kanopi elle temizlenir, asfalt yamanır, kanopinin arkasına iki temel, vinçle iki kolon + dört çapraz, 20 × 8 m beyaz perde, kanopi altı
+   ışık şeridi, 2 × 6 park yeri + altı hoparlör direği, mavi saatte on bir araba; perde tek karede durağan bir resimle yanar, son araba son
+   boş yere girer.
+   ⭐ BEDEL: istasyonun akaryakıt hâli (dört pompa, otlu asfalt) · tanıklar kadrajda: kanopi ve dört kolonu, iki boş ada, üç camlı dükkân,
+      yazısız yol pilonu, yan yol, iki kavak, ufuktaki sedde (dokuz karede aynı).
+   ⭐ DEFTER: perde kanopiye DEĞMEZ — kendi iki temeli (sahip seçimi; görüş hattı: alt kenar z 11) · basınçlı yıkama yok (DERS 67) · aynı
+      anda tek makine, forklift kamyona binmez (DERS 69) · vinç gövdesi görünür, kanca yüklü (DERS 46 · 81) · bütün araçlar yan yoldan, tek
+      girişten (DERS 96 · 48) · perdede durağan, yazısız resim (sahip seçimi) · hüzme yazılmaz (ISIK_FINALI) · pilon hiç yanmaz (DERS 59) ·
+      üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (26.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi "8 × 8 sn, tek zincir, 9 G".
+      Final klip REJİM G (S7, gerçek zaman) → P16-g "G finali" sayımına GİRER (sekizinci).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "Terk Edilmiş Benzin İstasyonundan Gece Drive-In Sinemasına", 8 × 8 sn, kamera kartı A,
+      pilot G3–G5 + V4 V5, ikinci test V7); ajan önerisi (on beş madde · kamera + görüş hattı hesabı · sahne dağılımı · benzerlik) → sahip
+      "Perde yanar + son araba girer" · "Kanopinin arkasında" · "Durağan resim" · "Yaz: Dead Gas Station…". ⚠️ Onaydan sonra hesapla
+      kesinleşen: forklift yalnız S0–S1 · vinç S3–S4 · pilon ampulü ve ip ışık yok · adalar ve dükkân değişmez · son saat 20:25 · 2 × 6 park
+      yeri (plan TASARIM ⑰ · AÇIK KALANLAR ⑤).
+   ⚠️ İşlev anı ışık — ONUNCU (LAST STOP · GAME ON · TOTAL RESET · POOL ROOM · UNDERWATER OBSERVATORY · COLOSSUS · THE TURNTABLE · LIT AGAIN ·
+      THE READING CAR; onay sorusunda yazıldı). ⚠️ Bu plana kaydı olmayan THE OPENING NIGHT (projektörler yanar) ve THE SUNKEN GARDEN (ateş
+      çukuru + ip ışık) sayılırsa ON İKİNCİ — ikisinin kaydı başka oturumların işi. Fark: perdede GÖRÜNTÜ belirir, son araba ona gelir.
+      ⚠️ İÇERİK AKRABASI: THE OPENING NIGHT (boş çanak dolar, alacakaranlıkta ışık, final rejim G) · THE TURNTABLE (arabalar gerçek
+      zamanda girer) · GAME ON (saha çizgisi, alacakaranlık ışığı) · THE SUNKEN GARDEN (ip ışık, oturan insanlar). ⛔ Dördüyle de ARDIŞIK
+      YAYINLANAMAZ.
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.

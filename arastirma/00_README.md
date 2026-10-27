@@ -99,6 +99,7 @@ hükmün ortak kaynağını hedefler. Koşma sırası: **A5 → A8 → A7 → A6
 | A40 | ✅ koşuldu · `SONUCLAR/A40_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · donmuş baz eleman (%98.4 VBench) · aktif cephe · unbinding engeli | ✅ → INSAAT_YONTEMI & MEKANSAL_IZOLASYON |
 | A41 | ✅ koşuldu · `SONUCLAR/A41_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · söküm/montaj faz duvarı (Causal Temporal) · 8s WBS · 3 fazlı kurgu | ✅ → INSAAT_YONTEMI & SANTIYE_HAREKETI |
 | A42 | ✅ koşuldu · `SONUCLAR/A42_GEMINI_HAM.md` | Gemini DR | 15.10.2026 · nöroestetik · Gestalt tamamlama · 5.5-7s mikro-doyum · 7-8s merak tohumu | ✅ → UZUN_FORM_ANLATI & MUZIK_VE_KAPAK |
+| A43 | ✅ koşuldu · `SONUCLAR/A43_SONNET_HAM.md` | Claude Sonnet 5.5 alt ajan (effort medium) | 25.10.2026 · ⭐ güvenli alan sayıları yalnız REKLAM için resmî · sağ sütun tek tahmin · Shorts özel kapak YPP · yeniden ışıklandırma kalıbı · tipografi/ışık kanıtı YOK | ✅ → KAPAK_STIL_KILAVUZU · ayrı denetim yok (A43-a…f ⬜) |
 
 ```
 ⭐ DÖRDÜNCÜ KUŞAK BAŞKA TÜRLÜ GELDİ — 17.09.2026
@@ -251,5 +252,8 @@ arastirma/
 ├── A41_SOKUM_MONTAJ_KADEMELENDIRMESI_VE_IS_ARTISI.md söküm/montaj faz duvarı · gözle görülür iş artışı · iş yoğunluğu
 ├── A42_IZLEYICI_BUYULEYICILIGI_VE_MIKRO_DOYUM.md nöroestetik · Gestalt tamamlama · 8 sn mikro-doyum zinciri
 ├── SONUCLAR/A39-A42_DENETIM.md   ⭐ 28 atıf incelendi (23 ✅ · 4 ⚠️ · 1 ❌) · BVP, unbinding, YoCausal, fMRI ASMR · kılavuzlara iniş
+│
+│   ── on ikinci kuşak · 25.10.2026 yazıldı ve koşuldu · sahip isteği: dikey kapak stili ──
+├── A43_DIKEY_KAPAK_STILI.md       güvenli alan (organik) · başlık tipografisi · küçükte okunan ışık · GN'yi geometri kilitli yeniden ışıklandırma
 └── SONUCLAR/                     ham bot çıktıları ⛔ DOKUNULMAZ
 ```
