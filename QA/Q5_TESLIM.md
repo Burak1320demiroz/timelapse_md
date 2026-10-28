@@ -19,6 +19,9 @@ FILE DURATION         {DURATION}
 FINAL HOLD            {FINAL_HOLD}
 If what you see contradicts a line above, report the contradiction with a timestamp.
 Do not change the line and do not score from your own estimate of it.
+If any value in this block is still a bare field name inside curly braces, the facts were never
+measured. Then write only the line RUN INVALID — MEASURED FACTS MISSING and stop: do not count clips,
+build a cut list, describe the film or score. This is the only reason to stop.
 
 INPUTS FOR THIS LENS
 - The video file (the published cut or full edit).
@@ -36,7 +39,7 @@ DOCUMENTS ATTACHED:     <first line of each attached document, or NONE; cover: f
 CLIPS YOU CAN SEE:      <your count — a check only; the measured count is above>
 If DOCUMENTS ATTACHED is NONE, state MODE: V (SELF-CONTAINED / SCREEN DELIVERY), mark Category 7
 NOT VERIFIABLE (unless a cover frame is present), and proceed immediately to the slate, findings,
-scores, and verdicts. Never write RUN INCOMPLETE and never stop.
+scores, and verdicts. Never write RUN INCOMPLETE and never stop for a missing document.
 
 RULES
 How to watch

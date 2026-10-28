@@ -11,7 +11,7 @@
 #  [QA_OLCUM_ZEMINI_KILAVUZU].
 #
 #  KULLANIM
-#     bash araclar/qa_paket.sh [--gunluksuz] [--hiz N] [--master 1x.mp4] [--bolum 1|2] \
+#     bash araclar/qa_paket.sh [--gunluksuz] [--ihracsiz] [--hiz N] [--master 1x.mp4] [--bolum 1|2] \
 #          <film_klasoru> <yayin.mp4> [kapak.png]
 #     örn: bash araclar/qa_paket.sh --master teslim/blue_silo_1x.mp4 \
 #          dikey_shorts/THE_BLUE_SILO teslim/blue_silo_2x.mp4 teslim/kapak.png
@@ -21,20 +21,28 @@
 #     --bolum    yatay 6/8 dk yarım master (paketler QA/KOSU/<FILM>/B<n>/)
 #
 #  ÇIKTI:  QA/KOSU/<FILM>/Q<n>_<AD>_paket.md   (5 dosya)
-#          kareler: <dosya_dizini>/QA_KARELER/ (yoksa kare_al.sh koşulur)
+#          kareler: <dosya_dizini>/QA_KARELER/<dosya_adı>/ (KAYNAK.txt sha256 tutmazsa kare_al.sh koşulur)
 #  HAM:    QA/HAM/<FILM>/<FILM>_Q<n>_<AD>_HAM.md — künye üstte, model çıktısı altta
 #
 #  ⛔ KAPI: film klasöründe <FILM>_URETIM_GUNLUGU.md yoksa DURUR [DERS 28].
 #     Bile bile geçmek için: --gunluksuz  (paketlerin başına uyarı yazılır)
+#  ⛔ KAPI 2 · İHRAÇ (28.10.2026): yayın dosyası ihrac_kontrol.sh'tan geçmeden paket AÇILMAZ.
+#     Paylaşılmayacak dosyaya mercek koşmak boşa koşudur: son dalganın beş dosyası da ihraç
+#     kapısından geçmiyordu, QA yine koşuldu [DENETİM 28.10.2026 · K3]. Bile bile geçmek için:
+#     --ihracsiz (paketlere ve künyeye yazılır). --bolum'de (yarım master) ihraç kapısı koşmaz.
+#  ⛔ Doldurulmamış yer tutucu kalan paket SİLİNİR ve betik 2 ile çıkar — boş blokla koşu
+#     DERS 90 · 105 · 106'da on filmde ızgara uydurdu.
+#  ⭐ Sahne sayısı ve blok araclar/plan_oku.py'den (tablo ↔ SAHNE BLOĞU doğrulanır).
 # ═══════════════════════════════════════════════════════════════════
 set -u
 cd "$(dirname "$0")/.." || exit 2
 command -v ffprobe >/dev/null || { echo "⛔ ffprobe yok"; exit 2; }
 
-GUNLUKSUZ=0; BOLUM=""; HIZ=""; MASTER=""
+GUNLUKSUZ=0; IHRACSIZ=0; BOLUM=""; HIZ=""; MASTER=""
 while [ $# -gt 0 ]; do
     case "$1" in
         --gunluksuz) GUNLUKSUZ=1; shift ;;
+        --ihracsiz)  IHRACSIZ=1; shift ;;
         --hiz)       HIZ="${2:-}"; shift 2 ;;
         --master)    MASTER="${2:-}"; shift 2 ;;
         --bolum)     BOLUM="${2:-}"; shift 2
@@ -75,24 +83,47 @@ MP4ABS="$(abs "$MP4")"; MASTERABS=""; [ -n "$MASTER" ] && MASTERABS="$(abs "$MAS
 KAPAKABS=""; [ -n "$KAPAK" ] && [ -f "$KAPAK" ] && KAPAKABS="$(abs "$KAPAK")"
 SPECABS="$(abs "$SPEC")"; PLANABS="$(abs "$PLAN")"
 
-# ── plan beyanları ────────────────────────────────────────────────
-SAHNE=$(grep -cE '^\| [0-9]+ \| [0-9]+[.,][0-9]+ \|' "$PLAN")
+# ── plan beyanları — ortak okuyucu (tablo ↔ SAHNE BLOĞU doğrulanır) ──
+SURELER=$(python3 araclar/plan_oku.py "$PLAN" --sureler) || exit 2
+SAHNE=$(echo "$SURELER" | grep -c .)
+BLOK=$(echo "$SURELER" | awk '{s+=$1} END{printf "%.1f", s}')
 [ -n "$BOLUM" ] && SAHNE=$((SAHNE / 2))
-[ "$SAHNE" -gt 0 ] || { echo "⛔ planda SÜRE sütunu okunamadı (| S | SÜRE | satırları)"; exit 2; }
-BLOK=$(grep -m1 -E '^SAHNE BLOĞU' "$PLAN" | grep -oE '= *[0-9]+[.,][0-9]+' | tr -d '= ' | tr ',' '.')
-[ -n "$BLOK" ] || BLOK=$(grep -E '^\| [0-9]+ \| [0-9]+[.,][0-9]+ \|' "$PLAN" | awk -F'|' '{gsub(/ /,"",$3); gsub(",",".",$3); s+=$3} END{printf "%.1f", s}')
 [ -n "$BOLUM" ] && BLOK=$(awk -v b="$BLOK" 'BEGIN{printf "%.1f", b/2}')
+[ "$SAHNE" -gt 0 ] || { echo "⛔ planda sahne okunamadı"; exit 2; }
 KART_SATIR=$(grep -m1 -E '^KAPAK KARTI' "$PLAN"); MUZIK_SATIR=$(grep -m1 -E '^MÜZİK' "$PLAN")
 
+# ── ⛔ İHRAÇ KAPISI — paylaşılmayacak dosyaya QA koşulmaz [DENETİM 28.10.2026 · K3] ──
+if [ -n "$BOLUM" ]; then
+    IHRAC="— (bölüm masterı · ihraç kapısı tam yayın dosyasında koşar)"; IHRAC_KISA="— (bölüm)"
+else
+    echo "🚪 ihraç kapısı → ihrac_kontrol.sh"
+    IHRAC_CIKTI=$(bash araclar/ihrac_kontrol.sh "$DIR" "$MP4" --hiz "$HIZ" 2>&1); IHRAC_KOD=$?
+    echo "$IHRAC_CIKTI" | grep -E '^  (⛔|✅|⚠️) [①②③]' | sed 's/^/ /'
+    if [ "$IHRAC_KOD" -eq 0 ]; then
+        IHRAC="✅ ihrac_kontrol çıkış 0 · $(date '+%d.%m.%Y')"; IHRAC_KISA="✅"
+    elif [ "$IHRACSIZ" -eq 1 ]; then
+        IHRAC="⚠️ --ihracsiz · ihrac_kontrol çıkış $IHRAC_KOD — bu dosya şu hâliyle PAYLAŞILMAZ"; IHRAC_KISA="⚠️ --ihracsiz"
+        echo "⚠️  İHRAÇ KAPISI GEÇİLMEDİ (çıkış $IHRAC_KOD) — --ihracsiz ile geçildi; paketlere ve künyeye yazılır."
+    else
+        echo "⛔ İHRAÇ KAPISI: dosya teslim edilmez durumda (çıkış $IHRAC_KOD) — QA paketi AÇILMAZ."
+        echo "   Önce kurgu düzeltilir, ihrac_kontrol yeniden koşulur, çıkış üretim günlüğü §4'e yazılır."
+        echo "   Bile bile geçmek için: bash araclar/qa_paket.sh --ihracsiz ..."
+        exit 2
+    fi
+fi
+
 # ── kareler: master varsa ondan (❶ ❸ aynı kareyi görür; kare hızdan bağımsızdır) ──
+# Dosya başına alt klasör + KAYNAK.txt (sha256): başka dosyanın ya da eski kesimin karesi kullanılmaz.
 KAYNAK_KARE="$MP4"; KARE_HIZ="$HIZ"; [ -n "$MASTER" ] && { KAYNAK_KARE="$MASTER"; KARE_HIZ=1; }
-KARELER="$(cd "$(dirname "$KAYNAK_KARE")" && pwd)/QA_KARELER"
-if [ ! -d "$KARELER" ] || [ -z "$(ls -A "$KARELER" 2>/dev/null)" ]; then
-    echo "📸 kare grabı yok → kare_al.sh koşuluyor"
+KAYNAK_AD="$(basename "$KAYNAK_KARE")"
+KARELER="$(cd "$(dirname "$KAYNAK_KARE")" && pwd)/QA_KARELER/${KAYNAK_AD%.*}"
+KAYNAK_SHA="$(shasum -a 256 "$KAYNAK_KARE" | cut -c1-12)"
+if ! grep -q "sha256 $KAYNAK_SHA" "$KARELER/KAYNAK.txt" 2>/dev/null; then
+    echo "📸 bu dosyanın kare grabı yok (ya da başka kesimden) → kare_al.sh koşuluyor"
     BLOK_HIZ=$(awk -v b="$BLOK" -v h="$KARE_HIZ" 'BEGIN{printf "%.3f", b/h}')
     bash araclar/kare_al.sh "$KAYNAK_KARE" "$SAHNE" "$BLOK_HIZ" || { echo "⛔ kare_al.sh düştü"; exit 2; }
 fi
-KARE_SAYISI=$(ls -1 "$KARELER" 2>/dev/null | wc -l | tr -d ' ')
+KARE_SAYISI=$(ls -1 "$KARELER"/*.jpg 2>/dev/null | wc -l | tr -d ' ')
 
 # ── ölçülmüş olgular: dosya başına bir kez ─────────────────────────
 olgular() {  # <dosya> <hız> → OLGU_<anahtar>=… satırları
@@ -177,6 +208,7 @@ paket() {  # <Qn_AD> <mod V|D> <dosya: yayin|master> <girdi satırları>
         [ "$mod" = "V" ] && echo "⛔ KÖR MERCEK — aşağıdaki dosyalardan BAŞKA hiçbir şey verilmez (plan · SPEC · kapak YOK)."
         [ "$mod" = "D" ] && echo "⭐ BELGELİ MERCEK — belgeler bu sohbete ELLE eklenir; ilk satırları film adını taşımalı."
         [ "$GUNLUKSUZ" -eq 1 ] && echo "⚠️  ÜRETİM GÜNLÜĞÜ YOK — bulgular prompt/üretim ayrımı yapamaz."
+        echo "İHRAÇ: $IHRAC"
         echo
         echo "EKLENECEK DOSYALAR (tam yol):"
         echo "$girdi" | sed 's/^/   /'
@@ -193,6 +225,7 @@ paket() {  # <Qn_AD> <mod V|D> <dosya: yayin|master> <girdi satırları>
         local rh; rh=$(git log -1 --format=%h -- "QA/$q.md" 2>/dev/null)
         git diff --quiet HEAD -- "QA/$q.md" 2>/dev/null || rh="${rh:+$rh+}commit edilmemiş değişiklik"
         echo "rubrik:      QA/$q.md @ ${rh:-commit edilmemiş}"
+        echo "paket:       $f · blok dolu · klip $SAHNE · ihraç $IHRAC_KISA"
         echo "model:       Gemini <sürüm> · sohbet | API · proje DIŞI · geçici sohbet ✓   ← koşan doldurur"
         echo "tarih:       $(date '+%d.%m.%Y')"
         echo "geri_okuma:  dosya adı ✓/✗ · belge başlığı ✓/✗ · görülen klip <n>         ← ajan doldurur"
@@ -209,10 +242,14 @@ for l in os.environ["OLGU"].splitlines():
     k,v=l[5:].split("=",1); t=t.replace("{"+k+"}",v)
 sys.stdout.write(t)' "QA/$q.md"
     } > "$f"
-    local kalan; kalan=$(grep -oE '\{(SPEED|CLIP_COUNT|CLIP_SECONDS|CUTS|END_CARD|MUSIC|ASPECT|DURATION|FINAL_HOLD)\}' "$f" | sort -u | tr '\n' ' ')
-    [ -z "$kalan" ] || echo "   ⛔ $q: doldurulmamış yer tutucu: $kalan"
+    local kalan; kalan=$(grep -oE '\{[A-Z_]+\}' "$f" | sort -u | tr '\n' ' ')
+    if [ -n "$kalan" ]; then
+        echo "   ⛔ $q: doldurulmamış yer tutucu: $kalan → paket SİLİNDİ (boş blokla koşu yok)"
+        rm -f "$f"; PAKET_HATA=1; return
+    fi
     printf "   %-16s %s → %s\n" "$q" "$mod" "$f"
 }
+PAKET_HATA=0
 
 echo
 echo "📦 QA PAKET · $FILM · yayın ${HIZ}x$( [ -n "$MASTER" ] && echo ' · master 1x') · $KARE_SAYISI kare"
@@ -229,6 +266,12 @@ $PLANABS"
 paket Q5_TESLIM      D yayin  "@VIDEO@
 $PLANABS
 ${KAPAKABS:-⚠️ KAPAK YOK}"
+if [ "$PAKET_HATA" -ne 0 ]; then
+    echo
+    echo "⛔ PAKET AÇILMADI — en az bir rubrikte doldurulmamış yer tutucu kaldı (yukarıda). Mercek koşulmaz."
+    exit 2
+fi
 echo
 echo "⛔ Rapor geldiğinde: $HAMDIR/${ONEK}Q<n>_<AD>_HAM.md — künye + model çıktısı, dokunmadan."
-echo "   Sonra: geri okuma · D1–D5 · durum · QA/FILMLER/$FILM.md · QA/TABLO.md [QA/00_README §3]."
+echo "   Sonra: geri okuma · D1–D6 · durum · QA/FILMLER/$FILM.md · QA/TABLO.md [QA/00_README §3]."
+echo "   Kayıttan önce: python3 araclar/kayit_kontrol.py $FILM   (commit kancası da bunu koşar)"

@@ -26,6 +26,8 @@
 #  ÇIKIŞ: 0 = ızgara tutuyor · 1 = sapma var · 2 = ölçülemedi
 #  ⭐ 14.09.2026: sahne no iki basamaklı olabilir (yatay 12-48 sahne) — <FILM>_PLAN.md'nin
 #     AŞAMA MERDİVENİ tablosu aynı "| S | SÜRE |" desenini taşır.
+#  ⭐ 28.10.2026: süreler araclar/plan_oku.py'den — "8,0 (4+4)" satırı okunmuyordu
+#     (LIT AGAIN 4, OPENING NIGHT 6 sahne sanıldı; ikisi de 8) [DENETİM 28.10.2026 · A1].
 # ═══════════════════════════════════════════════════════════════════
 set -u
 command -v ffmpeg  >/dev/null || { echo "⛔ ffmpeg yok"; exit 2; }
@@ -40,10 +42,10 @@ MP4="${ARGS[0]}"; PLAN="${ARGS[1]}"; TOL="${ARGS[2]:-0.25}"
 [ -f "$MP4" ]  || { echo "⛔ teslim yok: $MP4"; exit 2; }
 [ -f "$PLAN" ] || { echo "⛔ plan yok: $PLAN"; exit 2; }
 
-# ── plandan süreler ────────────────────────────────────────────────
-SURELER=$(grep -E '^\| [0-9]+ \| [0-9]+[.,][0-9]+ \|' "$PLAN" | awk -F'|' '{gsub(/ /,"",$3); gsub(",",".",$3); print $3}')
+# ── plandan süreler — ortak okuyucu (tablo ↔ SAHNE BLOĞU beyanı doğrulanır) ──
+SURELER=$(python3 "$(dirname "$0")/plan_oku.py" "$PLAN" --sureler) || exit 2
 N=$(echo "$SURELER" | grep -c .)
-[ "$N" -ge 2 ] || { echo "⛔ planda SÜRE sütunu okunamadı (| S | SÜRE | ... satırları)"; exit 2; }
+[ "$N" -ge 2 ] || { echo "⛔ planda iki sahneden az süre okundu"; exit 2; }
 
 SURE=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$MP4")
 TMP=$(mktemp -t kesme).txt
@@ -124,8 +126,8 @@ else:
     print("  ✅ marj yeterli (≥2 kat) — seçilen kesmeler klip içi gürültüden ayrışıyor")
 
 if len(set(sureler)) == 1:
-    if N == 7 and abs(sureler[0] * hiz - 8.0) < 1e-6:
-        print(f"\n  ℹ️  düz ızgara 7 × 8,0 — sahip kuralı, beyanlı [DERS 58]")
+    if N in (7, 8) and abs(sureler[0] * hiz - 8.0) < 1e-6:
+        print(f"\n  ℹ️  düz ızgara {N} × 8,0 — sahip kuralı (8 sahne: sahip istisnası), beyanlı [DERS 58]")
     else:
         print(f"\n  ⛔ PLANIN KENDİSİ DÜZ: bütün süreler {sureler[0]:g} — ⑥ METRONOM [DERS 13]")
 

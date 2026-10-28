@@ -14,7 +14,12 @@
 #           klip sayılmaz (dikey 2x paylaşım: 7 klip · 28 sn) [DERS 63]
 #     bash araclar/kare_al.sh <klipler_klasoru/>             klip klasörü
 #
-#  ÇIKTI:  <girdi_dizini>/QA_KARELER/  · S<n>_{ilk,orta,son}.jpg
+#  ÇIKTI:  tek dosya   <dosya_dizini>/QA_KARELER/<dosya_adı>/ · S<n>_{ilk,orta,son}.jpg · KAYNAK.txt
+#          klasör      <klipler_klasoru>/QA_KARELER/
+#  ⭐ 28.10.2026: tek dosya modu dosya başına ALT KLASÖRE yazar ve KAYNAK.txt'ye dosyanın sha256'sını
+#     koyar. Eskiden ~/Downloads'taki her yayın dosyası aynı QA_KARELER/'e düşüyordu ve qa_paket.sh
+#     dolu klasörü yeniden kullanıyordu: ikinci filmin paketi BİRİNCİ filmin karelerini gösterirdi
+#     (aynı çakışma ihrac_kontrol'de ölçüldü — DENETİM 28.10.2026 · A4).
 # ═══════════════════════════════════════════════════════════════════
 set -u
 
@@ -49,7 +54,9 @@ if [ -d "$GIRDI" ]; then
     echo "   $n klip · $((n*3)) kare"
 else
     [ -f "$GIRDI" ] || { echo "⛔ dosya yok: $GIRDI"; exit 2; }
-    HEDEF="$(dirname "$GIRDI")/QA_KARELER"; mkdir -p "$HEDEF"
+    AD="$(basename "$GIRDI")"; HEDEF="$(dirname "$GIRDI")/QA_KARELER/${AD%.*}"; mkdir -p "$HEDEF"
+    rm -f "$HEDEF"/S*_ilk.jpg "$HEDEF"/S*_orta.jpg "$HEDEF"/S*_son.jpg   # eski kesimden kare kalmasın
+    echo "sha256 $(shasum -a 256 "$GIRDI" | cut -c1-12) · $AD · $(date '+%d.%m.%Y %H:%M')" > "$HEDEF/KAYNAK.txt"
     TOPLAM=$(sure "$GIRDI")
     [ -n "$BLOK_SN" ] && TOPLAM="$BLOK_SN"
     KLIP=$(awk -v t="$TOPLAM" -v n="$KLIP_SAYISI" 'BEGIN{printf "%.4f", t/n}')

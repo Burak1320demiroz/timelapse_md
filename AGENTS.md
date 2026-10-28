@@ -27,6 +27,10 @@
 ```
 timelapse_md/
 ├── AGENTS.md · CLAUDE.md · README.md
+├── .claude/agents/                 ⭐ 28.10.2026 · iki QA ajanı (Claude Code alt ajanı)
+│   ├── qa-hazirlik.md               kart Q adım 1 · ihraç kapısı + qa_paket + paket doğrulama · kayıt YAZMAZ
+│   └── qa-denetci.md                kart R adım 2–3 · ham ↔ paket ↔ plan ↔ dosya · SALT OKUR
+├── teslim/                         yayın dosyaları · master · kapak — git dışı, yalnız 00_README izlenir
 │
 ├── kilavuzlar/                      ⭐ SİSTEMİN BEYNİ
 │   ├── KILAVUZ_REHBERI.md           ⭐ BURADAN BAŞLA — karar ağacı · format kartı
@@ -153,6 +157,8 @@ timelapse_md/
 │   ├── Q4_INSA.md                   ❹ SPEC'teki yapı · parça parça · davetli kadro · mod D
 │   ├── Q5_TESLIM.md                 ❺ vaat · final vuruşu · kanca · döngü · kapak · mod D
 │   ├── TABLO.md                     ⭐ TEK SAYAÇ + film × mercek (her hücre bir hama bağlı)
+│   ├── DENETIM_<tarih>.md           çok filmli denetim — kayıtlar hamlara/planlara/dosyaya karşı
+│   ├── KOSU/<FILM>/                 qa_paket.sh paketleri — 28.10.2026'dan sonra TAM koşunun ön koşulu
 │   ├── HAM/<FILM>/                  modelin ham çıktısı + künye ⛔ DOKUNULMAZ
 │   ├── FILMLER/<FILM>.md            film başına kayıt · olay tablosu · karar · ders
 │   └── ARSIV_12_MERCEK/             ⛔ DONDURULDU · 12 mercek · 393 ham · 31 rapor · INDEX ·
@@ -216,8 +222,13 @@ timelapse_md/
     ├── capraz_sayim.py              QA_CAPRAZ_ANALIZ skor matrisini yeniden hesaplar
     ├── kare_al.sh                   ① ve ⑤ için kare grabları
     ├── qa_paket.sh                  ⭐ QA KOŞU PAKETİ · beş mercek · ölçülmüş olgular rubriğin İÇİNDE · --master · günlük kapısı [DERS 28-29 · 63]
+    │                                   ⭐ 28.10.2026: ihraç kapısını kendisi koşar (--ihracsiz) · yer tutucu kalan paketi siler
+    ├── plan_oku.py                  ⭐ sahne sürelerinin TEK okuyucusu · tablo ↔ SAHNE BLOĞU doğrular · "8,0 (4+4)" [DENETİM 28.10]
+    ├── kayit_kontrol.py             ⭐ QA kaydı kanıta dayanıyor mu · paket · boş blok · D2 · plandan cevap · --staged [DENETİM 28.10]
+    ├── git_hooks/pre-commit         kayit_kontrol --staged · kurulum: git config core.hooksPath araclar/git_hooks (sahip)
     ├── kesme_kontrol.sh             ⛔ YAYIN ÖNCESİ · kurgu SÜRE sütununa uydu mu · --hiz 2 [DERS 31 · 63]
     ├── ihrac_kontrol.sh             ⛔ PAYLAŞIMDAN ÖNCE · süre/hız · kart · final tutuşu · müzik/yazı listesi [DERS 63]
+    │                                   ⭐ 28.10.2026: kartın gerçek başı (①b) · kareler IHRAC_KARELER/<FILM>/
     └── film_klasoru_ac.sh           ⭐ yatay film klasörünü şablondan açar, sahne satırlarını
                                         damgalar, okuma çizelgesini üretir (kart Y2)
 ```
@@ -449,7 +460,9 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
         (0,30) ve A8'in önerdiği (0,40) bizim formatta SIFIR kesme buluyordu;
         kapı açık sanılıyordu, KAPALIYDI.
 2e. ⛔ İHRAÇ KANITI [DERS 63]  PAYLAŞILACAK dosyaya (dikey: 2x):
-      bash araclar/ihrac_kontrol.sh <film_klasoru> paylas_2x.mp4 --hiz 2
+      bash araclar/ihrac_kontrol.sh <film_klasoru> teslim/<FILM>.mp4 --hiz 2
+      ⭐ 28.10.2026 ①b: kartın gerçek başı ölçülür (dosya sonundaki donuk kuyruk) — kart kısa mı,
+        blokta fazladan/eksik saniye var mı. Süre tutsa bile ①b ⛔ verebilir (OPENING NIGHT: +2,1 sn açılış).
       Makine: süre = 28,0 (+kart yalnız planda varsa) · 1080×1920 · final tutuşu (SSIM).
       Elle ✓: müzik YOK · okunur yazı/logo/promo/"AI TIMELAPSE" YOK · kart = GN dünyası.
       Çıkış 2 ya da işaretsiz madde = PAYLAŞILMAZ. Sonuç günlük §4 ⑧'e.
@@ -487,12 +500,18 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
 
 ```
 ⛔ ÖN KOŞUL: film ÜRETİLMİŞ olmalı. Rubrik promptu değil VİDEOYU eleştirir.
+⛔ ÖN KOŞUL 2 (28.10.2026): yayın dosyası İHRAÇ KAPISINDAN geçmiş olmalı (kart Y 2e) ve
+   teslim/<FILM>.mp4'te durmalı [teslim/00_README]. Geçmeyen dosyaya QA koşulmaz.
+⭐ Ajan: .claude/agents/qa-hazirlik.md bu kartın 1. adımını uçtan uca koşar ve paketi doğrular.
 
 1. MAKİNE       ⭐ bash araclar/qa_paket.sh [--hiz 2] [--master <1x.mp4>] <film_klasoru> <yayin.mp4> [kapak]
+                → ihrac_kontrol.sh (⛔ çıkış 2 → paket AÇILMAZ · bile bile: --ihracsiz)
                 → kare_al.sh + kesme_kontrol.sh (top-N) + ffprobe + SSIM → ÖLÇÜLMÜŞ OLGULAR
                 → QA/KOSU/<FILM>/Q<n>_<AD>_paket.md × 5 · blok rubriğin İÇİNDE · künye taslağı üstte
                 ⭐ dikeyde hız 2: yayın kopyası verilir; master varsa ❸ ❹ onunla koşar
-                ⛔ Üretim günlüğü yoksa DURUR [DERS 28].
+                ⛔ Üretim günlüğü yoksa DURUR [DERS 28]. Yer tutucu kalan paket SİLİNİR.
+                ⛔ Paket DIŞINDAN koşu yok: rubrik dosyası doğrudan sohbete yapıştırılmaz. Yapıştırılırsa
+                  mercek RUN INVALID yazar (rubriğin boş blok kapısı) ve koşu kaydedilmez.
 2. ❶ GÖRÜNTÜ        paket + video + kareler            ⛔ BELGE YOK
 3. ❷ ZAMAN VE KESME paket + video                      ⛔ BELGE YOK
 4. ❸ ŞANTİYE        paket + video + kareler            ⛔ BELGE YOK
@@ -513,8 +532,14 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
                  altta · ⛔ düzenleme, kısaltma, özetleme YOK [QA/HAM/00_README]
 2. GERİ OKUMA    ilk üç satır: dosya adı · belgeler · görülen klip [QA_KOSU §2.2]
                  dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş (geçici sohbet)
+   ⭐ RUN INVALID (boş blok kapısı) → koşu YOK, kaydedilmez; paketle yeniden koşulur.
 2b. AJAN ÖLÇÜMÜ yayın dosyası yereldeyse merceklerden ÖNCE: ffprobe · 1 sn kare panosu · klip başına 4 fps pano ·
                  kapak_prova.py · kart ses kuyruğu · gök bandı rengi — plan ↔ ekran tablosu bunun üstüne kurulur [DERS 100]
+                 ⛔ "AJAN OKUYAMADI" yazmadan önce teslim/<FILM>.mp4 ve ~/Downloads/<FILM>.mp4 aranır.
+2c. ⛔ KAYIT KONTROL [DENETİM 28.10.2026]  python3 araclar/kayit_kontrol.py <FILM>
+                 28.10.2026+ TAM koşu: künyede paket: satırı · paket diskte ve sha tutuyor · model çıktısında
+                 yer tutucu yok · CLIPS YOU CAN SEE = ölçülen. ⛔ varsa durum TAM yazılmaz.
+                 ⭐ Ajan: .claude/agents/qa-denetci.md — kaydı yazandan bağımsız, salt okur; kayıttan ÖNCE koşulur.
 3. DOĞRULAMA     D1–D6 [QA_OLCUM_ZEMINI §5] · kör raporda sızıntı taraması [QA_KOSU §3]
                  ⭐ D6 [DERS 90]: puanı kayda geçirmeden önce yayının 1 sn'lik kare panosu + klip_eslestir —
                  raporun kurgu tablosu dosyaya karşı doğrulanır · plan SAYISI (kadraj yüzdesi) kör raporda = SIZINTI
@@ -528,8 +553,11 @@ DOSYA:  <FMT>/<FILM>/  (iskelet: kilavuzlar/FILM_KLASOR_SABLONU/ · kart: KILAVU
                  INTRUDER · ❺ WHAT THE PLAN PROMISED THAT NEVER REACHED THE SCREEN —
                  NONE değilse o sahne yeniden üretim adayıdır, ortalama ne olursa olsun.
 7. DOKÜMAN       kör üçlünün QUESTIONS FOR THE DOCUMENT listesini plandan CEVAPLA.
+                 ⛔ Cevaptaki her sayı/ölçü/saat planda ya da SPEC'te geçmeli; geçmiyorsa "planda yok"
+                 yazılır, uydurulmaz (kayit_kontrol ⚠️ K6 · DENETİM 28.10.2026).
 8. KAYIT         QA/FILMLER/<FILM>.md (şablon FILMLER/00_README) · OLAY TABLOSU (E01…) ·
                  KARAR · DERS → QA/TABLO.md satırı · bash araclar/sayac.sh (U1 · U2)
+                 ⭐ commit kancası (araclar/git_hooks/pre-commit) aynı kontrolü sahnelenmiş dosyada koşar.
 9. YENİ DERS     yeni bir bozulma çıktıysa kart D
 10. ONARIM       hüküm satırı NONE değilse ya da puan düştüyse: kök neden → tek eylem → iki dikiş
                  sınaması → günlük §5 satırı (G<n>_K<k>) [ONARIM_VE_YENIDEN_URETIM_KILAVUZU]

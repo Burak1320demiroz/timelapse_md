@@ -71,8 +71,11 @@ KURAL   KÖR MERCEK  → proje/Gem DIŞINDA, GEÇİCİ SOHBETTE, yalnız video +
 ## 2.1 Paket kontrolü (ajan · makine)
 
 ```
+□ yayın dosyası ihraç kapısından geçti (ihrac_kontrol çıkış 0 — qa_paket.sh kendisi koşar)
+□ paket qa_paket.sh'tan çıktı, ELLE kurulmadı · künyede paket: satırı var
 □ video dosyasının sha256'sı alındı (künyeye ilk 12 hane)   shasum -a 256 f.mp4
-□ ÖLÇÜLMÜŞ OLGULAR bloğu dolduruldu ve rubriğin İÇİNDE [QA_OLCUM_ZEMINI §2]
+□ ÖLÇÜLMÜŞ OLGULAR bloğu dolduruldu ve rubriğin İÇİNDE [QA_OLCUM_ZEMINI §2] — yer tutucu kalırsa
+  qa_paket.sh paketi siler; elle yapıştırılan boş rubrikte mercek RUN INVALID yazar
 □ belge isteyen mercekte belgenin İLK SATIRI film adını taşıyor (ör. "# 🔒 THE BLUE SILO — QA SPEC")
 □ kör mercek paketinde belge YOK
 □ rubrik dosyasının git kısa hash'i künyede
@@ -92,7 +95,7 @@ CLIPS YOU CAN SEE:      <your count — this is a check, the measured count is a
 | dosya adı | künyedeki ad | KOŞMA — yanlış video (POLAR HABITAT) |
 | belgeler (kör mercek) | NONE | KOŞMA — oturum sızdırıyor (§1) |
 | belgeler (belgeli mercek) | doğru filmin başlığı | KOŞMA — yanlış belge (DEEP STEP ⑧) |
-| klip sayısı | ÖLÇÜLMÜŞ CLIP COUNT | koşu SÜRER; sayı modelin zayıflığıdır, kapı değildir · künyeye yazılır |
+| klip sayısı | ÖLÇÜLMÜŞ CLIP COUNT | koşu SÜRER (koşu anında kapı değil) · künyeye yazılır · ⛔ KAYITTA KAPIDIR: farklıysa TAM yazılmaz, yeniden koşulur [DERS 105 ② · 106 ② · kayit_kontrol K4] |
 
 ```
 ⛔ Süre geri okuması KAPI DEĞİLDİR: model süreyi ölçmüyor (2x kopyaya "32 sn" dedi).
@@ -152,6 +155,9 @@ KANARYA (öneri · kapı adımı): her QA_SPEC'in künyesine bir uydurma terim
    olmayan olaylar yazdı, kategorilerin hemen hepsine 10 verdi; ❶ ❷ ❹ aynı yanlış kesme listesini verdi. Ajan bloğu
    ffprobe + klip_eslestir ile ELLE doldurur · "CLIPS YOU CAN SEE" blokla tutmazsa rapor yeniden koşulur · kategorilerin
    ≥ %80'i 10/10 ve sıfır kusur → ŞİŞİK, puan yok.
+⛔ 28.10.2026 · DENETİM: dört ders aynı arızayı yazdı, kural koşmadı — 13 filmde TAM sayılan 55 koşunun 55'i paketsiz,
+   41'inde klip sayısı ölçülenle tutmuyor [QA/DENETIM_2026-10-28.md §8]. Kilit artık ARAÇTA: qa_paket.sh ihraç kapısı ve
+   yer tutucu silme · rubriğin boş blok kapısı (RUN INVALID) · kayit_kontrol.py (K1–K4) · commit kancası.
 ⚠️ DERS 106 (SKY VAULT, 20.10.2026 · dördüncü film): blok boş koşulunca ızgara İKİ yöne bozuyor — ❷ 9,75 (tavan), ❸ 2,8 (taban);
    ❶ ❷ 6 × 5 sn, ❸ ❹ 31 × 1 sn. İki etiket: ŞİŞİK (≥ %80'i ≥ 9) · ÇÖKÜK (≥ %80'i ≤ 3 ve CLIPS ≠ blok) — ikisinde de puan yok,
    yeniden koşu. Yayın dosyası ajanın okuyabileceği yerde olmalı (~/Downloads izinle okunmadı); ❸ ❹ aynı oturumda koşulmaz.
@@ -177,6 +183,8 @@ Biçim `QA_KAYIT_KILAVUZU §2.1`'dedir; alanların kaynağı:
    sahip "model · arayüz" satırını doldurup raporla birlikte geri verir.
 ⛔ QA/KOSU/ bugüne dek hiç oluşmadı — paket hep elle kuruldu. Paket kullanılmadan
    koşulan raporun künyesini ajan sonradan YAZMAZ; "künye yok" yazılır.
+⭐ 28.10.2026: künye taslağına "paket:" satırı eklendi (paket yolu · klip sayısı · ihraç durumu).
+   kayit_kontrol.py bu satırı ve paketteki sha256'yı ham rapora karşı tutar.
 ```
 
 ---

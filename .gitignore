@@ -10,3 +10,7 @@ venv/
 # Local video and frame work (produced outside the repo)
 *.mp4
 *.mov
+
+# Publish files, covers and frame grabs live in teslim/ — only its README is tracked
+teslim/*
+!teslim/00_README.md

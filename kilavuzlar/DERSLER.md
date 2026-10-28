@@ -114,6 +114,8 @@
 | 103 | Kanepe ortada, sırtı kameraya birleşti; 180° döndü ve arka duvara ışınlandı | THE HIDDEN LOFT · S4 | ✅ ölçüldü (1 klip · ❶ en kötü cisim) |
 | 104 | ⭐ Kâğıtla örtülü pencere zamanı taşımadı: kör ❷ WRONG DIRECTION | THE HIDDEN LOFT · S1–S6 | ✅ ölçüldü (❷) · leke mekanizması OKUMA |
 | 105 | ⭐ Boş blokla koşulan iki mercek 1 sn'lik 32 klip uydurdu, her kategoriye 10 verdi | THE HIDDEN LOFT QA · ❸ ❺ | ✅ ölçüldü |
+| 106 | ⭐ Blok boş koşulunca yanlış bölütleme puanı iki yöne bozar: ❷ tavana, ❸ tabana | THE SKY VAULT QA · ❶–❺ | ✅ ölçüldü |
+| 107 | ⭐ Planın ek "canlı final" promptu beyansız 8 sn'lik gerçek zamanlı bölüm üretti; kart geri sardı | THE SUNKEN GARDEN · plan + yayın 28–36 sn | ✅ ölçüldü (1 film) |
 
 ---
 
@@ -2555,6 +2557,7 @@ KİLİT       ① qa_paket.sh koşulmadan (ÖLÇÜLMÜŞ OLGULAR dolu değilken)
             ④ Sızıntı taraması plan SAYILARINA bakar: kadraj kilidi yüzdesi kör raporda geçerse SIZINTI.
 KALDIRDIĞI  Mercek puanını ölçümsüz kabul etmek. Karşılığı: sayıyı makine ve ajanın gözü verir, mercek yorumlar.
 NEREYE      QA_OLCUM_ZEMINI_KILAVUZU §5 (D5 düzeltme · D6) · AGENTS kart R adım 3 · QA_KOSU §1
+KİLİT ARAÇTA 28.10.2026 → DERS 106 son satırı (qa_paket ihraç kapısı · RUN INVALID · kayit_kontrol · commit kancası).
 ```
 
 ---
@@ -2826,6 +2829,7 @@ NEREYE      QA_KOSU §4 notu · AGENTS kart R (adım 3 öncesi ölçüm)
             ✅ DERS 85 kart = G8 ❶ ❹ ❺ üçünde SAME · ⛔ YENİ: ajan ölçümü (kilit ①) yapılamadı — yayın dosyası ~/Downloads'ta,
             macOS "Operation not permitted"; kilit ancak dosya ajanın okuyabileceği yerdeyse çalışır → yayını workspace içine kopyala.
             Günlüksüz paket bayrağı hâlâ sahip kararı bekliyor (dört film).
+KİLİT ARAÇTA 28.10.2026 → DERS 106 son satırı (qa_paket ihraç kapısı · RUN INVALID · kayit_kontrol · commit kancası).
 ```
 
 ---
@@ -2947,6 +2951,7 @@ NEREYE      QA_KOSU §4 notu · QA_OLCUM_ZEMINI §5 (D2 · D6 satırı)
             bunu kendileri yazdı). D2: ❶ ❷ 6 klip × 5,0 sn (kesme 5·10·15·20·25) · ❸ ❹ 31 klip × 1,0 sn · yalnız ❺ 8 + kart saydı → 4/5 ✗.
             ❸ ❹ aynı 31 × 1 sn bölütleme ve aynı olay listesi (yalıtım şüphesi, kanıt yok). Kilit ①'in ajan adımı bu kez de
             uygulanmadı (günlük boş → qa_paket durdu → blok elle de doldurulmadı). Yön TERSİNE döndü → DERS 106.
+KİLİT ARAÇTA 28.10.2026 → DERS 106 son satırı (qa_paket ihraç kapısı · RUN INVALID · kayit_kontrol · commit kancası).
 ```
 
 ---
@@ -2976,6 +2981,39 @@ KİLİT       ① DERS 105 ①'in aynısı: ajan bloğu ELLE doldurur (ffprobe +
             ④ Aynı iki mercek (❸ ❹) AYNI oturumda koşulmaz — iki raporun birebir aynı uydurma olay listesi yalıtım şüphesi yaratır.
 KALDIRDIĞI  Rubriği blok boş hâlde sohbete yapıştırıp koşmak; "puan ne kadar düşükse film o kadar kötü" okuması (düşük puan da ızgara ürünü olabilir).
 NEREYE      QA_KOSU §4 notu · QA_OLCUM_ZEMINI §5 (D2 satırı: ÇÖKÜK) · QA/TABLO.md hücre etiketi
+KİLİT ARAÇTA 28.10.2026 · DENETİM: bu arıza dört derste yazıldı (90 · 100 · 105 · 106) ve koşmadı — 13 filmde TAM
+            sayılan 55 koşunun 55'i paketsiz, 41'inde klip sayısı ölçülenle tutmuyor. Kilit artık araçta: qa_paket.sh
+            ihraç kapısı + yer tutucu kalan paketi siler · rubrik boş blok kapısı (RUN INVALID) · kayit_kontrol.py
+            K1–K4 · araclar/git_hooks/pre-commit · ajanlar qa-hazirlik / qa-denetci. Bu arıza için YENİ DERS
+            yazılmaz; yeniden görülürse araç düzeltilir [QA/DENETIM_2026-10-28.md §8].
+```
+
+---
+
+## DERS 107 — ⭐ Planın ek "canlı final" promptu beyansız 8 sn'lik gerçek zamanlı bölüm üretti; kart G7'den alındı, film sonda geri sardı
+
+```
+NEREDE      THE SUNKEN GARDEN · plan "G7 CANLI FİNAL / AMBIENT VİDEO PROMPTU" · yayın 28,0–36,0 sn (2x) · QA 25.10.2026
+            · ölçüm 28.10.2026 (QA/DENETIM_2026-10-28.md §3.2)
+NE OLDU     Plan 7 × 8,0 = 56 sn (2x → 28 sn) + kart 5,0 sn = 33 sn beyan etti; yayın dosyası 41,0 sn. Sahne bloğundan sonra
+            8 sn'lik gerçek zamanlı bölüm var: iki kişi ateş başında konuşuyor, üçüncüsü tepsiyle basamaklardan iniyor —
+            planın kendi ek promptunun istediği şey ("conversing" · "a third person … carrying a wooden tray"). Kart 36,0'da
+            başlıyor ve G7 karesinden alındı; video G7'den ileri akmıştı, kart onu G7'ye GERİ çekti. K1'de ❷ WRONG DIRECTION,
+            ❸ REBUILT (film 6,1 ⛔). Kayıt bunu "model Rejim A'yı yanlış okudu, 1x'e düştü" diye teşhis etti — model promptu
+            doğru okumuştu.
+NEDEN       Ek prompt sahne zincirinin (I2V) ve TESLİM YAPISI'nın DIŞINDA yazıldı: SAHNE BLOĞU ve KAPAK KARTI satırları onu
+            saymadı, prompt_kontrol onu görmedi (yalnız I2V/T2V sayar), ihrac_kontrol beklenen süreyi plandan aldığı için
+            yalnız "süre tutmuyor" dedi. Kurguda ek klip kartın önüne kondu; kartın kaynağı (G7) ile videonun son karesi
+            artık aynı an değildi.
+KİLİT       Sahne zincirinin dışındaki her video promptu TESLİM YAPISI'nda süresi ve konumuyla beyan edilir; beyan yoksa
+            prompt plandan çıkar. Beyanlıysa kart, bölümün SON karesiyle aynı anı gösterir (ihrac ⑥ kart = son kare
+            aynı dünya). prompt_kontrol 2c beyansız ek video promptunu BLOCK eder; ihrac_kontrol ①b kartın gerçek başını
+            ölçer ve fazladan saniyeyi yazar.
+KALDIRDIĞI  Kart öncesi "yaşayan final" (ambient hold) — BEYANSIZ. Beyanla serbesttir; bedeli toplam sürenin değişmesi,
+            kartın son kareden türemesi ve kör merceklerin o bölümü gerçek zaman diye okuyacağının bilinmesidir.
+NEREYE      prompt_kontrol.py 2c · ihrac_kontrol.sh ①b · AGENTS kart Y 2e · QA/DENETIM_2026-10-28.md §3.2
+            · ilk tarama 28.10.2026: kural üç planda tetiklendi (THE SUNKEN GARDEN · POLAR HABITAT "SHOWCASE KLİBİ" ·
+              BEFORE NIGHTFALL "BİTİŞ VİDEOSU"); SUNKEN GARDEN planı ✅ GO'dan ⛔ BLOCK'a döndü
 ```
 
 ---

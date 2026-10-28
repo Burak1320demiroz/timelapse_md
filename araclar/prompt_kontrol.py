@@ -175,6 +175,24 @@ if not re.search(r"TESLİM YAPISI", metin):
 elif not re.search(r"KAPAK KARTI", metin):
     BLOCK.append("TESLİM YAPISI var ama KAPAK KARTI satırı yok [DERS 4]")
 
+# ── 2c. ⭐ EK VİDEO PROMPTU TESLİM YAPISI'NDA BEYANLI MI [DERS 107] ─────────
+# SUNKEN GARDEN (25.10.2026): planın sonundaki "G7 CANLI FİNAL / AMBIENT VİDEO" promptu
+# 8 sn'lik gerçek zamanlı bölüm üretti (konuşan iki kişi, tepsi taşıyan üçüncü). TESLİM
+# YAPISI yalnız sahne bloğu + kartı sayıyordu; bölüm kurguya girdi (41 sn ≠ 33) ve kart
+# G7'den alındığı için film sonda GERİ sardı. Sahne zincirinin (I2V/T2V) DIŞINDAKİ her
+# video promptu ya teslim yapısında süresiyle beyan edilir ya plandan çıkar.
+_ek_video = [t for s, t, k in bloklar
+             if t and re.search(r"V[İI]DEO", t, re.I) and not re.search(r"I2V|T2V", t)]
+if _ek_video:
+    _tm = re.search(r"^#{1,3} [^\n]*TESLİM YAPISI[^\n]*\n(.*?)(?=^# |\Z)", metin, re.S | re.M)
+    _teslim = _tm.group(1) if _tm else ""
+    if not re.search(r"CANLI (FİNAL|KART|VİDEO)|AMBIENT|SHOWCASE|\bEK (VİDEO|KLİP)\b|BİTİŞ VİDEO", _teslim, re.I):
+        for _t in _ek_video:
+            BLOCK.append(f"ek video promptu ('{_t}') sahne zincirinin dışında ve TESLİM YAPISI'nda beyanı yok "
+                         f"[DERS 107] — SUNKEN GARDEN'da beyansız 'canlı final' 8 sn'lik gerçek zamanlı bölüm "
+                         f"üretti, kurguya girdi ve kart geri sardı. Ya TESLİM YAPISI'na süresi ve konumuyla "
+                         f"yazılır (toplam değişir, ihrac_kontrol onu bekler) ya prompt plandan çıkar.")
+
 # ── 3. YAPI BIBLE birebir tekrar ───────────────────────────────────────────
 bibles = {}
 for s, k in kareler:

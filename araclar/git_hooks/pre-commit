@@ -1,0 +1,17 @@
+#!/bin/bash
+# ═══════════════════════════════════════════════════════════════════
+#  PRE-COMMIT — QA kaydı kanıtsız depoya girmez  [DENETİM 28.10.2026]
+#
+#  Commit'i yalnız proje sahibi atar; hangi ajan ya da kişi yazmış olursa olsun
+#  QA kaydı bu kapıdan geçer. Koşan: araclar/kayit_kontrol.py --staged
+#     ⛔ ham rapor değişti/silindi · künyesiz yeni ham · 28.10.2026+ TAM koşu paketsiz,
+#        boş bloklu ya da klip sayısı ölçülenle tutmuyor · TABLO ↔ HAM (U1 · U2)
+#     ⚠️ uyarılar commit'i durdurmaz
+#
+#  KURULUM (bir kez, sahip):  git config core.hooksPath araclar/git_hooks
+#  KALDIRMA:                  git config --unset core.hooksPath
+#  BİLE BİLE GEÇMEK:          git commit --no-verify   (gerekçe kayda yazılır)
+# ═══════════════════════════════════════════════════════════════════
+cd "$(git rev-parse --show-toplevel)" || exit 1
+command -v python3 >/dev/null || { echo "⚠️ pre-commit: python3 yok — kayıt kontrolü atlandı"; exit 0; }
+python3 araclar/kayit_kontrol.py --staged

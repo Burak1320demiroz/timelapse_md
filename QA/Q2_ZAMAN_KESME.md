@@ -17,6 +17,9 @@ FILE DURATION         {DURATION}
 FINAL HOLD            {FINAL_HOLD}
 If what you see contradicts a line above, report the contradiction with a timestamp.
 Do not change the line and do not score from your own estimate of it.
+If any value in this block is still a bare field name inside curly braces, the facts were never
+measured. Then write only the line RUN INVALID — MEASURED FACTS MISSING and stop: do not count clips,
+build a cut list, describe the film or score. This is the only reason to stop.
 
 INPUTS FOR THIS LENS
 The full film as one video file, and the facts block above. No documents. Frame grabs are not needed;

@@ -30,6 +30,8 @@
    DOCUMENT listesi çıkarır, ajan plandan cevaplar. BELGELİ (D) modda sözleşme denetimidir.
    Belge yoksa ❹ ve ❺ de mod V'de (iç tutarlılık, inşa mantığı ve ekrandaki vaat/sonuçla) tam koşar;
    ASLA durmaz, RUN INCOMPLETE vermez.
+⛔ TEK DURMA [28.10.2026]: ölçülmüş olgular bloğunda yer tutucu kalmışsa mercek RUN INVALID yazar ve
+   puan vermez — rubrik paket DIŞINDA yapıştırılmıştır. Koşu kaydedilmez, paketle yeniden koşulur.
 ⭐ Her kusurun TEK sahibi var; rubrikler sınır cümlesi taşır ("SEE LENS n") [RUBRIK_YAZIM §5].
 ```
 
@@ -46,11 +48,13 @@
 ## 2. ÇALIŞTIRMA
 
 ```
-0. MAKİNE   bash araclar/qa_paket.sh <film_klasoru> <dosya.mp4> [kapak] [--hiz 2] [--master <1x.mp4>]
-            → kare_al.sh (klip başına ilk/orta/son + dikiş çiftleri)
+0. MAKİNE   bash araclar/qa_paket.sh [--hiz 2] [--master <1x.mp4>] <film_klasoru> teslim/<FILM>.mp4 [kapak]
+            → ihrac_kontrol.sh — ⛔ çıkış 2 → paket AÇILMAZ (bile bile: --ihracsiz, künyeye yazılır)
+            → plan_oku.py (sahne sayısı · blok) → kare_al.sh (klip başına ilk/orta/son + dikiş çiftleri)
             → kesme_kontrol.sh (top-N) · ffprobe · SSIM → ÖLÇÜLMÜŞ OLGULAR bloğu
             → QA/KOSU/<FILM>/Q<n>_<AD>_paket.md × 5 — blok rubriğin İÇİNDE, künye taslağı üstte
-            ⛔ üretim günlüğü yoksa durur [DERS 28]
+            ⛔ üretim günlüğü yoksa durur [DERS 28] · yer tutucu kalan paket silinir
+            ⭐ ajan: .claude/agents/qa-hazirlik.md (paketi kurar ve doğrular)
 
 1. ❶ GÖRÜNTÜ        ⛔ BELGE YOK   video + kareler
 2. ❷ ZAMAN VE KESME ⛔ BELGE YOK   video (+ blok)
@@ -77,7 +81,10 @@
 1. HAM      QA/HAM/<FILM>/<FILM>_Q<n>_<AD>_HAM.md — künye üstte, model çıktısı altta, DOKUNULMAZ
             [QA_KAYIT §2.1] · ikinci koşu _K2 · yarım master bölümü <FILM>_B<b>_Q<n>_…
 2. GERİ OKUMA  ilk üç satır: dosya adı · belgeler · görülen klip sayısı [QA_KOSU §2.2]
-            dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş
+            dosya adı ya da belge tutmuyorsa → koşu YOK, yeniden koş · RUN INVALID → koşu YOK
+2b. KAYIT KONTROL  python3 araclar/kayit_kontrol.py <FILM> [DENETİM 28.10.2026]
+            28.10.2026+ TAM koşu: paket: satırı · paket diskte, sha tutuyor · yer tutucu yankısı yok ·
+            CLIPS YOU CAN SEE = ölçülen — ⛔ biri tutmazsa TAM yazılmaz. Ajan: .claude/agents/qa-denetci.md
 3. DOĞRULAMA   D1–D6 [QA_OLCUM_ZEMINI §5] — dosya dışı damga · klip sayısı · süre itirazı ·
             kesme damgası · kart · kurgu tablosu (kare panosu) · kör raporda sızıntı [QA_KOSU §3]
 4. DURUM    TAM · EKSİK · YANLIŞ GİRDİ · SIZINTI · TUTARSIZ · YERİNE GEÇTİ · BAĞLAYICI DEĞİL
@@ -86,6 +93,8 @@
             yazdırmaz) · film puanı = TAM merceklerin ortalaması + N ("9,1 · N=5")
             hüküm ↔ kategori: KÖTÜ OLAN KAZANIR [RUBRIK_YAZIM §4.3]
 6. KAYIT    QA/FILMLER/<FILM>.md (tek şablon) + QA/TABLO.md satırı
+            ⭐ commit kancası araclar/git_hooks/pre-commit aynı kontrolü koşar (kurulum: sahip, bir kez:
+              git config core.hooksPath araclar/git_hooks) — ham değişikliği ve kanıtsız TAM depoya girmez
 ```
 
 ---
@@ -101,9 +110,10 @@ QA/
 ├── Q4_INSA.md            ❹
 ├── Q5_TESLIM.md          ❺
 ├── TABLO.md              ⭐ TEK SAYAÇ + film × mercek tablosu (her hücre bir ham dosyaya bağlı)
+├── DENETIM_<tarih>.md    çok filmli denetim — kayıtlar hamlara/planlara/dosyaya karşı (puan değiştirmez)
 ├── HAM/<FILM>/           ham raporlar — dokunulmaz
 ├── FILMLER/<FILM>.md     film başına kayıt — künye · mercekler · olay tablosu · karar · ders
-├── KOSU/<FILM>/          qa_paket.sh paketleri (yeniden üretilebilir)
+├── KOSU/<FILM>/          qa_paket.sh paketleri (yeniden üretilebilir) · 28.10.2026+ TAM koşunun ön koşulu
 └── ARSIV_12_MERCEK/      ⛔ 03.09–05.10.2026 · 12 mercek · 393 ham · DONDURULDU
                             00_ARSIV.md (özet · temizlenmiş puanlar) · 00_ESLEME.tsv (her ham → durum)
 ```

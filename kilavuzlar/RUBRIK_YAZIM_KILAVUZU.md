@@ -61,9 +61,17 @@ FILE DURATION         {DURATION}
 FINAL HOLD            {FINAL_HOLD}
 If what you see contradicts a line above, report the contradiction with a timestamp.
 Do not change the line and do not score from your own estimate of it.
+If any value in this block is still a bare field name inside curly braces, the facts were never
+measured. Then write only the line RUN INVALID — MEASURED FACTS MISSING and stop: do not count clips,
+build a cut list, describe the film or score. This is the only reason to stop.
 ```
 
 ```
+⛔ BOŞ BLOK KAPISI (28.10.2026): blokta yer tutucu kalmışsa mercek PUAN VERMEZ, RUN INVALID yazar.
+   Neden: on filmde blok boş koşuldu, mercek ızgarayı kendi kurdu (1 sn dilim · 5 sn ızgara) ve
+   puan iki yöne bozuldu (DERS 90 · 105 · 106). "Mercek asla durmaz" kuralı BELGE eksikliği içindir;
+   bu tek istisnadır. RUN INVALID gelen koşu kaydedilmez, paketle yeniden koşulur. Cümlenin içine
+   süslü parantezli alan adı YAZILMAZ — qa_paket.sh onu da doldurur ve kapı anlamını yitirir.
 ⛔ Değişkene bağlı kategoriler (beş mercek):
      ❷ MUSIC ALIGNMENT · ❺ müzik maddesi                    → MUSIC = NO ise NOT TRIGGERED
      ❷ RHYTHM                                               → klipler eşit uzunluktaysa NOT TRIGGERED
@@ -233,7 +241,7 @@ satırlar `QA/ARSIV_12_MERCEK/` dosyalarınındır):
 <one question, one paragraph: what this lens measures and what it does not>
 
 FORMAT AND MEASURED FACTS — supplied by the operator. Do not re-estimate these.
-<§1 block>
+<§1 block — empty-block guard sentence included>
 
 BEFORE YOU SCORE — first three lines of your report:
 FILE NAME AS SHOWN · DOCUMENTS ATTACHED (first line of each, or NONE) · CLIPS YOU CAN SEE

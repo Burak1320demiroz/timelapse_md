@@ -93,6 +93,7 @@ mercek:      Q4_INSA
 dosya:       blue_silo_2x.mp4 · sha256 3f9a1c… (ilk 12) · 28,00 sn · 1080×1920 · 2x
 belgeler:    THE_BLUE_SILO_QA_SPEC.md ("# 🔒 THE BLUE SILO — QA SPEC")   | YOK (mod V)
 rubrik:      QA/Q4_INSA.md @ <git kısa hash>
+paket:       QA/KOSU/THE_BLUE_SILO/Q4_INSA_paket.md · blok dolu · klip 7 · ihraç ✅   ← qa_paket.sh yazar
 model:       Gemini <sürüm> · sohbet | API · proje DIŞI · geçici sohbet ✓
 tarih:       gg.aa.yyyy
 geri_okuma:  dosya adı ✓ · belge başlığı ✓          ← modelin ilk satırı [QA_KOSU §2.2]
@@ -104,6 +105,7 @@ durum:       TAM
 ```
 ⭐ Neden YAML çitleri: makine okur (§5), insan da okur. Çitin İÇİ künyedir; ALTI kanıttır.
 ⛔ Künye 06.10.2026'dan SONRAKİ ham raporlarda zorunludur. Öncekilere EKLENMEZ — §2.2.
+⛔ 28.10.2026'dan sonraki koşuda "paket:" satırı olmayan ham TAM yazılmaz (kayit_kontrol K1).
 ```
 
 ## 2.2 Eski arşiv — eşleme tablosu, ham dosyaya dokunmadan

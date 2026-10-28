@@ -132,7 +132,7 @@ Do not change the line and do not score from your own estimate of it.
 # 4. 🖼️ KARE DESTEĞİ
 
 ```
-BUGÜN   kare_al.sh klip başına üç kare → QA_KARELER/S<n>_{ilk,orta,son}.jpg
+BUGÜN   kare_al.sh klip başına üç kare → QA_KARELER/<dosya_adı>/S<n>_{ilk,orta,son}.jpg (28.10.2026: dosya başına klasör)
         (ad klip numarasını taşıyor, dosya saniyesini taşımıyor)
 KURAL   · kare ADINA dosya saniyesi de eklenir (ör. S3_son_0m11.9.jpg) — model kareyi
           adıyla anar, saniyeyi tahmin etmez  ⚠️ kare_al.sh değişikliği · geçiş §6
@@ -153,7 +153,7 @@ Ajan her ham raporu kayda geçirmeden önce:
 | # | kontrol | KALDI demek | eylem |
 |:-:|---|---|---|
 | D1 | dosya dışı damga | raporda FILE DURATION'dan büyük bir m:ss.s var | rapor BAĞLAYICI DEĞİL · `QA_KAYIT` durum YANLIŞ GİRDİ ya da EKSİK |
-| D2 | klip sayısı | rapor CLIP COUNT'tan farklı sayı yazıyor (ör. "23 clips") | ilgili kategoriler NOT VERIFIABLE · ≥ %80'i ≤ 3 ise "ÇÖKÜK", ≥ %80'i ≥ 9 ise "ŞİŞİK" [DERS 105 · 106] · rapor notu |
+| D2 | klip sayısı | rapor CLIP COUNT'tan farklı sayı yazıyor (ör. "23 clips") | ilgili kategoriler NOT VERIFIABLE · ≥ %80'i ≤ 3 ise "ÇÖKÜK", ≥ %80'i ≥ 9 ise "ŞİŞİK" [DERS 105 · 106] · rapor notu · ⛔ 28.10.2026+ TAM yazılmaz (kayit_kontrol K4) |
 | D3 | süre/hız itirazı | rapor "kesik · erken bitiyor · planlanan 56 sn" diyor | o bulgu ve ona bağlı puan DÜŞER (blok bunu baştan söylemişti) |
 | D4 | kesme damgası | rapor bir kesmeyi CUT TIMESTAMPS'ten > 0,5 sn uzağa koyuyor | o bulgu doğrulanmadı (kareye bakılır) |
 | D5 | kart | END CARD = NO iken rapor kartı puanlıyor | ⭐ ÖNCE DOSYA: klip_eslestir kuyruğu / kare panosu — kart dosyada YOKSA kategori NOT TRIGGERED; VARSA hata dosyanındır, rapor haklıdır [DERS 90 · POOL ROOM] |
@@ -176,6 +176,8 @@ Ajan her ham raporu kayda geçirmeden önce:
 2. rubrikler     "ends with a static end card" vb. RUBRIK_YAZIM §6 listesiyle temizlenir.
 2b. kare_al.sh   kare adına dosya saniyesi (§4).
 3. ham rapor     D1–D6 elle; sayaç/betik U-kontrolleriyle birlikte otomatikleşir [QA_KAYIT §5].
+                 ⭐ 28.10.2026: D2 + paket + boş blok yankısı + U1/U2 → python3 araclar/kayit_kontrol.py <FILM>
+                 (commit kancası --staged ile aynısını koşar).
 4. yeniden koşu  seçilen filmler beş mercekle, blokla koşulur [ARSIV_12_MERCEK/00_ARSIV.md §6].
 ⭐ 06.10.2026: 1 ve 2 YAPILDI — qa_paket.sh bloğu ölçüp rubriğin içine basıyor (--master ile
    ❸ ❹ 1x'ten); beş rubrik temiz yazıldı. 2b ve 3 açık.

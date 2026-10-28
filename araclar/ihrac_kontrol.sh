@@ -19,7 +19,11 @@
 #
 #  ÖLÇER (makine):  süre = sahne bloğu/hız (+ kart, PLAN izin veriyorsa) · çözünürlük ·
 #                   final tutuşu (≥2,0 sn @1x → ≥2,0/hız sn @paylaşım, SSIM) ·
-#                   kart/final kareleri <mp4_dizini>/IHRAC_KARELER/ altına
+#                   kartın gerçek başı ve süresi (freezedetect — dosyanın sonundaki donuk kuyruk) ·
+#                   kart/final kareleri <mp4_dizini>/IHRAC_KARELER/<FILM>/ altına
+#  ⭐ 28.10.2026 [DENETİM 28.10.2026 · A3 · A4]: kareler film başına ayrı klasörde (beş koşu aynı
+#     klasöre üst üste yazıyordu) · süre tutmazsa ③ final penceresi plan bloğuna değil ÖLÇÜLEN
+#     kart başına konur (blok kaymış dosyada yanlış saniye ölçülüyordu) · sahne bloğu plan_oku.py'den.
 #  SORAR (insan):   müzik · logo/promo/"AI TIMELAPSE" yazısı · kart ↔ GN aynı dünya
 #  ÇIKIŞ: 0 = makine ölçümleri tuttu (elle maddeler yine işaretlenir) · 2 = TESLİM EDİLMEZ
 # ═══════════════════════════════════════════════════════════════════
@@ -41,23 +45,24 @@ PLAN="$DIR/${FILM}_DIKEY_TIMELAPSE.md"; DIKEY=1
 [ -n "$HIZ" ] || { [ "$DIKEY" -eq 1 ] && HIZ=2 || HIZ=1; }
 
 # ── plan beyanları (TESLİM YAPISI) ─────────────────────────────────
-SAHNE_BLOK=$(grep -m1 -E '^SAHNE BLOĞU' "$PLAN" | grep -oE '= *[0-9]+[.,][0-9]+' | tr -d '= ' | tr ',' '.')
+SAHNE_BLOK=$(python3 "$(dirname "$0")/plan_oku.py" "$PLAN" --blok) || exit 2
 KART_SATIR=$(grep -m1 -E '^KAPAK KARTI' "$PLAN")
 MUZIK_SATIR=$(grep -m1 -E '^MÜZİK' "$PLAN")
 KART_YOK=0; echo "$KART_SATIR" | grep -q '⛔ YOK' && KART_YOK=1
 KART_SN=$(echo "$KART_SATIR" | grep -oE '[0-9]+[.,][0-9]+ *sn' | head -1 | grep -oE '[0-9]+[.,][0-9]+' | tr ',' '.')
+ERIME=$(echo "$KART_SATIR" | grep -oE 'erime *≤ *[0-9]+([.,][0-9]+)?' | head -1 | grep -oE '[0-9]+([.,][0-9]+)?$' | tr ',' '.')
 MUZIK_YOK=0; echo "$MUZIK_SATIR" | grep -q '⛔ YOK' && MUZIK_YOK=1
 [ "$DIKEY" -eq 1 ] && MUZIK_YOK=1     # sahip kuralı 21.09.2026 — dikeyde müzik yok, beyan ne derse desin
 GERI=0; grep -qE '^ *AÇILIŞ GERİ ÇEKİLMESİ +✅' "$PLAN" && GERI=1
-[ -n "$SAHNE_BLOK" ] || { echo "⛔ planda 'SAHNE BLOĞU … = NN,N sn' satırı okunamadı"; exit 2; }
+[ -n "$SAHNE_BLOK" ] || { echo "⛔ planda sahne bloğu okunamadı"; exit 2; }
 
 # ── dosya ölçümleri ────────────────────────────────────────────────
 SURE=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$MP4")
 WH=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0:s=x "$MP4")
 SES=$(ffprobe -v error -select_streams a -show_entries stream=codec_type -of csv=p=0 "$MP4" | head -1)
-OUT="$(cd "$(dirname "$MP4")" && pwd)/IHRAC_KARELER"; mkdir -p "$OUT"
+OUT="$(cd "$(dirname "$MP4")" && pwd)/IHRAC_KARELER/$FILM"; mkdir -p "$OUT"
 
-DIKEY="$DIKEY" HIZ="$HIZ" SAHNE_BLOK="$SAHNE_BLOK" KART_YOK="$KART_YOK" KART_SN="${KART_SN:-0}" \
+DIKEY="$DIKEY" HIZ="$HIZ" SAHNE_BLOK="$SAHNE_BLOK" KART_YOK="$KART_YOK" KART_SN="${KART_SN:-0}" ERIME="${ERIME:-1}" \
 MUZIK_YOK="$MUZIK_YOK" GERI="$GERI" SURE="$SURE" WH="$WH" SES="$SES" MP4="$MP4" OUT="$OUT" FILM="$FILM" python3 <<'PY'
 import os, re, subprocess, sys
 e = os.environ
@@ -77,6 +82,16 @@ def ssim(a, b):
                        capture_output=True, text=True)
     m = re.search(r"All:([0-9.]+)", r.stderr)
     return float(m.group(1)) if m else None
+
+def donuk_kuyruk():
+    """Dosyanın sonuna kadar süren son donukluğun başı (kart başı) — yoksa None.
+    Ölçüldü 28.10.2026: beş yayın dosyasında kart başını 0,1 sn içinde verdi."""
+    r = subprocess.run(["ffmpeg", "-v", "info", "-i", mp4, "-vf", "scale=270:-2,freezedetect=n=-50dB:d=0.4",
+                        "-an", "-f", "null", "-"], capture_output=True, text=True)
+    olay = re.findall(r"freeze_(start|end): ([0-9.]+)", r.stderr)
+    if not olay or olay[-1][0] != "start":
+        return None
+    return float(olay[-1][1])
 
 print("═══════════════════════════════════════════════════════")
 print(f"  İHRAÇ KONTROL · {e['FILM']} · {os.path.basename(mp4)}")
@@ -102,6 +117,29 @@ elif not kart_yok and abs(sure - beklenen) > 0.50:
 else:
     print(f"  ✅ ① süre planla tutuyor ({sure:.2f} sn)")
 
+# ①b kartın gerçek başı — dosyanın sonundaki donuk kuyruk [DENETİM 28.10.2026 · A3]
+kart_bas = None if kart_yok else donuk_kuyruk()
+blok_kaydi = False   # ölçülen blok sonu plandan erime payından fazla mı sapıyor
+if not kart_yok:
+    if kart_bas is None:
+        print("  ⚠️ ①b kart ölçülemedi (dosya sonunda donuk kuyruk yok) — kart hareketli mi, yok mu? gözle bak")
+    else:
+        # erime kartın içindedir: donukluk erime bitince başlar → kart en çok erime kadar kısa,
+        # blok en çok erime kadar uzun ölçülür
+        erime = float(e.get("ERIME") or 1)
+        k_olc, b_olc = sure - kart_bas, kart_bas
+        notlar = []
+        if not (kart_sn - erime - 0.50 <= k_olc <= kart_sn + 0.50):
+            notlar.append(f"kart {k_olc:.2f} sn (plan {kart_sn:g})")
+        if not (pblok - 0.50 <= b_olc <= pblok + erime + 0.50):
+            blok_kaydi = True
+            notlar.append(f"sahne bloğu {b_olc:.2f} sn (plan {pblok:g}) — "
+                          + ("fazladan " if b_olc > pblok else "eksik ") + f"{abs(b_olc - pblok):.2f} sn")
+        if notlar:
+            print(f"  ⛔ ①b ölçülen: kart {kart_bas:.2f} sn'de başlıyor · " + " · ".join(notlar)); dur = 1
+        else:
+            print(f"  ✅ ①b ölçülen: kart {kart_bas:.2f} sn'de başlıyor · {k_olc:.2f} sn")
+
 # ② çözünürlük
 w, h = (int(x) for x in e["WH"].split("x"))
 if dikey and (w, h) != (1080, 1920):
@@ -113,10 +151,14 @@ else:
 
 # ③ final tutuşu — usta kare klibinin son ≥2,0 sn'si (@1x) sabit [KILAVUZ_REHBERI §8 adım 9]
 tut = 2.0 / hiz
-sonz = min(pblok, sure) - 0.15   # dosya bloktan birkaç ms kısa olabilir — son kare yine alınır
+# blok plandan kaymışsa final penceresi ÖLÇÜLEN kart başına konur — plan saniyesi başka bir anı ölçer
+blok_son = kart_bas if blok_kaydi else min(pblok, sure)
+sonz = blok_son - 0.15   # dosya bloktan birkaç ms kısa olabilir — son kare yine alınır
 son = kare(sonz, "final_son")
 once = kare(sonz - tut, "final_tutus_basi")
 s = ssim(son, once)
+if blok_son != min(pblok, sure):
+    print(f"  ℹ️ ③ final penceresi ölçülen kart başına göre: {sonz - tut:.2f}–{sonz:.2f} sn (plan {pblok:g} değil)")
 if s is None:
     print("  ⚠️ ③ final tutuşu ölçülemedi (ssim okunamadı) — gözle bak")
 elif s < 0.90:
@@ -126,7 +168,7 @@ else:
     print(f"  ✅ ③ final {tut:.2f} sn tutuluyor (SSIM {s:.3f})")
 
 if not kart_yok:
-    kare(pblok + min(1.0, kart_sn / 2), "kart")
+    kare((kart_bas if kart_bas is not None else pblok) + min(1.0, kart_sn / 2), "kart")
 print(f"\n  kareler → {out}/  (final_son.png{'' if kart_yok else ' · kart.png'})")
 
 print("""

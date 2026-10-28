@@ -622,6 +622,56 @@ Sıra: DİKEY → YATAY → KÜTLE → DİKEY → …
       zamanda girer) · GAME ON (saha çizgisi, alacakaranlık ışığı) · THE SUNKEN GARDEN (ip ışık, oturan insanlar). ⛔ Dördüyle de ARDIŞIK
       YAYINLANAMAZ.
 
+⭐ 27.10.2026: THE RIVER HUT KÜTLE ailesine yazıldı — `dikey_shorts/THE_RIVER_HUT/` (aynı kıyıda kampın çakılında uzun tripod, h +2,0 m ·
+   sığınağa 11,5 m · 24 mm · bearing 0° · tilt 0, ufuk %50 yamacın arkasında; sığınak x 315–596 · mahya py 806 · iskele ve fener sağda ·
+   nehir sağ alt üçte birde · başlık alanı sığınağın üstündeki koyu ağaçlık yamaç, py 560–770 — KAPAK_STIL §2.2'den beyanlı sapma). Dağ
+   nehrinin kenarında boş çakıl düzlük, tek çadır, tek adam → kıyıdaki taş yatağından el arabasıyla diz boyu taş taban, istiften ip ve iki
+   kızak sırığıyla sekiz sıra çentikli kütük duvar, sırık çatı + branda + çim, pencere, soba borusu, iki kazıkta kısa tahta iskele ve kapı;
+   mavi saatte iskele ucundaki fener tek karede yanar, ışığı akan suya kırık bir sütun olarak düşer, adam iskelenin ucuna oturur.
+   ⭐ BEDEL: kampın geçici hâli (kütük istifi, malzeme yığını) · tanıklar kadrajda: nehir, kıyı ve üç kaya, soğuk taş halka, devrik kütük,
+      çadır köşesi, ağaçlık yamaç, iki ladin (dokuz karede aynı).
+   ⭐ DEFTER: TEK ADAM, makine yok, vinç yok (sahip seçimi; kapının "≥ 3 el" FIX'i beyanlı) · her malzemenin kaynağı kadrajda (DERS 48 · 61 ·
+      95) · pencerenin suya yansıması bu kamerayla GÖRÜNMEZ, ışık feneri suyun üstüne kondu (SU_VE_YANSIMA §1 hesabı; sahip seçimi) · soba
+      görünmeyen hedef — yalnız sonucu yazıldı (DERS 95) · taş halka hiç yanmaz (SUNKEN GARDEN'dan ayrılış) · çatı sırık, makas değil
+      (DERS 80) · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (27.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi "8 × 8 sn, tek zincir, 9 G, tek adam".
+      Final klip REJİM G (S7, gerçek zaman) → P16-g "G finali" sayımına GİRER (dokuzuncu).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "Tek Başına Nehir Kıyısında Sığınak", 8 × 8 sn, kamera kartı A, pilot G2–G4 + V3 V4,
+      ikinci test V7); ajan önerisi (dokuz madde · yansıma geometrisi · kamera hesabı · sahne dağılımı · benzerlik) → sahip "İskele feneri
+      yanar" · "Tek adam, FIX beyanlı" · "One Man Builds a River Shelter" · "Yaz". ⚠️ Onaydan sonra hesapla kesinleşen: tripod 2,0 m,
+      sığınağa 11,5 m · başlık bandı koyu yamaç · iskele sığınağın sağından · çim kareleri düzlüğün solunda (plan TASARIM ⑰ · AÇIK KALANLAR ⑤).
+   ⚠️ İşlev anı ışık — ON BİRİNCİ (LAST STOP · GAME ON · TOTAL RESET · POOL ROOM · UNDERWATER OBSERVATORY · COLOSSUS · THE TURNTABLE · LIT
+      AGAIN · THE READING CAR · THE DRIVE-IN). ⚠️ Bu plana kaydı olmayan THE OPENING NIGHT · THE SUNKEN GARDEN · THE MENDED SPAN sayılırsa
+      ON DÖRDÜNCÜ — kayıtları başka oturumların işi. Fark: ışık suyun üstünde kırık bir sütun; ödül tek bir insanın kendi eliyle kurduğu ev.
+      ⚠️ İÇERİK AKRABASI: THE SUNKEN GARDEN (taş halka, akşam ışığı, oturan insan) · LIT AGAIN (kıyıda fener ışığı, final ışık) · THE DRIVE-IN
+      (mavi saatte ışık finali, üretimde bir önceki film) · THE STONE TOWER (elle taş, makinesiz). ⛔ İlk üçüyle ARDIŞIK YAYINLANAMAZ.
+
+⭐ 27.10.2026: THE TOWER HOME KULE ailesine yazıldı — `dikey_shorts/THE_TOWER_HOME/` (kuleye giden çakıl yolda tripod, h +1,5 m · kule
+   merkezine 22 m · 24 mm · bearing 0° · tilt 0, ufuk %50 ayakların arkasında; tank x 417–663 · çatı tepesi py 349 · ayak dipleri py
+   1039–1057 · başlık alanı kulenin önündeki çıplak çakıl, A bandı py 1060–1240). Açık tarlada gri, paslı, kırık merdivenli eski ahşap su
+   kulesi → tek adam ayakları taşlar, kırık merdiveni söker, ayakları boyar, sağ ön ayağın yanına sarmal çelik merdiven, sekiz konsol + halka
+   teras + korkuluk, çürük tahtaları yeniler ve tankı ip oturağıyla zımparalar, ön yüze üç yuvarlak pencere + kapı keser, tankı koyu yağlar,
+   cam ve kapı takar, sahanın soluna iki güneş paneli kurar, moloz yığınını pikapla götürür; mavi saatte üç pencere tek karede içeriden
+   yanar, adam terasa oturur.
+   ⭐ BEDEL: kulenin su kulesi hâli (gri tahta, pas, kırık merdiven) · tanıklar kadrajda: dört ayak ve çaprazları, tankın biçimi ve beş
+      bandı, konik çatı, meşe, pompa evi, çakıl yol, ufuk (dokuz karede aynı).
+   ⭐ DEFTER: TEK ADAM, İSKELE YOK, vinç yok (sahip seçimi "Önce teras, iskele yok": paketin ≈ 11 m'lik iskelesi tankı S03–S06 boyunca
+      örtüyordu) · tilt 0 (paketin "hafif yukarı bakan" kamerası KAMERA_ISTASYONU §③'e aykırıydı → geri çekildi) · pencereler KESİLİR,
+      diskler yığına (DERS 95) · su yok, yağ fırçayla (DERS 42 · 67) · kapı ikinci bandı keser, bant uçları çelik çerçeveye · paneller
+      yerde (çatıda görünmezdi) · bütün malzeme pikaptan, bütün söküntü yığına → pikaba (DERS 48 · 61) · üretim sırası G8 → G0.
+   ⚠️ SAHİP İSTİSNASI (27.10.2026): 8 × 8 = 64 sn (2x 32 sn) + kapak kartı 5 sn — sahibin briefi "8 × 8 sn, tek zincir, 9 G, tek adam".
+      Final klip REJİM G (S7, gerçek zaman) → P16-g "G finali" sayımına GİRER (onuncu).
+   ⚠️ KONU SAHİPTEN GELDİ (yapıştırılan GPT paketi "Terk Edilmiş Su Kulesi → Off-Grid Gizli Ev", 8 × 8 sn, kamera kartı A, pilot G3–G5 +
+      V4 V5, ikinci test V6); ajan önerisi (dokuz madde · kamera hesabı · kapak bandı · teras-önce sahne düzeni · benzerlik) → sahip "Önce
+      RIVER HUT'ı bitir" · "Önce teras, iskele yok" · "Pencereler yanar, adam terasta" · "Old Water Tower Becomes a Home". ⚠️ Onaydan sonra
+      hesapla kesinleşen: tripod 1,5 m (öneride 2,0) · kapı ikinci bandı keser · alüminyum merdiven S0–S3 · paneller solda (plan TASARIM ⑮ ·
+      AÇIK KALANLAR ⑤ ⑥).
+   ⚠️ İşlev anı ışık — ON İKİNCİ (… THE READING CAR · THE DRIVE-IN · THE RIVER HUT); kaydı olmayan OPENING NIGHT · SUNKEN GARDEN · MENDED SPAN
+      ile ON BEŞİNCİ · üretimde üst üste ÜÇÜNCÜ ışık finali (onay sorusunda söylendi). Fark: ev kulenin İÇİNDE, dışarıdan yalnız üç yuvarlak
+      pencereyle okunur.
+      ⚠️ İÇERİK AKRABASI: THE SKY VAULT (paslı depo → ışıklı oda, final ışık) · LIT AGAIN (kule, final ışık) · THE RIVER HUT (tek adam, mavi
+      saatte ışık) · THE RAIN TOWER (aynı KULE siluet). ⛔ Dördüyle de ARDIŞIK YAYINLANAMAZ.
+
 ⚠️ ZEMİN ailesi neden ayrı: aşağı bakan istasyonda gökyüzü ve ufuk kadrajda yoktur; ızgarada
    diğer üç ailenin hiçbirine benzemez. Kabul edilmezse THE HIDDEN OASIS KÜTLE'ye yazılır ve
    OVER THE WALL ile ardışık yayınlanamaz.
